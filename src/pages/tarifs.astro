@@ -1,0 +1,208 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const offers = [
+  {
+    name: 'Audit gratuit',
+    price: '0 €',
+    description: "Votre score de visibilité IA sur 100, un diagnostic clair et vos 3 actions prioritaires.",
+    features: [
+      'Score de visibilité IA /100',
+      'Rapport synthétique 1 page',
+      'Appel de restitution 15 min',
+    ],
+    notIncluded: ['Optimisations', 'Schema.org', 'Annuaires', 'Suivi'],
+    cta: 'Demander mon audit',
+    ctaHref: '/#audit',
+    highlight: false,
+    delay: '48h',
+  },
+  {
+    name: 'Starter',
+    price: '490 €',
+    description: "L'essentiel pour commencer à apparaître sur les IA. Idéal pour tester le GEO.",
+    features: [
+      'Audit complet + rapport PDF',
+      'Appel de restitution 30 min',
+      'Fiche Google Business optimisée',
+      'FAQ rédigée pour les IA',
+      'Sources citables par les IA',
+    ],
+    notIncluded: ['Schema.org', 'Annuaires', 'Suivi 90 jours'],
+    cta: 'Choisir Starter',
+    ctaHref: '/#audit',
+    highlight: false,
+    delay: '5 jours',
+  },
+  {
+    name: 'Pro',
+    price: '890 €',
+    description: "L'optimisation complète sur 15 points. Notre offre la plus populaire.",
+    features: [
+      'Tout le Starter inclus',
+      'Appel de restitution 45 min',
+      'Optimisation 15 points complets',
+      'Schema.org rédigé et livré',
+      'Soumission annuaires santé + IA',
+    ],
+    notIncluded: ['Suivi 90 jours'],
+    cta: 'Choisir Pro',
+    ctaHref: '/#audit',
+    highlight: true,
+    delay: '10 jours',
+  },
+  {
+    name: 'Premium',
+    price: '1 490 €',
+    description: "La refonte complète de votre présence en ligne avec un suivi sur 3 mois.",
+    features: [
+      'Tout le Pro inclus',
+      'Refonte présence en ligne complète',
+      'Suivi 90 jours avec 3 rapports',
+      'Rapports mensuels M+1, M+2, M+3',
+      'Contrôle et ajustements continus',
+    ],
+    notIncluded: [],
+    cta: 'Choisir Premium',
+    ctaHref: '/#audit',
+    highlight: false,
+    delay: '10j + 90j suivi',
+  },
+];
+---
+<Layout
+  title="Tarifs — Eddie Miller Agency"
+  description="Nos offres de visibilité IA et SEO local : audit gratuit, Starter 490€, Pro 890€, Premium 1 490€. Tarifs transparents, résultats mesurables."
+  canonicalUrl="https://eddiemiller.agency/tarifs"
+  ogTitle="Tarifs — Eddie Miller Agency"
+  ogDescription="Offres de visibilité IA à partir de 490€. Audit gratuit inclus."
+>
+  <Header />
+
+  <main id="main-content" class="pt-28 md:pt-32 pb-16 md:pb-24">
+    <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+
+      <!-- Page header -->
+      <div class="text-center mb-12 md:mb-16 max-w-2xl mx-auto">
+        <h1 class="font-serif text-3xl md:text-[2.75rem] lg:text-5xl text-charcoal leading-[1.15] tracking-tight mb-4">
+          Tarifs transparents
+        </h1>
+        <p class="font-sans text-base md:text-lg text-stone leading-relaxed">
+          Chaque offre commence par un audit gratuit. Pas de contrat longue durée, pas de frais cachés. Vous payez une prestation, vous recevez des résultats mesurables.
+        </p>
+      </div>
+
+      <!-- Pricing cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {offers.map((offer) => (
+          <div class:list={[
+            'flex flex-col border p-6 md:p-8 bg-cream transition-colors duration-300',
+            offer.highlight ? 'border-terracotta' : 'border-warmgray hover:border-terracotta',
+          ]}>
+            {offer.highlight && (
+              <p class="text-xs font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-4">
+                Le plus populaire
+              </p>
+            )}
+            <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-2">
+              {offer.name}
+            </h2>
+            <p class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-1">
+              {offer.price}
+            </p>
+            <p class="text-sm font-sans text-stone/70 mb-4">
+              Livraison : {offer.delay}
+            </p>
+            <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6">
+              {offer.description}
+            </p>
+            <ul class="space-y-3 mb-8 flex-1">
+              {offer.features.map((f) => (
+                <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                  <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                  {f}
+                </li>
+              ))}
+              {offer.notIncluded.map((f) => (
+                <li class="flex items-start gap-2 text-sm font-sans text-warmgray">
+                  <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-warmgray/40" aria-hidden="true"></span>
+                  {f}
+                </li>
+              ))}
+            </ul>
+            <a
+              href={offer.ctaHref}
+              class:list={[
+                'block text-center px-6 py-3 font-sans font-medium text-sm tracking-wider uppercase transition-colors duration-300',
+                offer.highlight
+                  ? 'text-cream bg-terracotta hover:bg-terracotta-dark'
+                  : 'text-charcoal border border-warmgray hover:border-terracotta hover:text-terracotta',
+              ]}
+            >
+              {offer.cta}
+            </a>
+          </div>
+        ))}
+      </div>
+
+      <!-- Subscription -->
+      <div class="mt-10 md:mt-14 border border-warmgray p-8 md:p-10 bg-sand">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+          <div class="flex-1">
+            <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-2">
+              Abonnement suivi — 290 €/mois
+            </h2>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">
+              Proposé après chaque prestation. Suivi mensuel, ajustements continus, rapport de visibilité mensuel, veille des évolutions algorithmiques. Sans engagement — résiliable à tout moment avec 30 jours de préavis.
+            </p>
+          </div>
+          <a
+            href="/#audit"
+            class="inline-block shrink-0 text-center px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
+          >
+            En savoir plus
+          </a>
+        </div>
+      </div>
+
+      <!-- ROI Section -->
+      <div class="mt-14 md:mt-20">
+        <h2 class="text-center text-[2rem] md:text-[2.5rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-10 md:mb-12">
+          Un investissement, pas un coût
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          <div class="border border-warmgray p-6 md:p-8 bg-cream">
+            <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Starter — 490 €</p>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">
+              Un seul patient supplémentaire pour un détartrage rembourse l'investissement. Un patient fidélisé représente 500 à 800 € de soins par an.
+            </p>
+          </div>
+          <div class="border border-warmgray p-6 md:p-8 bg-cream">
+            <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Pro — 890 €</p>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">
+              Une couronne céramique (500-800 €) rentabilise l'offre en un seul acte. Si le patient revient pour d'autres soins : environ 6 000 € par an.
+            </p>
+          </div>
+          <div class="border border-warmgray p-6 md:p-8 bg-cream">
+            <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Premium — 1 490 €</p>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">
+              Un seul implant (2 500-4 000 €) rembourse le Premium deux fois. Un patient implant par mois, c'est 36 000 € de CA annuel supplémentaire.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust signals -->
+      <div class="mt-14 md:mt-20 text-center">
+        <p class="text-sm font-sans font-medium text-stone">
+          TVA non applicable — art. 293B du CGI · Paiement par virement ou carte (Stripe) · Facture systématique
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

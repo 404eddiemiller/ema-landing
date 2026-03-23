@@ -49,11 +49,18 @@ import Footer from '../components/Footer.astro';
 
         <section class="mb-10">
           <h2 class="text-xl md:text-2xl font-serif font-normal leading-[1.2] text-charcoal mb-4">
-            Données personnelles
+            Données personnelles et RGPD
           </h2>
-          <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
-            Les données collectées via le formulaire de contact sont utilisées uniquement pour répondre à votre demande d'audit. Elles ne sont ni vendues, ni transmises à des tiers. Conformément au RGPD, vous pouvez demander la suppression de vos données à tout moment en écrivant à <a href="mailto:contact@eddiemiller.agency" class="text-terracotta transition-colors duration-200 hover:text-terracotta-dark">contact@eddiemiller.agency</a>.
-          </p>
+          <div class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone space-y-4">
+            <p><strong class="text-charcoal">Responsable du traitement :</strong> Eddie Miller Agency — Adam Douieb, 75014 Paris.</p>
+            <p><strong class="text-charcoal">Données collectées :</strong> nom de l'établissement, type d'établissement, localisation, adresse email, numéro de téléphone (optionnel). Dans le cadre des prestations : coordonnées professionnelles, informations de la fiche Google Business, présence en ligne.</p>
+            <p><strong class="text-charcoal">Finalité :</strong> répondre à votre demande d'audit, réaliser les prestations commandées, établir les factures et gérer la relation commerciale.</p>
+            <p><strong class="text-charcoal">Base légale :</strong> exécution du contrat (article 6.1.b du RGPD).</p>
+            <p><strong class="text-charcoal">Durée de conservation :</strong> durée de la relation contractuelle + 3 ans. Factures : 10 ans (obligation comptable).</p>
+            <p><strong class="text-charcoal">Destinataires :</strong> les données sont traitées uniquement par Eddie Miller Agency. Elles ne sont transmises à aucun tiers, à l'exception des sous-traitants techniques (Vercel pour l'hébergement, Stripe pour le paiement).</p>
+            <p><strong class="text-charcoal">Vos droits :</strong> conformément au RGPD, vous disposez d'un droit d'accès, de rectification, de suppression, d'opposition et de portabilité de vos données. Pour exercer ces droits : <a href="mailto:contact@eddiemiller.agency" class="text-terracotta transition-colors duration-200 hover:text-terracotta-dark">contact@eddiemiller.agency</a>. Délai de réponse : 30 jours maximum.</p>
+            <p><strong class="text-charcoal">Réclamation :</strong> en cas de différend, vous pouvez déposer une réclamation auprès de la CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" class="text-terracotta transition-colors duration-200 hover:text-terracotta-dark">www.cnil.fr</a>).</p>
+          </div>
         </section>
 
         <section>
