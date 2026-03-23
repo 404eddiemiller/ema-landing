@@ -287,3 +287,48 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* === Skip navigation === */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* === FAQ accordion smooth animation === */
+
+details summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] > div {
+  animation: fadeDown 0.3s ease;
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === Blog category filter transitions === */
+
+article[data-category] {
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+}

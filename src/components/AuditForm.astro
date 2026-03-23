@@ -11,7 +11,7 @@
         Découvrez votre score de visibilité IA. Sans engagement, sans carte bancaire.
       </p>
 
-      <form class="space-y-6 fade-in" action="https://formsubmit.co/contact@eddiemiller.agency" method="POST">
+      <form class="space-y-6 fade-in" action="https://formsubmit.co/contact@eddiemiller.agency" method="POST" onsubmit="plausible('Form Submit')">
         <!-- Formsubmit.co configuration -->
         <input type="hidden" name="_next" value="https://eddiemiller.agency/merci" />
         <input type="hidden" name="_subject" value="Nouvelle demande d'audit — Eddie Miller Agency" />
@@ -26,6 +26,7 @@
             id="etablissement"
             name="etablissement"
             required
+            aria-required="true"
             class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none"
             placeholder="Le Petit Cler, Cabinet Dr. Martin…"
           />
@@ -39,6 +40,7 @@
             id="type"
             name="type"
             required
+            aria-required="true"
             class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none appearance-none"
             style="background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6360%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem center;"
           >
@@ -61,6 +63,7 @@
             id="localisation"
             name="localisation"
             required
+            aria-required="true"
             class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none"
             placeholder="Paris 7e, Neuilly-sur-Seine…"
           />
@@ -75,6 +78,7 @@
             id="email"
             name="email"
             required
+            aria-required="true"
             class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none"
             placeholder="vous@exemple.com"
           />

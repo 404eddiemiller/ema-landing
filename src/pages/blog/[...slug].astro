@@ -48,6 +48,7 @@ const relatedPosts = allPosts
     "headline": post.data.title,
     "description": post.data.meta_description,
     "datePublished": post.data.date.toISOString().split('T')[0],
+    "dateModified": post.data.date.toISOString().split('T')[0],
     "author": {
       "@type": "Organization",
       "name": "Eddie Miller Agency",
@@ -56,14 +57,20 @@ const relatedPosts = allPosts
     "publisher": {
       "@type": "Organization",
       "name": "Eddie Miller Agency",
-      "url": "https://eddiemiller.agency"
+      "url": "https://eddiemiller.agency",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://eddiemiller.agency/favicon.svg"
+      }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": canonicalUrl
     },
+    "image": "https://eddiemiller.agency/og-image.svg",
     "inLanguage": "fr",
-    "keywords": post.data.tags.join(", ")
+    "keywords": post.data.tags.join(", "),
+    "articleSection": post.data.category
   })} />
 
   <!-- BreadcrumbList JSON-LD -->

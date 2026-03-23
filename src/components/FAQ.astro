@@ -1,0 +1,56 @@
+---
+// FAQ section — Common questions and objections
+const faqs = [
+  {
+    question: "Combien coûte une optimisation de visibilité IA ?",
+    answer: "Chaque projet est différent. L'audit initial est 100 % gratuit et sans engagement. À l'issue de l'audit, nous vous proposons un plan d'action avec un devis transparent adapté à votre établissement et à vos objectifs. Nos tarifs commencent à partir de 490 € par mois."
+  },
+  {
+    question: "En combien de temps voit-on des résultats ?",
+    answer: "Les premiers résultats apparaissent généralement entre 4 et 8 semaines. L'optimisation Google Business Profile peut produire des effets dès les premiers jours. La visibilité sur les IA (ChatGPT, Perplexity, Gemini) prend un peu plus de temps car elle dépend de la mise à jour des modèles et de l'indexation de vos nouvelles données."
+  },
+  {
+    question: "Est-ce que ça fonctionne vraiment pour mon type d'établissement ?",
+    answer: "Oui. Notre méthodologie s'applique à tout commerce local avec une adresse physique : restaurants, hôtels, cabinets dentaires, cabinets médicaux, cabinets d'avocats. Si vos clients potentiels vous cherchent par localisation (« meilleur dentiste Paris 15e », « restaurant romantique Marais »), la visibilité IA et locale vous concerne directement."
+  },
+  {
+    question: "Quelle est la différence entre le GEO et le SEO classique ?",
+    answer: "Le SEO classique optimise votre position dans les résultats de recherche Google (les 10 liens bleus). Le GEO (Generative Engine Optimization) optimise votre présence dans les réponses des assistants IA comme ChatGPT, Perplexity ou Gemini. Ces assistants ne montrent que 3 à 5 résultats — il ne suffit plus d'être en première page, il faut être recommandé."
+  },
+  {
+    question: "Dois-je avoir un site web pour bénéficier de vos services ?",
+    answer: "Non, ce n'est pas obligatoire. Une grande partie de la visibilité IA et locale passe par votre fiche Google Business Profile, les annuaires professionnels, les avis en ligne et les données structurées. Nous optimisons l'ensemble de votre empreinte numérique, avec ou sans site web."
+  },
+  {
+    question: "Comment se déroule l'audit gratuit ?",
+    answer: "Vous remplissez le formulaire avec le nom et l'adresse de votre établissement. Notre équipe teste votre visibilité sur ChatGPT, Perplexity, Gemini, Google AI Overview et Google Maps. Vous recevez un rapport par email sous 24 heures avec votre score sur 100, les plateformes où vous êtes absent, et vos 3 actions prioritaires."
+  },
+];
+---
+<section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Questions fréquentes">
+  <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+        Questions fréquentes
+      </h2>
+
+      <div class="space-y-0 fade-in">
+        {faqs.map((faq, i) => (
+          <details class="group border-b border-warmgray/30" {...(i === 0 ? { open: true } : {})}>
+            <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+              <span>{faq.question}</span>
+              <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 5v14M5 12h14"/>
+              </svg>
+            </summary>
+            <div class="pb-6 pr-8">
+              <p class="text-base font-sans font-normal leading-relaxed text-stone">
+                {faq.answer}
+              </p>
+            </div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

@@ -57,6 +57,7 @@ const {
         "description": "Agence spécialisée en optimisation de visibilité IA (GEO) et SEO local pour restaurants, hôtels et cabinets professionnels à Paris.",
         "url": "https://eddiemiller.agency",
         "email": "contact@eddiemiller.agency",
+        "logo": "https://eddiemiller.agency/favicon.svg",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Paris",
@@ -72,13 +73,117 @@ const {
           "Optimisation Google Business Profile",
           "Visibilité IA"
         ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Services de visibilité IA et SEO local",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Audit de visibilité IA gratuit",
+                "description": "Analyse complète de votre visibilité sur ChatGPT, Perplexity, Gemini, Google AI Overview et Google Maps. Score sur 100 et recommandations prioritaires.",
+                "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Optimisation visibilité IA (GEO)",
+                "description": "Optimisation pour apparaître dans les recommandations de ChatGPT, Gemini, Perplexity et Claude."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SEO local et Google Business Profile",
+                "description": "Classement Google Maps, optimisation fiche Google Business Profile, stratégie d'avis et maillage d'annuaires."
+              }
+            }
+          ]
+        },
         "knowsLanguage": ["fr", "en"],
-        "priceRange": "€€"
+        "priceRange": "€€",
+        "sameAs": []
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Comment obtenir un audit de visibilité IA gratuit",
+        "description": "Trois étapes simples pour connaître votre score de visibilité IA et améliorer votre présence sur ChatGPT, Google et les assistants IA.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Audit gratuit",
+            "text": "Nous analysons votre visibilité IA et Google en 30 minutes. Vous recevez un score sur 100 et un diagnostic clair."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Plan d'action",
+            "text": "Vous recevez un rapport avec les actions prioritaires, classées par impact et par effort. Pas de jargon."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Résultats",
+            "text": "Nous implémentons les optimisations. Vos clients vous trouvent sur ChatGPT, Google Maps et les plateformes IA."
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Combien coûte une optimisation de visibilité IA ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "L'audit initial est 100 % gratuit et sans engagement. Nos tarifs commencent à partir de 490 € par mois, avec un devis transparent adapté à votre établissement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "En combien de temps voit-on des résultats ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Les premiers résultats apparaissent entre 4 et 8 semaines. L'optimisation Google Business Profile peut produire des effets dès les premiers jours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quelle est la différence entre le GEO et le SEO classique ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Le SEO optimise votre position dans les résultats Google. Le GEO optimise votre présence dans les réponses des assistants IA comme ChatGPT, Perplexity ou Gemini, qui ne montrent que 3 à 5 résultats."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Comment se déroule l'audit gratuit ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vous remplissez le formulaire, notre équipe teste votre visibilité sur ChatGPT, Perplexity, Gemini et Google Maps. Vous recevez un rapport sous 24 heures avec votre score sur 100 et vos actions prioritaires."
+            }
+          }
+        ]
       }
     </script>
 
     <!-- Plausible Analytics -->
     <script defer data-domain="eddiemiller.agency" src="https://plausible.io/js/script.js"></script>
+    <!-- Plausible custom event tracking -->
+    <script>
+      window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) };
+    </script>
 
   </head>
   <body class="bg-cream text-charcoal font-sans pb-16 md:pb-0">
@@ -93,6 +198,7 @@ const {
         <a
           href="/#audit"
           class="sticky-cta-btn text-center inline-block px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase whitespace-nowrap transition-colors duration-300 hover:bg-terracotta-dark"
+          onclick="plausible('CTA Click', {props: {location: 'sticky-bar'}})"
         >
           Audit gratuit →
         </a>
