@@ -4,7 +4,7 @@ slug: "cabinet-dentaire-sans-site-web-vulnerabilite-ia"
 meta_title: "Cabinets dentaires sans site web : pourquoi vous êtes les plus vulnérables (et les mieux placés) face à l'IA"
 meta_description: "34 % des cabinets dentaires parisiens n'ont pas de site web. Aucun n'apparaît dans les recommandations IA. Paradoxe : ils sont aussi ceux pour qui le GEO offre le plus grand levier."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-03-19"
 category: "GEO & Visibilité IA"
 tags: ["site web", "dentiste", "sans site", "visibilité IA", "GEO", "Paris", "Google Business", "Doctolib"]
 cta: "audit-geo-gratuit"

@@ -4,7 +4,7 @@ slug: "test-ia-recommandation-dentiste-paris"
 meta_title: "Test live : que répondent ChatGPT, Perplexity et Google AI quand on leur demande un dentiste à Paris ?"
 meta_description: "Nous avons posé la même question à ChatGPT, Perplexity et Google AI Overview : quel dentiste à Paris ? Les résultats révèlent comment chaque IA recommande différemment."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-01-28"
 category: "GEO & Visibilité IA"
 tags: ["ChatGPT", "Perplexity", "Google AI Overview", "dentiste", "Paris", "recommandation IA", "GEO", "test comparatif"]
 cta: "audit-geo-gratuit"

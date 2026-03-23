@@ -23,6 +23,13 @@ const formattedDate = post.data.date.toLocaleDateString('fr-FR', {
   month: 'long',
   day: 'numeric',
 });
+
+// Get related articles from internal_links
+const allPosts = await getCollection('blog');
+const relatedSlugs = (post.data.internal_links || []).map((link: { slug: string; anchor: string }) => link.slug);
+const relatedPosts = allPosts
+  .filter((p) => relatedSlugs.includes(p.data.slug))
+  .slice(0, 3);
 ---
 <Layout
   title={post.data.meta_title}
@@ -34,18 +41,60 @@ const formattedDate = post.data.date.toLocaleDateString('fr-FR', {
 >
   <Header />
 
+  <!-- BlogPosting JSON-LD -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.data.title,
+    "description": post.data.meta_description,
+    "datePublished": post.data.date.toISOString().split('T')[0],
+    "author": {
+      "@type": "Organization",
+      "name": "Eddie Miller Agency",
+      "url": "https://eddiemiller.agency"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Eddie Miller Agency",
+      "url": "https://eddiemiller.agency"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonicalUrl
+    },
+    "inLanguage": "fr",
+    "keywords": post.data.tags.join(", ")
+  })} />
+
+  <!-- BreadcrumbList JSON-LD -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://eddiemiller.agency" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://eddiemiller.agency/blog" },
+      { "@type": "ListItem", "position": 3, "name": post.data.title, "item": canonicalUrl }
+    ]
+  })} />
+
   <article class="pt-28 md:pt-32 pb-16 md:pb-24">
     <div class="max-w-[720px] mx-auto px-6 md:px-8">
 
       <!-- Article header -->
       <div class="mb-10 md:mb-14">
-        <a
-          href="/blog"
-          class="inline-flex items-center gap-1.5 text-sm font-sans font-medium text-stone tracking-wide uppercase transition-colors duration-200 hover:text-terracotta mb-8 md:mb-10 group"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-200 group-hover:-translate-x-0.5" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
-          Blog
-        </a>
+        <nav aria-label="Fil d'Ariane" class="mb-8 md:mb-10">
+          <ol class="flex items-center gap-2 text-sm font-sans text-stone">
+            <li>
+              <a href="/" class="font-medium tracking-wide transition-colors duration-200 hover:text-terracotta">Accueil</a>
+            </li>
+            <li aria-hidden="true" class="text-warmgray">/</li>
+            <li>
+              <a href="/blog" class="font-medium tracking-wide transition-colors duration-200 hover:text-terracotta">Blog</a>
+            </li>
+            <li aria-hidden="true" class="text-warmgray">/</li>
+            <li class="text-warmgray truncate max-w-[200px] md:max-w-none" aria-current="page">{post.data.title}</li>
+          </ol>
+        </nav>
 
         <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-sans text-stone mb-4">
           <span class="font-medium text-terracotta uppercase tracking-wider text-xs">{post.data.category}</span>
@@ -89,6 +138,24 @@ const formattedDate = post.data.date.toLocaleDateString('fr-FR', {
               <span class="inline-block px-3 py-1 text-xs font-sans font-medium text-stone bg-sand tracking-wide uppercase">
                 {tag}
               </span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {relatedPosts.length > 0 && (
+        <div class="mt-10 pt-8 border-t border-warmgray/30">
+          <h2 class="font-serif text-xl md:text-2xl text-charcoal mb-6">À lire aussi</h2>
+          <div class="space-y-4">
+            {relatedPosts.map((related) => (
+              <a href={`/blog/${related.data.slug}`} class="block group py-3 transition-colors duration-200">
+                <span class="inline-block text-xs font-sans font-medium text-terracotta uppercase tracking-wider mb-1">
+                  {related.data.category}
+                </span>
+                <p class="font-serif text-lg text-charcoal group-hover:text-terracotta transition-colors duration-200 leading-snug">
+                  {related.data.title}
+                </p>
+              </a>
             ))}
           </div>
         </div>

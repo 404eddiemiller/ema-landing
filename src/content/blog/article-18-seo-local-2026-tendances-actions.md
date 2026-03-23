@@ -4,7 +4,7 @@ slug: "seo-local-2026-tendances-actions"
 meta_title: "SEO local en 2026 : les changements clés et les actions à prendre pour les commerces parisiens"
 meta_description: "Le SEO local en 2026 n'est plus ce qu'il était. AI Overviews, recherche conversationnelle, zéro clic — voici ce qui a changé et les 7 actions à prendre maintenant."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-03-17"
 category: "SEO Local"
 tags: ["SEO local", "2026", "tendances", "Google", "GEO", "AI Overview", "commerce local", "Paris"]
 cta: "audit-geo-gratuit"

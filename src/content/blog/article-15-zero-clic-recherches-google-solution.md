@@ -4,7 +4,7 @@ slug: "zero-clic-recherches-google-solution-commerce-local"
 meta_title: "Zéro clic : 60 % des recherches Google ne mènent plus à votre site — comment réagir en 2026"
 meta_description: "60 % des recherches Google se terminent sans clic vers un site web. Avec les AI Overviews, ce chiffre monte à 93 %. Voici ce que les commerces locaux parisiens doivent faire."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-03-08"
 category: "GEO & Visibilité IA"
 tags: ["zéro clic", "zero-click", "Google", "AI Overview", "GEO", "SEO local", "visibilité", "commerce local"]
 cta: "audit-geo-gratuit"

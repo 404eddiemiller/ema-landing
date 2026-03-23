@@ -4,7 +4,7 @@ slug: "schema-org-site-lisible-ia-sans-coder"
 meta_title: "Schema.org pour les nuls : rendez votre site visible par ChatGPT, Perplexity et Google AI (guide sans code)"
 meta_description: "Les sites avec Schema.org sont cités 2 à 3 fois plus par les IA. Découvrez ce que c'est, pourquoi c'est crucial, et comment l'implémenter sans compétences techniques."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-02-14"
 category: "GEO & Visibilité IA"
 tags: ["Schema.org", "données structurées", "JSON-LD", "GEO", "visibilité IA", "SEO technique", "no-code", "ChatGPT"]
 cta: "audit-geo-gratuit"

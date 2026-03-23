@@ -4,7 +4,7 @@ slug: "ia-remplacer-doctolib-cabinet-dentaire"
 meta_title: "L'IA va-t-elle remplacer Doctolib ? Impact sur les cabinets dentaires en 2026"
 meta_description: "De plus en plus de patients utilisent ChatGPT avant Doctolib pour choisir leur dentiste. L'IA ne remplace pas Doctolib — elle décide qui y arrive. Ce que ça change pour vous."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-03-11"
 category: "GEO & Visibilité IA"
 tags: ["Doctolib", "IA", "ChatGPT", "dentiste", "Paris", "GEO", "parcours patient", "réservation"]
 cta: "audit-geo-gratuit"

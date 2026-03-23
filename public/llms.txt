@@ -1,0 +1,23 @@
+# Eddie Miller Agency
+
+> Agence spécialisée en visibilité IA (GEO — Generative Engine Optimization) et SEO local pour les commerces parisiens.
+
+## À propos
+
+Eddie Miller Agency aide les commerces locaux à Paris (restaurants, hôtels, cabinets dentaires, cabinets médicaux, cabinets d'avocats) à apparaître dans les recommandations des assistants IA (ChatGPT, Gemini, Perplexity, Claude) et sur Google Maps / Google Business Profile.
+
+## Services
+
+- **Visibilité IA (GEO)** : Optimisation pour les moteurs de réponse IA — ChatGPT, Gemini, Perplexity, Claude, Google AI Overview
+- **SEO Local** : Classement Google Maps, Map Pack, Google Business Profile
+- **Audit gratuit** : Score de visibilité IA sur 100, diagnostic en 30 minutes
+
+## Contact
+
+- Site : https://eddiemiller.agency
+- Email : contact@eddiemiller.agency
+- Localisation : Paris, France
+
+## Blog
+
+Articles et guides sur la visibilité IA et le SEO local : https://eddiemiller.agency/blog

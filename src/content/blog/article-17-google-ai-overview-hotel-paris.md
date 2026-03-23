@@ -4,7 +4,7 @@ slug: "google-ai-overview-hotel-paris"
 meta_title: "Google AI Overview pour hôtels à Paris : apparaissez-vous dans les réponses IA de Google ?"
 meta_description: "Google AI Overview change la donne pour les hôtels parisiens. Découvrez comment fonctionne cette nouvelle couche IA de Google et comment y apparaître."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-03-14"
 category: "GEO & Visibilité IA"
 tags: ["Google AI Overview", "hôtel", "Paris", "GEO", "visibilité IA", "Booking", "tourisme", "recherche locale"]
 cta: "audit-geo-gratuit"

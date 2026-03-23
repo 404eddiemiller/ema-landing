@@ -4,7 +4,7 @@ slug: "7-annuaires-restaurant-ia-recommandation"
 meta_title: "Les 7 annuaires indispensables pour qu'un restaurant parisien soit recommandé par les IA en 2026"
 meta_description: "Google Business, TheFork, TripAdvisor, Instagram… Voici les 7 plateformes que ChatGPT, Perplexity et Google AI consultent pour recommander les restaurants à Paris."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-03-05"
 category: "SEO Local"
 tags: ["annuaires", "restaurant", "Paris", "TheFork", "TripAdvisor", "Google Business", "GEO", "visibilité IA", "checklist"]
 cta: "audit-geo-gratuit"

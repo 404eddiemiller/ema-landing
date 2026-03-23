@@ -4,7 +4,7 @@ slug: "agence-seo-ia-visibilite-verite"
 meta_title: "5 vérités que votre agence SEO ne vous dit pas sur l'IA et votre visibilité en ligne"
 meta_description: "Premier sur Google mais invisible sur ChatGPT ? Votre agence SEO ne couvre probablement pas la visibilité IA. Voici 5 angles morts que vous devez connaître."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-03-22"
 category: "GEO & Visibilité IA"
 tags: ["agence SEO", "GEO", "visibilité IA", "ChatGPT", "SEO local", "limites SEO", "Paris"]
 cta: "audit-geo-gratuit"

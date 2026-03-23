@@ -4,7 +4,7 @@ slug: "sources-recommandations-dentaires-ia-paris"
 meta_title: "D'où viennent les recommandations de dentistes par ChatGPT, Perplexity et Google AI ? Analyse des sources"
 meta_description: "Doctolib, Google Reviews, PagesJaunes, sites web : quelles sources les IA consultent-elles pour recommander un dentiste à Paris ? Analyse détaillée avec priorités d'optimisation."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-03-03"
 category: "GEO & Visibilité IA"
 tags: ["sources IA", "Doctolib", "Google Reviews", "PagesJaunes", "dentiste", "Paris", "GEO", "ChatGPT", "Perplexity"]
 cta: "audit-geo-gratuit"

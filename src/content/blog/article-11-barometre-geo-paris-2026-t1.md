@@ -4,7 +4,7 @@ slug: "barometre-geo-paris-2026-t1"
 meta_title: "Baromètre GEO Paris T1 2026 : quels commerces les IA recommandent à Paris — dentistes, restaurants, hôtels"
 meta_description: "Premier baromètre trimestriel de la visibilité IA des établissements parisiens. Qui ChatGPT, Perplexity et Google AI recommandent-ils ? Données exclusives par secteur et arrondissement."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-02-25"
 category: "Études & Données"
 tags: ["baromètre", "GEO", "Paris", "visibilité IA", "ChatGPT", "Perplexity", "dentiste", "restaurant", "hôtel", "données"]
 cta: "audit-geo-gratuit"

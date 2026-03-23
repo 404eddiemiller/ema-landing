@@ -4,7 +4,7 @@ slug: "chatgpt-recommandation-restaurant-paris"
 meta_title: "Votre restaurant apparaît-il sur ChatGPT ? Comment l'IA recommande les restaurants à Paris en 2026"
 meta_description: "83 % des restaurants sont invisibles sur ChatGPT. Découvrez comment les IA choisissent quels restaurants parisiens recommander et comment y apparaître."
 author: "Eddie Miller Agency"
-date: "2026-03-24"
+date: "2026-01-31"
 category: "GEO & Visibilité IA"
 tags: ["restaurant", "ChatGPT", "GEO", "visibilité IA", "Paris", "Perplexity", "TheFork", "TripAdvisor", "Google Business"]
 cta: "audit-geo-gratuit"
