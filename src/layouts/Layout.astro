@@ -1,0 +1,101 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href="https://eddiemiller.agency" />
+
+    <!-- Preload fonts -->
+    <link rel="preload" href="/fonts/DMSerifDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/DMSans-Variable.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Eddie Miller Agency — Visibilité IA & SEO Local à Paris" />
+    <meta property="og:description" content="83 % des commerces locaux sont invisibles sur ChatGPT. Nous changeons ça. Audit gratuit en 30 minutes." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://eddiemiller.agency" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:image" content="https://eddiemiller.agency/og-image.svg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Eddie Miller Agency — Visibilité IA & SEO Local à Paris" />
+    <meta name="twitter:image" content="https://eddiemiller.agency/og-image.svg" />
+    <meta name="twitter:description" content="83 % des commerces locaux sont invisibles sur ChatGPT. Nous changeons ça. Audit gratuit en 30 minutes." />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Eddie Miller Agency",
+        "description": "Agence spécialisée en optimisation de visibilité IA (GEO) et SEO local pour restaurants, hôtels et cabinets professionnels à Paris.",
+        "url": "https://eddiemiller.agency",
+        "email": "contact@eddiemiller.agency",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Paris"
+        },
+        "serviceType": [
+          "Generative Engine Optimization",
+          "SEO local",
+          "Optimisation Google Business Profile",
+          "Visibilité IA"
+        ],
+        "knowsLanguage": ["fr", "en"],
+        "priceRange": "€€"
+      }
+    </script>
+
+    <!-- Plausible Analytics -->
+    <script defer data-domain="eddiemiller.agency" src="https://plausible.io/js/script.js"></script>
+
+  </head>
+  <body class="bg-cream text-charcoal font-sans">
+    <slot />
+
+    <!-- Intersection Observer for fade-in animations with stagger -->
+    <script>
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll('.fade-in').forEach((el, i) => {
+        // Stagger siblings within the same grid parent
+        const parent = el.parentElement;
+        if (parent && (parent.classList.contains('grid') || parent.classList.contains('flex'))) {
+          const siblings = Array.from(parent.querySelectorAll(':scope > .fade-in'));
+          const index = siblings.indexOf(el);
+          if (index > 0) {
+            el.style.transitionDelay = `${index * 0.1}s`;
+          }
+        }
+        observer.observe(el);
+      });
+    </script>
+  </body>
+</html>

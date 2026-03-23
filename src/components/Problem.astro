@@ -1,0 +1,79 @@
+---
+// Problem section — "Le monde a changé" + 3 stat cards + paragraph
+const stats = [
+  { value: 83, suffix: '%', text: 'des commerces locaux sont invisibles sur ChatGPT', source: 'Local Falcon, 2026' },
+  { value: 45, suffix: '%', text: "des consommateurs utilisent l'IA pour choisir un restaurant, un hôtel ou un médecin", source: 'BrightLocal, 2026' },
+  { value: 40, suffix: '%', text: 'des voyageurs planifient leurs vacances avec l\'IA', source: 'Statista, 2025' },
+];
+---
+<section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Le problème">
+  <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+    <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+      Le monde a changé
+    </h2>
+
+    <!-- Stat cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
+      {stats.map((stat) => (
+        <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+          <p
+            class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4"
+            data-count-to={stat.value}
+            data-suffix={stat.suffix}
+          >
+            0{stat.suffix}
+          </p>
+          <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">
+            {stat.text}
+          </p>
+          <p class="text-sm font-sans font-medium text-stone/70">
+            {stat.source}
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <!-- Paragraph -->
+    <p class="max-w-[65ch] mx-auto text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone fade-in">
+      Vos futurs clients ne tapent plus «&nbsp;meilleur dentiste Paris 15&nbsp;» dans Google. Ils demandent directement à ChatGPT. Et l'IA ne montre que 3 à 5 résultats — pas une page de 10 liens. Si vous n'y êtes pas, vous n'existez pas.
+    </p>
+  </div>
+</section>
+
+<!-- Counter animation script -->
+<script>
+  function animateCounter(el: HTMLElement) {
+    const target = parseInt(el.dataset.countTo || '0', 10);
+    const suffix = el.dataset.suffix || '';
+    const duration = 1500;
+    const start = performance.now();
+
+    function update(now: number) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      // Ease-out cubic
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.round(eased * target);
+      el.textContent = current + suffix;
+
+      if (progress < 1) {
+        requestAnimationFrame(update);
+      }
+    }
+
+    requestAnimationFrame(update);
+  }
+
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target as HTMLElement);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  document.querySelectorAll<HTMLElement>('[data-count-to]').forEach(el => {
+    counterObserver.observe(el);
+  });
+</script>
