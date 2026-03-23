@@ -4,8 +4,19 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description: string;
+  canonicalUrl?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogType?: string;
 }
-const { title, description } = Astro.props;
+const {
+  title,
+  description,
+  canonicalUrl = 'https://eddiemiller.agency',
+  ogTitle = 'Eddie Miller Agency — Visibilité IA & SEO Local à Paris',
+  ogDescription = '83 % des commerces locaux sont invisibles sur ChatGPT. Nous changeons ça. Audit gratuit en 30 minutes.',
+  ogType = 'website',
+} = Astro.props;
 ---
 <!doctype html>
 <html lang="fr">
@@ -14,7 +25,7 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href="https://eddiemiller.agency" />
+    <link rel="canonical" href={canonicalUrl} />
 
     <!-- Preload fonts -->
     <link rel="preload" href="/fonts/DMSerifDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin />
@@ -24,18 +35,18 @@ const { title, description } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Eddie Miller Agency — Visibilité IA & SEO Local à Paris" />
-    <meta property="og:description" content="83 % des commerces locaux sont invisibles sur ChatGPT. Nous changeons ça. Audit gratuit en 30 minutes." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://eddiemiller.agency" />
+    <meta property="og:title" content={ogTitle} />
+    <meta property="og:description" content={ogDescription} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:image" content="https://eddiemiller.agency/og-image.svg" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Eddie Miller Agency — Visibilité IA & SEO Local à Paris" />
+    <meta name="twitter:title" content={ogTitle} />
     <meta name="twitter:image" content="https://eddiemiller.agency/og-image.svg" />
-    <meta name="twitter:description" content="83 % des commerces locaux sont invisibles sur ChatGPT. Nous changeons ça. Audit gratuit en 30 minutes." />
+    <meta name="twitter:description" content={ogDescription} />
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
