@@ -23,6 +23,9 @@ const {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- DNS prefetch for external services -->
+    <link rel="dns-prefetch" href="https://plausible.io" />
+    <link rel="dns-prefetch" href="https://formsubmit.co" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
@@ -60,6 +63,8 @@ const {
         "logo": "https://eddiemiller.agency/favicon.svg",
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "41 Rue du Montparnasse",
+          "postalCode": "75014",
           "addressLocality": "Paris",
           "addressCountry": "FR"
         },
@@ -105,8 +110,7 @@ const {
           ]
         },
         "knowsLanguage": ["fr", "en"],
-        "priceRange": "€€",
-        "sameAs": []
+        "priceRange": "€€"
       }
     </script>
     <script type="application/ld+json">
