@@ -81,8 +81,56 @@ const {
     <script defer data-domain="eddiemiller.agency" src="https://plausible.io/js/script.js"></script>
 
   </head>
-  <body class="bg-cream text-charcoal font-sans">
+  <body class="bg-cream text-charcoal font-sans pb-16 md:pb-0">
     <slot />
+
+    <!-- Sticky CTA bar — fixed at bottom of screen -->
+    <div id="sticky-cta" class="fixed bottom-0 left-0 w-full z-40 backdrop-blur-sm py-3 px-4 md:py-3.5 md:px-6" style="background-color: rgba(245, 240, 235, 0.95); border-top: 1px solid rgba(181, 173, 166, 0.3); transform: translateY(100%); transition: transform 0.3s ease;">
+      <div class="max-w-container mx-auto flex items-center justify-between gap-4">
+        <p class="sticky-cta-text font-sans text-sm text-stone leading-snug">
+          Votre commerce est-il visible sur ChatGPT ?
+        </p>
+        <a
+          href="/#audit"
+          class="sticky-cta-btn text-center inline-block px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase whitespace-nowrap transition-colors duration-300 hover:bg-terracotta-dark"
+        >
+          Audit gratuit →
+        </a>
+      </div>
+    </div>
+
+    <!-- Sticky CTA visibility logic -->
+    <script>
+      const stickyCta = document.getElementById('sticky-cta');
+      if (stickyCta) {
+        const auditSection = document.getElementById('audit');
+        let ticking = false;
+
+        window.addEventListener('scroll', () => {
+          if (!ticking) {
+            requestAnimationFrame(() => {
+              const scrollY = window.scrollY;
+              const show = scrollY > 400;
+
+              // Hide when the audit form is visible on screen
+              let auditVisible = false;
+              if (auditSection) {
+                const rect = auditSection.getBoundingClientRect();
+                auditVisible = rect.top < window.innerHeight && rect.bottom > 0;
+              }
+
+              if (show && !auditVisible) {
+                stickyCta.style.transform = 'translateY(0)';
+              } else {
+                stickyCta.style.transform = 'translateY(100%)';
+              }
+              ticking = false;
+            });
+            ticking = true;
+          }
+        });
+      }
+    </script>
 
     <!-- Intersection Observer for fade-in animations with stagger -->
     <script>

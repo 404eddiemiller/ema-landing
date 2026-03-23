@@ -256,6 +256,25 @@ body {
   overflow: hidden;
 }
 
+/* === Sticky CTA bar === */
+
+.sticky-cta-text {
+  display: none;
+}
+
+.sticky-cta-btn {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .sticky-cta-text {
+    display: block;
+  }
+  .sticky-cta-btn {
+    width: auto;
+  }
+}
+
 /* === Animation utilities === */
 
 .fade-in {
