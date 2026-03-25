@@ -82,3 +82,7 @@ La stratégie complète pour un hôtel parisien combine Google AI (via GBP et Sc
 ---
 
 *Votre hôtel est-il recommandé par les IA ? Eddie Miller Agency réalise un audit GEO gratuit pour les hôtels parisiens : visibilité sur Google AI, ChatGPT et Perplexity, analyse concurrentielle, et plan d'action. [Demander mon audit GEO gratuit →]*
+
+---
+
+**Vous dirigez un hôtel ?** [Découvrez comment on aide les hôtels à être trouvés →](/hotels)

@@ -159,3 +159,7 @@ Les actions les plus directes (compléter votre fiche Google, accumuler des avis
 
 ### Le GEO est-il différent du SEO local classique ?
 Le GEO (Generative Engine Optimization) englobe le SEO local et va plus loin. Le SEO local vise à vous positionner dans les résultats Google Maps et les recherches locales. Le GEO vise en plus à vous faire citer et recommander par les IA conversationnelles (ChatGPT, Perplexity, Google AI). Les deux sont complémentaires, mais le GEO ajoute des leviers spécifiques comme les données structurées, la présence sur les sources que chaque IA privilégie, et la fraîcheur continue du contenu. Pour en savoir plus, consultez notre guide complet sur le [GEO (Generative Engine Optimization)](/blog/geo-referencement-ia-2026).
+
+---
+
+**Vous êtes dentiste à Paris ?** [Découvrez comment on aide les cabinets dentaires à être trouvés →](/dentistes)

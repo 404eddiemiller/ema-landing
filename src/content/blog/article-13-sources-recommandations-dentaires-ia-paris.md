@@ -152,3 +152,7 @@ De manière marginale. Google indexe désormais les profils Instagram des commer
 
 ### Si je change de numéro de téléphone ou d'adresse, quelles plateformes dois-je mettre à jour ?
 Toutes, et idéalement en même temps. Commencez par Google Business (source primaire), puis Doctolib, votre site web, PagesJaunes, l'annuaire de l'Ordre, et tout autre annuaire où vous êtes listé. Un ancien numéro qui traîne sur une seule plateforme peut créer une incohérence que les IA détectent.
+
+---
+
+**Vous êtes dentiste à Paris ?** [Découvrez comment on aide les cabinets dentaires à être trouvés →](/dentistes)

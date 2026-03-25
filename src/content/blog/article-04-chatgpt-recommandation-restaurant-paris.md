@@ -153,3 +153,7 @@ Absolument. Les IA cherchent la spécificité et l'authenticité locale. Un rest
 
 ### Combien de temps faut-il pour commencer à apparaître dans les recommandations IA ?
 Les premières améliorations (fiche Google complétée, nouveaux avis) peuvent produire des résultats en 3 à 6 semaines. L'étude Sorbey montre qu'un bistrot parisien a doublé sa visibilité IA en 6 mois en mettant à jour sa fiche Google Business chaque semaine, en accumulant des avis frais et en maintenant la cohérence de ses informations en ligne.
+
+---
+
+**Vous gérez un restaurant ?** [Découvrez comment on aide les restaurants à être trouvés →](/restaurants)

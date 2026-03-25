@@ -84,3 +84,7 @@ L'absence de site web n'est pas une excuse pour ne rien faire. C'est une raison 
 ---
 
 *Vous n'avez pas de site web et vous voulez savoir où vous en êtes ? Eddie Miller Agency réalise un audit GEO gratuit même pour les cabinets sans site : nous évaluons votre visibilité IA à partir de votre fiche Google, votre Doctolib et vos avis, et nous vous donnons un plan d'action adapté à votre situation. [Demander mon audit GEO gratuit →]*
+
+---
+
+**Vous êtes dentiste à Paris ?** [Découvrez comment on aide les cabinets dentaires à être trouvés →](/dentistes)

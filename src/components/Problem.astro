@@ -2,7 +2,7 @@
 // Problem section — Dark background Apple-style + animated stat cards
 const stats = [
   { value: 45, suffix: '%', text: "des consommateurs demandent à ChatGPT de leur recommander un commerce, un médecin ou un restaurant", source: 'BrightLocal, 2026' },
-  { value: 83, suffix: '%', text: "des commerces locaux n'apparaissent pas du tout dans ces recommandations", source: 'Local Falcon, 2026' },
+  { value: 83, suffix: '%', text: "des restaurants n'apparaissent pas du tout dans ces recommandations", source: 'Local Falcon, 2026' },
   { value: 3, suffix: ' à 5', text: "résultats : c'est tout ce que l'IA montre. Pas 10 liens comme Google — 3 à 5 noms. Le vôtre, ou celui d'un concurrent", source: '' },
 ];
 ---
@@ -18,7 +18,7 @@ const stats = [
     <!-- Stat cards -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
       {stats.map((stat, i) => (
-        <div class="border border-cream/10 p-8 bg-cream/5 transition-all duration-400 hover:border-terracotta hover:bg-cream/8 hover:translate-y-[-4px] scale-in" style={`transition-delay: ${i * 0.12}s;`}>
+        <div class="border border-cream/10 p-8 bg-cream/5 transition-all duration-400 hover:border-terracotta hover:bg-cream/8 scale-in" style={`transition-delay: ${i * 0.12}s;`}>
           <p
             class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4"
             data-count-to={stat.value}

@@ -149,3 +149,7 @@ Oui. La note Google est une moyenne dynamique qui évolue avec chaque nouvel avi
 
 ### TheFork et TripAdvisor sont-ils aussi importants que Google ?
 Pour la visibilité IA, Google reste la source primaire. Mais TheFork et TripAdvisor sont des sources fréquemment citées par Perplexity et ChatGPT pour les restaurants parisiens. Un profil complet sur ces plateformes renforce significativement vos chances d'être recommandé par les IA. L'idéal est d'optimiser les trois, avec Google en priorité.
+
+---
+
+**Vous gérez un restaurant ?** [Découvrez comment on aide les restaurants à être trouvés →](/restaurants)

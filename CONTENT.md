@@ -130,7 +130,7 @@ Ils ne tapent plus dans Google. Ils demandent directement à une IA.
 
 **Stat Card 2** :
 - Chiffre : 83 %
-- Texte : des commerces locaux n'apparaissent pas du tout dans ces recommandations
+- Texte : des restaurants n'apparaissent pas du tout dans ces recommandations
 - Source : Local Falcon, 2026
 
 **Stat Card 3** :
@@ -393,14 +393,14 @@ Ce site utilise Plausible Analytics, un outil de mesure d'audience respectueux d
 Plus de clients pour votre établissement | Eddie Miller Agency
 
 **Meta description** :
-On aide votre établissement à être trouvé par vos futurs clients — sur Google et sur ChatGPT. Diagnostic gratuit en 24h.
+Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.
 
 **Canonical URL** :
 https://eddiemiller.agency
 
 **Open Graph** :
 - og:title : Soyez trouvé par vos futurs clients | Eddie Miller Agency
-- og:description : On aide votre établissement à être trouvé par vos futurs clients — sur Google et sur les IA. Diagnostic gratuit en 24h.
+- og:description : Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.
 - og:type : website
 - og:url : https://eddiemiller.agency
 - og:locale : fr_FR
@@ -409,7 +409,7 @@ https://eddiemiller.agency
 **Twitter Card** :
 - twitter:card : summary_large_image
 - twitter:title : Soyez trouvé par vos futurs clients | Eddie Miller Agency
-- twitter:description : On aide votre établissement à être trouvé par vos futurs clients — sur Google et sur les IA. Diagnostic gratuit en 24h.
+- twitter:description : Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.
 - twitter:image : https://eddiemiller.agency/og-image.png
 
 ---
@@ -423,7 +423,7 @@ https://eddiemiller.agency
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "Eddie Miller Agency",
-  "description": "On aide votre établissement à être trouvé par vos futurs clients — sur Google et sur les IA.",
+  "description": "Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.",
   "url": "https://eddiemiller.agency",
   "email": "contact@eddiemiller.agency",
   "logo": "https://eddiemiller.agency/favicon-192x192.png",
@@ -476,7 +476,13 @@ https://eddiemiller.agency
     ]
   },
   "knowsLanguage": ["fr", "en"],
-  "priceRange": "€€"
+  "priceRange": "€€",
+  "founder": {
+    "@type": "Person",
+    "name": "Adam Douieb"
+  },
+  "foundingDate": "2026",
+  "openingHours": "Mo-Fr 09:00-18:00"
 }
 ```
 

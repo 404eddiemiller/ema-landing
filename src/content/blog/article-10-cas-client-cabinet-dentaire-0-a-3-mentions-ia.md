@@ -177,3 +177,7 @@ Non, mais c'est un handicap. Le Cabinet Alésia avait un site web, ce qui a perm
 
 ### Quel budget a été nécessaire ?
 Le seul coût technique a été l'implémentation du Schema par le webmaster (environ 300 €). La séance photo a été réalisée par un membre de l'équipe du cabinet avec un smartphone récent. Les posts Google Business et les réponses aux avis ont été réalisés en interne. L'investissement principal est en temps : environ 2 à 3 heures par semaine pour l'ensemble des actions.
+
+---
+
+**Vous êtes dentiste à Paris ?** [Découvrez comment on aide les cabinets dentaires à être trouvés →](/dentistes)

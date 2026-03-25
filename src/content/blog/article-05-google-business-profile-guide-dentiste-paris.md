@@ -250,3 +250,7 @@ Oui, vous pouvez avoir une fiche GBP sans site web. Cependant, Google utilise vo
 
 ### Les posts Google Business expirent-ils ?
 Les posts restent visibles pendant 6 mois (les posts « Offre » expirent à la date de fin définie). Même après expiration de l'affichage, ils restent indexés et contribuent à l'historique d'activité de votre fiche. L'enjeu n'est pas un post individuel mais la régularité : un flux constant de posts signale à Google et aux IA que votre cabinet est actif.
+
+---
+
+**Vous êtes dentiste à Paris ?** [Découvrez comment on aide les cabinets dentaires à être trouvés →](/dentistes)

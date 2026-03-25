@@ -156,3 +156,7 @@ Oui, car les IA ne distinguent pas entre clientèle locale et touristique. TripA
 
 ### À quelle fréquence dois-je vérifier la cohérence de mes informations ?
 Une vérification complète (toutes les plateformes) une fois par trimestre est suffisante pour la maintenance. En cas de changement (nouveaux horaires, nouveau numéro, nouvelle carte), mettez à jour toutes les plateformes simultanément — idéalement le même jour — pour éviter toute période d'incohérence.
+
+---
+
+**Vous gérez un restaurant ?** [Découvrez comment on aide les restaurants à être trouvés →](/restaurants)

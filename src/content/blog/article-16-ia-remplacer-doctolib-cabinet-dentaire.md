@@ -93,3 +93,7 @@ Dans la majorité des cas pour les cabinets dentaires parisiens, oui. L'IA recom
 
 ### Mon cabinet n'est pas sur Doctolib. Est-ce un problème pour la visibilité IA ?
 C'est un handicap pour Perplexity, qui utilise Doctolib comme source primaire pour les dentistes en France. Pour ChatGPT et Google AI, l'absence de Doctolib est compensable si vous avez une forte présence Google Business et un site web bien structuré. Mais dans l'idéal, être sur Doctolib renforce votre couverture multi-plateforme — un facteur clé de la visibilité IA.
+
+---
+
+**Vous êtes dentiste à Paris ?** [Découvrez comment on aide les cabinets dentaires à être trouvés →](/dentistes)

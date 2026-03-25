@@ -60,7 +60,7 @@ src/
 - Un composant = une section de la page. Pas de composant imbriqué sauf nécessité absolue.
 - Pas de props complexes. Chaque composant contient son propre contenu (tiré de `CONTENT.md`).
 - Pas de state management. C'est un site statique.
-- Le JavaScript client inclut : IntersectionObserver pour les animations fade-in, animations de compteurs pour les statistiques, et animations de score circle pour les témoignages.
+- Le JavaScript client inclut : IntersectionObserver pour les animations d'entrée au scroll (`.fade-up`, `.scale-in`, `.blur-in`, `.slide-in-left`, `.slide-in-right`, `.fade-up-slow`, `.draw-line`, `.separator-animate`, `.text-reveal-line`), animations de compteurs pour les statistiques, et animations de score circle SVG pour les témoignages. Toutes les classes d'entrée produisent le même effet visuel (voir `DESIGN.md` section Animations).
 
 ### Layout
 ```astro
@@ -93,7 +93,7 @@ const { title, description } = Astro.props;
 ### Index page
 ```astro
 ---
-// index.astro
+// index.astro — Ordre actuel des sections
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Hero from '../components/Hero.astro';
@@ -112,7 +112,7 @@ import Footer from '../components/Footer.astro';
 ---
 <Layout title="..." description="...">
   <Header />
-  <main>
+  <main id="main-content">
     <Hero />
     <SocialProof />
     <WhatYouGet />
@@ -132,40 +132,43 @@ import Footer from '../components/Footer.astro';
 
 ## Tailwind CSS
 
-### Configuration
+### Configuration (Tailwind CSS 4 — @theme)
+
+Le projet utilise **Tailwind CSS 4** avec le plugin Vite `@tailwindcss/vite`. Il n'y a pas de fichier `tailwind.config.mjs` — la configuration se fait directement dans `global.css` via `@theme` :
+
+```css
+/* Dans src/styles/global.css */
+@theme {
+  --color-cream: #F5F0EB;
+  --color-sand: #EDE6DD;
+  --color-charcoal: #2C2825;
+  --color-stone: #6B6360;
+  --color-terracotta: #C4785B;
+  --color-terracotta-dark: #A8623E;
+  --color-sage: #8B9E8B;
+  --color-sage-dark: #6F846F;
+  --color-warmgray: #B5ADA6;
+
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+
+  --max-width-container: 1200px;
+}
+```
 
 ```javascript
-// tailwind.config.mjs
-export default {
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
-  theme: {
-    extend: {
-      colors: {
-        cream: '#F5F0EB',
-        sand: '#EDE6DD',
-        charcoal: '#2C2825',
-        stone: '#6B6360',
-        terracotta: {
-          DEFAULT: '#C4785B',
-          dark: '#A8623E',
-        },
-        sage: {
-          DEFAULT: '#8B9E8B',
-          dark: '#6F846F',
-        },
-        warmgray: '#B5ADA6',
-      },
-      fontFamily: {
-        serif: ['"DM Serif Display"', 'Georgia', 'serif'],
-        sans: ['"DM Sans"', 'system-ui', 'sans-serif'],
-      },
-      maxWidth: {
-        container: '1200px',
-      },
-    },
+// astro.config.mjs — Tailwind intégré via Vite
+import { defineConfig } from 'astro/config';
+import tailwindcss from '@tailwindcss/vite';
+import sitemap from '@astrojs/sitemap';
+
+export default defineConfig({
+  site: 'https://eddiemiller.agency',
+  integrations: [sitemap()],
+  vite: {
+    plugins: [tailwindcss()],
   },
-  plugins: [],
-};
+});
 ```
 
 ### Conventions de classes
@@ -187,28 +190,35 @@ Exemple :
 ## CSS Global
 
 ```css
-/* global.css */
+/* global.css — structure */
 @import "tailwindcss";
 
-/* @font-face declarations ici */
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Selection color */
-::selection {
-  background-color: #C4785B;
-  color: #F5F0EB;
-}
-
-/* Focus visible for accessibility */
-:focus-visible {
-  outline: 2px solid #C4785B;
-  outline-offset: 4px;
-}
+/* @font-face declarations */
+/* @theme — couleurs, polices, container (Tailwind CSS 4) */
+/* CSS custom properties — spacing */
+/* Base styles — html, body, ::selection, :focus-visible */
+/* Prose styles — pour les articles de blog */
+/* Sticky CTA bar — responsive */
+/* Animation utilities — voir DESIGN.md pour les règles */
+/* Card hover, hover-underline, score-circle, draw-line, separator-animate */
+/* Prefers reduced motion */
+/* FAQ accordion */
 ```
+
+### Classes utilitaires custom (dans global.css)
+
+| Classe | Effet | Usage |
+|--------|-------|-------|
+| `.fade-up` | Fade-in + translateY(16px), 1s | Éléments génériques |
+| `.fade-up-slow` | Idem (même effet) | Titres h2 |
+| `.scale-in` | Idem (même effet) | Cartes |
+| `.slide-in-left` / `.slide-in-right` | Idem (même effet) | Colonnes côte à côte |
+| `.blur-in` | Idem (même effet) | Paragraphes de conclusion |
+| `.card-hover` | `border-color → terracotta` au hover | Toute carte interactive |
+| `.hover-underline` | Underline animé via `::after` | Liens nav/footer |
+| `.separator-animate` | `width: 0 → 48px` au scroll | Traits décoratifs terracotta |
+| `.draw-line` | `stroke-dashoffset` SVG au scroll | Lignes timeline |
+| `.score-circle` | `stroke-dashoffset` SVG au scroll | Cercles de score |
 
 ## SEO et Meta
 
@@ -229,7 +239,7 @@ Astro génère un sitemap automatiquement avec `@astrojs/sitemap`. L'ajouter dan
 
 - **Fonts** : Précharger avec `<link rel="preload" as="font" type="font/woff2" crossorigin>`.
 - **CSS** : Tailwind purge automatiquement. Pas de CSS inutilisé.
-- **JS** : Le JS client gère les IntersectionObserver (fade-in animations), les compteurs animés pour les stats, et les animations de score circle pour les témoignages. Pas de framework JS côté client.
+- **JS** : Le JS client gère les IntersectionObserver (animations d'entrée, score circles, draw-lines, separators), les compteurs animés pour les stats, et la sticky CTA bar. Pas de framework JS côté client.
 - **Images** : Utiliser le composant `<Image>` d'Astro avec des formats modernes (WebP, AVIF).
 - **Score Lighthouse cible** : > 95 sur Performance, Accessibility, Best Practices, SEO.
 

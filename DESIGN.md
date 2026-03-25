@@ -98,7 +98,9 @@ Le propriétaire d'un restaurant étoilé ou le gérant d'un hôtel de charme do
 
 ### Téléchargement
 
-Télécharger les fichiers `.woff2` depuis Google Fonts et les héberger localement dans `public/fonts/`. Ne JAMAIS utiliser le CDN Google Fonts (RGPD + performance).
+Les fichiers `.woff2` sont hébergés localement dans `public/fonts/`. Ne JAMAIS utiliser le CDN Google Fonts (RGPD + performance).
+
+**DM Sans utilise un fichier variable font** (un seul fichier couvre toutes les graisses 100–900). Plus performant que plusieurs fichiers séparés.
 
 ```css
 @font-face {
@@ -111,24 +113,8 @@ Télécharger les fichiers `.woff2` depuis Google Fonts et les héberger localem
 
 @font-face {
   font-family: 'DM Sans';
-  src: url('/fonts/DMSans-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'DM Sans';
-  src: url('/fonts/DMSans-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'DM Sans';
-  src: url('/fonts/DMSans-Bold.woff2') format('woff2');
-  font-weight: 700;
+  src: url('/fonts/DMSans-Variable.woff2') format('woff2');
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
@@ -248,6 +234,11 @@ L'espacement est **généreux**. On ne tasse rien.
 - Utiliser une ligne fine de `1px` en `var(--color-warmgray)` avec `opacity: 0.5`.
 - Ou un espacement vide généreux (préféré).
 - Jamais de `<hr>` visible sauf entre sections majeures.
+- `.separator-animate` : trait terracotta de 2px, s'anime de 0 à 48px au scroll.
+
+### Sections sombres
+
+La section **Problem** utilise `bg-charcoal text-cream` pour créer un contraste visuel fort (style Apple). Les cartes internes ont un fond `bg-cream/5` avec bordure `border-cream/10`. C'est la seule section sombre du site — ne pas en ajouter d'autres sans raison.
 
 ### Icônes
 
@@ -262,41 +253,55 @@ L'espacement est **généreux**. On ne tasse rien.
 ### Principes
 - **Subtiles.** L'utilisateur ne doit pas consciemment remarquer les animations.
 - **CSS uniquement.** Pas de librairie JavaScript.
-- **Performance.** Animer uniquement `opacity` et `transform` (pas de `width`, `height`, `margin`).
+- **Performance.** Animer uniquement `opacity` et `transform`.
+- **Pas de cascade.** Tous les éléments d'une section apparaissent ensemble, pas en décalé.
+- **`prefers-reduced-motion`** : respecté — toutes les animations sont désactivées.
 
-### Animation d'entrée au scroll (fade-in)
+### Classes d'animation au scroll
+
+Plusieurs classes existent pour le balisage sémantique, mais elles produisent toutes le **même effet** : un fade-in subtil avec un léger translateY(16px) sur 1 seconde. Les inline `transition-delay` sont ignorés (`0s !important`).
+
 ```css
-.fade-in {
+/* Toutes ces classes produisent le même effet */
+.fade-up, .fade-up-slow, .scale-in,
+.slide-in-left, .slide-in-right,
+.blur-in, .fade-in {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.fade-in.visible {
-  opacity: 1;
-  transform: translateY(0);
+  transform: translateY(16px);
+  transition: opacity 1s var(--ease-out-expo), transform 1s var(--ease-out-expo);
+  transition-delay: 0s !important;
 }
 ```
 
-Déclencher avec un `IntersectionObserver` minimal dans un `<script>` en bas de page :
-```javascript
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
-  });
-}, { threshold: 0.1 });
+Convention d'usage des classes (pour la lisibilité du code) :
+- `fade-up-slow` : titres h2
+- `fade-up` : sous-titres, paragraphes, CTA
+- `scale-in` : cartes
+- `slide-in-left` / `slide-in-right` : colonnes côte à côte (Solution)
+- `blur-in` : paragraphes de conclusion
+- `fade-in` : éléments génériques
 
-document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-```
+Déclenché par un `IntersectionObserver` dans `Layout.astro` qui ajoute `.visible` quand l'élément entre dans le viewport (threshold 0.1).
 
-### Animation des compteurs (section stats)
-Les chiffres (83%, 45%, 40%) comptent de 0 à leur valeur finale en 1.5s quand ils deviennent visibles. Utiliser `requestAnimationFrame`, pas de librairie.
+### Animations spéciales
+
+- **Score circles** (Testimonial) : SVG `<circle>` avec `stroke-dashoffset` animé sur 2s. Un script dédié observe les cartes témoignages et anime les arcs de 0 au score.
+- **Séparateurs terracotta** (`.separator-animate`) : `width: 0` → `48px` sur 1.4s au scroll.
+- **Lignes SVG** (`.draw-line`) : `stroke-dashoffset` animé sur 2s (timeline HowItWorks).
+- **Compteurs** : Les chiffres (83%, 45%) comptent de 0 à leur valeur finale en 1.5s avec `requestAnimationFrame`.
 
 ### Transitions hover
-- Boutons : `transition: 0.3s ease`
-- Cartes : `transition: border-color 0.3s ease`
-- Liens : `transition: color 0.2s ease`
+- **Boutons** : `transition: background-color 0.3s ease` — changement de couleur uniquement, pas de scale
+- **Cartes** (`.card-hover`) : `transition: border-color 0.3s ease` — bordure terracotta, pas de lift
+- **Liens** (`.hover-underline`) : underline animé de gauche à droite via `::after`
+- **Header** : taille fixe, pas de shrink au scroll
+
+### Ce qui est interdit
+- ❌ scale sur les boutons ou cartes au hover
+- ❌ translateY (lift) sur les cartes au hover
+- ❌ blur-in visible (le filtre blur n'est pas appliqué malgré le nom de classe)
+- ❌ text-reveal / clip-path (les `.text-reveal-line` ne font rien, affichage immédiat)
+- ❌ cascade / stagger entre éléments frères
 
 ## Images et visuels
 

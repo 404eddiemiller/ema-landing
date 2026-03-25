@@ -9,7 +9,7 @@ Tu construis le site web d'**Eddie Miller Agency (EMA)**, une agence B2B qui aid
 ## Stack technique
 
 - **Framework** : Astro (dernière version stable)
-- **CSS** : Tailwind CSS 4
+- **CSS** : Tailwind CSS 4 (via `@tailwindcss/vite`, configuration dans `@theme` de global.css — pas de `tailwind.config.mjs`)
 - **Animations** : CSS natif uniquement (pas de librairie JS)
 - **Formulaire** : FormSubmit.co
 - **Analytics** : Plausible Analytics (script dans le `<head>`)
@@ -96,9 +96,13 @@ eddie-miller-agency/
 ├── package.json
 ├── tsconfig.json
 ├── public/
-│   ├── fonts/             ← Fichiers de polices (woff2)
+│   ├── fonts/             ← DMSerifDisplay-Regular.woff2 + DMSans-Variable.woff2
 │   ├── favicon.svg
+│   ├── favicon-32x32.png
+│   ├── favicon-192x192.png
+│   ├── apple-touch-icon.png
 │   ├── og-image.png
+│   ├── og-image.svg
 │   ├── robots.txt
 │   └── llms.txt
 ├── src/
@@ -146,8 +150,8 @@ eddie-miller-agency/
 
 ## Workflow de travail
 
-1. **Installer les polices** : Fichiers woff2 dans `public/fonts/`.
-2. **Construire section par section** : Hero → SocialProof → Problem → Solution → WhatYouGet → Verticals → Testimonial → HowItWorks → WhyUs → FAQ → Quote → AuditForm → Footer.
+1. **Polices** : `DMSerifDisplay-Regular.woff2` + `DMSans-Variable.woff2` dans `public/fonts/`.
+2. **Ordre des sections** (index.astro) : Hero → SocialProof → WhatYouGet → Testimonial → Problem → Quote → Solution → WhyUs → Verticals → HowItWorks → FAQ → AuditForm → Footer.
 3. **Tester chaque section** en responsive avant de passer à la suivante.
 4. **Assembler** dans `index.astro`.
 5. **Ajouter le SEO** : meta tags, Open Graph, JSON-LD (voir `CONTENT.md`).

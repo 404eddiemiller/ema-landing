@@ -14,7 +14,7 @@ const {
   description,
   canonicalUrl = 'https://eddiemiller.agency',
   ogTitle = 'Soyez trouvé par vos futurs clients | Eddie Miller Agency',
-  ogDescription = 'On aide votre établissement à être trouvé par vos futurs clients — sur Google et sur les IA. Diagnostic gratuit en 24h.',
+  ogDescription = 'Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.',
   ogType = 'website',
 } = Astro.props;
 ---
@@ -60,7 +60,7 @@ const {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "name": "Eddie Miller Agency",
-        "description": "On aide votre établissement à être trouvé par vos futurs clients — sur Google et sur les IA.",
+        "description": "Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.",
         "url": "https://eddiemiller.agency",
         "email": "contact@eddiemiller.agency",
         "logo": "https://eddiemiller.agency/favicon-192x192.png",
@@ -113,7 +113,13 @@ const {
           ]
         },
         "knowsLanguage": ["fr", "en"],
-        "priceRange": "€€"
+        "priceRange": "€€",
+        "founder": {
+          "@type": "Person",
+          "name": "Adam Douieb"
+        },
+        "foundingDate": "2026",
+        "openingHours": "Mo-Fr 09:00-18:00"
       }
     </script>
     <script type="application/ld+json">
