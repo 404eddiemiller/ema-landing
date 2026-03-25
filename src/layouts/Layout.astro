@@ -13,8 +13,8 @@ const {
   title,
   description,
   canonicalUrl = 'https://eddiemiller.agency',
-  ogTitle = 'Eddie Miller Agency — Visibilité IA & SEO Local à Paris',
-  ogDescription = '83 % des commerces locaux sont invisibles sur ChatGPT. Nous changeons ça. Audit gratuit en 30 minutes.',
+  ogTitle = 'Soyez recommandé par ChatGPT | Eddie Miller Agency',
+  ogDescription = 'Vos clients vous cherchent sur ChatGPT. Est-ce qu\'ils vous trouvent ? Audit gratuit de votre visibilité en 48h.',
   ogType = 'website',
 } = Astro.props;
 ---
@@ -34,8 +34,11 @@ const {
     <link rel="preload" href="/fonts/DMSerifDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/DMSans-Variable.woff2" as="font" type="font/woff2" crossorigin />
 
-    <!-- Favicon -->
+    <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
     <!-- Open Graph -->
     <meta property="og:title" content={ogTitle} />
@@ -57,10 +60,10 @@ const {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "name": "Eddie Miller Agency",
-        "description": "Agence spécialisée en optimisation de visibilité IA (GEO) et SEO local pour restaurants, hôtels et cabinets professionnels à Paris.",
+        "description": "Agence spécialisée en visibilité ChatGPT et Google Maps pour restaurants, hôtels et cabinets professionnels à Paris.",
         "url": "https://eddiemiller.agency",
         "email": "contact@eddiemiller.agency",
-        "logo": "https://eddiemiller.agency/favicon.svg",
+        "logo": "https://eddiemiller.agency/favicon-192x192.png",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "41 Rue du Montparnasse",
@@ -73,21 +76,21 @@ const {
           "name": "Paris"
         },
         "serviceType": [
-          "Generative Engine Optimization",
-          "SEO local",
+          "Visibilité ChatGPT",
+          "Visibilité Google Maps",
           "Optimisation Google Business Profile",
           "Visibilité IA"
         ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "Services de visibilité IA et SEO local",
+          "name": "Services de visibilité digitale pour établissements locaux",
           "itemListElement": [
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Audit de visibilité IA gratuit",
-                "description": "Analyse complète de votre visibilité sur ChatGPT, Perplexity, Gemini, Google AI Overview et Google Maps. Score sur 100 et recommandations prioritaires.",
+                "name": "Audit de visibilité gratuit",
+                "description": "Analyse complète de votre visibilité sur ChatGPT, Perplexity, Gemini et Google Maps. Score sur 100 et recommandations prioritaires.",
                 "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
               }
             },
@@ -95,16 +98,24 @@ const {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Optimisation visibilité IA (GEO)",
-                "description": "Optimisation pour apparaître dans les recommandations de ChatGPT, Gemini, Perplexity et Claude."
+                "name": "Création de site web professionnel",
+                "description": "Conception et développement d'un site web optimisé pour les établissements locaux. Base indispensable pour le référencement et la visibilité en ligne."
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "SEO local et Google Business Profile",
-                "description": "Classement Google Maps, optimisation fiche Google Business Profile, stratégie d'avis et maillage d'annuaires."
+                "name": "Optimisation Google Maps et Google Business Profile",
+                "description": "Classement Google Maps, optimisation fiche Google Business Profile, stratégie d'avis et référencement annuaires pour maximiser votre visibilité locale."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Optimisation visibilité ChatGPT et assistants IA",
+                "description": "Optimisation pour apparaître dans les recommandations de ChatGPT, Gemini et Perplexity. Soyez le résultat recommandé, pas l'invisible."
               }
             }
           ]
@@ -124,7 +135,7 @@ const {
             "@type": "HowToStep",
             "position": 1,
             "name": "Audit gratuit",
-            "text": "Nous analysons votre visibilité IA et Google en 30 minutes. Vous recevez un score sur 100 et un diagnostic clair."
+            "text": "Nous testons votre établissement sur ChatGPT, Google Maps et les assistants IA. Vous recevez un score sur 100 et un diagnostic clair."
           },
           {
             "@type": "HowToStep",
@@ -136,7 +147,7 @@ const {
             "@type": "HowToStep",
             "position": 3,
             "name": "Résultats",
-            "text": "Nous implémentons les optimisations. Vos clients vous trouvent sur ChatGPT, Google Maps et les plateformes IA."
+            "text": "Nous mettons en place les corrections. Vos clients vous trouvent sur ChatGPT et Google Maps."
           }
         ]
       }
@@ -151,7 +162,7 @@ const {
             "name": "Combien coûte une optimisation de visibilité IA ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "L'audit initial est 100 % gratuit et sans engagement. Nos tarifs commencent à partir de 490 € par mois, avec un devis transparent adapté à votre établissement."
+              "text": "L'audit initial est 100 % gratuit et sans engagement. Après l'audit, nous vous présentons les options adaptées à votre établissement."
             }
           },
           {
@@ -164,10 +175,10 @@ const {
           },
           {
             "@type": "Question",
-            "name": "Quelle est la différence entre le GEO et le SEO classique ?",
+            "name": "Quelle est la différence avec une agence web classique ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Le SEO optimise votre position dans les résultats Google. Le GEO optimise votre présence dans les réponses des assistants IA comme ChatGPT, Perplexity ou Gemini, qui ne montrent que 3 à 5 résultats."
+              "text": "Une agence web classique optimise votre position dans Google. Nous optimisons aussi votre présence dans les réponses de ChatGPT, Perplexity et Gemini, qui ne montrent que 3 à 5 résultats."
             }
           },
           {
