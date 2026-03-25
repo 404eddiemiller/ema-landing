@@ -1,11 +1,11 @@
 ---
-title: "Les 7 annuaires où votre restaurant DOIT être présent pour que l'IA vous recommande"
+title: "Les 7 sites où votre restaurant doit être présent pour que les IA vous trouvent"
 slug: "7-annuaires-restaurant-ia-recommandation"
-meta_title: "Les 7 annuaires indispensables pour qu'un restaurant parisien soit recommandé par les IA en 2026"
-meta_description: "Google Business, TheFork, TripAdvisor, Instagram… Voici les 7 plateformes que ChatGPT, Perplexity et Google AI consultent pour recommander les restaurants à Paris."
+meta_title: "Restaurateurs : les 7 sites où vous devez être inscrit pour que ChatGPT vous recommande"
+meta_description: "Google, TheFork, TripAdvisor, Instagram… ChatGPT et les autres IA ne recommandent que les restaurants qu'elles trouvent sur ces 7 plateformes. Êtes-vous présent partout ?"
 author: "Eddie Miller Agency"
 date: "2026-03-05"
-category: "SEO Local"
+category: "Google & avis"
 tags: ["annuaires", "restaurant", "Paris", "TheFork", "TripAdvisor", "Google Business", "GEO", "visibilité IA", "checklist"]
 cta: "audit-geo-gratuit"
 lang: "fr"

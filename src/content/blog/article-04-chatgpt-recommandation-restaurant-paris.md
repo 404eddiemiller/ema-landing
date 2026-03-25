@@ -1,11 +1,11 @@
 ---
-title: "Restaurateurs : ChatGPT recommande-t-il votre restaurant ou celui d'à côté ?"
+title: "ChatGPT recommande-t-il votre restaurant ou celui d'à côté ? Faites le test"
 slug: "chatgpt-recommandation-restaurant-paris"
-meta_title: "Votre restaurant apparaît-il sur ChatGPT ? Comment l'IA recommande les restaurants à Paris en 2026"
-meta_description: "83 % des restaurants sont invisibles sur ChatGPT. Découvrez comment les IA choisissent quels restaurants parisiens recommander et comment y apparaître."
+meta_title: "Votre restaurant apparaît-il quand un client demande une recommandation à ChatGPT ?"
+meta_description: "83 % des restaurants parisiens n'apparaissent pas quand un client demande une recommandation à ChatGPT. Découvrez pourquoi et comment changer ça."
 author: "Eddie Miller Agency"
 date: "2026-01-31"
-category: "GEO & Visibilité IA"
+category: "Visibilité en ligne"
 tags: ["restaurant", "ChatGPT", "GEO", "visibilité IA", "Paris", "Perplexity", "TheFork", "TripAdvisor", "Google Business"]
 cta: "audit-geo-gratuit"
 lang: "fr"

@@ -1,11 +1,11 @@
 ---
-title: "Google Business Profile : le guide complet pour les dentistes parisiens (2026)"
+title: "Comment bien remplir votre fiche Google pour attirer plus de patients (guide dentistes Paris)"
 slug: "google-business-profile-guide-dentiste-paris"
-meta_title: "Fiche Google Business pour dentiste à Paris : le guide complet 2026 (étape par étape)"
-meta_description: "Comment optimiser votre fiche Google Business Profile pour votre cabinet dentaire à Paris. Guide étape par étape : catégories, description, avis, photos, posts et visibilité IA."
+meta_title: "Fiche Google pour dentiste à Paris : le guide étape par étape pour attirer plus de patients"
+meta_description: "Votre fiche Google est la première chose que vos futurs patients voient. Voici comment la remplir correctement, étape par étape, pour que votre cabinet soit trouvé et choisi."
 author: "Eddie Miller Agency"
 date: "2026-02-04"
-category: "SEO Local"
+category: "Google & avis"
 tags: ["Google Business Profile", "dentiste", "SEO local", "Paris", "fiche Google", "avis Google", "GBP", "Google Maps"]
 cta: "audit-geo-gratuit"
 lang: "fr"

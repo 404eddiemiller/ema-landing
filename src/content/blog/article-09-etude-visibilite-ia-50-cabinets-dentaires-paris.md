@@ -1,11 +1,11 @@
 ---
-title: "Étude : on a testé la visibilité IA de 50 cabinets dentaires parisiens — les résultats"
+title: "On a demandé aux IA de recommander 50 dentistes parisiens — presque aucun n'est apparu"
 slug: "etude-visibilite-ia-50-cabinets-dentaires-paris"
-meta_title: "Étude GEO : la visibilité IA de 50 cabinets dentaires à Paris — résultats et analyse"
-meta_description: "Nous avons audité la visibilité de 50 cabinets dentaires parisiens sur ChatGPT, Perplexity et Google AI. Score moyen : 18/100. Voici les résultats détaillés."
+meta_title: "50 dentistes à Paris testés sur ChatGPT et Perplexity : presque aucun n'est recommandé"
+meta_description: "Nous avons demandé à ChatGPT, Perplexity et Google AI de recommander des dentistes dans 12 arrondissements de Paris. Résultat : la majorité des cabinets sont totalement absents."
 author: "Eddie Miller Agency"
 date: "2026-02-18"
-category: "Études & Données"
+category: "Études & chiffres"
 tags: ["étude", "GEO", "visibilité IA", "dentiste", "Paris", "ChatGPT", "Perplexity", "données", "audit"]
 cta: "audit-geo-gratuit"
 lang: "fr"

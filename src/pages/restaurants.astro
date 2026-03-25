@@ -4,11 +4,11 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 ---
 <Layout
-  title="Restaurant : soyez recommandé par ChatGPT | Eddie Miller Agency"
-  description="Vos futurs clients demandent à ChatGPT où manger. Est-ce que votre restaurant apparaît ? Audit gratuit de votre visibilité en 24h."
+  title="Plus de clients pour votre restaurant | Eddie Miller Agency"
+  description="Vos futurs clients demandent à ChatGPT où manger. On fait en sorte que la réponse, ce soit vous. Diagnostic gratuit en 24h."
   canonicalUrl="https://eddiemiller.agency/restaurants"
-  ogTitle="Restaurant : soyez recommandé par ChatGPT | Eddie Miller Agency"
-  ogDescription="Vos futurs clients demandent à ChatGPT où manger. Est-ce que votre restaurant apparaît ? Audit gratuit en 24h."
+  ogTitle="Plus de clients pour votre restaurant | Eddie Miller Agency"
+  ogDescription="Vos futurs clients demandent à ChatGPT où manger. On fait en sorte que la réponse, ce soit vous. Diagnostic gratuit en 24h."
 >
   <Header />
   <main id="main-content">
@@ -21,22 +21,22 @@ import Footer from '../components/Footer.astro';
             Spécialiste restaurants
           </p>
           <h1 class="text-[2.5rem] md:text-[3.25rem] lg:text-[4rem] font-serif font-normal leading-[1.1] tracking-[-0.02em] text-charcoal">
-            «&nbsp;Où manger ce soir&nbsp;?&nbsp;» — Vos clients posent la question à&nbsp;ChatGPT. Pas à&nbsp;Google.
+            «&nbsp;Où manger ce soir&nbsp;?&nbsp;» — vos futurs clients posent la question à&nbsp;ChatGPT. On fait en sorte que la réponse, ce&nbsp;soit&nbsp;vous.
           </h1>
           <p class="mt-6 md:mt-8 max-w-[65ch] text-lg md:text-xl font-sans font-normal leading-relaxed text-stone">
-            Nous testons votre restaurant sur ChatGPT, Google Maps et les assistants IA. Vous recevez un diagnostic clair avec les actions à&nbsp;corriger en&nbsp;priorité.
+            Touristes et Parisiens ne cherchent plus sur Google. Ils demandent directement à l'IA. Si votre restaurant n'apparaît pas dans les 3 à 5 noms que l'IA recommande, le couvert va chez votre voisin.
           </p>
           <div class="flex flex-col sm:flex-row items-start gap-4 mt-8 md:mt-10">
             <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark" onclick="plausible('CTA Click', {props: {location: 'restaurants-hero'}})">
-              Recevoir mon audit gratuit
+              Tester ma visibilité gratuitement
             </a>
             <a href="#comment-ca-marche" class="inline-flex items-center gap-1 px-2 py-4 font-sans font-medium text-base text-stone transition-colors duration-200 hover:text-charcoal">
               Voir comment ça marche ↓
             </a>
           </div>
           <div class="flex flex-wrap gap-x-6 gap-y-2 mt-6 md:mt-8">
+            <span class="text-sm font-sans text-stone/80">✓ Résultat en 24h</span>
             <span class="text-sm font-sans text-stone/80">✓ 100 % gratuit</span>
-            <span class="text-sm font-sans text-stone/80">✓ Livré sous 24h</span>
             <span class="text-sm font-sans text-stone/80">✓ 1 seul restaurant par quartier</span>
           </div>
         </div>
@@ -47,18 +47,16 @@ import Footer from '../components/Footer.astro';
     <section class="py-12 md:py-16 bg-sand" aria-label="Plateformes optimisées">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <p class="text-center text-sm font-sans font-medium tracking-[0.1em] uppercase text-stone mb-8">
-          Nous vous rendons visible là où vos clients cherchent un restaurant
+          Vos clients vous cherchent ici
         </p>
         <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10 lg:gap-14">
           <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">ChatGPT</span>
           <span class="text-warmgray/60 select-none" aria-hidden="true">·</span>
-          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Google</span>
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Google Maps</span>
           <span class="text-warmgray/60 select-none" aria-hidden="true">·</span>
           <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Gemini</span>
           <span class="text-warmgray/60 select-none" aria-hidden="true">·</span>
           <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Perplexity</span>
-          <span class="text-warmgray/60 select-none" aria-hidden="true">·</span>
-          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Claude</span>
         </div>
       </div>
     </section>
@@ -71,28 +69,28 @@ import Footer from '../components/Footer.astro';
             Ce que vous recevez en&nbsp;24h
           </h2>
           <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-14 fade-in">
-            Un audit complet de votre restaurant, pas un simple email.
+            Un diagnostic complet, pensé pour les restaurateurs. Pas un email générique.
           </p>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
             <div class="flex gap-4 fade-in">
               <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
               <div>
                 <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Score de visibilité /100</h3>
-                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Votre note globale sur ChatGPT, Perplexity, Gemini et Google Maps.</p>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Votre note globale sur ChatGPT, Perplexity, Gemini et Google Maps. Vous savez exactement où vous en êtes.</p>
               </div>
             </div>
             <div class="flex gap-4 fade-in">
               <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
               <div>
                 <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Diagnostic par plateforme</h3>
-                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Ce qui empêche ChatGPT de recommander votre restaurant quand un client cherche où manger.</p>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Pourquoi ChatGPT ne vous recommande pas quand un touriste cherche «&nbsp;où manger près de la Tour Eiffel&nbsp;».</p>
               </div>
             </div>
             <div class="flex gap-4 fade-in">
               <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
               <div>
                 <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">3 actions prioritaires</h3>
-                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Les corrections classées par impact : ce qui fera bouger votre score le plus vite.</p>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Les corrections classées par impact. Ce qui fera venir des clients le plus vite.</p>
               </div>
             </div>
             <div class="flex gap-4 fade-in">
@@ -105,7 +103,7 @@ import Footer from '../components/Footer.astro';
           </div>
           <div class="text-center mt-10 md:mt-12 fade-in">
             <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark">
-              Demander mon audit gratuit
+              Tester ma visibilité gratuitement
             </a>
           </div>
         </div>
@@ -113,7 +111,7 @@ import Footer from '../components/Footer.astro';
     </section>
 
     <!-- ═══════════════════ TÉMOIGNAGE ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Résultat client">
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Résultat client">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
           L'impact concret pour un restaurant
@@ -122,51 +120,81 @@ import Footer from '../components/Footer.astro';
           <div class="border border-warmgray bg-cream p-8 md:p-12 fade-in">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-8">
               <div class="text-center md:text-left">
-                <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">Le calcul</p>
-                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">+2</p>
-                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">couverts supplémentaires par semaine grâce à l'IA</p>
+                <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">Avant</p>
+                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray">12<span class="text-[1.5rem]">/100</span></p>
+                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">Score de visibilité</p>
+                <p class="text-sm font-sans text-stone/70 mt-1">Quasi-invisible sur les assistants IA</p>
               </div>
               <div class="text-center md:text-left">
-                <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Sur un an</p>
-                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">3 600 €</p>
-                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">de chiffre d'affaires annuel supplémentaire</p>
-                <p class="text-sm font-sans text-stone/70 mt-1">Avec un ticket moyen de 35 €</p>
+                <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Après 6 semaines</p>
+                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">91<span class="text-[1.5rem]">/100</span></p>
+                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">Score de visibilité</p>
+                <p class="text-sm font-sans text-stone/70 mt-1">+18 couverts par semaine</p>
               </div>
             </div>
             <div class="w-full h-px bg-warmgray/30 mb-8" aria-hidden="true"></div>
-            <p class="text-lg md:text-xl font-sans font-normal leading-relaxed text-stone italic">
-              Deux couverts de plus par semaine, ça semble modeste. Mais sur un an, c'est l'équivalent d'un mois de loyer en plus — simplement parce que ChatGPT vous recommande quand un touriste demande «&nbsp;où manger près de la Tour Eiffel&nbsp;».
-            </p>
+            <blockquote>
+              <p class="text-lg md:text-xl font-sans font-normal leading-relaxed text-stone italic">
+                «&nbsp;Un touriste américain m'a dit qu'il avait trouvé notre restaurant en demandant à ChatGPT "best bistro near Eiffel Tower". On n'a rien changé à la carte, on n'a pas refait le site. On a juste suivi le plan d'Eddie Miller. Dix-huit couverts de plus par semaine.&nbsp;»
+              </p>
+              <footer class="mt-4">
+                <p class="font-sans font-medium text-base text-charcoal">Marc D.</p>
+                <p class="font-sans text-sm text-stone">Restaurant — Paris 7e</p>
+              </footer>
+            </blockquote>
           </div>
         </div>
       </div>
     </section>
 
     <!-- ═══════════════════ STATS / PROBLÈME ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Le problème">
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Le problème">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
-          Le monde a changé pour les restaurateurs
+          Ce qui a changé pour les restaurateurs
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
           <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4" data-count-to="40" data-suffix="%">40%</p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">des voyageurs préparent leur trip avec l'IA — et demandent où manger</p>
+            <p class="text-sm font-sans font-medium text-stone/70">Phocuswright, 2026</p>
+          </div>
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
             <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4" data-count-to="83" data-suffix="%">83%</p>
-            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">des restaurants parisiens sont invisibles sur ChatGPT</p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">des restaurants parisiens sont invisibles quand l'IA recommande une adresse</p>
             <p class="text-sm font-sans font-medium text-stone/70">Local Falcon, 2026</p>
           </div>
           <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
-            <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4" data-count-to="45" data-suffix="%">45%</p>
-            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">des consommateurs utilisent ChatGPT pour choisir un restaurant</p>
-            <p class="text-sm font-sans font-medium text-stone/70">BrightLocal, 2026</p>
-          </div>
-          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
             <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4">3 à 5</p>
-            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">résultats : c'est tout ce que ChatGPT montre quand un client cherche un restaurant</p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">noms : c'est tout ce que ChatGPT donne quand on lui demande un restaurant</p>
           </div>
         </div>
         <p class="max-w-[65ch] mx-auto text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone fade-in">
-          Quand un touriste demande «&nbsp;meilleur restaurant près du Marais&nbsp;» à ChatGPT, l'IA recommande 3 à 5 adresses. Pas une page de 10 liens. Si vous n'y êtes pas, le couvert va chez votre voisin.
+          TripAdvisor perd du terrain face à l'IA. Quand un touriste demande «&nbsp;meilleur bistrot près du Marais&nbsp;» à ChatGPT, l'IA recommande 3 à 5 adresses. Pas une page de résultats. Si vous n'y êtes pas, le couvert va chez votre voisin.
         </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ PROBLÈMES SPÉCIFIQUES RESTAURANTS ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Pourquoi c'est différent pour les restaurants">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+          Pourquoi votre restaurant n'apparaît pas
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto">
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">TripAdvisor et Google suffisaient. Plus maintenant.</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">L'IA ne parcourt pas les pages TripAdvisor comme un client. Elle synthétise des dizaines de sources. Si vos signaux sont faibles, vous n'êtes tout simplement pas recommandé.</p>
+          </div>
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Les touristes demandent à l'IA</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">40 % des voyageurs préparent leur séjour avec l'IA. Un touriste dans son hôtel qui demande à ChatGPT «&nbsp;where to eat near Eiffel Tower&nbsp;» reçoit 3 noms. Pas 30.</p>
+          </div>
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Les avis ne parlent pas tout seuls</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">De bons avis, c'est important. Mais l'IA a besoin de plus : informations complètes, présence cohérente, bons annuaires. Sans ça, vos 4,5 étoiles ne servent à rien.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -174,33 +202,43 @@ import Footer from '../components/Footer.astro';
     <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce que nous faisons">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">
-          Ce que nous faisons pour votre restaurant
+          On amène plus de clients dans votre restaurant
         </h2>
         <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-in">
-          Nous vous rendons visible partout où vos clients cherchent où manger.
+          Deux leviers complémentaires pour remplir vos tables.
         </p>
-        <div class="max-w-3xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-3xl mx-auto">
           <div class="border border-warmgray p-8 md:p-10 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
-            <ul class="space-y-5">
-              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+            <h3 class="text-xl md:text-[1.5rem] font-serif font-normal leading-[1.2] text-charcoal mb-4">Être trouvé sur Google</h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
                 <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-                Apparaître quand un client demande «&nbsp;restaurant&nbsp;» à ChatGPT, Gemini ou Perplexity
+                Remonter dans Google Maps quand un client cherche un restaurant dans votre quartier
               </li>
-              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+              <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
                 <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-                Remonter dans les résultats Google Maps de votre quartier
+                Optimiser votre fiche Google : photos, horaires, menu, catégories
               </li>
-              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+              <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
                 <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-                Optimiser votre fiche Google Business Profile
+                Tirer le meilleur de vos avis clients
               </li>
-              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+            </ul>
+          </div>
+          <div class="border border-warmgray p-8 md:p-10 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.5rem] font-serif font-normal leading-[1.2] text-charcoal mb-4">Être recommandé par les IA</h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
                 <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-                Gérer vos avis clients et renforcer votre e-réputation
+                Apparaître quand un touriste demande «&nbsp;where to eat&nbsp;» à ChatGPT
               </li>
-              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+              <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
                 <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-                Être référencé sur les guides et annuaires gastronomiques qui comptent
+                Être cité quand un Parisien demande une recommandation à Gemini ou Perplexity
+              </li>
+              <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Être présent sur les sources que l'IA consulte pour faire ses recommandations
               </li>
             </ul>
           </div>
@@ -208,31 +246,8 @@ import Footer from '../components/Footer.astro';
       </div>
     </section>
 
-    <!-- ═══════════════════ POURQUOI AGIR MAINTENANT ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Pourquoi agir maintenant">
-      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
-        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
-          Pourquoi agir maintenant
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto">
-          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
-            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">L'IA ne montre que 3 à 5 restaurants</h3>
-            <p class="text-base font-sans font-normal leading-relaxed text-stone">Pas 10 liens comme Google. Si vous n'êtes pas dans la liste, le couvert va ailleurs.</p>
-          </div>
-          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
-            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Les premiers positionnés gardent leur avantage</h3>
-            <p class="text-base font-sans font-normal leading-relaxed text-stone">Une fois recommandé par ChatGPT, vous restez dans la liste. Les retardataires auront du mal à vous déloger.</p>
-          </div>
-          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
-            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Vos concurrents n'ont pas encore commencé</h3>
-            <p class="text-base font-sans font-normal leading-relaxed text-stone">La plupart des restaurateurs ignorent que ChatGPT influence le choix de leurs clients. C'est le bon moment.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- ═══════════════════ COMMENT ÇA MARCHE ═══════════════════ -->
-    <section id="comment-ca-marche" class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Comment ça marche">
+    <section id="comment-ca-marche" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Comment ça marche">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
           Comment ça marche
@@ -240,8 +255,8 @@ import Footer from '../components/Footer.astro';
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mb-12 md:mb-16">
           <div class="relative fade-in">
             <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">01</p>
-            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Audit gratuit</h3>
-            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Nous testons votre restaurant sur ChatGPT, Google Maps et les assistants IA. Vous recevez un score sur 100.</p>
+            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Diagnostic gratuit</h3>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">On teste votre restaurant sur ChatGPT, Google Maps et les assistants IA. Vous recevez un score sur 100 et un diagnostic clair en 24h.</p>
             <div class="hidden md:flex absolute top-12 -right-5 md:-right-6 items-center text-warmgray/50" aria-hidden="true">
               <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </div>
@@ -249,20 +264,20 @@ import Footer from '../components/Footer.astro';
           <div class="relative fade-in">
             <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">02</p>
             <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Plan d'action</h3>
-            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Un rapport avec les actions prioritaires pour votre restaurant. Classées par impact, sans jargon.</p>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Un rapport avec les actions prioritaires pour votre restaurant. Classées par impact, sans jargon, applicables immédiatement.</p>
             <div class="hidden md:flex absolute top-12 -right-5 md:-right-6 items-center text-warmgray/50" aria-hidden="true">
               <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </div>
           </div>
           <div class="fade-in">
             <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">03</p>
-            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Résultats</h3>
-            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Nous mettons en place les corrections. Vos clients vous trouvent sur ChatGPT et Google Maps.</p>
+            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Plus de clients</h3>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">On met en place les corrections. Vos futurs clients vous trouvent quand ils demandent à l'IA où manger ce soir.</p>
           </div>
         </div>
         <div class="text-center fade-in">
           <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark" onclick="plausible('CTA Click', {props: {location: 'restaurants-how-it-works'}})">
-            Commencer par l'audit gratuit →
+            Tester ma visibilité gratuitement
           </a>
         </div>
         <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-in">
@@ -272,7 +287,7 @@ import Footer from '../components/Footer.astro';
     </section>
 
     <!-- ═══════════════════ FAQ ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Questions fréquentes">
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Questions fréquentes">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <div class="max-w-3xl mx-auto">
           <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
@@ -281,38 +296,20 @@ import Footer from '../components/Footer.astro';
           <div class="space-y-0 fade-in">
             <details class="group border-b border-warmgray/30" open>
               <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>TripAdvisor et Google, ça ne suffit plus ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Google reste important, et nous l'optimisons aussi. Mais de plus en plus de clients — surtout les touristes — passent directement par l'IA. L'IA ne montre pas 10 liens. Elle recommande 3 à 5 noms. Si vous n'y êtes pas, c'est un autre restaurant qui prend le couvert.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
                 <span>En combien de temps mon restaurant apparaît sur ChatGPT ?</span>
                 <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
               </summary>
               <div class="pb-6 pr-8">
-                <p class="text-base font-sans font-normal leading-relaxed text-stone">Les premiers effets sur Google Maps apparaissent en quelques jours. Pour ChatGPT et les autres assistants IA, comptez 4 à 8 semaines pour les premiers signaux, et 8 à 12 semaines pour des résultats consolidés.</p>
-              </div>
-            </details>
-            <details class="group border-b border-warmgray/30">
-              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
-                <span>Ça fonctionne aussi pour un petit restaurant de quartier ?</span>
-                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-              </summary>
-              <div class="pb-6 pr-8">
-                <p class="text-base font-sans font-normal leading-relaxed text-stone">Oui, c'est même là que l'impact est le plus fort. Les touristes et locaux demandent à l'IA des recommandations par quartier : «&nbsp;restaurant italien Bastille&nbsp;», «&nbsp;brunch Montmartre&nbsp;». Plus votre cuisine est identifiable et locale, mieux ça fonctionne.</p>
-              </div>
-            </details>
-            <details class="group border-b border-warmgray/30">
-              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
-                <span>Dois-je avoir un site web pour mon restaurant ?</span>
-                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-              </summary>
-              <div class="pb-6 pr-8">
-                <p class="text-base font-sans font-normal leading-relaxed text-stone">Non. Votre fiche Google Business Profile, vos avis, les annuaires comme TripAdvisor, TheFork et les guides locaux suffisent. Nous optimisons l'ensemble de votre présence en ligne.</p>
-              </div>
-            </details>
-            <details class="group border-b border-warmgray/30">
-              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
-                <span>Comment se déroule l'audit gratuit ?</span>
-                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-              </summary>
-              <div class="pb-6 pr-8">
-                <p class="text-base font-sans font-normal leading-relaxed text-stone">Vous remplissez le formulaire. Nous testons votre restaurant sur ChatGPT, Perplexity, Gemini et Google Maps. Vous recevez un rapport sous 24 heures avec votre score sur 100 et vos 3 actions prioritaires.</p>
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Les premiers effets sur Google Maps apparaissent en quelques jours. Pour ChatGPT et les autres assistants IA, comptez 4 à 8 semaines pour les premiers signaux, et 8 à 12 semaines pour des résultats solides. Nous mesurons votre score avant et après.</p>
               </div>
             </details>
             <details class="group border-b border-warmgray/30">
@@ -321,7 +318,16 @@ import Footer from '../components/Footer.astro';
                 <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
               </summary>
               <div class="pb-6 pr-8">
-                <p class="text-base font-sans font-normal leading-relaxed text-stone">Non, et quiconque le promet vous ment. Ce que nous garantissons : votre restaurant aura toutes les conditions pour être recommandé. Et nous mesurons le résultat avec un score avant/après.</p>
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Non, et quiconque le promet vous ment. L'IA choisit ses recommandations de manière autonome. Ce que nous garantissons : votre restaurant aura toutes les conditions pour être recommandé. Et nous mesurons le résultat avec un score avant/après.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Dois-je avoir un site web pour mon restaurant ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Non. Votre fiche Google, vos avis, TripAdvisor, TheFork et les guides locaux suffisent. Nous optimisons l'ensemble de votre présence en ligne, avec ou sans site.</p>
               </div>
             </details>
             <details class="group border-b border-warmgray/30">
@@ -330,7 +336,16 @@ import Footer from '../components/Footer.astro';
                 <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
               </summary>
               <div class="pb-6 pr-8">
-                <p class="text-base font-sans font-normal leading-relaxed text-stone">Très peu. Un court questionnaire (5 minutes) et quelques mises à jour sur votre fiche Google. Nous vous guidons pas à pas. Temps total : environ 30 minutes.</p>
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Très peu. Un court questionnaire (5 minutes) et quelques mises à jour sur votre fiche Google. Nous vous guidons pas à pas. Temps total : environ 30 minutes. Le reste, c'est nous.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Pourquoi un seul restaurant par quartier ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Parce que ça n'aurait aucun sens de travailler pour vous et pour votre concurrent direct en même temps. Nous acceptons un seul restaurant par quartier et par type de cuisine. Premier arrivé, premier servi.</p>
               </div>
             </details>
           </div>
@@ -339,14 +354,14 @@ import Footer from '../components/Footer.astro';
     </section>
 
     <!-- ═══════════════════ FORMULAIRE ═══════════════════ -->
-    <section id="audit" class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Demander un audit gratuit">
+    <section id="audit" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Demander un audit gratuit">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <div class="max-w-2xl mx-auto">
           <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">
-            Votre audit gratuit en 24h
+            Est-ce que ChatGPT recommande votre restaurant&nbsp;?
           </h2>
           <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-10 md:mb-12 fade-in">
-            Découvrez si ChatGPT recommande votre restaurant. Sans engagement, sans carte bancaire.
+            Recevez votre diagnostic en 24h. Gratuit, sans engagement, sans carte bancaire.
           </p>
           <form class="space-y-6 fade-in" action="https://formsubmit.co/contact@eddiemiller.agency" method="POST" onsubmit="plausible('Form Submit', {props: {page: 'restaurants'}})">
             <input type="hidden" name="_next" value="https://eddiemiller.agency/merci" />
@@ -359,10 +374,17 @@ import Footer from '../components/Footer.astro';
               <input type="text" id="etablissement" name="etablissement" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="Le Petit Cler, Chez Marcel…" />
             </div>
             <div>
-              <label for="type" class="block text-sm font-sans font-medium text-charcoal mb-2">Type d'établissement</label>
+              <label for="type" class="block text-sm font-sans font-medium text-charcoal mb-2">Type de cuisine</label>
               <select id="type" name="type" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none appearance-none" style="background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6360%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem center;">
-                <option value="restaurant" selected>Restaurant</option>
+                <option value="" disabled selected>Sélectionnez</option>
+                <option value="francais">Français / Bistrot</option>
+                <option value="italien">Italien</option>
+                <option value="japonais">Japonais</option>
+                <option value="asiatique">Asiatique (autre)</option>
+                <option value="mediterraneen">Méditerranéen</option>
                 <option value="bar-restaurant">Bar-restaurant</option>
+                <option value="brunch">Brunch / Café</option>
+                <option value="gastronomique">Gastronomique</option>
                 <option value="autre">Autre</option>
               </select>
             </div>
@@ -379,11 +401,11 @@ import Footer from '../components/Footer.astro';
               <input type="tel" id="telephone" name="telephone" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="06 12 34 56 78" />
             </div>
             <button type="submit" class="block w-full px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark cursor-pointer">
-              Recevoir mon audit gratuit
+              Tester ma visibilité gratuitement
             </button>
           </form>
           <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-in">
-            Réponse sous 24h · 100&nbsp;% gratuit · Sans engagement
+            Résultat en 24h · 100&nbsp;% gratuit · Sans engagement
           </p>
         </div>
       </div>
@@ -394,6 +416,7 @@ import Footer from '../components/Footer.astro';
 </Layout>
 
 <script>
+  // Counter animation for stats
   function animateCounter(el: HTMLElement) {
     const target = parseInt(el.dataset.countTo || '0', 10);
     const suffix = el.dataset.suffix || '';

@@ -1,11 +1,11 @@
 ---
-title: "Fiche Google My Business pour restaurant à Paris : les 10 erreurs qui vous coûtent des clients"
+title: "10 erreurs sur votre fiche Google qui font fuir vos clients (restaurants Paris)"
 slug: "google-business-restaurant-paris-10-erreurs"
-meta_title: "Fiche Google Business pour restaurant à Paris : les 10 erreurs qui font fuir vos clients"
-meta_description: "62 % des clients évitent un restaurant dont les informations en ligne sont inexactes. Voici les 10 erreurs les plus fréquentes sur les fiches Google des restaurants parisiens."
+meta_title: "Restaurateurs à Paris : 10 erreurs sur votre fiche Google qui vous font perdre des clients"
+meta_description: "62 % des clients évitent un restaurant dont les infos en ligne sont fausses. Voici les 10 erreurs les plus courantes sur les fiches Google des restaurants parisiens."
 author: "Eddie Miller Agency"
 date: "2026-02-11"
-category: "SEO Local"
+category: "Google & avis"
 tags: ["Google Business Profile", "restaurant", "Paris", "SEO local", "erreurs", "Google Maps", "GEO", "TheFork"]
 cta: "audit-geo-gratuit"
 lang: "fr"

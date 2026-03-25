@@ -1,11 +1,11 @@
 ---
-title: "Les avis Google de votre cabinet dentaire : comment les transformer en machine à patients"
+title: "Comment obtenir plus d'avis Google pour votre cabinet dentaire (et pourquoi c'est devenu vital)"
 slug: "avis-google-cabinet-dentaire-patients"
-meta_title: "Avis Google pour dentistes : comment obtenir plus d'avis et attirer plus de patients en 2026"
-meta_description: "Les avis Google influencent votre classement Maps, la confiance des patients ET les recommandations IA. Guide complet pour les cabinets dentaires à Paris."
+meta_title: "Plus d'avis Google pour votre cabinet dentaire : le guide pratique pour les dentistes à Paris"
+meta_description: "Vos avis Google décident si un patient vous choisit ou choisit un confrère. Voici comment en obtenir plus, mieux y répondre, et pourquoi les IA les utilisent aussi."
 author: "Eddie Miller Agency"
 date: "2026-02-07"
-category: "SEO Local"
+category: "Google & avis"
 tags: ["avis Google", "dentiste", "réputation en ligne", "Google Reviews", "SEO local", "Paris", "GEO", "visibilité IA"]
 cta: "audit-geo-gratuit"
 lang: "fr"

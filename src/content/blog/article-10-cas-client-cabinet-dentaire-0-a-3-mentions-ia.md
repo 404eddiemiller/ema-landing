@@ -1,8 +1,8 @@
 ---
-title: "Avant/Après : comment ce cabinet dentaire est passé de 0 à 3 mentions IA en 60 jours"
+title: "Comment ce cabinet dentaire est passé d'invisible à recommandé par ChatGPT en 60 jours"
 slug: "cas-client-cabinet-dentaire-0-a-3-mentions-ia-60-jours"
-meta_title: "Étude de cas GEO : un cabinet dentaire passe de 0 à 3 mentions IA en 60 jours"
-meta_description: "Score GEO passé de 12/100 à 54/100 en 60 jours. Voici les actions exactes qui ont permis à ce cabinet dentaire parisien d'apparaître dans les recommandations ChatGPT et Perplexity."
+meta_title: "Cas concret : un cabinet dentaire parisien recommandé par ChatGPT en 60 jours — voici comment"
+meta_description: "Ce cabinet dentaire à Paris n'apparaissait nulle part sur ChatGPT ni Perplexity. En 60 jours, il est devenu l'un des cabinets recommandés. Voici les actions exactes."
 author: "Eddie Miller Agency"
 date: "2026-02-21"
 category: "Études de cas"

@@ -4,10 +4,10 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 ---
 <Layout
-  title="Cabinet d'avocats : soyez recommandé par ChatGPT | Eddie Miller Agency"
-  description="Vos futurs clients demandent à ChatGPT quel avocat choisir. Est-ce que votre cabinet apparaît ? Audit gratuit de votre visibilité en 24h."
+  title="Plus de clients pour votre cabinet d'avocats | Eddie Miller Agency"
+  description="Vos futurs clients demandent à ChatGPT quel avocat choisir. Êtes-vous dans la liste ? Audit gratuit de votre visibilité IA en 24h — score sur 100, diagnostic clair, actions prioritaires."
   canonicalUrl="https://eddiemiller.agency/avocats"
-  ogTitle="Cabinet d'avocats : soyez recommandé par ChatGPT | Eddie Miller Agency"
+  ogTitle="Plus de clients pour votre cabinet d'avocats | Eddie Miller Agency"
   ogDescription="Vos futurs clients demandent à ChatGPT quel avocat choisir. Audit gratuit de votre visibilité en 24h."
 >
   <Header />
@@ -24,19 +24,26 @@ import Footer from '../components/Footer.astro';
             Vos futurs clients demandent à ChatGPT quel avocat choisir. Êtes-vous dans la&nbsp;liste&nbsp;?
           </h1>
           <p class="mt-6 md:mt-8 max-w-[65ch] text-lg md:text-xl font-sans font-normal leading-relaxed text-stone">
-            Nous testons votre cabinet sur ChatGPT, Google Maps et les assistants IA. Vous recevez un diagnostic clair avec les actions à&nbsp;corriger en&nbsp;priorité.
+            Un particulier en procédure de divorce, un dirigeant qui cherche un avocat en droit des affaires — de plus en plus posent la question à l'IA avant de décrocher leur téléphone. Nous vérifions si votre cabinet apparaît dans ces&nbsp;recommandations.
           </p>
           <div class="flex flex-col sm:flex-row items-start gap-4 mt-8 md:mt-10">
-            <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark" onclick="plausible('CTA Click', {props: {location: 'avocats-hero'}})">
-              Recevoir mon audit gratuit
+            <a
+              href="#audit"
+              class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark"
+              onclick="plausible('CTA Click', {props: {location: 'avocats-hero'}})"
+            >
+              Tester ma visibilité gratuitement
             </a>
-            <a href="#comment-ca-marche" class="inline-flex items-center gap-1 px-2 py-4 font-sans font-medium text-base text-stone transition-colors duration-200 hover:text-charcoal">
+            <a
+              href="#comment-ca-marche"
+              class="inline-flex items-center gap-1 px-2 py-4 font-sans font-medium text-base text-stone transition-colors duration-200 hover:text-charcoal"
+            >
               Voir comment ça marche ↓
             </a>
           </div>
           <div class="flex flex-wrap gap-x-6 gap-y-2 mt-6 md:mt-8">
+            <span class="text-sm font-sans text-stone/80">✓ Résultat en 24h</span>
             <span class="text-sm font-sans text-stone/80">✓ 100 % gratuit</span>
-            <span class="text-sm font-sans text-stone/80">✓ Livré sous 24h</span>
             <span class="text-sm font-sans text-stone/80">✓ 1 seul cabinet par quartier et spécialité</span>
           </div>
         </div>
@@ -47,7 +54,7 @@ import Footer from '../components/Footer.astro';
     <section class="py-12 md:py-16 bg-sand" aria-label="Plateformes optimisées">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <p class="text-center text-sm font-sans font-medium tracking-[0.1em] uppercase text-stone mb-8">
-          Nous vous rendons visible là où vos futurs clients cherchent un avocat
+          Vos futurs clients cherchent un avocat ici
         </p>
         <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10 lg:gap-14">
           <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">ChatGPT</span>
@@ -67,127 +74,347 @@ import Footer from '../components/Footer.astro';
     <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce que vous recevez">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <div class="max-w-3xl mx-auto">
-          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">Ce que vous recevez en&nbsp;24h</h2>
-          <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-14 fade-in">Un audit complet de votre cabinet, pas un simple email.</p>
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">
+            Ce que vous recevez en&nbsp;24h
+          </h2>
+          <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-14 fade-in">
+            Un audit complet de votre cabinet, pas un simple email.
+          </p>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
-            <div class="flex gap-4 fade-in"><div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div><div><h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Score de visibilité /100</h3><p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Votre note globale sur ChatGPT, Perplexity, Gemini et Google Maps.</p></div></div>
-            <div class="flex gap-4 fade-in"><div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div><div><h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Diagnostic par plateforme</h3><p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Ce qui empêche ChatGPT de recommander votre cabinet quand un client cherche un avocat.</p></div></div>
-            <div class="flex gap-4 fade-in"><div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div><div><h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">3 actions prioritaires</h3><p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Les corrections classées par impact : ce qui fera bouger votre score le plus vite.</p></div></div>
-            <div class="flex gap-4 fade-in"><div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div><div><h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Appel de restitution</h3><p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">15 minutes pour parcourir vos résultats, répondre à vos questions et définir la suite.</p></div></div>
+            <div class="flex gap-4 fade-in">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Score de visibilité /100</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Votre note globale sur ChatGPT, Perplexity, Gemini et Google Maps pour vos spécialités juridiques.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 fade-in">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Diagnostic par plateforme</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Ce qui empêche ChatGPT de recommander votre cabinet quand un client cherche un avocat dans votre domaine.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 fade-in">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">3 actions prioritaires</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Les corrections classées par impact : ce qui fera bouger votre score le plus vite.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 fade-in">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Appel de restitution</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">15 minutes pour parcourir vos résultats, répondre à vos questions et définir la suite.</p>
+              </div>
+            </div>
           </div>
-          <div class="text-center mt-10 md:mt-12 fade-in"><a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark">Demander mon audit gratuit</a></div>
+          <div class="text-center mt-10 md:mt-12 fade-in">
+            <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark">
+              Demander mon audit gratuit
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ TÉMOIGNAGE ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Résultat client">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+          Résultat pour un cabinet d'avocats
+        </h2>
+        <div class="max-w-3xl mx-auto">
+          <div class="border border-warmgray bg-cream p-8 md:p-12 fade-in">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-8">
+              <div class="text-center md:text-left">
+                <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">Avant</p>
+                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray">5<span class="text-[1.5rem]">/100</span></p>
+                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">Score de visibilité</p>
+                <p class="text-sm font-sans text-stone/70 mt-1">Aucune mention sur ChatGPT pour ses spécialités</p>
+              </div>
+              <div class="text-center md:text-left">
+                <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Après 8 semaines</p>
+                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">72<span class="text-[1.5rem]">/100</span></p>
+                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">Score de visibilité</p>
+                <p class="text-sm font-sans text-stone/70 mt-1">+8 nouveaux dossiers/mois</p>
+              </div>
+            </div>
+            <div class="w-full h-px bg-warmgray/30 mb-8" aria-hidden="true"></div>
+            <blockquote>
+              <p class="text-lg md:text-xl font-sans font-normal leading-relaxed text-stone italic">
+                «&nbsp;Plusieurs nouveaux clients nous ont dit qu'ils avaient trouvé notre cabinet en demandant à ChatGPT un avocat en droit du travail dans le 8e. Avant, ce type de demande passait uniquement par le bouche-à-oreille.&nbsp;»
+              </p>
+              <footer class="mt-4">
+                <p class="font-sans font-medium text-base text-charcoal">Me Camille L.</p>
+                <p class="font-sans text-sm text-stone">Cabinet d'avocats — Paris 8e</p>
+              </footer>
+            </blockquote>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- ═══════════════════ STATS / PROBLÈME ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Le problème">
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Le problème">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
-        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">Le monde a changé pour les avocats</h2>
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+          Ce qui a changé pour les avocats
+        </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
-          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+          <div class="border border-warmgray p-8 bg-sand transition-colors duration-300 hover:border-terracotta fade-in">
+            <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4" data-count-to="45" data-suffix="%">45%</p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">des particuliers utilisent l'IA pour trouver un avocat</p>
+            <p class="text-sm font-sans font-medium text-stone/70">BrightLocal, 2026</p>
+          </div>
+          <div class="border border-warmgray p-8 bg-sand transition-colors duration-300 hover:border-terracotta fade-in">
             <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4" data-count-to="83" data-suffix="%">83%</p>
             <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">des cabinets d'avocats sont invisibles sur ChatGPT</p>
             <p class="text-sm font-sans font-medium text-stone/70">Local Falcon, 2026</p>
           </div>
-          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
-            <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4" data-count-to="45" data-suffix="%">45%</p>
-            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">des particuliers utilisent ChatGPT pour trouver un professionnel du droit</p>
-            <p class="text-sm font-sans font-medium text-stone/70">BrightLocal, 2026</p>
-          </div>
-          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+          <div class="border border-warmgray p-8 bg-sand transition-colors duration-300 hover:border-terracotta fade-in">
             <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4">3 à 5</p>
-            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">résultats : c'est tout ce que ChatGPT montre quand un client cherche un avocat</p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">résultats : c'est tout ce que ChatGPT montre quand on lui demande un avocat</p>
           </div>
         </div>
         <p class="max-w-[65ch] mx-auto text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone fade-in">
-          Quand un particulier demande «&nbsp;meilleur avocat droit du travail Paris&nbsp;» à ChatGPT, l'IA ne recommande que 3 à 5 cabinets. Si vous n'y êtes pas, le dossier va chez un confrère.
+          Le bouche-à-oreille et les réseaux professionnels restent importants. Mais de plus en plus de clients — surtout ceux en urgence — passent d'abord par l'IA. Si votre cabinet n'y figure pas, le dossier va chez un&nbsp;confrère.
         </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ PROBLÈMES SPÉCIFIQUES AVOCATS ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Pourquoi agir maintenant">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+          Pourquoi agir maintenant
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto">
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Le réseau ne suffit plus</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">Historiquement, les clients venaient par recommandation. Mais un particulier en urgence — divorce, litige, mise en demeure — demande directement à l'IA. Si vous n'êtes pas visible, un autre cabinet prend l'appel.</p>
+          </div>
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Les annuaires d'avocats ont perdu du terrain</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">Les clients consultaient l'annuaire du Barreau. Aujourd'hui, ils demandent à ChatGPT «&nbsp;meilleur avocat droit du travail Paris&nbsp;». Les règles du jeu ont changé.</p>
+          </div>
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Votre spécialité doit être visible</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">L'IA a besoin de comprendre ce que vous faites. Si votre présence en ligne ne mentionne pas clairement vos domaines de compétence, elle ne peut pas vous recommander.</p>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- ═══════════════════ SOLUTION ═══════════════════ -->
     <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce que nous faisons">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
-        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">Ce que nous faisons pour votre cabinet</h2>
-        <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-in">Nous vous rendons visible partout où vos futurs clients cherchent un avocat.</p>
-        <div class="max-w-3xl mx-auto">
-          <div class="border border-warmgray p-8 md:p-10 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
-            <ul class="space-y-5">
-              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone"><span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>Apparaître quand un client demande «&nbsp;avocat&nbsp;» à ChatGPT, Gemini ou Perplexity</li>
-              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone"><span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>Remonter dans les résultats Google Maps de votre arrondissement</li>
-              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone"><span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>Optimiser votre fiche Google Business Profile</li>
-              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone"><span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>Gérer vos avis clients et renforcer votre e-réputation</li>
-              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone"><span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>Être référencé sur les annuaires juridiques qui comptent</li>
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">
+          Ce que nous faisons pour votre cabinet
+        </h2>
+        <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-in">
+          On amène plus de clients dans votre cabinet. Sur ChatGPT, Google Maps et les assistants IA.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
+          <div class="border border-warmgray p-8 md:p-10 bg-sand transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-5">Visibilité IA</h3>
+            <ul class="space-y-4">
+              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Apparaître quand un client demande «&nbsp;avocat divorce Paris&nbsp;» à ChatGPT, Gemini ou Perplexity
+              </li>
+              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Structurer votre présence en ligne pour que l'IA comprenne vos spécialités
+              </li>
+              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Être référencé sur les annuaires juridiques qui comptent pour les algorithmes
+              </li>
+            </ul>
+          </div>
+          <div class="border border-warmgray p-8 md:p-10 bg-sand transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-5">Visibilité locale</h3>
+            <ul class="space-y-4">
+              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Remonter dans les résultats Google Maps de votre arrondissement
+              </li>
+              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Optimiser votre fiche Google Business Profile
+              </li>
+              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Gérer vos avis clients et renforcer votre e-réputation
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ═══════════════════ POURQUOI AGIR MAINTENANT ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Pourquoi agir maintenant">
-      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
-        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">Pourquoi agir maintenant</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto">
-          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in"><h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">L'IA ne montre que 3 à 5 cabinets</h3><p class="text-base font-sans font-normal leading-relaxed text-stone">Pas 10 liens comme Google. Si vous n'êtes pas dans la liste, le dossier va chez un confrère.</p></div>
-          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in"><h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Les premiers positionnés gardent leur avantage</h3><p class="text-base font-sans font-normal leading-relaxed text-stone">Une fois recommandé par ChatGPT, vous restez en tête. Les retardataires auront beaucoup plus de mal à vous déloger.</p></div>
-          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in"><h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Vos confrères n'ont pas encore commencé</h3><p class="text-base font-sans font-normal leading-relaxed text-stone">La plupart des cabinets d'avocats ignorent encore que ChatGPT influence le choix de leurs clients. C'est le bon moment.</p></div>
-        </div>
-      </div>
-    </section>
-
     <!-- ═══════════════════ COMMENT ÇA MARCHE ═══════════════════ -->
-    <section id="comment-ca-marche" class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Comment ça marche">
+    <section id="comment-ca-marche" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Comment ça marche">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
-        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">Comment ça marche</h2>
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+          Comment ça marche
+        </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mb-12 md:mb-16">
-          <div class="relative fade-in"><p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">01</p><h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Audit gratuit</h3><p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Nous testons votre cabinet sur ChatGPT, Google Maps et les assistants IA. Vous recevez un score sur 100.</p><div class="hidden md:flex absolute top-12 -right-5 md:-right-6 items-center text-warmgray/50" aria-hidden="true"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div>
-          <div class="relative fade-in"><p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">02</p><h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Plan d'action</h3><p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Un rapport avec les actions prioritaires pour votre cabinet. Classées par impact, sans jargon.</p><div class="hidden md:flex absolute top-12 -right-5 md:-right-6 items-center text-warmgray/50" aria-hidden="true"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div>
-          <div class="fade-in"><p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">03</p><h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Résultats</h3><p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Nous mettons en place les corrections. Vos clients vous trouvent sur ChatGPT et Google Maps.</p></div>
+          <div class="relative fade-in">
+            <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">01</p>
+            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Audit gratuit</h3>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Nous testons votre cabinet sur ChatGPT, Google Maps et les assistants IA pour chacune de vos spécialités. Vous recevez un score sur 100.</p>
+            <div class="hidden md:flex absolute top-12 -right-5 md:-right-6 items-center text-warmgray/50" aria-hidden="true">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </div>
+          <div class="relative fade-in">
+            <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">02</p>
+            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Plan d'action</h3>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Un rapport clair avec les actions prioritaires pour votre cabinet. Classées par impact, adaptées à votre domaine juridique.</p>
+            <div class="hidden md:flex absolute top-12 -right-5 md:-right-6 items-center text-warmgray/50" aria-hidden="true">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </div>
+          <div class="fade-in">
+            <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">03</p>
+            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Résultats</h3>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Nous mettons en place les corrections. Vos clients vous trouvent sur ChatGPT et Google Maps quand ils cherchent un avocat dans votre spécialité.</p>
+          </div>
         </div>
-        <div class="text-center fade-in"><a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark" onclick="plausible('CTA Click', {props: {location: 'avocats-how-it-works'}})">Commencer par l'audit gratuit →</a></div>
-        <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-in">Un seul cabinet d'avocats par arrondissement et par spécialité — pour vous garantir l'exclusivité.</p>
+        <div class="text-center fade-in">
+          <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark" onclick="plausible('CTA Click', {props: {location: 'avocats-how-it-works'}})">
+            Commencer par l'audit gratuit →
+          </a>
+        </div>
+        <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-in">
+          Un seul cabinet d'avocats par arrondissement et par spécialité — pour vous garantir l'exclusivité.
+        </p>
       </div>
     </section>
 
     <!-- ═══════════════════ FAQ ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Questions fréquentes">
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Questions fréquentes">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <div class="max-w-3xl mx-auto">
-          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">Questions fréquentes</h2>
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+            Questions fréquentes
+          </h2>
           <div class="space-y-0 fade-in">
-            <details class="group border-b border-warmgray/30" open><summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden"><span>En combien de temps mon cabinet apparaît sur ChatGPT ?</span><svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div class="pb-6 pr-8"><p class="text-base font-sans font-normal leading-relaxed text-stone">Les premiers effets sur Google Maps apparaissent en quelques jours. Pour ChatGPT, comptez 4 à 8 semaines pour les premiers signaux, et 8 à 12 semaines pour des résultats consolidés.</p></div></details>
-            <details class="group border-b border-warmgray/30"><summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden"><span>Ça fonctionne quelle que soit ma spécialité juridique ?</span><svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div class="pb-6 pr-8"><p class="text-base font-sans font-normal leading-relaxed text-stone">Oui. Droit du travail, droit de la famille, droit des affaires, droit immobilier — les particuliers et entreprises cherchent par spécialité et par localisation. «&nbsp;Avocat divorce Paris 16e&nbsp;» ou «&nbsp;avocat droit commercial Neuilly&nbsp;» : c'est exactement ce que l'IA optimise.</p></div></details>
-            <details class="group border-b border-warmgray/30"><summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden"><span>Dois-je avoir un site web pour mon cabinet ?</span><svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div class="pb-6 pr-8"><p class="text-base font-sans font-normal leading-relaxed text-stone">Non, ce n'est pas obligatoire. Votre fiche Google Business Profile, les annuaires juridiques et les avis clients suffisent. Un site aide, mais n'est pas un pré-requis.</p></div></details>
-            <details class="group border-b border-warmgray/30"><summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden"><span>Comment se déroule l'audit gratuit ?</span><svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div class="pb-6 pr-8"><p class="text-base font-sans font-normal leading-relaxed text-stone">Vous remplissez le formulaire. Nous testons votre cabinet sur ChatGPT, Perplexity, Gemini et Google Maps. Vous recevez un rapport sous 24 heures avec votre score sur 100 et vos 3 actions prioritaires.</p></div></details>
-            <details class="group border-b border-warmgray/30"><summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden"><span>Vous garantissez d'apparaître sur ChatGPT ?</span><svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div class="pb-6 pr-8"><p class="text-base font-sans font-normal leading-relaxed text-stone">Non, et quiconque le promet vous ment. Ce que nous garantissons : votre cabinet aura toutes les conditions pour être recommandé. Et nous mesurons le résultat avec un score avant/après.</p></div></details>
-            <details class="group border-b border-warmgray/30"><summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden"><span>Qu'est-ce que je dois faire de mon côté ?</span><svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div class="pb-6 pr-8"><p class="text-base font-sans font-normal leading-relaxed text-stone">Très peu. Un court questionnaire (5 minutes) et quelques mises à jour sur votre fiche Google. Nous vous guidons pas à pas. Temps total : environ 30 minutes.</p></div></details>
+            <details class="group border-b border-warmgray/30" open>
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Est-ce compatible avec les règles déontologiques du Barreau ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Oui. Il ne s'agit pas de publicité au sens réglementaire. Nous optimisons votre présence en ligne existante — fiche Google, annuaires juridiques, mentions sur le web — pour que les plateformes d'IA et les moteurs de recherche comprennent mieux qui vous êtes et ce que vous faites. C'est de la visibilité, pas du démarchage.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>En combien de temps mon cabinet apparaît sur ChatGPT ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Les premiers effets sur Google Maps apparaissent en quelques jours. Pour ChatGPT, comptez 4 à 8 semaines pour les premiers signaux, et 8 à 12 semaines pour des résultats consolidés. La durée dépend aussi de la concurrence sur votre spécialité et votre arrondissement.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Vous garantissez d'apparaître sur ChatGPT ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Non, et quiconque le promet vous ment. Ce que nous garantissons : votre cabinet aura toutes les conditions pour être recommandé. Et nous mesurons le résultat avec un score avant/après.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Dois-je avoir un site web pour mon cabinet ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Non, ce n'est pas obligatoire. Votre fiche Google Business Profile, les annuaires juridiques et les avis clients suffisent pour démarrer. Un site aide, mais n'est pas un pré-requis.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Qu'est-ce que je dois faire de mon côté ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Très peu. Un court questionnaire (5 minutes) et quelques mises à jour sur votre fiche Google. Nous vous guidons pas à pas. Temps total : environ 30 minutes.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Un seul cabinet par quartier et spécialité, vraiment ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Oui. Nous n'accompagnons qu'un seul cabinet par arrondissement et par domaine de spécialité. Si un confrère en droit de la famille dans votre quartier travaille déjà avec nous, nous ne pouvons pas vous accompagner sur ce même créneau. C'est notre garantie d'exclusivité.</p>
+              </div>
+            </details>
           </div>
         </div>
       </div>
     </section>
 
     <!-- ═══════════════════ FORMULAIRE ═══════════════════ -->
-    <section id="audit" class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Demander un audit gratuit">
+    <section id="audit" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Demander un audit gratuit">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <div class="max-w-2xl mx-auto">
-          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">Votre audit gratuit en 24h</h2>
-          <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-10 md:mb-12 fade-in">Découvrez si ChatGPT recommande votre cabinet d'avocats. Sans engagement, sans carte bancaire.</p>
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">
+            Votre cabinet est-il visible sur ChatGPT ?
+          </h2>
+          <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-10 md:mb-12 fade-in">
+            Recevez votre score de visibilité en 24h. Sans engagement, sans carte bancaire.
+          </p>
           <form class="space-y-6 fade-in" action="https://formsubmit.co/contact@eddiemiller.agency" method="POST" onsubmit="plausible('Form Submit', {props: {page: 'avocats'}})">
             <input type="hidden" name="_next" value="https://eddiemiller.agency/merci" />
-            <input type="hidden" name="_subject" value="Audit avocat — Eddie Miller Agency" />
+            <input type="hidden" name="_subject" value="Audit cabinet d'avocats — Eddie Miller Agency" />
             <input type="hidden" name="_captcha" value="true" />
             <input type="text" name="_honey" style="display:none" />
             <input type="hidden" name="source" value="page-avocats" />
-            <div><label for="etablissement" class="block text-sm font-sans font-medium text-charcoal mb-2">Nom du cabinet</label><input type="text" id="etablissement" name="etablissement" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="Cabinet Dupont & Associés…" /></div>
-            <div><label for="type" class="block text-sm font-sans font-medium text-charcoal mb-2">Type d'établissement</label><select id="type" name="type" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none appearance-none" style="background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6360%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem center;"><option value="avocat" selected>Cabinet d'avocats</option><option value="autre">Autre</option></select></div>
-            <div><label for="localisation" class="block text-sm font-sans font-medium text-charcoal mb-2">Arrondissement ou ville</label><input type="text" id="localisation" name="localisation" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="Paris 8e, La Défense…" /></div>
-            <div><label for="email" class="block text-sm font-sans font-medium text-charcoal mb-2">Adresse email</label><input type="email" id="email" name="email" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="vous@exemple.com" /></div>
-            <div><label for="telephone" class="block text-sm font-sans font-medium text-charcoal mb-2">Numéro de téléphone <span class="text-warmgray font-normal">(optionnel)</span></label><input type="tel" id="telephone" name="telephone" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="06 12 34 56 78" /></div>
-            <button type="submit" class="block w-full px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark cursor-pointer">Recevoir mon audit gratuit</button>
+            <div>
+              <label for="etablissement" class="block text-sm font-sans font-medium text-charcoal mb-2">Nom du cabinet</label>
+              <input type="text" id="etablissement" name="etablissement" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="Cabinet Dupont & Associés…" />
+            </div>
+            <div>
+              <label for="specialite" class="block text-sm font-sans font-medium text-charcoal mb-2">Spécialité principale</label>
+              <select id="specialite" name="specialite" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none appearance-none" style="background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6360%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem center;">
+                <option value="" disabled selected>Sélectionnez votre spécialité</option>
+                <option value="droit-famille">Droit de la famille</option>
+                <option value="droit-travail">Droit du travail</option>
+                <option value="droit-affaires">Droit des affaires</option>
+                <option value="droit-penal">Droit pénal</option>
+                <option value="droit-immobilier">Droit immobilier</option>
+                <option value="droit-fiscal">Droit fiscal</option>
+                <option value="generaliste">Généraliste</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+            <div>
+              <label for="localisation" class="block text-sm font-sans font-medium text-charcoal mb-2">Arrondissement ou ville</label>
+              <input type="text" id="localisation" name="localisation" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="Paris 8e, La Défense…" />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-sans font-medium text-charcoal mb-2">Adresse email</label>
+              <input type="email" id="email" name="email" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="vous@cabinet.fr" />
+            </div>
+            <div>
+              <label for="telephone" class="block text-sm font-sans font-medium text-charcoal mb-2">Numéro de téléphone <span class="text-warmgray font-normal">(optionnel)</span></label>
+              <input type="tel" id="telephone" name="telephone" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="06 12 34 56 78" />
+            </div>
+            <button type="submit" class="block w-full px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark cursor-pointer">
+              Tester ma visibilité gratuitement
+            </button>
           </form>
-          <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-in">Réponse sous 24h · 100&nbsp;% gratuit · Sans engagement</p>
+          <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-in">
+            Réponse sous 24h · 100&nbsp;% gratuit · Sans engagement
+          </p>
         </div>
       </div>
     </section>
@@ -197,7 +424,32 @@ import Footer from '../components/Footer.astro';
 </Layout>
 
 <script>
-  function animateCounter(el: HTMLElement) { const target = parseInt(el.dataset.countTo || '0', 10); const suffix = el.dataset.suffix || ''; el.textContent = '0' + suffix; const duration = 1500; const start = performance.now(); function update(now: number) { const elapsed = now - start; const progress = Math.min(elapsed / duration, 1); const eased = 1 - Math.pow(1 - progress, 3); const current = Math.round(eased * target); el.textContent = current + suffix; if (progress < 1) requestAnimationFrame(update); } requestAnimationFrame(update); }
-  const counterObserver = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { animateCounter(entry.target as HTMLElement); counterObserver.unobserve(entry.target); } }); }, { threshold: 0.3 });
+  // Counter animation
+  function animateCounter(el: HTMLElement) {
+    const target = parseInt(el.dataset.countTo || '0', 10);
+    const suffix = el.dataset.suffix || '';
+    el.textContent = '0' + suffix;
+    const duration = 1500;
+    const start = performance.now();
+    function update(now: number) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.round(eased * target);
+      el.textContent = current + suffix;
+      if (progress < 1) requestAnimationFrame(update);
+    }
+    requestAnimationFrame(update);
+  }
+
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target as HTMLElement);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+
   document.querySelectorAll<HTMLElement>('[data-count-to]').forEach(el => counterObserver.observe(el));
 </script>

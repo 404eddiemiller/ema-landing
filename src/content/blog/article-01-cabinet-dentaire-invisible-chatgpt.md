@@ -1,11 +1,11 @@
 ---
-title: "Votre cabinet dentaire est invisible sur ChatGPT : voici pourquoi"
+title: "Pourquoi votre cabinet n'apparaît pas quand on demande un dentiste à ChatGPT"
 slug: "cabinet-dentaire-invisible-chatgpt"
-meta_title: "Votre cabinet dentaire est invisible sur ChatGPT — Les 7 raisons et comment y remédier"
-meta_description: "Quand un patient demande à ChatGPT ou Perplexity de recommander un dentiste à Paris, votre cabinet n'apparaît pas. Découvrez les 7 raisons et les solutions concrètes."
+meta_title: "Pourquoi votre cabinet n'apparaît pas quand on demande un dentiste à ChatGPT — 7 raisons et solutions"
+meta_description: "De plus en plus de patients demandent à ChatGPT de leur recommander un dentiste à Paris. Si votre cabinet n'apparaît pas, voici les 7 raisons et comment y remédier."
 author: "Eddie Miller Agency"
 date: "2026-01-21"
-category: "GEO & Visibilité IA"
+category: "Visibilité en ligne"
 tags: ["dentiste", "ChatGPT", "GEO", "visibilité IA", "cabinet dentaire", "Paris", "Perplexity", "SEO local"]
 cta: "audit-geo-gratuit"
 lang: "fr"

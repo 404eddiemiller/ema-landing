@@ -1,11 +1,11 @@
 ---
-title: "SEO local en 2026 : ce qui a changé et ce que vous devez faire maintenant"
+title: "Être trouvé sur Google en 2026 : ce qui a changé pour les commerces parisiens"
 slug: "seo-local-2026-tendances-actions"
-meta_title: "SEO local en 2026 : les changements clés et les actions à prendre pour les commerces parisiens"
-meta_description: "Le SEO local en 2026 n'est plus ce qu'il était. AI Overviews, recherche conversationnelle, zéro clic — voici ce qui a changé et les 7 actions à prendre maintenant."
+meta_title: "Être trouvé sur Google en 2026 : ce qui a changé et quoi faire pour votre commerce à Paris"
+meta_description: "Google ne fonctionne plus comme avant. Les IA répondent à la place des sites web. Voici ce qui a changé en 2026 et les 7 actions concrètes pour que votre commerce reste visible."
 author: "Eddie Miller Agency"
 date: "2026-03-17"
-category: "SEO Local"
+category: "Google & avis"
 tags: ["SEO local", "2026", "tendances", "Google", "GEO", "AI Overview", "commerce local", "Paris"]
 cta: "audit-geo-gratuit"
 lang: "fr"

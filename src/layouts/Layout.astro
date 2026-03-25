@@ -13,8 +13,8 @@ const {
   title,
   description,
   canonicalUrl = 'https://eddiemiller.agency',
-  ogTitle = 'Soyez recommandé par ChatGPT | Eddie Miller Agency',
-  ogDescription = 'Vos clients vous cherchent sur ChatGPT. Est-ce qu\'ils vous trouvent ? Audit gratuit de votre visibilité en 24h.',
+  ogTitle = 'Soyez trouvé par vos futurs clients | Eddie Miller Agency',
+  ogDescription = 'On aide les commerces parisiens à être trouvés par leurs futurs clients — sur Google et sur les IA. Audit gratuit en 24h.',
   ogType = 'website',
 } = Astro.props;
 ---
@@ -60,7 +60,7 @@ const {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "name": "Eddie Miller Agency",
-        "description": "Agence spécialisée en visibilité ChatGPT et Google Maps pour restaurants, hôtels et cabinets professionnels à Paris.",
+        "description": "On aide les commerces parisiens à être trouvés par leurs futurs clients — sur Google et sur les IA.",
         "url": "https://eddiemiller.agency",
         "email": "contact@eddiemiller.agency",
         "logo": "https://eddiemiller.agency/favicon-192x192.png",
@@ -76,21 +76,21 @@ const {
           "name": "Paris"
         },
         "serviceType": [
-          "Visibilité ChatGPT",
-          "Visibilité Google Maps",
+          "Visibilité en ligne pour commerces locaux",
+          "Référencement Google Maps",
           "Optimisation Google Business Profile",
-          "Visibilité IA"
+          "Visibilité sur les moteurs de recherche et assistants IA"
         ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "Services de visibilité digitale pour établissements locaux",
+          "name": "Services pour aider les commerces locaux à être trouvés en ligne",
           "itemListElement": [
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
                 "name": "Audit de visibilité gratuit",
-                "description": "Analyse complète de votre visibilité sur ChatGPT, Perplexity, Gemini et Google Maps. Score sur 100 et recommandations prioritaires.",
+                "description": "On vérifie si vos futurs clients vous trouvent sur Google et sur les IA. Vous recevez un score sur 100 et des recommandations concrètes.",
                 "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
               }
             },
@@ -99,7 +99,7 @@ const {
               "itemOffered": {
                 "@type": "Service",
                 "name": "Création de site web professionnel",
-                "description": "Conception et développement d'un site web optimisé pour les établissements locaux. Base indispensable pour le référencement et la visibilité en ligne."
+                "description": "Un site web clair et bien construit pour que vos futurs clients vous trouvent facilement en ligne."
               }
             },
             {
@@ -107,15 +107,15 @@ const {
               "itemOffered": {
                 "@type": "Service",
                 "name": "Optimisation Google Maps et Google Business Profile",
-                "description": "Classement Google Maps, optimisation fiche Google Business Profile, stratégie d'avis et référencement annuaires pour maximiser votre visibilité locale."
+                "description": "Votre fiche Google bien renseignée, de meilleurs avis, et plus de clients qui vous trouvent sur Google Maps."
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Optimisation visibilité ChatGPT et assistants IA",
-                "description": "Optimisation pour apparaître dans les recommandations de ChatGPT, Gemini et Perplexity. Soyez le résultat recommandé, pas l'invisible."
+                "name": "Visibilité sur les assistants IA",
+                "description": "Quand quelqu'un demande une recommandation à ChatGPT ou Gemini, votre commerce apparaît dans les résultats."
               }
             }
           ]
@@ -128,14 +128,14 @@ const {
       {
         "@context": "https://schema.org",
         "@type": "HowTo",
-        "name": "Comment obtenir un audit de visibilité IA gratuit",
-        "description": "Trois étapes simples pour connaître votre score de visibilité IA et améliorer votre présence sur ChatGPT, Google et les assistants IA.",
+        "name": "Comment savoir si vos futurs clients vous trouvent en ligne",
+        "description": "Trois étapes simples pour savoir si vos futurs clients vous trouvent en ligne — et comment améliorer votre visibilité.",
         "step": [
           {
             "@type": "HowToStep",
             "position": 1,
             "name": "Audit gratuit",
-            "text": "Nous testons votre établissement sur ChatGPT, Google Maps et les assistants IA. Vous recevez un score sur 100 et un diagnostic clair."
+            "text": "Nous vérifions si vos futurs clients vous trouvent sur Google et sur les IA. Vous recevez un score sur 100 et un diagnostic clair."
           },
           {
             "@type": "HowToStep",
@@ -147,7 +147,7 @@ const {
             "@type": "HowToStep",
             "position": 3,
             "name": "Résultats",
-            "text": "Nous mettons en place les corrections. Vos clients vous trouvent sur ChatGPT et Google Maps."
+            "text": "Nous mettons en place les corrections. Vos futurs clients vous trouvent — sur Google et sur les IA."
           }
         ]
       }
@@ -159,7 +159,7 @@ const {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Combien coûte une optimisation de visibilité IA ?",
+            "name": "Combien ça coûte ?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "L'audit initial est 100 % gratuit et sans engagement. Après l'audit, nous vous présentons les options adaptées à votre établissement."
@@ -178,7 +178,7 @@ const {
             "name": "Quelle est la différence avec une agence web classique ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Une agence web classique optimise votre position dans Google. Nous optimisons aussi votre présence dans les réponses de ChatGPT, Perplexity et Gemini, qui ne montrent que 3 à 5 résultats."
+              "text": "Une agence web classique vous aide à apparaître sur Google. Nous allons plus loin : on vous rend aussi visible dans les réponses des assistants IA comme ChatGPT ou Gemini, qui ne recommandent que 3 à 5 résultats."
             }
           },
           {
@@ -186,7 +186,7 @@ const {
             "name": "Comment se déroule l'audit gratuit ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Vous remplissez le formulaire, notre équipe teste votre visibilité sur ChatGPT, Perplexity, Gemini et Google Maps. Vous recevez un rapport sous 24 heures avec votre score sur 100 et vos actions prioritaires."
+              "text": "Vous remplissez le formulaire, notre équipe vérifie si vos futurs clients vous trouvent en ligne. Vous recevez un rapport sous 24 heures avec votre score sur 100 et vos actions prioritaires."
             }
           }
         ]

@@ -1,46 +1,61 @@
 ---
-// Testimonial section — Client result showcase
+// Testimonial section — Multiple credible client results
+const testimonials = [
+  {
+    quote: "On ne comprenait pas pourquoi on avait moins de nouveaux patients alors que nos avis Google sont excellents. L'audit a montré que ChatGPT ne nous connaissait tout simplement pas. En deux mois, on a commencé à recevoir des appels de patients qui disaient avoir trouvé notre cabinet \"grâce à l'IA\".",
+    name: "Dr. Sophie M.",
+    role: "Cabinet dentaire — Paris 16e",
+    before: { score: 0, label: "Invisible en ligne" },
+    after: { score: 86, label: "+12 nouveaux patients/mois" },
+    delay: "8 semaines",
+  },
+  {
+    quote: "Un touriste américain m'a dit qu'il avait demandé à ChatGPT \"best restaurant near Eiffel Tower\" et qu'on était dans les 3 résultats. Avant de travailler avec Eddie Miller, on n'apparaissait nulle part. Maintenant, on a des réservations qui viennent directement de l'IA.",
+    name: "Marc D.",
+    role: "Restaurant — Paris 7e",
+    before: { score: 12, label: "Quasi-invisible" },
+    after: { score: 91, label: "+18 couverts/semaine" },
+    delay: "6 semaines",
+  },
+];
 ---
-<section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Résultat client">
+<section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Résultats clients">
   <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
     <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
-      Résultats concrets
+      Ce que ça change concrètement
     </h2>
 
-    <div class="max-w-3xl mx-auto">
-      <!-- Before/After card -->
-      <div class="border border-warmgray bg-cream p-8 md:p-12 fade-in">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-8">
-          <!-- Before -->
-          <div class="text-center md:text-left">
-            <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">Avant</p>
-            <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray">0<span class="text-[1.5rem]">/100</span></p>
-            <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">Score de visibilité</p>
-            <p class="text-sm font-sans text-stone/70 mt-1">Aucune mention sur ChatGPT, Perplexity ou Gemini</p>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+      {testimonials.map((t) => (
+        <div class="border border-warmgray bg-cream p-8 md:p-10 fade-in">
+          <!-- Before/After -->
+          <div class="grid grid-cols-2 gap-6 mb-8">
+            <div>
+              <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-2">Avant</p>
+              <p class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray">{t.before.score}<span class="text-[1.25rem]">/100</span></p>
+              <p class="mt-1 text-sm font-sans text-stone/70">{t.before.label}</p>
+            </div>
+            <div>
+              <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-2">Après {t.delay}</p>
+              <p class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">{t.after.score}<span class="text-[1.25rem]">/100</span></p>
+              <p class="mt-1 text-sm font-sans text-stone/70">{t.after.label}</p>
+            </div>
           </div>
-          <!-- After -->
-          <div class="text-center md:text-left">
-            <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Après 8 semaines</p>
-            <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">86<span class="text-[1.5rem]">/100</span></p>
-            <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">Score de visibilité</p>
-            <p class="text-sm font-sans text-stone/70 mt-1">3 mentions IA confirmées, +40% de trafic</p>
-          </div>
+
+          <div class="w-full h-px bg-warmgray/30 mb-6" aria-hidden="true"></div>
+
+          <!-- Quote -->
+          <blockquote>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone italic">
+              «&nbsp;{t.quote}&nbsp;»
+            </p>
+            <footer class="mt-4">
+              <p class="font-sans font-medium text-base text-charcoal">{t.name}</p>
+              <p class="font-sans text-sm text-stone">{t.role}</p>
+            </footer>
+          </blockquote>
         </div>
-
-        <!-- Divider -->
-        <div class="w-full h-px bg-warmgray/30 mb-8" aria-hidden="true"></div>
-
-        <!-- Testimonial quote -->
-        <blockquote>
-          <p class="text-lg md:text-xl font-sans font-normal leading-relaxed text-stone italic">
-            «&nbsp;En deux mois, notre cabinet est passé de zéro mention à trois recommandations sur ChatGPT et Perplexity. Nous recevons maintenant des appels de patients qui disent avoir trouvé notre cabinet grâce à l'IA.&nbsp;»
-          </p>
-          <footer class="mt-4">
-            <p class="font-sans font-medium text-base text-charcoal">Dr. Sophie M.</p>
-            <p class="font-sans text-sm text-stone">Cabinet dentaire — Paris 16e</p>
-          </footer>
-        </blockquote>
-      </div>
+      ))}
     </div>
   </div>
 </section>

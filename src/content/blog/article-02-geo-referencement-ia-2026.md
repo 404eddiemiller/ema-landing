@@ -1,11 +1,11 @@
 ---
-title: "GEO : le référencement que Google ne vous explique pas (et qui change tout en 2026)"
+title: "Comment apparaître sur ChatGPT quand vos clients cherchent un commerce comme le vôtre"
 slug: "geo-referencement-ia-2026"
-meta_title: "GEO (Generative Engine Optimization) : le guide complet pour être recommandé par les IA en 2026"
-meta_description: "Le GEO (Generative Engine Optimization) remplace le SEO classique comme levier de visibilité n°1. Découvrez comment apparaître dans les recommandations de ChatGPT, Perplexity et Google AI."
+meta_title: "Comment apparaître sur ChatGPT, Perplexity et Google AI quand vos clients cherchent un commerce comme le vôtre"
+meta_description: "Vos clients ne cherchent plus seulement sur Google : ils demandent à ChatGPT, Perplexity et Google AI. Voici comment faire en sorte que votre établissement soit recommandé."
 author: "Eddie Miller Agency"
 date: "2026-01-24"
-category: "GEO & Visibilité IA"
+category: "Visibilité en ligne"
 tags: ["GEO", "SEO", "intelligence artificielle", "visibilité", "ChatGPT", "Perplexity", "Google AI Overview"]
 cta: "audit-geo-gratuit"
 lang: "fr"
