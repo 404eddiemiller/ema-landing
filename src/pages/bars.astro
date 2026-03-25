@@ -1,0 +1,460 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+<Layout
+  title="Plus de clients pour votre bar | Eddie Miller Agency"
+  description="Vos futurs clients demandent à ChatGPT où sortir ce soir. On fait en sorte qu'ils débarquent chez vous. Diagnostic gratuit en 24h."
+  canonicalUrl="https://eddiemiller.agency/bars"
+  ogTitle="Plus de clients pour votre bar | Eddie Miller Agency"
+  ogDescription="Vos futurs clients demandent à ChatGPT où sortir ce soir. On fait en sorte qu'ils débarquent chez vous. Diagnostic gratuit en 24h."
+>
+  <Header />
+  <main id="main-content">
+
+    <!-- ═══════════════════ HERO ═══════════════════ -->
+    <section class="relative pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-48 lg:pb-32 bg-cream overflow-hidden" aria-label="Accroche principale">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl">
+          <p class="inline-block px-3 py-1 mb-6 text-sm font-sans font-medium text-terracotta border border-terracotta/40 tracking-wide">
+            Spécialiste bars & soirées
+          </p>
+          <h1 class="text-[2.5rem] md:text-[3.25rem] lg:text-[4rem] font-serif font-normal leading-[1.1] tracking-[-0.02em] text-charcoal">
+            <span class="text-reveal-line block"><span>«&nbsp;Où sortir ce soir&nbsp;?&nbsp;» — l'IA est le nouveau guide de&nbsp;nuit.</span></span>
+            <span class="text-reveal-line block"><span>Soyez dans ses recommandations.</span></span>
+          </h1>
+          <div class="mt-6 separator-animate h-[2px] bg-terracotta" aria-hidden="true"></div>
+          <p class="mt-6 md:mt-8 max-w-[65ch] text-lg md:text-xl font-sans font-normal leading-relaxed text-stone blur-in" style="transition-delay: 0.4s;">
+            Amis en afterwork, touristes, locaux qui cherchent un plan pour la soirée — ils posent tous la même question à ChatGPT&nbsp;: «&nbsp;meilleur bar cocktail près de moi&nbsp;». Si votre bar n'apparaît pas dans la réponse, c'est le concurrent d'en face qui remplit sa&nbsp;salle.
+          </p>
+          <div class="flex flex-col sm:flex-row items-start gap-4 mt-8 md:mt-10 fade-up" style="transition-delay: 0.6s;">
+            <a
+              href="#audit"
+              class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark hover:scale-[1.03]"
+              onclick="plausible('CTA Click', {props: {location: 'bars-hero'}})"
+            >
+              Tester ma visibilité gratuitement
+            </a>
+            <a
+              href="#comment-ca-marche"
+              class="inline-flex items-center gap-1 px-2 py-4 font-sans font-medium text-base text-stone transition-colors duration-200 hover:text-charcoal"
+            >
+              Voir comment ça marche ↓
+            </a>
+          </div>
+          <div class="flex flex-wrap gap-x-6 gap-y-2 mt-6 md:mt-8 fade-up" style="transition-delay: 0.75s;">
+            <span class="text-sm font-sans text-stone/80">✓ Résultat en 24h</span>
+            <span class="text-sm font-sans text-stone/80">✓ 100 % gratuit</span>
+            <span class="text-sm font-sans text-stone/80">✓ 1 seul bar par quartier</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ SOCIAL PROOF ═══════════════════ -->
+    <section class="py-12 md:py-16 bg-sand" aria-label="Plateformes où vos clients cherchent">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <p class="text-center text-sm font-sans font-medium tracking-[0.1em] uppercase text-stone mb-8 fade-up">
+          Vos futurs clients vous cherchent ici
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10 lg:gap-14">
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">ChatGPT</span>
+          <span class="text-warmgray/60 select-none" aria-hidden="true">·</span>
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Google Maps</span>
+          <span class="text-warmgray/60 select-none" aria-hidden="true">·</span>
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Gemini</span>
+          <span class="text-warmgray/60 select-none" aria-hidden="true">·</span>
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Perplexity</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ CE QUE VOUS RECEVEZ ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce que vous recevez">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
+            Ce que vous recevez en&nbsp;24h
+          </h2>
+          <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-14 fade-up">
+            Un diagnostic complet de votre bar, pas un simple email.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+            <!-- Item 1: Score -->
+            <div class="flex gap-4 scale-in" style="transition-delay: 0s;">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Votre score de visibilité sur 100</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Quand quelqu'un demande «&nbsp;meilleur bar Oberkampf&nbsp;» à ChatGPT ou cherche sur Google Maps, est-ce que votre bar sort&nbsp;? Votre note vous le dit.</p>
+              </div>
+            </div>
+            <!-- Item 2: Blockers -->
+            <div class="flex gap-4 scale-in" style="transition-delay: 0.12s;">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Ce qui bloque vos clients</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">On identifie précisément ce qui empêche les IA et Google de recommander votre bar plutôt qu'un autre dans le quartier.</p>
+              </div>
+            </div>
+            <!-- Item 3: Actions -->
+            <div class="flex gap-4 scale-in" style="transition-delay: 0.24s;">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">3 actions prioritaires</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Les corrections classées par impact. Ce qui fera bouger votre score le plus vite, sans jargon technique.</p>
+              </div>
+            </div>
+            <!-- Item 4: Call -->
+            <div class="flex gap-4 scale-in" style="transition-delay: 0.36s;">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Un appel de 15 minutes</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">On parcourt vos résultats ensemble, on répond à vos questions, et on définit la suite si vous le souhaitez.</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-10 md:mt-12 fade-in">
+            <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark">
+              Tester ma visibilité gratuitement
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ TÉMOIGNAGE ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Résultat client">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <div class="border border-warmgray bg-cream p-8 md:p-12 scale-in card-hover">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-8">
+              <!-- Before -->
+              <div class="text-center md:text-left">
+                <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">Avant</p>
+                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray">3<span class="text-[1.5rem]">/100</span></p>
+                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">Score de visibilité</p>
+                <p class="text-sm font-sans text-stone/70 mt-1">«&nbsp;Invisible sur ChatGPT&nbsp;»</p>
+              </div>
+              <!-- After -->
+              <div class="text-center md:text-left">
+                <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Après 6 semaines</p>
+                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">76<span class="text-[1.5rem]">/100</span></p>
+                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">Score de visibilité</p>
+                <p class="text-sm font-sans text-stone/70 mt-1">+30% de fréquentation en semaine</p>
+              </div>
+            </div>
+            <div class="w-full h-px bg-warmgray/30 mb-8" aria-hidden="true"></div>
+            <blockquote>
+              <p class="text-lg md:text-xl font-sans font-normal leading-relaxed text-stone italic">
+                «&nbsp;On a des groupes qui débarquent en disant "c'est ChatGPT qui nous a envoyés". Au début on croyait à une blague. Maintenant ça arrive plusieurs fois par semaine, surtout en semaine.&nbsp;»
+              </p>
+              <footer class="mt-4">
+                <p class="font-sans font-medium text-base text-charcoal">Alex M.</p>
+                <p class="font-sans text-sm text-stone">Bar à cocktails — Paris 10e</p>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ STATS / CE QUI A CHANGÉ ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-charcoal" aria-label="Ce qui a changé">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-cream mb-12 md:mb-16 fade-up-slow">
+          Ce qui a changé pour les&nbsp;bars
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
+          <!-- Stat 1 -->
+          <div class="border border-warmgray/30 p-8 bg-charcoal card-hover scale-in" style="transition-delay: 0s;">
+            <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4" data-count-to="58" data-suffix="%">58%</p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-cream/80 mb-4">des 18-35 ans demandent à une IA où sortir ce soir</p>
+            <p class="text-sm font-sans font-medium text-cream/50">Sortlist, 2026</p>
+          </div>
+          <!-- Stat 2 -->
+          <div class="border border-warmgray/30 p-8 bg-charcoal card-hover scale-in" style="transition-delay: 0.12s;">
+            <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4" data-count-to="87" data-suffix="%">87%</p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-cream/80 mb-4">des bars parisiens sont totalement absents des réponses ChatGPT</p>
+            <p class="text-sm font-sans font-medium text-cream/50">Local Falcon, 2026</p>
+          </div>
+          <!-- Stat 3 -->
+          <div class="border border-warmgray/30 p-8 bg-charcoal card-hover scale-in" style="transition-delay: 0.24s;">
+            <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4">3 à 5</p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-cream/80 mb-4">résultats — c'est tout ce que ChatGPT recommande quand on lui demande un bar</p>
+          </div>
+        </div>
+        <p class="max-w-[65ch] mx-auto text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-cream/80 blur-in">
+          Avant, les gens demandaient à leurs potes ou scrollaient des blogs. Aujourd'hui, ils posent la question à ChatGPT entre deux stations de métro. La découverte nocturne est passée du bouche-à-oreille à l'IA. Si votre bar n'est pas dans les 3 à 5 résultats, le groupe ira ailleurs.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ PROBLÈMES SPÉCIFIQUES BARS ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Les problèmes que vous connaissez">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow">
+          Les problèmes que vous&nbsp;connaissez
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          <!-- Problem 1: Word of mouth -->
+          <div class="border border-warmgray p-8 bg-cream card-hover scale-in" style="transition-delay: 0s;">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Le bouche-à-oreille s'est digitalisé</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">Avant, on demandait aux potes. Maintenant, on demande à ChatGPT «&nbsp;best cocktail bar Oberkampf&nbsp;». Si vous n'êtes pas dans la réponse, vous ratez le groupe.</p>
+          </div>
+          <!-- Problem 2: Guides -->
+          <div class="border border-warmgray p-8 bg-cream card-hover scale-in" style="transition-delay: 0.12s;">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Les guides et blogs perdent du terrain</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">Time Out, Sortir à Paris — les gens ne scrollent plus ces listes. Ils veulent une réponse rapide de l'IA. Et l'IA synthétise, elle ne fait pas défiler des pages.</p>
+          </div>
+          <!-- Problem 3: Weekday traffic -->
+          <div class="border border-warmgray p-8 bg-cream card-hover scale-in" style="transition-delay: 0.24s;">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">La visibilité en semaine fait la différence</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">Le week-end se remplit. Mais du mardi au jeudi, c'est la bataille. L'IA peut vous envoyer du monde les soirs creux — si vous êtes visible.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ SOLUTION ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce qu'on fait pour votre bar">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
+          Ce qu'on fait pour votre&nbsp;bar
+        </h2>
+        <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-up">
+          Deux objectifs simples&nbsp;: que vos clients vous trouvent, et qu'ils poussent votre porte.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
+          <!-- Card 1: Google -->
+          <div class="border border-warmgray p-8 bg-cream slide-in-left card-hover">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Être trouvé sur Google</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">Votre bar apparaît dans Google Maps quand quelqu'un cherche un endroit où sortir dans votre quartier. Votre fiche Google est complète, avec les bonnes photos et les bons horaires. Vos avis clients travaillent pour vous.</p>
+          </div>
+          <!-- Card 2: AI -->
+          <div class="border border-warmgray p-8 bg-cream slide-in-right card-hover">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Être recommandé par les IA</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">Quand quelqu'un demande «&nbsp;bar sympa Bastille&nbsp;» à ChatGPT, votre nom apparaît. Votre réputation en ligne donne confiance à l'IA pour vous recommander plutôt qu'un concurrent.</p>
+          </div>
+        </div>
+        <div class="text-center mt-10 md:mt-12 fade-up">
+          <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark hover:scale-[1.03]">
+            Tester ma visibilité gratuitement
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ COMMENT ÇA MARCHE ═══════════════════ -->
+    <section id="comment-ca-marche" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Comment ça marche">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow">
+          Comment ça marche
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mb-12 md:mb-16">
+          <!-- Step 1 -->
+          <div class="relative scale-in" style="transition-delay: 0s;">
+            <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">01</p>
+            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Audit gratuit</h3>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">On teste votre bar sur ChatGPT, Google Maps et les autres IA. Vous recevez un score sur 100 et un diagnostic clair en 24h.</p>
+            <div class="hidden md:flex absolute top-12 -right-5 md:-right-6 items-center text-warmgray/50" aria-hidden="true">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </div>
+          <!-- Step 2 -->
+          <div class="relative scale-in" style="transition-delay: 0.2s;">
+            <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">02</p>
+            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Appel de 15 minutes</h3>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">On parcourt vos résultats ensemble. Vous comprenez ce qui bloque et ce qu'il faut corriger en priorité pour votre établissement.</p>
+            <div class="hidden md:flex absolute top-12 -right-5 md:-right-6 items-center text-warmgray/50" aria-hidden="true">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </div>
+          <!-- Step 3 -->
+          <div class="scale-in" style="transition-delay: 0.4s;">
+            <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">03</p>
+            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Résultats</h3>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">On met en place les corrections. Vos futurs clients vous trouvent sur Google et sur les IA. Score mesuré avant et après.</p>
+          </div>
+        </div>
+        <div class="text-center fade-up">
+          <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark" onclick="plausible('CTA Click', {props: {location: 'bars-how-it-works'}})">
+            Tester ma visibilité gratuitement
+          </a>
+        </div>
+        <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-up">
+          Un seul bar par quartier — pour vous garantir l'exclusivité.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ FAQ ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Questions fréquentes">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow">
+            Questions fréquentes
+          </h2>
+          <div class="space-y-0 fade-up">
+            <!-- FAQ 1: Instagram -->
+            <details class="group border-b border-warmgray/30" open>
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-all duration-200 hover:text-terracotta hover:pl-2 [&::-webkit-details-marker]:hidden">
+                <span>On a déjà un bon Instagram, ça ne suffit pas&nbsp;?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45 group-open:text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Instagram est super pour fidéliser. Mais quand quelqu'un tape «&nbsp;bar cocktail Marais&nbsp;» sur ChatGPT, l'IA ne regarde pas votre feed Insta. Elle regarde votre fiche Google, vos avis, votre présence web. C'est là qu'on intervient.</p>
+              </div>
+            </details>
+            <!-- FAQ 2: Timing -->
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-all duration-200 hover:text-terracotta hover:pl-2 [&::-webkit-details-marker]:hidden">
+                <span>En combien de temps voit-on des résultats&nbsp;?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45 group-open:text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Sur Google, les premiers effets apparaissent en quelques jours. Sur les IA comme ChatGPT, comptez 4 à 8 semaines. Nous mesurons tout avec un score avant/après pour que vous puissiez voir la différence.</p>
+              </div>
+            </details>
+            <!-- FAQ 3: Guarantee -->
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-all duration-200 hover:text-terracotta hover:pl-2 [&::-webkit-details-marker]:hidden">
+                <span>Vous garantissez d'apparaître sur ChatGPT&nbsp;?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45 group-open:text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Non, et quiconque le promet vous ment. Les IA choisissent leurs recommandations de manière autonome. Ce que nous garantissons&nbsp;: votre bar aura toutes les conditions pour être recommandé. Et nous mesurons le résultat avec un score avant/après.</p>
+              </div>
+            </details>
+            <!-- FAQ 4: No website -->
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-all duration-200 hover:text-terracotta hover:pl-2 [&::-webkit-details-marker]:hidden">
+                <span>On n'a pas de site web</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45 group-open:text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Beaucoup de bars n'en ont pas, ce n'est pas un problème. L'essentiel de votre visibilité passe par votre fiche Google, les annuaires et vos avis clients. On optimise tout ça, avec ou sans site web.</p>
+              </div>
+            </details>
+            <!-- FAQ 5: Time investment -->
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-all duration-200 hover:text-terracotta hover:pl-2 [&::-webkit-details-marker]:hidden">
+                <span>Combien de temps ça me prend&nbsp;?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45 group-open:text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Très peu. 1 minute pour remplir le formulaire d'audit. Ensuite, environ 30 minutes au total pour appliquer nos recommandations. On sait que vous gérez un bar, pas un bureau — on s'adapte à vos horaires.</p>
+              </div>
+            </details>
+            <!-- FAQ 6: Exclusivity -->
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-all duration-200 hover:text-terracotta hover:pl-2 [&::-webkit-details-marker]:hidden">
+                <span>Pourquoi un seul bar par quartier&nbsp;?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45 group-open:text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Pour garantir votre exclusivité. Si on aide aussi le bar d'à côté, ça vous dessert. On ne fait pas ça. Un seul bar par zone, point final.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ FORMULAIRE ═══════════════════ -->
+    <section id="audit" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Demander un audit gratuit">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-2xl mx-auto">
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
+            Est-ce que vos clients vous&nbsp;trouvent&nbsp;?
+          </h2>
+          <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-10 md:mb-12 fade-up">
+            Remplissez le formulaire. On teste votre bar sur Google et sur les IA. Résultat en 24h, sans engagement.
+          </p>
+
+          <form class="space-y-6 fade-up" style="transition-delay: 0.2s;" action="https://formsubmit.co/contact@eddiemiller.agency" method="POST" onsubmit="plausible('Form Submit', {props: {page: 'bars'}})">
+            <input type="hidden" name="_next" value="https://eddiemiller.agency/merci" />
+            <input type="hidden" name="_subject" value="Audit bar — Eddie Miller Agency" />
+            <input type="hidden" name="_captcha" value="true" />
+            <input type="text" name="_honey" style="display:none" />
+            <input type="hidden" name="source" value="page-bars" />
+
+            <div class="group">
+              <label for="etablissement" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Nom du bar</label>
+              <input type="text" id="etablissement" name="etablissement" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="Le Syndicat, Candelaria, Little Red Door…" />
+            </div>
+
+            <div class="group">
+              <label for="type" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Type d'établissement</label>
+              <select id="type" name="type" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)] appearance-none" style="background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6360%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem center;">
+                <option value="bar-cocktails" selected>Bar à cocktails</option>
+                <option value="bar-vin">Bar à vin</option>
+                <option value="bar-biere">Bar à bières / Brewpub</option>
+                <option value="bar-ambiance">Bar ambiance / Soirées</option>
+                <option value="rooftop">Rooftop</option>
+                <option value="pub">Pub</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+
+            <div class="group">
+              <label for="localisation" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Arrondissement ou quartier</label>
+              <input type="text" id="localisation" name="localisation" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="Oberkampf, Bastille, Marais, Pigalle…" />
+            </div>
+
+            <div class="group">
+              <label for="email" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Adresse email</label>
+              <input type="email" id="email" name="email" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="vous@exemple.com" />
+            </div>
+
+            <div class="group">
+              <label for="telephone" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Numéro de téléphone <span class="text-warmgray font-normal">(optionnel)</span></label>
+              <input type="tel" id="telephone" name="telephone" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="06 12 34 56 78" />
+            </div>
+
+            <button type="submit" class="block w-full px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark hover:scale-[1.01] cursor-pointer">
+              Tester ma visibilité gratuitement
+            </button>
+          </form>
+
+          <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-6 fade-up">
+            <span class="text-sm font-sans text-stone/80">✓ Résultat en 24h</span>
+            <span class="text-sm font-sans text-stone/80">✓ 100 % gratuit</span>
+            <span class="text-sm font-sans text-stone/80">✓ 1 seul bar par quartier</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>
+
+<!-- Counter animation for stat cards -->
+<script>
+  function animateCounter(el: HTMLElement) {
+    const target = parseInt(el.dataset.countTo || '0', 10);
+    const suffix = el.dataset.suffix || '';
+    el.textContent = '0' + suffix;
+    const duration = 1500;
+    const start = performance.now();
+    function update(now: number) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.round(eased * target);
+      el.textContent = current + suffix;
+      if (progress < 1) requestAnimationFrame(update);
+    }
+    requestAnimationFrame(update);
+  }
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target as HTMLElement);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  document.querySelectorAll<HTMLElement>('[data-count-to]').forEach(el => counterObserver.observe(el));
+</script>
