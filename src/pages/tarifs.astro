@@ -13,24 +13,24 @@ const offers = [
       'Rapport synthétique 1 page',
       'Appel de restitution 15 min',
     ],
-    notIncluded: ['Optimisations', 'Schema.org', 'Annuaires', 'Suivi'],
+    notIncluded: ['Optimisations', 'Annuaires', 'Suivi'],
     cta: 'Demander mon audit',
     ctaHref: '/#audit',
     highlight: false,
-    delay: '48h',
+    delay: '24h',
   },
   {
     name: 'Starter',
-    price: '490 €',
-    description: "L'essentiel pour commencer à apparaître sur les IA. Idéal pour tester le GEO.",
+    price: '489 €',
+    description: "L'essentiel pour commencer à apparaître sur les assistants IA.",
     features: [
       'Audit complet + rapport PDF',
       'Appel de restitution 30 min',
       'Fiche Google Business optimisée',
-      'FAQ rédigée pour les IA',
-      'Sources citables par les IA',
+      'Contenu optimisé pour les assistants IA',
+      'Sources citables par ChatGPT',
     ],
-    notIncluded: ['Schema.org', 'Annuaires', 'Suivi 90 jours'],
+    notIncluded: ['Annuaires', 'Suivi 90 jours'],
     cta: 'Choisir Starter',
     ctaHref: '/#audit',
     highlight: false,
@@ -38,16 +38,16 @@ const offers = [
   },
   {
     name: 'Pro',
-    price: '890 €',
+    price: '889 €',
     description: "L'optimisation complète sur 15 points. Notre offre la plus populaire.",
     features: [
       'Tout le Starter inclus',
       'Appel de restitution 45 min',
       'Optimisation 15 points complets',
-      'Schema.org rédigé et livré',
-      'Soumission annuaires santé + IA',
+      'Optimisation technique complète',
+      'Soumission annuaires clés de votre secteur',
     ],
-    notIncluded: ['Suivi 90 jours'],
+    notIncluded: [],
     cta: 'Choisir Pro',
     ctaHref: '/#audit',
     highlight: true,
@@ -55,7 +55,7 @@ const offers = [
   },
   {
     name: 'Premium',
-    price: '1 490 €',
+    price: '1 489 €',
     description: "La refonte complète de votre présence en ligne avec un suivi sur 3 mois.",
     features: [
       'Tout le Pro inclus',
@@ -74,10 +74,10 @@ const offers = [
 ---
 <Layout
   title="Tarifs — Eddie Miller Agency"
-  description="Nos offres de visibilité IA et SEO local : audit gratuit, Starter 490€, Pro 890€, Premium 1 490€. Tarifs transparents, résultats mesurables."
+  description="Nos offres de visibilité IA : audit gratuit, Starter 489€, Pro 889€, Premium 1 489€. Tarifs transparents, résultats mesurables."
   canonicalUrl="https://eddiemiller.agency/tarifs"
   ogTitle="Tarifs — Eddie Miller Agency"
-  ogDescription="Offres de visibilité IA à partir de 490€. Audit gratuit inclus."
+  ogDescription="Offres de visibilité IA à partir de 489€. Audit gratuit inclus."
 >
   <Header />
 
@@ -152,7 +152,7 @@ const offers = [
         <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div class="flex-1">
             <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-2">
-              Abonnement suivi — 290 €/mois
+              Abonnement suivi — 189 €/mois
             </h2>
             <p class="text-base font-sans font-normal leading-relaxed text-stone">
               Proposé après chaque prestation. Suivi mensuel, ajustements continus, rapport de visibilité mensuel, veille des évolutions algorithmiques. Sans engagement — résiliable à tout moment avec 30 jours de préavis.
@@ -174,21 +174,21 @@ const offers = [
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           <div class="border border-warmgray p-6 md:p-8 bg-cream">
-            <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Starter — 490 €</p>
+            <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Starter — 489 €</p>
             <p class="text-base font-sans font-normal leading-relaxed text-stone">
-              Un seul patient supplémentaire pour un détartrage rembourse l'investissement. Un patient fidélisé représente 500 à 800 € de soins par an.
+              Un seul nouveau client rembourse l'investissement. Un client fidélisé en génère 5 à 10 fois plus sur l'année.
             </p>
           </div>
           <div class="border border-warmgray p-6 md:p-8 bg-cream">
-            <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Pro — 890 €</p>
+            <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Pro — 889 €</p>
             <p class="text-base font-sans font-normal leading-relaxed text-stone">
-              Une couronne céramique (500-800 €) rentabilise l'offre en un seul acte. Si le patient revient pour d'autres soins : environ 6 000 € par an.
+              Deux clients supplémentaires par mois suffisent à rentabiliser l'offre. Sur un an, c'est 10 à 20 fois votre investissement.
             </p>
           </div>
           <div class="border border-warmgray p-6 md:p-8 bg-cream">
-            <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Premium — 1 490 €</p>
+            <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Premium — 1 489 €</p>
             <p class="text-base font-sans font-normal leading-relaxed text-stone">
-              Un seul implant (2 500-4 000 €) rembourse le Premium deux fois. Un patient implant par mois, c'est 36 000 € de CA annuel supplémentaire.
+              Avec un suivi de 3 mois, vos nouveaux clients récurrents représentent plusieurs dizaines de milliers d'euros de CA annuel supplémentaire.
             </p>
           </div>
         </div>
