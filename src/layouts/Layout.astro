@@ -14,7 +14,7 @@ const {
   description,
   canonicalUrl = 'https://eddiemiller.agency',
   ogTitle = 'Soyez trouvé par vos futurs clients | Eddie Miller Agency',
-  ogDescription = 'On aide les commerces parisiens à être trouvés par leurs futurs clients — sur Google et sur les IA. Audit gratuit en 24h.',
+  ogDescription = 'On aide les commerces parisiens à être trouvés par leurs futurs clients — sur Google et sur les IA. Diagnostic gratuit en 24h.',
   ogType = 'website',
 } = Astro.props;
 ---
@@ -89,17 +89,9 @@ const {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Audit de visibilité gratuit",
+                "name": "Diagnostic de visibilité gratuit",
                 "description": "On vérifie si vos futurs clients vous trouvent sur Google et sur les IA. Vous recevez un score sur 100 et des recommandations concrètes.",
                 "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Création de site web professionnel",
-                "description": "Un site web clair et bien construit pour que vos futurs clients vous trouvent facilement en ligne."
               }
             },
             {
@@ -134,7 +126,7 @@ const {
           {
             "@type": "HowToStep",
             "position": 1,
-            "name": "Audit gratuit",
+            "name": "Diagnostic gratuit",
             "text": "Nous vérifions si vos futurs clients vous trouvent sur Google et sur les IA. Vous recevez un score sur 100 et un diagnostic clair."
           },
           {
@@ -162,7 +154,7 @@ const {
             "name": "Combien ça coûte ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "L'audit initial est 100 % gratuit et sans engagement. Après l'audit, nous vous présentons les options adaptées à votre établissement."
+              "text": "Le diagnostic initial est 100 % gratuit et sans engagement. Après le diagnostic, nous vous présentons les options adaptées à votre établissement."
             }
           },
           {
@@ -183,7 +175,7 @@ const {
           },
           {
             "@type": "Question",
-            "name": "Comment se déroule l'audit gratuit ?",
+            "name": "Comment se déroule le diagnostic gratuit ?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Vous remplissez le formulaire, notre équipe vérifie si vos futurs clients vous trouvent en ligne. Vous recevez un rapport sous 24 heures avec votre score sur 100 et vos actions prioritaires."
@@ -215,7 +207,7 @@ const {
           class="sticky-cta-btn text-center inline-block px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase whitespace-nowrap transition-colors duration-300 hover:bg-terracotta-dark"
           onclick="plausible('CTA Click', {props: {location: 'sticky-bar'}})"
         >
-          Audit gratuit →
+          Diagnostic gratuit →
         </a>
       </div>
     </div>
