@@ -101,26 +101,32 @@ const formules = [
             'flex flex-col border p-6 md:p-8 bg-cream card-hover scale-in',
             f.highlight ? 'border-terracotta' : 'border-warmgray',
           ]}>
-            {f.highlight && (
-              <p class="text-xs font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-4">
-                Le plus demandé
-              </p>
-            )}
+            <!-- Badge zone — fixed height so titles align -->
+            <div class="lg:min-h-[1.5rem] mb-2">
+              {f.highlight && (
+                <p class="text-xs font-sans font-medium text-terracotta tracking-[0.1em] uppercase">
+                  Le plus demandé
+                </p>
+              )}
+            </div>
             <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-1">
               {f.name}
             </h2>
-            <p class="text-sm font-sans font-medium text-terracotta mb-4">
+            <p class="text-sm font-sans font-medium text-terracotta mb-3">
               {f.tagline}
             </p>
-            {f.free && (
-              <p class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4">
-                Gratuit
-              </p>
-            )}
+            <!-- Price zone — fixed height so descriptions align -->
+            <div class="lg:min-h-[2.75rem] mb-3">
+              {f.free && (
+                <p class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">
+                  Gratuit
+                </p>
+              )}
+            </div>
             <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6">
               {f.description}
             </p>
-            <ul class="space-y-3 mb-6">
+            <ul class="space-y-3 mb-6 flex-1">
               {f.includes.map((item) => (
                 <li class="flex items-start gap-2 text-sm font-sans text-stone">
                   <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
@@ -128,13 +134,13 @@ const formules = [
                 </li>
               ))}
             </ul>
-            <p class="text-xs font-sans font-normal leading-relaxed text-stone/70 italic mb-6 flex-1">
+            <p class="text-xs font-sans font-normal leading-relaxed text-stone/70 italic mb-6">
               {f.ideal}
             </p>
             <a
               href={f.ctaHref}
               class:list={[
-                'block text-center px-6 py-3 font-sans font-medium text-sm tracking-wider uppercase transition-colors duration-300',
+                'block text-center px-6 py-3 font-sans font-medium text-sm tracking-wider uppercase transition-colors duration-300 mt-auto',
                 f.highlight
                   ? 'text-cream bg-terracotta hover:bg-terracotta-dark'
                   : 'text-charcoal border border-warmgray hover:border-terracotta hover:text-terracotta',
