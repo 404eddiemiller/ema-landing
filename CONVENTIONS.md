@@ -14,25 +14,44 @@
 ```
 src/
 ├── layouts/
-│   └── Layout.astro          # Un seul layout. Head, meta, fonts, scripts globaux.
+│   └── Layout.astro              # Un seul layout. Head, meta, fonts, scripts globaux.
 ├── components/
-│   ├── Header.astro           # Logo + CTA "Audit gratuit"
-│   ├── Hero.astro             # Accroche + CTA principal
-│   ├── SocialProof.astro      # Barre logos/icônes plateformes IA
-│   ├── Problem.astro          # "Le monde a changé" + 3 stat cards
-│   ├── Solution.astro         # GEO + SEO Local — 2 colonnes
-│   ├── Verticals.astro        # Grille des 5 verticales (dentistes, restos...)
-│   ├── HowItWorks.astro       # 3 étapes horizontales
-│   ├── Quote.astro            # Citation + argument massue
-│   ├── AuditForm.astro        # Formulaire Tally embed + trust signals
-│   └── Footer.astro           # Contact + mentions légales
+│   ├── Header.astro              # Logo + nav + CTA "Diagnostic gratuit"
+│   ├── Hero.astro                # Accroche + CTA principal
+│   ├── SocialProof.astro         # Barre logos/icônes plateformes IA
+│   ├── WhatYouGet.astro          # Ce que vous obtenez — résultats concrets
+│   ├── Testimonial.astro         # Témoignage client + score circle animé
+│   ├── Problem.astro             # "Vos clients ont changé de réflexe" + 3 stat cards
+│   ├── Quote.astro               # Citation + argument massue
+│   ├── Solution.astro            # Ce qu'on fait pour vous — 2 colonnes Google + IA
+│   ├── WhyUs.astro               # Pourquoi choisir EMA — différenciateurs clés
+│   ├── Verticals.astro           # Grille des 8 verticales avec liens
+│   ├── HowItWorks.astro          # 3 étapes horizontales
+│   ├── FAQ.astro                 # Questions fréquentes — accordéon
+│   ├── AuditForm.astro           # Formulaire FormSubmit.co + trust signals
+│   └── Footer.astro              # Contact + mentions légales
 ├── pages/
-│   ├── index.astro            # Assemble tout
-│   └── mentions-legales.astro # Page légale obligatoire
+│   ├── index.astro               # Assemble tout (landing page principale)
+│   ├── dentistes.astro           # Landing page verticale dentistes
+│   ├── restaurants.astro         # Landing page verticale restaurants
+│   ├── hotels.astro              # Landing page verticale hôtels
+│   ├── avocats.astro             # Landing page verticale avocats
+│   ├── coiffure.astro            # Landing page verticale coiffure
+│   ├── spa.astro                 # Landing page verticale spa
+│   ├── sport.astro               # Landing page verticale sport
+│   ├── bars.astro                # Landing page verticale bars
+│   ├── formules.astro            # Page tarifs / formules
+│   ├── merci.astro               # Page de confirmation post-formulaire
+│   ├── mentions-legales.astro    # Page légale obligatoire
+│   ├── cgv.astro                 # Conditions générales de vente
+│   ├── 404.astro                 # Page 404 personnalisée
+│   └── blog/
+│       ├── index.astro           # Liste des articles de blog
+│       └── [...slug].astro       # Template dynamique article de blog
 ├── styles/
-│   └── global.css             # @font-face + Tailwind directives + CSS vars
+│   └── global.css                # @font-face + Tailwind directives + CSS vars
 └── content/
-    └── blog/                  # Vide (préparé pour le futur)
+    └── blog/                     # 20 articles markdown (Content Collections)
 ```
 
 ## Règles Astro
@@ -41,7 +60,7 @@ src/
 - Un composant = une section de la page. Pas de composant imbriqué sauf nécessité absolue.
 - Pas de props complexes. Chaque composant contient son propre contenu (tiré de `CONTENT.md`).
 - Pas de state management. C'est un site statique.
-- Le JavaScript client doit être minimal : uniquement l'IntersectionObserver pour les animations et le compteur de stats.
+- Le JavaScript client inclut : IntersectionObserver pour les animations fade-in, animations de compteurs pour les statistiques, et animations de score circle pour les témoignages.
 
 ### Layout
 ```astro
@@ -78,18 +97,33 @@ const { title, description } = Astro.props;
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Hero from '../components/Hero.astro';
-// ... etc
+import SocialProof from '../components/SocialProof.astro';
+import WhatYouGet from '../components/WhatYouGet.astro';
+import Testimonial from '../components/Testimonial.astro';
+import Problem from '../components/Problem.astro';
+import Quote from '../components/Quote.astro';
+import Solution from '../components/Solution.astro';
+import WhyUs from '../components/WhyUs.astro';
+import Verticals from '../components/Verticals.astro';
+import HowItWorks from '../components/HowItWorks.astro';
+import FAQ from '../components/FAQ.astro';
+import AuditForm from '../components/AuditForm.astro';
+import Footer from '../components/Footer.astro';
 ---
 <Layout title="..." description="...">
   <Header />
   <main>
     <Hero />
     <SocialProof />
+    <WhatYouGet />
+    <Testimonial />
     <Problem />
+    <Quote />
     <Solution />
+    <WhyUs />
     <Verticals />
     <HowItWorks />
-    <Quote />
+    <FAQ />
     <AuditForm />
   </main>
   <Footer />
@@ -195,7 +229,7 @@ Astro génère un sitemap automatiquement avec `@astrojs/sitemap`. L'ajouter dan
 
 - **Fonts** : Précharger avec `<link rel="preload" as="font" type="font/woff2" crossorigin>`.
 - **CSS** : Tailwind purge automatiquement. Pas de CSS inutilisé.
-- **JS** : Le seul JS client est l'IntersectionObserver (~20 lignes). Pas de framework JS côté client.
+- **JS** : Le JS client gère les IntersectionObserver (fade-in animations), les compteurs animés pour les stats, et les animations de score circle pour les témoignages. Pas de framework JS côté client.
 - **Images** : Utiliser le composant `<Image>` d'Astro avec des formats modernes (WebP, AVIF).
 - **Score Lighthouse cible** : > 95 sur Performance, Accessibility, Best Practices, SEO.
 

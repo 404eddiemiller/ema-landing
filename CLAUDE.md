@@ -1,28 +1,28 @@
-# CLAUDE.md — Eddie Miller Agency Landing Page
+# CLAUDE.md — Eddie Miller Agency
 
 ## Identité du projet
 
-Tu construis le site web d'**Eddie Miller Agency (EMA)**, une agence B2B parisienne spécialisée en **GEO (Generative Engine Optimization)** et **SEO local**. Le site aide des commerces locaux (restaurants, hôtels, cabinets dentaires, médicaux, avocats) à devenir visibles dans les recommandations des IA (ChatGPT, Claude, Gemini, Perplexity) et sur Google/Google Maps.
+Tu construis le site web d'**Eddie Miller Agency (EMA)**, une agence B2B qui aide les établissements locaux (restaurants, hôtels, cabinets dentaires, avocats, salons de coiffure, spas, salles de sport, bars) à être trouvés par leurs clients sur Google, Google Maps et les assistants IA (ChatGPT, Gemini, Perplexity).
 
-**Le site est une landing page de conversion.** L'objectif unique : convaincre un gérant de commerce local parisien de demander un **audit gratuit** de sa visibilité IA.
+**Le site est une landing page de conversion.** L'objectif unique : convaincre un gérant d'établissement local de demander un **diagnostic gratuit** de sa visibilité en ligne.
 
 ## Stack technique
 
 - **Framework** : Astro (dernière version stable)
 - **CSS** : Tailwind CSS 4
 - **Animations** : CSS natif uniquement (pas de librairie JS)
-- **Formulaire** : Embed Tally (URL à fournir plus tard — utiliser un placeholder)
-- **Analytics** : Plausible Analytics (script à ajouter dans le `<head>`)
+- **Formulaire** : FormSubmit.co
+- **Analytics** : Plausible Analytics (script dans le `<head>`)
 - **Paiement futur** : Stripe (pas maintenant — prévoir l'intégration dans l'architecture)
-- **Déploiement** : Vercel (via GitHub)
-- **Domaine** : eddiemiller.agency (pas encore acheté)
+- **Déploiement** : Vercel via GitHub (configuré et actif)
+- **Domaine** : eddiemiller.agency (acheté et en ligne)
 
 ## Ce que tu dois TOUJOURS faire
 
 1. **Lire `DESIGN.md`** avant tout travail visuel. C'est la bible esthétique du projet.
-2. **Lire `CONTENT.md`** avant d'écrire du texte. Tout le copywriting est déjà rédigé — ne le réinvente pas.
+2. **Lire `CONTENT.md`** avant d'écrire du texte. C'est le copywriting de référence — les composants contiennent le texte live, les deux doivent rester synchronisés.
 3. **Lire `CONVENTIONS.md`** avant de créer un fichier. Structure et nommage sont stricts.
-4. **Écrire tout le contenu visible en français.** Commentaires de code en anglais.
+4. **Ne JAMAIS réécrire le contenu marketing existant sans accord explicite.**
 5. **Mobile-first.** Toujours commencer par le design 375px, puis adapter au desktop.
 6. **Tester le responsive** à 3 breakpoints : 375px (iPhone), 768px (iPad), 1440px (desktop).
 7. **Respecter l'accessibilité** : balises sémantiques HTML5, attributs `alt` sur les images, contraste WCAG AA minimum, navigation au clavier fonctionnelle.
@@ -33,21 +33,40 @@ Tu construis le site web d'**Eddie Miller Agency (EMA)**, une agence B2B parisie
 1. **Ne JAMAIS utiliser Inter, Roboto, Arial, ou des polices système génériques.**
 2. **Ne JAMAIS utiliser de dégradés violets, bleus électriques ou couleurs néon.**
 3. **Ne JAMAIS ajouter de fonctionnalité non demandée.** Pas de chatbot, pas de popup, pas de slider, pas de carrousel.
-4. **Ne JAMAIS inventer du contenu marketing.** Tout le texte vient de `CONTENT.md`.
+4. **Ne JAMAIS réécrire le contenu existant sans accord.**
 5. **Ne JAMAIS utiliser d'images stock ou de placeholders "Lorem ipsum".**
 6. **Ne JAMAIS installer de dépendance npm sans l'expliquer.** La stack doit rester minimale.
 7. **Ne JAMAIS créer de fichiers en dehors de la structure définie dans `CONVENTIONS.md`.**
 8. **Ne JAMAIS utiliser de composants UI pré-faits (shadcn, DaisyUI, etc.).** Tout est custom.
 
-## Architecture future (ne pas construire maintenant)
+## Terminologie obligatoire
 
-Le site devra un jour supporter :
-- **Blog/articles** (Astro Content Collections — prévoir le dossier `src/content/blog/`)
-- **Pages par vertical** (dentistes, restaurants, hôtels — prévoir le routing)
-- **Espace client / portail** (probablement une app séparée — ne pas anticiper dans le code)
-- **Paiement Stripe** (après l'audit gratuit — prévoir un composant placeholder)
+- **"diagnostic gratuit"** (jamais "audit", "test", "analyse")
+- **"établissement"** (jamais "commerce" sauf dans les statistiques)
+- **"être trouvé par vos clients"** (jamais "SEO", "GEO", "référencement", "empreinte numérique", "données structurées")
+- **CTA unifié** : "Demander mon diagnostic gratuit"
+- **Social proof** : ChatGPT · Google Maps · Gemini · Perplexity (pas Claude)
+- **Formules** : Diagnostic (gratuit), Essentiel, Complet, Premium (jamais "Starter", "Pro", et pas de prix visibles)
+- Ne pas limiter géographiquement à Paris dans le texte visible
 
-Pour l'instant, on construit **UNIQUEMENT** la landing page + formulaire audit gratuit.
+## Animations
+
+- **Apparitions** : fade-in + translate-up de 16px, durée 1s, pas de cascade
+- **Interdit** : scale, slide, blur, text-reveal
+- **Hover cartes** : changement de bordure uniquement, pas de lift
+- **Hover boutons** : changement de couleur uniquement, pas de scale
+- **Header** : taille fixe, pas de shrink au scroll
+- **Cercles de score** (témoignages) : animation au scroll, durée 2s
+- **Lignes séparatrices** : animation au scroll, durée 1.4s
+- **`prefers-reduced-motion`** : respecté systématiquement
+
+## Architecture actuelle
+
+- **Blog/articles** : ✅ Fait (20 articles, Astro Content Collections)
+- **Pages par vertical** : ✅ Fait (8 pages : dentistes, restaurants, hôtels, avocats, coiffure, spa, sport, bars)
+- **Page formules** : ✅ Fait (sans prix)
+- **Espace client / portail** : À venir (probablement une app séparée — ne pas anticiper dans le code)
+- **Paiement Stripe** : À venir (après le diagnostic gratuit — prévoir un composant placeholder)
 
 ## Commandes utiles
 
@@ -65,21 +84,23 @@ npm run build
 npm run preview
 ```
 
-## Structure attendue du projet
+## Structure du projet
 
 ```
-ema-landing/
+eddie-miller-agency/
 ├── CLAUDE.md              ← Tu es ici
 ├── DESIGN.md              ← Système de design (LIRE EN PREMIER)
-├── CONTENT.md             ← Tout le copywriting
+├── CONTENT.md             ← Copywriting de référence
 ├── CONVENTIONS.md         ← Conventions de code
 ├── astro.config.mjs
-├── tailwind.config.mjs
 ├── package.json
 ├── tsconfig.json
 ├── public/
 │   ├── fonts/             ← Fichiers de polices (woff2)
-│   └── favicon.svg
+│   ├── favicon.svg
+│   ├── og-image.png
+│   ├── robots.txt
+│   └── llms.txt
 ├── src/
 │   ├── layouts/
 │   │   └── Layout.astro   ← Layout principal (head, meta, scripts)
@@ -89,35 +110,53 @@ ema-landing/
 │   │   ├── SocialProof.astro
 │   │   ├── Problem.astro
 │   │   ├── Solution.astro
+│   │   ├── WhatYouGet.astro
 │   │   ├── Verticals.astro
+│   │   ├── Testimonial.astro
 │   │   ├── HowItWorks.astro
+│   │   ├── WhyUs.astro
+│   │   ├── FAQ.astro
 │   │   ├── Quote.astro
 │   │   ├── AuditForm.astro
 │   │   └── Footer.astro
 │   ├── pages/
 │   │   ├── index.astro    ← Landing page (assemble les composants)
-│   │   └── mentions-legales.astro
+│   │   ├── formules.astro
+│   │   ├── merci.astro
+│   │   ├── dentistes.astro
+│   │   ├── restaurants.astro
+│   │   ├── hotels.astro
+│   │   ├── avocats.astro
+│   │   ├── coiffure.astro
+│   │   ├── spa.astro
+│   │   ├── sport.astro
+│   │   ├── bars.astro
+│   │   ├── mentions-legales.astro
+│   │   ├── cgv.astro
+│   │   ├── 404.astro
+│   │   └── blog/
+│   │       ├── index.astro
+│   │       └── [...slug].astro
 │   ├── styles/
 │   │   └── global.css     ← Imports Tailwind + @font-face + variables custom
 │   └── content/
-│       └── blog/          ← Vide pour l'instant (prêt pour le futur)
+│       └── blog/          ← 20 articles (Markdown + frontmatter)
 └── .gitignore
 ```
 
 ## Workflow de travail
 
-1. **Initialiser** : `npm create astro@latest` avec le template minimal, puis ajouter Tailwind.
-2. **Installer les polices** : Télécharger les fichiers woff2, les placer dans `public/fonts/`.
-3. **Construire section par section** : Hero → SocialProof → Problem → Solution → Verticals → HowItWorks → Quote → AuditForm → Footer.
-4. **Tester chaque section** en responsive avant de passer à la suivante.
-5. **Assembler** dans `index.astro`.
-6. **Ajouter le SEO** : meta tags, Open Graph, JSON-LD (voir `CONTENT.md`).
-7. **Build & test** : `npm run build` puis `npm run preview`.
+1. **Installer les polices** : Fichiers woff2 dans `public/fonts/`.
+2. **Construire section par section** : Hero → SocialProof → Problem → Solution → WhatYouGet → Verticals → Testimonial → HowItWorks → WhyUs → FAQ → Quote → AuditForm → Footer.
+3. **Tester chaque section** en responsive avant de passer à la suivante.
+4. **Assembler** dans `index.astro`.
+5. **Ajouter le SEO** : meta tags, Open Graph, JSON-LD (voir `CONTENT.md`).
+6. **Build & test** : `npm run build` puis `npm run preview`.
 
 ## Critère de succès
 
 La page est réussie quand :
-- Un gérant de restaurant parisien qui la visite sur son iPhone comprend en 5 secondes ce qu'on fait
+- Un gérant d'un établissement local qui la visite sur son iPhone comprend en 5 secondes ce qu'on fait
 - Il scrolle naturellement jusqu'au formulaire sans friction
 - Le design évoque la confiance et le professionnalisme, pas une "agence tech"
 - Le temps de chargement est < 1.5s sur mobile 4G
