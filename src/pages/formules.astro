@@ -108,6 +108,11 @@ const formules = [
                   Le plus demandé
                 </p>
               )}
+              {f.free && (
+                <p class="text-xs font-sans font-medium text-terracotta tracking-[0.1em] uppercase">
+                  Gratuit
+                </p>
+              )}
             </div>
             <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-1">
               {f.name}
@@ -115,14 +120,6 @@ const formules = [
             <p class="text-sm font-sans font-medium text-terracotta mb-3">
               {f.tagline}
             </p>
-            <!-- Price zone — fixed height so descriptions align -->
-            <div class="lg:min-h-[2.75rem] mb-3">
-              {f.free && (
-                <p class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">
-                  Gratuit
-                </p>
-              )}
-            </div>
             <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6">
               {f.description}
             </p>
