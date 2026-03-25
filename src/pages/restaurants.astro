@@ -1,0 +1,419 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+<Layout
+  title="Restaurant : soyez recommandé par ChatGPT | Eddie Miller Agency"
+  description="Vos futurs clients demandent à ChatGPT où manger. Est-ce que votre restaurant apparaît ? Audit gratuit de votre visibilité en 48h."
+  canonicalUrl="https://eddiemiller.agency/restaurants"
+  ogTitle="Restaurant : soyez recommandé par ChatGPT | Eddie Miller Agency"
+  ogDescription="Vos futurs clients demandent à ChatGPT où manger. Est-ce que votre restaurant apparaît ? Audit gratuit en 48h."
+>
+  <Header />
+  <main id="main-content">
+
+    <!-- ═══════════════════ HERO ═══════════════════ -->
+    <section class="relative pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-48 lg:pb-32 bg-cream" aria-label="Accroche principale">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl">
+          <p class="inline-block px-3 py-1 mb-6 text-sm font-sans font-medium text-terracotta border border-terracotta/40 tracking-wide">
+            Spécialiste restaurants
+          </p>
+          <h1 class="text-[2.5rem] md:text-[3.25rem] lg:text-[4rem] font-serif font-normal leading-[1.1] tracking-[-0.02em] text-charcoal">
+            «&nbsp;Où manger ce soir&nbsp;?&nbsp;» — Vos clients posent la question à&nbsp;ChatGPT. Pas à&nbsp;Google.
+          </h1>
+          <p class="mt-6 md:mt-8 max-w-[65ch] text-lg md:text-xl font-sans font-normal leading-relaxed text-stone">
+            Nous testons votre restaurant sur ChatGPT, Google Maps et les assistants IA. Vous recevez un diagnostic clair avec les actions à&nbsp;corriger en&nbsp;priorité.
+          </p>
+          <div class="flex flex-col sm:flex-row items-start gap-4 mt-8 md:mt-10">
+            <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark" onclick="plausible('CTA Click', {props: {location: 'restaurants-hero'}})">
+              Recevoir mon audit gratuit
+            </a>
+            <a href="#comment-ca-marche" class="inline-flex items-center gap-1 px-2 py-4 font-sans font-medium text-base text-stone transition-colors duration-200 hover:text-charcoal">
+              Voir comment ça marche ↓
+            </a>
+          </div>
+          <div class="flex flex-wrap gap-x-6 gap-y-2 mt-6 md:mt-8">
+            <span class="text-sm font-sans text-stone/80">✓ 100 % gratuit</span>
+            <span class="text-sm font-sans text-stone/80">✓ Livré sous 48h</span>
+            <span class="text-sm font-sans text-stone/80">✓ 1 seul restaurant par quartier</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ SOCIAL PROOF ═══════════════════ -->
+    <section class="py-12 md:py-16 bg-sand" aria-label="Plateformes optimisées">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <p class="text-center text-sm font-sans font-medium tracking-[0.1em] uppercase text-stone mb-8">
+          Nous vous rendons visible là où vos clients cherchent un restaurant
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10 lg:gap-14">
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">ChatGPT</span>
+          <span class="text-warmgray/60 select-none" aria-hidden="true">·</span>
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Google</span>
+          <span class="text-warmgray/60 select-none" aria-hidden="true">·</span>
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Gemini</span>
+          <span class="text-warmgray/60 select-none" aria-hidden="true">·</span>
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Perplexity</span>
+          <span class="text-warmgray/60 select-none" aria-hidden="true">·</span>
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Claude</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ CE QUE VOUS RECEVEZ ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce que vous recevez">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">
+            Ce que vous recevez en&nbsp;48h
+          </h2>
+          <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-14 fade-in">
+            Un audit complet de votre restaurant, pas un simple email.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+            <div class="flex gap-4 fade-in">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Score de visibilité /100</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Votre note globale sur ChatGPT, Perplexity, Gemini et Google Maps.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 fade-in">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Diagnostic par plateforme</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Ce qui empêche ChatGPT de recommander votre restaurant quand un client cherche où manger.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 fade-in">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">3 actions prioritaires</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">Les corrections classées par impact : ce qui fera bouger votre score le plus vite.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 fade-in">
+              <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+              <div>
+                <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">Appel de restitution</h3>
+                <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone">15 minutes pour parcourir vos résultats, répondre à vos questions et définir la suite.</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-10 md:mt-12 fade-in">
+            <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark">
+              Demander mon audit gratuit
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ TÉMOIGNAGE ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Résultat client">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+          L'impact concret pour un restaurant
+        </h2>
+        <div class="max-w-3xl mx-auto">
+          <div class="border border-warmgray bg-cream p-8 md:p-12 fade-in">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-8">
+              <div class="text-center md:text-left">
+                <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">Le calcul</p>
+                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">+2</p>
+                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">couverts supplémentaires par semaine grâce à l'IA</p>
+              </div>
+              <div class="text-center md:text-left">
+                <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Sur un an</p>
+                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">3 600 €</p>
+                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">de chiffre d'affaires annuel supplémentaire</p>
+                <p class="text-sm font-sans text-stone/70 mt-1">Avec un ticket moyen de 35 €</p>
+              </div>
+            </div>
+            <div class="w-full h-px bg-warmgray/30 mb-8" aria-hidden="true"></div>
+            <p class="text-lg md:text-xl font-sans font-normal leading-relaxed text-stone italic">
+              Deux couverts de plus par semaine, ça semble modeste. Mais sur un an, c'est l'équivalent d'un mois de loyer en plus — simplement parce que ChatGPT vous recommande quand un touriste demande «&nbsp;où manger près de la Tour Eiffel&nbsp;».
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ STATS / PROBLÈME ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Le problème">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+          Le monde a changé pour les restaurateurs
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4" data-count-to="83" data-suffix="%">83%</p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">des restaurants parisiens sont invisibles sur ChatGPT</p>
+            <p class="text-sm font-sans font-medium text-stone/70">Local Falcon, 2026</p>
+          </div>
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4" data-count-to="45" data-suffix="%">45%</p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">des consommateurs utilisent ChatGPT pour choisir un restaurant</p>
+            <p class="text-sm font-sans font-medium text-stone/70">BrightLocal, 2026</p>
+          </div>
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4">3 à 5</p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">résultats : c'est tout ce que ChatGPT montre quand un client cherche un restaurant</p>
+          </div>
+        </div>
+        <p class="max-w-[65ch] mx-auto text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone fade-in">
+          Quand un touriste demande «&nbsp;meilleur restaurant près du Marais&nbsp;» à ChatGPT, l'IA recommande 3 à 5 adresses. Pas une page de 10 liens. Si vous n'y êtes pas, le couvert va chez votre voisin.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ SOLUTION ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce que nous faisons">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">
+          Ce que nous faisons pour votre restaurant
+        </h2>
+        <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-in">
+          Nous vous rendons visible partout où vos clients cherchent où manger.
+        </p>
+        <div class="max-w-3xl mx-auto">
+          <div class="border border-warmgray p-8 md:p-10 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <ul class="space-y-5">
+              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Apparaître quand un client demande «&nbsp;restaurant&nbsp;» à ChatGPT, Gemini ou Perplexity
+              </li>
+              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Remonter dans les résultats Google Maps de votre quartier
+              </li>
+              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Optimiser votre fiche Google Business Profile
+              </li>
+              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Gérer vos avis clients et renforcer votre e-réputation
+              </li>
+              <li class="flex items-start gap-4 text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+                <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Être référencé sur les guides et annuaires gastronomiques qui comptent
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ POURQUOI AGIR MAINTENANT ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Pourquoi agir maintenant">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+          Pourquoi agir maintenant
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto">
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">L'IA ne montre que 3 à 5 restaurants</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">Pas 10 liens comme Google. Si vous n'êtes pas dans la liste, le couvert va ailleurs.</p>
+          </div>
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Les premiers positionnés gardent leur avantage</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">Une fois recommandé par ChatGPT, vous restez dans la liste. Les retardataires auront du mal à vous déloger.</p>
+          </div>
+          <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Vos concurrents n'ont pas encore commencé</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">La plupart des restaurateurs ignorent que ChatGPT influence le choix de leurs clients. C'est le bon moment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ COMMENT ÇA MARCHE ═══════════════════ -->
+    <section id="comment-ca-marche" class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Comment ça marche">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+          Comment ça marche
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mb-12 md:mb-16">
+          <div class="relative fade-in">
+            <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">01</p>
+            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Audit gratuit</h3>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Nous testons votre restaurant sur ChatGPT, Google Maps et les assistants IA. Vous recevez un score sur 100.</p>
+            <div class="hidden md:flex absolute top-12 -right-5 md:-right-6 items-center text-warmgray/50" aria-hidden="true">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </div>
+          <div class="relative fade-in">
+            <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">02</p>
+            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Plan d'action</h3>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Un rapport avec les actions prioritaires pour votre restaurant. Classées par impact, sans jargon.</p>
+            <div class="hidden md:flex absolute top-12 -right-5 md:-right-6 items-center text-warmgray/50" aria-hidden="true">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </div>
+          <div class="fade-in">
+            <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">03</p>
+            <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">Résultats</h3>
+            <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">Nous mettons en place les corrections. Vos clients vous trouvent sur ChatGPT et Google Maps.</p>
+          </div>
+        </div>
+        <div class="text-center fade-in">
+          <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark" onclick="plausible('CTA Click', {props: {location: 'restaurants-how-it-works'}})">
+            Commencer par l'audit gratuit →
+          </a>
+        </div>
+        <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-in">
+          Un seul restaurant par quartier et par type de cuisine — pour vous garantir l'exclusivité.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ FAQ ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Questions fréquentes">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+            Questions fréquentes
+          </h2>
+          <div class="space-y-0 fade-in">
+            <details class="group border-b border-warmgray/30" open>
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>En combien de temps mon restaurant apparaît sur ChatGPT ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Les premiers effets sur Google Maps apparaissent en quelques jours. Pour ChatGPT et les autres assistants IA, comptez 4 à 8 semaines pour les premiers signaux, et 8 à 12 semaines pour des résultats consolidés.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Ça fonctionne aussi pour un petit restaurant de quartier ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Oui, c'est même là que l'impact est le plus fort. Les touristes et locaux demandent à l'IA des recommandations par quartier : «&nbsp;restaurant italien Bastille&nbsp;», «&nbsp;brunch Montmartre&nbsp;». Plus votre cuisine est identifiable et locale, mieux ça fonctionne.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Dois-je avoir un site web pour mon restaurant ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Non. Votre fiche Google Business Profile, vos avis, les annuaires comme TripAdvisor, TheFork et les guides locaux suffisent. Nous optimisons l'ensemble de votre présence en ligne.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Comment se déroule l'audit gratuit ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Vous remplissez le formulaire. Nous testons votre restaurant sur ChatGPT, Perplexity, Gemini et Google Maps. Vous recevez un rapport sous 48 heures avec votre score sur 100 et vos 3 actions prioritaires.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Vous garantissez d'apparaître sur ChatGPT ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Non, et quiconque le promet vous ment. Ce que nous garantissons : votre restaurant aura toutes les conditions pour être recommandé. Et nous mesurons le résultat avec un score avant/après.</p>
+              </div>
+            </details>
+            <details class="group border-b border-warmgray/30">
+              <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+                <span>Qu'est-ce que je dois faire de mon côté ?</span>
+                <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              </summary>
+              <div class="pb-6 pr-8">
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">Très peu. Un court questionnaire (5 minutes) et quelques mises à jour sur votre fiche Google. Nous vous guidons pas à pas. Temps total : environ 30 minutes.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ FORMULAIRE ═══════════════════ -->
+    <section id="audit" class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Demander un audit gratuit">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-2xl mx-auto">
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">
+            Votre audit gratuit en 48h
+          </h2>
+          <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-10 md:mb-12 fade-in">
+            Découvrez si ChatGPT recommande votre restaurant. Sans engagement, sans carte bancaire.
+          </p>
+          <form class="space-y-6 fade-in" action="https://formsubmit.co/contact@eddiemiller.agency" method="POST" onsubmit="plausible('Form Submit', {props: {page: 'restaurants'}})">
+            <input type="hidden" name="_next" value="https://eddiemiller.agency/merci" />
+            <input type="hidden" name="_subject" value="Audit restaurant — Eddie Miller Agency" />
+            <input type="hidden" name="_captcha" value="true" />
+            <input type="text" name="_honey" style="display:none" />
+            <input type="hidden" name="source" value="page-restaurants" />
+            <div>
+              <label for="etablissement" class="block text-sm font-sans font-medium text-charcoal mb-2">Nom du restaurant</label>
+              <input type="text" id="etablissement" name="etablissement" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="Le Petit Cler, Chez Marcel…" />
+            </div>
+            <div>
+              <label for="type" class="block text-sm font-sans font-medium text-charcoal mb-2">Type d'établissement</label>
+              <select id="type" name="type" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none appearance-none" style="background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6360%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem center;">
+                <option value="restaurant" selected>Restaurant</option>
+                <option value="bar-restaurant">Bar-restaurant</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+            <div>
+              <label for="localisation" class="block text-sm font-sans font-medium text-charcoal mb-2">Arrondissement ou ville</label>
+              <input type="text" id="localisation" name="localisation" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="Paris 7e, Neuilly-sur-Seine…" />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-sans font-medium text-charcoal mb-2">Adresse email</label>
+              <input type="email" id="email" name="email" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="vous@exemple.com" />
+            </div>
+            <div>
+              <label for="telephone" class="block text-sm font-sans font-medium text-charcoal mb-2">Numéro de téléphone <span class="text-warmgray font-normal">(optionnel)</span></label>
+              <input type="tel" id="telephone" name="telephone" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-colors duration-300 focus:border-terracotta focus:outline-none" placeholder="06 12 34 56 78" />
+            </div>
+            <button type="submit" class="block w-full px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark cursor-pointer">
+              Recevoir mon audit gratuit
+            </button>
+          </form>
+          <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-in">
+            Réponse sous 48h · 100&nbsp;% gratuit · Sans engagement
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>
+
+<script>
+  function animateCounter(el: HTMLElement) {
+    const target = parseInt(el.dataset.countTo || '0', 10);
+    const suffix = el.dataset.suffix || '';
+    el.textContent = '0' + suffix;
+    const duration = 1500;
+    const start = performance.now();
+    function update(now: number) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.round(eased * target);
+      el.textContent = current + suffix;
+      if (progress < 1) requestAnimationFrame(update);
+    }
+    requestAnimationFrame(update);
+  }
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) { animateCounter(entry.target as HTMLElement); counterObserver.unobserve(entry.target); }
+    });
+  }, { threshold: 0.3 });
+  document.querySelectorAll<HTMLElement>('[data-count-to]').forEach(el => counterObserver.observe(el));
+</script>
