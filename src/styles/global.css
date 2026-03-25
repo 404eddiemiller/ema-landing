@@ -277,15 +277,17 @@ body {
 
 /* === Animation utilities === */
 
-/* Apple-like easing curves */
+/* Easing */
 :root {
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
-  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
-  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
-  --stagger-delay: 0.12s;
 }
 
-/* Base animation state — all animated elements start hidden */
+/*
+ * All animation classes produce the same subtle effect:
+ * gentle fade-in + small upward drift over ~1s.
+ * Inline transition-delay attributes on elements are intentionally
+ * IGNORED so everything in a section appears together.
+ */
 .fade-up,
 .fade-up-slow,
 .scale-in,
@@ -294,90 +296,39 @@ body {
 .blur-in,
 .fade-in {
   opacity: 0;
-  will-change: transform, opacity;
-}
-
-/* fade-up — default entrance */
-.fade-up {
-  transform: translateY(40px);
-  transition: opacity 0.7s var(--ease-out-expo), transform 0.7s var(--ease-out-expo);
-}
-.fade-up.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* fade-up-slow — for headings */
-.fade-up-slow {
-  transform: translateY(50px);
+  transform: translateY(16px);
   transition: opacity 1s var(--ease-out-expo), transform 1s var(--ease-out-expo);
-}
-.fade-up-slow.visible {
-  opacity: 1;
-  transform: translateY(0);
+  transition-delay: 0s !important;
 }
 
-/* scale-in — for cards */
-.scale-in {
-  transform: scale(0.92);
-  transition: opacity 0.7s var(--ease-out-expo), transform 0.7s var(--ease-out-expo);
-}
-.scale-in.visible {
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* slide-in-left */
-.slide-in-left {
-  transform: translateX(-60px);
-  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
-}
-.slide-in-left.visible {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-/* slide-in-right */
-.slide-in-right {
-  transform: translateX(60px);
-  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
-}
-.slide-in-right.visible {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-/* blur-in — premium depth effect */
-.blur-in {
-  transform: translateY(20px);
-  filter: blur(8px);
-  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo), filter 0.8s var(--ease-out-expo);
-}
-.blur-in.visible {
-  opacity: 1;
-  transform: translateY(0);
-  filter: blur(0);
-}
-
-/* Legacy fade-in — keep for backward compat but upgrade easing */
-.fade-in {
-  transform: translateY(20px);
-  transition: opacity 0.6s var(--ease-out-expo), transform 0.6s var(--ease-out-expo);
-}
+.fade-up.visible,
+.fade-up-slow.visible,
+.scale-in.visible,
+.slide-in-left.visible,
+.slide-in-right.visible,
+.blur-in.visible,
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* === Card hover effects === */
+/* Text reveal lines — just show them normally */
+.text-reveal-line {
+  overflow: visible;
+}
+.text-reveal-line > span {
+  display: inline-block;
+  transform: none;
+  transition: none;
+}
+
+/* === Card hover — subtle border change only, no lift === */
 
 .card-hover {
-  transition: transform 0.4s var(--ease-out-expo), border-color 0.3s ease, box-shadow 0.4s var(--ease-out-expo);
+  transition: border-color 0.3s ease;
 }
 .card-hover:hover {
-  transform: translateY(-6px);
   border-color: var(--color-terracotta);
-  box-shadow: 0 20px 40px -12px rgba(44, 40, 37, 0.08);
 }
 
 /* === SVG line draw animation === */
@@ -385,17 +336,17 @@ body {
 .draw-line {
   stroke-dasharray: var(--line-length, 200);
   stroke-dashoffset: var(--line-length, 200);
-  transition: stroke-dashoffset 1.2s var(--ease-out-expo);
+  transition: stroke-dashoffset 2s var(--ease-out-expo);
 }
 .draw-line.visible {
   stroke-dashoffset: 0;
 }
 
-/* === Animated separator === */
+/* === Animated separator — slower === */
 
 .separator-animate {
   width: 0;
-  transition: width 0.8s var(--ease-out-expo) 0.3s;
+  transition: width 1.4s var(--ease-out-expo) 0.2s;
 }
 .separator-animate.visible {
   width: 48px;
@@ -423,39 +374,7 @@ body {
 /* === Score circle animation === */
 
 .score-circle {
-  transition: stroke-dashoffset 1.5s var(--ease-out-expo);
-}
-
-/* === Subtle pulse for CTA attention === */
-
-@keyframes subtle-pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.02); }
-}
-.pulse-attention {
-  animation: subtle-pulse 3s var(--ease-out-quart) infinite;
-}
-
-/* === Hero text reveal === */
-
-.text-reveal-line {
-  overflow: hidden;
-}
-.text-reveal-line > span {
-  display: inline-block;
-  transform: translateY(110%);
-  transition: transform 0.8s var(--ease-out-expo);
-}
-.text-reveal-line.visible > span {
-  transform: translateY(0);
-}
-
-/* === Number highlight — for stat emphasis === */
-
-@keyframes countGlow {
-  0% { text-shadow: none; }
-  50% { text-shadow: 0 0 20px rgba(196, 120, 91, 0.15); }
-  100% { text-shadow: none; }
+  transition: stroke-dashoffset 2s var(--ease-out-expo);
 }
 
 /* === Prefers reduced motion === */
@@ -468,7 +387,6 @@ body {
   .slide-in-right,
   .blur-in,
   .fade-in,
-  .text-reveal-line > span,
   .draw-line,
   .separator-animate,
   .card-hover,
@@ -480,9 +398,6 @@ body {
     opacity: 1 !important;
     stroke-dashoffset: 0 !important;
     width: auto !important;
-  }
-  .pulse-attention {
-    animation: none !important;
   }
 }
 
