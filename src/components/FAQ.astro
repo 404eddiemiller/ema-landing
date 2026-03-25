@@ -1,5 +1,5 @@
 ---
-// FAQ section — Common questions in plain language, addressing real objections
+// FAQ section — Smooth accordion with hover accents
 const faqs = [
   {
     question: "C'est quoi concrètement ? Vous faites quoi pour moi ?",
@@ -34,16 +34,16 @@ const faqs = [
 <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Questions fréquentes">
   <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
     <div class="max-w-3xl mx-auto">
-      <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+      <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow">
         Vos questions
       </h2>
 
-      <div class="space-y-0 fade-in">
+      <div class="space-y-0 fade-up">
         {faqs.map((faq, i) => (
           <details class="group border-b border-warmgray/30" {...(i === 0 ? { open: true } : {})}>
-            <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-colors duration-200 hover:text-terracotta [&::-webkit-details-marker]:hidden">
+            <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-all duration-300 hover:text-terracotta hover:pl-2 [&::-webkit-details-marker]:hidden">
               <span>{faq.question}</span>
-              <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <svg class="w-5 h-5 shrink-0 text-warmgray transition-all duration-400 group-open:rotate-45 group-open:text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M12 5v14M5 12h14"/>
               </svg>
             </summary>

@@ -1,5 +1,5 @@
 ---
-// Verticals section — "Ça marche pour votre métier" — 8-card grid with optional links
+// Verticals section — Interactive cards with hover animations
 const verticals = [
   { title: 'Cabinets dentaires', description: "Vos futurs patients demandent un dentiste à ChatGPT. On fait en sorte que ce soit vous qu'il recommande.", icon: 'stethoscope', href: '/dentistes' },
   { title: "Cabinets d'avocats", description: "Un client qui cherche un avocat en urgence demande à l'IA. Soyez le nom qui sort.", icon: 'scale', href: '/avocats' },
@@ -25,19 +25,22 @@ const icons: Record<string, string> = {
 ---
 <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Ça marche pour votre métier">
   <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
-    <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">
+    <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
       Ça marche pour votre métier
     </h2>
-    <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-in">
+    <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-up">
       Si vous avez une adresse physique à Paris et que vos clients vous cherchent en ligne, on peut vous aider.
     </p>
 
     <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
-      {verticals.map((v) => {
+      {verticals.map((v, i) => {
+        const cardClasses = "block border border-warmgray p-5 md:p-6 bg-cream card-hover scale-in group";
+        const cardStyle = `transition-delay: ${i * 0.08}s;`;
+
         const cardContent = (
           <>
             <div class="mb-3">
-              <svg class="w-6 h-6 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={icons[v.icon]} />
+              <svg class="w-6 h-6 text-terracotta transition-transform duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={icons[v.icon]} />
             </div>
             <h3 class="text-base md:text-lg font-serif font-normal leading-[1.2] text-charcoal mb-1.5">
               {v.title}
@@ -46,17 +49,17 @@ const icons: Record<string, string> = {
               {v.description}
             </p>
             {v.href && (
-              <p class="mt-3 text-sm font-sans font-medium text-terracotta">En savoir plus →</p>
+              <p class="mt-3 text-sm font-sans font-medium text-terracotta transition-transform duration-300 group-hover:translate-x-1">En savoir plus →</p>
             )}
           </>
         );
 
         return v.href ? (
-          <a href={v.href} class="block border border-warmgray p-5 md:p-6 bg-cream transition-colors duration-300 hover:border-terracotta fade-in no-underline">
+          <a href={v.href} class={cardClasses + " no-underline"} style={cardStyle}>
             {cardContent}
           </a>
         ) : (
-          <div class="border border-warmgray p-5 md:p-6 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+          <div class={cardClasses} style={cardStyle}>
             {cardContent}
           </div>
         );

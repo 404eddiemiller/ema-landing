@@ -277,15 +277,213 @@ body {
 
 /* === Animation utilities === */
 
-.fade-in {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+/* Apple-like easing curves */
+:root {
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --stagger-delay: 0.12s;
 }
 
+/* Base animation state — all animated elements start hidden */
+.fade-up,
+.fade-up-slow,
+.scale-in,
+.slide-in-left,
+.slide-in-right,
+.blur-in,
+.fade-in {
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+/* fade-up — default entrance */
+.fade-up {
+  transform: translateY(40px);
+  transition: opacity 0.7s var(--ease-out-expo), transform 0.7s var(--ease-out-expo);
+}
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* fade-up-slow — for headings */
+.fade-up-slow {
+  transform: translateY(50px);
+  transition: opacity 1s var(--ease-out-expo), transform 1s var(--ease-out-expo);
+}
+.fade-up-slow.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* scale-in — for cards */
+.scale-in {
+  transform: scale(0.92);
+  transition: opacity 0.7s var(--ease-out-expo), transform 0.7s var(--ease-out-expo);
+}
+.scale-in.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* slide-in-left */
+.slide-in-left {
+  transform: translateX(-60px);
+  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
+}
+.slide-in-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* slide-in-right */
+.slide-in-right {
+  transform: translateX(60px);
+  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
+}
+.slide-in-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* blur-in — premium depth effect */
+.blur-in {
+  transform: translateY(20px);
+  filter: blur(8px);
+  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo), filter 0.8s var(--ease-out-expo);
+}
+.blur-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+/* Legacy fade-in — keep for backward compat but upgrade easing */
+.fade-in {
+  transform: translateY(20px);
+  transition: opacity 0.6s var(--ease-out-expo), transform 0.6s var(--ease-out-expo);
+}
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* === Card hover effects === */
+
+.card-hover {
+  transition: transform 0.4s var(--ease-out-expo), border-color 0.3s ease, box-shadow 0.4s var(--ease-out-expo);
+}
+.card-hover:hover {
+  transform: translateY(-6px);
+  border-color: var(--color-terracotta);
+  box-shadow: 0 20px 40px -12px rgba(44, 40, 37, 0.08);
+}
+
+/* === SVG line draw animation === */
+
+.draw-line {
+  stroke-dasharray: var(--line-length, 200);
+  stroke-dashoffset: var(--line-length, 200);
+  transition: stroke-dashoffset 1.2s var(--ease-out-expo);
+}
+.draw-line.visible {
+  stroke-dashoffset: 0;
+}
+
+/* === Animated separator === */
+
+.separator-animate {
+  width: 0;
+  transition: width 0.8s var(--ease-out-expo) 0.3s;
+}
+.separator-animate.visible {
+  width: 48px;
+}
+
+/* === Animated underline hover (for links) === */
+
+.hover-underline {
+  position: relative;
+}
+.hover-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 0.4s var(--ease-out-expo);
+}
+.hover-underline:hover::after {
+  width: 100%;
+}
+
+/* === Score circle animation === */
+
+.score-circle {
+  transition: stroke-dashoffset 1.5s var(--ease-out-expo);
+}
+
+/* === Subtle pulse for CTA attention === */
+
+@keyframes subtle-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+.pulse-attention {
+  animation: subtle-pulse 3s var(--ease-out-quart) infinite;
+}
+
+/* === Hero text reveal === */
+
+.text-reveal-line {
+  overflow: hidden;
+}
+.text-reveal-line > span {
+  display: inline-block;
+  transform: translateY(110%);
+  transition: transform 0.8s var(--ease-out-expo);
+}
+.text-reveal-line.visible > span {
+  transform: translateY(0);
+}
+
+/* === Number highlight — for stat emphasis === */
+
+@keyframes countGlow {
+  0% { text-shadow: none; }
+  50% { text-shadow: 0 0 20px rgba(196, 120, 91, 0.15); }
+  100% { text-shadow: none; }
+}
+
+/* === Prefers reduced motion === */
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-up,
+  .fade-up-slow,
+  .scale-in,
+  .slide-in-left,
+  .slide-in-right,
+  .blur-in,
+  .fade-in,
+  .text-reveal-line > span,
+  .draw-line,
+  .separator-animate,
+  .card-hover,
+  .score-circle {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+    filter: none !important;
+    opacity: 1 !important;
+    stroke-dashoffset: 0 !important;
+    width: auto !important;
+  }
+  .pulse-attention {
+    animation: none !important;
+  }
 }
 
 /* === Skip navigation === */

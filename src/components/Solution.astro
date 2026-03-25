@@ -1,21 +1,27 @@
 ---
-// Solution section — "Ce qu'on fait pour vous" — concrete benefits, no jargon
+// Solution section — Two columns with visual distinction and hover effects
 ---
 <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce qu'on fait pour vous">
   <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
-    <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">
+    <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
       Ce qu'on fait pour vous
     </h2>
-    <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-in">
+    <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-up">
       On s'occupe de tout ce qui fait que vos clients vous trouvent — sur Google et sur les assistants IA.
     </p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-3xl mx-auto">
-      <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
-        <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal mb-4">
-          Être trouvé sur Google
-        </h3>
-        <ul class="space-y-3">
+      <!-- Google column -->
+      <div class="border border-warmgray p-8 bg-cream card-hover slide-in-left">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-7 h-7 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal">
+            Être trouvé sur Google
+          </h3>
+        </div>
+        <ul class="space-y-4">
           <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
             <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
             Votre établissement remonte dans Google Maps quand un client cherche dans votre quartier
@@ -31,11 +37,18 @@
         </ul>
       </div>
 
-      <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
-        <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal mb-4">
-          Être recommandé par les IA
-        </h3>
-        <ul class="space-y-3">
+      <!-- AI column -->
+      <div class="border border-warmgray p-8 bg-cream card-hover slide-in-right">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-7 h-7 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3c.5 3.5 2 5 5.5 5.5-3.5.5-5 2-5.5 5.5-.5-3.5-2-5-5.5-5.5C10 8 11.5 6.5 12 3Z"/>
+            <path d="M19 10c.3 2 1.2 3 3.3 3.3-2.1.3-3 1.2-3.3 3.3-.3-2.1-1.2-3-3.3-3.3 2.1-.3 3-1.3 3.3-3.3Z"/>
+          </svg>
+          <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal">
+            Être recommandé par les IA
+          </h3>
+        </div>
+        <ul class="space-y-4">
           <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
             <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
             ChatGPT, Gemini et Perplexity vous citent quand un client demande une recommandation

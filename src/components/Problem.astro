@@ -1,24 +1,24 @@
 ---
-// Problem section — "Vos clients ont changé de réflexe" + 3 stat cards + paragraph
+// Problem section — Dark background Apple-style + animated stat cards
 const stats = [
   { value: 45, suffix: '%', text: "des consommateurs demandent à ChatGPT de leur recommander un commerce, un médecin ou un restaurant", source: 'BrightLocal, 2026' },
   { value: 83, suffix: '%', text: "des commerces locaux n'apparaissent pas du tout dans ces recommandations", source: 'Local Falcon, 2026' },
   { value: 3, suffix: ' à 5', text: "résultats : c'est tout ce que l'IA montre. Pas 10 liens comme Google — 3 à 5 noms. Le vôtre, ou celui d'un concurrent", source: '' },
 ];
 ---
-<section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Le problème">
+<section class="py-16 md:py-24 lg:py-32 bg-charcoal text-cream" aria-label="Le problème">
   <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
-    <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-in">
+    <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-cream mb-4 fade-up-slow">
       Vos clients ont changé de réflexe
     </h2>
-    <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-in">
+    <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-cream/70 mb-12 md:mb-16 fade-up">
       Ils ne tapent plus dans Google. Ils demandent directement à une IA.
     </p>
 
     <!-- Stat cards -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
-      {stats.map((stat) => (
-        <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+      {stats.map((stat, i) => (
+        <div class="border border-cream/10 p-8 bg-cream/5 transition-all duration-400 hover:border-terracotta hover:bg-cream/8 hover:translate-y-[-4px] scale-in" style={`transition-delay: ${i * 0.12}s;`}>
           <p
             class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4"
             data-count-to={stat.value}
@@ -26,11 +26,11 @@ const stats = [
           >
             {stat.value}{stat.suffix}
           </p>
-          <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">
+          <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-cream/80 mb-4">
             {stat.text}
           </p>
           {stat.source && (
-            <p class="text-sm font-sans font-medium text-stone/70">
+            <p class="text-sm font-sans font-medium text-cream/40">
               {stat.source}
             </p>
           )}
@@ -39,7 +39,7 @@ const stats = [
     </div>
 
     <!-- Paragraph -->
-    <p class="max-w-[65ch] mx-auto text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone fade-in">
+    <p class="max-w-[65ch] mx-auto text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-cream/70 blur-in">
       Un client qui cherche «&nbsp;dentiste Paris 15&nbsp;» ou «&nbsp;restaurant près de la Tour Eiffel&nbsp;» sur ChatGPT reçoit 3 noms. Pas une liste de 10 liens. Si vous n'en faites pas partie, ce client ne saura jamais que vous existez.
     </p>
   </div>

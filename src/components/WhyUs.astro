@@ -1,15 +1,18 @@
 ---
-// WhyUs section — "Pourquoi ne pas attendre" — urgency without jargon
+// WhyUs section — Premium numbered cards with urgency
 const reasons = [
   {
+    number: '01',
     title: "Les premiers visibles gardent l'avantage",
     description: "Les IA fonctionnent par habitude : une fois qu'elles recommandent un établissement, elles continuent. Ceux qui attendent devront fournir beaucoup plus d'efforts pour rattraper.",
   },
   {
+    number: '02',
     title: "Vos concurrents n'y sont pas encore",
     description: "La plupart des commerces locaux n'ont aucune idée que ChatGPT influence déjà leurs clients. C'est le moment de prendre une longueur d'avance — avant qu'ils ne s'en rendent compte.",
   },
   {
+    number: '03',
     title: "Chaque jour sans visibilité, ce sont des clients perdus",
     description: "Quelqu'un dans votre quartier cherche un établissement comme le vôtre en ce moment. Si l'IA ne vous connaît pas, elle envoie ce client ailleurs. C'est aussi simple que ça.",
   },
@@ -17,13 +20,16 @@ const reasons = [
 ---
 <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Pourquoi agir maintenant">
   <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
-    <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+    <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow">
       Pourquoi ne pas attendre
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto">
-      {reasons.map((reason) => (
-        <div class="border border-warmgray p-8 bg-cream transition-colors duration-300 hover:border-terracotta fade-in">
+      {reasons.map((reason, i) => (
+        <div class="border border-warmgray p-8 bg-cream card-hover scale-in" style={`transition-delay: ${i * 0.12}s;`}>
+          <p class="text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/25 mb-4" aria-hidden="true">
+            {reason.number}
+          </p>
           <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">
             {reason.title}
           </h3>

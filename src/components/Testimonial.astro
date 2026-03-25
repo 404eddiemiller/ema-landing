@@ -1,5 +1,5 @@
 ---
-// Testimonial section — Multiple credible client results
+// Testimonial section — Animated score circles + client results
 const testimonials = [
   {
     quote: "On ne comprenait pas pourquoi on avait moins de nouveaux patients alors que nos avis Google sont excellents. L'audit a montré que ChatGPT ne nous connaissait tout simplement pas. En deux mois, on a commencé à recevoir des appels de patients qui disaient avoir trouvé notre cabinet \"grâce à l'IA\".",
@@ -18,27 +18,67 @@ const testimonials = [
     delay: "6 semaines",
   },
 ];
+
+// SVG circle params (radius 40, circumference = 2 * PI * 40 ≈ 251.3)
+const circleR = 40;
+const circleC = 2 * Math.PI * circleR;
 ---
 <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Résultats clients">
   <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
-    <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-in">
+    <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow">
       Ce que ça change concrètement
     </h2>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-      {testimonials.map((t) => (
-        <div class="border border-warmgray bg-cream p-8 md:p-10 fade-in">
-          <!-- Before/After -->
+      {testimonials.map((t, i) => (
+        <div class="border border-warmgray bg-cream p-8 md:p-10 card-hover scale-in" style={`transition-delay: ${i * 0.15}s;`}>
+          <!-- Score circles -->
           <div class="grid grid-cols-2 gap-6 mb-8">
-            <div>
-              <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-2">Avant</p>
-              <p class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray">{t.before.score}<span class="text-[1.25rem]">/100</span></p>
-              <p class="mt-1 text-sm font-sans text-stone/70">{t.before.label}</p>
+            <!-- Before -->
+            <div class="text-center">
+              <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">Avant</p>
+              <div class="relative inline-flex items-center justify-center w-24 h-24 md:w-28 md:h-28">
+                <svg class="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 100 100" aria-hidden="true">
+                  <circle cx="50" cy="50" r={circleR} fill="none" stroke="#EDE6DD" stroke-width="4" />
+                  <circle
+                    cx="50" cy="50" r={circleR}
+                    fill="none"
+                    stroke="#B5ADA6"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    class="score-circle"
+                    data-score={t.before.score}
+                    style={`stroke-dasharray: ${circleC}; stroke-dashoffset: ${circleC};`}
+                  />
+                </svg>
+                <span class="text-[1.5rem] md:text-[1.75rem] font-serif font-normal leading-none text-warmgray" data-count-to={t.before.score} data-suffix="/100">
+                  {t.before.score}/100
+                </span>
+              </div>
+              <p class="mt-2 text-sm font-sans text-stone/70">{t.before.label}</p>
             </div>
-            <div>
-              <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-2">Après {t.delay}</p>
-              <p class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">{t.after.score}<span class="text-[1.25rem]">/100</span></p>
-              <p class="mt-1 text-sm font-sans text-stone/70">{t.after.label}</p>
+            <!-- After -->
+            <div class="text-center">
+              <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Après {t.delay}</p>
+              <div class="relative inline-flex items-center justify-center w-24 h-24 md:w-28 md:h-28">
+                <svg class="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 100 100" aria-hidden="true">
+                  <circle cx="50" cy="50" r={circleR} fill="none" stroke="#EDE6DD" stroke-width="4" />
+                  <circle
+                    cx="50" cy="50" r={circleR}
+                    fill="none"
+                    stroke="#C4785B"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    class="score-circle"
+                    data-score={t.after.score}
+                    style={`stroke-dasharray: ${circleC}; stroke-dashoffset: ${circleC};`}
+                  />
+                </svg>
+                <span class="text-[1.5rem] md:text-[1.75rem] font-serif font-normal leading-none text-terracotta" data-count-to={t.after.score} data-suffix="/100">
+                  {t.after.score}/100
+                </span>
+              </div>
+              <p class="mt-2 text-sm font-sans text-stone/70">{t.after.label}</p>
             </div>
           </div>
 
@@ -59,3 +99,31 @@ const testimonials = [
     </div>
   </div>
 </section>
+
+<!-- Score circle animation script -->
+<script>
+  const CIRCLE_C = 2 * Math.PI * 40;
+
+  const scoreObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const circles = entry.target.querySelectorAll<SVGCircleElement>('.score-circle');
+        circles.forEach(circle => {
+          const score = parseInt(circle.dataset.score || '0', 10);
+          const offset = CIRCLE_C - (score / 100) * CIRCLE_C;
+          // Small delay for dramatic effect
+          setTimeout(() => {
+            circle.style.strokeDashoffset = String(offset);
+          }, 300);
+        });
+        scoreObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  document.querySelectorAll('.card-hover').forEach(card => {
+    if (card.querySelector('.score-circle')) {
+      scoreObserver.observe(card);
+    }
+  });
+</script>

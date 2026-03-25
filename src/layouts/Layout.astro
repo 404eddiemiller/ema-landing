@@ -253,29 +253,43 @@ const {
       }
     </script>
 
-    <!-- Intersection Observer for fade-in animations with stagger -->
+    <!-- Intersection Observer for all scroll animations with stagger -->
     <script>
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            observer.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.1 });
+      // All animatable classes
+      const animClasses = ['.fade-up', '.fade-up-slow', '.scale-in', '.slide-in-left', '.slide-in-right', '.blur-in', '.fade-in', '.draw-line', '.separator-animate', '.text-reveal-line'];
 
-      document.querySelectorAll('.fade-in').forEach((el, i) => {
-        // Stagger siblings within the same grid parent
-        const parent = el.parentElement;
-        if (parent && (parent.classList.contains('grid') || parent.classList.contains('flex'))) {
-          const siblings = Array.from(parent.querySelectorAll(':scope > .fade-in'));
-          const index = siblings.indexOf(el);
-          if (index > 0) {
-            el.style.transitionDelay = `${index * 0.1}s`;
+      // Respect prefers-reduced-motion
+      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      if (prefersReduced) {
+        // Immediately show all elements
+        document.querySelectorAll(animClasses.join(',')).forEach(el => {
+          el.classList.add('visible');
+        });
+      } else {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll(animClasses.join(',')).forEach((el) => {
+          // Stagger siblings within the same grid/flex parent
+          const parent = el.parentElement;
+          if (parent && (parent.classList.contains('grid') || parent.classList.contains('flex') || parent.classList.contains('space-y-0'))) {
+            const selector = animClasses.map(c => `:scope > ${c}`).join(',');
+            const siblings = Array.from(parent.querySelectorAll(selector));
+            const index = siblings.indexOf(el);
+            if (index > 0) {
+              (el as HTMLElement).style.transitionDelay = `${index * 0.12}s`;
+            }
           }
-        }
-        observer.observe(el);
-      });
+          observer.observe(el);
+        });
+      }
     </script>
   </body>
 </html>
