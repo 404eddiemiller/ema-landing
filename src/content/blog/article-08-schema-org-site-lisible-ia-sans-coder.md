@@ -10,6 +10,8 @@ tags: ["Schema.org", "données structurées", "JSON-LD", "GEO", "visibilité IA"
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "11 min"
+image: "/images/blog/schema-org-site-lisible-ia-sans-coder.webp"
+imageAlt: "Lignes de code structuré affichées sur un écran dans un environnement chaleureux"
 internal_links:
   - slug: "geo-referencement-ia-2026"
     anchor: "GEO (Generative Engine Optimization)"

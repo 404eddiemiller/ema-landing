@@ -10,6 +10,8 @@ tags: ["ChatGPT", "Perplexity", "Google AI Overview", "comparatif", "GEO", "Pari
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "11 min"
+image: "/images/blog/chatgpt-perplexity-google-ai-comparatif-commerces-paris.webp"
+imageAlt: "Trois logos d'assistants IA sur un fond terracotta doux"
 internal_links:
   - slug: "geo-referencement-ia-2026"
     anchor: "GEO (Generative Engine Optimization)"

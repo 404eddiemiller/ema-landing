@@ -10,6 +10,8 @@ tags: ["annuaires", "restaurant", "Paris", "TheFork", "TripAdvisor", "Google Bus
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "9 min"
+image: "/images/blog/7-annuaires-restaurant-ia-recommandation.webp"
+imageAlt: "Table de restaurant avec un plat soigneusement dressé et un smartphone à côté"
 internal_links:
   - slug: "chatgpt-recommandation-restaurant-paris"
     anchor: "comment ChatGPT recommande les restaurants"

@@ -10,6 +10,8 @@ tags: ["sources IA", "Doctolib", "Google Reviews", "PagesJaunes", "dentiste", "P
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "10 min"
+image: "/images/blog/sources-recommandations-dentaires-ia-paris.webp"
+imageAlt: "Écran montrant les résultats Doctolib, Google et PagesJaunes pour un dentiste"
 internal_links:
   - slug: "chatgpt-perplexity-google-ai-comparatif-commerces-paris"
     anchor: "notre comparatif des plateformes IA"

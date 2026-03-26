@@ -10,6 +10,8 @@ tags: ["Google Business Profile", "restaurant", "Paris", "SEO local", "erreurs",
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "10 min"
+image: "/images/blog/google-business-restaurant-paris-10-erreurs.webp"
+imageAlt: "Intérieur d'un restaurant parisien vide avec chaises retournées sur les tables"
 internal_links:
   - slug: "chatgpt-recommandation-restaurant-paris"
     anchor: "comment ChatGPT choisit quels restaurants recommander"

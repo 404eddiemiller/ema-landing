@@ -10,6 +10,8 @@ tags: ["ChatGPT", "Perplexity", "Google AI Overview", "dentiste", "Paris", "reco
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "10 min"
+image: "/images/blog/test-ia-recommandation-dentiste-paris.webp"
+imageAlt: "Trois écrans côte à côte montrant les résultats de ChatGPT, Perplexity et Google pour une recherche de dentiste"
 internal_links:
   - slug: "geo-referencement-ia-2026"
     anchor: "GEO (Generative Engine Optimization)"

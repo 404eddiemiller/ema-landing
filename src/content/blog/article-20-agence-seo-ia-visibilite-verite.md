@@ -10,6 +10,8 @@ tags: ["agence SEO", "GEO", "visibilité IA", "ChatGPT", "SEO local", "limites S
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "8 min"
+image: "/images/blog/agence-seo-ia-visibilite-verite.webp"
+imageAlt: "Bureau avec un écran d'ordinateur affichant des statistiques de visibilité en ligne"
 internal_links:
   - slug: "geo-referencement-ia-2026"
     anchor: "GEO (Generative Engine Optimization)"

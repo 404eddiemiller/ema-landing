@@ -10,6 +10,8 @@ tags: ["avis Google", "dentiste", "réputation en ligne", "Google Reviews", "SEO
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "11 min"
+image: "/images/blog/avis-google-cabinet-dentaire-patients.webp"
+imageAlt: "Main tenant un smartphone affichant des avis Google cinq étoiles"
 internal_links:
   - slug: "google-business-profile-guide-dentiste-paris"
     anchor: "guide complet Google Business Profile"

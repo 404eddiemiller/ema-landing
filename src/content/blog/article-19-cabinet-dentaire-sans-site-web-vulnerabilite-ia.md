@@ -10,6 +10,8 @@ tags: ["site web", "dentiste", "sans site", "visibilité IA", "GEO", "Paris", "G
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "8 min"
+image: "/images/blog/cabinet-dentaire-sans-site-web-vulnerabilite-ia.webp"
+imageAlt: "Cabinet dentaire avec une enseigne discrète dans une rue parisienne calme"
 internal_links:
   - slug: "cabinet-dentaire-invisible-chatgpt"
     anchor: "pourquoi votre cabinet est invisible sur ChatGPT"

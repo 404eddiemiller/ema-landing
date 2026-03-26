@@ -10,6 +10,8 @@ tags: ["dentiste", "ChatGPT", "GEO", "visibilité IA", "cabinet dentaire", "Pari
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "10 min"
+image: "/images/blog/cabinet-dentaire-invisible-chatgpt.webp"
+imageAlt: "Écran de smartphone affichant une conversation avec ChatGPT demandant un dentiste à Paris"
 internal_links:
   - slug: "geo-referencement-ia-2026"
     anchor: "GEO (Generative Engine Optimization)"

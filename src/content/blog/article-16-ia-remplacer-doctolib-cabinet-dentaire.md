@@ -10,6 +10,8 @@ tags: ["Doctolib", "IA", "ChatGPT", "dentiste", "Paris", "GEO", "parcours patien
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "8 min"
+image: "/images/blog/ia-remplacer-doctolib-cabinet-dentaire.webp"
+imageAlt: "Salle d'attente d'un cabinet dentaire avec des patients consultant leur téléphone"
 internal_links:
   - slug: "cabinet-dentaire-invisible-chatgpt"
     anchor: "pourquoi votre cabinet est invisible sur ChatGPT"

@@ -10,6 +10,8 @@ tags: ["restaurant", "ChatGPT", "GEO", "visibilité IA", "Paris", "Perplexity", 
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "10 min"
+image: "/images/blog/chatgpt-recommandation-restaurant-paris.webp"
+imageAlt: "Terrasse de restaurant parisien avec tables en bois et lumière naturelle"
 internal_links:
   - slug: "geo-referencement-ia-2026"
     anchor: "GEO (Generative Engine Optimization)"

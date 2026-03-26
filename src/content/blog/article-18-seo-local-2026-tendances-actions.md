@@ -10,6 +10,8 @@ tags: ["SEO local", "2026", "tendances", "Google", "GEO", "AI Overview", "commer
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "9 min"
+image: "/images/blog/seo-local-2026-tendances-actions.webp"
+imageAlt: "Rue commerçante parisienne animée avec enseignes de boutiques locales"
 internal_links:
   - slug: "geo-referencement-ia-2026"
     anchor: "GEO (Generative Engine Optimization)"

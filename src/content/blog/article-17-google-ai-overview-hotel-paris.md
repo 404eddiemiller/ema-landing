@@ -10,6 +10,8 @@ tags: ["Google AI Overview", "hôtel", "Paris", "GEO", "visibilité IA", "Bookin
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "8 min"
+image: "/images/blog/google-ai-overview-hotel-paris.webp"
+imageAlt: "Réception d'un hôtel parisien élégant avec un écran montrant Google AI Overview"
 internal_links:
   - slug: "geo-referencement-ia-2026"
     anchor: "GEO (Generative Engine Optimization)"

@@ -10,6 +10,8 @@ tags: ["Google Business Profile", "dentiste", "SEO local", "Paris", "fiche Googl
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "15 min"
+image: "/images/blog/google-business-profile-guide-dentiste-paris.webp"
+imageAlt: "Fiche Google Business Profile d'un cabinet dentaire vue sur un écran d'ordinateur"
 internal_links:
   - slug: "geo-referencement-ia-2026"
     anchor: "GEO (Generative Engine Optimization)"

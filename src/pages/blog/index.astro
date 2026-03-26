@@ -74,19 +74,34 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
                   </div>
 
                   <!-- Content column -->
-                  <div class="flex-1">
-                    <span class="inline-block text-xs font-sans font-medium text-terracotta uppercase tracking-wider mb-2">
-                      {post.data.category}
-                    </span>
-                    <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug group-hover:text-terracotta transition-colors duration-200">
-                      {post.data.title}
-                    </h2>
-                    <p class="mt-2 text-sm md:text-base font-sans text-stone leading-relaxed line-clamp-2">
-                      {post.data.meta_description}
-                    </p>
-                    <span class="hidden md:inline-block mt-3 text-sm font-sans text-stone">
-                      {post.data.reading_time} de lecture
-                    </span>
+                  <div class="flex-1 flex gap-6">
+                    <div class="flex-1">
+                      <span class="inline-block text-xs font-sans font-medium text-terracotta uppercase tracking-wider mb-2">
+                        {post.data.category}
+                      </span>
+                      <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug group-hover:text-terracotta transition-colors duration-200">
+                        {post.data.title}
+                      </h2>
+                      <p class="mt-2 text-sm md:text-base font-sans text-stone leading-relaxed line-clamp-2">
+                        {post.data.meta_description}
+                      </p>
+                      <span class="hidden md:inline-block mt-3 text-sm font-sans text-stone">
+                        {post.data.reading_time} de lecture
+                      </span>
+                    </div>
+                    {post.data.image && (
+                      <div class="hidden md:block shrink-0 self-center">
+                        <img
+                          src={post.data.image}
+                          alt={post.data.imageAlt || post.data.title}
+                          width="200"
+                          height="105"
+                          loading="lazy"
+                          decoding="async"
+                          class="w-[200px] h-[105px] object-cover"
+                        />
+                      </div>
+                    )}
                   </div>
 
                 </div>

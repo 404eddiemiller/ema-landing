@@ -10,6 +10,8 @@ tags: ["GEO", "SEO", "intelligence artificielle", "visibilité", "ChatGPT", "Per
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "12 min"
+image: "/images/blog/geo-referencement-ia-2026.webp"
+imageAlt: "Devanture d'un commerce local avec une lumière chaude, vue depuis la rue"
 ---
 
 # GEO : le référencement que Google ne vous explique pas (et qui change tout en 2026)

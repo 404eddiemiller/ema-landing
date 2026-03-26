@@ -10,6 +10,8 @@ tags: ["étude de cas", "GEO", "dentiste", "visibilité IA", "ChatGPT", "Perplex
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "9 min"
+image: "/images/blog/cas-client-cabinet-dentaire-0-a-3-mentions-ia-60-jours.webp"
+imageAlt: "Fauteuil de dentiste dans un cabinet lumineux et moderne"
 internal_links:
   - slug: "etude-visibilite-ia-50-cabinets-dentaires-paris"
     anchor: "notre étude sur 50 cabinets dentaires parisiens"

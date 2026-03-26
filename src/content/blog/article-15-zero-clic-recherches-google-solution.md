@@ -10,6 +10,8 @@ tags: ["zéro clic", "zero-click", "Google", "AI Overview", "GEO", "SEO local", 
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "9 min"
+image: "/images/blog/zero-clic-recherches-google-solution-commerce-local.webp"
+imageAlt: "Personne regardant un résultat Google sur son téléphone sans cliquer"
 internal_links:
   - slug: "geo-referencement-ia-2026"
     anchor: "GEO (Generative Engine Optimization)"

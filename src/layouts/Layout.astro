@@ -8,6 +8,7 @@ interface Props {
   ogTitle?: string;
   ogDescription?: string;
   ogType?: string;
+  ogImage?: string;
 }
 const {
   title,
@@ -16,6 +17,7 @@ const {
   ogTitle = 'Soyez trouvé par vos futurs clients | Eddie Miller Agency',
   ogDescription = 'Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.',
   ogType = 'website',
+  ogImage = 'https://eddiemiller.agency/og-image.png',
 } = Astro.props;
 ---
 <!doctype html>
@@ -48,12 +50,12 @@ const {
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:locale" content="fr_FR" />
-    <meta property="og:image" content="https://eddiemiller.agency/og-image.png" />
+    <meta property="og:image" content={ogImage} />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={ogTitle} />
-    <meta name="twitter:image" content="https://eddiemiller.agency/og-image.png" />
+    <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:description" content={ogDescription} />
 
     <!-- JSON-LD Structured Data -->

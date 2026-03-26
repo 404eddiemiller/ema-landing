@@ -10,6 +10,8 @@ tags: ["étude", "GEO", "visibilité IA", "dentiste", "Paris", "ChatGPT", "Perpl
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "12 min"
+image: "/images/blog/etude-visibilite-ia-50-cabinets-dentaires-paris.webp"
+imageAlt: "Vue aérienne de toits parisiens avec des cabinets dentaires éparpillés dans la ville"
 internal_links:
   - slug: "geo-referencement-ia-2026"
     anchor: "GEO (Generative Engine Optimization)"

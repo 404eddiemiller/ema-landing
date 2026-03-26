@@ -16,6 +16,9 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 const canonicalUrl = `https://eddiemiller.agency/blog/${post.data.slug}`;
+const articleImage = post.data.image
+  ? `https://eddiemiller.agency${post.data.image}`
+  : 'https://eddiemiller.agency/og-image.png';
 
 // Format date in French
 const formattedDate = post.data.date.toLocaleDateString('fr-FR', {
@@ -38,6 +41,7 @@ const relatedPosts = allPosts
   ogTitle={post.data.meta_title}
   ogDescription={post.data.meta_description}
   ogType="article"
+  ogImage={articleImage}
 >
   <Header />
 
@@ -67,7 +71,7 @@ const relatedPosts = allPosts
       "@type": "WebPage",
       "@id": canonicalUrl
     },
-    "image": "https://eddiemiller.agency/og-image.png",
+    "image": articleImage,
     "inLanguage": "fr",
     "keywords": post.data.tags.join(", "),
     "articleSection": post.data.category
@@ -115,6 +119,22 @@ const relatedPosts = allPosts
           {post.data.title}
         </h1>
       </div>
+
+      <!-- Hero image -->
+      {post.data.image && (
+        <div class="mb-10 md:mb-14 fade-in">
+          <img
+            src={post.data.image}
+            alt={post.data.imageAlt || post.data.title}
+            width="1200"
+            height="630"
+            loading="eager"
+            decoding="async"
+            class="w-full h-auto"
+            style="aspect-ratio: 1200/630; object-fit: cover;"
+          />
+        </div>
+      )}
 
       <!-- Article content -->
       <div class="prose">

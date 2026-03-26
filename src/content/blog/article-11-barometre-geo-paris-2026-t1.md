@@ -10,6 +10,8 @@ tags: ["baromètre", "GEO", "Paris", "visibilité IA", "ChatGPT", "Perplexity", 
 cta: "audit-geo-gratuit"
 lang: "fr"
 reading_time: "11 min"
+image: "/images/blog/barometre-geo-paris-2026-t1.webp"
+imageAlt: "Vue panoramique de Paris avec des commerces locaux en premier plan"
 series: "Baromètre GEO Paris"
 series_number: 1
 internal_links:
