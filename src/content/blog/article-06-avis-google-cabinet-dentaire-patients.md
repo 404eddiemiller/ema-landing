@@ -31,7 +31,7 @@ Les avis sont devenus votre actif numérique le plus précieux. Ce guide vous mo
 
 ## Pourquoi les avis comptent autant en 2026
 
-Les données sont sans ambiguïté. 75 % des consommateurs lisent systématiquement les avis en ligne avant de choisir un professionnel local. 68 % refusent de considérer un établissement noté en dessous de 4 étoiles. Et 89 % sont plus enclins à choisir un établissement qui répond à tous ses avis, positifs comme négatifs.
+Les données sont sans ambiguïté. 75 % des consommateurs lisent systématiquement les avis en ligne avant de choisir un professionnel local. 68 % refusent de considérer une activité notée en dessous de 4 étoiles. Et 89 % sont plus enclins à choisir une activité qui répond à tous ses avis, positifs comme négatifs.
 
 Pour le classement local, l'impact est direct. Les cabinets dans les trois premières positions du Map Pack ont en moyenne plus de 500 avis avec une note de 4,8 étoiles. Chaque tranche de 10 nouveaux avis augmente le taux de conversion (appels, demandes d'itinéraire, clics vers le site) d'environ 2,8 %. Et répondre à au moins un quart de vos avis améliore ce taux de conversion de 4,1 % supplémentaires.
 

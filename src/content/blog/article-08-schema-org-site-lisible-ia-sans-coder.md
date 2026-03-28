@@ -1,5 +1,5 @@
 ---
-title: "Comment aider les IA à comprendre ce que fait votre établissement (sans toucher au code)"
+title: "Comment aider les IA à comprendre ce que fait votre activité (sans toucher au code)"
 slug: "schema-org-site-lisible-ia-sans-coder"
 meta_title: "Comment rendre votre site compréhensible par ChatGPT et Google AI — guide simple, sans code"
 meta_description: "Les sites que les IA comprennent bien sont recommandés 2 à 3 fois plus souvent. Voici comment rendre le vôtre lisible par ChatGPT et Google, même sans compétences techniques."
@@ -25,7 +25,7 @@ internal_links:
 
 Votre site web parle aux humains. Mais parle-t-il aux machines ?
 
-Quand ChatGPT, Perplexity ou Google AI Overview cherchent des informations sur votre établissement, ils ne « lisent » pas votre site comme un patient ou un client le ferait. Ils scannent le code à la recherche de données structurées — des informations balisées dans un format standardisé appelé Schema.org.
+Quand ChatGPT, Perplexity ou Google AI Overview cherchent des informations sur votre activité, ils ne « lisent » pas votre site comme un patient ou un client le ferait. Ils scannent le code à la recherche de données structurées — des informations balisées dans un format standardisé appelé Schema.org.
 
 Si votre site ne contient pas ces balises, les IA doivent deviner ce que vous êtes, où vous êtes, ce que vous proposez. Et quand une IA doit deviner, elle préfère recommander un concurrent dont le site lui donne des réponses claires.
 
@@ -51,9 +51,9 @@ Les chiffres parlent d'eux-mêmes. Les sites avec une implémentation complète 
 
 Malgré cela, la grande majorité des sites de commerces locaux, cabinets médicaux et restaurants n'ont toujours aucune donnée structurée. Dans [notre étude sur 50 cabinets dentaires parisiens](/blog/etude-visibilite-ia-50-cabinets-dentaires-paris), seuls 12 % avaient du Schema.org — et ils étaient tous dans le groupe des cabinets les plus visibles sur les IA.
 
-## Les types de Schema qui comptent pour votre établissement
+## Les types de Schema qui comptent pour votre activité
 
-Vous n'avez pas besoin d'implémenter les 800 types de Schema.org. Pour un établissement local à Paris, voici les types prioritaires, classés par impact.
+Vous n'avez pas besoin d'implémenter les 800 types de Schema.org. Pour une activité locale à Paris, voici les types prioritaires, classés par impact.
 
 ### Pour un cabinet dentaire
 
@@ -81,7 +81,7 @@ Vous n'avez pas besoin d'implémenter les 800 types de Schema.org. Pour un étab
 
 **FAQPage** — Questions sur le parking, le petit-déjeuner, l'annulation, la proximité de transports.
 
-### Pour tous les établissements
+### Pour toutes les activités
 
 **BreadcrumbList** — La structure de navigation de votre site, qui aide les IA à comprendre comment vos pages sont organisées.
 
@@ -161,7 +161,7 @@ L'investissement en temps est minimal. Le retour sur la visibilité IA est mesur
 
 ---
 
-*Votre site a-t-il les bonnes données structurées ? Eddie Miller Agency inclut un audit Schema complet dans son audit GEO gratuit. Nous vérifions ce qui existe, ce qui manque, et nous fournissons le code JSON-LD prêt à implémenter pour votre établissement. [Demander mon audit GEO gratuit →]*
+*Votre site a-t-il les bonnes données structurées ? Eddie Miller Agency inclut un audit Schema complet dans son audit GEO gratuit. Nous vérifions ce qui existe, ce qui manque, et nous fournissons le code JSON-LD prêt à implémenter pour votre activité. [Demander mon audit GEO gratuit →]*
 
 ---
 

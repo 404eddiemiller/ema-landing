@@ -415,6 +415,44 @@ body {
   border-width: 0;
 }
 
+/* === Header dropdown menu === */
+
+.menu-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #F5F0EB;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(181, 173, 166, 0.3);
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu-panel.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hamburger → X animation */
+[aria-expanded="true"] .menu-bar:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+[aria-expanded="true"] .menu-bar:nth-child(2) {
+  opacity: 0;
+}
+[aria-expanded="true"] .menu-bar:nth-child(3) {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu-panel,
+  .menu-bar {
+    transition: none !important;
+  }
+}
+
 /* === FAQ accordion smooth animation === */
 
 details summary {

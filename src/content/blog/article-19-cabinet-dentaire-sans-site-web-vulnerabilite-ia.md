@@ -31,7 +31,7 @@ Dans [notre étude sur 50 cabinets](/blog/etude-visibilite-ia-50-cabinets-dentai
 
 ## Pourquoi l'absence de site web est un handicap pour la visibilité IA
 
-Les IA croisent des données provenant de multiples sources pour décider si elles peuvent recommander un établissement avec confiance. Un cabinet avec une fiche Google Business, un profil Doctolib, un site web et une présence sur trois annuaires fournit aux IA 6 sources à recouper. Un cabinet sans site web n'en fournit que 4 (au mieux). Moins de sources signifie moins de confiance de l'IA et moins de chances d'être recommandé.
+Les IA croisent des données provenant de multiples sources pour décider si elles peuvent recommander une activité avec confiance. Un cabinet avec une fiche Google Business, un profil Doctolib, un site web et une présence sur trois annuaires fournit aux IA 6 sources à recouper. Un cabinet sans site web n'en fournit que 4 (au mieux). Moins de sources signifie moins de confiance de l'IA et moins de chances d'être recommandé.
 
 Plus spécifiquement, l'absence de site web pose trois problèmes.
 

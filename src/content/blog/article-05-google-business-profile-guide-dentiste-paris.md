@@ -245,7 +245,7 @@ C'est la même chose. Google My Business (GMB) a été officiellement renommé G
 Les premières améliorations de classement dans le Map Pack apparaissent généralement en 2 à 4 semaines après une optimisation complète de la fiche. L'accumulation d'avis récents produit des effets progressifs sur 2 à 3 mois. La clé est la régularité : les fiches qui maintiennent une activité continue (posts, photos, avis) progressent plus vite et plus durablement.
 
 ### Mon cabinet fait partie d'un réseau (Dentego, Dentylis, etc.). Comment gérer la fiche ?
-Chaque établissement doit avoir sa propre fiche GBP avec sa propre adresse. Le nom doit correspondre exactement au nom du centre local. Assurez-vous que les horaires, services et praticiens sont spécifiques à votre centre et non copiés-collés depuis un autre établissement du réseau. L'individualisation de chaque fiche est essentielle pour le classement local.
+Chaque centre doit avoir sa propre fiche GBP avec sa propre adresse. Le nom doit correspondre exactement au nom du centre local. Assurez-vous que les horaires, services et praticiens sont spécifiques à votre centre et non copiés-collés depuis un autre centre du réseau. L'individualisation de chaque fiche est essentielle pour le classement local.
 
 ### Puis-je gérer ma fiche sans site web ?
 Oui, vous pouvez avoir une fiche GBP sans site web. Cependant, Google utilise votre site web pour vérifier et compléter les informations de votre fiche. Sans site, votre « score de notoriété » sera plafonné et les IA auront moins de matière pour vous recommander. Si un site complet n'est pas envisageable immédiatement, assurez-vous au minimum que votre profil Doctolib est exhaustif — il sert de substitut partiel.

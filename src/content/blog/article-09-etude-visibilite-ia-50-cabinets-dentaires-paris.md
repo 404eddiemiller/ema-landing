@@ -47,7 +47,7 @@ Le score GEO moyen des 50 cabinets audités est de **18 sur 100**.
 
 Ce chiffre signifie que le cabinet dentaire parisien moyen est quasiment invisible pour les assistants IA. Quand un patient demande une recommandation de dentiste à une IA, la très grande majorité des praticiens parisiens n'ont aucune chance d'être cités.
 
-Pour mettre ce résultat en perspective, les études internationales confirment la même tendance. Selon le rapport SOCi 2026 Local Visibility Index, qui a analysé près de 350 000 établissements, seulement 1,2 % des commerces locaux sont recommandés par ChatGPT, contre 35,9 % apparaissant dans le Local Pack de Google. La visibilité IA est 3 à 30 fois plus difficile à obtenir que le référencement local classique.
+Pour mettre ce résultat en perspective, les études internationales confirment la même tendance. Selon le rapport SOCi 2026 Local Visibility Index, qui a analysé près de 350 000 activités, seulement 1,2 % des commerces locaux sont recommandés par ChatGPT, contre 35,9 % apparaissant dans le Local Pack de Google. La visibilité IA est 3 à 30 fois plus difficile à obtenir que le référencement local classique.
 
 ## La distribution des scores : trois catégories de cabinets
 
@@ -158,7 +158,7 @@ Un cabinet qui exécute ce plan peut raisonnablement passer d'un score de 0-15 �
 ## FAQ — Étude visibilité IA des dentistes parisiens
 
 ### Cette étude est-elle représentative de tous les cabinets dentaires à Paris ?
-Notre échantillon de 50 cabinets couvre 12 arrondissements et inclut des cabinets indépendants et des centres de réseaux de tailles variées. Les résultats sont cohérents avec les études internationales de grande échelle (notamment le SOCi 2026 Local Visibility Index sur 350 000 établissements). Les tendances observées — faible visibilité IA généralisée, concentration de la visibilité sur quelques acteurs bien optimisés — se retrouvent dans tous les marchés locaux.
+Notre échantillon de 50 cabinets couvre 12 arrondissements et inclut des cabinets indépendants et des centres de réseaux de tailles variées. Les résultats sont cohérents avec les études internationales de grande échelle (notamment le SOCi 2026 Local Visibility Index sur 350 000 activités). Les tendances observées — faible visibilité IA généralisée, concentration de la visibilité sur quelques acteurs bien optimisés — se retrouvent dans tous les marchés locaux.
 
 ### Mon cabinet n'est pas dans l'étude. Comment connaître mon score GEO ?
 Nous proposons un audit GEO individuel gratuit qui utilise la même méthodologie que cette étude. Vous recevez votre score sur 100, le détail par critère, et les actions prioritaires. Le processus prend 48 heures.
@@ -167,7 +167,7 @@ Nous proposons un audit GEO individuel gratuit qui utilise la même méthodologi
 Les scores GEO sont dynamiques. Un cabinet qui optimise sa présence peut voir son score augmenter significativement en 2 à 3 mois. Inversement, un cabinet qui cesse toute activité verra son score baisser. Nous prévoyons de publier une mise à jour trimestrielle de cette étude pour suivre l'évolution du marché.
 
 ### Pourquoi les IA recommandent-elles si peu de cabinets dentaires ?
-Les IA sont conçues pour fournir des recommandations fiables. Quand les informations disponibles sur un cabinet sont incomplètes, incohérentes ou datées, l'IA préfère ne pas le citer plutôt que de risquer une recommandation inexacte. Le seuil de confiance requis pour qu'une IA recommande un établissement est plus élevé que celui requis pour un simple classement Google.
+Les IA sont conçues pour fournir des recommandations fiables. Quand les informations disponibles sur un cabinet sont incomplètes, incohérentes ou datées, l'IA préfère ne pas le citer plutôt que de risquer une recommandation inexacte. Le seuil de confiance requis pour qu'une IA recommande une activité est plus élevé que celui requis pour un simple classement Google.
 
 ---
 

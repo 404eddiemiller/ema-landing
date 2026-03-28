@@ -1,5 +1,5 @@
 ---
-// Header component — Logo + nav + CTA
+// Header component — Logo + dropdown menu + CTA
 ---
 <header class="fixed top-0 left-0 w-full z-50 bg-cream/95 backdrop-blur-sm">
   <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[60] focus:px-4 focus:py-2 focus:bg-terracotta focus:text-cream focus:font-sans focus:font-medium focus:text-sm">
@@ -9,26 +9,108 @@
     <a href="/" class="font-serif text-base md:text-xl text-charcoal tracking-tight leading-tight shrink-0 transition-colors duration-300 hover:text-terracotta" aria-label="Eddie Miller Agency — Accueil">
       Eddie Miller Agency
     </a>
-    <nav class="flex items-center gap-4 md:gap-6" aria-label="Navigation principale">
-      <a
-        href="/blog"
-        class="hidden md:inline-block font-sans font-medium text-xs md:text-[0.9375rem] text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline"
-      >
-        Blog
-      </a>
-      <a
-        href="/formules"
-        class="hidden md:inline-block font-sans font-medium text-xs md:text-[0.9375rem] text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline"
-      >
-        Nos formules
-      </a>
-      <a
-        href="/#audit"
-        class="inline-block shrink-0 px-4 py-2.5 md:px-6 md:py-3 font-sans font-medium text-xs md:text-[0.9375rem] text-cream bg-terracotta tracking-wider uppercase whitespace-nowrap transition-colors duration-300 hover:bg-terracotta-dark"
-      >
-        Diagnostic gratuit
-      </a>
-    </nav>
+
+    <!-- Menu button -->
+    <button
+      id="menu-btn"
+      type="button"
+      class="relative z-50 flex flex-col justify-center items-center w-10 h-10 gap-[5px] cursor-pointer bg-transparent border-none"
+      aria-expanded="false"
+      aria-controls="menu-panel"
+      aria-label="Menu de navigation"
+    >
+      <span class="menu-bar block w-5 h-[1.5px] bg-charcoal transition-all duration-300 origin-center"></span>
+      <span class="menu-bar block w-5 h-[1.5px] bg-charcoal transition-all duration-300 origin-center"></span>
+      <span class="menu-bar block w-5 h-[1.5px] bg-charcoal transition-all duration-300 origin-center"></span>
+    </button>
   </div>
   <div class="h-px bg-warmgray opacity-50"></div>
+
+  <!-- Dropdown menu panel -->
+  <nav
+    id="menu-panel"
+    class="menu-panel"
+    hidden
+    aria-label="Navigation principale"
+  >
+    <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16 py-6 md:py-8">
+      <div class="flex flex-col gap-4">
+        <a href="/a-propos" class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
+          À propos
+        </a>
+        <a href="/#faq" class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
+          FAQ
+        </a>
+        <a href="/formules" class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
+          Nos formules
+        </a>
+        <a href="/blog" class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
+          Blog
+        </a>
+        <div class="h-px bg-warmgray/30 my-2" aria-hidden="true"></div>
+        <a
+          href="/#audit"
+          class="menu-link inline-block text-center px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
+          onclick="plausible('CTA Click', {props: {location: 'header-menu'}})"
+        >
+          Diagnostic gratuit
+        </a>
+      </div>
+    </div>
+  </nav>
 </header>
+
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const menuPanel = document.getElementById('menu-panel');
+
+  if (menuBtn && menuPanel) {
+    menuBtn.addEventListener('click', () => {
+      const isOpen = menuBtn.getAttribute('aria-expanded') === 'true';
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && menuBtn.getAttribute('aria-expanded') === 'true') {
+        closeMenu();
+        menuBtn.focus();
+      }
+    });
+
+    // Close when clicking a menu link
+    menuPanel.querySelectorAll('.menu-link').forEach(link => {
+      link.addEventListener('click', () => closeMenu());
+    });
+
+    // Close when clicking outside
+    document.addEventListener('click', (e) => {
+      if (menuBtn.getAttribute('aria-expanded') === 'true'
+        && !menuPanel.contains(e.target as Node)
+        && !menuBtn.contains(e.target as Node)) {
+        closeMenu();
+      }
+    });
+
+    function openMenu() {
+      menuBtn.setAttribute('aria-expanded', 'true');
+      menuPanel.removeAttribute('hidden');
+      requestAnimationFrame(() => {
+        menuPanel.classList.add('open');
+      });
+    }
+
+    function closeMenu() {
+      menuBtn.setAttribute('aria-expanded', 'false');
+      menuPanel.classList.remove('open');
+      menuPanel.addEventListener('transitionend', function handler() {
+        menuPanel.setAttribute('hidden', '');
+        menuPanel.removeEventListener('transitionend', handler);
+      });
+    }
+  }
+</script>

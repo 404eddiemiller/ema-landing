@@ -15,7 +15,7 @@ const {
   description,
   canonicalUrl = 'https://eddiemiller.agency',
   ogTitle = 'Soyez trouvé par vos futurs clients | Eddie Miller Agency',
-  ogDescription = 'Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.',
+  ogDescription = 'Votre activité est-elle recommandée quand un client demande à ChatGPT ? On vérifie gratuitement en 24h : score sur 100 et 3 actions concrètes.',
   ogType = 'website',
   ogImage = 'https://eddiemiller.agency/og-image.png',
 } = Astro.props;
@@ -64,7 +64,7 @@ const {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "name": "Eddie Miller Agency",
-        "description": "Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.",
+        "description": "Votre activité est-elle recommandée quand un client demande à ChatGPT ? On vérifie gratuitement en 24h : score sur 100 et 3 actions concrètes.",
         "url": "https://eddiemiller.agency",
         "email": "contact@eddiemiller.agency",
         "logo": "https://eddiemiller.agency/favicon-192x192.png",
@@ -80,14 +80,14 @@ const {
           "name": "Paris"
         },
         "serviceType": [
-          "Visibilité en ligne pour établissements locaux",
+          "Visibilité en ligne pour activités locales",
           "Référencement Google Maps",
           "Optimisation Google Business Profile",
           "Visibilité sur les moteurs de recherche et assistants IA"
         ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "Services pour aider les établissements locaux à être trouvés en ligne",
+          "name": "Services pour aider les activités locales à être trouvées en ligne",
           "itemListElement": [
             {
               "@type": "Offer",
@@ -111,7 +111,7 @@ const {
               "itemOffered": {
                 "@type": "Service",
                 "name": "Visibilité sur les assistants IA",
-                "description": "Quand quelqu'un demande une recommandation à ChatGPT ou Gemini, votre établissement apparaît dans les résultats."
+                "description": "Quand quelqu'un demande une recommandation à ChatGPT ou Gemini, votre activité apparaît dans les résultats."
               }
             }
           ]
@@ -131,7 +131,7 @@ const {
         "@context": "https://schema.org",
         "@type": "HowTo",
         "name": "Comment savoir si vos futurs clients vous trouvent en ligne",
-        "description": "Trois étapes simples pour savoir si vos futurs clients vous trouvent en ligne — et comment améliorer votre visibilité.",
+        "description": "Trois étapes simples pour savoir si vos futurs clients vous trouvent en ligne, et comment améliorer votre visibilité.",
         "step": [
           {
             "@type": "HowToStep",
@@ -149,7 +149,7 @@ const {
             "@type": "HowToStep",
             "position": 3,
             "name": "Résultats",
-            "text": "Nous mettons en place les corrections. Vos futurs clients vous trouvent — sur Google et sur les IA."
+            "text": "Nous mettons en place les corrections. Vos futurs clients vous trouvent, sur Google et sur les IA."
           }
         ]
       }
@@ -164,7 +164,7 @@ const {
             "name": "Combien ça coûte ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Le diagnostic initial est 100 % gratuit et sans engagement. Après le diagnostic, nous vous présentons les options adaptées à votre établissement."
+              "text": "Le diagnostic initial est 100 % gratuit et sans engagement. Après le diagnostic, nous vous présentons les options adaptées à votre activité."
             }
           },
           {
@@ -210,7 +210,7 @@ const {
     <div id="sticky-cta" class="fixed bottom-0 left-0 w-full z-40 backdrop-blur-sm py-3 px-4 md:py-3.5 md:px-6" style="background-color: rgba(245, 240, 235, 0.95); border-top: 1px solid rgba(181, 173, 166, 0.3); transform: translateY(100%); transition: transform 0.3s ease;">
       <div class="max-w-container mx-auto flex items-center justify-between gap-4">
         <p class="sticky-cta-text font-sans text-sm text-stone leading-snug">
-          Votre établissement est-il visible sur ChatGPT ?
+          Votre activité est-elle visible sur ChatGPT ?
         </p>
         <a
           href="/#audit"

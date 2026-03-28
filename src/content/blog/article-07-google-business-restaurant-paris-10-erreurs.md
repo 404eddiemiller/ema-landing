@@ -25,7 +25,7 @@ internal_links:
 
 Votre fiche Google Business Profile est probablement la première chose qu'un client voit avant de pousser votre porte. Avant votre site web, avant votre page Instagram, avant même TheFork ou TripAdvisor — c'est votre fiche Google qui apparaît quand quelqu'un cherche « restaurant [quartier] Paris ».
 
-Et pourtant, la majorité des restaurateurs parisiens commettent des erreurs évitables sur cette fiche. Des erreurs qui ne semblent pas graves individuellement, mais qui coûtent des réservations chaque jour. Car 62 % des consommateurs éviteront un restaurant dont les informations en ligne sont incorrectes. Et 88 % des personnes qui font une recherche locale sur mobile visitent ou appellent l'établissement dans les 24 heures.
+Et pourtant, la majorité des restaurateurs parisiens commettent des erreurs évitables sur cette fiche. Des erreurs qui ne semblent pas graves individuellement, mais qui coûtent des réservations chaque jour. Car 62 % des consommateurs éviteront un restaurant dont les informations en ligne sont incorrectes. Et 88 % des personnes qui font une recherche locale sur mobile visitent ou appellent l'activité dans les 24 heures.
 
 Voici les 10 erreurs les plus fréquentes — et comment les corriger.
 
@@ -59,7 +59,7 @@ C'est un gâchis. La description est lue par Google pour évaluer votre pertinen
 
 Les fiches avec plus de 10 photos reçoivent en moyenne trois fois plus de clics que celles sans photos. Et en 2026, Google utilise la reconnaissance visuelle pour analyser le contenu de vos photos et comprendre votre restaurant.
 
-Les erreurs courantes : des photos datant de l'ouverture il y a trois ans (mobilier et décoration ont peut-être changé), des photos de mauvaise qualité prises au téléphone dans un éclairage sombre, des photos de stock qui ne correspondent pas à votre établissement, ou simplement aucune photo du tout.
+Les erreurs courantes : des photos datant de l'ouverture il y a trois ans (mobilier et décoration ont peut-être changé), des photos de mauvaise qualité prises au téléphone dans un éclairage sombre, des photos de stock qui ne correspondent pas à votre restaurant, ou simplement aucune photo du tout.
 
 **La correction :** Photographiez vos 5 plats signature avec un éclairage naturel. Prenez la salle et la terrasse à un moment agréable (lumière du midi ou début de soirée). Photographiez votre équipe. Et surtout : ajoutez au minimum 2 nouvelles photos par mois. Les fiches sans nouvelle photo depuis plus de 30 jours perdent progressivement en visibilité.
 

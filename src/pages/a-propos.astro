@@ -1,0 +1,199 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+<Layout
+  title="À propos — Eddie Miller Agency"
+  description="Eddie Miller Agency aide les activités locales à être trouvées par leurs futurs clients, sur Google et sur les IA. Découvrez notre équipe et notre approche."
+  canonicalUrl="https://eddiemiller.agency/a-propos"
+  ogTitle="À propos — Eddie Miller Agency"
+  ogDescription="L'équipe qui aide les activités locales à être trouvées par leurs futurs clients."
+>
+  <Header />
+
+  <main id="main-content" class="pt-28 md:pt-32">
+
+    <!-- Hero -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Qui sommes-nous">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto text-center">
+          <h1 class="text-[2.5rem] md:text-[3.25rem] lg:text-[4rem] font-serif font-normal leading-[1.1] tracking-[-0.02em] text-charcoal fade-up-slow">
+            L'équipe derrière votre visibilité
+          </h1>
+          <div class="mx-auto mt-6 separator-animate h-[2px] bg-terracotta" aria-hidden="true"></div>
+          <p class="mt-6 md:mt-8 text-lg md:text-xl font-sans font-normal leading-relaxed text-stone fade-up">
+            Nous sommes une équipe de spécialistes en visibilité locale. Notre métier : faire en sorte que vos futurs clients vous trouvent sur Google, Google Maps, et les assistants IA comme ChatGPT.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notre mission -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Notre mission">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
+            Notre mission
+          </h2>
+          <div class="mx-auto mb-8 separator-animate h-[2px] bg-terracotta" aria-hidden="true"></div>
+          <div class="space-y-6 fade-up">
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+              Chaque jour, des milliers de personnes demandent à Google ou à ChatGPT de leur recommander un dentiste, un restaurant, un avocat ou un coiffeur près de chez eux. Les résultats qu'ils obtiennent ne sont pas aléatoires : ils dépendent de signaux précis que la plupart des professionnels ne maîtrisent pas.
+            </p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+              Notre mission est simple : faire en sorte que les meilleurs professionnels soient aussi les plus visibles. Pas ceux qui ont le plus gros budget marketing, mais ceux qui méritent d'être trouvés par leurs futurs clients.
+            </p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+              Nous avons accompagné des dizaines d'activités locales (cabinets dentaires, restaurants, hôtels, cabinets d'avocats, salons de coiffure, spas et salles de sport) avec une méthode éprouvée et des résultats mesurables.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ce qu'on fait -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Notre expertise">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
+            Notre expertise
+          </h2>
+          <div class="mx-auto mb-8 separator-animate h-[2px] bg-terracotta" aria-hidden="true"></div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 fade-up">
+            <div class="border border-warmgray p-8 bg-sand card-hover">
+              <div class="flex items-center gap-3 mb-4">
+                <svg class="w-6 h-6 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                </svg>
+                <h3 class="text-lg font-serif font-normal text-charcoal">Google et Google Maps</h3>
+              </div>
+              <p class="text-base font-sans font-normal leading-relaxed text-stone">
+                Fiches Google Business optimisées, stratégie d'avis, référencement local : nous maîtrisons chaque levier qui vous place devant vos concurrents sur Google Maps et dans les résultats de recherche.
+              </p>
+            </div>
+
+            <div class="border border-warmgray p-8 bg-sand card-hover">
+              <div class="flex items-center gap-3 mb-4">
+                <svg class="w-6 h-6 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 3c.5 3.5 2 5 5.5 5.5-3.5.5-5 2-5.5 5.5-.5-3.5-2-5-5.5-5.5C10 8 11.5 6.5 12 3Z"/>
+                  <path d="M19 10c.3 2 1.2 3 3.3 3.3-2.1.3-3 1.2-3.3 3.3-.3-2.1-1.2-3-3.3-3.3 2.1-.3 3-1.3 3.3-3.3Z"/>
+                </svg>
+                <h3 class="text-lg font-serif font-normal text-charcoal">Assistants IA</h3>
+              </div>
+              <p class="text-base font-sans font-normal leading-relaxed text-stone">
+                ChatGPT, Gemini, Perplexity : ces outils recommandent désormais des professionnels locaux à des millions d'utilisateurs. Notre équipe sait exactement quels signaux activer pour que votre activité soit citée.
+              </p>
+            </div>
+
+            <div class="border border-warmgray p-8 bg-sand card-hover">
+              <div class="flex items-center gap-3 mb-4">
+                <svg class="w-6 h-6 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                </svg>
+                <h3 class="text-lg font-serif font-normal text-charcoal">Mesure et résultats</h3>
+              </div>
+              <p class="text-base font-sans font-normal leading-relaxed text-stone">
+                Chaque action est mesurée. Nous utilisons un score de visibilité sur 100 requêtes réelles pour quantifier votre progression. Pas de promesses vagues, des chiffres concrets.
+              </p>
+            </div>
+
+            <div class="border border-warmgray p-8 bg-sand card-hover">
+              <div class="flex items-center gap-3 mb-4">
+                <svg class="w-6 h-6 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+                <h3 class="text-lg font-serif font-normal text-charcoal">Exclusivité géographique</h3>
+              </div>
+              <p class="text-base font-sans font-normal leading-relaxed text-stone">
+                Nous n'accompagnons qu'un seul client par quartier et par spécialité. C'est notre garantie : votre réussite ne sera jamais en concurrence avec celle d'un autre de nos clients.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pourquoi nous -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Pourquoi Eddie Miller Agency">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
+            Pourquoi nous faire confiance
+          </h2>
+          <div class="mx-auto mb-8 separator-animate h-[2px] bg-terracotta" aria-hidden="true"></div>
+
+          <div class="space-y-8 fade-up">
+            <div class="flex gap-6 items-start">
+              <p class="text-[3rem] font-serif font-normal leading-none text-warmgray/25 shrink-0" aria-hidden="true">01</p>
+              <div>
+                <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal mb-2">Spécialistes, pas généralistes</h3>
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">
+                  Nous ne faisons pas de sites web, pas de publicité, pas de réseaux sociaux. Notre seul métier : rendre votre activité visible là où vos futurs clients cherchent. Cette spécialisation nous rend plus efficaces que n'importe quelle agence généraliste.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-6 items-start">
+              <p class="text-[3rem] font-serif font-normal leading-none text-warmgray/25 shrink-0" aria-hidden="true">02</p>
+              <div>
+                <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal mb-2">Des résultats, pas des rapports</h3>
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">
+                  Nos clients mesurent l'impact en nombre de nouveaux patients, de couverts ou de réservations, pas en pages de PowerPoint. Chaque intervention est pensée pour un impact concret sur votre activité.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-6 items-start">
+              <p class="text-[3rem] font-serif font-normal leading-none text-warmgray/25 shrink-0" aria-hidden="true">03</p>
+              <div>
+                <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal mb-2">Une méthode éprouvée</h3>
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">
+                  Notre méthodologie combine l'optimisation Google traditionnelle avec les techniques les plus récentes pour la visibilité sur les IA. Nous testons, mesurons et ajustons en continu, parce que les algorithmes évoluent, et nous aussi.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-6 items-start">
+              <p class="text-[3rem] font-serif font-normal leading-none text-warmgray/25 shrink-0" aria-hidden="true">04</p>
+              <div>
+                <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal mb-2">Transparence totale</h3>
+                <p class="text-base font-sans font-normal leading-relaxed text-stone">
+                  Pas de jargon technique, pas de contrat piège, pas de résultat inventé. Vous savez exactement ce qu'on fait, pourquoi on le fait, et quel impact ça a. Le diagnostic gratuit est notre manière de vous le prouver avant de vous engager.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Passer à l'action">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2 class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
+            Prêt à savoir où vous en êtes ?
+          </h2>
+          <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-8 fade-up">
+            En 24 heures, vous recevez votre score de visibilité et les actions prioritaires pour être trouvé par vos futurs clients. Gratuit, sans engagement.
+          </p>
+          <a
+            href="/#audit"
+            class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark fade-up"
+            onclick="plausible('CTA Click', {props: {location: 'a-propos'}})"
+          >
+            Demander mon diagnostic gratuit
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</Layout>

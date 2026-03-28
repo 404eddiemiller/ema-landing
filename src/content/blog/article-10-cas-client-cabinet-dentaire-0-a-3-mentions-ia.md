@@ -141,7 +141,7 @@ Voici l'évolution complète des indicateurs clés sur 60 jours.
 
 Si nous devions isoler les trois actions qui ont eu le plus d'impact sur le passage de 12 à 54 :
 
-**Premier levier : les avis récents et spécifiques.** C'est la corrélation la plus forte. Le moment où les avis mentionnant « implant dentaire » ont atteint une masse critique (15+) coïncide avec l'apparition du cabinet dans les requêtes liées aux implants. Les IA utilisent littéralement les mots-clés des avis pour décider de la pertinence d'un établissement par rapport à une requête.
+**Premier levier : les avis récents et spécifiques.** C'est la corrélation la plus forte. Le moment où les avis mentionnant « implant dentaire » ont atteint une masse critique (15+) coïncide avec l'apparition du cabinet dans les requêtes liées aux implants. Les IA utilisent littéralement les mots-clés des avis pour décider de la pertinence d'une activité par rapport à une requête.
 
 **Deuxième levier : la complétude Google Business + Doctolib.** Ces deux plateformes sont les sources les plus consultées par les IA pour les requêtes dentaires à Paris. Le passage d'un profil incomplet à un profil exhaustif sur les deux a été le socle de toute la progression.
 

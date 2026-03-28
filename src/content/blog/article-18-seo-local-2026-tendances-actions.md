@@ -35,7 +35,7 @@ Google affiche désormais des réponses générées par IA au-dessus des résult
 
 ### 2. La recherche est devenue conversationnelle
 
-Les utilisateurs ne tapent plus « dentiste Paris 15 ». Ils écrivent (ou dictent) : « Je cherche un bon dentiste pour un implant dans le 15e, ouvert le samedi, avec de bons avis. » Ces requêtes longues et conversationnelles déclenchent plus souvent des AI Overviews et favorisent les établissements dont les profils en ligne répondent spécifiquement à ces critères multiples.
+Les utilisateurs ne tapent plus « dentiste Paris 15 ». Ils écrivent (ou dictent) : « Je cherche un bon dentiste pour un implant dans le 15e, ouvert le samedi, avec de bons avis. » Ces requêtes longues et conversationnelles déclenchent plus souvent des AI Overviews et favorisent les activités dont les profils en ligne répondent spécifiquement à ces critères multiples.
 
 ### 3. Les avis sont devenus un contenu stratégique
 
@@ -79,7 +79,7 @@ La cohérence NAP n'est pas nouvelle, mais en 2026 elle est plus critique que ja
 
 ### Action 6 : Publiez du contenu frais régulièrement
 
-Les IA et Google favorisent les sources actives. Un post Google Business par semaine, une mise à jour de votre site tous les mois, des photos nouvelles toutes les deux semaines — ces signaux de fraîcheur sont un facteur de différenciation fort dans un marché où la majorité des établissements sont inactifs en ligne.
+Les IA et Google favorisent les sources actives. Un post Google Business par semaine, une mise à jour de votre site tous les mois, des photos nouvelles toutes les deux semaines — ces signaux de fraîcheur sont un facteur de différenciation fort dans un marché où la majorité des activités sont inactives en ligne.
 
 ### Action 7 : Mesurez votre visibilité IA en plus de vos métriques SEO classiques
 
@@ -87,7 +87,7 @@ Ajoutez à votre suivi mensuel un test de visibilité IA : posez 5 requêtes rep
 
 ## L'évolution continue
 
-Le SEO local n'est pas mort — il évolue. Les établissements qui traitent le SEO local et le GEO comme une discipline intégrée, et non comme deux efforts séparés, sont ceux qui captent le maximum de clients en 2026. Les fondamentaux restent, les leviers s'ajoutent, et l'avantage va à ceux qui s'adaptent.
+Le SEO local n'est pas mort — il évolue. Les activités qui traitent le SEO local et le GEO comme une discipline intégrée, et non comme deux efforts séparés, sont ceux qui captent le maximum de clients en 2026. Les fondamentaux restent, les leviers s'ajoutent, et l'avantage va à ceux qui s'adaptent.
 
 ---
 

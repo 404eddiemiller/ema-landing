@@ -2,9 +2,9 @@
 
 ## Identité du projet
 
-Tu construis le site web d'**Eddie Miller Agency (EMA)**, une agence B2B qui aide les établissements locaux (restaurants, hôtels, cabinets dentaires, avocats, salons de coiffure, spas, salles de sport, bars) à être trouvés par leurs clients sur Google, Google Maps et les assistants IA (ChatGPT, Gemini, Perplexity).
+Tu construis le site web d'**Eddie Miller Agency (EMA)**, une agence B2B qui aide les activités locales (restaurants, hôtels, cabinets dentaires, avocats, salons de coiffure, spas, salles de sport, bars) à être trouvées par leurs clients sur Google, Google Maps et les assistants IA (ChatGPT, Gemini, Perplexity).
 
-**Le site est une landing page de conversion.** L'objectif unique : convaincre un gérant d'établissement local de demander un **diagnostic gratuit** de sa visibilité en ligne.
+**Le site est une landing page de conversion.** L'objectif unique : convaincre un gérant d'activité locale de demander un **diagnostic gratuit** de sa visibilité en ligne.
 
 ## Stack technique
 
@@ -42,7 +42,7 @@ Tu construis le site web d'**Eddie Miller Agency (EMA)**, une agence B2B qui aid
 ## Terminologie obligatoire
 
 - **"diagnostic gratuit"** (jamais "audit", "test", "analyse")
-- **"établissement"** (jamais "commerce" sauf dans les statistiques)
+- **"activité"** (jamais "établissement", "commerce" sauf dans les statistiques)
 - **"être trouvé par vos clients"** (jamais "SEO", "GEO", "référencement", "empreinte numérique", "données structurées")
 - **CTA unifié** : "Demander mon diagnostic gratuit"
 - **Social proof** : ChatGPT · Google Maps · Gemini · Perplexity (pas Claude)
@@ -160,7 +160,7 @@ eddie-miller-agency/
 ## Critère de succès
 
 La page est réussie quand :
-- Un gérant d'un établissement local qui la visite sur son iPhone comprend en 5 secondes ce qu'on fait
+- Un gérant d'une activité locale qui la visite sur son iPhone comprend en 5 secondes ce qu'on fait
 - Il scrolle naturellement jusqu'au formulaire sans friction
 - Le design évoque la confiance et le professionnalisme, pas une "agence tech"
 - Le temps de chargement est < 1.5s sur mobile 4G

@@ -20,7 +20,7 @@ Tout le texte visible sur le site est ici. Ne réinvente aucun texte. Copie exac
 ## Sticky CTA Bar (Layout)
 
 **Texte** :
-Votre établissement est-il visible sur ChatGPT ?
+Votre activité est-elle visible sur ChatGPT ?
 
 **Bouton** :
 Diagnostic gratuit →
@@ -33,10 +33,10 @@ Diagnostic gratuit →
 
 **Headline (h1)** :
 On amène plus de clients
-dans votre établissement.
+dans votre activité.
 
 **Sous-titre** :
-Aujourd'hui, vos futurs clients demandent à ChatGPT où aller. Si votre établissement n'apparaît pas, c'est un concurrent qui récupère le client. On s'assure que ce soit vous.
+Aujourd'hui, vos futurs clients demandent à ChatGPT où aller. Si votre activité n'apparaît pas, c'est un concurrent qui récupère le client. On s'assure que ce soit vous.
 
 **CTA principal** :
 Demander mon diagnostic gratuit
@@ -71,7 +71,7 @@ Vos clients vous cherchent ici — on vous y rend visible
 Ce que vous recevez en 24h
 
 **Sous-titre** :
-Un vrai diagnostic de votre établissement, pas un email automatique.
+Un vrai diagnostic de votre activité, pas un email automatique.
 
 **Carte 1** :
 - Titre : Votre score de visibilité
@@ -149,7 +149,7 @@ Un client qui cherche « dentiste Paris 15 » ou « restaurant près de la Tour 
 « Meilleur dentiste près de chez moi ? » — votre prochain patient pose cette question à ChatGPT. L'IA donne 3 noms. Le vôtre en fait partie, ou pas.
 
 **Paragraphe sous la citation** :
-Ce n'est pas une question de chance. Les établissements que l'IA recommande sont ceux qui ont les bons signaux en ligne : des avis solides, des informations complètes, une présence cohérente. C'est exactement ce qu'on met en place pour vous.
+Ce n'est pas une question de chance. Les activités que l'IA recommande sont ceux qui ont les bons signaux en ligne : des avis solides, des informations complètes, une présence cohérente. C'est exactement ce qu'on met en place pour vous.
 
 ---
 
@@ -166,7 +166,7 @@ On s'occupe de tout ce qui fait que vos clients vous trouvent — sur Google et 
 Titre (h3) : Être trouvé sur Google
 
 Points :
-- Votre établissement remonte dans Google Maps quand un client cherche dans votre quartier
+- Votre activité remonte dans Google Maps quand un client cherche dans votre quartier
 - Votre fiche Google est complète, à jour et donne envie de vous contacter
 - Vos avis en ligne jouent en votre faveur au lieu de vous desservir
 
@@ -189,17 +189,17 @@ Pourquoi ne pas attendre
 **Carte 1** :
 - Numéro : 01
 - Titre : Les premiers visibles gardent l'avantage
-- Description : Les IA fonctionnent par habitude : une fois qu'elles recommandent un établissement, elles continuent. Ceux qui attendent devront fournir beaucoup plus d'efforts pour rattraper.
+- Description : Les IA fonctionnent par habitude : une fois qu'elles recommandent une activité, elles continuent. Ceux qui attendent devront fournir beaucoup plus d'efforts pour rattraper.
 
 **Carte 2** :
 - Numéro : 02
 - Titre : Vos concurrents n'y sont pas encore
-- Description : La plupart des établissements locaux n'ont aucune idée que ChatGPT influence déjà leurs clients. C'est le moment de prendre une longueur d'avance — avant qu'ils ne s'en rendent compte.
+- Description : La plupart des activités locales n'ont aucune idée que ChatGPT influence déjà leurs clients. C'est le moment de prendre une longueur d'avance — avant qu'ils ne s'en rendent compte.
 
 **Carte 3** :
 - Numéro : 03
 - Titre : Chaque jour sans visibilité, ce sont des clients perdus
-- Description : Quelqu'un dans votre quartier cherche un établissement comme le vôtre en ce moment. Si l'IA ne vous connaît pas, elle envoie ce client ailleurs. C'est aussi simple que ça.
+- Description : Quelqu'un dans votre quartier cherche une activité comme la vôtre en ce moment. Si l'IA ne vous connaît pas, elle envoie ce client ailleurs. C'est aussi simple que ça.
 
 ---
 
@@ -281,16 +281,16 @@ Un seul client par quartier et par spécialité — pour vous garantir l'exclusi
 Vos questions
 
 **Q1** : C'est quoi concrètement ? Vous faites quoi pour moi ?
-**R1** : On fait en sorte que quand quelqu'un cherche un établissement comme le vôtre — que ce soit sur Google, ChatGPT ou un autre assistant IA — il tombe sur vous plutôt que sur un concurrent. On s'occupe de votre fiche Google, de votre présence sur les bonnes plateformes, et de tout ce qui fait que les IA vous recommandent.
+**R1** : On fait en sorte que quand quelqu'un cherche une activité comme la vôtre — que ce soit sur Google, ChatGPT ou un autre assistant IA — il tombe sur vous plutôt que sur un concurrent. On s'occupe de votre fiche Google, de votre présence sur les bonnes plateformes, et de tout ce qui fait que les IA vous recommandent.
 
 **Q2** : En combien de temps est-ce que je vois une différence ?
 **R2** : Les premiers effets sur Google sont visibles en quelques jours. Pour les recommandations par les IA comme ChatGPT, comptez 4 à 8 semaines. On mesure votre score avant et après — vous voyez la progression en chiffres, pas en promesses.
 
 **Q3** : Vous garantissez que je vais apparaître sur ChatGPT ?
-**R3** : Non, et méfiez-vous de quiconque vous le promet. Les IA choisissent leurs recommandations de manière autonome. Ce qu'on garantit : votre établissement aura toutes les conditions pour être recommandé — et on le mesure concrètement avec un score avant/après.
+**R3** : Non, et méfiez-vous de quiconque vous le promet. Les IA choisissent leurs recommandations de manière autonome. Ce qu'on garantit : votre activité aura toutes les conditions pour être recommandée — et on le mesure concrètement avec un score avant/après.
 
-**Q4** : Ça marche vraiment pour mon type d'établissement ?
-**R4** : Oui. Notre méthode s'applique à tout établissement avec une adresse physique : cabinets dentaires, restaurants, hôtels, cabinets d'avocats, salons de coiffure, spas, salles de sport. Si vos clients vous cherchent par localisation, on peut vous aider.
+**Q4** : Ça marche vraiment pour mon type d'activité ?
+**R4** : Oui. Notre méthode s'applique à toute activité avec une adresse physique : cabinets dentaires, restaurants, hôtels, cabinets d'avocats, salons de coiffure, spas, salles de sport. Si vos clients vous cherchent par localisation, on peut vous aider.
 
 **Q5** : Est-ce que je dois avoir un site web ?
 **R5** : Non. Une grande partie de votre visibilité passe par votre fiche Google, les annuaires de votre secteur et vos avis en ligne. On optimise l'ensemble de votre présence en ligne, avec ou sans site web.
@@ -309,13 +309,13 @@ Vos questions
 Votre diagnostic gratuit en 24h
 
 **Sous-titre** :
-On vérifie gratuitement si ChatGPT et Google recommandent votre établissement. Résultat en 24h, sans engagement.
+On vérifie gratuitement si ChatGPT et Google recommandent votre activité. Résultat en 24h, sans engagement.
 
 **Formulaire** (FormSubmit.co → `contact@eddiemiller.agency`) :
 
 Champs :
-- Nom de l'établissement (texte, requis) — placeholder : « Le Petit Cler, Cabinet Dr. Martin… »
-- Type d'établissement (dropdown, requis) — options : Cabinet dentaire, Cabinet médical, Cabinet d'avocats, Restaurant, Hôtel, Coiffure / Esthétique, Bien-être / Spa, Salle de sport, Bar / Lieu de soirée, Autre
+- Nom de l'activité (texte, requis) — placeholder : « Le Petit Cler, Cabinet Dr. Martin… »
+- Type d'activité (dropdown, requis) — options : Cabinet dentaire, Cabinet médical, Cabinet d'avocats, Restaurant, Hôtel, Coiffure / Esthétique, Bien-être / Spa, Salle de sport, Bar / Lieu de soirée, Autre
 - Arrondissement ou ville (texte, requis) — placeholder : « Paris 7e, Neuilly-sur-Seine… »
 - Adresse email (email, requis) — placeholder : « vous@exemple.com »
 - Numéro de téléphone (tel, optionnel) — placeholder : « 06 12 34 56 78 »
@@ -340,7 +340,7 @@ Diagnostic en 24h · 100 % gratuit · Sans engagement
 Eddie Miller Agency
 
 **Tagline** :
-On aide votre établissement à être trouvé par vos futurs clients — sur Google et sur les IA.
+On aide votre activité à être trouvée par vos futurs clients — sur Google et sur les IA.
 
 **Email** :
 contact@eddiemiller.agency
@@ -390,17 +390,17 @@ Ce site utilise Plausible Analytics, un outil de mesure d'audience respectueux d
 ## SEO — Meta Tags
 
 **Title** (index.astro) :
-Plus de clients pour votre établissement | Eddie Miller Agency
+Plus de clients pour votre activité | Eddie Miller Agency
 
 **Meta description** :
-Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.
+Votre activité est-elle recommandée quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.
 
 **Canonical URL** :
 https://eddiemiller.agency
 
 **Open Graph** :
 - og:title : Soyez trouvé par vos futurs clients | Eddie Miller Agency
-- og:description : Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.
+- og:description : Votre activité est-elle recommandée quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.
 - og:type : website
 - og:url : https://eddiemiller.agency
 - og:locale : fr_FR
@@ -409,7 +409,7 @@ https://eddiemiller.agency
 **Twitter Card** :
 - twitter:card : summary_large_image
 - twitter:title : Soyez trouvé par vos futurs clients | Eddie Miller Agency
-- twitter:description : Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.
+- twitter:description : Votre activité est-elle recommandée quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.
 - twitter:image : https://eddiemiller.agency/og-image.png
 
 ---
@@ -423,7 +423,7 @@ https://eddiemiller.agency
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "Eddie Miller Agency",
-  "description": "Votre établissement est-il recommandé quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.",
+  "description": "Votre activité est-elle recommandée quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.",
   "url": "https://eddiemiller.agency",
   "email": "contact@eddiemiller.agency",
   "logo": "https://eddiemiller.agency/favicon-192x192.png",
@@ -439,14 +439,14 @@ https://eddiemiller.agency
     "name": "Paris"
   },
   "serviceType": [
-    "Visibilité en ligne pour établissements locaux",
+    "Visibilité en ligne pour activités locales",
     "Référencement Google Maps",
     "Optimisation Google Business Profile",
     "Visibilité sur les moteurs de recherche et assistants IA"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services pour aider les établissements locaux à être trouvés en ligne",
+    "name": "Services pour aider les activités locales à être trouvées en ligne",
     "itemListElement": [
       {
         "@type": "Offer",
@@ -470,7 +470,7 @@ https://eddiemiller.agency
         "itemOffered": {
           "@type": "Service",
           "name": "Visibilité sur les assistants IA",
-          "description": "Quand quelqu'un demande une recommandation à ChatGPT ou Gemini, votre établissement apparaît dans les résultats."
+          "description": "Quand quelqu'un demande une recommandation à ChatGPT ou Gemini, votre activité apparaît dans les résultats."
         }
       }
     ]
@@ -529,7 +529,7 @@ https://eddiemiller.agency
       "name": "Combien ça coûte ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Le diagnostic initial est 100 % gratuit et sans engagement. Après le diagnostic, nous vous présentons les options adaptées à votre établissement."
+        "text": "Le diagnostic initial est 100 % gratuit et sans engagement. Après le diagnostic, nous vous présentons les options adaptées à votre activité."
       }
     },
     {
