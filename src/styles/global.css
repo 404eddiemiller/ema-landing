@@ -54,28 +54,28 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --color-cream: #1A1816;
-    --color-sand: #232019;
-    --color-charcoal: #E8E2DC;
-    --color-stone: #9B9590;
-    --color-terracotta: #D4896C;
+    --color-cream: #1C1814;
+    --color-sand: #262018;
+    --color-charcoal: #EDE6DD;
+    --color-stone: #A69C94;
+    --color-terracotta: #D9907A;
     --color-terracotta-dark: #C4785B;
-    --color-sage: #8B9E8B;
-    --color-sage-dark: #A0B3A0;
-    --color-warmgray: #4A4440;
+    --color-sage: #92A692;
+    --color-sage-dark: #A5B8A5;
+    --color-warmgray: #4A4038;
   }
 }
 
 [data-theme="dark"] {
-  --color-cream: #1A1816;
-  --color-sand: #232019;
-  --color-charcoal: #E8E2DC;
-  --color-stone: #9B9590;
-  --color-terracotta: #D4896C;
+  --color-cream: #1C1814;
+  --color-sand: #262018;
+  --color-charcoal: #EDE6DD;
+  --color-stone: #A69C94;
+  --color-terracotta: #D9907A;
   --color-terracotta-dark: #C4785B;
-  --color-sage: #8B9E8B;
-  --color-sage-dark: #A0B3A0;
-  --color-warmgray: #4A4440;
+  --color-sage: #92A692;
+  --color-sage-dark: #A5B8A5;
+  --color-warmgray: #4A4038;
 }
 
 /* Inverted sections (dark bg in light mode) stay dark in dark mode */
@@ -86,7 +86,7 @@
     --color-stone: #6B6360;
     --color-warmgray: #B5ADA6;
     --color-terracotta: #C4785B;
-    background-color: #131110;
+    background-color: #15120F;
     color: #E8E2DC;
   }
 }
@@ -97,7 +97,7 @@
   --color-stone: #6B6360;
   --color-warmgray: #B5ADA6;
   --color-terracotta: #C4785B;
-  background-color: #131110;
+  background-color: #15120F;
   color: #E8E2DC;
 }
 
