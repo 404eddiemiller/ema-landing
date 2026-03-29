@@ -17,13 +17,15 @@
     "language": "Idioma"
   },
   "hero": {
-    "title": "Tus futuros clientes le preguntan a ChatGPT adónde ir.<br>Nos aseguramos de que la respuesta seas tú.",
+    "title": "Tus futuros clientes le preguntan a ChatGPT adónde ir.",
+    "titleLine2": "Nos aseguramos de que la respuesta seas",
+    "titleHighlight": "tú.",
     "subtitle": "El 45 % de los consumidores pide una recomendación a una IA antes de elegir un restaurante, dentista u hotel. La IA solo da 3 nombres. Si el tuyo no está, un competidor se queda con el cliente.",
     "cta": "Solicitar mi diagnóstico gratuito",
     "secondary": "Comprobar si mi negocio es visible →",
     "trust1": "Resultados en 24h",
     "trust2": "100% gratuito",
-    "trust3": "1 cliente por zona"
+    "trust3": "Sin compromiso"
   },
   "socialProof": {
     "label": "Tus futuros clientes buscan en estas IAs. ¿Estás ahí?"

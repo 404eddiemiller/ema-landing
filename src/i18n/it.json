@@ -17,13 +17,15 @@
     "language": "Lingua"
   },
   "hero": {
-    "title": "I tuoi futuri clienti chiedono a ChatGPT dove andare.<br>Noi facciamo in modo che la risposta sia tu.",
+    "title": "I tuoi futuri clienti chiedono a ChatGPT dove andare.",
+    "titleLine2": "Noi facciamo in modo che la risposta sia",
+    "titleHighlight": "tu.",
     "subtitle": "Il 45% dei consumatori chiede un consiglio all'IA prima di scegliere un ristorante, un dentista o un hotel. L'IA dà solo 3 nomi. Se il tuo non c'è, il cliente va da un concorrente.",
     "cta": "Richiedi la mia diagnosi gratuita",
     "secondary": "Verifica se la mia attività è visibile →",
     "trust1": "Risultati in 24h",
     "trust2": "100% gratuito",
-    "trust3": "1 cliente per zona"
+    "trust3": "Senza impegno"
   },
   "socialProof": {
     "label": "I tuoi futuri clienti cercano su queste IA. Ci sei anche tu?"

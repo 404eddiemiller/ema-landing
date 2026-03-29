@@ -17,13 +17,15 @@
     "language": "Sprache"
   },
   "hero": {
-    "title": "Ihre zukünftigen Kunden fragen ChatGPT, wohin sie gehen sollen.<br>Wir sorgen dafür, dass die Antwort Sie sind.",
+    "title": "Ihre zukünftigen Kunden fragen ChatGPT, wohin sie gehen sollen.",
+    "titleLine2": "Wir sorgen daf\u00FCr, dass die Antwort",
+    "titleHighlight": "Sie sind.",
     "subtitle": "45 % der Verbraucher fragen eine KI um eine Empfehlung, bevor sie ein Restaurant, einen Zahnarzt oder ein Hotel wählen. Die KI nennt nur 3 Namen. Wenn Ihrer nicht dabei ist, bekommt ein Mitbewerber den Kunden.",
     "cta": "Kostenlose Diagnose anfordern",
     "secondary": "Prüfen, ob mein Unternehmen sichtbar ist →",
     "trust1": "Ergebnisse in 24 Std.",
     "trust2": "100 % kostenlos",
-    "trust3": "1 Kunde pro Gebiet"
+    "trust3": "Unverbindlich"
   },
   "socialProof": {
     "label": "Ihre zukünftigen Kunden suchen auf diesen KIs. Sind Sie dort sichtbar?"

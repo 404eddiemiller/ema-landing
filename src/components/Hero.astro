@@ -17,7 +17,13 @@ const locale = getLocaleFromPath(Astro.url.pathname);
   <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16 relative">
     <div class="max-w-3xl">
       <!-- Text reveal headline -->
-      <h1 class="text-[2.5rem] md:text-[3.25rem] lg:text-[4rem] font-serif font-normal leading-[1.1] tracking-[-0.02em] text-charcoal" set:html={t('hero.title', locale)}>
+      <h1 class="font-serif font-normal tracking-[-0.02em] text-charcoal">
+        <span class="block text-[2.5rem] md:text-[3.25rem] lg:text-[4rem] leading-[1.1]">
+          {t('hero.title', locale)}
+        </span>
+        <span class="block text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] leading-[1.2] mt-3 text-stone">
+          {t('hero.titleLine2', locale)} <em class="not-italic font-serif text-terracotta hero-typewriter" data-text={t('hero.titleHighlight', locale)}>&nbsp;</em>
+        </span>
       </h1>
 
       <!-- Animated terracotta accent under title -->
@@ -51,3 +57,62 @@ const locale = getLocaleFromPath(Astro.url.pathname);
     </div>
   </div>
 </section>
+
+<style>
+  .hero-typewriter {
+    font-style: italic;
+    border-right: 2px solid var(--color-terracotta);
+    padding-right: 2px;
+  }
+  .hero-typewriter.done {
+    border-right-color: transparent;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-typewriter {
+      border-right: none;
+      padding-right: 0;
+    }
+  }
+</style>
+
+<script>
+  function initTypewriter() {
+    const el = document.querySelector<HTMLElement>('.hero-typewriter');
+    if (!el) return;
+    const text = el.dataset.text || '';
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (prefersReduced) {
+      el.textContent = text;
+      el.classList.add('done');
+      return;
+    }
+
+    el.textContent = '';
+    let i = 0;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          observer.unobserve(entry.target);
+          setTimeout(() => {
+            const interval = setInterval(() => {
+              if (i < text.length) {
+                el.textContent = text.slice(0, i + 1);
+                i++;
+              } else {
+                clearInterval(interval);
+                setTimeout(() => el.classList.add('done'), 600);
+              }
+            }, 80);
+          }, 800);
+        }
+      });
+    }, { threshold: 0.3 });
+
+    observer.observe(el);
+  }
+
+  initTypewriter();
+  document.addEventListener('astro:after-swap', initTypewriter);
+</script>

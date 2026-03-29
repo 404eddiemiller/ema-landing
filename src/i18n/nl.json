@@ -17,13 +17,15 @@
     "language": "Taal"
   },
   "hero": {
-    "title": "Uw toekomstige klanten vragen ChatGPT waar ze naartoe moeten.<br>Wij zorgen ervoor dat het antwoord ú bent.",
+    "title": "Uw toekomstige klanten vragen ChatGPT waar ze naartoe moeten.",
+    "titleLine2": "Wij zorgen ervoor dat het antwoord",
+    "titleHighlight": "\u00FA bent.",
     "subtitle": "45% van de consumenten vraagt AI om een aanbeveling voordat ze een restaurant, tandarts of hotel kiezen. AI geeft slechts 3 namen. Als de uwe er niet bij staat, gaat de klant naar een concurrent.",
     "cta": "Vraag mijn gratis diagnose aan",
     "secondary": "Controleer of mijn zaak zichtbaar is →",
     "trust1": "Resultaat binnen 24 uur",
     "trust2": "100% gratis",
-    "trust3": "1 klant per regio"
+    "trust3": "Vrijblijvend"
   },
   "socialProof": {
     "label": "Uw toekomstige klanten zoeken op deze AI's. Bent u er zichtbaar?"
