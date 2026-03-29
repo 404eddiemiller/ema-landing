@@ -6,7 +6,7 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = (await getCollection('blog')).filter((post) => post.data.lang === 'fr');
   return posts.map((post) => ({
     params: { slug: post.data.slug },
     props: { post },
@@ -31,7 +31,7 @@ const formattedDate = post.data.date.toLocaleDateString('fr-FR', {
 const allPosts = await getCollection('blog');
 const relatedSlugs = (post.data.internal_links || []).map((link: { slug: string; anchor: string }) => link.slug);
 const relatedPosts = allPosts
-  .filter((p) => relatedSlugs.includes(p.data.slug))
+  .filter((p) => p.data.lang === 'fr' && relatedSlugs.includes(p.data.slug))
   .slice(0, 3);
 ---
 <Layout
