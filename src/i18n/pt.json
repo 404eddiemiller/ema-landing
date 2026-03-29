@@ -17,16 +17,16 @@
     "language": "Idioma"
   },
   "hero": {
-    "title": "Trazemos mais clientes ao seu negócio.",
-    "subtitle": "Hoje, os seus futuros clientes perguntam ao ChatGPT onde ir. Se o seu nome não aparece, é um concorrente que fica com esses clientes. Nós garantimos que o seu nome aparece.",
-    "cta": "Pedir o meu diagnóstico gratuito",
-    "secondary": "Ver como funciona",
+    "title": "Os seus futuros clientes perguntam ao ChatGPT onde ir.<br>Nós garantimos que a resposta é o seu negócio.",
+    "subtitle": "45% dos consumidores pedem uma recomendação à IA antes de escolher um restaurante, dentista ou hotel. A IA só dá 3 nomes. Se o seu não está entre eles, é um concorrente que fica com o cliente.",
+    "cta": "Pedir o meu diagn��stico gratuito",
+    "secondary": "Verificar se o meu negócio é visível →",
     "trust1": "Resultados em 24h",
     "trust2": "100% gratuito",
     "trust3": "1 cliente por zona"
   },
   "socialProof": {
-    "label": "O seu negócio é visível nestas plataformas?"
+    "label": "Os seus futuros clientes procuram nestas IAs. Está lá?"
   },
   "whatYouGet": {
     "title": "O que recebe gratuitamente",
@@ -41,10 +41,21 @@
   "problem": {
     "title": "Os seus clientes mudaram de hábitos",
     "subtitle": "Já não escrevem no Google. Perguntam diretamente à IA.",
-    "paragraph": "Um cliente que procura \"dentista perto de mim\" ou \"bom restaurante aqui perto\" no ChatGPT recebe 3 nomes. Não uma lista de 10 links. Se não está entre eles, esse cliente nunca saberá que existe."
+    "stat1Value": "3",
+    "stat1Suffix": " a 5",
+    "stat1Text": "nomes — é tudo o que a IA recomenda. Não 10 links azuis como no Google. 3 a 5 nomes. O seu, ou o de um concorrente.",
+    "stat1Source": "",
+    "stat2Value": "83",
+    "stat2Suffix": " %",
+    "stat2Text": "dos restaurantes não aparecem de todo nestas recomendações da IA",
+    "stat2Source": "Local Falcon, 2026",
+    "stat3Value": "1",
+    "stat3Suffix": "",
+    "stat3Text": "pergunta = 1 resposta. O cliente que pergunta ao ChatGPT pelo «melhor restaurante perto de mim» recebe 3 nomes e vai. Se não está na resposta, nunca saberá que existe.",
+    "stat3Source": ""
   },
   "quote": {
-    "text": "Quando um paciente pergunta ao ChatGPT por um dentista, a IA só recomenda 3 nomes. O seu é um deles?",
+    "text": "«Melhor dentista perto de mim?» — esta pergunta é feita ao ChatGPT milhares de vezes por dia. A IA dá 3 nomes. Neste momento, o seu provavelmente não está entre eles.",
     "cta": "Verificar a minha visibilidade gratuitamente"
   },
   "solution": {
@@ -52,7 +63,7 @@
     "subtitle": "Google, Google Maps, ChatGPT, Gemini, Perplexity: cobrimos todos os canais."
   },
   "whyUs": {
-    "title": "Porquê agir agora?",
+    "title": "Porque é agora ou nunca",
     "subtitle": "Cada dia sem visibilidade significa clientes que vão para um concorrente."
   },
   "verticals": {
@@ -69,7 +80,7 @@
   },
   "auditForm": {
     "title": "O seu diagnóstico gratuito em 24h",
-    "subtitle": "Verificamos se o ChatGPT, o Google e outras IAs recomendam o seu negócio. Resultados em 24h, gratuito e sem compromisso.",
+    "subtitle": "Em 24h saberá se o ChatGPT recomenda o seu negócio — e o que fazer se não for o caso.",
     "businessName": "Nome do negócio",
     "businessNamePlaceholder": "Restaurante O Cantinho, Clínica Dr. Silva…",
     "managerName": "Nome do responsável",
@@ -121,7 +132,7 @@
     "copyright": "© 2026 Eddie Miller Agency. Todos os direitos reservados."
   },
   "stickyCta": {
-    "text": "O seu negócio é visível no ChatGPT?",
+    "text": "O ChatGPT recomenda o seu negócio? Descubra em 24h →",
     "button": "Diagnóstico gratuito →"
   },
   "notFound": {

@@ -17,16 +17,16 @@
     "language": "Taal"
   },
   "hero": {
-    "title": "Wij brengen meer klanten naar uw zaak.",
-    "subtitle": "Vandaag vragen uw toekomstige klanten aan ChatGPT waar ze naartoe moeten. Als uw naam niet verschijnt, gaan die klanten naar een concurrent. Wij zorgen ervoor dat uw naam wél verschijnt.",
+    "title": "Uw toekomstige klanten vragen ChatGPT waar ze naartoe moeten.<br>Wij zorgen ervoor dat het antwoord ú bent.",
+    "subtitle": "45% van de consumenten vraagt AI om een aanbeveling voordat ze een restaurant, tandarts of hotel kiezen. AI geeft slechts 3 namen. Als de uwe er niet bij staat, gaat de klant naar een concurrent.",
     "cta": "Vraag mijn gratis diagnose aan",
-    "secondary": "Bekijk hoe het werkt",
+    "secondary": "Controleer of mijn zaak zichtbaar is →",
     "trust1": "Resultaat binnen 24 uur",
     "trust2": "100% gratis",
     "trust3": "1 klant per regio"
   },
   "socialProof": {
-    "label": "Is uw zaak zichtbaar op deze platformen?"
+    "label": "Uw toekomstige klanten zoeken op deze AI's. Bent u er zichtbaar?"
   },
   "whatYouGet": {
     "title": "Wat u gratis ontvangt",
@@ -41,10 +41,21 @@
   "problem": {
     "title": "Uw klanten hebben hun gewoontes veranderd",
     "subtitle": "Ze typen niet meer in Google. Ze vragen het rechtstreeks aan AI.",
-    "paragraph": "Een klant die zoekt naar \"tandarts bij mij in de buurt\" of \"goed restaurant in de buurt\" op ChatGPT krijgt 3 namen te zien. Geen lijst van 10 links. Als u er niet bij staat, zal die klant nooit weten dat u bestaat."
+    "stat1Value": "3",
+    "stat1Suffix": " tot 5",
+    "stat1Text": "namen — dat is alles wat AI aanbeveelt. Geen 10 blauwe links zoals op Google. 3 tot 5 namen. De uwe, of die van een concurrent.",
+    "stat1Source": "",
+    "stat2Value": "83",
+    "stat2Suffix": " %",
+    "stat2Text": "van de restaurants verschijnt helemaal niet in deze AI-aanbevelingen",
+    "stat2Source": "Local Falcon, 2026",
+    "stat3Value": "1",
+    "stat3Suffix": "",
+    "stat3Text": "vraag = 1 antwoord. De klant die ChatGPT vraagt naar het «beste restaurant in de buurt» krijgt 3 namen en gaat erheen. Als u niet in het antwoord staat, zal hij nooit weten dat u bestaat.",
+    "stat3Source": ""
   },
   "quote": {
-    "text": "Wanneer een patiënt ChatGPT om een tandarts vraagt, beveelt de AI slechts 3 namen aan. Staat de uwe erbij?",
+    "text": "\"Beste tandarts bij mij in de buurt?\" — deze vraag wordt dagelijks duizenden keren aan ChatGPT gesteld. AI geeft 3 namen. Op dit moment staat de uwe er waarschijnlijk niet bij.",
     "cta": "Controleer mijn zichtbaarheid gratis"
   },
   "solution": {
@@ -52,7 +63,7 @@
     "subtitle": "Google, Google Maps, ChatGPT, Gemini, Perplexity: wij dekken alle kanalen."
   },
   "whyUs": {
-    "title": "Waarom nu handelen?",
+    "title": "Waarom het nu of nooit is",
     "subtitle": "Elke dag zonder zichtbaarheid betekent klanten die naar een concurrent gaan."
   },
   "verticals": {
@@ -69,7 +80,7 @@
   },
   "auditForm": {
     "title": "Uw gratis diagnose binnen 24 uur",
-    "subtitle": "Wij controleren of ChatGPT, Google en andere AI's uw zaak aanbevelen. Resultaat binnen 24 uur, gratis en vrijblijvend.",
+    "subtitle": "Binnen 24 uur weet u of ChatGPT uw zaak aanbeveelt — en wat u moet doen als dat niet zo is.",
     "businessName": "Naam van de zaak",
     "businessNamePlaceholder": "Bistro De Hoek, Tandartspraktijk Jansen…",
     "managerName": "Naam van de beheerder",
@@ -121,7 +132,7 @@
     "copyright": "© 2026 Eddie Miller Agency. Alle rechten voorbehouden."
   },
   "stickyCta": {
-    "text": "Is uw zaak zichtbaar op ChatGPT?",
+    "text": "Beveelt ChatGPT uw zaak aan? Ontdek het binnen 24 uur →",
     "button": "Gratis diagnose →"
   },
   "notFound": {

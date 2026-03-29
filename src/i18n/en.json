@@ -17,16 +17,16 @@
     "language": "Language"
   },
   "hero": {
-    "title": "We bring more customers to your business.",
-    "subtitle": "Today, your future customers ask ChatGPT where to go. If your name doesn't show up, a competitor gets those customers. We make sure your name appears.",
+    "title": "Your future customers are asking ChatGPT where to go.<br>We make sure the answer is you.",
+    "subtitle": "45% of consumers ask AI for a recommendation before choosing a restaurant, dentist, or hotel. AI only gives 3 names. If yours isn't one of them, a competitor gets the customer.",
     "cta": "Request my free diagnostic",
-    "secondary": "See how it works",
+    "secondary": "Check if my business is visible ���",
     "trust1": "Results in 24h",
     "trust2": "100% free",
     "trust3": "1 client per area"
   },
   "socialProof": {
-    "label": "Is your business visible on these platforms?"
+    "label": "Your future customers search on these AIs. Are you there?"
   },
   "whatYouGet": {
     "title": "What you get for free",
@@ -41,10 +41,21 @@
   "problem": {
     "title": "Your customers have changed their habits",
     "subtitle": "They no longer type into Google. They ask AI directly.",
-    "paragraph": "A customer searching for \"dentist near me\" or \"good restaurant nearby\" on ChatGPT gets 3 names. Not a list of 10 links. If you're not among them, that customer will never know you exist."
+    "stat1Value": "3",
+    "stat1Suffix": " to 5",
+    "stat1Text": "names — that's all AI recommends. Not 10 blue links like Google. 3 to 5 names. Yours, or a competitor's.",
+    "stat1Source": "",
+    "stat2Value": "83",
+    "stat2Suffix": "%",
+    "stat2Text": "of restaurants don't appear at all in these AI recommendations",
+    "stat2Source": "Local Falcon, 2026",
+    "stat3Value": "1",
+    "stat3Suffix": "",
+    "stat3Text": "question asked = 1 answer. A customer who asks ChatGPT for the \"best restaurant near me\" gets 3 names and goes. If you're not in the answer, they'll never know you exist.",
+    "stat3Source": ""
   },
   "quote": {
-    "text": "When a patient asks ChatGPT for a dentist, the AI only recommends 3 names. Is yours one of them?",
+    "text": "\"Best dentist near me?\" — this question is asked on ChatGPT thousands of times a day. AI gives 3 names. Right now, yours probably isn't one of them.",
     "cta": "Check my visibility for free"
   },
   "solution": {
@@ -52,7 +63,7 @@
     "subtitle": "Google, Google Maps, ChatGPT, Gemini, Perplexity: we cover all channels."
   },
   "whyUs": {
-    "title": "Why act now?",
+    "title": "Why it's now or never",
     "subtitle": "Every day without visibility means customers going to a competitor."
   },
   "verticals": {
@@ -69,7 +80,7 @@
   },
   "auditForm": {
     "title": "Your free diagnostic in 24h",
-    "subtitle": "We check if ChatGPT, Google and other AIs recommend your business. Results in 24h, free and no commitment.",
+    "subtitle": "In 24h, you'll know if ChatGPT recommends your business — and what to do if it doesn't.",
     "businessName": "Business name",
     "businessNamePlaceholder": "The Corner Bistro, Dr. Smith's Office…",
     "managerName": "Manager name",
@@ -121,7 +132,7 @@
     "copyright": "© 2026 Eddie Miller Agency. All rights reserved."
   },
   "stickyCta": {
-    "text": "Is your business visible on ChatGPT?",
+    "text": "Does ChatGPT recommend your business? Find out in 24h →",
     "button": "Free diagnostic →"
   },
   "notFound": {

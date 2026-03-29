@@ -28,7 +28,7 @@ Tout le texte visible sur le site est ici. Ne réinvente aucun texte. Copie exac
 ## Sticky CTA Bar (Layout)
 
 **Texte** :
-Votre activité est-elle visible sur ChatGPT ?
+ChatGPT recommande-t-il votre entreprise ? Vérifiez en 24h →
 
 **Bouton** :
 Diagnostic gratuit →
@@ -40,18 +40,18 @@ Diagnostic gratuit →
 ## Section 1 — Hero
 
 **Headline (h1)** :
-On amène plus de clients
-dans votre activité.
+Vos futurs clients demandent à ChatGPT où aller.
+On s'assure que la réponse, ce soit vous.
 
 **Sous-titre** :
-Aujourd'hui, vos futurs clients demandent à ChatGPT où aller. Si votre activité n'apparaît pas, c'est un concurrent qui récupère le client. On s'assure que ce soit vous.
+45 % des consommateurs demandent une recommandation à une IA avant de choisir un restaurant, un dentiste ou un hôtel. L'IA ne donne que 3 noms. Si le vôtre n'en fait pas partie, c'est un concurrent qui récupère le client.
 
 **CTA principal** :
 Demander mon diagnostic gratuit
 
 **Lien secondaire** :
-Voir comment ça marche ↓
-*(ancre vers `#comment-ca-marche`)*
+Vérifier si mon entreprise est visible →
+*(ancre vers `#diagnostic`)*
 
 **Barre de réassurance** :
 - ✓ Diagnostic en 24h
@@ -63,7 +63,7 @@ Voir comment ça marche ↓
 ## Section 2 — Social Proof Bar
 
 **Texte** :
-Vos clients vous cherchent ici — on vous y rend visible
+Vos futurs clients cherchent sur ces IA. Vous y êtes ?
 
 **Plateformes affichées** (icônes SVG + texte) :
 - ChatGPT
@@ -133,29 +133,26 @@ Vos clients ont changé de réflexe
 Ils ne tapent plus dans Google. Ils demandent directement à une IA.
 
 **Stat Card 1** :
-- Chiffre : 45 %
-- Texte : des consommateurs demandent à ChatGPT de leur recommander un commerce, un médecin ou un restaurant
-- Source : BrightLocal, 2026
+- Chiffre : 3 à 5
+- Texte : noms — c'est tout ce que l'IA recommande. Pas 10 liens bleus comme sur Google. 3 à 5 noms. Le vôtre, ou celui d'un concurrent.
+- Source : *(pas de source)*
 
 **Stat Card 2** :
 - Chiffre : 83 %
-- Texte : des restaurants n'apparaissent pas du tout dans ces recommandations
+- Texte : des restaurants n'apparaissent pas du tout dans ces recommandations IA
 - Source : Local Falcon, 2026
 
 **Stat Card 3** :
-- Chiffre : 3 à 5
-- Texte : résultats : c'est tout ce que l'IA montre. Pas 10 liens comme Google — 3 à 5 noms. Le vôtre, ou celui d'un concurrent
+- Chiffre : 1 (animé)
+- Texte : question posée = 1 réponse. Le client qui demande « meilleur restaurant près de moi » à ChatGPT reçoit 3 noms et y va. Si vous n'êtes pas dans la réponse, il ne saura jamais que vous existez.
 - Source : *(pas de source)*
-
-**Paragraphe sous les cartes** :
-Un client qui cherche « dentiste Paris 15 » ou « restaurant près de la Tour Eiffel » sur ChatGPT reçoit 3 noms. Pas une liste de 10 liens. Si vous n'en faites pas partie, ce client ne saura jamais que vous existez.
 
 ---
 
 ## Section 6 — Quote
 
 **Citation (blockquote)** :
-« Meilleur dentiste près de chez moi ? » — votre prochain patient pose cette question à ChatGPT. L'IA donne 3 noms. Le vôtre en fait partie, ou pas.
+« Meilleur dentiste près de chez moi ? » — cette question est posée à ChatGPT des milliers de fois par jour. L'IA donne 3 noms. En ce moment, le vôtre n'en fait probablement pas partie.
 
 **Paragraphe sous la citation** :
 Ce n'est pas une question de chance. Les activités que l'IA recommande sont ceux qui ont les bons signaux en ligne : des avis solides, des informations complètes, une présence cohérente. C'est exactement ce qu'on met en place pour vous.
@@ -190,10 +187,10 @@ Points :
 
 ---
 
-## Section 8 — WhyUs ("Pourquoi ne pas attendre")
+## Section 8 — WhyUs ("Pourquoi c'est maintenant ou jamais")
 
 **Titre (h2)** :
-Pourquoi ne pas attendre
+Pourquoi c'est maintenant ou jamais
 
 **Carte 1** :
 - Numéro : 01
@@ -318,7 +315,7 @@ Vos questions
 Votre diagnostic gratuit en 24h
 
 **Sous-titre** :
-On vérifie gratuitement si ChatGPT et Google recommandent votre activité. Résultat en 24h, sans engagement.
+En 24h, vous saurez si ChatGPT recommande votre entreprise — et ce qu'il faut faire si ce n'est pas le cas.
 
 **Formulaire** (FormSubmit.co → `contact@eddiemiller.agency`) :
 
@@ -402,7 +399,7 @@ Ce site utilise Plausible Analytics, un outil de mesure d'audience respectueux d
 Plus de clients pour votre activité | Eddie Miller Agency
 
 **Meta description** :
-Votre activité est-elle recommandée quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.
+Votre entreprise est-elle recommandée quand un client demande à ChatGPT ? On vérifie gratuitement en 24h — score sur 100 et 3 actions concrètes.
 
 **Canonical URL** :
 https://eddiemiller.agency
@@ -592,11 +589,11 @@ https://eddiemiller.agency
 1. Header (fixe)
 2. Hero
 3. SocialProof
-4. WhatYouGet
-5. Testimonial
-6. Problem
-7. Quote
-8. Solution
+4. Problem
+5. Quote
+6. WhatYouGet
+7. Solution
+8. Testimonial
 9. WhyUs
 10. Verticals
 11. HowItWorks
