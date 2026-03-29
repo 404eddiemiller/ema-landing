@@ -75,6 +75,8 @@ const {
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:locale" content={localeISO[locale]} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:site_name" content="Eddie Miller Agency" />
 
     <!-- Twitter Card -->
@@ -89,7 +91,7 @@ const {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "name": "Eddie Miller Agency",
-        "description": "Votre activité est-elle recommandée quand un client demande à ChatGPT ? On vérifie gratuitement en 24h : score sur 100 et 3 actions concrètes.",
+        "description": "Votre entreprise est-elle recommandée quand un client demande à ChatGPT ? On vérifie gratuitement en 24h : score sur 100 et 3 actions concrètes.",
         "url": "https://eddiemiller.agency",
         "email": "contact@eddiemiller.agency",
         "logo": "https://eddiemiller.agency/favicon-192x192.png",
@@ -114,7 +116,7 @@ const {
         ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "Services pour aider les activités locales à être trouvées en ligne",
+          "name": "Services pour aider les entreprises locales à être trouvées en ligne",
           "itemListElement": [
             {
               "@type": "Offer",
@@ -138,7 +140,7 @@ const {
               "itemOffered": {
                 "@type": "Service",
                 "name": "Visibilité sur les assistants IA",
-                "description": "Quand quelqu'un demande une recommandation à ChatGPT ou Gemini, votre activité apparaît dans les résultats."
+                "description": "Quand quelqu'un demande une recommandation à ChatGPT ou Gemini, votre entreprise apparaît dans les résultats."
               }
             }
           ]
@@ -191,7 +193,7 @@ const {
             "name": "C'est quoi concrètement ? Vous faites quoi pour moi ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "On fait en sorte que quand quelqu'un cherche une activité comme la vôtre, que ce soit sur ChatGPT ou un autre assistant IA, il tombe sur vous plutôt que sur un concurrent. On s'occupe de votre fiche Google, de votre présence sur les bonnes plateformes, et de tout ce qui fait que les IA vous recommandent."
+              "text": "On fait en sorte que quand quelqu'un cherche une entreprise comme la vôtre, que ce soit sur ChatGPT ou un autre assistant IA, il tombe sur vous plutôt que sur un concurrent. On s'occupe de votre fiche Google, de votre présence sur les bonnes plateformes, et de tout ce qui fait que les IA vous recommandent."
             }
           },
           {
@@ -207,15 +209,15 @@ const {
             "name": "Vous garantissez que je vais apparaître sur ChatGPT ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Non, et méfiez-vous de quiconque vous le promet. Les IA choisissent leurs recommandations de manière autonome. Ce qu'on garantit : votre activité aura toutes les conditions pour être recommandée, et on le mesure concrètement avec un score avant/après."
+              "text": "Non, et méfiez-vous de quiconque vous le promet. Les IA choisissent leurs recommandations de manière autonome. Ce qu'on garantit : votre entreprise aura toutes les conditions pour être recommandée, et on le mesure concrètement avec un score avant/après."
             }
           },
           {
             "@type": "Question",
-            "name": "Ça marche vraiment pour mon type d'activité ?",
+            "name": "Ça marche vraiment pour mon secteur ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Oui. Notre méthode s'applique à toute activité avec une adresse physique : cabinets dentaires, restaurants, hôtels, cabinets d'avocats, salons de coiffure, spas, salles de sport. Si vos clients vous cherchent par localisation, on peut vous aider."
+              "text": "Oui. Notre méthode s'applique à toute entreprise avec une adresse physique : cabinets dentaires et médicaux, restaurants, hôtels, cabinets d'avocats, salons de coiffure, spas, salles de sport. Si vos clients vous cherchent par localisation, on peut vous aider."
             }
           },
           {
@@ -246,6 +248,16 @@ const {
       }
     </script>
 
+    <!-- WebSite schema — tells Google to show "Eddie Miller Agency" as site name -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Eddie Miller Agency",
+        "url": "https://eddiemiller.agency"
+      }
+    </script>
+
     <!-- Plausible Analytics -->
     <script is:inline async src="https://plausible.io/js/pa-V0XLRxsUEbXHqAAPrygvE.js"></script>
     <script is:inline>
@@ -256,7 +268,7 @@ const {
   </head>
   <body class="bg-cream text-charcoal font-sans pb-16 md:pb-0">
     <!-- Language suggestion banner -->
-    <div id="lang-banner" class="hidden fixed top-[73px] left-0 w-full z-40 bg-cream/95 backdrop-blur-sm border-b border-warmgray/30 py-4 px-4" role="alert">
+    <div id="lang-banner" class="hidden sticky top-[73px] left-0 w-full z-40 bg-cream/95 backdrop-blur-sm border-b border-warmgray/30 py-4 px-4" role="alert">
       <div class="max-w-container mx-auto flex items-center justify-between gap-3">
         <p id="lang-banner-text" class="font-sans text-sm text-stone"></p>
         <div class="flex items-center gap-2 shrink-0">
