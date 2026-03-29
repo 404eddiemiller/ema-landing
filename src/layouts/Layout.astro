@@ -221,10 +221,10 @@ const {
     </script>
 
     <!-- Plausible Analytics -->
-    <script defer src="https://plausible.io/js/pa-V0XLRxsUEbXHqAAPrygvE.js" event-locale={locale}></script>
-    <script>
-      window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments); };
-      window.plausible.init = window.plausible.init || function() { (window.plausible.initQ = window.plausible.initQ || []).push(arguments); };
+    <script is:inline async src="https://plausible.io/js/pa-V0XLRxsUEbXHqAAPrygvE.js"></script>
+    <script is:inline>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
     </script>
 
   </head>
