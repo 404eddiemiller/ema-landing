@@ -220,8 +220,8 @@ const {
       }
     </script>
 
-    <!-- Plausible Analytics -->
-    <script defer data-domain="eddiemiller.agency" src="https://plausible.io/js/script.js"></script>
+    <!-- Plausible Analytics (with locale tracking via pageview props) -->
+    <script defer data-domain="eddiemiller.agency" src="https://plausible.io/js/script.pageview-props.js" event-locale={locale}></script>
     <!-- Plausible custom event tracking -->
     <script>
       window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) };
