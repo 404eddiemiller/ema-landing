@@ -9,7 +9,7 @@ const formules = [
     name: 'Diagnostic',
     tagline: 'Savoir où vous en êtes',
     price: 'Gratuit',
-    priceDetail: '',
+    priceDetail: 'sans engagement',
     description: "On teste votre entreprise sur Google et sur les IA. Vous recevez un rapport clair avec votre score et les actions prioritaires.",
     includes: [
       'Score de visibilité sur 100',
@@ -129,7 +129,7 @@ const formules = [
             <p class="text-sm font-sans font-medium text-terracotta mb-4">
               {f.tagline}
             </p>
-            <div class="mb-5">
+            <div class="mb-5 lg:min-h-[3.5rem]">
               <p class="text-2xl font-serif font-normal text-charcoal leading-tight">
                 {f.price}
               </p>
@@ -137,10 +137,10 @@ const formules = [
                 <p class="text-xs font-sans text-stone mt-1">{f.priceDetail}</p>
               )}
             </div>
-            <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[6rem]">
+            <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[7.25rem]">
               {f.description}
             </p>
-            <ul class="space-y-3 mb-6 flex-1">
+            <ul class="space-y-3 mb-6 lg:min-h-[14.5rem]">
               {f.includes.map((item) => (
                 <li class="flex items-start gap-2 text-sm font-sans text-stone">
                   <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
