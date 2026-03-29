@@ -67,6 +67,7 @@ Vos clients vous cherchent ici — on vous y rend visible
 
 **Plateformes affichées** (icônes SVG + texte) :
 - ChatGPT
+- Claude
 - Google Maps
 - Gemini
 - Perplexity
@@ -169,23 +170,23 @@ Ce qu'on fait pour vous
 **Sous-titre** :
 On s'occupe de tout ce qui fait que vos clients vous trouvent — sur Google et sur les assistants IA.
 
-**Colonne gauche — Être trouvé sur Google**
-
-Titre (h3) : Être trouvé sur Google
-
-Points :
-- Votre activité remonte dans Google Maps quand un client cherche dans votre quartier
-- Votre fiche Google est complète, à jour et donne envie de vous contacter
-- Vos avis en ligne jouent en votre faveur au lieu de vous desservir
-
-**Colonne droite — Être recommandé par les IA**
+**Colonne gauche — Être recommandé par les IA**
 
 Titre (h3) : Être recommandé par les IA
 
 Points :
-- ChatGPT, Gemini et Perplexity vous citent quand un client demande une recommandation
+- ChatGPT, Claude, Gemini et Perplexity vous citent quand un client demande une recommandation
 - Votre réputation en ligne donne aux IA les signaux pour vous recommander en confiance
 - Vous êtes présent sur les sources que les IA consultent pour formuler leurs réponses
+
+**Colonne droite — Être trouvé sur Google**
+
+Titre (h3) : Être trouvé sur Google
+
+Points :
+- Votre entreprise remonte dans Google Maps quand un client cherche dans votre quartier
+- Votre fiche Google est complète, à jour et donne envie de vous contacter
+- Vos avis en ligne jouent en votre faveur au lieu de vous desservir
 
 ---
 

@@ -13,34 +13,8 @@ const locale = getLocaleFromPath(Astro.url.pathname);
     </p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-3xl mx-auto">
-      <!-- Google column -->
-      <div class="border border-warmgray p-8 bg-cream card-hover slide-in-left">
-        <div class="flex items-center gap-3 mb-6">
-          <svg class="w-7 h-7 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-          </svg>
-          <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal">
-            Être trouvé sur Google
-          </h3>
-        </div>
-        <ul class="space-y-4">
-          <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
-            <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-            Votre activité remonte dans Google Maps quand un client cherche dans votre ville et dans votre quartier
-          </li>
-          <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
-            <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-            Votre fiche Google est complète, à jour et donne envie de vous contacter
-          </li>
-          <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
-            <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-            Vos avis en ligne jouent en votre faveur au lieu de vous desservir
-          </li>
-        </ul>
-      </div>
-
       <!-- AI column -->
-      <div class="border border-warmgray p-8 bg-cream card-hover slide-in-right">
+      <div class="border border-warmgray p-8 bg-cream card-hover slide-in-left">
         <div class="flex items-center gap-3 mb-6">
           <svg class="w-7 h-7 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M12 3c.5 3.5 2 5 5.5 5.5-3.5.5-5 2-5.5 5.5-.5-3.5-2-5-5.5-5.5C10 8 11.5 6.5 12 3Z"/>
@@ -62,6 +36,32 @@ const locale = getLocaleFromPath(Astro.url.pathname);
           <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
             <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
             Vous êtes présent sur les sources que les IA consultent pour formuler leurs réponses
+          </li>
+        </ul>
+      </div>
+
+      <!-- Google column -->
+      <div class="border border-warmgray p-8 bg-cream card-hover slide-in-right">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-7 h-7 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal">
+            Être trouvé sur Google
+          </h3>
+        </div>
+        <ul class="space-y-4">
+          <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
+            <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+            Votre entreprise remonte dans Google Maps quand un client cherche dans votre ville et dans votre quartier
+          </li>
+          <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
+            <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+            Votre fiche Google est complète, à jour et donne envie de vous contacter
+          </li>
+          <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
+            <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+            Vos avis en ligne jouent en votre faveur au lieu de vous desservir
           </li>
         </ul>
       </div>

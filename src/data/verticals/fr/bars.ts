@@ -76,7 +76,7 @@ export const data: VerticalData = {
   howItWorksSubtitle: 'Un seul bar par quartier, pour vous garantir l\'exclusivité.',
   steps: [
     { number: '01', title: 'Diagnostic gratuit', text: 'On teste votre bar sur ChatGPT, Google Maps et les autres IA. Vous recevez un score sur 100 et un diagnostic clair en 24h.' },
-    { number: '02', title: 'On en parle ensemble', text: 'On parcourt vos résultats ensemble. Vous comprenez ce qui bloque et ce qu\'il faut corriger en priorité pour votre activité.' },
+    { number: '02', title: 'On en parle ensemble', text: 'On parcourt vos résultats ensemble. Vous comprenez ce qui bloque et ce qu\'il faut corriger en priorité pour votre entreprise.' },
     { number: '03', title: 'Vos clients vous trouvent', text: 'On met en place les corrections. Vos futurs clients vous trouvent sur Google et sur les IA. Score mesuré avant et après.' },
   ],
 

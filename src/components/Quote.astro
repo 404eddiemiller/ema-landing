@@ -19,9 +19,9 @@ const locale = getLocaleFromPath(Astro.url.pathname);
 
       <div class="mx-auto my-8 md:my-10 h-[2px] bg-terracotta separator-animate" aria-hidden="true"></div>
 
-      <p class="max-w-[65ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone blur-in">
+      <a href="#diagnostic" class="inline-block max-w-[65ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-terracotta transition-colors duration-300 hover:text-terracotta-dark blur-in hover-underline">
         {t('quote.cta', locale)}
-      </p>
+      </a>
     </div>
   </div>
 </section>

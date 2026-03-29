@@ -10,7 +10,7 @@ const formules = [
     tagline: 'Savoir où vous en êtes',
     price: 'Gratuit',
     priceDetail: '',
-    description: "On teste votre activité sur Google et sur les IA. Vous recevez un rapport clair avec votre score et les actions prioritaires.",
+    description: "On teste votre entreprise sur Google et sur les IA. Vous recevez un rapport clair avec votre score et les actions prioritaires.",
     includes: [
       'Score de visibilité sur 100',
       'Rapport clair avec diagnostic complet',
@@ -34,7 +34,7 @@ const formules = [
       'Présence sur les sources consultées par les IA',
       'Appel de restitution détaillé',
     ],
-    ideal: "Pour les activités qui partent de zéro ou qui ont une présence en ligne négligée.",
+    ideal: "Pour les entreprises qui partent de zéro ou qui ont une présence en ligne négligée.",
     cta: 'Demander un devis',
     ctaHref: '#diagnostic',
     highlight: false,
@@ -53,7 +53,7 @@ const formules = [
       "Stratégie d'avis en ligne",
       'Appel approfondi de 45 min',
     ],
-    ideal: "Pour les activités qui veulent aller plus loin et dominer leur quartier.",
+    ideal: "Pour les entreprises qui veulent aller plus loin et dominer leur quartier.",
     cta: 'Demander un devis',
     ctaHref: '#diagnostic',
     highlight: true,
@@ -72,7 +72,7 @@ const formules = [
       'Ajustements continus',
       'Interlocuteur dédié',
     ],
-    ideal: "Pour les activités qui veulent des résultats mesurables et un accompagnement dans la durée.",
+    ideal: "Pour les entreprises qui veulent des résultats mesurables et un accompagnement dans la durée.",
     cta: 'Demander un devis',
     ctaHref: '#diagnostic',
     highlight: false,
@@ -148,21 +148,23 @@ const formules = [
                 </li>
               ))}
             </ul>
-            <p class="text-xs font-sans font-normal leading-relaxed text-stone/70 italic mb-6">
-              {f.ideal}
-            </p>
-            <a
-              href={f.ctaHref}
-              class:list={[
-                'block text-center px-6 py-3 font-sans font-medium text-sm tracking-wider uppercase transition-colors duration-300 mt-auto',
-                f.highlight
-                  ? 'text-cream bg-terracotta hover:bg-terracotta-dark'
-                  : 'text-charcoal border border-warmgray hover:border-terracotta hover:text-terracotta',
-              ]}
-              onclick={`plausible('CTA Click', {props: {location: 'formules-${f.name.toLowerCase()}'}})`}
-            >
-              {f.cta} →
-            </a>
+            <div class="mt-auto">
+              <p class="text-xs font-sans font-normal leading-relaxed text-stone/70 italic mb-6">
+                {f.ideal}
+              </p>
+              <a
+                href={f.ctaHref}
+                class:list={[
+                  'block text-center px-6 py-3 font-sans font-medium text-sm tracking-wider uppercase transition-colors duration-300',
+                  f.highlight
+                    ? 'text-cream bg-terracotta hover:bg-terracotta-dark'
+                    : 'text-charcoal border border-warmgray hover:border-terracotta hover:text-terracotta',
+                ]}
+                onclick={`plausible('CTA Click', {props: {location: 'formules-${f.name.toLowerCase()}'}})`}
+              >
+                {f.cta} →
+              </a>
+            </div>
           </div>
         ))}
       </div>

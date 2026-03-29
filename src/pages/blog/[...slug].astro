@@ -7,13 +7,22 @@ import Footer from '../../components/Footer.astro';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('blog')).filter((post) => post.data.lang === 'fr');
-  return posts.map((post) => ({
-    params: { slug: post.data.slug },
-    props: { post },
-  }));
+  // Échelonner les dates sur les 90 derniers jours depuis le build
+  const sorted = [...posts].sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  const now = new Date();
+  const SPREAD_DAYS = 90;
+  return sorted.map((post, i) => {
+    const daysAgo = Math.round((i / Math.max(sorted.length - 1, 1)) * SPREAD_DAYS) + 2;
+    const displayDate = new Date(now);
+    displayDate.setDate(displayDate.getDate() - daysAgo);
+    return {
+      params: { slug: post.data.slug },
+      props: { post, displayDate },
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, displayDate } = Astro.props;
 const { Content } = await render(post);
 const canonicalUrl = `https://eddiemiller.agency/blog/${post.data.slug}`;
 const articleImage = post.data.image
@@ -21,7 +30,7 @@ const articleImage = post.data.image
   : 'https://eddiemiller.agency/og-image.png';
 
 // Format date in French
-const formattedDate = post.data.date.toLocaleDateString('fr-FR', {
+const formattedDate = displayDate.toLocaleDateString('fr-FR', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -51,8 +60,8 @@ const relatedPosts = allPosts
     "@type": "BlogPosting",
     "headline": post.data.title,
     "description": post.data.meta_description,
-    "datePublished": post.data.date.toISOString().split('T')[0],
-    "dateModified": post.data.date.toISOString().split('T')[0],
+    "datePublished": displayDate.toISOString().split('T')[0],
+    "dateModified": displayDate.toISOString().split('T')[0],
     "author": {
       "@type": "Organization",
       "name": "Eddie Miller Agency",
@@ -148,7 +157,7 @@ const relatedPosts = allPosts
       <!-- Inline CTA -->
       <div class="my-10 md:my-14 py-6 border-t border-b border-warmgray/30">
         <p class="font-sans text-base md:text-lg text-stone leading-relaxed mb-4">
-          Vous voulez savoir si votre activité est visible sur les IA&nbsp;?
+          Vous voulez savoir si votre entreprise est visible sur les IA&nbsp;?
         </p>
         <a
           href="/#diagnostic"

@@ -4,6 +4,7 @@ import { t, getLocaleFromPath, type Locale } from '../i18n/index';
 const locale = getLocaleFromPath(Astro.url.pathname);
 const verticals = [
   { title: 'Cabinets dentaires', description: "Vos futurs patients demandent un dentiste à ChatGPT. On fait en sorte que ce soit vous qu'il recommande.", icon: 'stethoscope', href: '/dentistes' },
+  { title: 'Cabinets médicaux', description: "Vos futurs patients cherchent un médecin sur ChatGPT. On fait en sorte que votre cabinet soit recommandé.", icon: 'heartpulse', href: '/medical' },
   { title: "Cabinets d'avocats", description: "Un client qui cherche un avocat en urgence demande à l'IA. Soyez le nom qui sort.", icon: 'scale', href: '/avocats' },
   { title: 'Restaurants', description: "«\u00a0Où manger ce soir\u00a0?\u00a0» La question est posée à ChatGPT. La réponse, c'est vous ou un concurrent.", icon: 'utensils-crossed', href: '/restaurants' },
   { title: 'Hôtels', description: "Les voyageurs planifient leur séjour avec l'IA. On met votre hôtel dans leurs suggestions.", icon: 'building', href: '/hotels' },
@@ -21,6 +22,7 @@ const icons: Record<string, string> = {
   building: '<rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3"/><path d="M8 6h.01"/><path d="M12 6h.01"/><path d="M16 6h.01"/><path d="M8 10h.01"/><path d="M12 10h.01"/><path d="M16 10h.01"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/>',
   scissors: '<circle cx="6" cy="6" r="3"/><path d="M8.12 8.12 12 12"/><path d="M20 4 8.12 15.88"/><circle cx="6" cy="18" r="3"/><path d="M14.8 14.8 20 20"/>',
   sparkles: '<path d="M12 3c.5 3.5 2 5 5.5 5.5-3.5.5-5 2-5.5 5.5-.5-3.5-2-5-5.5-5.5C10 8 11.5 6.5 12 3Z"/><path d="M19 10c.3 2 1.2 3 3.3 3.3-2.1.3-3 1.2-3.3 3.3-.3-2.1-1.2-3-3.3-3.3 2.1-.3 3-1.3 3.3-3.3Z"/><path d="M9 17c.3 2 1.2 3 3.3 3.3-2.1.3-3 1.2-3.3 3.3-.3-2.1-1.2-3-3.3-3.3C7.8 20 8.7 19 9 17Z"/>',
+  heartpulse: '<path d="M19.5 12.572l-7.5 7.428l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572"/><path d="M12 6v4l2 2"/>',
   dumbbell: '<path d="M14.4 14.4 9.6 9.6"/><path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767-1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l1.767 1.767a2 2 0 1 1 2.829 2.829z"/><path d="m21.5 21.5-1.4-1.4"/><path d="M3.9 3.9 2.5 2.5"/><path d="M6.404 12.768a2 2 0 1 1-2.829-2.829l1.768-1.767a2 2 0 1 1-2.828-2.829l2.828-2.828a2 2 0 1 1 2.829 2.828l1.767-1.768a2 2 0 1 1 2.829 2.829z"/>',
   glass: '<path d="M8 22h8"/><path d="M12 15v7"/><path d="m19 2-7 10-7-10Z"/>',
 };
@@ -34,7 +36,7 @@ const icons: Record<string, string> = {
       {t('verticals.subtitle', locale)}
     </p>
 
-    <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
+    <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
       {verticals.map((v, i) => {
         const cardClasses = "block border border-warmgray p-5 md:p-6 bg-cream card-hover scale-in group";
         const cardContent = (

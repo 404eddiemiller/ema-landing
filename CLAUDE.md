@@ -42,10 +42,10 @@ Tu construis le site web d'**Eddie Miller Agency (EMA)**, une agence B2B qui aid
 ## Terminologie obligatoire
 
 - **"diagnostic gratuit"** (jamais "audit", "test", "analyse")
-- **"activité"** (jamais "établissement", "commerce" sauf dans les statistiques)
+- **"entreprise"** (jamais "établissement", "commerce" sauf dans les statistiques, ni "activité" pour désigner l'entreprise du client)
 - **"être trouvé par vos clients"** (jamais "SEO", "GEO", "référencement", "empreinte numérique", "données structurées")
 - **CTA unifié** : "Demander mon diagnostic gratuit"
-- **Social proof** : ChatGPT · Google Maps · Gemini · Perplexity (pas Claude)
+- **Social proof** : ChatGPT · Claude · Google Maps · Gemini · Perplexity
 - **Formules** : Diagnostic (gratuit), Essentiel, Complet, Premium (jamais "Starter", "Pro", et pas de prix visibles)
 - Ne pas limiter géographiquement à Paris dans le texte visible
 

@@ -5,19 +5,29 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 
-const posts = (await getCollection('blog'))
+const allPosts = (await getCollection('blog'))
   .filter((post) => !post.data.draft && post.data.lang === 'fr')
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Échelonner les dates sur les 90 derniers jours depuis le build
+const now = new Date();
+const SPREAD_DAYS = 90;
+const posts = allPosts.map((post, i) => {
+  const daysAgo = Math.round((i / Math.max(allPosts.length - 1, 1)) * SPREAD_DAYS) + 2;
+  const displayDate = new Date(now);
+  displayDate.setDate(displayDate.getDate() - daysAgo);
+  return { ...post, displayDate };
+});
 
 // Group posts by category
 const categories = [...new Set(posts.map((post) => post.data.category))];
 ---
 <Layout
   title="Blog — Eddie Miller Agency"
-  description="Articles et guides pour aider votre activité à être trouvée par vos futurs clients, sur Google et sur les IA."
+  description="Articles et guides pour aider votre entreprise à être trouvée par vos futurs clients, sur Google et sur les IA."
   canonicalUrl="https://eddiemiller.agency/blog"
   ogTitle="Blog — Eddie Miller Agency"
-  ogDescription="Articles et guides pour aider votre activité à être trouvée en ligne, sur Google et sur les IA."
+  ogDescription="Articles et guides pour aider votre entreprise à être trouvée en ligne, sur Google et sur les IA."
 >
   <Header />
 
@@ -30,7 +40,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
           Blog
         </h1>
         <p class="font-sans text-base md:text-lg text-stone leading-relaxed">
-          Guides pratiques pour aider votre activité à être trouvée par vos futurs clients.
+          Guides pratiques pour aider votre entreprise à être trouvée par vos futurs clients.
         </p>
       </div>
 
@@ -55,7 +65,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
       <!-- Articles list -->
       <div class="grid gap-0">
         {posts.map((post, index) => {
-          const formattedDate = post.data.date.toLocaleDateString('fr-FR', {
+          const formattedDate = post.displayDate.toLocaleDateString('fr-FR', {
             year: 'numeric',
             month: 'long',
             day: 'numeric',
@@ -68,7 +78,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
 
                   <!-- Meta column -->
                   <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-sans text-stone mb-3 md:mb-0 md:w-48 md:shrink-0 md:pt-1">
-                    <time datetime={post.data.date.toISOString().split('T')[0]}>{formattedDate}</time>
+                    <time datetime={post.displayDate.toISOString().split('T')[0]}>{formattedDate}</time>
                     <span class="text-warmgray md:hidden" aria-hidden="true">·</span>
                     <span class="md:hidden">{post.data.reading_time}</span>
                   </div>
@@ -118,7 +128,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
       <!-- CTA at bottom -->
       <div class="mt-14 md:mt-20 py-10 md:py-12 px-6 md:px-10 bg-sand border border-warmgray/30 text-center">
         <p class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-3">
-          Votre activité est-elle visible sur les IA ?
+          Votre entreprise est-elle visible sur les IA ?
         </p>
         <p class="font-sans text-stone text-base leading-relaxed mb-6 max-w-lg mx-auto">
           Diagnostic gratuit en 24h : on vérifie si vos futurs clients vous trouvent en ligne, et on vous donne vos 3 actions prioritaires.
