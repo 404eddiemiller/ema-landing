@@ -6,8 +6,8 @@ meta_description: "Vos avis Google décident si un patient vous choisit ou chois
 author: "Eddie Miller Agency"
 date: "2026-02-07"
 category: "Google & avis"
-tags: ["avis Google", "dentiste", "réputation en ligne", "Google Reviews", "SEO local", "Paris", "GEO", "visibilité IA"]
-cta: "audit-geo-gratuit"
+tags: ["avis Google", "dentiste", "réputation en ligne", "Google Reviews", "visibilité locale", "Paris", "visibilité IA"]
+cta: "diagnostic-gratuit"
 lang: "fr"
 reading_time: "11 min"
 image: "/images/blog/avis-google-cabinet-dentaire-patients.webp"

@@ -6,8 +6,8 @@ meta_description: "Google no longer works the way it used to. AI now answers ins
 author: "Eddie Miller Agency"
 date: "2026-03-17"
 category: "Google & reviews"
-tags: ["local SEO", "2026", "trends", "Google", "GEO", "AI Overview", "local business", "Paris"]
-cta: "audit-geo-gratuit"
+tags: ["local SEO", "2026", "trends", "Google", "visibilité IA", "AI Overview", "local business", "Paris"]
+cta: "diagnostic-gratuit"
 lang: "en"
 reading_time: "9 min"
 image: "/images/blog/seo-local-2026-tendances-actions.webp"

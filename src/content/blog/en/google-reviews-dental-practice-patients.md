@@ -6,8 +6,8 @@ meta_description: "Your Google reviews determine whether a patient chooses you o
 author: "Eddie Miller Agency"
 date: "2026-02-07"
 category: "Google & reviews"
-tags: ["Google reviews", "dentist", "online reputation", "Google Reviews", "local SEO", "Paris", "GEO", "AI visibility"]
-cta: "audit-geo-gratuit"
+tags: ["Google reviews", "dentist", "online reputation", "Google Reviews", "local SEO", "Paris", "visibilité IA", "AI visibility"]
+cta: "diagnostic-gratuit"
 lang: "en"
 reading_time: "11 min"
 image: "/images/blog/avis-google-cabinet-dentaire-patients.webp"

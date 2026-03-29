@@ -6,8 +6,8 @@ meta_description: "Deze tandartspraktijk in Parijs verscheen nergens op ChatGPT 
 author: "Eddie Miller Agency"
 date: "2026-02-21"
 category: "Casestudy's"
-tags: ["casestudy", "GEO", "tandarts", "AI-zichtbaarheid", "ChatGPT", "Perplexity", "voor na", "Parijs"]
-cta: "audit-geo-gratuit"
+tags: ["casestudy", "visibilité IA", "tandarts", "AI-zichtbaarheid", "ChatGPT", "Perplexity", "voor na", "Parijs"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "9 min"
 image: "/images/blog/cas-client-cabinet-dentaire-0-a-3-mentions-ia-60-jours.webp"

@@ -6,8 +6,8 @@ meta_description: "El 34 % de las clinicas dentales en Paris no tienen sitio web
 author: "Eddie Miller Agency"
 date: "2026-03-19"
 category: "Visibilidad online"
-tags: ["sitio web", "dentista", "sin sitio", "visibilidad IA", "GEO", "Paris", "Google Business", "Doctolib"]
-cta: "audit-geo-gratuit"
+tags: ["sitio web", "dentista", "sin sitio", "visibilidad IA", "visibilité IA", "Paris", "Google Business", "Doctolib"]
+cta: "diagnostic-gratuit"
 lang: "es"
 reading_time: "8 min"
 image: "/images/blog/cabinet-dentaire-sans-site-web-vulnerabilite-ia.webp"

@@ -6,8 +6,8 @@ meta_description: "Analizamos que negocios parisinos recomiendan mas ChatGPT, Pe
 author: "Eddie Miller Agency"
 date: "2026-02-25"
 category: "Estudios y cifras"
-tags: ["barometro", "GEO", "Paris", "visibilidad IA", "ChatGPT", "Perplexity", "dentista", "restaurante", "hotel", "datos"]
-cta: "audit-geo-gratuit"
+tags: ["barometro", "visibilité IA", "Paris", "visibilidad IA", "ChatGPT", "Perplexity", "dentista", "restaurante", "hotel", "datos"]
+cta: "diagnostic-gratuit"
 lang: "es"
 reading_time: "11 min"
 image: "/images/blog/barometre-geo-paris-2026-t1.webp"

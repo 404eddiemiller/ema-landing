@@ -6,8 +6,8 @@ meta_description: "L'83% dei ristoranti parigini non compare quando un cliente c
 author: "Eddie Miller Agency"
 date: "2026-01-31"
 category: "Visibilità online"
-tags: ["ristorante", "ChatGPT", "GEO", "visibilità IA", "Parigi", "Perplexity", "TheFork", "TripAdvisor", "Google Business"]
-cta: "audit-geo-gratuit"
+tags: ["ristorante", "ChatGPT", "visibilité IA", "visibilità IA", "Parigi", "Perplexity", "TheFork", "TripAdvisor", "Google Business"]
+cta: "diagnostic-gratuit"
 lang: "it"
 reading_time: "10 min"
 image: "/images/blog/chatgpt-recommandation-restaurant-paris.webp"

@@ -6,8 +6,8 @@ meta_description: "60% van de Google-zoekopdrachten leidt niet meer naar een web
 author: "Eddie Miller Agency"
 date: "2026-03-08"
 category: "Online zichtbaarheid"
-tags: ["nul klik", "zero-click", "Google", "AI Overview", "GEO", "lokale SEO", "zichtbaarheid", "lokale zaak"]
-cta: "audit-geo-gratuit"
+tags: ["nul klik", "zero-click", "Google", "AI Overview", "visibilité IA", "lokale SEO", "zichtbaarheid", "lokale zaak"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "9 min"
 image: "/images/blog/zero-clic-recherches-google-solution-commerce-local.webp"

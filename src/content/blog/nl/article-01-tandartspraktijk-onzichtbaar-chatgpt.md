@@ -6,8 +6,8 @@ meta_description: "Steeds meer patiënten vragen ChatGPT om een tandarts in Pari
 author: "Eddie Miller Agency"
 date: "2026-01-21"
 category: "Online zichtbaarheid"
-tags: ["tandarts", "ChatGPT", "GEO", "AI-zichtbaarheid", "tandartspraktijk", "Parijs", "Perplexity", "lokale SEO"]
-cta: "audit-geo-gratuit"
+tags: ["tandarts", "ChatGPT", "visibilité IA", "AI-zichtbaarheid", "tandartspraktijk", "Parijs", "Perplexity", "lokale SEO"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "10 min"
 image: "/images/blog/cabinet-dentaire-invisible-chatgpt.webp"

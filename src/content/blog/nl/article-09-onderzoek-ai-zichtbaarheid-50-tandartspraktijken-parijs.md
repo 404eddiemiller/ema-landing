@@ -6,8 +6,8 @@ meta_description: "We vroegen ChatGPT, Perplexity en Google AI om tandartsen aan
 author: "Eddie Miller Agency"
 date: "2026-02-18"
 category: "Onderzoek & cijfers"
-tags: ["onderzoek", "GEO", "AI-zichtbaarheid", "tandarts", "Parijs", "ChatGPT", "Perplexity", "gegevens", "audit"]
-cta: "audit-geo-gratuit"
+tags: ["onderzoek", "visibilité IA", "AI-zichtbaarheid", "tandarts", "Parijs", "ChatGPT", "Perplexity", "gegevens", "diagnostic"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "12 min"
 image: "/images/blog/etude-visibilite-ia-50-cabinets-dentaires-paris.webp"

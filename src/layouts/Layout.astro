@@ -19,7 +19,7 @@ interface Props {
 const {
   title,
   description,
-  canonicalUrl = 'https://eddiemiller.agency',
+  canonicalUrl = new URL(Astro.url.pathname, siteUrl).href,
   ogTitle = t('meta.ogTitle', locale),
   ogDescription = t('meta.ogDescription', locale),
   ogType = 'website',
@@ -27,7 +27,7 @@ const {
 } = Astro.props;
 ---
 <!doctype html>
-<html lang={locale}
+<html lang={locale}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
@@ -46,7 +46,6 @@ const {
     </script>
     <!-- DNS prefetch for external services -->
     <link rel="dns-prefetch" href="https://plausible.io" />
-    <link rel="dns-prefetch" href="https://formsubmit.co" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
@@ -106,10 +105,12 @@ const {
           "name": "Worldwide"
         },
         "serviceType": [
-          "Visibilité en ligne pour activités locales",
-          "Référencement Google Maps",
-          "Optimisation Google Business Profile",
-          "Visibilité sur les moteurs de recherche et assistants IA"
+          "Local Business Visibility Consulting",
+          "Google Business Profile Management",
+          "Google Maps Optimization",
+          "AI Search Optimization",
+          "ChatGPT Visibility for Local Businesses",
+          "Local Online Reputation Management"
         ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -142,7 +143,7 @@ const {
             }
           ]
         },
-        "knowsLanguage": ["fr", "en"],
+        "knowsLanguage": ["fr", "en", "es", "de", "it", "pt", "nl"],
         "priceRange": "€€",
         "founder": {
           "@type": "Person",
@@ -187,34 +188,58 @@ const {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Combien ça coûte ?",
+            "name": "C'est quoi concrètement ? Vous faites quoi pour moi ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Le diagnostic initial est 100 % gratuit et sans engagement. Après le diagnostic, nous vous présentons les options adaptées à votre activité."
+              "text": "On fait en sorte que quand quelqu'un cherche une activité comme la vôtre, que ce soit sur ChatGPT ou un autre assistant IA, il tombe sur vous plutôt que sur un concurrent. On s'occupe de votre fiche Google, de votre présence sur les bonnes plateformes, et de tout ce qui fait que les IA vous recommandent."
             }
           },
           {
             "@type": "Question",
-            "name": "En combien de temps voit-on des résultats ?",
+            "name": "En combien de temps est-ce que je vois une différence ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Les premiers résultats apparaissent entre 4 et 8 semaines. L'optimisation Google Business Profile peut produire des effets dès les premiers jours."
+              "text": "Les premiers effets sur Google sont visibles en quelques jours. Pour les recommandations par les IA comme ChatGPT, comptez 4 à 8 semaines. On mesure votre score avant et après : vous voyez la progression en chiffres, pas en promesses."
             }
           },
           {
             "@type": "Question",
-            "name": "Quelle est la différence avec une agence web classique ?",
+            "name": "Vous garantissez que je vais apparaître sur ChatGPT ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Une agence web classique vous aide à apparaître sur Google. Nous allons plus loin : on vous rend aussi visible dans les réponses des assistants IA comme ChatGPT ou Gemini, qui ne recommandent que 3 à 5 résultats."
+              "text": "Non, et méfiez-vous de quiconque vous le promet. Les IA choisissent leurs recommandations de manière autonome. Ce qu'on garantit : votre activité aura toutes les conditions pour être recommandée, et on le mesure concrètement avec un score avant/après."
             }
           },
           {
             "@type": "Question",
-            "name": "Comment se déroule le diagnostic gratuit ?",
+            "name": "Ça marche vraiment pour mon type d'activité ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Vous remplissez le formulaire, notre équipe vérifie si vos futurs clients vous trouvent en ligne. Vous recevez un rapport sous 24 heures avec votre score sur 100 et vos actions prioritaires."
+              "text": "Oui. Notre méthode s'applique à toute activité avec une adresse physique : cabinets dentaires, restaurants, hôtels, cabinets d'avocats, salons de coiffure, spas, salles de sport. Si vos clients vous cherchent par localisation, on peut vous aider."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Est-ce que je dois avoir un site web ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cela aide, mais ce n'est pas indispensable. Une grande partie de votre visibilité passe par votre fiche Google, les annuaires de votre secteur et vos avis en ligne. On optimise l'ensemble de votre présence en ligne, avec ou sans site web."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Combien de temps ça me prend à moi ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Très peu. Vous remplissez un formulaire en 1 minute pour le diagnostic, puis environ 30 minutes au total pour appliquer nos recommandations. On vous guide pas à pas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Pourquoi ne pas le faire moi-même ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vous pouvez. Mais entre comprendre comment fonctionnent les algorithmes de Google et des IA, identifier ce qui bloque, et mettre en place les corrections, comptez 15 à 20 heures de travail. On le fait en quelques jours avec une méthode éprouvée."
             }
           }
         ]
@@ -264,7 +289,7 @@ const {
     <script>
       const stickyCta = document.getElementById('sticky-cta');
       if (stickyCta) {
-        const auditSection = document.getElementById('audit');
+        const auditSection = document.getElementById('diagnostic');
         let ticking = false;
 
         window.addEventListener('scroll', () => {
@@ -293,16 +318,13 @@ const {
       }
     </script>
 
-    <!-- Intersection Observer for all scroll animations with stagger -->
+    <!-- Intersection Observer for scroll animations -->
     <script>
-      // All animatable classes
-      const animClasses = ['.fade-up', '.fade-up-slow', '.scale-in', '.slide-in-left', '.slide-in-right', '.blur-in', '.fade-in', '.draw-line', '.separator-animate', '.text-reveal-line'];
+      const animClasses = ['.fade-up', '.fade-up-slow', '.scale-in', '.slide-in-left', '.slide-in-right', '.blur-in', '.fade-in', '.draw-line', '.separator-animate'];
 
-      // Respect prefers-reduced-motion
       const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
       if (prefersReduced) {
-        // Immediately show all elements
         document.querySelectorAll(animClasses.join(',')).forEach(el => {
           el.classList.add('visible');
         });
@@ -317,16 +339,6 @@ const {
         }, { threshold: 0.1 });
 
         document.querySelectorAll(animClasses.join(',')).forEach((el) => {
-          // Stagger siblings within the same grid/flex parent
-          const parent = el.parentElement;
-          if (parent && (parent.classList.contains('grid') || parent.classList.contains('flex') || parent.classList.contains('space-y-0'))) {
-            const selector = animClasses.map(c => `:scope > ${c}`).join(',');
-            const siblings = Array.from(parent.querySelectorAll(selector));
-            const index = siblings.indexOf(el);
-            if (index > 0) {
-              (el as HTMLElement).style.transitionDelay = `${index * 0.12}s`;
-            }
-          }
           observer.observe(el);
         });
       }

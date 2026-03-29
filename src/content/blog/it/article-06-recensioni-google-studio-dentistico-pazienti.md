@@ -6,8 +6,8 @@ meta_description: "Le vostre recensioni Google decidono se un paziente vi scegli
 author: "Eddie Miller Agency"
 date: "2026-02-07"
 category: "Google e recensioni"
-tags: ["recensioni Google", "dentista", "reputazione online", "Google Reviews", "SEO locale", "Parigi", "GEO", "visibilità IA"]
-cta: "audit-geo-gratuit"
+tags: ["recensioni Google", "dentista", "reputazione online", "Google Reviews", "SEO locale", "Parigi", "visibilité IA", "visibilità IA"]
+cta: "diagnostic-gratuit"
 lang: "it"
 reading_time: "11 min"
 image: "/images/blog/avis-google-cabinet-dentaire-patients.webp"

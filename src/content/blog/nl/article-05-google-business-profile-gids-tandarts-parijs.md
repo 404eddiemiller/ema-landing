@@ -7,7 +7,7 @@ author: "Eddie Miller Agency"
 date: "2026-02-04"
 category: "Google & beoordelingen"
 tags: ["Google Business Profile", "tandarts", "lokale SEO", "Parijs", "Google-vermelding", "Google-beoordelingen", "GBP", "Google Maps"]
-cta: "audit-geo-gratuit"
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "15 min"
 image: "/images/blog/google-business-profile-guide-dentiste-paris.webp"

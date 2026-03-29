@@ -6,8 +6,8 @@ meta_description: "When a traveler searches for a hotel, Google now displays an 
 author: "Eddie Miller Agency"
 date: "2026-03-14"
 category: "Online visibility"
-tags: ["Google AI Overview", "hotel", "Paris", "GEO", "AI visibility", "Booking", "tourism", "local search"]
-cta: "audit-geo-gratuit"
+tags: ["Google AI Overview", "hotel", "Paris", "visibilité IA", "AI visibility", "Booking", "tourism", "local search"]
+cta: "diagnostic-gratuit"
 lang: "en"
 reading_time: "8 min"
 image: "/images/blog/google-ai-overview-hotel-paris.webp"

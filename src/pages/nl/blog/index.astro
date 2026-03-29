@@ -75,6 +75,9 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
                     </div>
                     {post.data.image && (
                       <div class="hidden md:block shrink-0 self-center">
+                        <picture>
+                          <source srcset={post.data.image.replace('.webp', '.avif')} type="image/avif" />
+                          <source srcset={post.data.image} type="image/webp" />
                         <img src={post.data.image} alt={post.data.imageAlt || post.data.title} width="200" height="105" loading="lazy" decoding="async" class="w-[200px] h-[105px] object-cover" />
                       </div>
                     )}
@@ -93,7 +96,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
         <p class="font-sans text-stone text-base leading-relaxed mb-6 max-w-lg mx-auto">
           Gratis diagnose binnen 24 uur: we controleren of uw toekomstige klanten u online vinden en geven u uw 3 belangrijkste acties.
         </p>
-        <a href="/#audit" class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark">
+        <a href="/#diagnostic" class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark">
           Gratis diagnose aanvragen &rarr;
         </a>
         <a href="/formules" class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-charcoal border border-warmgray tracking-wider uppercase transition-colors duration-300 hover:border-terracotta hover:text-terracotta">

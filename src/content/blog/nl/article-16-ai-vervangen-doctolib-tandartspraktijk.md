@@ -6,8 +6,8 @@ meta_description: "Steeds meer patiënten vragen ChatGPT welke tandarts ze moete
 author: "Eddie Miller Agency"
 date: "2026-03-11"
 category: "Online zichtbaarheid"
-tags: ["Doctolib", "AI", "ChatGPT", "tandarts", "Parijs", "GEO", "patiëntentraject", "reservering"]
-cta: "audit-geo-gratuit"
+tags: ["Doctolib", "AI", "ChatGPT", "tandarts", "Parijs", "visibilité IA", "patiëntentraject", "reservering"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "8 min"
 image: "/images/blog/ia-remplacer-doctolib-cabinet-dentaire.webp"

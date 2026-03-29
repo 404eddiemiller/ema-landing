@@ -6,8 +6,8 @@ meta_description: "Tu ficha Google es lo primero que ven tus futuros pacientes. 
 author: "Eddie Miller Agency"
 date: "2026-02-04"
 category: "Google y resenas"
-tags: ["Google Business Profile", "dentista", "SEO local", "Paris", "ficha Google", "resenas Google", "GBP", "Google Maps"]
-cta: "audit-geo-gratuit"
+tags: ["Google Business Profile", "dentista", "visibilité locale", "Paris", "ficha Google", "resenas Google", "GBP", "Google Maps"]
+cta: "diagnostic-gratuit"
 lang: "es"
 reading_time: "15 min"
 image: "/images/blog/google-business-profile-guide-dentiste-paris.webp"

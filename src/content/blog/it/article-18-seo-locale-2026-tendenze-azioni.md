@@ -6,8 +6,8 @@ meta_description: "Google non funziona più come prima. Le IA rispondono al post
 author: "Eddie Miller Agency"
 date: "2026-03-17"
 category: "Google e recensioni"
-tags: ["SEO locale", "2026", "tendenze", "Google", "GEO", "AI Overview", "attività locale", "Parigi"]
-cta: "audit-geo-gratuit"
+tags: ["SEO locale", "2026", "tendenze", "Google", "visibilité IA", "AI Overview", "attività locale", "Parigi"]
+cta: "diagnostic-gratuit"
 lang: "it"
 reading_time: "9 min"
 image: "/images/blog/seo-local-2026-tendances-actions.webp"

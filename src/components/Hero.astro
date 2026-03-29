@@ -23,12 +23,12 @@ const locale = getLocaleFromPath(Astro.url.pathname);
       <!-- Animated terracotta accent under title -->
       <div class="mt-6 separator-animate h-[2px] bg-terracotta" aria-hidden="true"></div>
 
-      <p class="mt-6 md:mt-8 max-w-[65ch] text-lg md:text-xl font-sans font-normal leading-relaxed text-stone blur-in" style="transition-delay: 0.4s;">
+      <p class="mt-6 md:mt-8 max-w-[65ch] text-lg md:text-xl font-sans font-normal leading-relaxed text-stone blur-in">
         {t('hero.subtitle', locale)}
       </p>
-      <div class="flex flex-col sm:flex-row items-start gap-4 mt-8 md:mt-10 fade-up" style="transition-delay: 0.6s;">
+      <div class="flex flex-col sm:flex-row items-start gap-4 mt-8 md:mt-10 fade-up">
         <a
-          href="#audit"
+          href="#diagnostic"
           class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark"
           onclick="plausible('CTA Click', {props: {location: 'hero'}})"
         >
@@ -39,12 +39,12 @@ const locale = getLocaleFromPath(Astro.url.pathname);
           class="inline-flex items-center gap-1 px-2 py-4 font-sans font-medium text-base text-stone transition-colors duration-200 hover:text-charcoal group"
         >
           {t('hero.secondary', locale)}
-          <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-y-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
         </a>
       </div>
 
       <!-- Reassurance bar -->
-      <div class="flex flex-wrap gap-x-6 gap-y-2 mt-6 md:mt-8 fade-up" style="transition-delay: 0.75s;">
+      <div class="flex flex-wrap gap-x-6 gap-y-2 mt-6 md:mt-8 fade-up">
         <span class="text-sm font-sans text-stone/80">&#10003; {t('hero.trust1', locale)}</span>
         <span class="text-sm font-sans text-stone/80">&#10003; {t('hero.trust2', locale)}</span>
         <span class="text-sm font-sans text-stone/80">&#10003; {t('hero.trust3', locale)}</span>

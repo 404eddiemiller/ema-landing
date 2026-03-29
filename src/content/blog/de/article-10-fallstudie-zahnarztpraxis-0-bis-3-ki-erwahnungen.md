@@ -6,8 +6,8 @@ meta_description: "Diese Zahnarztpraxis in Paris erschien nirgends auf ChatGPT o
 author: "Eddie Miller Agency"
 date: "2026-02-21"
 category: "Fallstudien"
-tags: ["Fallstudie", "GEO", "Zahnarzt", "KI-Sichtbarkeit", "ChatGPT", "Perplexity", "Vorher-Nachher", "Paris"]
-cta: "audit-geo-gratuit"
+tags: ["Fallstudie", "visibilité IA", "Zahnarzt", "KI-Sichtbarkeit", "ChatGPT", "Perplexity", "Vorher-Nachher", "Paris"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "9 min"
 image: "/images/blog/cas-client-cabinet-dentaire-0-a-3-mentions-ia-60-jours.webp"

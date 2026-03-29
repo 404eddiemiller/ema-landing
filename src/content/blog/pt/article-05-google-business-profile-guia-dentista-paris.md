@@ -6,8 +6,8 @@ meta_description: "A sua ficha Google é a primeira coisa que os seus futuros pa
 author: "Eddie Miller Agency"
 date: "2026-02-04"
 category: "Google e avaliações"
-tags: ["Google Business Profile", "dentista", "SEO local", "Paris", "ficha Google", "avaliações Google", "GBP", "Google Maps"]
-cta: "audit-geo-gratuit"
+tags: ["Google Business Profile", "dentista", "visibilité locale", "Paris", "ficha Google", "avaliações Google", "GBP", "Google Maps"]
+cta: "diagnostic-gratuit"
 lang: "pt"
 reading_time: "15 min"
 image: "/images/blog/google-business-profile-guide-dentiste-paris.webp"

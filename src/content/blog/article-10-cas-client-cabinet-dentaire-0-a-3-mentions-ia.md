@@ -6,8 +6,8 @@ meta_description: "Ce cabinet dentaire à Paris n'apparaissait nulle part sur Ch
 author: "Eddie Miller Agency"
 date: "2026-02-21"
 category: "Études de cas"
-tags: ["étude de cas", "GEO", "dentiste", "visibilité IA", "ChatGPT", "Perplexity", "avant après", "Paris"]
-cta: "audit-geo-gratuit"
+tags: ["étude de cas", "visibilité IA", "dentiste", "ChatGPT", "Perplexity", "avant après", "Paris"]
+cta: "diagnostic-gratuit"
 lang: "fr"
 reading_time: "9 min"
 image: "/images/blog/cas-client-cabinet-dentaire-0-a-3-mentions-ia-60-jours.webp"

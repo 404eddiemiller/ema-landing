@@ -98,6 +98,9 @@ const relatedPosts = (await getCollection('blog'))
 
       {post.data.image && (
         <div class="mb-10 md:mb-14 fade-in">
+          <picture>
+            <source srcset={post.data.image.replace('.webp', '.avif')} type="image/avif" />
+            <source srcset={post.data.image} type="image/webp" />
           <img src={post.data.image} alt={post.data.imageAlt || post.data.title} width="1200" height="630" loading="eager" decoding="async" class="w-full h-auto" style="aspect-ratio: 1200/630; object-fit: cover;" />
         </div>
       )}
@@ -108,7 +111,7 @@ const relatedPosts = (await getCollection('blog'))
         <p class="font-sans text-base md:text-lg text-stone leading-relaxed mb-4">
           Moechten Sie wissen, ob Ihr Unternehmen auf KI sichtbar ist?
         </p>
-        <a href="/#audit" class="inline-block px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark" onclick="plausible('CTA Click', {props: {location: 'blog-inline'}})">
+        <a href="/#diagnostic" class="inline-block px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark" onclick="plausible('CTA Click', {props: {location: 'blog-inline'}})">
           Kostenlose Diagnose anfordern &rarr;
         </a>
       </div>
@@ -121,7 +124,7 @@ const relatedPosts = (await getCollection('blog'))
           Kostenlose Diagnose innerhalb von 24 Stunden: Wir pruefen, ob Ihre zukuenftigen Kunden Sie auf Google und KI finden, und geben Ihnen Ihre wichtigsten Massnahmen.
         </p>
         <div class="flex flex-col sm:flex-row gap-3">
-          <a href="/#audit" class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark">
+          <a href="/#diagnostic" class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark">
             Kostenlose Diagnose anfordern &rarr;
           </a>
           <a href="/formules" class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-charcoal border border-warmgray tracking-wider uppercase transition-colors duration-300 hover:border-terracotta hover:text-terracotta">

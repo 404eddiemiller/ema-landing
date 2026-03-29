@@ -6,8 +6,8 @@ meta_description: "Websites die AI's goed begrijpen worden 2 tot 3 keer vaker aa
 author: "Eddie Miller Agency"
 date: "2026-02-14"
 category: "Online zichtbaarheid"
-tags: ["Schema.org", "gestructureerde gegevens", "JSON-LD", "GEO", "AI-zichtbaarheid", "technische SEO", "no-code", "ChatGPT"]
-cta: "audit-geo-gratuit"
+tags: ["Schema.org", "gestructureerde gegevens", "JSON-LD", "visibilité IA", "AI-zichtbaarheid", "technische SEO", "no-code", "ChatGPT"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "11 min"
 image: "/images/blog/schema-org-site-lisible-ia-sans-coder.webp"

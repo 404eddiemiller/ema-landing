@@ -6,8 +6,8 @@ meta_description: "62% van de klanten vermijdt een restaurant waarvan de online 
 author: "Eddie Miller Agency"
 date: "2026-02-11"
 category: "Google & beoordelingen"
-tags: ["Google Business Profile", "restaurant", "Parijs", "lokale SEO", "fouten", "Google Maps", "GEO", "TheFork"]
-cta: "audit-geo-gratuit"
+tags: ["Google Business Profile", "restaurant", "Parijs", "lokale SEO", "fouten", "Google Maps", "visibilité IA", "TheFork"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "10 min"
 image: "/images/blog/google-business-restaurant-paris-10-erreurs.webp"

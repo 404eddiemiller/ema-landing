@@ -6,8 +6,8 @@ meta_description: "Sie sind gut auf Google platziert, aber auf ChatGPT unsichtba
 author: "Eddie Miller Agency"
 date: "2026-03-22"
 category: "Online-Sichtbarkeit"
-tags: ["SEO-Agentur", "GEO", "KI-Sichtbarkeit", "ChatGPT", "lokales SEO", "SEO-Grenzen", "Paris"]
-cta: "audit-geo-gratuit"
+tags: ["SEO-Agentur", "visibilité IA", "KI-Sichtbarkeit", "ChatGPT", "lokales SEO", "SEO-Grenzen", "Paris"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "8 min"
 image: "/images/blog/agence-seo-ia-visibilite-verite.webp"

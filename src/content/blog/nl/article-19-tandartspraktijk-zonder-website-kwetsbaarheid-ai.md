@@ -6,8 +6,8 @@ meta_description: "34% van de tandartspraktijken in Parijs heeft geen website ‚Ä
 author: "Eddie Miller Agency"
 date: "2026-03-19"
 category: "Online zichtbaarheid"
-tags: ["website", "tandarts", "zonder website", "AI-zichtbaarheid", "GEO", "Parijs", "Google Business", "Doctolib"]
-cta: "audit-geo-gratuit"
+tags: ["website", "tandarts", "zonder website", "AI-zichtbaarheid", "visibilit√© IA", "Parijs", "Google Business", "Doctolib"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "8 min"
 image: "/images/blog/cabinet-dentaire-sans-site-web-vulnerabilite-ia.webp"

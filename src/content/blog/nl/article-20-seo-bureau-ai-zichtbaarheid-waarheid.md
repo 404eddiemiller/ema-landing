@@ -6,8 +6,8 @@ meta_description: "U scoort goed op Google maar bent onzichtbaar op ChatGPT? Uw 
 author: "Eddie Miller Agency"
 date: "2026-03-22"
 category: "Online zichtbaarheid"
-tags: ["SEO-bureau", "GEO", "AI-zichtbaarheid", "ChatGPT", "lokale SEO", "beperkingen SEO", "Parijs"]
-cta: "audit-geo-gratuit"
+tags: ["SEO-bureau", "visibilité IA", "AI-zichtbaarheid", "ChatGPT", "lokale SEO", "beperkingen SEO", "Parijs"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "8 min"
 image: "/images/blog/agence-seo-ia-visibilite-verite.webp"

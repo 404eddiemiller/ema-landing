@@ -6,8 +6,8 @@ meta_description: "Google, TheFork, TripAdvisor, Instagram... ChatGPT en andere 
 author: "Eddie Miller Agency"
 date: "2026-03-05"
 category: "Google & beoordelingen"
-tags: ["gidsen", "restaurant", "Parijs", "TheFork", "TripAdvisor", "Google Business", "GEO", "AI-zichtbaarheid", "checklist"]
-cta: "audit-geo-gratuit"
+tags: ["gidsen", "restaurant", "Parijs", "TheFork", "TripAdvisor", "Google Business", "visibilité IA", "AI-zichtbaarheid", "checklist"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "9 min"
 image: "/images/blog/7-annuaires-restaurant-ia-recommandation.webp"

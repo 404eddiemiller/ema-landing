@@ -6,8 +6,8 @@ meta_description: "60 % der Google-Suchen führen zu keiner Webseite mehr. Googl
 author: "Eddie Miller Agency"
 date: "2026-03-08"
 category: "Online-Sichtbarkeit"
-tags: ["Null-Klick", "Zero-Click", "Google", "AI Overview", "GEO", "lokales SEO", "Sichtbarkeit", "lokales Geschäft"]
-cta: "audit-geo-gratuit"
+tags: ["Null-Klick", "Zero-Click", "Google", "AI Overview", "visibilité IA", "lokales SEO", "Sichtbarkeit", "lokales Geschäft"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "9 min"
 image: "/images/blog/zero-clic-recherches-google-solution-commerce-local.webp"

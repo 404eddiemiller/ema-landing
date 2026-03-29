@@ -6,8 +6,8 @@ meta_description: "Este consultório dentário em Paris não aparecia em lado ne
 author: "Eddie Miller Agency"
 date: "2026-02-21"
 category: "Estudos de caso"
-tags: ["estudo de caso", "GEO", "dentista", "visibilidade IA", "ChatGPT", "Perplexity", "antes depois", "Paris"]
-cta: "audit-geo-gratuit"
+tags: ["estudo de caso", "visibilité IA", "dentista", "visibilidade IA", "ChatGPT", "Perplexity", "antes depois", "Paris"]
+cta: "diagnostic-gratuit"
 lang: "pt"
 reading_time: "9 min"
 image: "/images/blog/cas-client-cabinet-dentaire-0-a-3-mentions-ia-60-jours.webp"

@@ -6,8 +6,8 @@ meta_description: "Il 34% degli studi dentistici a Parigi non ha un sito web —
 author: "Eddie Miller Agency"
 date: "2026-03-19"
 category: "Visibilità online"
-tags: ["sito web", "dentista", "senza sito", "visibilità IA", "GEO", "Parigi", "Google Business", "Doctolib"]
-cta: "audit-geo-gratuit"
+tags: ["sito web", "dentista", "senza sito", "visibilità IA", "visibilité IA", "Parigi", "Google Business", "Doctolib"]
+cta: "diagnostic-gratuit"
 lang: "it"
 reading_time: "8 min"
 image: "/images/blog/cabinet-dentaire-sans-site-web-vulnerabilite-ia.webp"

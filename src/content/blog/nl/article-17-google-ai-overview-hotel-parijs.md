@@ -6,8 +6,8 @@ meta_description: "Wanneer een reiziger een hotel in Parijs zoekt, toont Google 
 author: "Eddie Miller Agency"
 date: "2026-03-14"
 category: "Online zichtbaarheid"
-tags: ["Google AI Overview", "hotel", "Parijs", "GEO", "AI-zichtbaarheid", "Booking", "toerisme", "lokale zoekopdracht"]
-cta: "audit-geo-gratuit"
+tags: ["Google AI Overview", "hotel", "Parijs", "visibilité IA", "AI-zichtbaarheid", "Booking", "toerisme", "lokale zoekopdracht"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "8 min"
 image: "/images/blog/google-ai-overview-hotel-paris.webp"

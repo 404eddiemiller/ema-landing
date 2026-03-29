@@ -6,8 +6,8 @@ meta_description: "83 % des restaurants parisiens n'apparaissent pas quand un cl
 author: "Eddie Miller Agency"
 date: "2026-01-31"
 category: "Visibilité en ligne"
-tags: ["restaurant", "ChatGPT", "GEO", "visibilité IA", "Paris", "Perplexity", "TheFork", "TripAdvisor", "Google Business"]
-cta: "audit-geo-gratuit"
+tags: ["restaurant", "ChatGPT", "visibilité IA", "Paris", "Perplexity", "TheFork", "TripAdvisor", "Google Business"]
+cta: "diagnostic-gratuit"
 lang: "fr"
 reading_time: "10 min"
 image: "/images/blog/chatgpt-recommandation-restaurant-paris.webp"

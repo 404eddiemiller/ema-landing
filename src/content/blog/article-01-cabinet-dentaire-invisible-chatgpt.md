@@ -6,8 +6,8 @@ meta_description: "De plus en plus de patients demandent à ChatGPT de leur reco
 author: "Eddie Miller Agency"
 date: "2026-01-21"
 category: "Visibilité en ligne"
-tags: ["dentiste", "ChatGPT", "GEO", "visibilité IA", "cabinet dentaire", "Paris", "Perplexity", "SEO local"]
-cta: "audit-geo-gratuit"
+tags: ["dentiste", "ChatGPT", "visibilité IA", "cabinet dentaire", "Paris", "Perplexity", "visibilité locale"]
+cta: "diagnostic-gratuit"
 lang: "fr"
 reading_time: "10 min"
 image: "/images/blog/cabinet-dentaire-invisible-chatgpt.webp"

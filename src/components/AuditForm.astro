@@ -4,7 +4,7 @@ import { t, getLocaleFromPath, navRoutes, type Locale } from '../i18n/index';
 const locale = getLocaleFromPath(Astro.url.pathname);
 const nav = navRoutes[locale];
 ---
-<section id="audit" class="py-16 md:py-24 lg:py-32 bg-sand relative overflow-hidden" aria-label="Tester ma visibilité">
+<section id="diagnostic" class="py-16 md:py-24 lg:py-32 bg-sand relative overflow-hidden" aria-label="Tester ma visibilité">
   <!-- Decorative accent -->
   <div class="absolute top-0 left-0 w-24 h-24 md:w-40 md:h-40 opacity-[0.03] pointer-events-none" aria-hidden="true">
     <svg viewBox="0 0 100 100" class="w-full h-full">
@@ -22,7 +22,7 @@ const nav = navRoutes[locale];
         {t('auditForm.subtitle', locale)}
       </p>
 
-      <form id="audit-form" class="space-y-6 fade-up" style="transition-delay: 0.2s;" novalidate
+      <form id="audit-form" class="space-y-6 fade-up" novalidate
         data-error-source={t('auditForm.errorSource', locale)}
         data-error-generic={t('auditForm.errorGeneric', locale)}
         data-submitting={t('auditForm.submitting', locale)}
@@ -200,7 +200,7 @@ const nav = navRoutes[locale];
       </form>
 
       <!-- Trust signals -->
-      <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-up" style="transition-delay: 0.4s;">
+      <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-up">
         {t('auditForm.trustSignals', locale)}
       </p>
     </div>

@@ -6,8 +6,8 @@ meta_description: "Vos clients ne cherchent plus seulement sur Google : ils dema
 author: "Eddie Miller Agency"
 date: "2026-01-24"
 category: "Visibilité en ligne"
-tags: ["GEO", "SEO", "intelligence artificielle", "visibilité", "ChatGPT", "Perplexity", "Google AI Overview"]
-cta: "audit-geo-gratuit"
+tags: ["visibilité IA", "visibilité Google", "intelligence artificielle", "visibilité", "ChatGPT", "Perplexity", "Google AI Overview"]
+cta: "diagnostic-gratuit"
 lang: "fr"
 reading_time: "12 min"
 image: "/images/blog/geo-referencement-ia-2026.webp"

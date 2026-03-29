@@ -6,8 +6,8 @@ meta_description: "Il 60% delle ricerche Google non porta più a nessun sito web
 author: "Eddie Miller Agency"
 date: "2026-03-08"
 category: "Visibilità online"
-tags: ["zero clic", "zero-click", "Google", "AI Overview", "GEO", "SEO locale", "visibilità", "attività locale"]
-cta: "audit-geo-gratuit"
+tags: ["zero clic", "zero-click", "Google", "AI Overview", "visibilité IA", "SEO locale", "visibilità", "attività locale"]
+cta: "diagnostic-gratuit"
 lang: "it"
 reading_time: "9 min"
 image: "/images/blog/zero-clic-recherches-google-solution-commerce-local.webp"

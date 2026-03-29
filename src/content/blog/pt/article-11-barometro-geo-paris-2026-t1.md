@@ -6,8 +6,8 @@ meta_description: "Analisámos que comércios parisienses o ChatGPT, Perplexity 
 author: "Eddie Miller Agency"
 date: "2026-02-25"
 category: "Estudos e números"
-tags: ["barómetro", "GEO", "Paris", "visibilidade IA", "ChatGPT", "Perplexity", "dentista", "restaurante", "hotel", "dados"]
-cta: "audit-geo-gratuit"
+tags: ["barómetro", "visibilité IA", "Paris", "visibilidade IA", "ChatGPT", "Perplexity", "dentista", "restaurante", "hotel", "dados"]
+cta: "diagnostic-gratuit"
 lang: "pt"
 reading_time: "11 min"
 image: "/images/blog/barometre-geo-paris-2026-t1.webp"

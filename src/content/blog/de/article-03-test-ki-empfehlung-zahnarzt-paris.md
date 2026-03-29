@@ -6,8 +6,8 @@ meta_description: "Wir haben drei KI-Assistenten dieselbe Frage gestellt: Welche
 author: "Eddie Miller Agency"
 date: "2026-01-28"
 category: "Online-Sichtbarkeit"
-tags: ["ChatGPT", "Perplexity", "Google AI Overview", "Zahnarzt", "Paris", "KI-Empfehlung", "GEO", "Vergleichstest"]
-cta: "audit-geo-gratuit"
+tags: ["ChatGPT", "Perplexity", "Google AI Overview", "Zahnarzt", "Paris", "KI-Empfehlung", "visibilité IA", "Vergleichstest"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "10 min"
 image: "/images/blog/test-ia-recommandation-dentiste-paris.webp"

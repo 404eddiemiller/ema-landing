@@ -6,8 +6,8 @@ meta_description: "We analyseerden welke Parijse zaken ChatGPT, Perplexity en Go
 author: "Eddie Miller Agency"
 date: "2026-02-25"
 category: "Onderzoek & cijfers"
-tags: ["barometer", "GEO", "Parijs", "AI-zichtbaarheid", "ChatGPT", "Perplexity", "tandarts", "restaurant", "hotel", "gegevens"]
-cta: "audit-geo-gratuit"
+tags: ["barometer", "visibilité IA", "Parijs", "AI-zichtbaarheid", "ChatGPT", "Perplexity", "tandarts", "restaurant", "hotel", "gegevens"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "11 min"
 image: "/images/blog/barometre-geo-paris-2026-t1.webp"

@@ -6,8 +6,8 @@ meta_description: "Ihre Google-Bewertungen entscheiden, ob ein Patient Sie oder 
 author: "Eddie Miller Agency"
 date: "2026-02-07"
 category: "Google & Bewertungen"
-tags: ["Google-Bewertungen", "Zahnarzt", "Online-Reputation", "Google Reviews", "lokales SEO", "Paris", "GEO", "KI-Sichtbarkeit"]
-cta: "audit-geo-gratuit"
+tags: ["Google-Bewertungen", "Zahnarzt", "Online-Reputation", "Google Reviews", "lokales SEO", "Paris", "visibilité IA", "KI-Sichtbarkeit"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "11 min"
 image: "/images/blog/avis-google-cabinet-dentaire-patients.webp"

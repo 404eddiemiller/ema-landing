@@ -21,7 +21,7 @@ const stats = [
     <!-- Stat cards -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
       {stats.map((stat, i) => (
-        <div class="border border-cream/10 p-8 bg-cream/5 transition-all duration-400 hover:border-terracotta hover:bg-cream/8 scale-in" style={`transition-delay: ${i * 0.12}s;`}>
+        <div class="border border-cream/10 p-8 bg-cream/5 transition-all duration-400 hover:border-terracotta hover:bg-cream/8 scale-in">
           <p
             class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4"
             data-count-to={stat.value}
@@ -34,7 +34,7 @@ const stats = [
           </p>
           {stat.source && (
             <p class="text-sm font-sans font-medium text-cream/40">
-              {stat.source}
+              <cite class="not-italic">{stat.source}</cite>
             </p>
           )}
         </div>

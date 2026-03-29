@@ -6,8 +6,8 @@ meta_description: "Cada vez mas pacientes le piden a ChatGPT que les recomiende 
 author: "Eddie Miller Agency"
 date: "2026-01-21"
 category: "Visibilidad online"
-tags: ["dentista", "ChatGPT", "GEO", "visibilidad IA", "clinica dental", "Paris", "Perplexity", "SEO local"]
-cta: "audit-geo-gratuit"
+tags: ["dentista", "ChatGPT", "visibilité IA", "visibilidad IA", "clinica dental", "Paris", "Perplexity", "visibilité locale"]
+cta: "diagnostic-gratuit"
 lang: "es"
 reading_time: "10 min"
 image: "/images/blog/cabinet-dentaire-invisible-chatgpt.webp"

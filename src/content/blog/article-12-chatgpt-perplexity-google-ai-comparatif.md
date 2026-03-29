@@ -6,8 +6,8 @@ meta_description: "Les trois principales IA ne recommandent pas les mêmes comme
 author: "Eddie Miller Agency"
 date: "2026-02-28"
 category: "Visibilité en ligne"
-tags: ["ChatGPT", "Perplexity", "Google AI Overview", "comparatif", "GEO", "Paris", "visibilité IA", "recommandation locale"]
-cta: "audit-geo-gratuit"
+tags: ["ChatGPT", "Perplexity", "Google AI Overview", "comparatif", "visibilité IA", "Paris", "recommandation locale"]
+cta: "diagnostic-gratuit"
 lang: "fr"
 reading_time: "11 min"
 image: "/images/blog/chatgpt-perplexity-google-ai-comparatif-commerces-paris.webp"

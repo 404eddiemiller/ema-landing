@@ -91,15 +91,19 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
                     </div>
                     {post.data.image && (
                       <div class="hidden md:block shrink-0 self-center">
-                        <img
-                          src={post.data.image}
-                          alt={post.data.imageAlt || post.data.title}
-                          width="200"
-                          height="105"
-                          loading="lazy"
-                          decoding="async"
-                          class="w-[200px] h-[105px] object-cover"
-                        />
+                        <picture>
+                          <source srcset={post.data.image.replace('.webp', '.avif')} type="image/avif" />
+                          <source srcset={post.data.image} type="image/webp" />
+                          <img
+                            src={post.data.image}
+                            alt={post.data.imageAlt || post.data.title}
+                            width="200"
+                            height="105"
+                            loading="lazy"
+                            decoding="async"
+                            class="w-[200px] h-[105px] object-cover"
+                          />
+                        </picture>
                       </div>
                     )}
                   </div>
@@ -120,7 +124,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
           Diagnostico gratuito en 24h: verificamos si tus futuros clientes te encuentran en linea y te damos tus 3 acciones prioritarias.
         </p>
         <a
-          href="/#audit"
+          href="/#diagnostic"
           class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
         >
           Solicitar mi diagn&oacute;stico gratuito &rarr;

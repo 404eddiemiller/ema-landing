@@ -6,8 +6,8 @@ meta_description: "This dental practice in Paris appeared nowhere on ChatGPT or 
 author: "Eddie Miller Agency"
 date: "2026-02-21"
 category: "Case studies"
-tags: ["case study", "GEO", "dentist", "AI visibility", "ChatGPT", "Perplexity", "before after", "Paris"]
-cta: "audit-geo-gratuit"
+tags: ["case study", "visibilité IA", "dentist", "AI visibility", "ChatGPT", "Perplexity", "before after", "Paris"]
+cta: "diagnostic-gratuit"
 lang: "en"
 reading_time: "9 min"
 image: "/images/blog/cas-client-cabinet-dentaire-0-a-3-mentions-ia-60-jours.webp"

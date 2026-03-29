@@ -6,8 +6,8 @@ meta_description: "Uw klanten zoeken niet meer alleen op Google: ze vragen het a
 author: "Eddie Miller Agency"
 date: "2026-01-24"
 category: "Online zichtbaarheid"
-tags: ["GEO", "SEO", "kunstmatige intelligentie", "zichtbaarheid", "ChatGPT", "Perplexity", "Google AI Overview"]
-cta: "audit-geo-gratuit"
+tags: ["visibilité IA", "visibilité Google", "kunstmatige intelligentie", "zichtbaarheid", "ChatGPT", "Perplexity", "Google AI Overview"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "12 min"
 image: "/images/blog/geo-referencement-ia-2026.webp"

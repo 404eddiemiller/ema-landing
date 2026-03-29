@@ -6,8 +6,8 @@ meta_description: "Google werkt niet meer zoals vroeger. AI's antwoorden in plaa
 author: "Eddie Miller Agency"
 date: "2026-03-17"
 category: "Google & beoordelingen"
-tags: ["lokale SEO", "2026", "trends", "Google", "GEO", "AI Overview", "lokale zaak", "Parijs"]
-cta: "audit-geo-gratuit"
+tags: ["lokale SEO", "2026", "trends", "Google", "visibilité IA", "AI Overview", "lokale zaak", "Parijs"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "9 min"
 image: "/images/blog/seo-local-2026-tendances-actions.webp"

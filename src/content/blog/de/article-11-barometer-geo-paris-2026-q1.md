@@ -6,8 +6,8 @@ meta_description: "Wir haben analysiert, welche Pariser Geschäfte ChatGPT, Perp
 author: "Eddie Miller Agency"
 date: "2026-02-25"
 category: "Studien & Zahlen"
-tags: ["Barometer", "GEO", "Paris", "KI-Sichtbarkeit", "ChatGPT", "Perplexity", "Zahnarzt", "Restaurant", "Hotel", "Daten"]
-cta: "audit-geo-gratuit"
+tags: ["Barometer", "visibilité IA", "Paris", "KI-Sichtbarkeit", "ChatGPT", "Perplexity", "Zahnarzt", "Restaurant", "Hotel", "Daten"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "11 min"
 image: "/images/blog/barometre-geo-paris-2026-t1.webp"

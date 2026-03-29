@@ -6,8 +6,8 @@ meta_description: "Google funktioniert nicht mehr wie früher. KI antwortet stat
 author: "Eddie Miller Agency"
 date: "2026-03-17"
 category: "Google & Bewertungen"
-tags: ["lokales SEO", "2026", "Trends", "Google", "GEO", "AI Overview", "lokales Geschäft", "Paris"]
-cta: "audit-geo-gratuit"
+tags: ["lokales SEO", "2026", "Trends", "Google", "visibilité IA", "AI Overview", "lokales Geschäft", "Paris"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "9 min"
 image: "/images/blog/seo-local-2026-tendances-actions.webp"

@@ -6,8 +6,8 @@ meta_description: "Los sitios que las IA comprenden bien son recomendados 2 a 3 
 author: "Eddie Miller Agency"
 date: "2026-02-14"
 category: "Visibilidad online"
-tags: ["Schema.org", "datos estructurados", "JSON-LD", "GEO", "visibilidad IA", "SEO tecnico", "no-code", "ChatGPT"]
-cta: "audit-geo-gratuit"
+tags: ["Schema.org", "datos estructurados", "JSON-LD", "visibilité IA", "visibilidad IA", "SEO tecnico", "no-code", "ChatGPT"]
+cta: "diagnostic-gratuit"
 lang: "es"
 reading_time: "11 min"
 image: "/images/blog/schema-org-site-lisible-ia-sans-coder.webp"

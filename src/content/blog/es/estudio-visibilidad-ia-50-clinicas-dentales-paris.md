@@ -6,8 +6,8 @@ meta_description: "Pedimos a ChatGPT, Perplexity y Google AI que recomendaran de
 author: "Eddie Miller Agency"
 date: "2026-02-18"
 category: "Estudios y cifras"
-tags: ["estudio", "GEO", "visibilidad IA", "dentista", "Paris", "ChatGPT", "Perplexity", "datos", "auditoria"]
-cta: "audit-geo-gratuit"
+tags: ["estudio", "visibilité IA", "visibilidad IA", "dentista", "Paris", "ChatGPT", "Perplexity", "datos", "auditoria"]
+cta: "diagnostic-gratuit"
 lang: "es"
 reading_time: "12 min"
 image: "/images/blog/etude-visibilite-ia-50-cabinets-dentaires-paris.webp"

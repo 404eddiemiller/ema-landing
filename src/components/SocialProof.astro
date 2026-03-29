@@ -10,11 +10,6 @@ const platforms = [
     icon: '<rect x="10.5" y="3" width="3" height="8" rx="1.5" transform="rotate(0 12 12) translate(1 0)"/><rect x="10.5" y="3" width="3" height="8" rx="1.5" transform="rotate(60 12 12) translate(1 0)"/><rect x="10.5" y="3" width="3" height="8" rx="1.5" transform="rotate(120 12 12) translate(1 0)"/><rect x="10.5" y="3" width="3" height="8" rx="1.5" transform="rotate(180 12 12) translate(1 0)"/><rect x="10.5" y="3" width="3" height="8" rx="1.5" transform="rotate(240 12 12) translate(1 0)"/><rect x="10.5" y="3" width="3" height="8" rx="1.5" transform="rotate(300 12 12) translate(1 0)"/>',
   },
   {
-    name: 'Claude',
-    // Sparkle/starburst — thin 4-pointed star
-    icon: '<path d="M12 0.5Q12.5 11 23.5 12Q12.5 13 12 23.5Q11.5 13 0.5 12Q11.5 11 12 0.5Z"/>',
-  },
-  {
     name: 'Google Maps',
     // Map pin with circle cutout
     icon: '<path fill-rule="evenodd" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/>',
@@ -38,7 +33,7 @@ const platforms = [
     </p>
     <div class="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16">
       {platforms.map((p, i) => (
-        <div class="flex items-center gap-3 group fade-up" style={`transition-delay: ${0.1 + i * 0.12}s;`}>
+        <div class="flex items-center gap-3 group fade-up">
           <svg
             class="w-7 h-7 text-warmgray transition-colors duration-300 group-hover:text-terracotta"
             viewBox="0 0 24 24"

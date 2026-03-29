@@ -6,8 +6,8 @@ meta_description: "60% das pesquisas Google já não levam a nenhum site. O Goog
 author: "Eddie Miller Agency"
 date: "2026-03-08"
 category: "Visibilidade online"
-tags: ["zero clique", "zero-click", "Google", "AI Overview", "GEO", "SEO local", "visibilidade", "comércio local"]
-cta: "audit-geo-gratuit"
+tags: ["zero clique", "zero-click", "Google", "AI Overview", "visibilité IA", "visibilité locale", "visibilidade", "comércio local"]
+cta: "diagnostic-gratuit"
 lang: "pt"
 reading_time: "9 min"
 image: "/images/blog/zero-clic-recherches-google-solution-commerce-local.webp"

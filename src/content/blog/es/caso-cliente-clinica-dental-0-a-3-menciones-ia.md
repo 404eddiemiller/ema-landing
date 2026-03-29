@@ -6,8 +6,8 @@ meta_description: "Esta clinica dental en Paris no aparecia en ningun lugar en C
 author: "Eddie Miller Agency"
 date: "2026-02-21"
 category: "Casos de estudio"
-tags: ["caso de estudio", "GEO", "dentista", "visibilidad IA", "ChatGPT", "Perplexity", "antes despues", "Paris"]
-cta: "audit-geo-gratuit"
+tags: ["caso de estudio", "visibilité IA", "dentista", "visibilidad IA", "ChatGPT", "Perplexity", "antes despues", "Paris"]
+cta: "diagnostic-gratuit"
 lang: "es"
 reading_time: "9 min"
 image: "/images/blog/cas-client-cabinet-dentaire-0-a-3-mentions-ia-60-jours.webp"

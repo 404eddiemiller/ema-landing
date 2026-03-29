@@ -6,8 +6,8 @@ meta_description: "Il 62% dei clienti evita un ristorante le cui informazioni on
 author: "Eddie Miller Agency"
 date: "2026-02-11"
 category: "Google e recensioni"
-tags: ["Google Business Profile", "ristorante", "Parigi", "SEO locale", "errori", "Google Maps", "GEO", "TheFork"]
-cta: "audit-geo-gratuit"
+tags: ["Google Business Profile", "ristorante", "Parigi", "SEO locale", "errori", "Google Maps", "visibilité IA", "TheFork"]
+cta: "diagnostic-gratuit"
 lang: "it"
 reading_time: "10 min"
 image: "/images/blog/google-business-restaurant-paris-10-erreurs.webp"

@@ -6,8 +6,8 @@ meta_description: "Die drei wichtigsten KI-Systeme empfehlen nicht dieselben Ges
 author: "Eddie Miller Agency"
 date: "2026-02-28"
 category: "Online-Sichtbarkeit"
-tags: ["ChatGPT", "Perplexity", "Google AI Overview", "Vergleich", "GEO", "Paris", "KI-Sichtbarkeit", "lokale Empfehlung"]
-cta: "audit-geo-gratuit"
+tags: ["ChatGPT", "Perplexity", "Google AI Overview", "Vergleich", "visibilité IA", "Paris", "KI-Sichtbarkeit", "lokale Empfehlung"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "11 min"
 image: "/images/blog/chatgpt-perplexity-google-ai-comparatif-commerces-paris.webp"

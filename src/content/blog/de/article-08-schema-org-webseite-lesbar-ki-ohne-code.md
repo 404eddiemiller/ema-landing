@@ -6,8 +6,8 @@ meta_description: "Webseiten, die KI-Systeme gut verstehen, werden 2-3 Mal häuf
 author: "Eddie Miller Agency"
 date: "2026-02-14"
 category: "Online-Sichtbarkeit"
-tags: ["Schema.org", "strukturierte Daten", "JSON-LD", "GEO", "KI-Sichtbarkeit", "technisches SEO", "No-Code", "ChatGPT"]
-cta: "audit-geo-gratuit"
+tags: ["Schema.org", "strukturierte Daten", "JSON-LD", "visibilité IA", "KI-Sichtbarkeit", "technisches SEO", "No-Code", "ChatGPT"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "11 min"
 image: "/images/blog/schema-org-site-lisible-ia-sans-coder.webp"

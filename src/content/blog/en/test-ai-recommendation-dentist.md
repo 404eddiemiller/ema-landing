@@ -6,8 +6,8 @@ meta_description: "We asked the same question to three AI assistants: which dent
 author: "Eddie Miller Agency"
 date: "2026-01-28"
 category: "Online visibility"
-tags: ["ChatGPT", "Perplexity", "Google AI Overview", "dentist", "Paris", "AI recommendation", "GEO", "comparative test"]
-cta: "audit-geo-gratuit"
+tags: ["ChatGPT", "Perplexity", "Google AI Overview", "dentist", "Paris", "AI recommendation", "visibilité IA", "comparative test"]
+cta: "diagnostic-gratuit"
 lang: "en"
 reading_time: "10 min"
 image: "/images/blog/test-ia-recommandation-dentiste-paris.webp"

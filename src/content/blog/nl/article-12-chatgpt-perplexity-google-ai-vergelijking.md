@@ -6,8 +6,8 @@ meta_description: "De drie belangrijkste AI's bevelen niet dezelfde zaken aan. O
 author: "Eddie Miller Agency"
 date: "2026-02-28"
 category: "Online zichtbaarheid"
-tags: ["ChatGPT", "Perplexity", "Google AI Overview", "vergelijking", "GEO", "Parijs", "AI-zichtbaarheid", "lokale aanbeveling"]
-cta: "audit-geo-gratuit"
+tags: ["ChatGPT", "Perplexity", "Google AI Overview", "vergelijking", "visibilité IA", "Parijs", "AI-zichtbaarheid", "lokale aanbeveling"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "11 min"
 image: "/images/blog/chatgpt-perplexity-google-ai-comparatif-commerces-paris.webp"

@@ -6,8 +6,8 @@ meta_description: "83% van de Parijse restaurants verschijnt niet wanneer een kl
 author: "Eddie Miller Agency"
 date: "2026-01-31"
 category: "Online zichtbaarheid"
-tags: ["restaurant", "ChatGPT", "GEO", "AI-zichtbaarheid", "Parijs", "Perplexity", "TheFork", "TripAdvisor", "Google Business"]
-cta: "audit-geo-gratuit"
+tags: ["restaurant", "ChatGPT", "visibilité IA", "AI-zichtbaarheid", "Parijs", "Perplexity", "TheFork", "TripAdvisor", "Google Business"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "10 min"
 image: "/images/blog/chatgpt-recommandation-restaurant-paris.webp"

@@ -6,8 +6,8 @@ meta_description: "34 % der Zahnarztpraxen in Paris haben keine Webseite — und
 author: "Eddie Miller Agency"
 date: "2026-03-19"
 category: "Online-Sichtbarkeit"
-tags: ["Webseite", "Zahnarzt", "ohne Webseite", "KI-Sichtbarkeit", "GEO", "Paris", "Google Business", "Doctolib"]
-cta: "audit-geo-gratuit"
+tags: ["Webseite", "Zahnarzt", "ohne Webseite", "KI-Sichtbarkeit", "visibilité IA", "Paris", "Google Business", "Doctolib"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "8 min"
 image: "/images/blog/cabinet-dentaire-sans-site-web-vulnerabilite-ia.webp"

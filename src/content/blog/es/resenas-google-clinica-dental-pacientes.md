@@ -6,8 +6,8 @@ meta_description: "Tus resenas de Google deciden si un paciente te elige a ti o 
 author: "Eddie Miller Agency"
 date: "2026-02-07"
 category: "Google y resenas"
-tags: ["resenas Google", "dentista", "reputacion online", "Google Reviews", "SEO local", "Paris", "GEO", "visibilidad IA"]
-cta: "audit-geo-gratuit"
+tags: ["resenas Google", "dentista", "reputacion online", "Google Reviews", "visibilité locale", "Paris", "visibilité IA", "visibilidad IA"]
+cta: "diagnostic-gratuit"
 lang: "es"
 reading_time: "11 min"
 image: "/images/blog/avis-google-cabinet-dentaire-patients.webp"

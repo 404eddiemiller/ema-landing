@@ -6,8 +6,8 @@ meta_description: "Wenn ein Patient ChatGPT nach einem Zahnarzt fragt, wo sucht 
 author: "Eddie Miller Agency"
 date: "2026-03-03"
 category: "Online-Sichtbarkeit"
-tags: ["KI-Quellen", "Doctolib", "Google Reviews", "PagesJaunes", "Zahnarzt", "Paris", "GEO", "ChatGPT", "Perplexity"]
-cta: "audit-geo-gratuit"
+tags: ["KI-Quellen", "Doctolib", "Google Reviews", "PagesJaunes", "Zahnarzt", "Paris", "visibilité IA", "ChatGPT", "Perplexity"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "10 min"
 image: "/images/blog/sources-recommandations-dentaires-ia-paris.webp"

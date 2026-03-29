@@ -6,8 +6,8 @@ meta_description: "Siete ben posizionati su Google ma invisibili su ChatGPT? Il 
 author: "Eddie Miller Agency"
 date: "2026-03-22"
 category: "Visibilità online"
-tags: ["agenzia SEO", "GEO", "visibilità IA", "ChatGPT", "SEO locale", "limiti SEO", "Parigi"]
-cta: "audit-geo-gratuit"
+tags: ["agenzia SEO", "visibilité IA", "visibilità IA", "ChatGPT", "SEO locale", "limiti SEO", "Parigi"]
+cta: "diagnostic-gratuit"
 lang: "it"
 reading_time: "8 min"
 image: "/images/blog/agence-seo-ia-visibilite-verite.webp"

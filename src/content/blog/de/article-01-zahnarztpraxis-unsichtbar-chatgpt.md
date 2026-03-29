@@ -6,8 +6,8 @@ meta_description: "Immer mehr Patienten bitten ChatGPT, ihnen einen Zahnarzt in 
 author: "Eddie Miller Agency"
 date: "2026-01-21"
 category: "Online-Sichtbarkeit"
-tags: ["Zahnarzt", "ChatGPT", "GEO", "KI-Sichtbarkeit", "Zahnarztpraxis", "Paris", "Perplexity", "lokales SEO"]
-cta: "audit-geo-gratuit"
+tags: ["Zahnarzt", "ChatGPT", "visibilité IA", "KI-Sichtbarkeit", "Zahnarztpraxis", "Paris", "Perplexity", "lokales SEO"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "10 min"
 image: "/images/blog/cabinet-dentaire-invisible-chatgpt.webp"

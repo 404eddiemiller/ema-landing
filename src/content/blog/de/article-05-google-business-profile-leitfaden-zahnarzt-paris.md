@@ -7,7 +7,7 @@ author: "Eddie Miller Agency"
 date: "2026-02-04"
 category: "Google & Bewertungen"
 tags: ["Google Business Profile", "Zahnarzt", "lokales SEO", "Paris", "Google-Profil", "Google-Bewertungen", "GBP", "Google Maps"]
-cta: "audit-geo-gratuit"
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "15 min"
 image: "/images/blog/google-business-profile-guide-dentiste-paris.webp"

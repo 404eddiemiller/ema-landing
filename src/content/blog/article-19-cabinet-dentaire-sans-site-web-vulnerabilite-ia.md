@@ -6,8 +6,8 @@ meta_description: "34 % des cabinets dentaires à Paris n'ont pas de site web �
 author: "Eddie Miller Agency"
 date: "2026-03-19"
 category: "Visibilité en ligne"
-tags: ["site web", "dentiste", "sans site", "visibilité IA", "GEO", "Paris", "Google Business", "Doctolib"]
-cta: "audit-geo-gratuit"
+tags: ["site web", "dentiste", "sans site", "visibilité IA", "Paris", "Google Business", "Doctolib"]
+cta: "diagnostic-gratuit"
 lang: "fr"
 reading_time: "8 min"
 image: "/images/blog/cabinet-dentaire-sans-site-web-vulnerabilite-ia.webp"

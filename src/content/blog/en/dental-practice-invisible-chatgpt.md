@@ -6,8 +6,8 @@ meta_description: "More and more patients are asking ChatGPT to recommend a dent
 author: "Eddie Miller Agency"
 date: "2026-01-21"
 category: "Online visibility"
-tags: ["dentist", "ChatGPT", "GEO", "AI visibility", "dental practice", "Paris", "Perplexity", "local SEO"]
-cta: "audit-geo-gratuit"
+tags: ["dentist", "ChatGPT", "visibilité IA", "AI visibility", "dental practice", "Paris", "Perplexity", "local SEO"]
+cta: "diagnostic-gratuit"
 lang: "en"
 reading_time: "10 min"
 image: "/images/blog/cabinet-dentaire-invisible-chatgpt.webp"

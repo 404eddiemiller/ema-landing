@@ -6,8 +6,8 @@ meta_description: "Ihre Kunden suchen nicht mehr nur auf Google: Sie fragen Chat
 author: "Eddie Miller Agency"
 date: "2026-01-24"
 category: "Online-Sichtbarkeit"
-tags: ["GEO", "SEO", "Künstliche Intelligenz", "Sichtbarkeit", "ChatGPT", "Perplexity", "Google AI Overview"]
-cta: "audit-geo-gratuit"
+tags: ["visibilité IA", "visibilité Google", "Künstliche Intelligenz", "Sichtbarkeit", "ChatGPT", "Perplexity", "Google AI Overview"]
+cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "12 min"
 image: "/images/blog/geo-referencement-ia-2026.webp"

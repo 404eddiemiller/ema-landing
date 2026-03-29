@@ -6,8 +6,8 @@ meta_description: "Websites that AI understands well are recommended 2 to 3 time
 author: "Eddie Miller Agency"
 date: "2026-02-14"
 category: "Online visibility"
-tags: ["Schema.org", "structured data", "JSON-LD", "GEO", "AI visibility", "technical SEO", "no-code", "ChatGPT"]
-cta: "audit-geo-gratuit"
+tags: ["Schema.org", "structured data", "JSON-LD", "visibilité IA", "AI visibility", "technical SEO", "no-code", "ChatGPT"]
+cta: "diagnostic-gratuit"
 lang: "en"
 reading_time: "11 min"
 image: "/images/blog/schema-org-site-lisible-ia-sans-coder.webp"

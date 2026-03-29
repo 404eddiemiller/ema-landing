@@ -6,8 +6,8 @@ meta_description: "We stelden dezelfde vraag aan drie AI-assistenten: welke tand
 author: "Eddie Miller Agency"
 date: "2026-01-28"
 category: "Online zichtbaarheid"
-tags: ["ChatGPT", "Perplexity", "Google AI Overview", "tandarts", "Parijs", "AI-aanbeveling", "GEO", "vergelijkende test"]
-cta: "audit-geo-gratuit"
+tags: ["ChatGPT", "Perplexity", "Google AI Overview", "tandarts", "Parijs", "AI-aanbeveling", "visibilité IA", "vergelijkende test"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "10 min"
 image: "/images/blog/test-ia-recommandation-dentiste-paris.webp"

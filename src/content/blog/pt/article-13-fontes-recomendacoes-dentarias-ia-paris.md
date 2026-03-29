@@ -6,8 +6,8 @@ meta_description: "Quando um paciente pede um dentista ao ChatGPT, onde vai proc
 author: "Eddie Miller Agency"
 date: "2026-03-03"
 category: "Visibilidade online"
-tags: ["fontes IA", "Doctolib", "Google Reviews", "PagesJaunes", "dentista", "Paris", "GEO", "ChatGPT", "Perplexity"]
-cta: "audit-geo-gratuit"
+tags: ["fontes IA", "Doctolib", "Google Reviews", "PagesJaunes", "dentista", "Paris", "visibilité IA", "ChatGPT", "Perplexity"]
+cta: "diagnostic-gratuit"
 lang: "pt"
 reading_time: "10 min"
 image: "/images/blog/sources-recommandations-dentaires-ia-paris.webp"

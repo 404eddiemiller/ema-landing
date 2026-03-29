@@ -6,8 +6,8 @@ meta_description: "34% dos consultórios dentários em Paris não têm site — 
 author: "Eddie Miller Agency"
 date: "2026-03-19"
 category: "Visibilidade online"
-tags: ["site web", "dentista", "sem site", "visibilidade IA", "GEO", "Paris", "Google Business", "Doctolib"]
-cta: "audit-geo-gratuit"
+tags: ["site web", "dentista", "sem site", "visibilidade IA", "visibilité IA", "Paris", "Google Business", "Doctolib"]
+cta: "diagnostic-gratuit"
 lang: "pt"
 reading_time: "8 min"
 image: "/images/blog/cabinet-dentaire-sans-site-web-vulnerabilite-ia.webp"

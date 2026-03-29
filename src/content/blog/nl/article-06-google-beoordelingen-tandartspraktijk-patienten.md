@@ -6,8 +6,8 @@ meta_description: "Uw Google-beoordelingen bepalen of een patiënt voor u kiest 
 author: "Eddie Miller Agency"
 date: "2026-02-07"
 category: "Google & beoordelingen"
-tags: ["Google-beoordelingen", "tandarts", "online reputatie", "Google Reviews", "lokale SEO", "Parijs", "GEO", "AI-zichtbaarheid"]
-cta: "audit-geo-gratuit"
+tags: ["Google-beoordelingen", "tandarts", "online reputatie", "Google Reviews", "lokale SEO", "Parijs", "visibilité IA", "AI-zichtbaarheid"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "11 min"
 image: "/images/blog/avis-google-cabinet-dentaire-patients.webp"

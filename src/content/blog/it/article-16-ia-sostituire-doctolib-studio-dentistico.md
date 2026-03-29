@@ -6,8 +6,8 @@ meta_description: "Sempre più pazienti chiedono a ChatGPT quale dentista scegli
 author: "Eddie Miller Agency"
 date: "2026-03-11"
 category: "Visibilità online"
-tags: ["Doctolib", "IA", "ChatGPT", "dentista", "Parigi", "GEO", "percorso paziente", "prenotazione"]
-cta: "audit-geo-gratuit"
+tags: ["Doctolib", "IA", "ChatGPT", "dentista", "Parigi", "visibilité IA", "percorso paziente", "prenotazione"]
+cta: "diagnostic-gratuit"
 lang: "it"
 reading_time: "8 min"
 image: "/images/blog/ia-remplacer-doctolib-cabinet-dentaire.webp"

@@ -6,8 +6,8 @@ meta_description: "Wanneer een patiënt een tandarts vraagt aan ChatGPT, waar zo
 author: "Eddie Miller Agency"
 date: "2026-03-03"
 category: "Online zichtbaarheid"
-tags: ["AI-bronnen", "Doctolib", "Google Reviews", "PagesJaunes", "tandarts", "Parijs", "GEO", "ChatGPT", "Perplexity"]
-cta: "audit-geo-gratuit"
+tags: ["AI-bronnen", "Doctolib", "Google Reviews", "PagesJaunes", "tandarts", "Parijs", "visibilité IA", "ChatGPT", "Perplexity"]
+cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "10 min"
 image: "/images/blog/sources-recommandations-dentaires-ia-paris.webp"

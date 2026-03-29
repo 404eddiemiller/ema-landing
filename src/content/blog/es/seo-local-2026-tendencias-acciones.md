@@ -6,8 +6,8 @@ meta_description: "Google ya no funciona como antes. Las IA responden en lugar d
 author: "Eddie Miller Agency"
 date: "2026-03-17"
 category: "Google y resenas"
-tags: ["SEO local", "2026", "tendencias", "Google", "GEO", "AI Overview", "negocio local", "Paris"]
-cta: "audit-geo-gratuit"
+tags: ["visibilité locale", "2026", "tendencias", "Google", "visibilité IA", "AI Overview", "negocio local", "Paris"]
+cta: "diagnostic-gratuit"
 lang: "es"
 reading_time: "9 min"
 image: "/images/blog/seo-local-2026-tendances-actions.webp"

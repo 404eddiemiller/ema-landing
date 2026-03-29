@@ -136,11 +136,11 @@ export const navRoutes: Record<Locale, {
   terms: string;
   thankYou: string;
 }> = {
-  fr: { home: '/', about: '/a-propos', pricing: '/formules', blog: '/blog', faq: '/#faq', audit: '/#audit', legal: '/mentions-legales', terms: '/cgv', thankYou: '/merci' },
-  en: { home: '/en/', about: '/en/about', pricing: '/en/pricing', blog: '/en/blog', faq: '/en/#faq', audit: '/en/#audit', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/en/thank-you' },
-  es: { home: '/es/', about: '/es/sobre-nosotros', pricing: '/es/planes', blog: '/es/blog', faq: '/es/#faq', audit: '/es/#audit', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/es/gracias' },
-  de: { home: '/de/', about: '/de/ueber-uns', pricing: '/de/preise', blog: '/de/blog', faq: '/de/#faq', audit: '/de/#audit', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/de/danke' },
-  it: { home: '/it/', about: '/it/chi-siamo', pricing: '/it/piani', blog: '/it/blog', faq: '/it/#faq', audit: '/it/#audit', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/it/grazie' },
-  pt: { home: '/pt/', about: '/pt/sobre-nos', pricing: '/pt/planos', blog: '/pt/blog', faq: '/pt/#faq', audit: '/pt/#audit', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/pt/obrigado' },
-  nl: { home: '/nl/', about: '/nl/over-ons', pricing: '/nl/pakketten', blog: '/nl/blog', faq: '/nl/#faq', audit: '/nl/#audit', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/nl/bedankt' },
+  fr: { home: '/', about: '/a-propos', pricing: '/formules', blog: '/blog', faq: '/#faq', audit: '/#diagnostic', legal: '/mentions-legales', terms: '/cgv', thankYou: '/merci' },
+  en: { home: '/en/', about: '/en/about', pricing: '/en/pricing', blog: '/en/blog', faq: '/en/#faq', audit: '/en/#diagnostic', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/en/thank-you' },
+  es: { home: '/es/', about: '/es/sobre-nosotros', pricing: '/es/planes', blog: '/es/blog', faq: '/es/#faq', audit: '/es/#diagnostic', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/es/gracias' },
+  de: { home: '/de/', about: '/de/ueber-uns', pricing: '/de/preise', blog: '/de/blog', faq: '/de/#faq', audit: '/de/#diagnostic', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/de/danke' },
+  it: { home: '/it/', about: '/it/chi-siamo', pricing: '/it/piani', blog: '/it/blog', faq: '/it/#faq', audit: '/it/#diagnostic', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/it/grazie' },
+  pt: { home: '/pt/', about: '/pt/sobre-nos', pricing: '/pt/planos', blog: '/pt/blog', faq: '/pt/#faq', audit: '/pt/#diagnostic', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/pt/obrigado' },
+  nl: { home: '/nl/', about: '/nl/over-ons', pricing: '/nl/pakketten', blog: '/nl/blog', faq: '/nl/#faq', audit: '/nl/#diagnostic', legal: '/en/legal-notice', terms: '/en/terms', thankYou: '/nl/bedankt' },
 };

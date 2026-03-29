@@ -6,8 +6,8 @@ meta_description: "El 60 % de las busquedas en Google ya no llevan a ningun siti
 author: "Eddie Miller Agency"
 date: "2026-03-08"
 category: "Visibilidad online"
-tags: ["cero clic", "zero-click", "Google", "AI Overview", "GEO", "SEO local", "visibilidad", "negocio local"]
-cta: "audit-geo-gratuit"
+tags: ["cero clic", "zero-click", "Google", "AI Overview", "visibilité IA", "visibilité locale", "visibilidad", "negocio local"]
+cta: "diagnostic-gratuit"
 lang: "es"
 reading_time: "9 min"
 image: "/images/blog/zero-clic-recherches-google-solution-commerce-local.webp"

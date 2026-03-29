@@ -6,8 +6,8 @@ meta_description: "Cuando un viajero busca un hotel en Paris, Google muestra aho
 author: "Eddie Miller Agency"
 date: "2026-03-14"
 category: "Visibilidad online"
-tags: ["Google AI Overview", "hotel", "Paris", "GEO", "visibilidad IA", "Booking", "turismo", "busqueda local"]
-cta: "audit-geo-gratuit"
+tags: ["Google AI Overview", "hotel", "Paris", "visibilité IA", "visibilidad IA", "Booking", "turismo", "busqueda local"]
+cta: "diagnostic-gratuit"
 lang: "es"
 reading_time: "8 min"
 image: "/images/blog/google-ai-overview-hotel-paris.webp"

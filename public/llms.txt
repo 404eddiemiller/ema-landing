@@ -1,17 +1,21 @@
 # Eddie Miller Agency
 > Agence spécialisée en visibilité locale sur Google Maps et les assistants IA (ChatGPT, Gemini, Perplexity) pour les activités locales partout dans le monde : restaurants, hôtels, cabinets dentaires, avocats, coiffeurs, spas, salles de sport, bars.
+
 ## Ce qu'on fait
 On aide les activités avec une adresse physique à être trouvées par leurs futurs clients — sur Google Maps et dans les recommandations des assistants IA.
+
 ## Services
 - Diagnostic de visibilité gratuit : score sur 100 en 24h, 3 actions prioritaires, appel de 15 min
 - Optimisation Google Business Profile et Google Maps
 - Visibilité sur les moteurs IA (ChatGPT, Gemini, Perplexity, Google AI Overview)
 - Suivi mensuel de visibilité avec rapports de progression
+
 ## Formules
-- Diagnostic : gratuit, score de visibilité + rapport + appel
+- Diagnostic : gratuit, score de visibilité + rapport + appel — https://eddiemiller.agency/formules
 - Essentiel : fiche Google optimisée + présence sur les sources IA
 - Complet : optimisation 15 points + annuaires + stratégie d'avis
 - Premium : accompagnement 3 mois + suivi mensuel + ajustements continus
+
 ## Verticales servies
 - Cabinets dentaires : https://eddiemiller.agency/dentistes
 - Restaurants : https://eddiemiller.agency/restaurants
@@ -21,9 +25,27 @@ On aide les activités avec une adresse physique à être trouvées par leurs fu
 - Bien-être & spa : https://eddiemiller.agency/spa
 - Salles de sport : https://eddiemiller.agency/sport
 - Bars & lieux de soirée : https://eddiemiller.agency/bars
-## Blog
+
+## Questions fréquentes
+- C'est quoi concrètement ? On s'occupe de votre fiche Google, de votre présence sur les bonnes plateformes, et de tout ce qui fait que les IA vous recommandent.
+- En combien de temps ? Premiers effets sur Google en quelques jours. Pour les IA, 4 à 8 semaines.
+- Vous garantissez les résultats ? Non. Les IA choisissent de manière autonome. On crée les conditions pour être recommandé, avec un score avant/après mesurable.
+- Ça marche pour mon activité ? Oui, pour toute activité avec une adresse physique : dentistes, restaurants, hôtels, avocats, coiffeurs, spas, salles de sport, bars.
+- Est-ce que je dois avoir un site web ? Non, ce n'est pas indispensable. On optimise l'ensemble de votre présence en ligne.
+
+## Blog — Articles clés
 20 articles sur la visibilité locale et l'optimisation IA : https://eddiemiller.agency/blog
+
+Articles les plus importants :
+- Comment apparaître sur ChatGPT : https://eddiemiller.agency/blog/article-02-geo-referencement-ia-2026
+- Comparatif ChatGPT, Perplexity, Google AI : https://eddiemiller.agency/blog/article-12-chatgpt-perplexity-google-ai-comparatif
+- Guide Google Business Profile pour dentistes : https://eddiemiller.agency/blog/article-05-google-business-profile-guide-dentiste-paris
+- Comment obtenir plus d'avis Google : https://eddiemiller.agency/blog/article-06-avis-google-cabinet-dentaire-patients
+- Étude : 50 cabinets dentaires parisiens et la visibilité IA : https://eddiemiller.agency/blog/article-09-etude-visibilite-ia-50-cabinets-dentaires-paris
+
 ## Contact
 - Site : https://eddiemiller.agency
 - Email : contact@eddiemiller.agency
 - Adresse : 41 Rue du Montparnasse, 75014 Paris, France
+- SIRET : 877 928 176 00024
+- Fondateur : Adam Douieb
