@@ -154,3 +154,7 @@ Oui, c'est très fréquent. Seulement 14 % des URLs citées par les IA figurent 
 
 ### Quelle est la plateforme IA la plus utilisée par les patients à Paris ?
 ChatGPT domine avec environ 80 % de parts de marché parmi les chatbots IA. Cependant, Google AI Overview touche potentiellement plus de patients car il apparaît directement dans les résultats de recherche Google, sans que le patient ait besoin d'aller sur une autre plateforme. Perplexity est utilisé par un public plus restreint mais très qualifié (30 % de cadres dirigeants parmi ses utilisateurs). L'idéal est d'être visible sur les trois.
+
+---
+
+**Vous êtes dentiste&nbsp;?** Découvrez comment on aide les cabinets dentaires à être trouvés par leurs futurs patients. [En savoir plus →](/dentistes)

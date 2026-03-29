@@ -2,11 +2,14 @@
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import AuditForm from '../../components/AuditForm.astro';
 
 const formulas = [
   {
     name: 'Diagnostico',
     tagline: 'Saber onde esta',
+    price: 'Gratuito',
+    priceDetail: '',
     description: "Testamos a sua atividade no Google e nas IA. Recebe um relatorio claro com a sua pontuacao e as acoes prioritarias.",
     includes: [
       'Pontuacao de visibilidade em 100',
@@ -15,13 +18,15 @@ const formulas = [
     ],
     ideal: "Para saber se tem um problema de visibilidade e qual.",
     cta: 'Pedir o meu diagnostico gratuito',
-    ctaHref: '/#diagnostic',
+    ctaHref: '#diagnostic',
     highlight: false,
     free: true,
   },
   {
     name: 'Essencial',
     tagline: 'Estabelecer as bases',
+    price: 'A partir de 490 €',
+    priceDetail: 'serviço único',
     description: "Implementamos as fundacoes para que o Google e as IA comecem a recomenda-lo.",
     includes: [
       'Todo o diagnostico incluido',
@@ -31,13 +36,15 @@ const formulas = [
     ],
     ideal: "Para as atividades que partem do zero ou que tem uma presenca online negligenciada.",
     cta: 'Pedir um orcamento',
-    ctaHref: '/#diagnostic',
+    ctaHref: '#diagnostic',
     highlight: false,
     free: false,
   },
   {
     name: 'Completo',
     tagline: 'Ir mais longe',
+    price: 'Sob orçamento',
+    priceDetail: 'adaptado à sua situação',
     description: "Otimizamos toda a sua presenca online para maximizar as hipoteses de ser encontrado e recomendado.",
     includes: [
       'Todo o Essencial incluido',
@@ -48,13 +55,15 @@ const formulas = [
     ],
     ideal: "Para as atividades que querem ir mais longe e dominar o seu bairro.",
     cta: 'Pedir um orcamento',
-    ctaHref: '/#diagnostic',
+    ctaHref: '#diagnostic',
     highlight: true,
     free: false,
   },
   {
     name: 'Premium',
     tagline: 'Resultados duraveis',
+    price: 'Sob orçamento',
+    priceDetail: 'compromisso de 3 meses',
     description: "Encarregamo-nos da sua visibilidade durante 3 meses com acompanhamento mensal e ajustes continuos.",
     includes: [
       'Todo o Completo incluido',
@@ -65,7 +74,7 @@ const formulas = [
     ],
     ideal: "Para as atividades que querem resultados mensuraveis e um acompanhamento a longo prazo.",
     cta: 'Pedir um orcamento',
-    ctaHref: '/#diagnostic',
+    ctaHref: '#diagnostic',
     highlight: false,
     free: false,
   },
@@ -117,10 +126,18 @@ const formulas = [
             <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-1">
               {f.name}
             </h2>
-            <p class="text-sm font-sans font-medium text-terracotta mb-3">
+            <p class="text-sm font-sans font-medium text-terracotta mb-4">
               {f.tagline}
             </p>
-            <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[8.75rem]">
+            <div class="mb-5">
+              <p class="text-2xl font-serif font-normal text-charcoal leading-tight">
+                {f.price}
+              </p>
+              {f.priceDetail && (
+                <p class="text-xs font-sans text-stone mt-1">{f.priceDetail}</p>
+              )}
+            </div>
+            <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[6rem]">
               {f.description}
             </p>
             <ul class="space-y-3 mb-6 flex-1">
@@ -161,7 +178,7 @@ const formulas = [
             </p>
           </div>
           <a
-            href="/#diagnostic"
+            href="#diagnostic"
             class="inline-block shrink-0 text-center px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
           >
             Saber mais
@@ -178,7 +195,7 @@ const formulas = [
           Comece pelo diagnostico gratuito. Diremos-lhe exatamente onde esta e o que tem mais impacto para a sua situacao. Depois, decide.
         </p>
         <a
-          href="/#diagnostic"
+          href="#diagnostic"
           class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark fade-up"
         >
           Pedir o meu diagnostico gratuito
@@ -188,5 +205,6 @@ const formulas = [
     </div>
   </main>
 
+  <AuditForm />
   <Footer />
 </Layout>

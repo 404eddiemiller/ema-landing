@@ -152,3 +152,7 @@ Absolument. Le GEO est même plus impactant pour les petites activités locales 
 
 ### Comment savoir si ChatGPT recommande mon activité ?
 Le test le plus simple : allez sur chat.openai.com et posez la question qu'un client poserait, par exemple « Quel dentiste recommandez-vous dans le 15e arrondissement de Paris ? ». Si vous n'apparaissez pas, un audit GEO vous permettra d'identifier précisément pourquoi et comment y remédier.
+
+---
+
+**Vous avez une activité locale&nbsp;?** On aide les restaurants, dentistes, hôtels, avocats et autres professionnels à être trouvés par leurs futurs clients. [Demander mon diagnostic gratuit →](/#diagnostic)

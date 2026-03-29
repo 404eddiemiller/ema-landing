@@ -48,19 +48,6 @@ const nav = navRoutes[locale];
         </div>
 
         <div class="group">
-          <label for="responsable" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-300 group-focus-within:text-terracotta">
-            {t('auditForm.managerName', locale)} <span class="text-warmgray font-normal">({t('auditForm.optional', locale)})</span>
-          </label>
-          <input
-            type="text"
-            id="responsable"
-            name="responsable"
-            class="block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]"
-            placeholder={t('auditForm.managerNamePlaceholder', locale)}
-          />
-        </div>
-
-        <div class="group">
           <label for="type" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-300 group-focus-within:text-terracotta">
             {t('auditForm.businessType', locale)} <span class="text-terracotta">*</span>
           </label>
@@ -87,15 +74,17 @@ const nav = navRoutes[locale];
         </div>
 
         <div class="group">
-          <label for="adresse" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-300 group-focus-within:text-terracotta">
-            {t('auditForm.address', locale)} <span class="text-warmgray font-normal">({t('auditForm.optional', locale)})</span>
+          <label for="ville" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-300 group-focus-within:text-terracotta">
+            {t('auditForm.city', locale)} <span class="text-terracotta">*</span>
           </label>
           <input
             type="text"
-            id="adresse"
-            name="adresse"
+            id="ville"
+            name="ville"
+            required
+            aria-required="true"
             class="block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]"
-            placeholder={t('auditForm.addressPlaceholder', locale)}
+            placeholder={t('auditForm.cityPlaceholder', locale)}
           />
         </div>
 
@@ -114,81 +103,15 @@ const nav = navRoutes[locale];
           />
         </div>
 
-        <div class="group">
-          <label for="telephone" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-300 group-focus-within:text-terracotta">
-            {t('auditForm.phone', locale)} <span class="text-warmgray font-normal">({t('auditForm.optional', locale)})</span>
-          </label>
-          <input
-            type="tel"
-            id="telephone"
-            name="telephone"
-            class="block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]"
-            placeholder={t('auditForm.phonePlaceholder', locale)}
-          />
-        </div>
-
-        <div class="group">
-          <label for="site_web" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-300 group-focus-within:text-terracotta">
-            {t('auditForm.website', locale)} <span class="text-warmgray font-normal">({t('auditForm.optional', locale)})</span>
-          </label>
-          <input
-            type="url"
-            id="site_web"
-            name="site_web"
-            class="block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]"
-            placeholder={t('auditForm.websitePlaceholder', locale)}
-          />
-        </div>
-
-        <div class="group">
-          <label for="google_business" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-300 group-focus-within:text-terracotta">
-            {t('auditForm.googleBusiness', locale)} <span class="text-warmgray font-normal">({t('auditForm.optional', locale)})</span>
-          </label>
-          <input
-            type="url"
-            id="google_business"
-            name="google_business"
-            class="block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]"
-            placeholder={t('auditForm.googleBusinessPlaceholder', locale)}
-          />
-        </div>
-
-        <fieldset class="group">
-          <legend class="block text-sm font-sans font-medium text-charcoal mb-3">
-            {t('auditForm.sourceQuestion', locale)} <span class="text-terracotta">*</span>
-          </legend>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-              <input type="checkbox" name="source" value="recommandation" class="w-4 h-4 accent-terracotta" />
-              <span class="font-sans text-sm text-charcoal">{t('auditForm.sourceRecommendation', locale)}</span>
-            </label>
-            <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-              <input type="checkbox" name="source" value="email" class="w-4 h-4 accent-terracotta" />
-              <span class="font-sans text-sm text-charcoal">{t('auditForm.sourceEmail', locale)}</span>
-            </label>
-            <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-              <input type="checkbox" name="source" value="reseaux-sociaux" class="w-4 h-4 accent-terracotta" />
-              <span class="font-sans text-sm text-charcoal">{t('auditForm.sourceSocial', locale)}</span>
-            </label>
-            <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-              <input type="checkbox" name="source" value="recherche-google" class="w-4 h-4 accent-terracotta" />
-              <span class="font-sans text-sm text-charcoal">{t('auditForm.sourceGoogle', locale)}</span>
-            </label>
-            <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-              <input type="checkbox" name="source" value="recherche-ia" class="w-4 h-4 accent-terracotta" />
-              <span class="font-sans text-sm text-charcoal">{t('auditForm.sourceAI', locale)}</span>
-            </label>
-            <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-              <input type="checkbox" name="source" value="autre" class="w-4 h-4 accent-terracotta" />
-              <span class="font-sans text-sm text-charcoal">{t('auditForm.sourceOther', locale)}</span>
-            </label>
-          </div>
-        </fieldset>
-
         <!-- Error message -->
         <div id="form-error" class="hidden px-4 py-3 bg-red-50 border border-red-200 text-red-700 font-sans text-sm" role="alert">
           {t('auditForm.errorGeneric', locale)}
         </div>
+
+        <!-- Exclusivity signal -->
+        <p class="text-center text-xs font-sans text-stone/80 px-4 py-3 bg-sand border border-warmgray/30">
+          {t('auditForm.exclusivity', locale)}
+        </p>
 
         <button
           type="submit"
@@ -208,8 +131,8 @@ const nav = navRoutes[locale];
 </section>
 
 <script>
-  // n8n webhook URL — replace with your actual n8n webhook URL
-  const WEBHOOK_URL = '__N8N_WEBHOOK_URL__';
+  // n8n webhook URL — loaded from PUBLIC_WEBHOOK_URL env variable (.env)
+  const WEBHOOK_URL = import.meta.env.PUBLIC_WEBHOOK_URL;
 
   const form = document.getElementById('audit-form');
   const submitBtn = document.getElementById('submit-btn');
@@ -226,15 +149,9 @@ const nav = navRoutes[locale];
     const etablissement = form.querySelector('#etablissement');
     const email = form.querySelector('#email');
     const type = form.querySelector('#type');
-    const sources = form.querySelectorAll('input[name="source"]:checked');
+    const ville = form.querySelector('#ville');
 
-    if (!etablissement?.value || !email?.value || !type?.value || sources.length === 0) {
-      // Let browser handle native validation for required fields
-      // For checkboxes, show custom message
-      if (sources.length === 0) {
-        errorDiv.textContent = form.dataset.errorSource || 'Veuillez indiquer comment vous nous avez connu.';
-        errorDiv.classList.remove('hidden');
-      }
+    if (!etablissement?.value || !email?.value || !type?.value || !ville?.value) {
       form.reportValidity();
       return;
     }
@@ -242,15 +159,10 @@ const nav = navRoutes[locale];
     // Collect form data
     const data = {
       etablissement: etablissement.value,
-      responsable: form.querySelector('#responsable')?.value || '',
       type: type.value,
-      adresse: form.querySelector('#adresse')?.value || '',
+      ville: ville.value,
       email: email.value,
-      telephone: form.querySelector('#telephone')?.value || '',
-      site_web: form.querySelector('#site_web')?.value || '',
-      google_business: form.querySelector('#google_business')?.value || '',
-      source: Array.from(sources).map(s => s.value),
-      page: 'homepage',
+      page: window.location.pathname,
       submitted_at: new Date().toISOString()
     };
 

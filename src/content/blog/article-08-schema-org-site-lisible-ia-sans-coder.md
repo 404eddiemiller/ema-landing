@@ -181,3 +181,7 @@ Google détecte généralement les nouvelles données structurées en 1 à 2 sem
 
 ### Le Schema peut-il nuire à mon site s'il est mal implémenté ?
 Un Schema incorrect (informations fausses, types inadaptés) peut créer de la confusion pour les IA et potentiellement réduire votre visibilité plutôt que l'améliorer. C'est pourquoi la validation est essentielle. Utilisez systématiquement les outils de test de Google après toute implémentation. En cas de doute, faites-le vérifier par un professionnel.
+
+---
+
+**Vous avez une activité locale&nbsp;?** On aide les restaurants, dentistes, hôtels, avocats et autres professionnels à être trouvés par leurs futurs clients. [Demander mon diagnostic gratuit →](/#diagnostic)

@@ -126,3 +126,7 @@ Les positions IA sont plus dynamiques que les positions Google classiques. Une a
 
 ### Les données du baromètre sont-elles transposables à d'autres villes que Paris ?
 Les principes fondamentaux (importance des avis, de la cohérence NAP, des données structurées) sont universels. En revanche, les plateformes sources et la compétitivité varient selon les villes. Ce baromètre est spécifiquement calibré pour le marché parisien.
+
+---
+
+**Vous avez une activité locale&nbsp;?** On aide les restaurants, dentistes, hôtels, avocats et autres professionnels à être trouvés par leurs futurs clients. [Demander mon diagnostic gratuit →](/#diagnostic)

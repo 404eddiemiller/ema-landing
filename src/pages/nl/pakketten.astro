@@ -2,11 +2,14 @@
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import AuditForm from '../../components/AuditForm.astro';
 
 const pakketten = [
   {
     name: 'Diagnose',
     tagline: 'Weten waar u staat',
+    price: 'Gratis',
+    priceDetail: '',
     description: "Wij testen uw onderneming op Google en bij de AI. U ontvangt een helder rapport met uw score en de prioritaire acties.",
     includes: [
       'Zichtbaarheidsscore op 100',
@@ -15,13 +18,15 @@ const pakketten = [
     ],
     ideal: "Om te weten of u een zichtbaarheidsprobleem heeft en welk.",
     cta: 'Mijn gratis diagnose aanvragen',
-    ctaHref: '/#diagnostic',
+    ctaHref: '#diagnostic',
     highlight: false,
     free: true,
   },
   {
     name: 'Basis',
     tagline: 'De basis leggen',
+    price: 'Vanaf 490 €',
+    priceDetail: 'eenmalige dienst',
     description: "Wij leggen de fundamenten zodat Google en de AI u beginnen aan te bevelen.",
     includes: [
       'Volledige diagnose inbegrepen',
@@ -31,13 +36,15 @@ const pakketten = [
     ],
     ideal: "Voor ondernemingen die van nul beginnen of een verwaarloosde online aanwezigheid hebben.",
     cta: 'Een offerte aanvragen',
-    ctaHref: '/#diagnostic',
+    ctaHref: '#diagnostic',
     highlight: false,
     free: false,
   },
   {
     name: 'Compleet',
     tagline: 'Verder gaan',
+    price: 'Op maat',
+    priceDetail: 'afgestemd op uw situatie',
     description: "Wij optimaliseren uw volledige online aanwezigheid om uw kansen om gevonden en aanbevolen te worden te maximaliseren.",
     includes: [
       'Alles van Basis inbegrepen',
@@ -48,13 +55,15 @@ const pakketten = [
     ],
     ideal: "Voor ondernemingen die verder willen gaan en hun wijk willen domineren.",
     cta: 'Een offerte aanvragen',
-    ctaHref: '/#diagnostic',
+    ctaHref: '#diagnostic',
     highlight: true,
     free: false,
   },
   {
     name: 'Premium',
     tagline: 'Duurzame resultaten',
+    price: 'Op maat',
+    priceDetail: '3 maanden begeleiding',
     description: "Wij nemen uw zichtbaarheid 3 maanden onder onze hoede met maandelijkse opvolging en continue bijsturing.",
     includes: [
       'Alles van Compleet inbegrepen',
@@ -65,7 +74,7 @@ const pakketten = [
     ],
     ideal: "Voor ondernemingen die meetbare resultaten en langdurige begeleiding willen.",
     cta: 'Een offerte aanvragen',
-    ctaHref: '/#diagnostic',
+    ctaHref: '#diagnostic',
     highlight: false,
     free: false,
   },
@@ -117,10 +126,18 @@ const pakketten = [
             <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-1">
               {f.name}
             </h2>
-            <p class="text-sm font-sans font-medium text-terracotta mb-3">
+            <p class="text-sm font-sans font-medium text-terracotta mb-4">
               {f.tagline}
             </p>
-            <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[8.75rem]">
+            <div class="mb-5">
+              <p class="text-2xl font-serif font-normal text-charcoal leading-tight">
+                {f.price}
+              </p>
+              {f.priceDetail && (
+                <p class="text-xs font-sans text-stone mt-1">{f.priceDetail}</p>
+              )}
+            </div>
+            <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[6rem]">
               {f.description}
             </p>
             <ul class="space-y-3 mb-6 flex-1">
@@ -161,7 +178,7 @@ const pakketten = [
             </p>
           </div>
           <a
-            href="/#diagnostic"
+            href="#diagnostic"
             class="inline-block shrink-0 text-center px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
           >
             Meer weten
@@ -178,7 +195,7 @@ const pakketten = [
           Begin met de gratis diagnose. Wij vertellen u precies waar u staat en wat het meeste impact heeft voor uw situatie. Daarna beslist u.
         </p>
         <a
-          href="/#diagnostic"
+          href="#diagnostic"
           class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark fade-up"
         >
           Mijn gratis diagnose aanvragen
@@ -188,5 +205,6 @@ const pakketten = [
     </div>
   </main>
 
+  <AuditForm />
   <Footer />
 </Layout>

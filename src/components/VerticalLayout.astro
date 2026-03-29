@@ -269,11 +269,6 @@ const d = data;
             </div>
 
             <div class="group">
-              <label for="responsable" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Nom du responsable <span class="text-warmgray font-normal">(optionnel)</span></label>
-              <input type="text" id="responsable" name="responsable" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="Jean Dupont" />
-            </div>
-
-            <div class="group">
               <label for="type" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">{d.formConfig.typeLabel} <span class="text-terracotta">*</span></label>
               <select id="type" name="type" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)] appearance-none" style="background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6360%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem center;">
                 {d.formConfig.typeOptions.map((opt) => (
@@ -283,8 +278,8 @@ const d = data;
             </div>
 
             <div class="group">
-              <label for="adresse" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Adresse de l'activité <span class="text-warmgray font-normal">(optionnel)</span></label>
-              <input type="text" id="adresse" name="adresse" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="12 rue de Rivoli, Centre-ville" />
+              <label for="ville" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Ville ou arrondissement <span class="text-terracotta">*</span></label>
+              <input type="text" id="ville" name="ville" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="Paris 7e, Neuilly-sur-Seine…" />
             </div>
 
             <div class="group">
@@ -292,52 +287,10 @@ const d = data;
               <input type="email" id="email" name="email" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="vous@exemple.com" />
             </div>
 
-            <div class="group">
-              <label for="telephone" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Numéro de téléphone <span class="text-warmgray font-normal">(optionnel)</span></label>
-              <input type="tel" id="telephone" name="telephone" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="06 12 34 56 78" />
-            </div>
-
-            <div class="group">
-              <label for="site_web" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Site web <span class="text-warmgray font-normal">(optionnel)</span></label>
-              <input type="url" id="site_web" name="site_web" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="https://www.mon-activite.fr" />
-            </div>
-
-            <div class="group">
-              <label for="google_business" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Fiche Google Business Profile <span class="text-warmgray font-normal">(optionnel)</span></label>
-              <input type="url" id="google_business" name="google_business" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="https://g.co/kgs/…" />
-            </div>
-
-            <fieldset class="group">
-              <legend class="block text-sm font-sans font-medium text-charcoal mb-3">
-                Comment nous avez-vous connu ? <span class="text-terracotta">*</span>
-              </legend>
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-                  <input type="checkbox" name="source" value="recommandation" class="w-4 h-4 accent-terracotta" />
-                  <span class="font-sans text-sm text-charcoal">Recommandation</span>
-                </label>
-                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-                  <input type="checkbox" name="source" value="email" class="w-4 h-4 accent-terracotta" />
-                  <span class="font-sans text-sm text-charcoal">Email</span>
-                </label>
-                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-                  <input type="checkbox" name="source" value="reseaux-sociaux" class="w-4 h-4 accent-terracotta" />
-                  <span class="font-sans text-sm text-charcoal">Réseaux sociaux</span>
-                </label>
-                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-                  <input type="checkbox" name="source" value="recherche-google" class="w-4 h-4 accent-terracotta" />
-                  <span class="font-sans text-sm text-charcoal">Recherche Google</span>
-                </label>
-                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-                  <input type="checkbox" name="source" value="recherche-ia" class="w-4 h-4 accent-terracotta" />
-                  <span class="font-sans text-sm text-charcoal">Recherche IA</span>
-                </label>
-                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
-                  <input type="checkbox" name="source" value="autre" class="w-4 h-4 accent-terracotta" />
-                  <span class="font-sans text-sm text-charcoal">Autre</span>
-                </label>
-              </div>
-            </fieldset>
+            <!-- Exclusivity signal -->
+            <p class="text-center text-xs font-sans text-stone/80 px-4 py-3 bg-sand border border-warmgray/30">
+              Un seul client accompagné par quartier et par spécialité — pour vous garantir l'exclusivité.
+            </p>
 
             <div id="form-error" class="hidden px-4 py-3 bg-red-50 border border-red-200 text-red-700 font-sans text-sm" role="alert">
               Une erreur est survenue. Veuillez réessayer ou nous contacter à contact@eddiemiller.agency.
@@ -360,7 +313,7 @@ const d = data;
 </Layout>
 
 <script define:vars={{ pageSlug: d.formConfig.pageSlug }}>
-  const WEBHOOK_URL = '__N8N_WEBHOOK_URL__';
+  const WEBHOOK_URL = import.meta.env.PUBLIC_WEBHOOK_URL;
   const form = document.getElementById('audit-form');
   const submitBtn = document.getElementById('submit-btn');
   const errorDiv = document.getElementById('form-error');
@@ -373,27 +326,18 @@ const d = data;
     const etablissement = form.querySelector('#etablissement');
     const email = form.querySelector('#email');
     const type = form.querySelector('#type');
-    const sources = form.querySelectorAll('input[name="source"]:checked');
+    const ville = form.querySelector('#ville');
 
-    if (!etablissement?.value || !email?.value || !type?.value || sources.length === 0) {
-      if (sources.length === 0) {
-        errorDiv.textContent = 'Veuillez indiquer comment vous nous avez connu.';
-        errorDiv.classList.remove('hidden');
-      }
+    if (!etablissement?.value || !email?.value || !type?.value || !ville?.value) {
       form.reportValidity();
       return;
     }
 
     const data = {
       etablissement: etablissement.value,
-      responsable: form.querySelector('#responsable')?.value || '',
       type: type.value,
-      adresse: form.querySelector('#adresse')?.value || '',
+      ville: ville.value,
       email: email.value,
-      telephone: form.querySelector('#telephone')?.value || '',
-      site_web: form.querySelector('#site_web')?.value || '',
-      google_business: form.querySelector('#google_business')?.value || '',
-      source: Array.from(sources).map(s => s.value),
       page: pageSlug,
       submitted_at: new Date().toISOString()
     };

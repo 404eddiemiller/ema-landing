@@ -89,6 +89,8 @@
     "typeOther": "Outro",
     "address": "Morada do negócio",
     "addressPlaceholder": "Rua Augusta 123, Lisboa",
+    "city": "Cidade ou bairro",
+    "cityPlaceholder": "Lisboa Centro, Porto Ribeira…",
     "email": "Endereço de email",
     "emailPlaceholder": "voce@exemplo.pt",
     "phone": "Número de telefone",
@@ -106,6 +108,7 @@
     "sourceOther": "Outro",
     "errorGeneric": "Ocorreu um erro. Por favor, tente novamente ou contacte-nos em contact@eddiemiller.agency.",
     "errorSource": "Por favor, indique como soube de nós.",
+    "exclusivity": "Apenas um cliente por bairro e especialidade — para garantir a sua exclusividade.",
     "submitButton": "Pedir o meu diagnóstico gratuito",
     "submitting": "A enviar…",
     "trustSignals": "Resultados em 24h · 100% gratuito · Sem compromisso"

@@ -89,6 +89,8 @@
     "typeOther": "Otro",
     "address": "Dirección del negocio",
     "addressPlaceholder": "Calle Mayor 12, Centro",
+    "city": "Ciudad o barrio",
+    "cityPlaceholder": "Madrid Centro, Barcelona Eixample…",
     "email": "Correo electrónico",
     "emailPlaceholder": "tu@ejemplo.com",
     "phone": "Teléfono",
@@ -106,6 +108,7 @@
     "sourceOther": "Otro",
     "errorGeneric": "Ha ocurrido un error. Inténtalo de nuevo o contáctanos en contact@eddiemiller.agency.",
     "errorSource": "Indica cómo nos conociste.",
+    "exclusivity": "Un solo cliente por zona y especialidad — para garantizar su exclusividad.",
     "submitButton": "Solicitar mi diagnóstico gratuito",
     "submitting": "Enviando…",
     "trustSignals": "Resultados en 24h · 100% gratuito · Sin compromiso"

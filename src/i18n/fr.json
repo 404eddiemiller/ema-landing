@@ -87,6 +87,8 @@
     "typeGym": "Salle de sport",
     "typeBar": "Bars & Clubs",
     "typeOther": "Autre",
+    "city": "Ville ou arrondissement",
+    "cityPlaceholder": "Paris 7e, Neuilly-sur-Seine…",
     "address": "Adresse de l'activité",
     "addressPlaceholder": "12 rue de Rivoli, Centre-ville",
     "email": "Adresse email",
@@ -106,6 +108,7 @@
     "sourceOther": "Autre",
     "errorGeneric": "Une erreur est survenue. Veuillez réessayer ou nous contacter à contact@eddiemiller.agency.",
     "errorSource": "Veuillez indiquer comment vous nous avez connu.",
+    "exclusivity": "Un seul client accompagné par quartier et par spécialité — pour vous garantir l'exclusivité.",
     "submitButton": "Demander mon diagnostic gratuit",
     "submitting": "Envoi en cours…",
     "trustSignals": "Diagnostic en 24h · 100 % gratuit · Sans engagement"

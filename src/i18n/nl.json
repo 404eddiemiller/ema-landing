@@ -89,6 +89,8 @@
     "typeOther": "Overig",
     "address": "Adres van de zaak",
     "addressPlaceholder": "Hoofdstraat 123, Amsterdam",
+    "city": "Stad of wijk",
+    "cityPlaceholder": "Amsterdam Centrum, Rotterdam Zuid…",
     "email": "E-mailadres",
     "emailPlaceholder": "u@voorbeeld.nl",
     "phone": "Telefoonnummer",
@@ -106,6 +108,7 @@
     "sourceOther": "Overig",
     "errorGeneric": "Er is een fout opgetreden. Probeer het opnieuw of neem contact met ons op via contact@eddiemiller.agency.",
     "errorSource": "Geef aan hoe u over ons heeft gehoord.",
+    "exclusivity": "Slechts één klant per wijk en specialiteit — om uw exclusiviteit te garanderen.",
     "submitButton": "Vraag mijn gratis diagnose aan",
     "submitting": "Bezig met verzenden…",
     "trustSignals": "Resultaat binnen 24 uur · 100% gratis · Vrijblijvend"

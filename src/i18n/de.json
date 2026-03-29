@@ -89,6 +89,8 @@
     "typeOther": "Sonstiges",
     "address": "Adresse des Unternehmens",
     "addressPlaceholder": "Hauptstraße 12, Berlin",
+    "city": "Stadt oder Stadtteil",
+    "cityPlaceholder": "Berlin Mitte, München Schwabing…",
     "email": "E-Mail-Adresse",
     "emailPlaceholder": "sie@beispiel.de",
     "phone": "Telefonnummer",
@@ -106,6 +108,7 @@
     "sourceOther": "Sonstiges",
     "errorGeneric": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter contact@eddiemiller.agency.",
     "errorSource": "Bitte geben Sie an, wie Sie von uns erfahren haben.",
+    "exclusivity": "Nur ein Kunde pro Stadtteil und Fachgebiet — um Ihre Exklusivität zu garantieren.",
     "submitButton": "Kostenlose Diagnose anfordern",
     "submitting": "Wird gesendet…",
     "trustSignals": "Ergebnisse in 24 Std. · 100 % kostenlos · Unverbindlich"

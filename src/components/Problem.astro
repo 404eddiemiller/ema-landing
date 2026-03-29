@@ -41,6 +41,36 @@ const stats = [
       ))}
     </div>
 
+    <!-- ChatGPT mock-up -->
+    <div class="max-w-xl mx-auto mb-12 md:mb-16 scale-in">
+      <p class="text-xs font-sans font-medium text-cream/40 uppercase tracking-wider mb-3 text-center">Ce que voit votre futur client</p>
+      <div class="border border-cream/10 bg-cream/5 p-5 md:p-6">
+        <!-- User prompt -->
+        <div class="flex items-start gap-3 mb-5">
+          <div class="w-7 h-7 shrink-0 bg-cream/20 flex items-center justify-center" aria-hidden="true">
+            <svg class="w-4 h-4 text-cream/60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <p class="text-sm font-sans font-medium text-cream/90 leading-relaxed">
+            Meilleur dentiste près de chez moi ?
+          </p>
+        </div>
+        <!-- AI response -->
+        <div class="flex items-start gap-3">
+          <div class="w-7 h-7 shrink-0 bg-terracotta/20 flex items-center justify-center" aria-hidden="true">
+            <svg class="w-4 h-4 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3c.5 3.5 2 5 5.5 5.5-3.5.5-5 2-5.5 5.5-.5-3.5-2-5-5.5-5.5C10 8 11.5 6.5 12 3Z"/><path d="M19 10c.3 2 1.2 3 3.3 3.3-2.1.3-3 1.2-3.3 3.3-.3-2.1-1.2-3-3.3-3.3 2.1-.3 3-1.3 3.3-3.3Z"/></svg>
+          </div>
+          <div class="text-sm font-sans text-cream/80 leading-relaxed">
+            <p class="mb-3">Voici les 3 cabinets dentaires les mieux notés dans votre quartier :</p>
+            <ol class="space-y-2 list-decimal list-inside">
+              <li><strong class="text-cream">Cabinet Martin</strong> — 4.9★, spécialiste en implantologie</li>
+              <li><strong class="text-cream">Dr. Lefebvre</strong> — 4.8★, soins esthétiques dentaires</li>
+              <li><strong class="text-terracotta">Votre cabinet pourrait être ici.</strong></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Paragraph -->
     <p class="max-w-[65ch] mx-auto text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-cream/70 blur-in">
       {t('problem.paragraph', locale)}

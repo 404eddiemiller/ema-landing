@@ -164,3 +164,7 @@ Non, elles le complètent. Google Maps reste le canal dominant pour les recherch
 
 ### Les résultats IA changent-ils souvent ?
 Les études montrent que les réponses IA changent environ 70 % du temps pour la même requête, et environ 50 % des citations sont remplacées d'un test à l'autre. C'est beaucoup plus volatile que Google classique. Perplexity est le plus stable, ChatGPT le plus volatile. C'est pourquoi un suivi régulier (mensuel minimum) est recommandé.
+
+---
+
+**Vous avez une activité locale&nbsp;?** On aide les restaurants, dentistes, hôtels, avocats et autres professionnels à être trouvés par leurs futurs clients. [Demander mon diagnostic gratuit →](/#diagnostic)

@@ -122,3 +122,7 @@ Non. En 2026, les AI Overviews se déclenchent sur environ 40 % des requêtes lo
 
 ### Le zéro clic affecte-t-il tous les secteurs de la même manière ?
 Les secteurs locaux (santé, restauration, hôtellerie, services de proximité) sont les plus touchés car Google fournit directement les informations pratiques (adresse, horaires, téléphone, avis) sans nécessiter de clic. Les secteurs qui vendent des produits en ligne ou qui nécessitent des parcours de décision longs sont moins affectés car le clic reste nécessaire pour finaliser l'achat ou le processus.
+
+---
+
+**Vous avez une activité locale&nbsp;?** On aide les restaurants, dentistes, hôtels, avocats et autres professionnels à être trouvés par leurs futurs clients. [Demander mon diagnostic gratuit →](/#diagnostic)

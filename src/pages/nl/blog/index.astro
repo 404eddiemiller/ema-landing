@@ -32,6 +32,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
         </p>
       </div>
 
+      {posts.length > 0 && (
       <div class="flex flex-wrap gap-2 mb-10 md:mb-12" id="category-filters">
         <button
           class="category-btn active px-4 py-2 text-sm font-sans font-medium tracking-wide uppercase border transition-colors duration-200 border-terracotta text-terracotta bg-terracotta/5"
@@ -48,6 +49,21 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
           </button>
         ))}
       </div>
+      )}
+
+      {posts.length === 0 && (
+        <div class="py-12 md:py-16 text-center">
+          <p class="font-sans text-lg text-stone leading-relaxed mb-4">
+            Onze artikelen zijn momenteel alleen beschikbaar in het Frans.
+          </p>
+          <a
+            href="/blog"
+            class="inline-block px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
+          >
+            Blog in het Frans lezen &rarr;
+          </a>
+        </div>
+      )}
 
       <div class="grid gap-0">
         {posts.map((post, index) => {

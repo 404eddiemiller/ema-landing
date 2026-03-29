@@ -89,6 +89,8 @@
     "typeOther": "Altro",
     "address": "Indirizzo dell'attività",
     "addressPlaceholder": "Via Roma 15, Centro",
+    "city": "Città o quartiere",
+    "cityPlaceholder": "Roma Centro, Milano Brera…",
     "email": "Indirizzo email",
     "emailPlaceholder": "tu@esempio.com",
     "phone": "Numero di telefono",
@@ -106,6 +108,7 @@
     "sourceOther": "Altro",
     "errorGeneric": "Si è verificato un errore. Riprova o contattaci a contact@eddiemiller.agency.",
     "errorSource": "Indica come ci hai conosciuto.",
+    "exclusivity": "Un solo cliente per quartiere e specialità — per garantire la vostra esclusività.",
     "submitButton": "Richiedi la mia diagnosi gratuita",
     "submitting": "Invio in corso…",
     "trustSignals": "Risultati in 24h · 100% gratuito · Senza impegno"

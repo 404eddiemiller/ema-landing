@@ -79,6 +79,15 @@ function getLangSwitchUrl(targetLocale: Locale): string {
         </div>
       </div>
 
+    <!-- Desktop CTA — visible on lg+ -->
+    <a
+      href={nav.audit}
+      class="hidden lg:inline-block px-5 py-2.5 font-sans font-medium text-sm text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark"
+      onclick="plausible('CTA Click', {props: {location: 'header'}})"
+    >
+      {t('header.cta', locale)}
+    </a>
+
     <!-- Menu button -->
     <button
       id="menu-btn"

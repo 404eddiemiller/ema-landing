@@ -89,6 +89,8 @@
     "typeOther": "Other",
     "address": "Business address",
     "addressPlaceholder": "123 Main Street, Downtown",
+    "city": "City or area",
+    "cityPlaceholder": "London W1, Manchester…",
     "email": "Email address",
     "emailPlaceholder": "you@example.com",
     "phone": "Phone number",
@@ -106,6 +108,7 @@
     "sourceOther": "Other",
     "errorGeneric": "An error occurred. Please try again or contact us at contact@eddiemiller.agency.",
     "errorSource": "Please indicate how you heard about us.",
+    "exclusivity": "Only one client per area and specialty — to guarantee your exclusivity.",
     "submitButton": "Request my free diagnostic",
     "submitting": "Sending…",
     "trustSignals": "Results in 24h · 100% free · No commitment"

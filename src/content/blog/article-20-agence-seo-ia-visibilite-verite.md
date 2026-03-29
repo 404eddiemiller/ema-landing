@@ -98,3 +98,7 @@ Celui qui ne fait que du SEO capte la moitié. Celui qui ne fait que du GEO capt
 ---
 
 *Votre agence SEO couvre-t-elle votre visibilité IA ? Eddie Miller Agency est spécialisé en GEO pour les commerces locaux parisiens. Notre audit gratuit complète votre stratégie SEO existante en cartographiant votre visibilité sur les IA. [Demander mon audit GEO gratuit →]*
+
+---
+
+**Vous avez une activité locale&nbsp;?** On aide les restaurants, dentistes, hôtels, avocats et autres professionnels à être trouvés par leurs futurs clients. [Demander mon diagnostic gratuit →](/#diagnostic)

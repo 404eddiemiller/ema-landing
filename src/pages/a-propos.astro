@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
+import AuditForm from '../components/AuditForm.astro';
 import Footer from '../components/Footer.astro';
 ---
 <Layout
@@ -52,8 +53,34 @@ import Footer from '../components/Footer.astro';
       </div>
     </section>
 
+    <!-- Fondateur -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Le fondateur">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
+            Qui est derrière Eddie Miller Agency
+          </h2>
+          <div class="mx-auto mb-8 separator-animate h-[2px] bg-terracotta" aria-hidden="true"></div>
+          <div class="space-y-6 fade-up">
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+              Je m'appelle <strong class="text-charcoal">Adam</strong>. Avant de créer Eddie Miller Agency, j'ai passé des années à comprendre comment Google décide qui montrer en premier, et comment les assistants IA comme ChatGPT choisissent les professionnels qu'ils recommandent.
+            </p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+              J'ai constaté un problème simple : les meilleurs professionnels — ceux qui ont les meilleurs avis, le meilleur service — sont souvent les moins visibles en ligne. Pas parce qu'ils sont mauvais, mais parce que personne ne leur a montré comment fonctionnent ces nouveaux canaux.
+            </p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+              C'est pour corriger ça que j'ai créé cette agence. Mon objectif est concret : quand quelqu'un dans votre quartier demande à ChatGPT ou cherche sur Google un professionnel de votre spécialité, c'est votre nom qui apparaît.
+            </p>
+            <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
+              Je travaille personnellement sur chaque diagnostic et chaque accompagnement. C'est moi qui vous appellerai après votre diagnostic. Pas un stagiaire, pas un commercial — la personne qui va réellement travailler sur votre visibilité.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Ce qu'on fait -->
-    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Notre expertise">
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Notre expertise">
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <div class="max-w-3xl mx-auto">
           <h2 class="text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
@@ -62,7 +89,7 @@ import Footer from '../components/Footer.astro';
           <div class="mx-auto mb-8 separator-animate h-[2px] bg-terracotta" aria-hidden="true"></div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 fade-up">
-            <div class="border border-warmgray p-8 bg-sand card-hover">
+            <div class="border border-warmgray p-8 bg-cream card-hover">
               <div class="flex items-center gap-3 mb-4">
                 <svg class="w-6 h-6 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
@@ -74,7 +101,7 @@ import Footer from '../components/Footer.astro';
               </p>
             </div>
 
-            <div class="border border-warmgray p-8 bg-sand card-hover">
+            <div class="border border-warmgray p-8 bg-cream card-hover">
               <div class="flex items-center gap-3 mb-4">
                 <svg class="w-6 h-6 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <path d="M12 3c.5 3.5 2 5 5.5 5.5-3.5.5-5 2-5.5 5.5-.5-3.5-2-5-5.5-5.5C10 8 11.5 6.5 12 3Z"/>
@@ -87,7 +114,7 @@ import Footer from '../components/Footer.astro';
               </p>
             </div>
 
-            <div class="border border-warmgray p-8 bg-sand card-hover">
+            <div class="border border-warmgray p-8 bg-cream card-hover">
               <div class="flex items-center gap-3 mb-4">
                 <svg class="w-6 h-6 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
@@ -99,7 +126,7 @@ import Footer from '../components/Footer.astro';
               </p>
             </div>
 
-            <div class="border border-warmgray p-8 bg-sand card-hover">
+            <div class="border border-warmgray p-8 bg-cream card-hover">
               <div class="flex items-center gap-3 mb-4">
                 <svg class="w-6 h-6 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
@@ -172,28 +199,8 @@ import Footer from '../components/Footer.astro';
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Passer à l'action">
-      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
-        <div class="max-w-2xl mx-auto text-center">
-          <h2 class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
-            Prêt à savoir où vous en êtes ?
-          </h2>
-          <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-8 fade-up">
-            En 24 heures, vous recevez votre score de visibilité et les actions prioritaires pour être trouvé par vos futurs clients. Gratuit, sans engagement.
-          </p>
-          <a
-            href="/#diagnostic"
-            class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark fade-up"
-            onclick="plausible('CTA Click', {props: {location: 'a-propos'}})"
-          >
-            Demander mon diagnostic gratuit
-          </a>
-        </div>
-      </div>
-    </section>
-
   </main>
 
+  <AuditForm />
   <Footer />
 </Layout>

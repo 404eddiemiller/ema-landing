@@ -92,3 +92,7 @@ Le SEO local n'est pas mort — il évolue. Les activités qui traitent le SEO l
 ---
 
 *Votre stratégie SEO local est-elle à jour pour 2026 ? Eddie Miller Agency évalue votre visibilité complète — Google Maps, AI Overviews, ChatGPT et Perplexity — dans notre audit GEO gratuit. [Demander mon audit GEO gratuit →]*
+
+---
+
+**Vous avez une activité locale&nbsp;?** On aide les restaurants, dentistes, hôtels, avocats et autres professionnels à être trouvés par leurs futurs clients. [Demander mon diagnostic gratuit →](/#diagnostic)
