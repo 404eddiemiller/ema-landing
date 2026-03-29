@@ -314,6 +314,7 @@ body {
   border-top: 1px solid color-mix(in srgb, var(--color-warmgray) 30%, transparent);
   transform: translateY(100%);
   transition: transform 0.3s ease;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 .sticky-cta-text {
