@@ -1,0 +1,192 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const pakketten = [
+  {
+    name: 'Diagnose',
+    tagline: 'Weten waar u staat',
+    description: "Wij testen uw onderneming op Google en bij de AI. U ontvangt een helder rapport met uw score en de prioritaire acties.",
+    includes: [
+      'Zichtbaarheidsscore op 100',
+      'Helder rapport met volledige diagnose',
+      'Gesprek van 15 min om het te bespreken',
+    ],
+    ideal: "Om te weten of u een zichtbaarheidsprobleem heeft en welk.",
+    cta: 'Mijn gratis diagnose aanvragen',
+    ctaHref: '/#audit',
+    highlight: false,
+    free: true,
+  },
+  {
+    name: 'Basis',
+    tagline: 'De basis leggen',
+    description: "Wij leggen de fundamenten zodat Google en de AI u beginnen aan te bevelen.",
+    includes: [
+      'Volledige diagnose inbegrepen',
+      'Geoptimaliseerd en volledig Google-profiel',
+      'Aanwezigheid op bronnen die door AI worden geraadpleegd',
+      'Gedetailleerd terugkoppelingsgesprek',
+    ],
+    ideal: "Voor ondernemingen die van nul beginnen of een verwaarloosde online aanwezigheid hebben.",
+    cta: 'Een offerte aanvragen',
+    ctaHref: '/#audit',
+    highlight: false,
+    free: false,
+  },
+  {
+    name: 'Compleet',
+    tagline: 'Verder gaan',
+    description: "Wij optimaliseren uw volledige online aanwezigheid om uw kansen om gevonden en aanbevolen te worden te maximaliseren.",
+    includes: [
+      'Alles van Basis inbegrepen',
+      'Volledige optimalisatie op 15 punten',
+      'Inschrijving bij de belangrijkste gidsen in uw sector',
+      'Strategie voor online recensies',
+      'Uitgebreid gesprek van 45 min',
+    ],
+    ideal: "Voor ondernemingen die verder willen gaan en hun wijk willen domineren.",
+    cta: 'Een offerte aanvragen',
+    ctaHref: '/#audit',
+    highlight: true,
+    free: false,
+  },
+  {
+    name: 'Premium',
+    tagline: 'Duurzame resultaten',
+    description: "Wij nemen uw zichtbaarheid 3 maanden onder onze hoede met maandelijkse opvolging en continue bijsturing.",
+    includes: [
+      'Alles van Compleet inbegrepen',
+      'Opvolging gedurende 3 maanden',
+      '3 maandelijkse voortgangsrapporten',
+      'Continue bijsturing',
+      'Vast aanspreekpunt',
+    ],
+    ideal: "Voor ondernemingen die meetbare resultaten en langdurige begeleiding willen.",
+    cta: 'Een offerte aanvragen',
+    ctaHref: '/#audit',
+    highlight: false,
+    free: false,
+  },
+];
+---
+<Layout
+  title="Onze pakketten — Eddie Miller Agency"
+  description="Gratis diagnose, begeleiding op maat. Ontdek onze pakketten om gevonden te worden door uw toekomstige klanten op Google en ChatGPT."
+  canonicalUrl="https://eddiemiller.agency/nl/pakketten"
+  ogTitle="Onze pakketten — Eddie Miller Agency"
+  ogDescription="Gratis diagnose, begeleiding op maat om gevonden te worden door uw toekomstige klanten."
+>
+  <Header />
+
+  <main id="main-content" class="pt-28 md:pt-32 pb-16 md:pb-24">
+    <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+
+      <!-- Page header -->
+      <div class="text-center mb-12 md:mb-16 max-w-2xl mx-auto">
+        <h1 class="font-serif text-3xl md:text-[2.75rem] lg:text-5xl text-charcoal leading-[1.15] tracking-tight mb-4 fade-up-slow">
+          Duidelijke pakketten, concrete resultaten
+        </h1>
+        <div class="mx-auto mb-6 separator-animate h-[2px] bg-terracotta" aria-hidden="true"></div>
+        <p class="font-sans text-base md:text-lg text-stone leading-relaxed blur-in" style="transition-delay: 0.3s;">
+          Alles begint met een gratis diagnose. Daarna stellen wij het pakket voor dat past bij uw situatie. Geen onnodig pakket, geen verrassingen.
+        </p>
+      </div>
+
+      <!-- Pakket cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {pakketten.map((f) => (
+          <div class:list={[
+            'flex flex-col border p-6 md:p-8 bg-cream card-hover scale-in',
+            f.highlight ? 'border-terracotta' : 'border-warmgray',
+          ]}>
+            <!-- Badge zone — fixed height so titles align -->
+            <div class="lg:min-h-[1.5rem] mb-2">
+              {f.highlight && (
+                <p class="text-xs font-sans font-medium text-terracotta tracking-[0.1em] uppercase">
+                  Meest gekozen
+                </p>
+              )}
+              {f.free && (
+                <p class="text-xs font-sans font-medium text-terracotta tracking-[0.1em] uppercase">
+                  Gratis
+                </p>
+              )}
+            </div>
+            <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-1">
+              {f.name}
+            </h2>
+            <p class="text-sm font-sans font-medium text-terracotta mb-3">
+              {f.tagline}
+            </p>
+            <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[8.75rem]">
+              {f.description}
+            </p>
+            <ul class="space-y-3 mb-6 flex-1">
+              {f.includes.map((item) => (
+                <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                  <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <p class="text-xs font-sans font-normal leading-relaxed text-stone/70 italic mb-6">
+              {f.ideal}
+            </p>
+            <a
+              href={f.ctaHref}
+              class:list={[
+                'block text-center px-6 py-3 font-sans font-medium text-sm tracking-wider uppercase transition-colors duration-300 mt-auto',
+                f.highlight
+                  ? 'text-cream bg-terracotta hover:bg-terracotta-dark'
+                  : 'text-charcoal border border-warmgray hover:border-terracotta hover:text-terracotta',
+              ]}
+            >
+              {f.cta} →
+            </a>
+          </div>
+        ))}
+      </div>
+
+      <!-- Maandelijkse opvolging -->
+      <div class="mt-10 md:mt-14 border border-warmgray p-8 md:p-10 bg-sand card-hover fade-up">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+          <div class="flex-1">
+            <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-2">
+              Maandelijkse opvolging
+            </h2>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">
+              Aangeboden na elke prestatie. Wij bewaken uw zichtbaarheid elke maand, sturen bij waar nodig, en u ontvangt een voortgangsrapport. Zonder verplichtingen, op elk moment opzegbaar.
+            </p>
+          </div>
+          <a
+            href="/#audit"
+            class="inline-block shrink-0 text-center px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
+          >
+            Meer weten
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom CTA -->
+      <div class="mt-14 md:mt-20 text-center max-w-2xl mx-auto">
+        <h2 class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
+          Niet zeker welk pakket bij u past?
+        </h2>
+        <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-8 fade-up">
+          Begin met de gratis diagnose. Wij vertellen u precies waar u staat en wat het meeste impact heeft voor uw situatie. Daarna beslist u.
+        </p>
+        <a
+          href="/#audit"
+          class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark fade-up"
+        >
+          Mijn gratis diagnose aanvragen
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

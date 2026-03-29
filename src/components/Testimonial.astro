@@ -1,10 +1,13 @@
 ---
 // Testimonial section — Animated score circles + client results
+import { t, getLocaleFromPath, type Locale } from '../i18n/index';
+const locale = getLocaleFromPath(Astro.url.pathname);
+
 const testimonials = [
   {
     quote: "On ne comprenait pas pourquoi on avait moins de nouveaux patients alors que nos avis Google sont excellents. L'audit a montré que ChatGPT ne nous connaissait tout simplement pas. En deux mois, on a commencé à recevoir des appels de patients qui disaient avoir trouvé notre cabinet \"grâce à l'IA\".",
     name: "Dr. Sophie M.",
-    role: "Cabinet dentaire, Paris 16e",
+    role: "Cabinet dentaire, Centre-ville",
     before: { score: 0, label: "Invisible en ligne" },
     after: { score: 86, label: "+12 nouveaux patients/mois" },
     delay: "8 semaines",
@@ -12,7 +15,7 @@ const testimonials = [
   {
     quote: "Un touriste américain m'a dit qu'il avait demandé à ChatGPT \"best restaurant near Eiffel Tower\" et qu'on était dans les 3 résultats. Avant de travailler avec Eddie Miller, on n'apparaissait nulle part. Maintenant, on a des réservations qui viennent directement de l'IA.",
     name: "Marc D.",
-    role: "Restaurant, Paris 7e",
+    role: "Restaurant, Centre-ville",
     before: { score: 12, label: "Quasi-invisible" },
     after: { score: 91, label: "+18 couverts/semaine" },
     delay: "6 semaines",
@@ -26,20 +29,20 @@ const circleC = 2 * Math.PI * circleR;
 <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Résultats clients">
   <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
     <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
-      Ce que ça change concrètement
+      {t('testimonial.title', locale)}
     </h2>
     <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-up">
-      Le score de visibilité = le nombre de fois où vous apparaissez quand on interroge les IA et Google sur 100 recherches.
+      {t('testimonial.subtitle', locale)}
     </p>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-      {testimonials.map((t, i) => (
+      {testimonials.map((item, i) => (
         <div class="border border-warmgray bg-cream p-8 md:p-10 card-hover scale-in" style={`transition-delay: ${i * 0.15}s;`}>
           <!-- Score circles -->
           <div class="grid grid-cols-2 gap-6 mb-8">
             <!-- Before -->
             <div class="text-center">
-              <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">Avant</p>
+              <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">{t('testimonial.before', locale)}</p>
               <div class="relative inline-flex items-center justify-center w-24 h-24 md:w-28 md:h-28">
                 <svg class="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 100 100" aria-hidden="true">
                   <circle cx="50" cy="50" r={circleR} fill="none" stroke="#EDE6DD" stroke-width="4" />
@@ -50,19 +53,19 @@ const circleC = 2 * Math.PI * circleR;
                     stroke-width="4"
                     stroke-linecap="round"
                     class="score-circle"
-                    data-score={t.before.score}
+                    data-score={item.before.score}
                     style={`stroke-dasharray: ${circleC}; stroke-dashoffset: ${circleC};`}
                   />
                 </svg>
-                <span class="text-[1.5rem] md:text-[1.75rem] font-serif font-normal leading-none text-warmgray" data-count-to={t.before.score} data-suffix="/100">
-                  {t.before.score}/100
+                <span class="text-[1.5rem] md:text-[1.75rem] font-serif font-normal leading-none text-warmgray" data-count-to={item.before.score} data-suffix="/100">
+                  {item.before.score}/100
                 </span>
               </div>
-              <p class="mt-2 text-sm font-sans text-stone/70">{t.before.label}</p>
+              <p class="mt-2 text-sm font-sans text-stone/70">{item.before.label}</p>
             </div>
             <!-- After -->
             <div class="text-center">
-              <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">Après {t.delay}</p>
+              <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">{t('testimonial.after', locale)} {item.delay}</p>
               <div class="relative inline-flex items-center justify-center w-24 h-24 md:w-28 md:h-28">
                 <svg class="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 100 100" aria-hidden="true">
                   <circle cx="50" cy="50" r={circleR} fill="none" stroke="#EDE6DD" stroke-width="4" />
@@ -73,15 +76,15 @@ const circleC = 2 * Math.PI * circleR;
                     stroke-width="4"
                     stroke-linecap="round"
                     class="score-circle"
-                    data-score={t.after.score}
+                    data-score={item.after.score}
                     style={`stroke-dasharray: ${circleC}; stroke-dashoffset: ${circleC};`}
                   />
                 </svg>
-                <span class="text-[1.5rem] md:text-[1.75rem] font-serif font-normal leading-none text-terracotta" data-count-to={t.after.score} data-suffix="/100">
-                  {t.after.score}/100
+                <span class="text-[1.5rem] md:text-[1.75rem] font-serif font-normal leading-none text-terracotta" data-count-to={item.after.score} data-suffix="/100">
+                  {item.after.score}/100
                 </span>
               </div>
-              <p class="mt-2 text-sm font-sans text-stone/70">{t.after.label}</p>
+              <p class="mt-2 text-sm font-sans text-stone/70">{item.after.label}</p>
             </div>
           </div>
 
@@ -90,11 +93,11 @@ const circleC = 2 * Math.PI * circleR;
           <!-- Quote -->
           <blockquote>
             <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone italic">
-              «&nbsp;{t.quote}&nbsp;»
+              «&nbsp;{item.quote}&nbsp;»
             </p>
             <footer class="mt-4">
-              <p class="font-sans font-medium text-base text-charcoal">{t.name}</p>
-              <p class="font-sans text-sm text-stone">{t.role}</p>
+              <p class="font-sans font-medium text-base text-charcoal">{item.name}</p>
+              <p class="font-sans text-sm text-stone">{item.role}</p>
             </footer>
           </blockquote>
         </div>

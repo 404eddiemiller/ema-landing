@@ -1,0 +1,452 @@
+---
+import type { VerticalData } from '../data/verticals/types';
+import Layout from '../layouts/Layout.astro';
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+
+interface Props {
+  data: VerticalData;
+}
+
+const { data } = Astro.props;
+const d = data;
+---
+<Layout
+  title={d.title}
+  description={d.description}
+  canonicalUrl={d.canonicalUrl}
+  ogTitle={d.ogTitle}
+  ogDescription={d.ogDescription}
+>
+  <Header />
+  <main id="main-content">
+
+    <!-- ═══════════════════ HERO ═══════════════════ -->
+    <section class="relative pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-48 lg:pb-32 bg-cream overflow-hidden" aria-label="Accroche principale">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl">
+          <p class="inline-block px-3 py-1 mb-6 text-sm font-sans font-medium text-terracotta border border-terracotta/40 tracking-wide">
+            {d.badge}
+          </p>
+          <h1 class="text-[2.5rem] md:text-[3.25rem] lg:text-[4rem] font-serif font-normal leading-[1.1] tracking-[-0.02em] text-charcoal" set:html={d.headline} />
+          <div class="mt-6 separator-animate h-[2px] bg-terracotta" aria-hidden="true"></div>
+          <p class="mt-6 md:mt-8 max-w-[65ch] text-lg md:text-xl font-sans font-normal leading-relaxed text-stone blur-in" style="transition-delay: 0.4s;" set:html={d.heroText} />
+          <div class="flex flex-col sm:flex-row items-start gap-4 mt-8 md:mt-10 fade-up" style="transition-delay: 0.6s;">
+            <a
+              href="#audit"
+              class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark"
+              onclick={`plausible('CTA Click', {props: {location: '${d.plausibleLocation}'}})`}
+            >
+              {d.ctaText}
+            </a>
+            <a
+              href="#comment-ca-marche"
+              class="inline-flex items-center gap-1 px-2 py-4 font-sans font-medium text-base text-stone transition-colors duration-200 hover:text-charcoal"
+            >
+              {d.secondaryCtaText}
+            </a>
+          </div>
+          <div class="flex flex-wrap gap-x-6 gap-y-2 mt-6 md:mt-8 fade-up" style="transition-delay: 0.75s;">
+            <span class="text-sm font-sans text-stone/80">{d.trust1}</span>
+            <span class="text-sm font-sans text-stone/80">{d.trust2}</span>
+            <span class="text-sm font-sans text-stone/80">{d.trust3}</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ SOCIAL PROOF ═══════════════════ -->
+    <section class="py-12 md:py-16 bg-sand" aria-label="Plateformes où vos patients cherchent">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <p class="text-center text-sm font-sans font-medium tracking-[0.1em] uppercase text-stone mb-8 fade-up">
+          {d.socialProofLabel}
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10 lg:gap-14">
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">ChatGPT</span>
+          <span class="text-warmgray/60 select-none" aria-hidden="true">&middot;</span>
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Google Maps</span>
+          <span class="text-warmgray/60 select-none" aria-hidden="true">&middot;</span>
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Gemini</span>
+          <span class="text-warmgray/60 select-none" aria-hidden="true">&middot;</span>
+          <span class="font-sans font-medium text-base md:text-lg text-stone tracking-wide">Perplexity</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ CE QUE VOUS RECEVEZ ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce que vous recevez">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow" set:html={d.whatYouGetTitle} />
+          <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-14 fade-up">
+            {d.whatYouGetSubtitle}
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+            {d.deliverables.map((item, i) => (
+              <div class="flex gap-4 scale-in" style={`transition-delay: ${i * 0.12}s;`}>
+                <div class="mt-1 shrink-0"><div class="w-2 h-2 bg-terracotta" aria-hidden="true"></div></div>
+                <div>
+                  <h3 class="font-sans font-medium text-base md:text-lg text-charcoal mb-1">{item.title}</h3>
+                  <p class="text-sm md:text-base font-sans font-normal leading-relaxed text-stone" set:html={item.text} />
+                </div>
+              </div>
+            ))}
+          </div>
+          <div class="text-center mt-10 md:mt-12 fade-in">
+            <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark">
+              {d.ctaText}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ TÉMOIGNAGE ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Résultat client">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <div class="border border-warmgray bg-cream p-8 md:p-12 scale-in card-hover">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-8">
+              <!-- Before -->
+              <div class="text-center md:text-left">
+                <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">Avant</p>
+                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray">{d.testimonial.beforeScore}<span class="text-[1.5rem]">/100</span></p>
+                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">{d.testimonial.beforeLabel}</p>
+                <p class="text-sm font-sans text-stone/70 mt-1" set:html={d.testimonial.beforeDetail} />
+              </div>
+              <!-- After -->
+              <div class="text-center md:text-left">
+                <p class="text-sm font-sans font-medium text-terracotta tracking-[0.1em] uppercase mb-3">{d.testimonial.afterDelay}</p>
+                <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta">{d.testimonial.afterScore}<span class="text-[1.5rem]">/100</span></p>
+                <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">{d.testimonial.afterLabel}</p>
+                <p class="text-sm font-sans text-stone/70 mt-1">{d.testimonial.afterDetail}</p>
+              </div>
+            </div>
+            <div class="w-full h-px bg-warmgray/30 mb-8" aria-hidden="true"></div>
+            <blockquote>
+              <p class="text-lg md:text-xl font-sans font-normal leading-relaxed text-stone italic" set:html={d.testimonial.quote} />
+              <footer class="mt-4">
+                <p class="font-sans font-medium text-base text-charcoal">{d.testimonial.name}</p>
+                <p class="font-sans text-sm text-stone">{d.testimonial.role}</p>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ STATS / CE QUI A CHANGÉ ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce qui a changé">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow" set:html={d.statsTitle} />
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
+          {d.stats.map((stat, i) => (
+            <div class="border border-warmgray p-8 bg-cream card-hover scale-in" style={`transition-delay: ${i * 0.12}s;`}>
+              {stat.countTo !== undefined ? (
+                <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4" data-count-to={stat.countTo} data-suffix={stat.suffix || ''}>{stat.countTo}{stat.suffix || ''}</p>
+              ) : (
+                <p class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4">{stat.staticValue}</p>
+              )}
+              <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-4">{stat.text}</p>
+              {stat.source && (
+                <p class="text-sm font-sans font-medium text-stone/70">{stat.source}</p>
+              )}
+            </div>
+          ))}
+        </div>
+        <p class="max-w-[65ch] mx-auto text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone blur-in" set:html={d.statsSubtitle} />
+      </div>
+    </section>
+
+    <!-- ═══════════════════ PROBLÈMES SPÉCIFIQUES ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Les problèmes que vous connaissez">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow" set:html={d.problemsTitle} />
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          {d.problems.map((problem, i) => (
+            <div class="border border-warmgray p-8 bg-cream card-hover scale-in" style={`transition-delay: ${i * 0.12}s;`}>
+              <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">{problem.title}</h3>
+              <p class="text-base font-sans font-normal leading-relaxed text-stone">{problem.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ SOLUTION ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce qu'on fait pour vous">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow" set:html={d.solutionTitle} />
+        <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-up" set:html={d.solutionSubtitle} />
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
+          <div class="border border-warmgray p-8 bg-cream slide-in-left card-hover">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">{d.solutionFeatures[0].title}</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">{d.solutionFeatures[0].text}</p>
+          </div>
+          <div class="border border-warmgray p-8 bg-cream slide-in-right card-hover">
+            <h3 class="text-xl md:text-[1.35rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">{d.solutionFeatures[1].title}</h3>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">{d.solutionFeatures[1].text}</p>
+          </div>
+        </div>
+        <div class="text-center mt-10 md:mt-12 fade-up">
+          <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark">
+            {d.ctaText}
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ COMMENT ÇA MARCHE ═══════════════════ -->
+    <section id="comment-ca-marche" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Comment ça marche">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow">
+          {d.howItWorksTitle}
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mb-12 md:mb-16">
+          {d.steps.map((step, i) => (
+            <div class:list={['scale-in', { relative: i < 2 }]} style={`transition-delay: ${i * 0.2}s;`}>
+              <p class="text-[4rem] md:text-[5rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray/30 mb-4">{step.number}</p>
+              <h3 class="text-xl md:text-[1.75rem] font-serif font-normal leading-[1.2] text-charcoal mb-3">{step.title}</h3>
+              <p class="max-w-[45ch] text-base md:text-lg font-sans font-normal leading-relaxed text-stone">{step.text}</p>
+              {i < 2 && (
+                <div class="hidden md:flex absolute top-12 -right-5 md:-right-6 items-center text-warmgray/50" aria-hidden="true">
+                  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+        <div class="text-center fade-up">
+          <a href="#audit" class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark" onclick={`plausible('CTA Click', {props: {location: '${d.formConfig.pageSlug}-how-it-works'}})`}>
+            {d.ctaText} →
+          </a>
+        </div>
+        <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-up">
+          {d.howItWorksSubtitle}
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ FAQ ═══════════════════ -->
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Questions fréquentes">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow">
+            {d.faqTitle}
+          </h2>
+          <div class="space-y-0 fade-up">
+            {d.faqs.map((faq, i) => (
+              <details class="group border-b border-warmgray/30" open={i === 0 ? true : undefined}>
+                <summary class="flex items-center justify-between gap-4 py-5 md:py-6 cursor-pointer list-none font-sans font-medium text-base md:text-lg text-charcoal transition-all duration-200 hover:text-terracotta hover:pl-2 [&::-webkit-details-marker]:hidden">
+                  <span set:html={faq.question} />
+                  <svg class="w-5 h-5 shrink-0 text-warmgray transition-transform duration-300 group-open:rotate-45 group-open:text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+                </summary>
+                <div class="pb-6 pr-8">
+                  <p class="text-base font-sans font-normal leading-relaxed text-stone" set:html={faq.answer} />
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ FORMULAIRE ═══════════════════ -->
+    <section id="audit" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Demander un diagnostic gratuit">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+        <div class="max-w-2xl mx-auto">
+          <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow" set:html={d.formTitle} />
+          <p class="text-center text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-10 md:mb-12 fade-up">
+            {d.formSubtitle}
+          </p>
+
+          <form id="audit-form" class="space-y-6 fade-up" style="transition-delay: 0.2s;" novalidate>
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+
+            <div class="group">
+              <label for="etablissement" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">{d.formConfig.etablissementLabel} <span class="text-terracotta">*</span></label>
+              <input type="text" id="etablissement" name="etablissement" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder={d.formConfig.etablissementPlaceholder} />
+            </div>
+
+            <div class="group">
+              <label for="responsable" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Nom du responsable <span class="text-warmgray font-normal">(optionnel)</span></label>
+              <input type="text" id="responsable" name="responsable" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="Jean Dupont" />
+            </div>
+
+            <div class="group">
+              <label for="type" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">{d.formConfig.typeLabel} <span class="text-terracotta">*</span></label>
+              <select id="type" name="type" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)] appearance-none" style="background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6360%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem center;">
+                {d.formConfig.typeOptions.map((opt) => (
+                  <option value={opt.value} selected={opt.selected || undefined}>{opt.label}</option>
+                ))}
+              </select>
+            </div>
+
+            <div class="group">
+              <label for="adresse" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Adresse de l'activité <span class="text-warmgray font-normal">(optionnel)</span></label>
+              <input type="text" id="adresse" name="adresse" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="12 rue de Rivoli, Centre-ville" />
+            </div>
+
+            <div class="group">
+              <label for="email" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Adresse email <span class="text-terracotta">*</span></label>
+              <input type="email" id="email" name="email" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="vous@exemple.com" />
+            </div>
+
+            <div class="group">
+              <label for="telephone" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Numéro de téléphone <span class="text-warmgray font-normal">(optionnel)</span></label>
+              <input type="tel" id="telephone" name="telephone" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="06 12 34 56 78" />
+            </div>
+
+            <div class="group">
+              <label for="site_web" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Site web <span class="text-warmgray font-normal">(optionnel)</span></label>
+              <input type="url" id="site_web" name="site_web" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="https://www.mon-activite.fr" />
+            </div>
+
+            <div class="group">
+              <label for="google_business" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">Fiche Google Business Profile <span class="text-warmgray font-normal">(optionnel)</span></label>
+              <input type="url" id="google_business" name="google_business" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]" placeholder="https://g.co/kgs/…" />
+            </div>
+
+            <fieldset class="group">
+              <legend class="block text-sm font-sans font-medium text-charcoal mb-3">
+                Comment nous avez-vous connu ? <span class="text-terracotta">*</span>
+              </legend>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
+                  <input type="checkbox" name="source" value="recommandation" class="w-4 h-4 accent-terracotta" />
+                  <span class="font-sans text-sm text-charcoal">Recommandation</span>
+                </label>
+                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
+                  <input type="checkbox" name="source" value="email" class="w-4 h-4 accent-terracotta" />
+                  <span class="font-sans text-sm text-charcoal">Email</span>
+                </label>
+                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
+                  <input type="checkbox" name="source" value="reseaux-sociaux" class="w-4 h-4 accent-terracotta" />
+                  <span class="font-sans text-sm text-charcoal">Réseaux sociaux</span>
+                </label>
+                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
+                  <input type="checkbox" name="source" value="recherche-google" class="w-4 h-4 accent-terracotta" />
+                  <span class="font-sans text-sm text-charcoal">Recherche Google</span>
+                </label>
+                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
+                  <input type="checkbox" name="source" value="recherche-ia" class="w-4 h-4 accent-terracotta" />
+                  <span class="font-sans text-sm text-charcoal">Recherche IA</span>
+                </label>
+                <label class="flex items-center gap-3 px-4 py-3 bg-cream border border-warmgray cursor-pointer transition-all duration-300 hover:border-terracotta has-[:checked]:border-terracotta has-[:checked]:bg-[#F9F4EF]">
+                  <input type="checkbox" name="source" value="autre" class="w-4 h-4 accent-terracotta" />
+                  <span class="font-sans text-sm text-charcoal">Autre</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div id="form-error" class="hidden px-4 py-3 bg-red-50 border border-red-200 text-red-700 font-sans text-sm" role="alert">
+              Une erreur est survenue. Veuillez réessayer ou nous contacter à contact@eddiemiller.agency.
+            </div>
+
+            <button id="submit-btn" type="submit" class="block w-full px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed">
+              {d.ctaText}
+            </button>
+          </form>
+
+          <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-up">
+            Diagnostic en 24h · 100 % gratuit · Sans engagement
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>
+
+<script define:vars={{ pageSlug: d.formConfig.pageSlug }}>
+  const WEBHOOK_URL = '__N8N_WEBHOOK_URL__';
+  const form = document.getElementById('audit-form');
+  const submitBtn = document.getElementById('submit-btn');
+  const errorDiv = document.getElementById('form-error');
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const honey = form.querySelector('input[name="_honey"]');
+    if (honey && honey.value) return;
+
+    const etablissement = form.querySelector('#etablissement');
+    const email = form.querySelector('#email');
+    const type = form.querySelector('#type');
+    const sources = form.querySelectorAll('input[name="source"]:checked');
+
+    if (!etablissement?.value || !email?.value || !type?.value || sources.length === 0) {
+      if (sources.length === 0) {
+        errorDiv.textContent = 'Veuillez indiquer comment vous nous avez connu.';
+        errorDiv.classList.remove('hidden');
+      }
+      form.reportValidity();
+      return;
+    }
+
+    const data = {
+      etablissement: etablissement.value,
+      responsable: form.querySelector('#responsable')?.value || '',
+      type: type.value,
+      adresse: form.querySelector('#adresse')?.value || '',
+      email: email.value,
+      telephone: form.querySelector('#telephone')?.value || '',
+      site_web: form.querySelector('#site_web')?.value || '',
+      google_business: form.querySelector('#google_business')?.value || '',
+      source: Array.from(sources).map(s => s.value),
+      page: pageSlug,
+      submitted_at: new Date().toISOString()
+    };
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Envoi en cours…';
+    errorDiv.classList.add('hidden');
+
+    try {
+      const response = await fetch(WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      if (!response.ok) throw new Error('Erreur serveur');
+      if (typeof plausible !== 'undefined') {
+        plausible('Form Submit', {props: {page: pageSlug}});
+      }
+      window.location.href = '/merci';
+    } catch (err) {
+      errorDiv.textContent = 'Une erreur est survenue. Veuillez réessayer ou nous contacter à contact@eddiemiller.agency.';
+      errorDiv.classList.remove('hidden');
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Demander mon diagnostic gratuit';
+    }
+  });
+</script>
+
+<!-- Counter animation for stat cards -->
+<script>
+  function animateCounter(el: HTMLElement) {
+    const target = parseInt(el.dataset.countTo || '0', 10);
+    const suffix = el.dataset.suffix || '';
+    el.textContent = '0' + suffix;
+    const duration = 1500;
+    const start = performance.now();
+    function update(now: number) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.round(eased * target);
+      el.textContent = current + suffix;
+      if (progress < 1) requestAnimationFrame(update);
+    }
+    requestAnimationFrame(update);
+  }
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target as HTMLElement);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  document.querySelectorAll<HTMLElement>('[data-count-to]').forEach(el => counterObserver.observe(el));
+</script>

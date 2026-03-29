@@ -1,0 +1,192 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const formule = [
+  {
+    name: 'Diagnosi',
+    tagline: 'Sapere a che punto siete',
+    description: "Testiamo la vostra attivita su Google e sulle IA. Riceverete un rapporto chiaro con il vostro punteggio e le azioni prioritarie.",
+    includes: [
+      'Punteggio di visibilita su 100',
+      'Rapporto chiaro con diagnosi completa',
+      'Chiamata di 15 min per parlarne',
+    ],
+    ideal: "Per sapere se avete un problema di visibilita e quale.",
+    cta: 'Richiedere la diagnosi gratuita',
+    ctaHref: '/#audit',
+    highlight: false,
+    free: true,
+  },
+  {
+    name: 'Essenziale',
+    tagline: 'Gettare le basi',
+    description: "Mettiamo in atto le fondamenta perche Google e le IA inizino a raccomandarvi.",
+    includes: [
+      'Tutta la diagnosi inclusa',
+      'Scheda Google ottimizzata e completa',
+      'Presenza sulle fonti consultate dalle IA',
+      'Chiamata di restituzione dettagliata',
+    ],
+    ideal: "Per le attivita che partono da zero o che hanno una presenza online trascurata.",
+    cta: 'Richiedere un preventivo',
+    ctaHref: '/#audit',
+    highlight: false,
+    free: false,
+  },
+  {
+    name: 'Completo',
+    tagline: 'Andare oltre',
+    description: "Ottimizziamo l'intera presenza online per massimizzare le possibilita di essere trovati e raccomandati.",
+    includes: [
+      "Tutto l'Essenziale incluso",
+      'Ottimizzazione completa su 15 punti',
+      'Iscrizione agli elenchi chiave del vostro settore',
+      'Strategia delle recensioni online',
+      'Chiamata approfondita di 45 min',
+    ],
+    ideal: "Per le attivita che vogliono andare oltre e dominare il proprio quartiere.",
+    cta: 'Richiedere un preventivo',
+    ctaHref: '/#audit',
+    highlight: true,
+    free: false,
+  },
+  {
+    name: 'Premium',
+    tagline: 'Risultati duraturi',
+    description: "Ci occupiamo della vostra visibilita per 3 mesi con un monitoraggio mensile e aggiustamenti continui.",
+    includes: [
+      'Tutto il Completo incluso',
+      'Monitoraggio su 3 mesi',
+      '3 rapporti mensili di progressione',
+      'Aggiustamenti continui',
+      'Interlocutore dedicato',
+    ],
+    ideal: "Per le attivita che vogliono risultati misurabili e un accompagnamento nel tempo.",
+    cta: 'Richiedere un preventivo',
+    ctaHref: '/#audit',
+    highlight: false,
+    free: false,
+  },
+];
+---
+<Layout
+  title="I nostri piani — Eddie Miller Agency"
+  description="Diagnosi gratuita, accompagnamento su misura. Scoprite i nostri piani per farvi trovare dai vostri futuri clienti su Google e ChatGPT."
+  canonicalUrl="https://eddiemiller.agency/it/piani"
+  ogTitle="I nostri piani — Eddie Miller Agency"
+  ogDescription="Diagnosi gratuita, accompagnamento su misura per farvi trovare dai vostri futuri clienti."
+>
+  <Header />
+
+  <main id="main-content" class="pt-28 md:pt-32 pb-16 md:pb-24">
+    <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
+
+      <!-- Page header -->
+      <div class="text-center mb-12 md:mb-16 max-w-2xl mx-auto">
+        <h1 class="font-serif text-3xl md:text-[2.75rem] lg:text-5xl text-charcoal leading-[1.15] tracking-tight mb-4 fade-up-slow">
+          Piani chiari, risultati concreti
+        </h1>
+        <div class="mx-auto mb-6 separator-animate h-[2px] bg-terracotta" aria-hidden="true"></div>
+        <p class="font-sans text-base md:text-lg text-stone leading-relaxed blur-in" style="transition-delay: 0.3s;">
+          Tutto inizia con una diagnosi gratuita. Poi vi proponiamo il piano adatto alla vostra situazione. Nessun pacchetto inutile, nessuna sorpresa.
+        </p>
+      </div>
+
+      <!-- Formule cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {formule.map((f) => (
+          <div class:list={[
+            'flex flex-col border p-6 md:p-8 bg-cream card-hover scale-in',
+            f.highlight ? 'border-terracotta' : 'border-warmgray',
+          ]}>
+            <!-- Badge zone — fixed height so titles align -->
+            <div class="lg:min-h-[1.5rem] mb-2">
+              {f.highlight && (
+                <p class="text-xs font-sans font-medium text-terracotta tracking-[0.1em] uppercase">
+                  Il piu richiesto
+                </p>
+              )}
+              {f.free && (
+                <p class="text-xs font-sans font-medium text-terracotta tracking-[0.1em] uppercase">
+                  Gratuito
+                </p>
+              )}
+            </div>
+            <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-1">
+              {f.name}
+            </h2>
+            <p class="text-sm font-sans font-medium text-terracotta mb-3">
+              {f.tagline}
+            </p>
+            <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[8.75rem]">
+              {f.description}
+            </p>
+            <ul class="space-y-3 mb-6 flex-1">
+              {f.includes.map((item) => (
+                <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                  <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <p class="text-xs font-sans font-normal leading-relaxed text-stone/70 italic mb-6">
+              {f.ideal}
+            </p>
+            <a
+              href={f.ctaHref}
+              class:list={[
+                'block text-center px-6 py-3 font-sans font-medium text-sm tracking-wider uppercase transition-colors duration-300 mt-auto',
+                f.highlight
+                  ? 'text-cream bg-terracotta hover:bg-terracotta-dark'
+                  : 'text-charcoal border border-warmgray hover:border-terracotta hover:text-terracotta',
+              ]}
+            >
+              {f.cta} →
+            </a>
+          </div>
+        ))}
+      </div>
+
+      <!-- Monitoraggio mensile -->
+      <div class="mt-10 md:mt-14 border border-warmgray p-8 md:p-10 bg-sand card-hover fade-up">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+          <div class="flex-1">
+            <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-2">
+              Monitoraggio mensile
+            </h2>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone">
+              Proposto dopo ogni prestazione. Monitoriamo la vostra visibilita ogni mese, adattiamo cio che serve, e riceverete un rapporto di progressione. Senza impegno, disdetta in qualsiasi momento.
+            </p>
+          </div>
+          <a
+            href="/#audit"
+            class="inline-block shrink-0 text-center px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
+          >
+            Scopri di piu
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom CTA -->
+      <div class="mt-14 md:mt-20 text-center max-w-2xl mx-auto">
+        <h2 class="text-[2rem] md:text-[2.5rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
+          Non siete sicuri del piano giusto per voi?
+        </h2>
+        <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone mb-8 fade-up">
+          Iniziate con la diagnosi gratuita. Vi diremo esattamente a che punto siete e cosa ha il maggior impatto per la vostra situazione. Poi decidete voi.
+        </p>
+        <a
+          href="/#audit"
+          class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark fade-up"
+        >
+          Richiedere la diagnosi gratuita
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "ogTitle": "Word gevonden door uw toekomstige klanten | Eddie Miller Agency",
+    "ogDescription": "Wordt uw zaak aanbevolen wanneer een klant het aan ChatGPT vraagt? Wij controleren het gratis binnen 24 uur: score op 100 en 3 concrete acties."
+  },
+  "header": {
+    "skipToContent": "Ga naar hoofdinhoud",
+    "homeLabel": "Eddie Miller Agency — Startpagina",
+    "menuLabel": "Navigatiemenu",
+    "themeLabel": "Thema wisselen",
+    "navLabel": "Hoofdnavigatie",
+    "about": "Over ons",
+    "faq": "FAQ",
+    "pricing": "Tarieven",
+    "blog": "Blog",
+    "cta": "Gratis diagnose",
+    "language": "Taal"
+  },
+  "hero": {
+    "title": "Wij brengen meer klanten naar uw zaak.",
+    "subtitle": "Vandaag vragen uw toekomstige klanten aan ChatGPT waar ze naartoe moeten. Als uw naam niet verschijnt, gaan die klanten naar een concurrent. Wij zorgen ervoor dat uw naam wél verschijnt.",
+    "cta": "Vraag mijn gratis diagnose aan",
+    "secondary": "Bekijk hoe het werkt",
+    "trust1": "Resultaat binnen 24 uur",
+    "trust2": "100% gratis",
+    "trust3": "1 klant per regio"
+  },
+  "socialProof": {
+    "label": "Is uw zaak zichtbaar op deze platformen?"
+  },
+  "whatYouGet": {
+    "title": "Wat u gratis ontvangt",
+    "subtitle": "Een volledige diagnose van uw online zichtbaarheid, klaar binnen 24 uur."
+  },
+  "testimonial": {
+    "title": "Wat het in de praktijk verandert",
+    "subtitle": "De zichtbaarheidsscore = hoe vaak u verschijnt wanneer AI en Google worden bevraagd bij 100 zoekopdrachten.",
+    "before": "Voor",
+    "after": "Na"
+  },
+  "problem": {
+    "title": "Uw klanten hebben hun gewoontes veranderd",
+    "subtitle": "Ze typen niet meer in Google. Ze vragen het rechtstreeks aan AI.",
+    "paragraph": "Een klant die zoekt naar \"tandarts bij mij in de buurt\" of \"goed restaurant in de buurt\" op ChatGPT krijgt 3 namen te zien. Geen lijst van 10 links. Als u er niet bij staat, zal die klant nooit weten dat u bestaat."
+  },
+  "quote": {
+    "text": "Wanneer een patiënt ChatGPT om een tandarts vraagt, beveelt de AI slechts 3 namen aan. Staat de uwe erbij?",
+    "cta": "Controleer mijn zichtbaarheid gratis"
+  },
+  "solution": {
+    "title": "Wij maken u zichtbaar waar uw klanten zoeken",
+    "subtitle": "Google, Google Maps, ChatGPT, Gemini, Perplexity: wij dekken alle kanalen."
+  },
+  "whyUs": {
+    "title": "Waarom nu handelen?",
+    "subtitle": "Elke dag zonder zichtbaarheid betekent klanten die naar een concurrent gaan."
+  },
+  "verticals": {
+    "title": "Oplossingen op maat van uw sector",
+    "subtitle": "Elke zaak heeft zijn eigen specificaties. Wij passen onze aanpak aan op uw beroep."
+  },
+  "howItWorks": {
+    "title": "Hoe het werkt",
+    "subtitle": "3 eenvoudige stappen om gevonden te worden door uw toekomstige klanten."
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "subtitle": "Alles wat u moet weten voordat u uw gratis diagnose aanvraagt."
+  },
+  "auditForm": {
+    "title": "Uw gratis diagnose binnen 24 uur",
+    "subtitle": "Wij controleren of ChatGPT, Google en andere AI's uw zaak aanbevelen. Resultaat binnen 24 uur, gratis en vrijblijvend.",
+    "businessName": "Naam van de zaak",
+    "businessNamePlaceholder": "Bistro De Hoek, Tandartspraktijk Jansen…",
+    "managerName": "Naam van de beheerder",
+    "managerNamePlaceholder": "Jan Jansen",
+    "optional": "optioneel",
+    "businessType": "Type zaak",
+    "choosePlaceholder": "Kies…",
+    "typeDentist": "Tandartspraktijk",
+    "typeMedical": "Artsenpraktijk",
+    "typeLawyer": "Advocatenkantoor",
+    "typeRestaurant": "Restaurant",
+    "typeHotel": "Hotel",
+    "typeHair": "Kapsalon & schoonheidssalon",
+    "typeSpa": "Wellness / Spa",
+    "typeGym": "Sportschool / Fitnesscentrum",
+    "typeBar": "Bars & Clubs",
+    "typeOther": "Overig",
+    "address": "Adres van de zaak",
+    "addressPlaceholder": "Hoofdstraat 123, Amsterdam",
+    "email": "E-mailadres",
+    "emailPlaceholder": "u@voorbeeld.nl",
+    "phone": "Telefoonnummer",
+    "phonePlaceholder": "+31 6 12 34 56 78",
+    "website": "Website",
+    "websitePlaceholder": "https://www.mijn-zaak.nl",
+    "googleBusiness": "Google Bedrijfsprofiel",
+    "googleBusinessPlaceholder": "https://g.co/kgs/…",
+    "sourceQuestion": "Hoe heeft u over ons gehoord?",
+    "sourceRecommendation": "Aanbeveling",
+    "sourceEmail": "E-mail",
+    "sourceSocial": "Sociale media",
+    "sourceGoogle": "Google-zoekopdracht",
+    "sourceAI": "AI-zoekopdracht",
+    "sourceOther": "Overig",
+    "errorGeneric": "Er is een fout opgetreden. Probeer het opnieuw of neem contact met ons op via contact@eddiemiller.agency.",
+    "errorSource": "Geef aan hoe u over ons heeft gehoord.",
+    "submitButton": "Vraag mijn gratis diagnose aan",
+    "submitting": "Bezig met verzenden…",
+    "trustSignals": "Resultaat binnen 24 uur · 100% gratis · Vrijblijvend"
+  },
+  "footer": {
+    "description": "Wij helpen uw zaak gevonden te worden door uw toekomstige klanten, op ChatGPT en andere AI's.",
+    "legalLinks": "Navigatielinks",
+    "legal": "Juridische informatie",
+    "terms": "Algemene voorwaarden",
+    "copyright": "© 2026 Eddie Miller Agency. Alle rechten voorbehouden."
+  },
+  "stickyCta": {
+    "text": "Is uw zaak zichtbaar op ChatGPT?",
+    "button": "Gratis diagnose →"
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "text": "De pagina die u zoekt bestaat niet of is verplaatst.",
+    "link": "Terug naar startpagina"
+  },
+  "thankYou": {
+    "title": "Dank u wel!",
+    "subtitle": "Uw diagnoseverzoek is succesvol verzonden."
+  }
+}

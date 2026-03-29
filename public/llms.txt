@@ -1,5 +1,5 @@
 # Eddie Miller Agency
-> Agence spécialisée en visibilité locale sur Google Maps et les assistants IA (ChatGPT, Gemini, Perplexity) pour les activités locales à Paris : restaurants, hôtels, cabinets dentaires, avocats, coiffeurs, spas, salles de sport, bars.
+> Agence spécialisée en visibilité locale sur Google Maps et les assistants IA (ChatGPT, Gemini, Perplexity) pour les activités locales partout dans le monde : restaurants, hôtels, cabinets dentaires, avocats, coiffeurs, spas, salles de sport, bars.
 ## Ce qu'on fait
 On aide les activités avec une adresse physique à être trouvées par leurs futurs clients — sur Google Maps et dans les recommandations des assistants IA.
 ## Services
@@ -26,4 +26,4 @@ On aide les activités avec une adresse physique à être trouvées par leurs fu
 ## Contact
 - Site : https://eddiemiller.agency
 - Email : contact@eddiemiller.agency
-- Adresse : 41 Rue du Montparnasse, 75014 Paris
+- Adresse : 41 Rue du Montparnasse, 75014 Paris, France

@@ -1,0 +1,151 @@
+---
+// Blog article page (Italian) — Dynamic route for individual Italian blog posts
+import { getCollection, render } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('blog')).filter(p => p.data.lang === 'it');
+  return posts.map((post) => ({
+    params: { slug: post.data.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const canonicalUrl = `https://eddiemiller.agency/it/blog/${post.data.slug}`;
+const articleImage = post.data.image
+  ? `https://eddiemiller.agency${post.data.image}`
+  : 'https://eddiemiller.agency/og-image.png';
+
+const formattedDate = post.data.date.toLocaleDateString('it-IT', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+// Get related articles (3 most recent in same locale, excluding current)
+const relatedPosts = (await getCollection('blog'))
+  .filter(p => p.data.lang === 'it' && !p.data.draft && p.data.slug !== post.data.slug)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+---
+<Layout
+  title={post.data.meta_title}
+  description={post.data.meta_description}
+  canonicalUrl={canonicalUrl}
+  ogTitle={post.data.meta_title}
+  ogDescription={post.data.meta_description}
+  ogType="article"
+  ogImage={articleImage}
+>
+  <Header />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.data.title,
+    "description": post.data.meta_description,
+    "datePublished": post.data.date.toISOString().split('T')[0],
+    "dateModified": post.data.date.toISOString().split('T')[0],
+    "author": { "@type": "Organization", "name": "Eddie Miller Agency", "url": "https://eddiemiller.agency" },
+    "publisher": { "@type": "Organization", "name": "Eddie Miller Agency", "url": "https://eddiemiller.agency", "logo": { "@type": "ImageObject", "url": "https://eddiemiller.agency/favicon.svg" } },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": canonicalUrl },
+    "image": articleImage,
+    "inLanguage": "it",
+    "keywords": post.data.tags.join(", "),
+    "articleSection": post.data.category
+  })} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eddiemiller.agency/it" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://eddiemiller.agency/it/blog" },
+      { "@type": "ListItem", "position": 3, "name": post.data.title, "item": canonicalUrl }
+    ]
+  })} />
+
+  <article class="pt-28 md:pt-32 pb-16 md:pb-24">
+    <div class="max-w-[720px] mx-auto px-6 md:px-8">
+
+      <div class="mb-10 md:mb-14">
+        <nav aria-label="Breadcrumb" class="mb-8 md:mb-10">
+          <ol class="flex items-center gap-2 text-sm font-sans text-stone">
+            <li><a href="/it" class="font-medium tracking-wide transition-colors duration-200 hover:text-terracotta">Home</a></li>
+            <li aria-hidden="true" class="text-warmgray">/</li>
+            <li><a href="/it/blog" class="font-medium tracking-wide transition-colors duration-200 hover:text-terracotta">Blog</a></li>
+            <li aria-hidden="true" class="text-warmgray">/</li>
+            <li class="text-warmgray truncate max-w-[200px] md:max-w-none" aria-current="page">{post.data.title}</li>
+          </ol>
+        </nav>
+
+        <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-sans text-stone mb-4">
+          <span class="font-medium text-terracotta uppercase tracking-wider text-xs">{post.data.category}</span>
+          <span class="text-warmgray" aria-hidden="true">&middot;</span>
+          <time datetime={post.data.date.toISOString().split('T')[0]}>{formattedDate}</time>
+          <span class="text-warmgray" aria-hidden="true">&middot;</span>
+          <span>{post.data.reading_time} di lettura</span>
+        </div>
+
+        <h1 class="font-serif text-3xl md:text-[2.75rem] lg:text-5xl text-charcoal leading-[1.15] tracking-tight">{post.data.title}</h1>
+      </div>
+
+      {post.data.image && (
+        <div class="mb-10 md:mb-14 fade-in">
+          <img src={post.data.image} alt={post.data.imageAlt || post.data.title} width="1200" height="630" loading="eager" decoding="async" class="w-full h-auto" style="aspect-ratio: 1200/630; object-fit: cover;" />
+        </div>
+      )}
+
+      <div class="prose"><Content /></div>
+
+      <div class="my-10 md:my-14 py-6 border-t border-b border-warmgray/30">
+        <p class="font-sans text-base md:text-lg text-stone leading-relaxed mb-4">
+          Vuoi sapere se la tua attivita e visibile sull'IA?
+        </p>
+        <a href="/#audit" class="inline-block px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark" onclick="plausible('CTA Click', {props: {location: 'blog-inline'}})">
+          Richiedi la mia diagnosi gratuita &rarr;
+        </a>
+      </div>
+
+      <aside class="mt-14 md:mt-20 py-10 md:py-12 px-6 md:px-10 bg-sand border border-warmgray/30" role="complementary">
+        <p class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-3">I tuoi futuri clienti ti trovano online?</p>
+        <p class="font-sans text-stone text-base leading-relaxed mb-6">Diagnosi gratuita in 24 ore: verifichiamo se i tuoi futuri clienti ti trovano su Google e sull'IA e ti diamo le tue azioni prioritarie.</p>
+        <div class="flex flex-col sm:flex-row gap-3">
+          <a href="/#audit" class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark">Richiedi la mia diagnosi gratuita &rarr;</a>
+          <a href="/formules" class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-charcoal border border-warmgray tracking-wider uppercase transition-colors duration-300 hover:border-terracotta hover:text-terracotta">Vedi i nostri piani</a>
+        </div>
+      </aside>
+
+      {post.data.tags && post.data.tags.length > 0 && (
+        <div class="mt-10 pt-8 border-t border-warmgray/30">
+          <div class="flex flex-wrap gap-2">
+            {post.data.tags.map((tag: string) => (
+              <span class="inline-block px-3 py-1 text-xs font-sans font-medium text-stone bg-sand tracking-wide uppercase">{tag}</span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {relatedPosts.length > 0 && (
+        <div class="mt-10 pt-8 border-t border-warmgray/30">
+          <h2 class="font-serif text-xl md:text-2xl text-charcoal mb-6">Da leggere anche</h2>
+          <div class="space-y-4">
+            {relatedPosts.map((related) => (
+              <a href={`/it/blog/${related.data.slug}`} class="block group py-3 transition-colors duration-200">
+                <span class="inline-block text-xs font-sans font-medium text-terracotta uppercase tracking-wider mb-1">{related.data.category}</span>
+                <p class="font-serif text-lg text-charcoal group-hover:text-terracotta transition-colors duration-200 leading-snug">{related.data.title}</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+    </div>
+  </article>
+
+  <Footer />
+</Layout>

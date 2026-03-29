@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "ogTitle": "Que tus futuros clientes te encuentren | Eddie Miller Agency",
+    "ogDescription": "¿Tu negocio aparece cuando un cliente le pregunta a ChatGPT? Lo verificamos gratis en 24h: puntuación sobre 100 y 3 acciones concretas."
+  },
+  "header": {
+    "skipToContent": "Ir al contenido principal",
+    "homeLabel": "Eddie Miller Agency — Inicio",
+    "menuLabel": "Menú de navegación",
+    "themeLabel": "Cambiar tema",
+    "navLabel": "Navegación principal",
+    "about": "Nosotros",
+    "faq": "Preguntas frecuentes",
+    "pricing": "Tarifas",
+    "blog": "Blog",
+    "cta": "Diagnóstico gratuito",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "Traemos más clientes a tu negocio.",
+    "subtitle": "Hoy, tus futuros clientes le preguntan a ChatGPT adónde ir. Si tu nombre no aparece, un competidor se queda con esos clientes. Nos aseguramos de que tu nombre aparezca.",
+    "cta": "Solicitar mi diagnóstico gratuito",
+    "secondary": "Ver cómo funciona",
+    "trust1": "Resultados en 24h",
+    "trust2": "100% gratuito",
+    "trust3": "1 cliente por zona"
+  },
+  "socialProof": {
+    "label": "¿Tu negocio es visible en estas plataformas?"
+  },
+  "whatYouGet": {
+    "title": "Lo que obtienes gratis",
+    "subtitle": "Un diagnóstico completo de tu visibilidad online, listo en 24 horas."
+  },
+  "testimonial": {
+    "title": "Lo que cambia en la práctica",
+    "subtitle": "La puntuación de visibilidad = cuántas veces apareces cuando se consulta la IA y Google en 100 búsquedas.",
+    "before": "Antes",
+    "after": "Después"
+  },
+  "problem": {
+    "title": "Tus clientes han cambiado sus hábitos",
+    "subtitle": "Ya no escriben en Google. Le preguntan directamente a la IA.",
+    "paragraph": "Un cliente que busca \"dentista cerca de mí\" o \"buen restaurante cercano\" en ChatGPT obtiene 3 nombres. No una lista de 10 enlaces. Si no estás entre ellos, ese cliente nunca sabrá que existes."
+  },
+  "quote": {
+    "text": "Cuando un paciente le pregunta a ChatGPT por un dentista, la IA solo recomienda 3 nombres. ¿El tuyo es uno de ellos?",
+    "cta": "Comprobar mi visibilidad gratis"
+  },
+  "solution": {
+    "title": "Te hacemos visible donde buscan tus clientes",
+    "subtitle": "Google, Google Maps, ChatGPT, Gemini, Perplexity: cubrimos todos los canales."
+  },
+  "whyUs": {
+    "title": "¿Por qué actuar ahora?",
+    "subtitle": "Cada día sin visibilidad significa clientes que se van a la competencia."
+  },
+  "verticals": {
+    "title": "Soluciones adaptadas a tu sector",
+    "subtitle": "Cada negocio tiene sus particularidades. Adaptamos nuestro enfoque a tu profesión."
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "subtitle": "3 pasos sencillos para que tus futuros clientes te encuentren."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Todo lo que necesitas saber antes de solicitar tu diagnóstico gratuito."
+  },
+  "auditForm": {
+    "title": "Tu diagnóstico gratuito en 24h",
+    "subtitle": "Verificamos si ChatGPT, Google y otras IAs recomiendan tu negocio. Resultados en 24h, gratis y sin compromiso.",
+    "businessName": "Nombre del negocio",
+    "businessNamePlaceholder": "El Rincón de María, Clínica Dr. López…",
+    "managerName": "Nombre del responsable",
+    "managerNamePlaceholder": "Juan García",
+    "optional": "opcional",
+    "businessType": "Tipo de negocio",
+    "choosePlaceholder": "Elegir…",
+    "typeDentist": "Clínica dental",
+    "typeMedical": "Consulta médica",
+    "typeLawyer": "Despacho de abogados",
+    "typeRestaurant": "Restaurante",
+    "typeHotel": "Hotel",
+    "typeHair": "Peluquería y estética",
+    "typeSpa": "Bienestar / Spa",
+    "typeGym": "Gimnasio / Centro deportivo",
+    "typeBar": "Bares y discotecas",
+    "typeOther": "Otro",
+    "address": "Dirección del negocio",
+    "addressPlaceholder": "Calle Mayor 12, Centro",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "phone": "Teléfono",
+    "phonePlaceholder": "+34 612 345 678",
+    "website": "Sitio web",
+    "websitePlaceholder": "https://www.mi-negocio.com",
+    "googleBusiness": "Perfil de Google Business",
+    "googleBusinessPlaceholder": "https://g.co/kgs/…",
+    "sourceQuestion": "¿Cómo nos conociste?",
+    "sourceRecommendation": "Recomendación",
+    "sourceEmail": "Correo electrónico",
+    "sourceSocial": "Redes sociales",
+    "sourceGoogle": "Búsqueda en Google",
+    "sourceAI": "Búsqueda con IA",
+    "sourceOther": "Otro",
+    "errorGeneric": "Ha ocurrido un error. Inténtalo de nuevo o contáctanos en contact@eddiemiller.agency.",
+    "errorSource": "Indica cómo nos conociste.",
+    "submitButton": "Solicitar mi diagnóstico gratuito",
+    "submitting": "Enviando…",
+    "trustSignals": "Resultados en 24h · 100% gratuito · Sin compromiso"
+  },
+  "footer": {
+    "description": "Ayudamos a tu negocio a ser encontrado por tus futuros clientes, en ChatGPT y otras IAs.",
+    "legalLinks": "Enlaces de navegación",
+    "legal": "Aviso legal",
+    "terms": "Términos y condiciones",
+    "copyright": "© 2026 Eddie Miller Agency. Todos los derechos reservados."
+  },
+  "stickyCta": {
+    "text": "¿Tu negocio es visible en ChatGPT?",
+    "button": "Diagnóstico gratuito →"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "text": "La página que buscas no existe o ha sido trasladada.",
+    "link": "Volver al inicio"
+  },
+  "thankYou": {
+    "title": "¡Gracias!",
+    "subtitle": "Tu solicitud de diagnóstico se ha enviado correctamente."
+  }
+}

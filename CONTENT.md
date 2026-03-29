@@ -1,6 +1,10 @@
 # CONTENT.md — Contenu de la Landing Page
 
-> **Note :** Le contenu de référence vit dans les composants Astro. Ce fichier sert de documentation et doit être maintenu en synchronisation.
+> **Note :** Le contenu de référence vit dans les fichiers de traduction JSON (`src/i18n/*.json`) et dans les composants Astro. Ce fichier sert de documentation et doit être maintenu en synchronisation.
+>
+> **Multilingue :** Le site est disponible en 7 langues (FR, EN, ES, DE, IT, PT, NL). Le texte français est la référence. Les traductions sont dans `src/i18n/{locale}.json`.
+>
+> **Dark mode :** Le site supporte le mode sombre avec détection automatique de `prefers-color-scheme` et toggle manuel.
 
 Tout le texte visible sur le site est ici. Ne réinvente aucun texte. Copie exactement ce qui suit.
 
@@ -9,11 +13,15 @@ Tout le texte visible sur le site est ici. Ne réinvente aucun texte. Copie exac
 ## Header
 
 - **Nom** : Eddie Miller Agency
-- **Liens de navigation** :
-  - Blog → `/blog`
-  - Nos formules → `/formules`
-- **CTA header** : Diagnostic gratuit → `/#audit`
-- **Skip link** : Aller au contenu principal
+- **Liens de navigation** (localisés via `navRoutes` dans `src/i18n/index.ts`) :
+  - À propos → `/a-propos` (FR) | `/en/about` (EN) | etc.
+  - FAQ → `/#faq` (FR) | `/en/#faq` (EN) | etc.
+  - Nos formules → `/formules` (FR) | `/en/pricing` (EN) | etc.
+  - Blog → `/blog` (FR) | `/en/blog` (EN) | etc.
+- **CTA header** : Diagnostic gratuit → `/#audit` (localisé)
+- **Skip link** : Aller au contenu principal (traduit via `t()`)
+- **Dark mode toggle** : Icône soleil/lune en haut à droite
+- **Sélecteur de langue** : Code locale (FR, EN, ES...) avec dropdown
 
 ---
 

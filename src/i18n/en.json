@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "ogTitle": "Be found by your future customers | Eddie Miller Agency",
+    "ogDescription": "Is your business recommended when a customer asks ChatGPT? We check for free in 24h: score out of 100 and 3 concrete actions."
+  },
+  "header": {
+    "skipToContent": "Skip to main content",
+    "homeLabel": "Eddie Miller Agency — Home",
+    "menuLabel": "Navigation menu",
+    "themeLabel": "Toggle theme",
+    "navLabel": "Main navigation",
+    "about": "About",
+    "faq": "FAQ",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "cta": "Free diagnostic",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "We bring more customers to your business.",
+    "subtitle": "Today, your future customers ask ChatGPT where to go. If your name doesn't show up, a competitor gets those customers. We make sure your name appears.",
+    "cta": "Request my free diagnostic",
+    "secondary": "See how it works",
+    "trust1": "Results in 24h",
+    "trust2": "100% free",
+    "trust3": "1 client per area"
+  },
+  "socialProof": {
+    "label": "Is your business visible on these platforms?"
+  },
+  "whatYouGet": {
+    "title": "What you get for free",
+    "subtitle": "A complete diagnostic of your online visibility, ready in 24 hours."
+  },
+  "testimonial": {
+    "title": "What it changes in practice",
+    "subtitle": "The visibility score = how many times you appear when AI and Google are queried across 100 searches.",
+    "before": "Before",
+    "after": "After"
+  },
+  "problem": {
+    "title": "Your customers have changed their habits",
+    "subtitle": "They no longer type into Google. They ask AI directly.",
+    "paragraph": "A customer searching for \"dentist near me\" or \"good restaurant nearby\" on ChatGPT gets 3 names. Not a list of 10 links. If you're not among them, that customer will never know you exist."
+  },
+  "quote": {
+    "text": "When a patient asks ChatGPT for a dentist, the AI only recommends 3 names. Is yours one of them?",
+    "cta": "Check my visibility for free"
+  },
+  "solution": {
+    "title": "We make you visible where your customers search",
+    "subtitle": "Google, Google Maps, ChatGPT, Gemini, Perplexity: we cover all channels."
+  },
+  "whyUs": {
+    "title": "Why act now?",
+    "subtitle": "Every day without visibility means customers going to a competitor."
+  },
+  "verticals": {
+    "title": "Solutions tailored to your industry",
+    "subtitle": "Every business has its specifics. We adapt our approach to your profession."
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "subtitle": "3 simple steps to be found by your future customers."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know before requesting your free diagnostic."
+  },
+  "auditForm": {
+    "title": "Your free diagnostic in 24h",
+    "subtitle": "We check if ChatGPT, Google and other AIs recommend your business. Results in 24h, free and no commitment.",
+    "businessName": "Business name",
+    "businessNamePlaceholder": "The Corner Bistro, Dr. Smith's Office…",
+    "managerName": "Manager name",
+    "managerNamePlaceholder": "John Smith",
+    "optional": "optional",
+    "businessType": "Business type",
+    "choosePlaceholder": "Choose…",
+    "typeDentist": "Dental practice",
+    "typeMedical": "Medical practice",
+    "typeLawyer": "Law firm",
+    "typeRestaurant": "Restaurant",
+    "typeHotel": "Hotel",
+    "typeHair": "Hair & beauty salon",
+    "typeSpa": "Wellness / Spa",
+    "typeGym": "Gym / Fitness center",
+    "typeBar": "Bars & Clubs",
+    "typeOther": "Other",
+    "address": "Business address",
+    "addressPlaceholder": "123 Main Street, Downtown",
+    "email": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Phone number",
+    "phonePlaceholder": "+1 555 123 4567",
+    "website": "Website",
+    "websitePlaceholder": "https://www.my-business.com",
+    "googleBusiness": "Google Business Profile",
+    "googleBusinessPlaceholder": "https://g.co/kgs/…",
+    "sourceQuestion": "How did you hear about us?",
+    "sourceRecommendation": "Recommendation",
+    "sourceEmail": "Email",
+    "sourceSocial": "Social media",
+    "sourceGoogle": "Google search",
+    "sourceAI": "AI search",
+    "sourceOther": "Other",
+    "errorGeneric": "An error occurred. Please try again or contact us at contact@eddiemiller.agency.",
+    "errorSource": "Please indicate how you heard about us.",
+    "submitButton": "Request my free diagnostic",
+    "submitting": "Sending…",
+    "trustSignals": "Results in 24h · 100% free · No commitment"
+  },
+  "footer": {
+    "description": "We help your business be found by your future customers, on ChatGPT and other AIs.",
+    "legalLinks": "Navigation links",
+    "legal": "Legal notice",
+    "terms": "Terms & Conditions",
+    "copyright": "© 2026 Eddie Miller Agency. All rights reserved."
+  },
+  "stickyCta": {
+    "text": "Is your business visible on ChatGPT?",
+    "button": "Free diagnostic →"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you're looking for doesn't exist or has been moved.",
+    "link": "Back to home"
+  },
+  "thankYou": {
+    "title": "Thank you!",
+    "subtitle": "Your diagnostic request has been sent successfully."
+  }
+}

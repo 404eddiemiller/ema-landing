@@ -1,14 +1,83 @@
 ---
-// Header component — Logo + dropdown menu + CTA
+// Header component — Logo + language switcher + dark mode toggle + dropdown menu + CTA
+import { locales, localeNames, getLocaleFromPath, localePath, navRoutes, getAlternateUrls, type Locale } from '../i18n/index';
+import { t } from '../i18n/index';
+
+const currentPath = Astro.url.pathname;
+const locale = getLocaleFromPath(currentPath);
+const nav = navRoutes[locale];
+const alternates = getAlternateUrls(currentPath);
+
+// Build locale switch URLs: equivalent page if available, otherwise locale homepage
+function getLangSwitchUrl(targetLocale: Locale): string {
+  if (alternates && alternates[targetLocale]) {
+    return alternates[targetLocale];
+  }
+  return targetLocale === 'fr' ? '/' : `/${targetLocale}/`;
+}
 ---
 <header class="fixed top-0 left-0 w-full z-50 bg-cream/95 backdrop-blur-sm">
   <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[60] focus:px-4 focus:py-2 focus:bg-terracotta focus:text-cream focus:font-sans focus:font-medium focus:text-sm">
-    Aller au contenu principal
+    {t('header.skipToContent', locale)}
   </a>
   <div class="flex items-center justify-between max-w-container mx-auto px-6 md:px-8 lg:px-16 py-4">
-    <a href="/" class="font-serif text-base md:text-xl text-charcoal tracking-tight leading-tight shrink-0 transition-colors duration-300 hover:text-terracotta" aria-label="Eddie Miller Agency — Accueil">
+    <a href={nav.home} class="font-serif text-base md:text-xl text-charcoal tracking-tight leading-tight shrink-0 transition-colors duration-300 hover:text-terracotta" aria-label={t('header.homeLabel', locale)}>
       Eddie Miller Agency
     </a>
+
+    <div class="flex items-center gap-2">
+      <!-- Dark mode toggle -->
+      <button
+        id="theme-toggle"
+        type="button"
+        class="relative z-50 flex items-center justify-center w-10 h-10 cursor-pointer bg-transparent border-none text-stone transition-colors duration-300 hover:text-charcoal"
+        aria-label={t('header.themeLabel', locale)}
+      >
+        <!-- Sun icon (visible in dark mode) -->
+        <svg class="theme-icon-sun hidden w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5" />
+          <line x1="12" y1="1" x2="12" y2="3" /><line x1="12" y1="21" x2="12" y2="23" />
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" /><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+          <line x1="1" y1="12" x2="3" y2="12" /><line x1="21" y1="12" x2="23" y2="12" />
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" /><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <!-- Moon icon (visible in light mode) -->
+        <svg class="theme-icon-moon w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+      </button>
+
+      <!-- Language switcher -->
+      <div class="relative" id="lang-switcher">
+        <button
+          id="lang-btn"
+          type="button"
+          class="relative z-50 flex items-center justify-center w-10 h-10 cursor-pointer bg-transparent border-none text-stone transition-colors duration-300 hover:text-charcoal"
+          aria-label={t('header.language', locale)}
+          aria-expanded="false"
+          aria-controls="lang-dropdown"
+        >
+          <span class="font-sans text-xs font-semibold uppercase tracking-wider">{locale}</span>
+        </button>
+        <div
+          id="lang-dropdown"
+          class="lang-dropdown"
+          hidden
+        >
+          {locales.map((l) => (
+            <a
+              href={getLangSwitchUrl(l)}
+              class:list={[
+                "block px-4 py-2 font-sans text-sm transition-colors duration-200 whitespace-nowrap",
+                l === locale ? "text-terracotta font-medium" : "text-stone hover:text-charcoal hover:bg-sand"
+              ]}
+              data-locale={l}
+            >
+              {localeNames[l]}
+            </a>
+          ))}
+        </div>
+      </div>
 
     <!-- Menu button -->
     <button
@@ -17,12 +86,13 @@
       class="relative z-50 flex flex-col justify-center items-center w-10 h-10 gap-[5px] cursor-pointer bg-transparent border-none"
       aria-expanded="false"
       aria-controls="menu-panel"
-      aria-label="Menu de navigation"
+      aria-label={t('header.menuLabel', locale)}
     >
       <span class="menu-bar block w-5 h-[1.5px] bg-charcoal transition-all duration-300 origin-center"></span>
       <span class="menu-bar block w-5 h-[1.5px] bg-charcoal transition-all duration-300 origin-center"></span>
       <span class="menu-bar block w-5 h-[1.5px] bg-charcoal transition-all duration-300 origin-center"></span>
     </button>
+    </div>
   </div>
   <div class="h-px bg-warmgray opacity-50"></div>
 
@@ -31,29 +101,29 @@
     id="menu-panel"
     class="menu-panel"
     hidden
-    aria-label="Navigation principale"
+    aria-label={t('header.navLabel', locale)}
   >
     <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16 py-6 md:py-8">
       <div class="flex flex-col gap-4">
-        <a href="/a-propos" class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
-          À propos
+        <a href={nav.about} class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
+          {t('header.about', locale)}
         </a>
-        <a href="/#faq" class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
-          FAQ
+        <a href={nav.faq} class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
+          {t('header.faq', locale)}
         </a>
-        <a href="/formules" class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
-          Nos formules
+        <a href={nav.pricing} class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
+          {t('header.pricing', locale)}
         </a>
-        <a href="/blog" class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
-          Blog
+        <a href={nav.blog} class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
+          {t('header.blog', locale)}
         </a>
         <div class="h-px bg-warmgray/30 my-2" aria-hidden="true"></div>
         <a
-          href="/#audit"
+          href={nav.audit}
           class="menu-link inline-block text-center px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
           onclick="plausible('CTA Click', {props: {location: 'header-menu'}})"
         >
-          Diagnostic gratuit
+          {t('header.cta', locale)}
         </a>
       </div>
     </div>
@@ -61,6 +131,95 @@
 </header>
 
 <script>
+  // Theme toggle logic
+  const themeToggle = document.getElementById('theme-toggle');
+  const sunIcon = document.querySelector('.theme-icon-sun');
+  const moonIcon = document.querySelector('.theme-icon-moon');
+
+  function getEffectiveTheme(): string {
+    const saved = localStorage.getItem('theme');
+    if (saved === 'dark' || saved === 'light') return saved;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  function updateThemeIcons(theme: string) {
+    if (sunIcon && moonIcon) {
+      if (theme === 'dark') {
+        sunIcon.classList.remove('hidden');
+        moonIcon.classList.add('hidden');
+      } else {
+        sunIcon.classList.add('hidden');
+        moonIcon.classList.remove('hidden');
+      }
+    }
+  }
+
+  // Set initial icon state
+  updateThemeIcons(getEffectiveTheme());
+
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+      updateThemeIcons(e.matches ? 'dark' : 'light');
+    }
+  });
+
+  themeToggle?.addEventListener('click', () => {
+    const current = getEffectiveTheme();
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    updateThemeIcons(next);
+  });
+
+  // Language dropdown logic
+  const langBtn = document.getElementById('lang-btn');
+  const langDropdown = document.getElementById('lang-dropdown');
+
+  if (langBtn && langDropdown) {
+    langBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = langBtn.getAttribute('aria-expanded') === 'true';
+      if (isOpen) {
+        closeLangDropdown();
+      } else {
+        openLangDropdown();
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      if (langBtn.getAttribute('aria-expanded') === 'true'
+        && !langDropdown.contains(e.target as Node)
+        && !langBtn.contains(e.target as Node)) {
+        closeLangDropdown();
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && langBtn.getAttribute('aria-expanded') === 'true') {
+        closeLangDropdown();
+        langBtn.focus();
+      }
+    });
+
+    function openLangDropdown() {
+      langBtn.setAttribute('aria-expanded', 'true');
+      langDropdown.removeAttribute('hidden');
+      requestAnimationFrame(() => {
+        langDropdown.classList.add('open');
+      });
+    }
+
+    function closeLangDropdown() {
+      langBtn.setAttribute('aria-expanded', 'false');
+      langDropdown.classList.remove('open');
+      langDropdown.addEventListener('transitionend', function handler() {
+        langDropdown.setAttribute('hidden', '');
+        langDropdown.removeEventListener('transitionend', handler);
+      });
+    }
+  }
+
   const menuBtn = document.getElementById('menu-btn');
   const menuPanel = document.getElementById('menu-panel');
 

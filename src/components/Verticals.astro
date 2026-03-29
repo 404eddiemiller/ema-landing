@@ -1,5 +1,7 @@
 ---
 // Verticals section — Interactive cards with hover animations
+import { t, getLocaleFromPath, type Locale } from '../i18n/index';
+const locale = getLocaleFromPath(Astro.url.pathname);
 const verticals = [
   { title: 'Cabinets dentaires', description: "Vos futurs patients demandent un dentiste à ChatGPT. On fait en sorte que ce soit vous qu'il recommande.", icon: 'stethoscope', href: '/dentistes' },
   { title: "Cabinets d'avocats", description: "Un client qui cherche un avocat en urgence demande à l'IA. Soyez le nom qui sort.", icon: 'scale', href: '/avocats' },
@@ -26,10 +28,10 @@ const icons: Record<string, string> = {
 <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Ça marche pour votre métier">
   <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
     <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow">
-      Ça marche pour votre métier
+      {t('verticals.title', locale)}
     </h2>
     <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-up">
-      Si vous avez une adresse physique et que vos clients vous cherchent en ligne, on peut vous aider.
+      {t('verticals.subtitle', locale)}
     </p>
 
     <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
