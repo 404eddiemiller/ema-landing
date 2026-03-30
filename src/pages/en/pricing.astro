@@ -25,17 +25,21 @@ const formules = [
   {
     name: 'Essential',
     tagline: 'Build the foundation',
-    price: 'From €490',
-    priceDetail: 'one-time service',
+    price: '€399',
+    priceDetail: 'excl. VAT · one-time service',
     description: "We set up the foundations so Google and AI start recommending you.",
     includes: [
       'Full diagnostic included',
       'Google profile optimized and complete',
+      'Registration on 5 key directories in your industry',
+      '2 Google Business Profile posts written and published',
       'Presence on sources consulted by AI',
-      'Detailed debrief call',
+      'Schema.org / structured data (if website exists)',
+      'Personalized roadmap with before/after screenshots',
+      '30-minute debrief call',
     ],
     ideal: "For businesses starting from scratch or with a neglected online presence.",
-    cta: 'Request a quote',
+    cta: 'Request my free diagnostic',
     ctaHref: '#diagnostic',
     highlight: false,
     free: false,
@@ -43,18 +47,22 @@ const formules = [
   {
     name: 'Complete',
     tagline: 'Go further',
-    price: 'Custom quote',
-    priceDetail: 'tailored to your situation',
+    price: '€699',
+    priceDetail: 'excl. VAT · one-time service',
     description: "We optimize your entire online presence to maximize your chances of being found and recommended.",
     includes: [
       'Everything in Essential included',
       'Full optimization across 15 points',
-      'Registration on key directories in your industry',
-      'Online review strategy',
+      'Registration on 10+ directories in your industry',
+      'Online review strategy (templates + guide + QR code)',
+      '4 Google Business Profile posts written and published',
+      'Complete Schema.org (business + FAQ + practitioners)',
+      'Competitive report (3 competitors analyzed)',
+      'Basic website optimization (if applicable)',
       'In-depth 45-minute call',
     ],
     ideal: "For businesses that want to go further and dominate their area.",
-    cta: 'Request a quote',
+    cta: 'Request my free diagnostic',
     ctaHref: '#diagnostic',
     highlight: true,
     free: false,
@@ -62,18 +70,21 @@ const formules = [
   {
     name: 'Premium',
     tagline: 'Lasting results',
-    price: 'Custom quote',
-    priceDetail: '3-month engagement',
-    description: "We take charge of your visibility over 3 months with monthly monitoring and continuous adjustments.",
+    price: '€1,199',
+    priceDetail: 'excl. VAT · one-time service',
+    description: "We handle your entire online visibility with a comprehensive, tailored service.",
     includes: [
       'Everything in Complete included',
-      '3-month engagement',
-      '3 monthly progress reports',
-      'Continuous adjustments',
-      'Dedicated point of contact',
+      'Registration on 20+ directories',
+      '8 Google Business Profile posts written and published',
+      'Full keyword research for your industry',
+      '5 competitor analysis',
+      'Complete website optimization',
+      'Advanced Schema.org (all relevant types)',
+      'Personalized 6-month strategic guide',
     ],
-    ideal: "For businesses that want measurable results and long-term support.",
-    cta: 'Request a quote',
+    ideal: "For businesses that want the maximum in a single service.",
+    cta: 'Request my free diagnostic',
     ctaHref: '#diagnostic',
     highlight: false,
     free: false,
@@ -130,11 +141,11 @@ const formules = [
               {f.tagline}
             </p>
             <div class="mb-5">
-              <p class="text-2xl font-serif font-normal text-charcoal leading-tight">
+              <p class="text-3xl md:text-4xl font-serif font-normal text-charcoal leading-tight">
                 {f.price}
               </p>
               {f.priceDetail && (
-                <p class="text-xs font-sans text-stone mt-1">{f.priceDetail}</p>
+                <p class="text-sm font-sans text-stone mt-1">{f.priceDetail}</p>
               )}
             </div>
             <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[6rem]">
@@ -168,13 +179,45 @@ const formules = [
 
       <!-- Monthly monitoring -->
       <div class="mt-10 md:mt-14 border border-warmgray p-8 md:p-10 bg-sand card-hover fade-up">
-        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
           <div class="flex-1">
             <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-2">
               Monthly monitoring
             </h2>
-            <p class="text-base font-sans font-normal leading-relaxed text-stone">
-              Offered after every engagement. We monitor your visibility each month, adjust what needs to be adjusted, and you receive a progress report. No commitment, cancel anytime.
+            <div class="mb-4">
+              <p class="text-3xl md:text-4xl font-serif font-normal text-charcoal leading-tight">
+                €99
+              </p>
+              <p class="text-sm font-sans text-stone mt-1">excl. VAT/month</p>
+              <p class="text-sm font-sans font-medium text-terracotta mt-1">No commitment · cancel anytime</p>
+            </div>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone mb-5">
+              We monitor your visibility each month, adjust what needs to be adjusted, and you receive a progress report.
+            </p>
+            <ul class="space-y-3 mb-5">
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Monthly AI visibility score re-test
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                2 to 4 Google Business Profile posts per month
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Google reviews monitoring + suggested responses
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Monthly progress report
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Geographic exclusivity: one client per area and specialty
+              </li>
+            </ul>
+            <p class="text-xs font-sans font-normal leading-relaxed text-stone/70 italic">
+              Offered after every engagement.
             </p>
           </div>
           <a

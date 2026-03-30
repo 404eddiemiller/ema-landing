@@ -25,17 +25,21 @@ const pakketten = [
   {
     name: 'Basis',
     tagline: 'De basis leggen',
-    price: 'Vanaf 490 €',
-    priceDetail: 'eenmalige dienst',
+    price: '€ 399',
+    priceDetail: 'excl. btw · eenmalige dienst',
     description: "Wij leggen de fundamenten zodat Google en de AI u beginnen aan te bevelen.",
     includes: [
       'Volledige diagnose inbegrepen',
       'Geoptimaliseerd en volledig Google-profiel',
+      'Inschrijving bij 5 belangrijke gidsen in uw sector',
+      '2 Google Business Profile berichten geschreven en gepubliceerd',
       'Aanwezigheid op bronnen die door AI worden geraadpleegd',
-      'Gedetailleerd terugkoppelingsgesprek',
+      'Schema.org / gestructureerde gegevens (indien website bestaat)',
+      'Gepersonaliseerd stappenplan met voor/na screenshots',
+      'Terugkoppelingsgesprek van 30 min',
     ],
     ideal: "Voor ondernemingen die van nul beginnen of een verwaarloosde online aanwezigheid hebben.",
-    cta: 'Een offerte aanvragen',
+    cta: 'Mijn gratis diagnose aanvragen',
     ctaHref: '#diagnostic',
     highlight: false,
     free: false,
@@ -43,18 +47,22 @@ const pakketten = [
   {
     name: 'Compleet',
     tagline: 'Verder gaan',
-    price: 'Op maat',
-    priceDetail: 'afgestemd op uw situatie',
+    price: '€ 699',
+    priceDetail: 'excl. btw · eenmalige dienst',
     description: "Wij optimaliseren uw volledige online aanwezigheid om uw kansen om gevonden en aanbevolen te worden te maximaliseren.",
     includes: [
       'Alles van Basis inbegrepen',
       'Volledige optimalisatie op 15 punten',
-      'Inschrijving bij de belangrijkste gidsen in uw sector',
-      'Strategie voor online recensies',
+      'Inschrijving bij 10+ gidsen in uw sector',
+      'Strategie voor online recensies (sjablonen + gids + QR-code)',
+      '4 Google Business Profile berichten geschreven en gepubliceerd',
+      'Volledig Schema.org (bedrijf + FAQ + beoefenaars)',
+      'Concurrentierapport (3 concurrenten geanalyseerd)',
+      'Basisoptimalisatie van uw website (indien van toepassing)',
       'Uitgebreid gesprek van 45 min',
     ],
     ideal: "Voor ondernemingen die verder willen gaan en hun wijk willen domineren.",
-    cta: 'Een offerte aanvragen',
+    cta: 'Mijn gratis diagnose aanvragen',
     ctaHref: '#diagnostic',
     highlight: true,
     free: false,
@@ -62,18 +70,21 @@ const pakketten = [
   {
     name: 'Premium',
     tagline: 'Duurzame resultaten',
-    price: 'Op maat',
-    priceDetail: '3 maanden begeleiding',
-    description: "Wij nemen uw zichtbaarheid 3 maanden onder onze hoede met maandelijkse opvolging en continue bijsturing.",
+    price: '€ 1.199',
+    priceDetail: 'excl. btw · eenmalige dienst',
+    description: "Wij nemen uw volledige online zichtbaarheid onder onze hoede met een uitgebreide dienst op maat.",
     includes: [
       'Alles van Compleet inbegrepen',
-      'Opvolging gedurende 3 maanden',
-      '3 maandelijkse voortgangsrapporten',
-      'Continue bijsturing',
-      'Vast aanspreekpunt',
+      'Inschrijving bij 20+ gidsen',
+      '8 Google Business Profile berichten geschreven en gepubliceerd',
+      'Volledig zoekwoordenonderzoek voor uw sector',
+      'Analyse van 5 concurrenten',
+      'Volledige website-optimalisatie',
+      'Geavanceerd Schema.org (alle relevante types)',
+      'Gepersonaliseerde strategiegids voor 6 maanden',
     ],
-    ideal: "Voor ondernemingen die meetbare resultaten en langdurige begeleiding willen.",
-    cta: 'Een offerte aanvragen',
+    ideal: "Voor ondernemingen die het maximum willen in één enkele dienst.",
+    cta: 'Mijn gratis diagnose aanvragen',
     ctaHref: '#diagnostic',
     highlight: false,
     free: false,
@@ -130,11 +141,11 @@ const pakketten = [
               {f.tagline}
             </p>
             <div class="mb-5">
-              <p class="text-2xl font-serif font-normal text-charcoal leading-tight">
+              <p class="text-3xl md:text-4xl font-serif font-normal text-charcoal leading-tight">
                 {f.price}
               </p>
               {f.priceDetail && (
-                <p class="text-xs font-sans text-stone mt-1">{f.priceDetail}</p>
+                <p class="text-sm font-sans text-stone mt-1">{f.priceDetail}</p>
               )}
             </div>
             <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[6rem]">
@@ -168,13 +179,45 @@ const pakketten = [
 
       <!-- Maandelijkse opvolging -->
       <div class="mt-10 md:mt-14 border border-warmgray p-8 md:p-10 bg-sand card-hover fade-up">
-        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
           <div class="flex-1">
             <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-2">
               Maandelijkse opvolging
             </h2>
-            <p class="text-base font-sans font-normal leading-relaxed text-stone">
-              Aangeboden na elke prestatie. Wij bewaken uw zichtbaarheid elke maand, sturen bij waar nodig, en u ontvangt een voortgangsrapport. Zonder verplichtingen, op elk moment opzegbaar.
+            <div class="mb-4">
+              <p class="text-3xl md:text-4xl font-serif font-normal text-charcoal leading-tight">
+                € 99
+              </p>
+              <p class="text-sm font-sans text-stone mt-1">excl. btw/maand</p>
+              <p class="text-sm font-sans font-medium text-terracotta mt-1">Zonder verplichtingen · op elk moment opzegbaar</p>
+            </div>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone mb-5">
+              Wij bewaken uw zichtbaarheid elke maand, sturen bij waar nodig, en u ontvangt een voortgangsrapport.
+            </p>
+            <ul class="space-y-3 mb-5">
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Maandelijkse hertest AI-zichtbaarheidsscore
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                2 tot 4 Google Business Profile berichten per maand
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Monitoring Google-recensies + voorgestelde antwoorden
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Maandelijks voortgangsrapport
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Geografische exclusiviteit: één klant per wijk en specialiteit
+              </li>
+            </ul>
+            <p class="text-xs font-sans font-normal leading-relaxed text-stone/70 italic">
+              Aangeboden na elke prestatie.
             </p>
           </div>
           <a

@@ -25,17 +25,21 @@ const formulas = [
   {
     name: 'Essencial',
     tagline: 'Estabelecer as bases',
-    price: 'A partir de 490 €',
-    priceDetail: 'serviço único',
+    price: '399 €',
+    priceDetail: 'sem IVA · serviço único',
     description: "Implementamos as fundacoes para que o Google e as IA comecem a recomenda-lo.",
     includes: [
       'Todo o diagnostico incluido',
       'Ficha Google otimizada e completa',
+      'Inscricao em 5 diretorios-chave do seu setor',
+      '2 publicacoes Google Business Profile redigidas e publicadas',
       'Presenca nas fontes consultadas pelas IA',
-      'Chamada de restituicao detalhada',
+      'Schema.org / dados estruturados (se site existente)',
+      'Roteiro personalizado com capturas antes/depois',
+      'Chamada de restituicao de 30 min',
     ],
     ideal: "Para as atividades que partem do zero ou que tem uma presenca online negligenciada.",
-    cta: 'Pedir um orcamento',
+    cta: 'Pedir o meu diagnostico gratuito',
     ctaHref: '#diagnostic',
     highlight: false,
     free: false,
@@ -43,18 +47,22 @@ const formulas = [
   {
     name: 'Completo',
     tagline: 'Ir mais longe',
-    price: 'Sob orçamento',
-    priceDetail: 'adaptado à sua situação',
+    price: '699 €',
+    priceDetail: 'sem IVA · serviço único',
     description: "Otimizamos toda a sua presenca online para maximizar as hipoteses de ser encontrado e recomendado.",
     includes: [
       'Todo o Essencial incluido',
       'Otimizacao completa em 15 pontos',
-      'Inscricao nos diretorios-chave do seu setor',
-      'Estrategia de avaliacoes online',
+      'Inscricao em 10+ diretorios do seu setor',
+      'Estrategia de avaliacoes online (modelos + guia + codigo QR)',
+      '4 publicacoes Google Business Profile redigidas e publicadas',
+      'Schema.org completo (empresa + FAQ + profissionais)',
+      'Relatorio competitivo (3 concorrentes analisados)',
+      'Otimizacao basica do seu site web (se existente)',
       'Chamada aprofundada de 45 min',
     ],
     ideal: "Para as atividades que querem ir mais longe e dominar o seu bairro.",
-    cta: 'Pedir um orcamento',
+    cta: 'Pedir o meu diagnostico gratuito',
     ctaHref: '#diagnostic',
     highlight: true,
     free: false,
@@ -62,18 +70,21 @@ const formulas = [
   {
     name: 'Premium',
     tagline: 'Resultados duraveis',
-    price: 'Sob orçamento',
-    priceDetail: 'compromisso de 3 meses',
-    description: "Encarregamo-nos da sua visibilidade durante 3 meses com acompanhamento mensal e ajustes continuos.",
+    price: '1 199 €',
+    priceDetail: 'sem IVA · serviço único',
+    description: "Encarregamo-nos de toda a sua visibilidade online com um servico completo e a medida.",
     includes: [
       'Todo o Completo incluido',
-      'Acompanhamento durante 3 meses',
-      '3 relatorios mensais de progressao',
-      'Ajustes continuos',
-      'Interlocutor dedicado',
+      'Inscricao em 20+ diretorios',
+      '8 publicacoes Google Business Profile redigidas e publicadas',
+      'Pesquisa de palavras-chave completa para o seu setor',
+      'Analise de 5 concorrentes',
+      'Otimizacao completa do seu site web',
+      'Schema.org avancado (todos os tipos relevantes)',
+      'Guia estrategico personalizado a 6 meses',
     ],
-    ideal: "Para as atividades que querem resultados mensuraveis e um acompanhamento a longo prazo.",
-    cta: 'Pedir um orcamento',
+    ideal: "Para as atividades que querem o maximo num unico servico.",
+    cta: 'Pedir o meu diagnostico gratuito',
     ctaHref: '#diagnostic',
     highlight: false,
     free: false,
@@ -130,11 +141,11 @@ const formulas = [
               {f.tagline}
             </p>
             <div class="mb-5">
-              <p class="text-2xl font-serif font-normal text-charcoal leading-tight">
+              <p class="text-3xl md:text-4xl font-serif font-normal text-charcoal leading-tight">
                 {f.price}
               </p>
               {f.priceDetail && (
-                <p class="text-xs font-sans text-stone mt-1">{f.priceDetail}</p>
+                <p class="text-sm font-sans text-stone mt-1">{f.priceDetail}</p>
               )}
             </div>
             <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[6rem]">
@@ -168,13 +179,45 @@ const formulas = [
 
       <!-- Acompanhamento mensal -->
       <div class="mt-10 md:mt-14 border border-warmgray p-8 md:p-10 bg-sand card-hover fade-up">
-        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
           <div class="flex-1">
             <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-2">
               Acompanhamento mensal
             </h2>
-            <p class="text-base font-sans font-normal leading-relaxed text-stone">
-              Proposto apos cada prestacao. Monitorizamos a sua visibilidade todos os meses, ajustamos o que for necessario, e recebe um relatorio de progressao. Sem compromisso, cancelavel a qualquer momento.
+            <div class="mb-4">
+              <p class="text-3xl md:text-4xl font-serif font-normal text-charcoal leading-tight">
+                99 €
+              </p>
+              <p class="text-sm font-sans text-stone mt-1">sem IVA/mês</p>
+              <p class="text-sm font-sans font-medium text-terracotta mt-1">Sem compromisso · cancelável a qualquer momento</p>
+            </div>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone mb-5">
+              Monitorizamos a sua visibilidade todos os meses, ajustamos o que for necessario, e recebe um relatorio de progressao.
+            </p>
+            <ul class="space-y-3 mb-5">
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Re-teste mensal da pontuacao de visibilidade IA
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                2 a 4 publicacoes Google Business Profile por mes
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Monitorizacao de avaliacoes Google + respostas sugeridas
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Relatorio mensal de progressao
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Exclusividade geografica: um unico cliente por bairro e especialidade
+              </li>
+            </ul>
+            <p class="text-xs font-sans font-normal leading-relaxed text-stone/70 italic">
+              Proposto apos cada prestacao.
             </p>
           </div>
           <a

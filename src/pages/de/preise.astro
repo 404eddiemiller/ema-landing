@@ -25,17 +25,21 @@ const formules = [
   {
     name: 'Basis',
     tagline: 'Das Fundament legen',
-    price: 'Ab 490 €',
-    priceDetail: 'einmalige Leistung',
+    price: '399 €',
+    priceDetail: 'zzgl. MwSt. · einmalige Leistung',
     description: "Wir legen die Grundlagen, damit Google und KI-Assistenten beginnen, Sie zu empfehlen.",
     includes: [
       'Gesamte Diagnose inklusive',
       'Optimiertes und vollständiges Google-Profil',
+      'Eintrag in 5 wichtige Branchenverzeichnisse',
+      '2 Google Business Profile Beiträge erstellt und veröffentlicht',
       'Präsenz in den von KI genutzten Quellen',
-      'Ausführliches Rückgabegespräch',
+      'Schema.org / strukturierte Daten (falls Website vorhanden)',
+      'Personalisierter Fahrplan mit Vorher/Nachher-Screenshots',
+      'Rückgabegespräch von 30 Min.',
     ],
     ideal: "Für Unternehmen, die bei null anfangen oder deren Online-Präsenz vernachlässigt wurde.",
-    cta: 'Angebot anfordern',
+    cta: 'Kostenlose Diagnose anfordern',
     ctaHref: '#diagnostic',
     highlight: false,
     free: false,
@@ -43,18 +47,22 @@ const formules = [
   {
     name: 'Komplett',
     tagline: 'Weiter gehen',
-    price: 'Auf Anfrage',
-    priceDetail: 'an Ihre Situation angepasst',
+    price: '699 €',
+    priceDetail: 'zzgl. MwSt. · einmalige Leistung',
     description: "Wir optimieren Ihre gesamte Online-Präsenz, um Ihre Chancen zu maximieren, gefunden und empfohlen zu werden.",
     includes: [
       'Gesamtes Basis-Paket inklusive',
       'Vollständige Optimierung in 15 Punkten',
-      'Eintrag in die wichtigsten Branchenverzeichnisse',
-      'Online-Bewertungsstrategie',
+      'Eintrag in 10+ Branchenverzeichnisse',
+      'Online-Bewertungsstrategie (Vorlagen + Leitfaden + QR-Code)',
+      '4 Google Business Profile Beiträge erstellt und veröffentlicht',
+      'Vollständiges Schema.org (Unternehmen + FAQ + Fachkräfte)',
+      'Wettbewerbsbericht (3 Konkurrenten analysiert)',
+      'Grundlegende Website-Optimierung (falls vorhanden)',
       'Ausführliches 45-Min-Gespräch',
     ],
     ideal: "Für Unternehmen, die weiter gehen und ihr Viertel dominieren wollen.",
-    cta: 'Angebot anfordern',
+    cta: 'Kostenlose Diagnose anfordern',
     ctaHref: '#diagnostic',
     highlight: true,
     free: false,
@@ -62,18 +70,21 @@ const formules = [
   {
     name: 'Premium',
     tagline: 'Dauerhafte Ergebnisse',
-    price: 'Auf Anfrage',
-    priceDetail: '3-monatige Begleitung',
-    description: "Wir übernehmen Ihre Sichtbarkeit über 3 Monate mit monatlicher Betreuung und kontinuierlichen Anpassungen.",
+    price: '1 199 €',
+    priceDetail: 'zzgl. MwSt. · einmalige Leistung',
+    description: "Wir übernehmen Ihre gesamte Online-Sichtbarkeit mit einer umfassenden, maßgeschneiderten Leistung.",
     includes: [
       'Gesamtes Komplett-Paket inklusive',
-      'Betreuung über 3 Monate',
-      '3 monatliche Fortschrittsberichte',
-      'Kontinuierliche Anpassungen',
-      'Persönlicher Ansprechpartner',
+      'Eintrag in 20+ Verzeichnisse',
+      '8 Google Business Profile Beiträge erstellt und veröffentlicht',
+      'Vollständige Keyword-Recherche für Ihre Branche',
+      'Analyse von 5 Konkurrenten',
+      'Vollständige Website-Optimierung',
+      'Erweitertes Schema.org (alle relevanten Typen)',
+      'Personalisierter 6-Monats-Strategieleitfaden',
     ],
-    ideal: "Für Unternehmen, die messbare Ergebnisse und langfristige Begleitung wünschen.",
-    cta: 'Angebot anfordern',
+    ideal: "Für Unternehmen, die das Maximum in einer einzigen Leistung wollen.",
+    cta: 'Kostenlose Diagnose anfordern',
     ctaHref: '#diagnostic',
     highlight: false,
     free: false,
@@ -130,11 +141,11 @@ const formules = [
               {f.tagline}
             </p>
             <div class="mb-5">
-              <p class="text-2xl font-serif font-normal text-charcoal leading-tight">
+              <p class="text-3xl md:text-4xl font-serif font-normal text-charcoal leading-tight">
                 {f.price}
               </p>
               {f.priceDetail && (
-                <p class="text-xs font-sans text-stone mt-1">{f.priceDetail}</p>
+                <p class="text-sm font-sans text-stone mt-1">{f.priceDetail}</p>
               )}
             </div>
             <p class="text-sm font-sans font-normal leading-relaxed text-stone mb-6 lg:min-h-[6rem]">
@@ -168,13 +179,45 @@ const formules = [
 
       <!-- Monatliche Betreuung -->
       <div class="mt-10 md:mt-14 border border-warmgray p-8 md:p-10 bg-sand card-hover fade-up">
-        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
           <div class="flex-1">
             <h2 class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-2">
               Monatliche Betreuung
             </h2>
-            <p class="text-base font-sans font-normal leading-relaxed text-stone">
-              Nach jeder Leistung angeboten. Wir überwachen Ihre Sichtbarkeit jeden Monat, passen an, was nötig ist, und Sie erhalten einen Fortschrittsbericht. Ohne Verpflichtung, jederzeit kündbar.
+            <div class="mb-4">
+              <p class="text-3xl md:text-4xl font-serif font-normal text-charcoal leading-tight">
+                99 €
+              </p>
+              <p class="text-sm font-sans text-stone mt-1">zzgl. MwSt./Monat</p>
+              <p class="text-sm font-sans font-medium text-terracotta mt-1">Ohne Verpflichtung · jederzeit kündbar</p>
+            </div>
+            <p class="text-base font-sans font-normal leading-relaxed text-stone mb-5">
+              Wir überwachen Ihre Sichtbarkeit jeden Monat, passen an, was nötig ist, und Sie erhalten einen Fortschrittsbericht.
+            </p>
+            <ul class="space-y-3 mb-5">
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Monatlicher KI-Sichtbarkeitswert-Retest
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                2 bis 4 Google Business Profile Beiträge pro Monat
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Google-Bewertungen Monitoring + vorgeschlagene Antworten
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Monatlicher Fortschrittsbericht
+              </li>
+              <li class="flex items-start gap-2 text-sm font-sans text-stone">
+                <span class="mt-1 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
+                Geografische Exklusivität: ein Kunde pro Viertel und Fachgebiet
+              </li>
+            </ul>
+            <p class="text-xs font-sans font-normal leading-relaxed text-stone/70 italic">
+              Nach jeder Leistung angeboten.
             </p>
           </div>
           <a
