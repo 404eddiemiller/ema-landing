@@ -28,7 +28,7 @@
     "trust3": "Sem compromisso"
   },
   "socialProof": {
-    "label": "Os seus futuros clientes procuram nestas IAs. Está lá?"
+    "label": "Os seus clientes procuram aqui. E o seu negócio, está lá?"
   },
   "whatYouGet": {
     "title": "O que recebe gratuitamente",
@@ -36,13 +36,13 @@
   },
   "testimonial": {
     "title": "O que muda na prática",
-    "subtitle": "A pontuação de visibilidade = quantas vezes aparece quando a IA e o Google são consultados em 100 pesquisas.",
+    "subtitle": "A pontuação de visibilidade = o número de vezes que aparece quando se pergunta ao ChatGPT e às outras IAs em 100 pedidos.",
     "before": "Antes",
     "after": "Depois"
   },
   "problem": {
     "title": "Os seus clientes mudaram de hábitos",
-    "subtitle": "Já não escrevem no Google. Perguntam diretamente à IA.",
+    "subtitle": "Pesquisam menos no Google. Perguntam diretamente ao ChatGPT.",
     "stat1Value": "3",
     "stat1Suffix": " a 5",
     "stat1Text": "nomes — é tudo o que a IA recomenda. Não 10 links azuis como no Google. 3 a 5 nomes. O seu, ou o de um concorrente.",
@@ -51,18 +51,18 @@
     "stat2Suffix": " %",
     "stat2Text": "dos restaurantes não aparecem de todo nestas recomendações da IA",
     "stat2Source": "Local Falcon, 2026",
-    "stat3Value": "1",
+    "stat3Value": "3",
     "stat3Suffix": "",
-    "stat3Text": "pergunta = 1 resposta. O cliente que pergunta ao ChatGPT pelo «melhor restaurante perto de mim» recebe 3 nomes e vai. Se não está na resposta, nunca saberá que existe.",
+    "stat3Text": "respostas apenas. O cliente que pergunta «melhor restaurante perto de mim» ao ChatGPT recebe 3 nomes e vai. Se não está na resposta, nunca saberá que existe.",
     "stat3Source": ""
   },
   "quote": {
-    "text": "«Melhor dentista perto de mim?» — esta pergunta é feita ao ChatGPT milhares de vezes por dia. A IA dá 3 nomes. Neste momento, o seu provavelmente não está entre eles.",
+    "text": "«Melhor restaurante perto de mim?» Esta pergunta é feita ao ChatGPT milhares de vezes por dia. A IA dá 3 nomes. O seu faz parte deles? Ainda não.",
     "cta": "Verificar a minha visibilidade gratuitamente"
   },
   "solution": {
-    "title": "Tornamo-lo visível onde os seus clientes procuram",
-    "subtitle": "Google, Google Maps, ChatGPT, Gemini, Perplexity: cobrimos todos os canais."
+    "title": "Tornamo-lo visível onde os seus futuros clientes procuram",
+    "subtitle": "ChatGPT, Perplexity, Claude, Gemini, Google, Google Maps: cobrimos todos os canais."
   },
   "whyUs": {
     "title": "Porque é agora ou nunca",
@@ -78,11 +78,11 @@
   },
   "faq": {
     "title": "Perguntas frequentes",
-    "subtitle": "Tudo o que precisa de saber antes de pedir o seu diagnóstico gratuito."
+    "subtitle": "Para saber tudo antes de começar."
   },
   "auditForm": {
     "title": "O seu diagnóstico gratuito em 24h",
-    "subtitle": "Em 24h saberá se o ChatGPT recomenda o seu negócio — e o que fazer se não for o caso.",
+    "subtitle": "Em 24h saberá se o ChatGPT e as outras IAs recomendam o seu negócio, e o que fazer se não for o caso.",
     "businessName": "Nome do negócio",
     "businessNamePlaceholder": "Restaurante O Cantinho, Clínica Dr. Silva…",
     "managerName": "Nome do responsável",
@@ -102,7 +102,7 @@
     "typeOther": "Outro",
     "address": "Morada do negócio",
     "addressPlaceholder": "Rua Augusta 123, Lisboa",
-    "city": "Cidade ou bairro",
+    "city": "Cidade",
     "cityPlaceholder": "Lisboa Centro, Porto Ribeira…",
     "email": "Endereço de email",
     "emailPlaceholder": "voce@exemplo.pt",
@@ -121,13 +121,13 @@
     "sourceOther": "Outro",
     "errorGeneric": "Ocorreu um erro. Por favor, tente novamente ou contacte-nos em contact@eddiemiller.agency.",
     "errorSource": "Por favor, indique como soube de nós.",
-    "exclusivity": "Apenas um cliente por bairro e especialidade — para garantir a sua exclusividade.",
+    "exclusivity": "Selecionamos apenas um cliente por bairro e especialidade, para garantir a sua exclusividade.",
     "submitButton": "Pedir o meu diagnóstico gratuito",
     "submitting": "A enviar…",
     "trustSignals": "Resultados em 24h · 100% gratuito · Sem compromisso"
   },
   "footer": {
-    "description": "Ajudamos o seu negócio a ser encontrado pelos seus futuros clientes, no ChatGPT e noutras IAs.",
+    "description": "Ajudamos o seu negócio a ser recomendado pelo ChatGPT e pelas outras IAs.",
     "legalLinks": "Links de navegação",
     "legal": "Aviso legal",
     "terms": "Termos e Condições",
@@ -144,6 +144,6 @@
   },
   "thankYou": {
     "title": "Obrigado!",
-    "subtitle": "O seu pedido de diagnóstico foi enviado com sucesso."
+    "subtitle": "O seu pedido de diagnóstico foi enviado. Receberá o audit completo dentro de 24 horas."
   }
 }

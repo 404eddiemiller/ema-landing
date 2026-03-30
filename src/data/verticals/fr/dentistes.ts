@@ -3,15 +3,15 @@ import type { VerticalData } from '../types';
 export const data: VerticalData = {
   // Meta
   title: 'Plus de patients pour votre cabinet dentaire | Eddie Miller Agency',
-  description: 'Vos futurs patients demandent un dentiste à ChatGPT. On fait en sorte qu\'ils vous trouvent. Diagnostic gratuit en 24h.',
+  description: 'Vos futurs patients demandent un dentiste à ChatGPT. On fait en sorte qu\'ils vous trouvent. Diagnostic gratuit de votre visibilité en 24h.',
   canonicalUrl: 'https://eddiemiller.agency/dentistes',
   ogTitle: 'Plus de patients pour votre cabinet dentaire | Eddie Miller Agency',
-  ogDescription: 'Vos futurs patients demandent un dentiste à ChatGPT. On fait en sorte qu\'ils vous trouvent. Diagnostic gratuit en 24h.',
+  ogDescription: 'Vos futurs patients demandent un dentiste à ChatGPT. On fait en sorte qu\'ils vous trouvent. Diagnostic gratuit de votre visibilité en 24h.',
 
   // Hero
   badge: 'Spécialiste cabinets dentaires',
-  headline: '<span class="text-reveal-line block"><span>Vos prochains patients vous cherchent en ligne.</span></span><span class="text-reveal-line block"><span>On s\'assure qu\'ils vous&nbsp;trouvent.</span></span>',
-  heroText: 'Aujourd\'hui, un patient qui cherche un dentiste ne demande plus seulement à ses proches. Il tape «&nbsp;dentiste près de chez moi&nbsp;» sur Google Maps, ou il pose la question directement à ChatGPT. Si votre cabinet n\'apparaît pas dans ces résultats, on fait en sorte que ce soit le&nbsp;vôtre.',
+  headline: '<span class="text-reveal-line block"><span>Vos prochains patients demandent à l\'IA.</span></span><span class="text-reveal-line block"><span>On s\'assure qu\'ils vous&nbsp;trouvent.</span></span>',
+  heroText: 'Aujourd\'hui, un patient qui cherche un dentiste ne demande plus à ses proches, à Google Maps ou à Doctolib : il pose directement la question à ChatGPT. On fait en sorte que ce soit votre nom qui apparaisse.',
   ctaText: 'Demander mon diagnostic gratuit',
   secondaryCtaText: 'Voir comment ça marche ↓',
   trust1: '✓ Diagnostic en 24h',
@@ -48,7 +48,7 @@ export const data: VerticalData = {
   testimonial: {
     quote: '«&nbsp;Depuis deux mois, des patients nous appellent en disant qu\'ils ont trouvé notre cabinet sur ChatGPT. On ne savait même pas que c\'était possible.&nbsp;»',
     name: 'Dr. Sophie M.',
-    role: 'Cabinet dentaire, Centre-ville',
+    role: 'Cabinet dentaire, Paris',
     beforeScore: 0,
     beforeLabel: 'Score de visibilité',
     beforeDetail: '«&nbsp;Aucun patient via internet&nbsp;»',
@@ -85,15 +85,15 @@ export const data: VerticalData = {
   problems: [
     {
       title: 'Doctolib ne suffit plus',
-      text: 'Vos patients existants vous trouvent encore sur Doctolib. Mais les nouveaux patients commencent par demander à ChatGPT ou Google. Et l\'IA ne connaît pas Doctolib.',
+      text: 'Vos patients existants vous trouvent encore sur Doctolib. Mais les nouveaux patients commencent par demander à ChatGPT.',
     },
     {
-      title: 'Les avis Google font la différence',
-      text: 'Un confrère avec plus d\'avis et des réponses soignées sera recommandé par l\'IA, même si vos compétences cliniques sont supérieures. L\'IA juge sur ce qu\'elle voit en ligne.',
+      title: 'Les algorithmes font la différence',
+      text: 'Un confrère avec une meilleure optimisation sera recommandé par l\'IA, même si vos compétences cliniques sont supérieures. L\'IA juge sur ce qu\'elle voit en ligne.',
     },
     {
       title: 'Le bouche-à-oreille s\'essouffle',
-      text: 'Vous recevez moins de recommandations qu\'avant. Les patients plus jeunes ne demandent plus à leurs proches, ils posent la question à ChatGPT.',
+      text: 'Les patients plus jeunes ne demandent plus à leurs proches, ils posent la question à ChatGPT.',
     },
   ],
 

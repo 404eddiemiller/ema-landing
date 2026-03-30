@@ -28,7 +28,7 @@
     "trust3": "Sans engagement"
   },
   "socialProof": {
-    "label": "Vos futurs clients cherchent sur ces IA. Vous y êtes ?"
+    "label": "Vos clients cherchent ici. Vous, vous y êtes ?"
   },
   "whatYouGet": {
     "title": "Ce que vous recevez gratuitement",
@@ -36,13 +36,13 @@
   },
   "testimonial": {
     "title": "Ce que ça change concrètement",
-    "subtitle": "Le score de visibilité = le nombre de fois où vous apparaissez quand on interroge les IA et Google sur 100 recherches.",
+    "subtitle": "Le score de visibilité = le nombre de fois où vous apparaissez quand on interroge ChatGPT et les autres IA sur 100 demandes.",
     "before": "Avant",
     "after": "Après"
   },
   "problem": {
     "title": "Vos clients ont changé de réflexe",
-    "subtitle": "Ils ne tapent plus dans Google. Ils demandent directement à une IA.",
+    "subtitle": "Ils cherchent moins sur Google. Ils demandent directement à ChatGPT.",
     "stat1Value": "3",
     "stat1Suffix": " à 5",
     "stat1Text": "noms — c'est tout ce que l'IA recommande. Pas 10 liens bleus comme sur Google. 3 à 5 noms. Le vôtre, ou celui d'un concurrent.",
@@ -51,18 +51,18 @@
     "stat2Suffix": " %",
     "stat2Text": "des restaurants n'apparaissent pas du tout dans ces recommandations IA",
     "stat2Source": "Local Falcon, 2026",
-    "stat3Value": "1",
+    "stat3Value": "3",
     "stat3Suffix": "",
-    "stat3Text": "question posée = 1 réponse. Le client qui demande « meilleur restaurant près de moi » à ChatGPT reçoit 3 noms et y va. Si vous n'êtes pas dans la réponse, il ne saura jamais que vous existez.",
+    "stat3Text": "réponses seulement. Le client qui demande « meilleur restaurant près de moi » à ChatGPT reçoit 3 noms et y va. Si vous n'êtes pas dans la réponse, il ne saura jamais que vous existez.",
     "stat3Source": ""
   },
   "quote": {
-    "text": "« Meilleur dentiste près de chez moi ? » — cette question est posée à ChatGPT des milliers de fois par jour. L'IA donne 3 noms. En ce moment, le vôtre n'en fait probablement pas partie.",
+    "text": "« Meilleur restaurant près de chez moi ? » cette question est posée à ChatGPT des milliers de fois par jour. L'IA donne 3 noms. Est-ce que le vôtre en fait partie ? Pas encore.",
     "cta": "Vérifier ma visibilité gratuitement"
   },
   "solution": {
-    "title": "On vous rend visible là où vos clients cherchent",
-    "subtitle": "Google, Google Maps, ChatGPT, Gemini, Perplexity : on couvre tous les canaux."
+    "title": "On vous rend visible là où vos futurs clients cherchent",
+    "subtitle": "ChatGPT, Perplexity, Claude, Gemini, Google, Google Maps : on couvre tous les canaux."
   },
   "whyUs": {
     "title": "Pourquoi c'est maintenant ou jamais",
@@ -78,11 +78,11 @@
   },
   "faq": {
     "title": "Questions fréquentes",
-    "subtitle": "Tout ce que vous devez savoir avant de demander votre diagnostic gratuit."
+    "subtitle": "Pour tout savoir avant de vous lancer."
   },
   "auditForm": {
     "title": "Votre diagnostic gratuit en 24h",
-    "subtitle": "En 24h, vous saurez si ChatGPT recommande votre entreprise — et ce qu'il faut faire si ce n'est pas le cas.",
+    "subtitle": "En 24h, vous saurez si ChatGPT et les autres IA recommandent votre entreprise, et ce qu'il faut faire si ce n'est pas le cas.",
     "businessName": "Nom de l'entreprise",
     "businessNamePlaceholder": "Le Petit Cler, Cabinet Dr. Martin…",
     "managerName": "Nom du responsable",
@@ -100,10 +100,10 @@
     "typeGym": "Salle de sport",
     "typeBar": "Bars & Boîtes de nuit",
     "typeOther": "Autre",
-    "city": "Ville ou arrondissement",
+    "city": "Ville",
     "cityPlaceholder": "Paris 7e, Neuilly-sur-Seine…",
     "address": "Adresse de l'entreprise",
-    "addressPlaceholder": "12 rue de Rivoli, Centre-ville",
+    "addressPlaceholder": "12 rue de Rivoli",
     "email": "Adresse email",
     "emailPlaceholder": "vous@exemple.com",
     "phone": "Numéro de téléphone",
@@ -121,13 +121,13 @@
     "sourceOther": "Autre",
     "errorGeneric": "Une erreur est survenue. Veuillez réessayer ou nous contacter à contact@eddiemiller.agency.",
     "errorSource": "Veuillez indiquer comment vous nous avez connu.",
-    "exclusivity": "Un seul client accompagné par quartier et par spécialité — pour vous garantir l'exclusivité.",
+    "exclusivity": "Nous sélectionnons un seul client par quartier et par spécialité, pour vous garantir l'exclusivité.",
     "submitButton": "Demander mon diagnostic gratuit",
     "submitting": "Envoi en cours…",
     "trustSignals": "Diagnostic en 24h · 100 % gratuit · Sans engagement"
   },
   "footer": {
-    "description": "On aide votre entreprise à être trouvée par vos futurs clients, sur ChatGPT et sur les autres IA.",
+    "description": "On aide votre entreprise à être recommandée par ChatGPT et les autres IA.",
     "legalLinks": "Liens de navigation",
     "legal": "Mentions légales",
     "terms": "CGV",
@@ -144,6 +144,6 @@
   },
   "thankYou": {
     "title": "Merci !",
-    "subtitle": "Votre demande de diagnostic a bien été envoyée."
+    "subtitle": "Votre demande de diagnostic a bien été envoyée. Vous recevrez l'audit complet d'ici 24 heures."
   }
 }

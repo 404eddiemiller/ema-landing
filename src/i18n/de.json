@@ -28,7 +28,7 @@
     "trust3": "Unverbindlich"
   },
   "socialProof": {
-    "label": "Ihre zukünftigen Kunden suchen auf diesen KIs. Sind Sie dort sichtbar?"
+    "label": "Ihre Kunden suchen hier. Werden Sie gefunden?"
   },
   "whatYouGet": {
     "title": "Was Sie kostenlos erhalten",
@@ -36,13 +36,13 @@
   },
   "testimonial": {
     "title": "Was sich in der Praxis ändert",
-    "subtitle": "Der Sichtbarkeits-Score = wie oft Sie erscheinen, wenn KI und Google bei 100 Suchanfragen abgefragt werden.",
+    "subtitle": "Der Sichtbarkeits-Score = wie oft Sie erscheinen, wenn ChatGPT und die anderen KIs bei 100 Anfragen abgefragt werden.",
     "before": "Vorher",
     "after": "Nachher"
   },
   "problem": {
     "title": "Ihre Kunden haben ihre Gewohnheiten geändert",
-    "subtitle": "Sie tippen nicht mehr bei Google. Sie fragen direkt die KI.",
+    "subtitle": "Sie suchen weniger auf Google. Sie fragen direkt ChatGPT.",
     "stat1Value": "3",
     "stat1Suffix": " bis 5",
     "stat1Text": "Namen — das ist alles, was die KI empfiehlt. Nicht 10 blaue Links wie bei Google. 3 bis 5 Namen. Ihrer, oder der eines Mitbewerbers.",
@@ -51,18 +51,18 @@
     "stat2Suffix": " %",
     "stat2Text": "der Restaurants erscheinen in diesen KI-Empfehlungen überhaupt nicht",
     "stat2Source": "Local Falcon, 2026",
-    "stat3Value": "1",
+    "stat3Value": "3",
     "stat3Suffix": "",
-    "stat3Text": "Frage gestellt = 1 Antwort. Der Kunde, der ChatGPT nach dem \u201Ebesten Restaurant in der N\u00E4he\u201C fragt, bekommt 3 Namen und geht hin. Wenn Sie nicht in der Antwort sind, wird er nie erfahren, dass es Sie gibt.",
+    "stat3Text": "Antworten nur. Der Kunde, der ChatGPT nach dem \u201Ebesten Restaurant in der N\u00E4he\u201C fragt, bekommt 3 Namen und geht hin. Wenn Sie nicht in der Antwort sind, wird er nie erfahren, dass es Sie gibt.",
     "stat3Source": ""
   },
   "quote": {
-    "text": "\u201EBester Zahnarzt in meiner N\u00E4he?\u201C \u2014 diese Frage wird t\u00E4glich tausendfach bei ChatGPT gestellt. Die KI nennt 3 Namen. Ihrer ist wahrscheinlich gerade nicht dabei.",
+    "text": "\u201EBestes Restaurant in meiner N\u00E4he?\u201C \u2014 diese Frage wird t\u00E4glich tausendfach bei ChatGPT gestellt. Die KI nennt 3 Namen. Ist Ihrer dabei? Noch nicht.",
     "cta": "Meine Sichtbarkeit kostenlos prüfen"
   },
   "solution": {
-    "title": "Wir machen Sie dort sichtbar, wo Ihre Kunden suchen",
-    "subtitle": "Google, Google Maps, ChatGPT, Gemini, Perplexity: Wir decken alle Kanäle ab."
+    "title": "Wir machen Sie dort sichtbar, wo Ihre zukünftigen Kunden suchen",
+    "subtitle": "ChatGPT, Perplexity, Claude, Gemini, Google, Google Maps: Wir decken alle Kanäle ab."
   },
   "whyUs": {
     "title": "Warum es jetzt oder nie ist",
@@ -78,11 +78,11 @@
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
-    "subtitle": "Alles, was Sie wissen müssen, bevor Sie Ihre kostenlose Diagnose anfordern."
+    "subtitle": "Alles, was Sie wissen müssen, bevor Sie loslegen."
   },
   "auditForm": {
     "title": "Ihre kostenlose Diagnose in 24 Std.",
-    "subtitle": "In 24 Std. wissen Sie, ob ChatGPT Ihr Unternehmen empfiehlt — und was zu tun ist, wenn nicht.",
+    "subtitle": "In 24 Std. wissen Sie, ob ChatGPT und die anderen KIs Ihr Unternehmen empfehlen, und was zu tun ist, wenn nicht.",
     "businessName": "Unternehmensname",
     "businessNamePlaceholder": "Gasthaus zur Post, Praxis Dr. Müller…",
     "managerName": "Name des Inhabers",
@@ -102,7 +102,7 @@
     "typeOther": "Sonstiges",
     "address": "Adresse des Unternehmens",
     "addressPlaceholder": "Hauptstraße 12, Berlin",
-    "city": "Stadt oder Stadtteil",
+    "city": "Stadt",
     "cityPlaceholder": "Berlin Mitte, München Schwabing…",
     "email": "E-Mail-Adresse",
     "emailPlaceholder": "sie@beispiel.de",
@@ -121,13 +121,13 @@
     "sourceOther": "Sonstiges",
     "errorGeneric": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter contact@eddiemiller.agency.",
     "errorSource": "Bitte geben Sie an, wie Sie von uns erfahren haben.",
-    "exclusivity": "Nur ein Kunde pro Stadtteil und Fachgebiet — um Ihre Exklusivität zu garantieren.",
+    "exclusivity": "Wir wählen nur einen Kunden pro Stadtviertel und Fachgebiet aus, um Ihre Exklusivität zu garantieren.",
     "submitButton": "Kostenlose Diagnose anfordern",
     "submitting": "Wird gesendet…",
     "trustSignals": "Ergebnisse in 24 Std. · 100 % kostenlos · Unverbindlich"
   },
   "footer": {
-    "description": "Wir helfen Ihrem Unternehmen, von Ihren zukünftigen Kunden gefunden zu werden – auf ChatGPT und anderen KIs.",
+    "description": "Wir helfen Ihrem Unternehmen, von ChatGPT und den anderen KIs empfohlen zu werden.",
     "legalLinks": "Navigationslinks",
     "legal": "Impressum",
     "terms": "AGB",
@@ -144,6 +144,6 @@
   },
   "thankYou": {
     "title": "Vielen Dank!",
-    "subtitle": "Ihre Diagnoseanfrage wurde erfolgreich gesendet."
+    "subtitle": "Ihre Diagnoseanfrage wurde gesendet. Sie erhalten das vollständige Audit innerhalb von 24 Stunden."
   }
 }

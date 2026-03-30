@@ -11,7 +11,7 @@ export const data: VerticalData = {
   // Hero
   badge: 'Spécialiste bars & soirées',
   headline: '<span class="text-reveal-line block"><span>«&nbsp;Où sortir ce soir&nbsp;?&nbsp;» L\'IA est le nouveau guide de&nbsp;nuit.</span></span><span class="text-reveal-line block"><span>Soyez dans ses recommandations.</span></span>',
-  heroText: 'Amis en afterwork, touristes, locaux qui cherchent un plan pour la soirée, ils posent tous la même question à ChatGPT&nbsp;: «&nbsp;meilleur bar cocktail près de moi&nbsp;». On fait en sorte que votre bar apparaisse dans la réponse pour que ce soit votre salle qui se&nbsp;remplit.',
+  heroText: 'Amis en afterwork ou touristes qui cherchent un plan pour la soirée, ils posent tous la même question à ChatGPT&nbsp;: «&nbsp;meilleur bar cocktail près de moi&nbsp;». On fait en sorte que ce votre nom qui apparaisse.',
   ctaText: 'Demander mon diagnostic gratuit',
   secondaryCtaText: 'Voir comment ça marche ↓',
   trust1: '✓ Diagnostic en 24h',
@@ -36,7 +36,7 @@ export const data: VerticalData = {
   testimonial: {
     quote: '«&nbsp;On a des groupes qui débarquent en disant "c\'est ChatGPT qui nous a envoyés". Au début on croyait à une blague. Maintenant ça arrive plusieurs fois par semaine, surtout en semaine.&nbsp;»',
     name: 'Alex M.',
-    role: 'Bar à cocktails, Centre-ville',
+    role: 'Bar à cocktails, Paris',
     beforeScore: 3,
     beforeLabel: 'Score de visibilité',
     beforeDetail: '«&nbsp;Invisible sur ChatGPT&nbsp;»',
@@ -58,9 +58,9 @@ export const data: VerticalData = {
   // Problems
   problemsTitle: 'Les problèmes que vous&nbsp;connaissez',
   problems: [
-    { title: 'Le bouche-à-oreille s\'est digitalisé', text: 'Avant, on demandait aux potes. Maintenant, on demande à ChatGPT «&nbsp;best cocktail bar Oberkampf&nbsp;». Si vous n\'êtes pas dans la réponse, vous ratez le groupe.' },
-    { title: 'Les guides et blogs perdent du terrain', text: 'Time Out, les guides de sorties : les gens ne scrollent plus ces listes. Ils veulent une réponse rapide de l\'IA. Et l\'IA synthétise, elle ne fait pas défiler des pages.' },
-    { title: 'La visibilité en semaine fait la différence', text: 'Le week-end se remplit. Mais du mardi au jeudi, c\'est la bataille. L\'IA peut vous envoyer du monde les soirs creux, si vous êtes visible.' },
+    { title: 'Le bouche-à-oreille s\'est digitalisé', text: 'Avant, on demandait aux potes. Maintenant, les touristes demandent à ChatGPT «&nbsp;best cocktail bar Oberkampf&nbsp;». On fait en sorte que vous soyez recommandés.' },
+    { title: 'Les guides et blogs perdent du terrain', text: 'Les gens ne scrollent plus ces listes. Ils veulent une réponse rapide de l\'IA.' },
+    { title: 'La visibilité en semaine fait la différence', text: 'Le week-end se remplit. Mais du mardi au jeudi, c\'est la bataille. L\'IA peut vous amener du monde les soirs creux, en optimisant correctement ses paramètres. On s\'en charge.' },
   ],
 
   // Solution

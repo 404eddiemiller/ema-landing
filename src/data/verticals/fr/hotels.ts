@@ -10,7 +10,7 @@ export const data: VerticalData = {
 
   // Hero
   badge: 'Spécialiste hôtels',
-  headline: '40&nbsp;% des voyageurs planifient leur séjour avec l\'IA. Votre hôtel est-il dans leurs suggestions&nbsp;?',
+  headline: 'Désormais, les clients internationaux planifient leur séjour avec l\'IA. Votre hôtel est-il dans les recommandations de l\'IA&nbsp;? On fait en sorte qu\'il le&nbsp;soit.',
   heroText: 'Avant même d\'ouvrir Booking, les voyageurs demandent à ChatGPT où dormir dans votre ville. Si votre hôtel n\'apparaît pas dans ces recommandations, vous perdez des réservations chaque&nbsp;jour.',
   ctaText: 'Demander mon diagnostic gratuit',
   secondaryCtaText: 'Voir comment ça marche ↓',
@@ -36,7 +36,7 @@ export const data: VerticalData = {
   testimonial: {
     quote: '«&nbsp;Depuis deux mois, des clients internationaux nous disent qu\'ils nous ont trouvés grâce à ChatGPT. Des réservations directes, sans passer par Booking. On ne pensait pas que c\'était possible pour un hôtel de notre taille.&nbsp;»',
     name: 'Isabelle R.',
-    role: 'Hôtel boutique, Centre-ville',
+    role: 'Hôtel boutique, Paris 8',
     beforeScore: 8,
     beforeLabel: 'score de visibilité IA',
     beforeDetail: '',
@@ -58,9 +58,9 @@ export const data: VerticalData = {
   // Problems
   problemsTitle: 'Les problèmes que vous&nbsp;connaissez',
   problems: [
-    { title: 'Booking prend sa commission. L\'IA pourrait vous apporter des réservations directes.', text: 'Quand ChatGPT recommande votre hôtel, le voyageur va directement sur votre site pour réserver. Pas de commission, pas d\'intermédiaire.' },
-    { title: 'Les voyageurs préparent avant de réserver', text: 'Ils demandent à l\'IA des conseils de quartier, des recommandations d\'hôtels. On fait en sorte que votre hôtel apparaisse dès cette étape de recherche.' },
-    { title: 'Les avis internationaux comptent plus que jamais', text: 'L\'IA lit les avis dans toutes les langues. Des avis peu nombreux ou incohérents signifient aucune recommandation.' },
+    { title: 'Booking prend sa commission.', text: 'Quand ChatGPT recommande votre hôtel, le voyageur va directement sur votre site pour réserver. Pas de commission, pas d\'intermédiaire, plus de revenus pour vous.' },
+    { title: 'Les voyageurs préparent avant de réserver', text: 'Ils demandent à l\'IA des conseils de quartier, des recommandations d\'hôtels. On fait en sorte que votre hôtel apparaisse dans les recommandations.' },
+    { title: 'Les avis internationaux comptent plus que jamais', text: 'L\'IA lit les avis et les informations dans toutes les langues. Nous optimisons cela également, pour augmenter votre visibilité.' },
   ],
 
   // Solution

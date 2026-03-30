@@ -10,8 +10,8 @@ export const data: VerticalData = {
 
   // Hero
   badge: 'Spécialiste cabinets d\'avocats',
-  headline: 'Vos futurs clients demandent à ChatGPT quel avocat choisir. Êtes-vous dans la&nbsp;liste&nbsp;?',
-  heroText: 'Un particulier en procédure de divorce, un dirigeant qui cherche un avocat en droit des affaires. De plus en plus posent la question à l\'IA avant de décrocher leur téléphone. Nous vérifions si votre cabinet apparaît dans ces&nbsp;recommandations.',
+  headline: 'Vos futurs clients demandent à ChatGPT quel avocat choisir. Êtes-vous dans la&nbsp;liste&nbsp;? On fait en sorte que votre nom apparaisse.',
+  heroText: 'Un particulier en procédure de divorce, un dirigeant qui cherche un avocat en droit des affaires. Désormais, ils posent la question à l\'IA avant de décrocher leur téléphone.',
   ctaText: 'Demander mon diagnostic gratuit',
   secondaryCtaText: 'Voir comment ça marche ↓',
   trust1: '✓ Diagnostic en 24h',
@@ -34,7 +34,7 @@ export const data: VerticalData = {
 
   // Testimonial
   testimonial: {
-    quote: '«&nbsp;Plusieurs nouveaux clients nous ont dit qu\'ils avaient trouvé notre cabinet en demandant à ChatGPT un avocat en droit du travail dans le 8e. Avant, ce type de demande passait uniquement par le bouche-à-oreille.&nbsp;»',
+    quote: '«&nbsp;Plusieurs nouveaux clients nous ont dit qu\'ils avaient trouvé notre cabinet en demandant à ChatGPT un avocat en droit du travail.&nbsp;»',
     name: 'Me Camille L.',
     role: 'Cabinet d\'avocats, Centre-ville',
     beforeScore: 5,
@@ -58,9 +58,9 @@ export const data: VerticalData = {
   // Problems
   problemsTitle: 'Les problèmes que vous&nbsp;connaissez',
   problems: [
-    { title: 'Le réseau ne suffit plus', text: 'Historiquement, les clients venaient par recommandation. Mais un particulier en urgence (divorce, litige, mise en demeure) demande directement à l\'IA. On fait en sorte que ce soit votre cabinet qui apparaisse dans ces recommandations.' },
-    { title: 'Les annuaires d\'avocats ont perdu du terrain', text: 'Les clients consultaient l\'annuaire du Barreau. Aujourd\'hui, ils demandent à ChatGPT «&nbsp;meilleur avocat droit du travail près de chez moi&nbsp;». Les règles du jeu ont changé.' },
-    { title: 'Votre spécialité doit être visible', text: 'L\'IA a besoin de comprendre ce que vous faites. Si votre présence en ligne ne mentionne pas clairement vos domaines de compétence, elle ne peut pas vous recommander.' },
+    { title: 'Le réseau ne suffit plus', text: 'Un particulier en urgence (divorce, litige, mise en demeure) demande directement à l\'IA.' },
+    { title: 'Les annuaires d\'avocats ont perdu du terrain', text: 'Aujourd\'hui, ils demandent à ChatGPT «&nbsp;meilleur avocat droit du travail&nbsp;».' },
+    { title: 'Votre spécialité doit être visible', text: 'ChatGPT a besoin de comprendre ce que vous faites. Si vos informations ne sont pas correctement paramétrées, l\'IA ne comprend pas clairement vos domaines de compétence : elle ne peut pas vous recommander. On optimise cela avec vous.' },
   ],
 
   // Solution

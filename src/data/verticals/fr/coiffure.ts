@@ -10,8 +10,8 @@ export const data: VerticalData = {
 
   // Hero
   badge: 'Spécialiste coiffure &amp; esthétique',
-  headline: '<span class="text-reveal-line block"><span>«&nbsp;Meilleur coiffeur près de chez moi&nbsp;»</span></span><span class="text-reveal-line block"><span>L\'IA donne 3 noms.</span></span><span class="text-reveal-line block"><span>On fait en sorte que le vôtre en fasse&nbsp;partie.</span></span>',
-  heroText: 'Vos clients ne poussent plus la porte par hasard. Avant de choisir un salon, ils demandent à Google et à ChatGPT. Si votre salon n\'apparaît pas dans ces résultats, ces clients iront ailleurs. On fait en sorte que ce soit chez&nbsp;vous.',
+  headline: '<span class="text-reveal-line block"><span>«&nbsp;Meilleur coiffeur près de chez moi&nbsp;»</span></span><span class="text-reveal-line block"><span>L\'IA donne quelques noms.</span></span><span class="text-reveal-line block"><span>On fait en sorte que ce soit le&nbsp;vôtre.</span></span>',
+  heroText: 'Vos clients ne poussent plus la porte par hasard. Avant de choisir un salon, ils demandent à ChatGPT. Si votre salon n\'apparaît pas, ces clients iront ailleurs.',
   ctaText: 'Demander mon diagnostic gratuit',
   secondaryCtaText: 'Voir comment ça marche ↓',
   trust1: '✓ Diagnostic en 24h',
@@ -58,9 +58,9 @@ export const data: VerticalData = {
   // Problems
   problemsTitle: 'Les problèmes que vous&nbsp;connaissez',
   problems: [
-    { title: 'Les clients ne poussent plus la porte par hasard', text: 'Le passage spontané diminue. Avant de choisir un salon, les gens vérifient sur Google et demandent des recommandations aux IA.' },
-    { title: 'Instagram ne suffit pas', text: 'De belles photos, ça aide. Mais l\'IA ne parcourt pas votre feed Instagram. Elle regarde vos avis, votre fiche Google et les annuaires professionnels.' },
-    { title: 'Les avis font tout', text: 'Un concurrent avec 200 avis et 4,8 étoiles sera recommandé par l\'IA. Même si votre travail est meilleur, l\'IA ne le voit pas si votre réputation en ligne ne le dit pas.' },
+    { title: 'Les clients ne poussent plus la porte par hasard', text: 'Le passage spontané diminue. Avant de choisir un salon, les gens demandent des recommandations aux IA.' },
+    { title: 'Instagram ne suffit pas', text: 'De belles photos, ça aide. Mais l\'IA ne parcourt pas votre feed Instagram. Elle regarde vos avis, votre fiche Google et d\'autres paramètres techniques.' },
+    { title: 'Les avis font tout', text: 'Un concurrent moins bien noté mais mieux dont les paramètres sont optimisés sera recommandé par l\'IA. Même si votre travail est meilleur.' },
   ],
 
   // Solution

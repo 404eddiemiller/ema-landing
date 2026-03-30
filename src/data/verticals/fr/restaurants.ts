@@ -3,15 +3,15 @@ import type { VerticalData } from '../types';
 export const data: VerticalData = {
   // Meta
   title: 'Plus de clients pour votre restaurant | Eddie Miller Agency',
-  description: 'Vos futurs clients demandent à ChatGPT où manger. On fait en sorte que la réponse, ce soit vous. Diagnostic gratuit en 24h.',
+  description: 'Vos futurs clients demandent à ChatGPT où manger. On fait en sorte que la réponse, ce soit vous. Diagnostic gratuit de votre visibilité en 24h.',
   canonicalUrl: 'https://eddiemiller.agency/restaurants',
   ogTitle: 'Plus de clients pour votre restaurant | Eddie Miller Agency',
-  ogDescription: 'Vos futurs clients demandent à ChatGPT où manger. On fait en sorte que la réponse, ce soit vous. Diagnostic gratuit en 24h.',
+  ogDescription: 'Vos futurs clients demandent à ChatGPT où manger. On fait en sorte que la réponse, ce soit vous. Diagnostic gratuit de votre visibilité en 24h.',
 
   // Hero
   badge: 'Spécialiste restaurants',
   headline: '«&nbsp;Où manger ce soir&nbsp;?&nbsp;» Vos futurs clients posent la question à&nbsp;ChatGPT. On fait en sorte que la réponse, ce&nbsp;soit&nbsp;vous.',
-  heroText: 'Touristes et locaux ne cherchent plus sur Google. Ils demandent directement à l\'IA. On fait en sorte que votre restaurant fasse partie des 3 à 5 noms que l\'IA recommande.',
+  heroText: 'Touristes et locaux ne cherchent plus sur Google. Ils demandent directement à l\'IA. On fait en sorte que votre restaurant fasse partie des noms que l\'IA recommande.',
   ctaText: 'Demander mon diagnostic gratuit',
   secondaryCtaText: 'Voir comment ça marche ↓',
   trust1: '✓ Diagnostic en 24h',
@@ -46,9 +46,9 @@ export const data: VerticalData = {
 
   // Testimonial
   testimonial: {
-    quote: '«&nbsp;Un touriste américain m\'a dit qu\'il avait trouvé notre restaurant en demandant à ChatGPT "best bistro near Eiffel Tower". On n\'a rien changé à la carte, on n\'a pas refait le site. On a juste suivi le plan d\'Eddie Miller. Dix-huit couverts de plus par semaine.&nbsp;»',
+    quote: '«&nbsp;Un touriste américain m\'a dit qu\'il avait trouvé notre restaurant en demandant à ChatGPT \"best bistro near Eiffel Tower\". J\'ai obtenu 18 couverts de plus en moyenne chaque semaine.&nbsp;»',
     name: 'Marc D.',
-    role: 'Restaurant, Centre-ville',
+    role: 'Restaurant, Paris 7',
     beforeScore: 12,
     beforeLabel: 'Score de visibilité',
     beforeDetail: 'Quasi-invisible sur les assistants IA',
@@ -85,15 +85,15 @@ export const data: VerticalData = {
   problems: [
     {
       title: 'TripAdvisor et Google suffisaient. Plus maintenant.',
-      text: 'L\'IA ne parcourt pas les pages TripAdvisor comme un client. Elle synthétise des dizaines de sources. Si vos signaux sont faibles, vous n\'êtes tout simplement pas recommandé.',
+      text: 'L\'IA ne parcourt pas les pages TripAdvisor comme un client. Elle synthétise des dizaines de sources. Si vos paramètres ne sont pas optimisés, vous n\'êtes tout simplement pas recommandé.',
     },
     {
       title: 'Les touristes demandent à l\'IA',
-      text: '40 % des voyageurs préparent leur séjour avec l\'IA. Un touriste dans son hôtel qui demande à ChatGPT «&nbsp;where to eat near Eiffel Tower&nbsp;» reçoit 3 noms. Pas 30.',
+      text: '40 % des voyageurs préparent leur séjour avec l\'IA. Un touriste dans son hôtel qui demande à ChatGPT «&nbsp;where to eat near Eiffel Tower&nbsp;» reçoit 3 noms. On fait en sorte que ce soit le vôtre.',
     },
     {
       title: 'Les avis ne parlent pas tout seuls',
-      text: 'De bons avis, c\'est important. Mais l\'IA a besoin de plus : informations complètes, présence cohérente, bons annuaires. Sans ça, vos 4,5 étoiles ne servent à rien.',
+      text: 'De bons avis, c\'est important. Mais l\'IA a besoin de plus : informations complètes, optimisations techniques, annuaires adaptés. Sans ça, votre excellente note ne sert à rien.',
     },
   ],
 

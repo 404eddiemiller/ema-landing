@@ -28,7 +28,7 @@
     "trust3": "No commitment"
   },
   "socialProof": {
-    "label": "Your future customers search on these AIs. Are you there?"
+    "label": "Your customers search here. Are you showing up?"
   },
   "whatYouGet": {
     "title": "What you get for free",
@@ -36,13 +36,13 @@
   },
   "testimonial": {
     "title": "What it changes in practice",
-    "subtitle": "The visibility score = how many times you appear when AI and Google are queried across 100 searches.",
+    "subtitle": "The visibility score = how many times you appear when ChatGPT and other AIs are queried across 100 searches.",
     "before": "Before",
     "after": "After"
   },
   "problem": {
     "title": "Your customers have changed their habits",
-    "subtitle": "They no longer type into Google. They ask AI directly.",
+    "subtitle": "They search less on Google. They ask ChatGPT directly.",
     "stat1Value": "3",
     "stat1Suffix": " to 5",
     "stat1Text": "names — that's all AI recommends. Not 10 blue links like Google. 3 to 5 names. Yours, or a competitor's.",
@@ -51,18 +51,18 @@
     "stat2Suffix": "%",
     "stat2Text": "of restaurants don't appear at all in these AI recommendations",
     "stat2Source": "Local Falcon, 2026",
-    "stat3Value": "1",
+    "stat3Value": "3",
     "stat3Suffix": "",
-    "stat3Text": "question asked = 1 answer. A customer who asks ChatGPT for the \"best restaurant near me\" gets 3 names and goes. If you're not in the answer, they'll never know you exist.",
+    "stat3Text": "answers only. The customer who asks ChatGPT for the \"best restaurant near me\" gets 3 names and goes. If you're not in the answer, they'll never know you exist.",
     "stat3Source": ""
   },
   "quote": {
-    "text": "\"Best dentist near me?\" — this question is asked on ChatGPT thousands of times a day. AI gives 3 names. Right now, yours probably isn't one of them.",
+    "text": "\"Best restaurant near me?\" — this question is asked on ChatGPT thousands of times a day. The AI gives 3 names. Is yours one of them? Not yet.",
     "cta": "Check my visibility for free"
   },
   "solution": {
-    "title": "We make you visible where your customers search",
-    "subtitle": "Google, Google Maps, ChatGPT, Gemini, Perplexity: we cover all channels."
+    "title": "We make you visible where your future customers search",
+    "subtitle": "ChatGPT, Perplexity, Claude, Gemini, Google, Google Maps: we cover all channels."
   },
   "whyUs": {
     "title": "Why it's now or never",
@@ -78,11 +78,11 @@
   },
   "faq": {
     "title": "Frequently asked questions",
-    "subtitle": "Everything you need to know before requesting your free diagnostic."
+    "subtitle": "Everything you need to know before getting started."
   },
   "auditForm": {
     "title": "Your free diagnostic in 24h",
-    "subtitle": "In 24h, you'll know if ChatGPT recommends your business — and what to do if it doesn't.",
+    "subtitle": "In 24h, you'll know if ChatGPT and other AIs recommend your business, and what to do if they don't.",
     "businessName": "Business name",
     "businessNamePlaceholder": "The Corner Bistro, Dr. Smith's Office…",
     "managerName": "Manager name",
@@ -102,7 +102,7 @@
     "typeOther": "Other",
     "address": "Business address",
     "addressPlaceholder": "123 Main Street, Downtown",
-    "city": "City or area",
+    "city": "City",
     "cityPlaceholder": "London W1, Manchester…",
     "email": "Email address",
     "emailPlaceholder": "you@example.com",
@@ -121,13 +121,13 @@
     "sourceOther": "Other",
     "errorGeneric": "An error occurred. Please try again or contact us at contact@eddiemiller.agency.",
     "errorSource": "Please indicate how you heard about us.",
-    "exclusivity": "Only one client per area and specialty — to guarantee your exclusivity.",
+    "exclusivity": "We select only one client per neighborhood and specialty, to guarantee your exclusivity.",
     "submitButton": "Request my free diagnostic",
     "submitting": "Sending…",
     "trustSignals": "Results in 24h · 100% free · No commitment"
   },
   "footer": {
-    "description": "We help your business be found by your future customers, on ChatGPT and other AIs.",
+    "description": "We help your business get recommended by ChatGPT and other AIs.",
     "legalLinks": "Navigation links",
     "legal": "Legal notice",
     "terms": "Terms & Conditions",
@@ -144,6 +144,6 @@
   },
   "thankYou": {
     "title": "Thank you!",
-    "subtitle": "Your diagnostic request has been sent successfully."
+    "subtitle": "Your diagnostic request has been sent. You'll receive the full audit within 24 hours."
   }
 }

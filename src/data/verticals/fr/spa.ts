@@ -10,8 +10,8 @@ export const data: VerticalData = {
 
   // Hero
   badge: 'Spécialiste bien-être & spa',
-  headline: '<span class="text-reveal-line block"><span>Vos futurs clients cherchent un spa dans leur quartier.</span></span><span class="text-reveal-line block"><span>L\'IA leur répond, avec ou sans&nbsp;vous.</span></span>',
-  heroText: 'Détente, massages, soins du visage : quand quelqu\'un cherche un moment de bien-être, il ne demande plus seulement à ses amis. Il tape «&nbsp;meilleur spa près de chez moi&nbsp;» sur Google ou pose la question à ChatGPT. Si votre institut n\'apparaît pas, ces clients iront ailleurs. On fait en sorte que ce soit chez&nbsp;vous.',
+  headline: '<span class="text-reveal-line block"><span>Vos futurs clients cherchent un spa dans leur ville.</span></span><span class="text-reveal-line block"><span>L\'IA leur répond : on fait en sorte que ce soit votre nom qui apparaisse.</span></span>',
+  heroText: 'Détente, massages, soins du visage : quand quelqu\'un cherche un moment de bien-être, il tape «&nbsp;meilleur spa près de chez moi&nbsp;» sur ChatGPT. Si votre institut n\'apparaît pas, ces clients iront ailleurs.',
   ctaText: 'Demander mon diagnostic gratuit',
   secondaryCtaText: 'Voir comment ça marche ↓',
   trust1: '✓ Diagnostic en 24h',
@@ -36,7 +36,7 @@ export const data: VerticalData = {
   testimonial: {
     quote: '«&nbsp;Des clientes nous appellent en disant qu\'elles ont trouvé notre spa sur ChatGPT. Elles réservent un massage sans même comparer ailleurs. On ne s\'y attendait pas du tout.&nbsp;»',
     name: 'Claire B.',
-    role: 'Spa & institut, Centre-ville',
+    role: 'Spa & institut, Paris',
     beforeScore: 6,
     beforeLabel: 'Score de visibilité',
     beforeDetail: '«&nbsp;Très peu de nouveaux clients&nbsp;»',
@@ -58,9 +58,9 @@ export const data: VerticalData = {
   // Problems
   problemsTitle: 'Les problèmes que vous&nbsp;connaissez',
   problems: [
-    { title: 'Le bouche-à-oreille ne suffit plus', text: 'Vos clientes fidèles vous recommandent encore. Mais les nouveaux clients tapent «&nbsp;meilleur spa près de chez moi&nbsp;» sur Google ou posent la question à ChatGPT. Sans présence en ligne forte, ils ne vous trouvent pas.' },
-    { title: 'Les plateformes prennent leur part', text: 'Treatwell, Planity prennent des commissions sur chaque réservation. Quand l\'IA vous recommande directement, les clients viennent à vous sans intermédiaire, et sans commission.' },
-    { title: 'L\'ambiance ne se transmet pas toute seule', text: 'Votre spa est unique : l\'atmosphère, les soins, l\'accueil. Mais l\'IA ne le sait pas si votre présence en ligne ne raconte pas cette histoire clairement.' },
+    { title: 'Le bouche-à-oreille ne suffit plus', text: 'Les nouveaux clients posent la question directement à ChatGPT ou aux autres IA.' },
+    { title: 'Les plateformes prennent leur part', text: 'Treatwell, Planity et Staycation prennent des commissions. Quand l\'IA vous recommande directement, les clients viennent sans intermédiaire. Cela vous fait plus de revenus.' },
+    { title: 'L\'ambiance ne se transmet pas toute seule', text: 'Votre spa est unique. Mais l\'IA ne le sait pas si votre présence en ligne ne raconte pas cette histoire. Nous optimisons cela pour que vous soyez davantage recommandé par ChatGPT.' },
   ],
 
   // Solution

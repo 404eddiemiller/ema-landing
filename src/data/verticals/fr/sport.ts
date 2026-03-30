@@ -11,7 +11,7 @@ export const data: VerticalData = {
   // Hero
   badge: 'Spécialiste salles de sport',
   headline: '<span class="text-reveal-line block"><span>Les nouveaux adhérents demandent conseil à l\'IA avant de s\'inscrire.</span></span><span class="text-reveal-line block"><span>On vous rend&nbsp;incontournable.</span></span>',
-  heroText: 'Avant de s\'inscrire dans une salle, les gens comparent sur Google Maps et demandent directement à ChatGPT&nbsp;: «&nbsp;meilleure salle de sport dans le 11e&nbsp;». On fait en sorte que votre salle apparaisse dans ces résultats pour que ces clients viennent chez vous.',
+  heroText: 'Avant de s\'inscrire dans une salle ou un club, les gens demandent à ChatGPT&nbsp;: «&nbsp;meilleure salle de sport dans le 11e&nbsp;». On fait en sorte que ce soit votre salle qui apparaisse dans ces résultats.',
   ctaText: 'Demander mon diagnostic gratuit',
   secondaryCtaText: 'Voir comment ça marche ↓',
   trust1: '✓ Diagnostic en 24h',
@@ -36,7 +36,7 @@ export const data: VerticalData = {
   testimonial: {
     quote: '«&nbsp;Depuis qu\'on travaille avec eux, des gens arrivent en disant qu\'ils nous ont trouvés sur ChatGPT. On ne savait même pas que c\'était possible pour une salle indépendante.&nbsp;»',
     name: 'Thomas R.',
-    role: 'Salle de sport, Centre-ville',
+    role: 'Salle de sport, Paris',
     beforeScore: 10,
     beforeLabel: 'Score de visibilité',
     beforeDetail: '«&nbsp;Que du bouche-à-oreille&nbsp;»',
@@ -58,9 +58,9 @@ export const data: VerticalData = {
   // Problems
   problemsTitle: 'Les problèmes que vous&nbsp;connaissez',
   problems: [
-    { title: 'Janvier ne suffit plus', text: 'Le rush des bonnes résolutions est de plus en plus court. Vous avez besoin de nouveaux adhérents toute l\'année. Et ça passe par être visible quand quelqu\'un cherche.' },
-    { title: 'Les chaînes dominent Google', text: 'Basic Fit, Fitness Park trustent les premières places sur Google. Mais l\'IA change la donne : elle recommande en fonction de la qualité, pas de la taille du réseau.' },
-    { title: 'Les avis font la différence', text: 'Une salle indépendante avec de bons avis bat une chaîne sur ChatGPT. Mais seulement si l\'IA peut trouver ces avis. Sans visibilité, vos avis ne servent à rien.' },
+    { title: 'Janvier ne suffit plus', text: 'Le rush des bonnes résolutions est de plus en plus court. Vous pouvez obtenir de nouveaux adhérents toute l\'année.' },
+    { title: 'Les chaînes dominent Google', text: 'Basic Fit, Fitness Park trustent les premières places. Mais l\'IA recommande en fonction de la qualité des paramètres qu\'on lui donne : nous optimisons cela.' },
+    { title: 'Les avis font la différence', text: 'Une salle indépendante avec de bons avis bat une chaîne sur ChatGPT. Mais seulement si l\'IA peut trouver ces avis. C\'est là qu\'on agit.' },
   ],
 
   // Solution
