@@ -233,5 +233,17 @@
   "thankYou": {
     "title": "¡Gracias!",
     "subtitle": "Tu solicitud de diagnóstico ha sido enviada. Recibirás el informe completo en un plazo de 24 horas."
+  },
+  "vertical": {
+    "ariaHero": "Titular principal",
+    "ariaSocialProof": "Plataformas donde buscan sus clientes",
+    "ariaWhatYouGet": "Lo que recibes",
+    "ariaTestimonial": "Resultados del cliente",
+    "ariaStats": "Lo que ha cambiado",
+    "ariaProblems": "Los problemas que conoces",
+    "ariaSolution": "Lo que hacemos por ti",
+    "ariaHowItWorks": "Cómo funciona",
+    "ariaFaq": "Preguntas frecuentes",
+    "ariaForm": "Solicitar un diagnóstico gratuito"
   }
 }

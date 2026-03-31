@@ -233,5 +233,17 @@
   "thankYou": {
     "title": "Dank u wel!",
     "subtitle": "Uw diagnoseverzoek is verzonden. U ontvangt de volledige audit binnen 24 uur."
+  },
+  "vertical": {
+    "ariaHero": "Hoofdtitel",
+    "ariaSocialProof": "Platformen waar uw klanten zoeken",
+    "ariaWhatYouGet": "Wat u ontvangt",
+    "ariaTestimonial": "Klantresultaten",
+    "ariaStats": "Wat er is veranderd",
+    "ariaProblems": "Problemen die u kent",
+    "ariaSolution": "Wat we voor u doen",
+    "ariaHowItWorks": "Hoe het werkt",
+    "ariaFaq": "Veelgestelde vragen",
+    "ariaForm": "Vraag een gratis diagnose aan"
   }
 }

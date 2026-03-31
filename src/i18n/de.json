@@ -233,5 +233,17 @@
   "thankYou": {
     "title": "Vielen Dank!",
     "subtitle": "Ihre Diagnoseanfrage wurde gesendet. Sie erhalten das vollständige Audit innerhalb von 24 Stunden."
+  },
+  "vertical": {
+    "ariaHero": "Hauptüberschrift",
+    "ariaSocialProof": "Plattformen, auf denen Ihre Kunden suchen",
+    "ariaWhatYouGet": "Was Sie erhalten",
+    "ariaTestimonial": "Kundenergebnisse",
+    "ariaStats": "Was sich geändert hat",
+    "ariaProblems": "Probleme, die Sie kennen",
+    "ariaSolution": "Was wir für Sie tun",
+    "ariaHowItWorks": "So funktioniert es",
+    "ariaFaq": "Häufige Fragen",
+    "ariaForm": "Kostenlose Diagnose anfordern"
   }
 }

@@ -250,42 +250,9 @@ const {
       </div>
     </div>
 
-    <!-- Sticky CTA visibility logic (IntersectionObserver) -->
-    <script is:inline>
-      const stickyCta = document.getElementById('sticky-cta');
-      if (stickyCta) {
-        const auditSection = document.getElementById('diagnostic');
-        let pastHero = false;
-        let auditVisible = false;
-
-        function updateStickyCta() {
-          if (pastHero && !auditVisible) {
-            stickyCta.style.transform = 'translateY(0)';
-          } else {
-            stickyCta.style.transform = 'translateY(100%)';
-          }
-        }
-
-        // Show after scrolling past the hero section
-        // rootMargin: '-400px' means the hero must be at least 400px out of view
-        const heroSection = document.querySelector('[aria-label="Accroche principale"]');
-        if (heroSection) {
-          const heroObserver = new IntersectionObserver((entries) => {
-            pastHero = !entries[0].isIntersecting;
-            updateStickyCta();
-          }, { rootMargin: '-100px 0px 0px 0px' });
-          heroObserver.observe(heroSection);
-        }
-
-        // Hide when the audit form is visible
-        if (auditSection) {
-          const auditObserver = new IntersectionObserver((entries) => {
-            auditVisible = entries[0].isIntersecting;
-            updateStickyCta();
-          });
-          auditObserver.observe(auditSection);
-        }
-      }
+    <!-- Sticky CTA visibility logic (external, cacheable) -->
+    <script>
+      import '../scripts/sticky-cta';
     </script>
 
     <!-- Intersection Observer for scroll animations (external, cacheable) -->

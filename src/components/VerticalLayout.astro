@@ -72,7 +72,7 @@ const nav = navRoutes[locale];
     })} />
 
     <!-- ═══════════════════ HERO ═══════════════════ -->
-    <section class="relative pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-48 lg:pb-32 bg-cream overflow-hidden" aria-label="Accroche principale">
+    <section class="relative pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-48 lg:pb-32 bg-cream overflow-hidden" aria-label={t('vertical.ariaHero', locale)}>
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <div class="max-w-3xl">
           <p class="inline-block px-3 py-1 mb-6 text-sm font-sans font-medium text-terracotta border border-terracotta/40 tracking-wide">
@@ -106,7 +106,7 @@ const nav = navRoutes[locale];
     </section>
 
     <!-- ═══════════════════ SOCIAL PROOF ═══════════════════ -->
-    <section class="py-12 md:py-16 bg-sand" aria-label="Plateformes où vos patients cherchent">
+    <section class="py-12 md:py-16 bg-sand" aria-label={t('vertical.ariaSocialProof', locale)}>
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <p class="text-center text-sm font-sans font-medium tracking-[0.1em] uppercase text-stone mb-8 fade-up">
           {data.socialProofLabel}
@@ -124,7 +124,7 @@ const nav = navRoutes[locale];
     </section>
 
     <!-- ═══════════════════ CE QUE VOUS RECEVEZ ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce que vous recevez">
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label={t('vertical.ariaWhatYouGet', locale)}>
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <div class="max-w-3xl mx-auto">
           <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow" set:html={data.whatYouGetTitle} />
@@ -152,14 +152,14 @@ const nav = navRoutes[locale];
     </section>
 
     <!-- ═══════════════════ TÉMOIGNAGE ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Résultat client">
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label={t('vertical.ariaTestimonial', locale)}>
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <div class="max-w-3xl mx-auto">
           <div class="border border-warmgray bg-cream p-8 md:p-12 scale-in card-hover">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-8">
               <!-- Before -->
               <div class="text-center md:text-left">
-                <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">Avant</p>
+                <p class="text-sm font-sans font-medium text-stone/70 tracking-[0.1em] uppercase mb-3">{t('testimonial.before', locale)}</p>
                 <p class="text-[2.5rem] md:text-[3rem] font-serif font-normal leading-none tracking-[-0.02em] text-warmgray">{data.testimonial.beforeScore}<span class="text-[1.5rem]">/100</span></p>
                 <p class="mt-2 text-base font-sans font-normal leading-relaxed text-stone">{data.testimonial.beforeLabel}</p>
                 <p class="text-sm font-sans text-stone/70 mt-1" set:html={data.testimonial.beforeDetail} />
@@ -186,7 +186,7 @@ const nav = navRoutes[locale];
     </section>
 
     <!-- ═══════════════════ STATS / CE QUI A CHANGÉ ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce qui a changé">
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label={t('vertical.ariaStats', locale)}>
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow" set:html={data.statsTitle} />
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
@@ -209,7 +209,7 @@ const nav = navRoutes[locale];
     </section>
 
     <!-- ═══════════════════ PROBLÈMES SPÉCIFIQUES ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Les problèmes que vous connaissez">
+    <section class="py-16 md:py-24 lg:py-32 bg-cream" aria-label={t('vertical.ariaProblems', locale)}>
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow" set:html={data.problemsTitle} />
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
@@ -224,7 +224,7 @@ const nav = navRoutes[locale];
     </section>
 
     <!-- ═══════════════════ SOLUTION ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Ce qu'on fait pour vous">
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label={t('vertical.ariaSolution', locale)}>
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow" set:html={data.solutionTitle} />
         <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-stone mb-12 md:mb-16 fade-up" set:html={data.solutionSubtitle} />
@@ -247,7 +247,7 @@ const nav = navRoutes[locale];
     </section>
 
     <!-- ═══════════════════ COMMENT ÇA MARCHE ═══════════════════ -->
-    <section id="comment-ca-marche" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Comment ça marche">
+    <section id="comment-ca-marche" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label={t('vertical.ariaHowItWorks', locale)}>
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow">
           {data.howItWorksTitle}
@@ -278,7 +278,7 @@ const nav = navRoutes[locale];
     </section>
 
     <!-- ═══════════════════ FAQ ═══════════════════ -->
-    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Questions fréquentes">
+    <section class="py-16 md:py-24 lg:py-32 bg-sand" aria-label={t('vertical.ariaFaq', locale)}>
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <div class="max-w-3xl mx-auto">
           <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-12 md:mb-16 fade-up-slow">
@@ -302,7 +302,7 @@ const nav = navRoutes[locale];
     </section>
 
     <!-- ═══════════════════ FORMULAIRE ═══════════════════ -->
-    <section id="diagnostic" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Demander un diagnostic gratuit">
+    <section id="diagnostic" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label={t('vertical.ariaForm', locale)}>
       <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
         <div class="max-w-2xl mx-auto">
           <h2 class="text-center text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-4 fade-up-slow" set:html={data.formTitle} />

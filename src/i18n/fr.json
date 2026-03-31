@@ -233,5 +233,17 @@
   "thankYou": {
     "title": "Merci !",
     "subtitle": "Votre demande de diagnostic a bien été envoyée. Vous recevrez l'audit complet d'ici 24 heures."
+  },
+  "vertical": {
+    "ariaHero": "Accroche principale",
+    "ariaSocialProof": "Plateformes où vos clients cherchent",
+    "ariaWhatYouGet": "Ce que vous recevez",
+    "ariaTestimonial": "Résultat client",
+    "ariaStats": "Ce qui a changé",
+    "ariaProblems": "Les problèmes que vous connaissez",
+    "ariaSolution": "Ce qu'on fait pour vous",
+    "ariaHowItWorks": "Comment ça marche",
+    "ariaFaq": "Questions fréquentes",
+    "ariaForm": "Demander un diagnostic gratuit"
   }
 }

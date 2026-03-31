@@ -1,0 +1,66 @@
+---
+// StripeCheckout — Placeholder component for Stripe Payment Links integration
+//
+// USAGE (when Stripe is ready):
+// 1. Create Payment Links in Stripe Dashboard for each formula
+// 2. Set env vars: PUBLIC_STRIPE_LINK_ESSENTIEL, PUBLIC_STRIPE_LINK_COMPLET, PUBLIC_STRIPE_LINK_PREMIUM, PUBLIC_STRIPE_LINK_SUIVI
+// 3. Replace ctaHref in formules.astro with the Stripe links
+// 4. Add Stripe webhook in n8n: checkout.session.completed → update Notion + send confirmation email
+//
+// ARCHITECTURE NOTES:
+// - Static site = no server-side Stripe SDK needed
+// - Stripe Payment Links handle the entire checkout flow (hosted by Stripe)
+// - Client metadata (email, business name) can be prefilled via URL params: ?prefilled_email=x&client_reference_id=y
+// - After payment, Stripe redirects to a success page (e.g. /merci-paiement)
+// - Stripe webhooks → n8n webhook → Notion CRM update + email confirmation
+//
+// STRIPE PAYMENT LINK URL FORMAT:
+// https://buy.stripe.com/{price_link_id}?prefilled_email={email}&client_reference_id={business_name}
+//
+// RECOMMENDED STRIPE SETUP:
+// 1. Products: Essentiel (399€), Complet (699€), Premium (1199€), Suivi Mensuel (99€/mois)
+// 2. Payment Links: one per product, with success_url = https://eddiemiller.agency/merci-paiement
+// 3. Webhook endpoint: your n8n webhook URL, listening for checkout.session.completed
+// 4. Customer portal: for suivi mensuel subscription management
+
+export interface Props {
+  /** The Stripe Payment Link URL */
+  paymentUrl?: string;
+  /** Button text */
+  label?: string;
+  /** Plausible event location */
+  plausibleLocation?: string;
+  /** Additional CSS classes */
+  class?: string;
+}
+
+const {
+  paymentUrl,
+  label = 'Payer maintenant',
+  plausibleLocation = 'stripe-checkout',
+  class: className = ''
+} = Astro.props;
+
+// When no payment URL is set, fall back to diagnostic form
+const href = paymentUrl || '#diagnostic';
+const isStripeLink = !!paymentUrl;
+---
+
+{/*
+  This component renders a payment button.
+  When Stripe is configured, it links to Stripe Payment Links.
+  Until then, it falls back to the diagnostic form CTA.
+*/}
+<a
+  href={href}
+  class:list={[
+    'inline-block text-center px-8 py-4 font-sans font-medium text-base tracking-[0.02em] transition-colors duration-300',
+    isStripeLink ? 'text-cream bg-charcoal hover:bg-charcoal/90' : 'text-cream bg-terracotta hover:bg-terracotta-dark',
+    className
+  ]}
+  target={isStripeLink ? '_blank' : undefined}
+  rel={isStripeLink ? 'noopener' : undefined}
+  onclick={`plausible('CTA Click', {props: {location: '${plausibleLocation}'}})`}
+>
+  {label}
+</a>
