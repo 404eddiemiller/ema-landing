@@ -32,29 +32,50 @@
   },
   "whatYouGet": {
     "title": "Wat u gratis ontvangt",
-    "subtitle": "Een volledige diagnose van uw online zichtbaarheid, klaar binnen 24 uur."
+    "subtitle": "Een volledige diagnose van uw online zichtbaarheid, klaar binnen 24 uur.",
+    "item1Title": "Uw AI-zichtbaarheidsscore",
+    "item1Text": "Wij lanceren 100 echte zoekopdrachten op ChatGPT, Perplexity, Claude en Gemini in uw sector. Uw score = het aantal keren dat u wordt aanbevolen. Eenvoudig, concreet, meetbaar.",
+    "item2Title": "Wat uw klanten blokkeert",
+    "item2Text": "Wij identificeren precies wat AI ervan weerhoudt u aan te bevelen wanneer een klant in uw stad zoekt.",
+    "item3Title": "De concrete acties met prioriteit",
+    "item3Text": "Wij identificeren de correcties die de grootste impact hebben op het verhogen van uw klantenbestand.",
+    "item4Title": "Een gesprek van 15 minuten",
+    "item4Text": "Wij leggen uw resultaten persoonlijk uit, beantwoorden uw vragen en bekijken samen hoe wij u kunnen ondersteunen.",
+    "cta": "Vraag mijn gratis diagnose aan"
   },
   "testimonial": {
     "title": "Wat het in de praktijk verandert",
     "subtitle": "De zichtbaarheidsscore = het aantal keren dat u verschijnt wanneer ChatGPT en de andere AI's worden bevraagd bij 100 verzoeken.",
     "before": "Voor",
-    "after": "Na"
+    "after": "Na",
+    "quote1": "We begrepen niet waarom we minder nieuwe patiënten kregen terwijl onze Google-reviews uitstekend zijn. De diagnose toonde aan dat ChatGPT ons simpelweg niet kende. Binnen twee maanden kregen we telefoontjes van patiënten die zeiden onze praktijk \"dankzij AI\" te hebben gevonden.",
+    "name1": "Dr. Sophie M.",
+    "role1": "Tandarts, Parijs",
+    "before1Label": "Online onzichtbaar",
+    "after1Label": "+12 nieuwe patiënten/maand",
+    "delay1": "8 weken",
+    "quote2": "Een Amerikaanse toerist vertelde me dat hij ChatGPT had gevraagd naar het \"best restaurant near Eiffel Tower\" en dat wij bij de top 3 stonden. Voordat we met Eddie Miller werkten, verschenen we nergens. Nu krijgen we reserveringen rechtstreeks via AI.",
+    "name2": "Marc D.",
+    "role2": "Restauranteigenaar, Parijs",
+    "before2Label": "Nauwelijks zichtbaar",
+    "after2Label": "+18 couverts/week",
+    "delay2": "6 weken"
   },
   "problem": {
     "title": "Uw klanten hebben hun gewoontes veranderd",
     "subtitle": "Ze zoeken minder op Google. Ze vragen het rechtstreeks aan ChatGPT.",
-    "stat1Value": "57",
-    "stat1Suffix": " %",
-    "stat1Text": "van de 18- tot 34-jarigen vraagt liever AI dan te zoeken op Google",
-    "stat1Source": "Reuters Institute, 2025",
-    "stat2Value": "83",
+    "stat1Value": "28",
+    "stat1Suffix": " M",
+    "stat1Text": "Fransen gebruiken elke maand een AI om een restaurant, arts of hotel te vinden",
+    "stat1Source": "Médiamétrie, L'Année Internet 2025",
+    "stat2Value": "45",
     "stat2Suffix": " %",
-    "stat2Text": "van de lokale bedrijven verschijnt niet in de aanbevelingen van ChatGPT",
-    "stat2Source": "Local Falcon, 2026",
-    "stat3Value": "92",
+    "stat2Text": "van de consumenten vraagt al aan een AI om een lokaal bedrijf aan te bevelen, tegenover 6 % een jaar geleden",
+    "stat2Source": "BrightLocal, Local Consumer Review Survey 2026",
+    "stat3Value": "1.2",
     "stat3Suffix": " %",
-    "stat3Text": "van de gebruikers kiest een van de 3 eerste namen die door AI worden aanbevolen",
-    "stat3Source": "Authoritas, 2025"
+    "stat3Text": "van de bedrijven wordt aanbevolen wanneer je ChatGPT een vraag stelt. De rest is onzichtbaar.",
+    "stat3Source": "SOCi, Local Visibility Index 2026"
   },
   "quote": {
     "text": "«Beste restaurant bij mij in de buurt?» Deze vraag wordt dagelijks duizenden keren aan ChatGPT gesteld. De AI geeft 3 namen. Staat de uwe erbij? Nog niet.",
@@ -62,23 +83,86 @@
   },
   "solution": {
     "title": "Wij maken u zichtbaar waar uw toekomstige klanten zoeken",
-    "subtitle": "ChatGPT, Perplexity, Claude, Gemini, Google, Google Maps: wij dekken alle kanalen."
+    "subtitle": "ChatGPT, Perplexity, Claude, Gemini, Google, Google Maps: wij dekken alle kanalen.",
+    "aiTitle": "Aanbevolen worden door AI",
+    "aiBullet1": "ChatGPT, Claude, Gemini en Perplexity noemen u wanneer een klant om een aanbeveling vraagt",
+    "aiBullet2": "Wij verbeteren uw online reputatie om AI de vertrouwenssignalen te geven om u aan te bevelen",
+    "aiBullet3": "Wij maken u aanwezig op de bronnen die AI raadpleegt om antwoorden te formuleren",
+    "googleTitle": "Gevonden worden op Google",
+    "googleBullet1": "Uw bedrijf stijgt in Google Maps wanneer een klant in uw stad of wijk zoekt",
+    "googleBullet2": "Uw Google-profiel is compleet, actueel en verhoogt uw kansen om gecontacteerd te worden",
+    "googleBullet3": "Wij implementeren een strategie om uw online beoordelingen te optimaliseren"
   },
   "whyUs": {
     "title": "Waarom nu het juiste moment is",
-    "subtitle": "Elke dag zonder zichtbaarheid betekent klanten die naar een concurrent gaan."
+    "subtitle": "Elke dag zonder zichtbaarheid betekent klanten die naar een concurrent gaan.",
+    "reason1Title": "De eersten die zichtbaar zijn, behouden het voordeel",
+    "reason1Text": "AI werkt uit gewoonte: zodra het een bedrijf aanbeveelt, blijft het dat doen. Vroeg instappen betekent een blijvende voorsprong opbouwen.",
+    "reason2Title": "Uw concurrenten zijn er nog niet",
+    "reason2Text": "De meeste lokale bedrijven hebben geen idee dat ChatGPT hun klanten al beïnvloedt. Dit is een kans die niet lang open zal blijven.",
+    "reason3Title": "Elke dag zonder zichtbaarheid betekent verloren klanten",
+    "reason3Text": "Op dit moment zijn potentiële klanten naar u op zoek. Als de AI u niet kent, stuurt het die klant ergens anders heen. Zo simpel is het."
   },
   "verticals": {
     "title": "Oplossingen op maat van uw sector",
-    "subtitle": "Elke zaak heeft zijn eigen specificaties. Wij passen onze aanpak aan op uw beroep."
+    "subtitle": "Elke zaak heeft zijn eigen specificaties. Wij passen onze aanpak aan op uw beroep.",
+    "card1Title": "Restaurants",
+    "card1Text": "\"Waar vanavond eten?\" De vraag wordt gesteld aan ChatGPT. Het antwoord bent u of een concurrent.",
+    "card2Title": "Hotels",
+    "card2Text": "Reizigers plannen hun verblijf met AI. Wij zorgen dat uw hotel in hun suggesties staat.",
+    "card3Title": "Bars & Nachtclubs",
+    "card3Text": "\"Waar vanavond uitgaan?\" AI is de nieuwe uitgaansgids. Zorg dat u in de aanbevelingen staat.",
+    "card4Title": "Artsenpraktijken",
+    "card4Text": "Uw toekomstige patiënten zoeken een arts op ChatGPT. Wij zorgen ervoor dat uw praktijk wordt aanbevolen.",
+    "card5Title": "Tandartspraktijken",
+    "card5Text": "Uw toekomstige patiënten vragen ChatGPT om een tandarts. Wij zorgen ervoor dat u wordt aanbevolen.",
+    "card6Title": "Advocatenkantoren",
+    "card6Text": "Een klant die dringend een advocaat zoekt, vraagt het aan AI. Wees de naam die verschijnt.",
+    "card7Title": "Kapsalons & Schoonheidssalons",
+    "card7Text": "\"Beste kapper bij mij in de buurt?\" AI geeft 3 namen. Zorg dat de uwe erbij staat.",
+    "card8Title": "Wellness & Spa",
+    "card8Text": "Uw toekomstige klanten zoeken een spa in hun stad. AI antwoordt hen — wij zorgen dat u het bent.",
+    "card9Title": "Sportscholen & Sportclubs",
+    "card9Text": "Nieuwe leden vragen AI om advies voordat ze zich inschrijven. Wij maken u onmisbaar.",
+    "learnMore": "Meer informatie →"
   },
   "howItWorks": {
     "title": "Hoe het werkt",
-    "subtitle": "3 eenvoudige stappen om gevonden te worden door uw toekomstige klanten."
+    "subtitle": "3 eenvoudige stappen om gevonden te worden door uw toekomstige klanten.",
+    "step1Title": "Vraag uw diagnose aan",
+    "step1Text": "Vul het formulier in binnen 1 minuut. Wij lanceren 100 echte zoekopdrachten op ChatGPT, Perplexity, Claude en Gemini. U ontvangt uw zichtbaarheidsscore, de volledige diagnose en de prioritaire acties binnen 24 uur.",
+    "step2Title": "We bespreken het samen",
+    "step2Text": "15 minuten aan de telefoon om uw resultaten door te nemen, uw vragen te beantwoorden en te bekijken hoe wij u kunnen helpen om vaker aanbevolen te worden door AI.",
+    "step3Title": "Uw klanten vinden u",
+    "step3Text": "Als u besluit met ons samen te werken, nemen wij alles uit handen. Wij voeren de correcties voor u door — u hoeft niets te doen. Binnen enkele weken vinden nieuwe klanten u dankzij AI-aanbevelingen.",
+    "cta": "Vraag mijn gratis diagnose aan →",
+    "exclusivity": "Slechts één klant per wijk en specialiteit, om uw exclusiviteit te garanderen."
   },
   "faq": {
     "title": "Veelgestelde vragen",
-    "subtitle": "Alles wat u moet weten voordat u begint."
+    "subtitle": "Alles wat u moet weten voordat u begint.",
+    "q1": "Wat doen jullie precies voor mij?",
+    "a1": "Wij zorgen ervoor dat wanneer iemand een bedrijf zoals het uwe zoekt — of dat nu via ChatGPT of een andere AI-assistent is — ze bij u terechtkomen en niet bij een concurrent. Wij beheren uw Google Bedrijfsprofiel, uw aanwezigheid in de juiste directories en alle technische instellingen die ervoor zorgen dat AI u aanbeveelt.",
+    "q2": "Hoe snel zie ik verschil?",
+    "a2": "De eerste resultaten op Google zijn binnen enkele dagen zichtbaar. Voor AI-aanbevelingen zoals ChatGPT, reken op 4 tot 8 weken. We meten uw score voor en na: u ziet de voortgang in cijfers, niet in beloften.",
+    "q3": "Garanderen jullie dat ik op ChatGPT verschijn?",
+    "a3": "Vrijwel zeker. Maar wees voorzichtig met iedereen die het u voor 100% belooft. AI kiest zijn aanbevelingen autonoom. Wat wij garanderen is dat uw zaak aan alle voorwaarden voldoet om aanbevolen te worden — en we meten het concreet met een voor/na-score. U ziet de verbetering duidelijk, in concrete cijfers.",
+    "q4": "Werkt het echt voor mijn sector?",
+    "a4": "Ja. Onze methode is bewezen en geldt voor elk bedrijf met een fysiek adres: tandartspraktijken, artsenpraktijken, advocatenkantoren, restaurants, hotels, bars, clubs, kapsalons, spa's, sportscholen. Als uw klanten u zoeken op basis van locatie, kunnen wij u helpen.",
+    "q5": "Ik heb al goede Google-reviews. Is dat niet genoeg?",
+    "a5": "Goede Google-reviews zijn essentieel, maar slechts een deel van het verhaal. 83% van de bedrijven met uitstekende Google-reviews verschijnt niet in de aanbevelingen van ChatGPT. AI baseert zich niet op dezelfde criteria als Google om te bepalen wie wordt aanbevolen. Dat is precies wat we vaststellen in de gratis diagnose: wat er ontbreekt om ook door AI aanbevolen te worden.",
+    "q6": "Heb ik een website nodig?",
+    "a6": "Het helpt, maar het is niet noodzakelijk. Een groot deel van uw zichtbaarheid hangt af van uw Google Bedrijfsprofiel, branchespecifieke directories en specifieke technische instellingen. Wij optimaliseren uw volledige online aanwezigheid, met of zonder website.",
+    "q7": "Hoeveel tijd kost het mij?",
+    "a7": "Heel weinig. U vult een formulier van 1 minuut in voor de diagnose, daarna bellen wij u 15 minuten om onze aanbevelingen uit te leggen. Wij begeleiden u stap voor stap.",
+    "q8": "Waarom niet zelf doen?",
+    "a8": "Dat kan. Maar tussen het begrijpen van de algoritmen van Google en AI, het identificeren van knelpunten en het doorvoeren van correcties, reken op 25 tot 30 uur werk. Wij doen het in enkele dagen met een bewezen methode en onze ervaring bij tientallen bedrijven.",
+    "q9": "Wat kost het?",
+    "a9": "De diagnose is 100% gratis en vrijblijvend. Daarna gaan onze pakketten van €399 tot €1.199, afhankelijk van uw behoeften. We leggen u elke optie uit tijdens het gesprek van 15 minuten.",
+    "link9Href": "/nl/pakketten",
+    "link9Label": "Bekijk onze pakketten →",
+    "q10": "Wat is het verschil met een traditioneel SEO-bureau?",
+    "a10": "Een traditioneel SEO-bureau helpt u hoger te scoren op Google. Wij gaan verder: we maken u ook zichtbaar in de antwoorden van ChatGPT, Perplexity, Claude en Gemini. Het is een nieuw klantenkanaal dat de meeste bureaus nog niet bestrijken — en het is onze specialiteit."
   },
   "auditForm": {
     "title": "Uw gratis diagnose binnen 24 uur",
@@ -124,7 +208,7 @@
     "exclusivity": "Wij selecteren slechts één klant per wijk en specialiteit, om uw exclusiviteit te garanderen.",
     "submitButton": "Vraag mijn gratis diagnose aan",
     "submitting": "Bezig met verzenden…",
-    "trustSignals": "Resultaat binnen 24 uur · 100% gratis · Vrijblijvend"
+    "trustSignals": "Resultaat binnen 24 uur · 100% gratis · Vrijblijvend · Geen creditcard nodig"
   },
   "footer": {
     "description": "Wij helpen uw zaak aanbevolen te worden door ChatGPT en andere AI's.",

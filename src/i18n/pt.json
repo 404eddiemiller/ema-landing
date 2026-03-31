@@ -32,29 +32,50 @@
   },
   "whatYouGet": {
     "title": "O que recebe gratuitamente",
-    "subtitle": "Um diagnóstico completo da sua visibilidade online, pronto em 24 horas."
+    "subtitle": "Um diagnóstico completo da sua visibilidade online, pronto em 24 horas.",
+    "item1Title": "A sua pontuação de visibilidade IA",
+    "item1Text": "Lançamos 100 pesquisas reais no ChatGPT, Perplexity, Claude e Gemini no seu setor. A sua pontuação = o número de vezes que é recomendado. Simples, concreto, mensurável.",
+    "item2Title": "O que bloqueia os seus clientes",
+    "item2Text": "Identificamos exatamente o que impede a IA de o recomendar quando um cliente pesquisa na sua cidade.",
+    "item3Title": "As ações concretas a fazer primeiro",
+    "item3Text": "Identificamos as correções que terão maior impacto no aumento do seu número de clientes.",
+    "item4Title": "Uma chamada de 15 minutos para falar sobre isso",
+    "item4Text": "Explicamos-lhe os seus resultados pessoalmente, respondemos às suas perguntas e vemos juntos como o podemos acompanhar.",
+    "cta": "Pedir o meu diagnóstico gratuito"
   },
   "testimonial": {
     "title": "O que muda na prática",
     "subtitle": "A pontuação de visibilidade = o número de vezes que aparece quando se pergunta ao ChatGPT e às outras IAs em 100 pedidos.",
     "before": "Antes",
-    "after": "Depois"
+    "after": "Depois",
+    "quote1": "Não compreendíamos porque tínhamos menos pacientes novos apesar das nossas avaliações no Google serem excelentes. O diagnóstico mostrou que o ChatGPT simplesmente não nos conhecia. Em dois meses, começámos a receber chamadas de pacientes que diziam ter encontrado o nosso consultório \"graças à IA\".",
+    "name1": "Dr. Sophie M.",
+    "role1": "Dentista, Paris",
+    "before1Label": "Invisível online",
+    "after1Label": "+12 novos pacientes/mês",
+    "delay1": "8 semanas",
+    "quote2": "Um turista americano disse-me que tinha perguntado ao ChatGPT \"best restaurant near Eiffel Tower\" e que estávamos entre os 3 primeiros resultados. Antes de trabalhar com a Eddie Miller, não aparecíamos em lado nenhum. Agora recebemos reservas diretamente da IA.",
+    "name2": "Marc D.",
+    "role2": "Dono de restaurante, Paris",
+    "before2Label": "Quase invisível",
+    "after2Label": "+18 talheres/semana",
+    "delay2": "6 semanas"
   },
   "problem": {
     "title": "Os seus clientes mudaram de hábitos",
     "subtitle": "Pesquisam menos no Google. Perguntam diretamente ao ChatGPT.",
-    "stat1Value": "57",
-    "stat1Suffix": " %",
-    "stat1Text": "dos jovens entre 18 e 34 anos preferem perguntar à IA em vez de pesquisar no Google",
-    "stat1Source": "Reuters Institute, 2025",
-    "stat2Value": "83",
+    "stat1Value": "28",
+    "stat1Suffix": " M",
+    "stat1Text": "de franceses utilizam uma IA todos os meses para encontrar um restaurante, um médico ou um hotel",
+    "stat1Source": "Médiamétrie, L'Année Internet 2025",
+    "stat2Value": "45",
     "stat2Suffix": " %",
-    "stat2Text": "das empresas locais não aparecem nas recomendações do ChatGPT",
-    "stat2Source": "Local Falcon, 2026",
-    "stat3Value": "92",
+    "stat2Text": "dos consumidores já pedem a uma IA que lhes recomende uma empresa local, contra 6 % há um ano",
+    "stat2Source": "BrightLocal, Local Consumer Review Survey 2026",
+    "stat3Value": "1.2",
     "stat3Suffix": " %",
-    "stat3Text": "dos utilizadores escolhem um dos 3 primeiros nomes recomendados pela IA",
-    "stat3Source": "Authoritas, 2025"
+    "stat3Text": "das empresas são recomendadas quando se faz uma pergunta ao ChatGPT. As restantes são invisíveis.",
+    "stat3Source": "SOCi, Local Visibility Index 2026"
   },
   "quote": {
     "text": "«Melhor restaurante perto de mim?» Esta pergunta é feita ao ChatGPT milhares de vezes por dia. A IA dá 3 nomes. O seu faz parte deles? Ainda não.",
@@ -62,23 +83,86 @@
   },
   "solution": {
     "title": "Tornamo-lo visível onde os seus futuros clientes procuram",
-    "subtitle": "ChatGPT, Perplexity, Claude, Gemini, Google, Google Maps: cobrimos todos os canais."
+    "subtitle": "ChatGPT, Perplexity, Claude, Gemini, Google, Google Maps: cobrimos todos os canais.",
+    "aiTitle": "Ser recomendado pela IA",
+    "aiBullet1": "ChatGPT, Claude, Gemini e Perplexity citam-no quando um cliente pede uma recomendação",
+    "aiBullet2": "Melhoramos a sua reputação online para dar à IA os sinais de confiança para o recomendar",
+    "aiBullet3": "Tornamo-lo presente nas fontes que a IA consulta para formular as suas respostas",
+    "googleTitle": "Ser encontrado no Google",
+    "googleBullet1": "A sua empresa sobe no Google Maps quando um cliente pesquisa na sua cidade ou bairro",
+    "googleBullet2": "A sua ficha Google está completa, atualizada e aumenta as suas hipóteses de ser contactado",
+    "googleBullet3": "Implementamos uma estratégia para otimizar as suas avaliações online"
   },
   "whyUs": {
     "title": "Porque agora é o momento certo",
-    "subtitle": "Cada dia sem visibilidade significa clientes que vão para um concorrente."
+    "subtitle": "Cada dia sem visibilidade significa clientes que vão para um concorrente.",
+    "reason1Title": "Os primeiros a serem visíveis mantêm a vantagem",
+    "reason1Text": "A IA funciona por hábito: assim que recomenda uma empresa, continua a fazê-lo. Posicionar-se cedo é conquistar uma vantagem duradoura.",
+    "reason2Title": "Os seus concorrentes ainda não estão lá",
+    "reason2Text": "A maioria das empresas locais não faz ideia de que o ChatGPT já influencia os seus clientes. Esta é uma janela de oportunidade que não ficará aberta por muito tempo.",
+    "reason3Title": "Cada dia sem visibilidade são clientes perdidos",
+    "reason3Text": "Neste momento, potenciais clientes estão à sua procura. Se a IA não o conhece, envia esse cliente para outro sítio. É tão simples quanto isso."
   },
   "verticals": {
     "title": "Soluções adaptadas ao seu setor",
-    "subtitle": "Cada negócio tem as suas especificidades. Adaptamos a nossa abordagem à sua profissão."
+    "subtitle": "Cada negócio tem as suas especificidades. Adaptamos a nossa abordagem à sua profissão.",
+    "card1Title": "Restaurantes",
+    "card1Text": "«Onde jantar esta noite?» A pergunta é feita ao ChatGPT. A resposta é o seu negócio ou um concorrente.",
+    "card2Title": "Hotéis",
+    "card2Text": "Os viajantes planeiam a sua estadia com a IA. Colocamos o seu hotel nas sugestões deles.",
+    "card3Title": "Bares e discotecas",
+    "card3Text": "«Onde sair esta noite?» A IA é o novo guia noturno. Esteja nas suas recomendações.",
+    "card4Title": "Clínicas médicas",
+    "card4Text": "Os seus futuros pacientes procuram um médico no ChatGPT. Garantimos que a sua clínica seja recomendada.",
+    "card5Title": "Clínicas dentárias",
+    "card5Text": "Os seus futuros pacientes pedem um dentista ao ChatGPT. Garantimos que recomende o seu.",
+    "card6Title": "Escritórios de advogados",
+    "card6Text": "Um cliente que procura urgentemente um advogado pergunta à IA. Seja o nome que aparece.",
+    "card7Title": "Cabeleireiros e estética",
+    "card7Text": "«Melhor cabeleireiro perto de mim?» A IA dá 3 nomes. Garanta que o seu está entre eles.",
+    "card8Title": "Bem-estar e Spa",
+    "card8Text": "Os seus futuros clientes procuram um spa na sua cidade. A IA responde-lhes, nós garantimos que seja o seu.",
+    "card9Title": "Ginásios e clubes desportivos",
+    "card9Text": "Os novos membros pedem conselho à IA antes de se inscreverem. Tornamo-lo imprescindível.",
+    "learnMore": "Saber mais →"
   },
   "howItWorks": {
     "title": "Como funciona",
-    "subtitle": "3 passos simples para ser encontrado pelos seus futuros clientes."
+    "subtitle": "3 passos simples para ser encontrado pelos seus futuros clientes.",
+    "step1Title": "Peça o seu diagnóstico",
+    "step1Text": "Preencha o formulário em 1 minuto. Lançamos 100 pesquisas reais no ChatGPT, Perplexity, Claude e Gemini. Recebe a sua pontuação de visibilidade, o diagnóstico completo e as ações prioritárias em 24h.",
+    "step2Title": "Conversamos sobre os resultados",
+    "step2Text": "15 minutos ao telefone para rever os seus resultados, responder às suas perguntas e ver como o podemos ajudar a ser mais recomendado pela IA.",
+    "step3Title": "Os seus clientes encontram-no",
+    "step3Text": "Se decidir trabalhar connosco, tratamos de tudo. Implementamos as correções por si — não tem de fazer nada. Em poucas semanas, novos clientes começam a encontrá-lo graças às recomendações da IA.",
+    "cta": "Pedir o meu diagnóstico gratuito →",
+    "exclusivity": "Apenas um cliente por bairro e especialidade, para garantir a sua exclusividade."
   },
   "faq": {
     "title": "Perguntas frequentes",
-    "subtitle": "Para saber tudo antes de começar."
+    "subtitle": "Para saber tudo antes de começar.",
+    "q1": "O que é que fazem exatamente por mim?",
+    "a1": "Garantimos que quando alguém procura uma empresa como a sua — seja no ChatGPT ou noutro assistente de IA — encontra o seu negócio em vez de um concorrente. Tratamos do seu Perfil Google Business, da sua presença nos diretórios certos e de todos os parâmetros técnicos que fazem com que a IA o recomende.",
+    "q2": "Em quanto tempo vejo diferença?",
+    "a2": "Os primeiros resultados no Google são visíveis em poucos dias. Para as recomendações das IAs como o ChatGPT, conte com 4 a 8 semanas. Medimos a sua pontuação antes e depois: vê o progresso em números, não em promessas.",
+    "q3": "Garantem que vou aparecer no ChatGPT?",
+    "a3": "Quase de certeza. Mas desconfie de quem lhe prometer a 100%. As IAs escolhem as suas recomendações de forma autónoma. O que garantimos é que o seu negócio terá todas as condições para ser recomendado, e medimos isso concretamente com uma pontuação antes/depois. Vê a melhoria com clareza, em números.",
+    "q4": "Funciona mesmo para o meu setor?",
+    "a4": "Sim. O nosso método é comprovado e aplica-se a qualquer negócio com morada física: clínicas dentárias, consultórios médicos, escritórios de advogados, restaurantes, hotéis, bares, discotecas, cabeleireiros, spas, ginásios. Se os seus clientes o procuram pela localização, podemos ajudar.",
+    "q5": "Já tenho boas avaliações no Google. Não basta?",
+    "a5": "Ter boas avaliações no Google é essencial, mas é apenas parte da equação. 83% das empresas com excelentes avaliações no Google não aparecem nas recomendações do ChatGPT. A IA não se baseia nos mesmos critérios que o Google para decidir quem recomendar. É exatamente isso que identificamos no diagnóstico gratuito: o que falta para que a IA o recomende também.",
+    "q6": "Preciso de ter um site?",
+    "a6": "Ajuda, mas não é indispensável. Grande parte da sua visibilidade depende do seu Perfil Google Business, dos diretórios do seu setor e de parâmetros técnicos específicos. Otimizamos toda a sua presença online, com ou sem site.",
+    "q7": "Quanto tempo me ocupa?",
+    "a7": "Muito pouco. Preenche um formulário de 1 minuto para o diagnóstico, depois ligamos-lhe durante 15 minutos para explicar as nossas recomendações. Acompanhamo-lo passo a passo.",
+    "q8": "Porque não fazer eu mesmo?",
+    "a8": "Pode fazer. Mas entre compreender como funcionam os algoritmos do Google e das IAs, identificar o que está a bloquear e implementar as correções, conte com 25 a 30 horas de trabalho. Nós fazemo-lo em poucos dias com um método comprovado e a nossa experiência em dezenas de empresas.",
+    "q9": "Quanto custa?",
+    "a9": "O diagnóstico é 100% gratuito e sem compromisso. Depois, os nossos planos vão de 399 € a 1.199 € consoante as suas necessidades. Explicamos-lhe cada opção na chamada de 15 minutos.",
+    "link9Href": "/pt/planos",
+    "link9Label": "Ver os nossos planos →",
+    "q10": "Qual é a diferença em relação a uma agência SEO tradicional?",
+    "a10": "Uma agência SEO tradicional ajuda-o a subir no Google. Nós vamos mais longe: tornamo-lo também visível nas respostas do ChatGPT, Perplexity, Claude e Gemini. É um novo canal de clientes que a maioria das agências ainda não cobre — e é a nossa especialidade."
   },
   "auditForm": {
     "title": "O seu diagnóstico gratuito em 24h",
@@ -124,7 +208,7 @@
     "exclusivity": "Selecionamos apenas um cliente por bairro e especialidade, para garantir a sua exclusividade.",
     "submitButton": "Pedir o meu diagnóstico gratuito",
     "submitting": "A enviar…",
-    "trustSignals": "Resultados em 24h · 100% gratuito · Sem compromisso"
+    "trustSignals": "Resultados em 24h · 100% gratuito · Sem compromisso · Sem cartão de crédito"
   },
   "footer": {
     "description": "Ajudamos o seu negócio a ser recomendado pelo ChatGPT e pelas outras IAs.",

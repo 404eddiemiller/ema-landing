@@ -3,10 +3,13 @@
 import { t, getLocaleFromPath, type Locale } from '../i18n/index';
 const locale = getLocaleFromPath(Astro.url.pathname);
 
+const decSep = locale === 'en' ? '.' : ',';
+const fmt = (v: number) => v % 1 !== 0 ? v.toFixed(1).replace('.', decSep) : String(v);
+
 const stats = [
-  { value: parseInt(t('problem.stat1Value', locale)), suffix: t('problem.stat1Suffix', locale), text: t('problem.stat1Text', locale), source: t('problem.stat1Source', locale) },
-  { value: parseInt(t('problem.stat2Value', locale)), suffix: t('problem.stat2Suffix', locale), text: t('problem.stat2Text', locale), source: t('problem.stat2Source', locale) },
-  { value: parseInt(t('problem.stat3Value', locale)), suffix: t('problem.stat3Suffix', locale), text: t('problem.stat3Text', locale), source: t('problem.stat3Source', locale) },
+  { value: parseFloat(t('problem.stat1Value', locale)), suffix: t('problem.stat1Suffix', locale), text: t('problem.stat1Text', locale), source: t('problem.stat1Source', locale) },
+  { value: parseFloat(t('problem.stat2Value', locale)), suffix: t('problem.stat2Suffix', locale), text: t('problem.stat2Text', locale), source: t('problem.stat2Source', locale) },
+  { value: parseFloat(t('problem.stat3Value', locale)), suffix: t('problem.stat3Suffix', locale), text: t('problem.stat3Text', locale), source: t('problem.stat3Source', locale) },
 ];
 ---
 <section class="py-16 md:py-24 lg:py-32 bg-charcoal text-cream section-inverted" aria-label="Le problème">
@@ -26,8 +29,9 @@ const stats = [
             class="text-[3rem] md:text-[3.5rem] font-serif font-normal leading-none tracking-[-0.02em] text-terracotta mb-4"
             data-count-to={stat.value}
             data-suffix={stat.suffix}
+            data-dec-sep={decSep}
           >
-            {stat.value}{stat.suffix}
+            {fmt(stat.value)}{stat.suffix}
           </p>
           <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-cream/80 mb-4">
             {stat.text}
@@ -41,11 +45,44 @@ const stats = [
       ))}
     </div>
 
-    <!-- ChatGPT mock-up -->
-    <div class="max-w-xl mx-auto mb-12 md:mb-16 scale-in">
+    <!-- ChatGPT mock-up with tabs -->
+    <div class="max-w-xl mx-auto mb-12 md:mb-16 scale-in" id="mockup-tabs">
       <p class="text-xs font-sans font-medium text-cream/40 uppercase tracking-wider mb-3 text-center">Ce que voit votre futur client</p>
-      <div class="border border-cream/10 bg-cream/5 p-5 md:p-6">
-        <!-- User prompt -->
+
+      <!-- Tab buttons -->
+      <div class="flex gap-0 mb-0">
+        <button type="button" class="mockup-tab flex-1 px-4 py-2.5 text-xs font-sans font-medium tracking-wider uppercase border border-cream/10 border-b-0 transition-colors duration-200 bg-cream/10 text-cream/90" data-tab="restaurant" aria-selected="true">Restaurant</button>
+        <button type="button" class="mockup-tab flex-1 px-4 py-2.5 text-xs font-sans font-medium tracking-wider uppercase border border-cream/10 border-b-0 transition-colors duration-200 bg-cream/5 text-cream/40 hover:text-cream/60" data-tab="dentiste" aria-selected="false">Dentiste</button>
+        <button type="button" class="mockup-tab flex-1 px-4 py-2.5 text-xs font-sans font-medium tracking-wider uppercase border border-cream/10 border-b-0 transition-colors duration-200 bg-cream/5 text-cream/40 hover:text-cream/60" data-tab="hotel" aria-selected="false">Hôtel</button>
+      </div>
+
+      <!-- Restaurant panel -->
+      <div class="mockup-panel border border-cream/10 bg-cream/5 p-5 md:p-6" data-panel="restaurant">
+        <div class="flex items-start gap-3 mb-5">
+          <div class="w-7 h-7 shrink-0 bg-cream/20 flex items-center justify-center" aria-hidden="true">
+            <svg class="w-4 h-4 text-cream/60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <p class="text-sm font-sans font-medium text-cream/90 leading-relaxed">
+            Meilleur restaurant italien dans le 11e ?
+          </p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="w-7 h-7 shrink-0 bg-terracotta/20 flex items-center justify-center" aria-hidden="true">
+            <svg class="w-4 h-4 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3c.5 3.5 2 5 5.5 5.5-3.5.5-5 2-5.5 5.5-.5-3.5-2-5-5.5-5.5C10 8 11.5 6.5 12 3Z"/><path d="M19 10c.3 2 1.2 3 3.3 3.3-2.1.3-3 1.2-3.3 3.3-.3-2.1-1.2-3-3.3-3.3 2.1-.3 3-1.3 3.3-3.3Z"/></svg>
+          </div>
+          <div class="text-sm font-sans text-cream/80 leading-relaxed">
+            <p class="mb-3">Voici les 3 restaurants italiens les mieux notés dans le 11e :</p>
+            <ol class="space-y-2 list-decimal list-inside">
+              <li><strong class="text-terracotta">Votre restaurant pourrait être ici.</strong></li>
+              <li><strong class="text-cream">Trattoria Della Nonna</strong> — 4.7★, pâtes fraîches maison</li>
+              <li><strong class="text-cream">Il Contadino</strong> — 4.6★, cuisine napolitaine</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dentiste panel -->
+      <div class="mockup-panel border border-cream/10 bg-cream/5 p-5 md:p-6 hidden" data-panel="dentiste">
         <div class="flex items-start gap-3 mb-5">
           <div class="w-7 h-7 shrink-0 bg-cream/20 flex items-center justify-center" aria-hidden="true">
             <svg class="w-4 h-4 text-cream/60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -54,7 +91,6 @@ const stats = [
             Meilleur dentiste près de chez moi ?
           </p>
         </div>
-        <!-- AI response -->
         <div class="flex items-start gap-3">
           <div class="w-7 h-7 shrink-0 bg-terracotta/20 flex items-center justify-center" aria-hidden="true">
             <svg class="w-4 h-4 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3c.5 3.5 2 5 5.5 5.5-3.5.5-5 2-5.5 5.5-.5-3.5-2-5-5.5-5.5C10 8 11.5 6.5 12 3Z"/><path d="M19 10c.3 2 1.2 3 3.3 3.3-2.1.3-3 1.2-3.3 3.3-.3-2.1-1.2-3-3.3-3.3 2.1-.3 3-1.3 3.3-3.3Z"/></svg>
@@ -69,16 +105,71 @@ const stats = [
           </div>
         </div>
       </div>
+
+      <!-- Hôtel panel -->
+      <div class="mockup-panel border border-cream/10 bg-cream/5 p-5 md:p-6 hidden" data-panel="hotel">
+        <div class="flex items-start gap-3 mb-5">
+          <div class="w-7 h-7 shrink-0 bg-cream/20 flex items-center justify-center" aria-hidden="true">
+            <svg class="w-4 h-4 text-cream/60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <p class="text-sm font-sans font-medium text-cream/90 leading-relaxed">
+            Best boutique hotel in Le Marais?
+          </p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="w-7 h-7 shrink-0 bg-terracotta/20 flex items-center justify-center" aria-hidden="true">
+            <svg class="w-4 h-4 text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3c.5 3.5 2 5 5.5 5.5-3.5.5-5 2-5.5 5.5-.5-3.5-2-5-5.5-5.5C10 8 11.5 6.5 12 3Z"/><path d="M19 10c.3 2 1.2 3 3.3 3.3-2.1.3-3 1.2-3.3 3.3-.3-2.1-1.2-3-3.3-3.3 2.1-.3 3-1.3 3.3-3.3Z"/></svg>
+          </div>
+          <div class="text-sm font-sans text-cream/80 leading-relaxed">
+            <p class="mb-3">Here are 3 highly-rated boutique hotels in Le Marais:</p>
+            <ol class="space-y-2 list-decimal list-inside">
+              <li><strong class="text-terracotta">Votre hôtel pourrait être ici.</strong></li>
+              <li><strong class="text-cream">Hôtel du Petit Moulin</strong> — 4.8★, design by Christian Lacroix</li>
+              <li><strong class="text-cream">Le Pavillon de la Reine</strong> — 4.7★, Place des Vosges</li>
+            </ol>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>
 </section>
 
+<!-- Mockup tabs script -->
+<script>
+  const tabContainer = document.getElementById('mockup-tabs');
+  if (tabContainer) {
+    const tabs = tabContainer.querySelectorAll<HTMLButtonElement>('.mockup-tab');
+    const panels = tabContainer.querySelectorAll<HTMLDivElement>('.mockup-panel');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const target = tab.dataset.tab;
+
+        tabs.forEach(t => {
+          const isActive = t.dataset.tab === target;
+          t.setAttribute('aria-selected', String(isActive));
+          t.classList.toggle('bg-cream/10', isActive);
+          t.classList.toggle('text-cream/90', isActive);
+          t.classList.toggle('bg-cream/5', !isActive);
+          t.classList.toggle('text-cream/40', !isActive);
+        });
+
+        panels.forEach(p => {
+          p.classList.toggle('hidden', p.dataset.panel !== target);
+        });
+      });
+    });
+  }
+</script>
+
 <!-- Counter animation script -->
 <script>
   function animateCounter(el: HTMLElement) {
-    const target = parseInt(el.dataset.countTo || '0', 10);
+    const target = parseFloat(el.dataset.countTo || '0');
     const suffix = el.dataset.suffix || '';
+    const decSep = el.dataset.decSep || '.';
+    const hasDecimal = target % 1 !== 0;
     el.textContent = '0' + suffix;
     const duration = 1500;
     const start = performance.now();
@@ -87,8 +178,8 @@ const stats = [
       const elapsed = now - start;
       const progress = Math.min(elapsed / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
-      const current = Math.round(eased * target);
-      el.textContent = current + suffix;
+      const current = eased * target;
+      el.textContent = (hasDecimal ? current.toFixed(1).replace('.', decSep) : Math.round(current).toString()) + suffix;
       if (progress < 1) {
         requestAnimationFrame(update);
       }
