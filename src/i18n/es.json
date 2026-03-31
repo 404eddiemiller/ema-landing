@@ -24,8 +24,8 @@
     "cta": "Solicitar mi diagnóstico gratuito",
     "secondary": "Comprobar si mi negocio es visible →",
     "trust1": "Resultados en 24h",
-    "trust2": "100% gratuito",
-    "trust3": "Sin compromiso"
+    "trust2": "Sin compromiso",
+    "trust3": "Sin tarjeta de crédito"
   },
   "socialProof": {
     "label": "Tus clientes buscan aquí. ¿Apareces?"
@@ -35,7 +35,7 @@
     "subtitle": "Un diagnóstico completo de tu visibilidad online, listo en 24 horas.",
     "item1Title": "Tu puntuación de visibilidad IA",
     "item1Text": "Lanzamos 100 consultas reales en ChatGPT, Perplexity, Claude y Gemini en tu sector. Tu puntuación = el número de veces que te recomiendan. Simple, concreto, medible.",
-    "item2Title": "Lo que bloquea a tus clientes",
+    "item2Title": "Lo que bloquea tu visibilidad",
     "item2Text": "Identificamos exactamente qué impide que las IA te recomienden cuando un cliente busca en tu ciudad.",
     "item3Title": "Las acciones concretas a hacer primero",
     "item3Text": "Identificamos las correcciones que tendrán más impacto para aumentar tu número de clientes.",
@@ -124,7 +124,9 @@
     "card8Text": "Tus futuros clientes buscan un spa en su ciudad. La IA les responde, nos aseguramos de que seas tú.",
     "card9Title": "Gimnasios y clubs deportivos",
     "card9Text": "Los nuevos miembros piden consejo a la IA antes de inscribirse. Te hacemos imprescindible.",
-    "learnMore": "Saber más →"
+    "learnMore": "Saber más →",
+    "card10Title": "Otro negocio",
+    "card10Text": "¿Tu sector no aparece? Adaptamos nuestro enfoque a tu actividad. Contáctanos para un diagnóstico a medida."
   },
   "howItWorks": {
     "title": "Cómo funciona",
@@ -135,8 +137,7 @@
     "step2Text": "15 minutos por teléfono para repasar tus resultados, responder a tus preguntas y ver cómo podemos ayudarte a ser más recomendado por la IA.",
     "step3Title": "Tus clientes te encuentran",
     "step3Text": "Si decides trabajar con nosotros, nos ocupamos de todo. Implementamos las correcciones por ti, tú no tienes que hacer nada. En pocas semanas, nuevos clientes empiezan a encontrarte gracias a las recomendaciones de la IA.",
-    "cta": "Solicitar mi diagnóstico gratuito →",
-    "exclusivity": "Un solo cliente por barrio y especialidad, para garantizar tu exclusividad."
+    "cta": "Solicitar mi diagnóstico gratuito →"
   },
   "faq": {
     "title": "Preguntas frecuentes",
@@ -205,17 +206,16 @@
     "sourceOther": "Otro",
     "errorGeneric": "Ha ocurrido un error. Inténtalo de nuevo o contáctanos en contact@eddiemiller.agency.",
     "errorSource": "Indica cómo nos conociste.",
-    "exclusivity": "Seleccionamos un solo cliente por barrio y especialidad, para garantizar tu exclusividad.",
     "submitButton": "Solicitar mi diagnóstico gratuito",
     "submitting": "Enviando…",
-    "trustSignals": "Resultados en 24h · 100% gratuito · Sin compromiso · Sin tarjeta de crédito"
+    "trustSignals": "Resultados en 24h · Sin compromiso · Sin tarjeta de crédito"
   },
   "footer": {
     "description": "Ayudamos a tu negocio a ser recomendado por ChatGPT y las demás IAs.",
     "legalLinks": "Enlaces de navegación",
     "legal": "Aviso legal",
     "terms": "Términos y condiciones",
-    "copyright": "© 2026 Eddie Miller Agency. Todos los derechos reservados."
+    "copyright": "© {{year}} Eddie Miller Agency. Todos los derechos reservados."
   },
   "stickyCta": {
     "text": "¿ChatGPT recomienda tu negocio? Obtén la respuesta en 24h →",

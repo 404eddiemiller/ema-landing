@@ -60,15 +60,15 @@ const nav = navRoutes[locale];
             style="background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6360%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem center;"
           >
             <option value="" disabled selected>{t('auditForm.choosePlaceholder', locale)}</option>
-            <option value="dentiste">{t('auditForm.typeDentist', locale)}</option>
-            <option value="medical">{t('auditForm.typeMedical', locale)}</option>
-            <option value="avocat">{t('auditForm.typeLawyer', locale)}</option>
             <option value="restaurant">{t('auditForm.typeRestaurant', locale)}</option>
             <option value="hotel">{t('auditForm.typeHotel', locale)}</option>
+            <option value="bar">{t('auditForm.typeBar', locale)}</option>
+            <option value="medical">{t('auditForm.typeMedical', locale)}</option>
+            <option value="dentiste">{t('auditForm.typeDentist', locale)}</option>
+            <option value="avocat">{t('auditForm.typeLawyer', locale)}</option>
             <option value="coiffure">{t('auditForm.typeHair', locale)}</option>
             <option value="spa">{t('auditForm.typeSpa', locale)}</option>
             <option value="sport">{t('auditForm.typeGym', locale)}</option>
-            <option value="bar">{t('auditForm.typeBar', locale)}</option>
             <option value="autre">{t('auditForm.typeOther', locale)}</option>
           </select>
         </div>
@@ -107,11 +107,6 @@ const nav = navRoutes[locale];
         <div id="form-error" class="hidden px-4 py-3 bg-red-50 border border-red-200 text-red-700 font-sans text-sm" role="alert" tabindex="-1">
           {t('auditForm.errorGeneric', locale)}
         </div>
-
-        <!-- Exclusivity signal -->
-        <p class="text-center text-xs font-sans text-stone/80 px-4 py-3 bg-sand border border-warmgray/30">
-          {t('auditForm.exclusivity', locale)}
-        </p>
 
         <button
           type="submit"

@@ -6,12 +6,13 @@ const verticals = [
   { titleKey: 'verticals.card1Title', textKey: 'verticals.card1Text', icon: 'utensils-crossed', routeKey: 'restaurants' as const },
   { titleKey: 'verticals.card2Title', textKey: 'verticals.card2Text', icon: 'building', routeKey: 'hotels' as const },
   { titleKey: 'verticals.card3Title', textKey: 'verticals.card3Text', icon: 'glass', routeKey: 'bars' as const },
-  { titleKey: 'verticals.card4Title', textKey: 'verticals.card4Text', icon: 'heartpulse', href: localePath('/medical', locale) },
+  { titleKey: 'verticals.card4Title', textKey: 'verticals.card4Text', icon: 'stethoscope', href: localePath('/medical', locale) },
   { titleKey: 'verticals.card5Title', textKey: 'verticals.card5Text', icon: 'tooth', routeKey: 'dentists' as const },
   { titleKey: 'verticals.card6Title', textKey: 'verticals.card6Text', icon: 'scale', routeKey: 'lawyers' as const },
   { titleKey: 'verticals.card7Title', textKey: 'verticals.card7Text', icon: 'scissors', routeKey: 'hair' as const },
   { titleKey: 'verticals.card8Title', textKey: 'verticals.card8Text', icon: 'sparkles', routeKey: 'spa' as const },
   { titleKey: 'verticals.card9Title', textKey: 'verticals.card9Text', icon: 'dumbbell', routeKey: 'gyms' as const },
+  { titleKey: 'verticals.card10Title', textKey: 'verticals.card10Text', icon: 'plus' },
 ];
 
 // SVG icon paths by name
@@ -24,7 +25,8 @@ const icons: Record<string, string> = {
   scissors: '<circle cx="6" cy="6" r="3"/><path d="M8.12 8.12 12 12"/><path d="M20 4 8.12 15.88"/><circle cx="6" cy="18" r="3"/><path d="M14.8 14.8 20 20"/>',
   sparkles: '<path d="M12 3c.5 3.5 2 5 5.5 5.5-3.5.5-5 2-5.5 5.5-.5-3.5-2-5-5.5-5.5C10 8 11.5 6.5 12 3Z"/><path d="M19 10c.3 2 1.2 3 3.3 3.3-2.1.3-3 1.2-3.3 3.3-.3-2.1-1.2-3-3.3-3.3 2.1-.3 3-1.3 3.3-3.3Z"/><path d="M9 17c.3 2 1.2 3 3.3 3.3-2.1.3-3 1.2-3.3 3.3-.3-2.1-1.2-3-3.3-3.3C7.8 20 8.7 19 9 17Z"/>',
   heartpulse: '<path d="M19.5 12.572l-7.5 7.428l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572"/><path d="M12 6v4l2 2"/>',
-  dumbbell: '<path d="M6.5 6.5h11M17.5 4v5M6.5 4v5"/><rect x="3" y="5" width="3.5" height="3" rx="0.5"/><rect x="17.5" y="5" width="3.5" height="3" rx="0.5"/><path d="M2 6.5h1M21 6.5h1"/><path d="M6.5 15.5h11M17.5 13v5M6.5 13v5"/><rect x="3" y="14" width="3.5" height="3" rx="0.5"/><rect x="17.5" y="14" width="3.5" height="3" rx="0.5"/><path d="M2 15.5h1M21 15.5h1"/>',
+  dumbbell: '<path d="m6.5 6.5 11 0M17.5 4v5M6.5 4v5"/><rect x="3" y="5" width="3.5" height="3" rx="0.5"/><rect x="17.5" y="5" width="3.5" height="3" rx="0.5"/><path d="M2 6.5h1M21 6.5h1"/><path d="m6.5 15.5 11 0M17.5 13v5M6.5 13v5"/><rect x="3" y="14" width="3.5" height="3" rx="0.5"/><rect x="17.5" y="14" width="3.5" height="3" rx="0.5"/><path d="M2 15.5h1M21 15.5h1"/>',
+  plus: '<path d="M5 12h14"/><path d="M12 5v14"/>',
   glass: '<path d="M8 22h8"/><path d="M12 15v7"/><path d="m19 2-7 10-7-10Z"/>',
 };
 ---
@@ -37,10 +39,10 @@ const icons: Record<string, string> = {
       {t('verticals.subtitle', locale)}
     </p>
 
-    <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+    <div class="verticals-carousel flex overflow-x-auto snap-x snap-mandatory gap-4 md:gap-5 pb-4 -mx-6 px-6 md:-mx-8 md:px-8 lg:mx-0 lg:px-0 lg:grid lg:grid-cols-3 lg:overflow-visible lg:snap-none lg:pb-0">
       {verticals.map((v, i) => {
         const href = v.href ?? (v.routeKey ? pageRoutes[v.routeKey]?.[locale] : undefined);
-        const cardClasses = "block border border-warmgray p-5 md:p-6 bg-cream card-hover scale-in group";
+        const cardClasses = "snap-start shrink-0 w-[72vw] sm:w-[44vw] lg:w-auto lg:shrink block border border-warmgray p-5 md:p-6 bg-cream card-hover scale-in group";
         const cardContent = (
           <>
             <div class="mb-3">
@@ -71,3 +73,13 @@ const icons: Record<string, string> = {
     </div>
   </div>
 </section>
+
+<style>
+  .verticals-carousel {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .verticals-carousel::-webkit-scrollbar {
+    display: none;
+  }
+</style>

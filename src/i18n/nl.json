@@ -24,8 +24,8 @@
     "cta": "Vraag mijn gratis diagnose aan",
     "secondary": "Controleer of mijn zaak zichtbaar is →",
     "trust1": "Resultaat binnen 24 uur",
-    "trust2": "100% gratis",
-    "trust3": "Vrijblijvend"
+    "trust2": "Vrijblijvend",
+    "trust3": "Geen creditcard nodig"
   },
   "socialProof": {
     "label": "Uw klanten zoeken hier. Bent u er te vinden?"
@@ -35,7 +35,7 @@
     "subtitle": "Een volledige diagnose van uw online zichtbaarheid, klaar binnen 24 uur.",
     "item1Title": "Uw AI-zichtbaarheidsscore",
     "item1Text": "Wij lanceren 100 echte zoekopdrachten op ChatGPT, Perplexity, Claude en Gemini in uw sector. Uw score = het aantal keren dat u wordt aanbevolen. Eenvoudig, concreet, meetbaar.",
-    "item2Title": "Wat uw klanten blokkeert",
+    "item2Title": "Wat uw zichtbaarheid blokkeert",
     "item2Text": "Wij identificeren precies wat AI ervan weerhoudt u aan te bevelen wanneer een klant in uw stad zoekt.",
     "item3Title": "De concrete acties met prioriteit",
     "item3Text": "Wij identificeren de correcties die de grootste impact hebben op het verhogen van uw klantenbestand.",
@@ -124,7 +124,9 @@
     "card8Text": "Uw toekomstige klanten zoeken een spa in hun stad. AI antwoordt hen — wij zorgen dat u het bent.",
     "card9Title": "Sportscholen & Sportclubs",
     "card9Text": "Nieuwe leden vragen AI om advies voordat ze zich inschrijven. Wij maken u onmisbaar.",
-    "learnMore": "Meer informatie →"
+    "learnMore": "Meer informatie →",
+    "card10Title": "Andere branche",
+    "card10Text": "Uw sector staat er niet bij? Wij passen onze aanpak aan op uw branche. Neem contact met ons op voor een diagnose op maat."
   },
   "howItWorks": {
     "title": "Hoe het werkt",
@@ -135,8 +137,7 @@
     "step2Text": "15 minuten aan de telefoon om uw resultaten door te nemen, uw vragen te beantwoorden en te bekijken hoe wij u kunnen helpen om vaker aanbevolen te worden door AI.",
     "step3Title": "Uw klanten vinden u",
     "step3Text": "Als u besluit met ons samen te werken, nemen wij alles uit handen. Wij voeren de correcties voor u door — u hoeft niets te doen. Binnen enkele weken vinden nieuwe klanten u dankzij AI-aanbevelingen.",
-    "cta": "Vraag mijn gratis diagnose aan →",
-    "exclusivity": "Slechts één klant per wijk en specialiteit, om uw exclusiviteit te garanderen."
+    "cta": "Vraag mijn gratis diagnose aan →"
   },
   "faq": {
     "title": "Veelgestelde vragen",
@@ -205,17 +206,16 @@
     "sourceOther": "Overig",
     "errorGeneric": "Er is een fout opgetreden. Probeer het opnieuw of neem contact met ons op via contact@eddiemiller.agency.",
     "errorSource": "Geef aan hoe u over ons heeft gehoord.",
-    "exclusivity": "Wij selecteren slechts één klant per wijk en specialiteit, om uw exclusiviteit te garanderen.",
     "submitButton": "Vraag mijn gratis diagnose aan",
     "submitting": "Bezig met verzenden…",
-    "trustSignals": "Resultaat binnen 24 uur · 100% gratis · Vrijblijvend · Geen creditcard nodig"
+    "trustSignals": "Resultaat binnen 24 uur · Vrijblijvend · Geen creditcard nodig"
   },
   "footer": {
     "description": "Wij helpen uw zaak aanbevolen te worden door ChatGPT en andere AI's.",
     "legalLinks": "Navigatielinks",
     "legal": "Juridische informatie",
     "terms": "Algemene voorwaarden",
-    "copyright": "© 2026 Eddie Miller Agency. Alle rechten voorbehouden."
+    "copyright": "© {{year}} Eddie Miller Agency. Alle rechten voorbehouden."
   },
   "stickyCta": {
     "text": "Beveelt ChatGPT uw zaak aan? Ontvang het antwoord binnen 24 uur →",

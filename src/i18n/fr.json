@@ -24,8 +24,8 @@
     "cta": "Demander mon diagnostic gratuit",
     "secondary": "Vérifier si mon entreprise est visible →",
     "trust1": "Diagnostic en 24h",
-    "trust2": "100 % gratuit",
-    "trust3": "Sans engagement"
+    "trust2": "Sans engagement",
+    "trust3": "Aucune CB requise"
   },
   "socialProof": {
     "label": "Vos clients cherchent ici. Vous, vous y êtes ?"
@@ -35,7 +35,7 @@
     "subtitle": "Un diagnostic complet de votre visibilité en ligne, prêt en 24h.",
     "item1Title": "Votre score de visibilité IA",
     "item1Text": "On lance 100 requêtes réelles à ChatGPT, Perplexity, Claude et Gemini sur votre secteur. Votre score = le nombre de fois où vous êtes recommandé. Simple, concret, mesurable.",
-    "item2Title": "Ce qui bloque vos clients",
+    "item2Title": "Ce qui bloque votre visibilité",
     "item2Text": "On identifie précisément ce qui empêche les IA de vous recommander quand un client cherche dans votre ville.",
     "item3Title": "Les actions concrètes à faire en premier",
     "item3Text": "On identifie les corrections qui auront le plus d'impact pour augmenter votre nombre de clients.",
@@ -124,7 +124,9 @@
     "card8Text": "Vos futurs clients cherchent un spa dans leur ville. L'IA leur répond, on fait en sorte que ce soit vous.",
     "card9Title": "Salles de sport & Clubs sportifs",
     "card9Text": "Les nouveaux adhérents demandent conseil à l'IA avant de s'inscrire. On vous rend incontournable.",
-    "learnMore": "En savoir plus →"
+    "learnMore": "En savoir plus →",
+    "card10Title": "Autre activité",
+    "card10Text": "Votre métier n'est pas listé\u00a0? On adapte notre approche à votre secteur. Contactez-nous pour un diagnostic sur mesure."
   },
   "howItWorks": {
     "title": "Comment ça marche",
@@ -135,8 +137,7 @@
     "step2Text": "15 minutes au téléphone pour parcourir vos résultats, répondre à vos questions et voir comment on peut vous aider à être davantage recommandé par les IA.",
     "step3Title": "Vos clients vous trouvent",
     "step3Text": "Si vous décidez de travailler avec nous, on s'occupe de tout. On met en place les corrections pour vous, vous n'avez rien à faire. En quelques semaines, de nouveaux clients commencent à vous trouver grâce aux recommandations de l'IA.",
-    "cta": "Demander mon diagnostic gratuit →",
-    "exclusivity": "Un seul client par quartier et par spécialité, pour vous garantir l'exclusivité."
+    "cta": "Demander mon diagnostic gratuit →"
   },
   "faq": {
     "title": "Questions fréquentes",
@@ -205,17 +206,16 @@
     "sourceOther": "Autre",
     "errorGeneric": "Une erreur est survenue. Veuillez réessayer ou nous contacter à contact@eddiemiller.agency.",
     "errorSource": "Veuillez indiquer comment vous nous avez connu.",
-    "exclusivity": "Nous sélectionnons un seul client par quartier et par spécialité, pour vous garantir l'exclusivité.",
     "submitButton": "Demander mon diagnostic gratuit",
     "submitting": "Envoi en cours…",
-    "trustSignals": "Diagnostic en 24h · 100 % gratuit · Sans engagement · Aucune CB requise"
+    "trustSignals": "Diagnostic en 24h · Sans engagement · Aucune CB requise"
   },
   "footer": {
     "description": "On aide votre entreprise à être recommandée par ChatGPT et les autres IA.",
     "legalLinks": "Liens de navigation",
     "legal": "Mentions légales",
     "terms": "CGV",
-    "copyright": "© 2026 Eddie Miller Agency. Tous droits réservés."
+    "copyright": "© {{year}} Eddie Miller Agency. Tous droits réservés."
   },
   "stickyCta": {
     "text": "ChatGPT recommande-t-il votre entreprise ? Obtenez la réponse 24h →",

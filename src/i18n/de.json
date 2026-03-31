@@ -24,8 +24,8 @@
     "cta": "Kostenlose Diagnose anfordern",
     "secondary": "Prüfen, ob mein Unternehmen sichtbar ist →",
     "trust1": "Ergebnisse in 24 Std.",
-    "trust2": "100 % kostenlos",
-    "trust3": "Unverbindlich"
+    "trust2": "Unverbindlich",
+    "trust3": "Keine Kreditkarte nötig"
   },
   "socialProof": {
     "label": "Ihre Kunden suchen hier. Werden Sie gefunden?"
@@ -35,7 +35,7 @@
     "subtitle": "Eine vollständige Diagnose Ihrer Online-Sichtbarkeit, fertig in 24 Stunden.",
     "item1Title": "Ihr KI-Sichtbarkeits-Score",
     "item1Text": "Wir starten 100 echte Anfragen bei ChatGPT, Perplexity, Claude und Gemini in Ihrer Branche. Ihr Score = wie oft Sie empfohlen werden. Einfach, konkret, messbar.",
-    "item2Title": "Was Ihre Kunden blockiert",
+    "item2Title": "Was Ihre Sichtbarkeit blockiert",
     "item2Text": "Wir identifizieren genau, was die KI daran hindert, Sie zu empfehlen, wenn ein Kunde in Ihrer Stadt sucht.",
     "item3Title": "Die konkreten Maßnahmen mit Priorität",
     "item3Text": "Wir identifizieren die Korrekturen, die den größten Einfluss auf die Steigerung Ihrer Kundenzahl haben.",
@@ -124,7 +124,9 @@
     "card8Text": "Ihre zuk\u00FCnftigen Kunden suchen ein Spa in ihrer Stadt. Die KI antwortet ihnen \u2014 wir sorgen daf\u00FCr, dass Sie es sind.",
     "card9Title": "Fitnessstudios & Sportvereine",
     "card9Text": "Neue Mitglieder fragen die KI um Rat, bevor sie sich anmelden. Wir machen Sie unverzichtbar.",
-    "learnMore": "Mehr erfahren →"
+    "learnMore": "Mehr erfahren →",
+    "card10Title": "Andere Branche",
+    "card10Text": "Ihre Branche ist nicht aufgeführt? Wir passen unseren Ansatz an Ihren Sektor an. Kontaktieren Sie uns für eine maßgeschneiderte Diagnose."
   },
   "howItWorks": {
     "title": "So funktioniert's",
@@ -135,8 +137,7 @@
     "step2Text": "15 Minuten am Telefon, um Ihre Ergebnisse durchzugehen, Ihre Fragen zu beantworten und zu sehen, wie wir Ihnen helfen können, häufiger von KI empfohlen zu werden.",
     "step3Title": "Ihre Kunden finden Sie",
     "step3Text": "Wenn Sie sich entscheiden, mit uns zu arbeiten, kümmern wir uns um alles. Wir setzen die Korrekturen für Sie um — Sie müssen nichts tun. Innerhalb weniger Wochen finden neue Kunden Sie dank KI-Empfehlungen.",
-    "cta": "Kostenlose Diagnose anfordern →",
-    "exclusivity": "Nur ein Kunde pro Stadtviertel und Fachgebiet, um Ihre Exklusivität zu garantieren."
+    "cta": "Kostenlose Diagnose anfordern →"
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
@@ -205,17 +206,16 @@
     "sourceOther": "Sonstiges",
     "errorGeneric": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter contact@eddiemiller.agency.",
     "errorSource": "Bitte geben Sie an, wie Sie von uns erfahren haben.",
-    "exclusivity": "Wir wählen nur einen Kunden pro Stadtviertel und Fachgebiet aus, um Ihre Exklusivität zu garantieren.",
     "submitButton": "Kostenlose Diagnose anfordern",
     "submitting": "Wird gesendet…",
-    "trustSignals": "Ergebnisse in 24 Std. · 100 % kostenlos · Unverbindlich · Keine Kreditkarte nötig"
+    "trustSignals": "Ergebnisse in 24 Std. · Unverbindlich · Keine Kreditkarte nötig"
   },
   "footer": {
     "description": "Wir helfen Ihrem Unternehmen, von ChatGPT und den anderen KIs empfohlen zu werden.",
     "legalLinks": "Navigationslinks",
     "legal": "Impressum",
     "terms": "AGB",
-    "copyright": "© 2026 Eddie Miller Agency. Alle Rechte vorbehalten."
+    "copyright": "© {{year}} Eddie Miller Agency. Alle Rechte vorbehalten."
   },
   "stickyCta": {
     "text": "Empfiehlt ChatGPT Ihr Unternehmen? Erhalten Sie die Antwort in 24 Std. →",
