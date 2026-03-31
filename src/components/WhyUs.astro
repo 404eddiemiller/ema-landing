@@ -6,18 +6,18 @@ const locale = getLocaleFromPath(Astro.url.pathname);
 const reasons = [
   {
     number: '01',
-    title: "Les premiers visibles gardent l'avantage",
-    description: "Les IA fonctionnent par habitude : une fois qu'elles recommandent une entreprise, elles continuent. Se positionner tôt, c'est prendre une avance durable.",
+    title: t('whyUs.reason1Title', locale),
+    description: t('whyUs.reason1Text', locale),
   },
   {
     number: '02',
-    title: "Vos concurrents n'y sont pas encore",
-    description: "La plupart des entreprises locales n'ont aucune idée que ChatGPT influence déjà leurs clients. C'est une fenêtre d'opportunité qui ne restera pas ouverte longtemps.",
+    title: t('whyUs.reason2Title', locale),
+    description: t('whyUs.reason2Text', locale),
   },
   {
     number: '03',
-    title: "Chaque jour sans visibilité, ce sont des clients perdus",
-    description: "En ce moment même, de potentiels clients vous cherchent. Si l'IA ne vous connaît pas, elle envoie ce client ailleurs. C'est aussi simple que ça.",
+    title: t('whyUs.reason3Title', locale),
+    description: t('whyUs.reason3Text', locale),
   },
 ];
 ---

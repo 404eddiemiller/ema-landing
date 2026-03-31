@@ -1,17 +1,17 @@
 ---
 // Verticals section — Interactive cards with hover animations
-import { t, getLocaleFromPath, type Locale } from '../i18n/index';
+import { t, getLocaleFromPath, pageRoutes, localePath, type Locale } from '../i18n/index';
 const locale = getLocaleFromPath(Astro.url.pathname);
 const verticals = [
-  { title: 'Restaurants', description: "«\u00a0Où manger ce soir\u00a0?\u00a0» La question est posée à ChatGPT. La réponse, c'est vous ou un concurrent.", icon: 'utensils-crossed', href: '/restaurants' },
-  { title: 'Hôtels', description: "Les voyageurs planifient leur séjour avec l'IA. On met votre hôtel dans leurs suggestions.", icon: 'building', href: '/hotels' },
-  { title: 'Bars & Boîtes de nuit', description: "«\u00a0Où sortir ce soir\u00a0?\u00a0» L'IA est le nouveau guide de nuit. Soyez dans ses recommandations.", icon: 'glass', href: '/bars' },
-  { title: 'Cabinets médicaux', description: "Vos futurs patients cherchent un médecin sur ChatGPT. On fait en sorte que votre cabinet soit recommandé.", icon: 'heartpulse', href: '/medical' },
-  { title: 'Cabinets dentaires', description: "Vos futurs patients demandent un dentiste à ChatGPT. On fait en sorte que ce soit vous qu'il recommande.", icon: 'tooth', href: '/dentistes' },
-  { title: "Cabinets d'avocats", description: "Un client qui cherche un avocat en urgence demande à l'IA. Soyez le nom qui ressort.", icon: 'scale', href: '/avocats' },
-  { title: 'Coiffure & Esthétique', description: "«\u00a0Meilleur coiffeur près de chez moi\u00a0?\u00a0» L'IA donne 3 noms. Faites-en partie.", icon: 'scissors', href: '/coiffure' },
-  { title: 'Bien-être & Spa', description: "Vos futurs clients cherchent un spa dans leur ville. L'IA leur répond, on fait en sorte que ce soit vous.", icon: 'sparkles', href: '/spa' },
-  { title: 'Salles de sport & Clubs sportifs', description: "Les nouveaux adhérents demandent conseil à l'IA avant de s'inscrire. On vous rend incontournable.", icon: 'dumbbell', href: '/sport' },
+  { titleKey: 'verticals.card1Title', textKey: 'verticals.card1Text', icon: 'utensils-crossed', routeKey: 'restaurants' as const },
+  { titleKey: 'verticals.card2Title', textKey: 'verticals.card2Text', icon: 'building', routeKey: 'hotels' as const },
+  { titleKey: 'verticals.card3Title', textKey: 'verticals.card3Text', icon: 'glass', routeKey: 'bars' as const },
+  { titleKey: 'verticals.card4Title', textKey: 'verticals.card4Text', icon: 'heartpulse', href: localePath('/medical', locale) },
+  { titleKey: 'verticals.card5Title', textKey: 'verticals.card5Text', icon: 'tooth', routeKey: 'dentists' as const },
+  { titleKey: 'verticals.card6Title', textKey: 'verticals.card6Text', icon: 'scale', routeKey: 'lawyers' as const },
+  { titleKey: 'verticals.card7Title', textKey: 'verticals.card7Text', icon: 'scissors', routeKey: 'hair' as const },
+  { titleKey: 'verticals.card8Title', textKey: 'verticals.card8Text', icon: 'sparkles', routeKey: 'spa' as const },
+  { titleKey: 'verticals.card9Title', textKey: 'verticals.card9Text', icon: 'dumbbell', routeKey: 'gyms' as const },
 ];
 
 // SVG icon paths by name
@@ -39,6 +39,7 @@ const icons: Record<string, string> = {
 
     <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
       {verticals.map((v, i) => {
+        const href = v.href ?? (v.routeKey ? pageRoutes[v.routeKey]?.[locale] : undefined);
         const cardClasses = "block border border-warmgray p-5 md:p-6 bg-cream card-hover scale-in group";
         const cardContent = (
           <>
@@ -46,19 +47,19 @@ const icons: Record<string, string> = {
               <svg class="w-6 h-6 text-terracotta transition-colors duration-300 group-hover:text-terracotta-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={icons[v.icon]} />
             </div>
             <h3 class="text-base md:text-lg font-serif font-normal leading-[1.2] text-charcoal mb-1.5">
-              {v.title}
+              {t(v.titleKey, locale)}
             </h3>
             <p class="text-sm font-sans font-normal leading-relaxed text-stone">
-              {v.description}
+              {t(v.textKey, locale)}
             </p>
-            {v.href && (
-              <p class="mt-3 text-sm font-sans font-medium text-terracotta transition-transform duration-300 group-hover:translate-x-1">En savoir plus →</p>
+            {href && (
+              <p class="mt-3 text-sm font-sans font-medium text-terracotta transition-transform duration-300 group-hover:translate-x-1">{t('verticals.learnMore', locale)}</p>
             )}
           </>
         );
 
-        return v.href ? (
-          <a href={v.href} class={cardClasses + " no-underline"}>
+        return href ? (
+          <a href={href} class={cardClasses + " no-underline"}>
             {cardContent}
           </a>
         ) : (

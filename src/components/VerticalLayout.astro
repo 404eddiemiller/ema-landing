@@ -17,9 +17,57 @@ const d = data;
   canonicalUrl={d.canonicalUrl}
   ogTitle={d.ogTitle}
   ogDescription={d.ogDescription}
+  skipFaqSchema={true}
 >
   <Header />
   <main id="main-content">
+
+    <!-- Service schema for this vertical -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": d.badge,
+      "description": d.description,
+      "url": d.canonicalUrl,
+      "provider": {
+        "@type": "ProfessionalService",
+        "name": "Eddie Miller Agency",
+        "url": "https://eddiemiller.agency"
+      },
+      "serviceType": "Local Business Visibility Consulting",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": d.badge,
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": d.deliverables[0].title,
+              "description": d.deliverables[0].text.replace(/<[^>]*>/g, '')
+            },
+            "price": "0",
+            "priceCurrency": "EUR"
+          }
+        ]
+      }
+    })} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": d.faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    })} />
 
     <!-- ═══════════════════ HERO ═══════════════════ -->
     <section class="relative pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-48 lg:pb-32 bg-cream overflow-hidden" aria-label="Accroche principale">

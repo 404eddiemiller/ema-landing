@@ -15,6 +15,7 @@ interface Props {
   ogDescription?: string;
   ogType?: string;
   ogImage?: string;
+  skipFaqSchema?: boolean;
 }
 const {
   title,
@@ -24,6 +25,7 @@ const {
   ogDescription = t('meta.ogDescription', locale),
   ogType = 'website',
   ogImage = 'https://eddiemiller.agency/og-image.png',
+  skipFaqSchema = false,
 } = Astro.props;
 ---
 <!doctype html>
@@ -44,7 +46,8 @@ const {
         }
       })();
     </script>
-    <!-- DNS prefetch for external services -->
+    <!-- Preconnect for external services -->
+    <link rel="preconnect" href="https://plausible.io" crossorigin />
     <link rel="dns-prefetch" href="https://plausible.io" />
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -87,167 +90,116 @@ const {
     <meta name="twitter:description" content={ogDescription} />
 
     <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Eddie Miller Agency",
-        "description": "Votre entreprise est-elle recommandée quand un client demande à ChatGPT ? On vérifie gratuitement en 24h : score sur 100 et 3 actions concrètes.",
-        "url": "https://eddiemiller.agency",
-        "email": "contact@eddiemiller.agency",
-        "logo": "https://eddiemiller.agency/favicon-192x192.png",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "41 Rue du Montparnasse",
-          "postalCode": "75014",
-          "addressLocality": "Paris",
-          "addressCountry": "FR"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "Worldwide"
-        },
-        "serviceType": [
-          "Local Business Visibility Consulting",
-          "Google Business Profile Management",
-          "Google Maps Optimization",
-          "AI Search Optimization",
-          "ChatGPT Visibility for Local Businesses",
-          "Local Online Reputation Management"
-        ],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Services pour aider les entreprises locales à être trouvées en ligne",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Diagnostic de visibilité gratuit",
-                "description": "On vérifie si vos futurs clients vous trouvent sur Google et sur les IA. Vous recevez un score sur 100 et des recommandations concrètes.",
-                "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Optimisation Google Maps et Google Business Profile",
-                "description": "Votre fiche Google bien renseignée, de meilleurs avis, et plus de clients qui vous trouvent sur Google Maps."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Visibilité sur les assistants IA",
-                "description": "Quand quelqu'un demande une recommandation à ChatGPT ou Gemini, votre entreprise apparaît dans les résultats."
-              }
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Eddie Miller Agency",
+      "description": t('meta.ogDescription', locale),
+      "url": "https://eddiemiller.agency",
+      "email": "contact@eddiemiller.agency",
+      "logo": "https://eddiemiller.agency/favicon-192x192.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "41 Rue du Montparnasse",
+        "postalCode": "75014",
+        "addressLocality": "Paris",
+        "addressCountry": "FR"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide"
+      },
+      "serviceType": [
+        "Local Business Visibility Consulting",
+        "Google Business Profile Management",
+        "Google Maps Optimization",
+        "AI Search Optimization",
+        "ChatGPT Visibility for Local Businesses",
+        "Local Online Reputation Management"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": t('meta.ogTitle', locale),
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": t('howItWorks.step1Title', locale),
+              "description": t('howItWorks.step1Text', locale),
+              "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
             }
-          ]
-        },
-        "knowsLanguage": ["fr", "en", "es", "de", "it", "pt", "nl"],
-        "priceRange": "€€",
-        "founder": {
-          "@type": "Person",
-          "name": "Adam Douieb"
-        },
-        "foundingDate": "2026",
-        "openingHours": "Mo-Fr 09:00-18:00"
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Comment savoir si vos futurs clients vous trouvent en ligne",
-        "description": "Trois étapes simples pour savoir si vos futurs clients vous trouvent en ligne, et comment améliorer votre visibilité.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Diagnostic gratuit",
-            "text": "Nous vérifions si vos futurs clients vous trouvent sur Google et sur les IA. Vous recevez un score sur 100 et un diagnostic clair."
           },
           {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Plan d'action",
-            "text": "Vous recevez un rapport avec les actions prioritaires, classées par impact et par effort. Pas de jargon."
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": t('howItWorks.step2Title', locale),
+              "description": t('howItWorks.step2Text', locale)
+            }
           },
           {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Résultats",
-            "text": "Nous mettons en place les corrections. Vos futurs clients vous trouvent, sur Google et sur les IA."
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": t('howItWorks.step3Title', locale),
+              "description": t('howItWorks.step3Text', locale)
+            }
           }
         ]
-      }
-    </script>
-    <script type="application/ld+json">
-      {
+      },
+      "knowsLanguage": ["fr", "en", "es", "de", "it", "pt", "nl"],
+      "priceRange": "€€",
+      "founder": {
+        "@type": "Person",
+        "name": "Adam Douieb"
+      },
+      "foundingDate": "2026",
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "sameAs": [
+        "https://share.google/7G3R43yFI12f0SMcI"
+      ]
+    })} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": t('howItWorks.title', locale),
+      "description": t('howItWorks.subtitle', locale),
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": t('howItWorks.step1Title', locale),
+          "text": t('howItWorks.step1Text', locale)
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": t('howItWorks.step2Title', locale),
+          "text": t('howItWorks.step2Text', locale)
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": t('howItWorks.step3Title', locale),
+          "text": t('howItWorks.step3Text', locale)
+        }
+      ]
+    })} />
+    {!skipFaqSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify({
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "C'est quoi concrètement ? Vous faites quoi pour moi ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "On fait en sorte que quand quelqu'un cherche une entreprise comme la vôtre, que ce soit sur ChatGPT ou un autre assistant IA, il tombe sur vous plutôt que sur un concurrent. On s'occupe de votre fiche Google, de votre présence sur les bonnes plateformes, et de tout ce qui fait que les IA vous recommandent."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "En combien de temps est-ce que je vois une différence ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Les premiers effets sur Google sont visibles en quelques jours. Pour les recommandations par les IA comme ChatGPT, comptez 4 à 8 semaines. On mesure votre score avant et après : vous voyez la progression en chiffres, pas en promesses."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Vous garantissez que je vais apparaître sur ChatGPT ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Non, et méfiez-vous de quiconque vous le promet. Les IA choisissent leurs recommandations de manière autonome. Ce qu'on garantit : votre entreprise aura toutes les conditions pour être recommandée, et on le mesure concrètement avec un score avant/après."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Ça marche vraiment pour mon secteur ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Oui. Notre méthode s'applique à toute entreprise avec une adresse physique : cabinets dentaires et médicaux, restaurants, hôtels, cabinets d'avocats, salons de coiffure, spas, salles de sport. Si vos clients vous cherchent par localisation, on peut vous aider."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Est-ce que je dois avoir un site web ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Cela aide, mais ce n'est pas indispensable. Une grande partie de votre visibilité passe par votre fiche Google, les annuaires de votre secteur et vos avis en ligne. On optimise l'ensemble de votre présence en ligne, avec ou sans site web."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Combien de temps ça me prend à moi ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Très peu. Vous remplissez un formulaire en 1 minute pour le diagnostic, puis environ 30 minutes au total pour appliquer nos recommandations. On vous guide pas à pas."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Pourquoi ne pas le faire moi-même ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Vous pouvez. Mais entre comprendre comment fonctionnent les algorithmes de Google et des IA, identifier ce qui bloque, et mettre en place les corrections, comptez 15 à 20 heures de travail. On le fait en quelques jours avec une méthode éprouvée."
-            }
+        "mainEntity": Array.from({ length: 10 }, (_, i) => ({
+          "@type": "Question",
+          "name": t(`faq.q${i + 1}`, locale),
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": t(`faq.a${i + 1}`, locale)
           }
-        ]
-      }
-    </script>
+        }))
+      })} />
+    )}
 
     <!-- WebSite schema — tells Google to show "Eddie Miller Agency" as site name -->
     <script type="application/ld+json">

@@ -3,21 +3,9 @@
 import { t, getLocaleFromPath, type Locale } from '../i18n/index';
 const locale = getLocaleFromPath(Astro.url.pathname);
 const steps = [
-  {
-    number: '01',
-    title: 'Vous demandez votre diagnostic',
-    description: "Remplissez le formulaire en 1 minute. On lance 100 requêtes réelles sur ChatGPT, Perplexity, Claude et Gemini. Vous recevez votre score de visibilité, l'audit complet et les actions prioritaires en 24h.",
-  },
-  {
-    number: '02',
-    title: 'On en parle ensemble',
-    description: "15 minutes au téléphone pour parcourir vos résultats, répondre à vos questions et voir comment on peut vous aider à être davantage recommandé par les IA.",
-  },
-  {
-    number: '03',
-    title: 'Vos clients vous trouvent',
-    description: "Si vous décidez de travailler avec nous, on met en place les corrections pour vous. En quelques semaines, de nouveaux clients commencent à vous trouver grâce aux recommandations de l'IA.",
-  },
+  { number: '01', title: t('howItWorks.step1Title', locale), description: t('howItWorks.step1Text', locale) },
+  { number: '02', title: t('howItWorks.step2Title', locale), description: t('howItWorks.step2Text', locale) },
+  { number: '03', title: t('howItWorks.step3Title', locale), description: t('howItWorks.step3Text', locale) },
 ];
 ---
 <section id="comment-ca-marche" class="py-16 md:py-24 lg:py-32 bg-sand" aria-label="Comment ça marche">
@@ -65,12 +53,12 @@ const steps = [
         class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark"
         onclick="plausible('CTA Click', {props: {location: 'how-it-works'}})"
       >
-        Demander mon diagnostic gratuit →
+        {t('howItWorks.cta', locale)}
       </a>
     </div>
 
     <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-up">
-      Un seul client par quartier et par spécialité, pour vous garantir l'exclusivité.
+      {t('howItWorks.exclusivity', locale)}
     </p>
   </div>
 </section>

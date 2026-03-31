@@ -3,43 +3,16 @@
 import { t, getLocaleFromPath, type Locale } from '../i18n/index';
 const locale = getLocaleFromPath(Astro.url.pathname);
 const faqs = [
-  {
-    question: "C'est quoi concrètement ? Vous faites quoi pour moi ?",
-    answer: "On fait en sorte que quand quelqu'un cherche une entreprise comme la vôtre, que ce soit sur ChatGPT ou un autre assistant IA, il tombe sur vous plutôt que sur un concurrent. On s'occupe de votre fiche Google Business Profile, de votre présence sur les bons annuaires, et de tous les paramètres techniques qui font que les IA vous recommandent."
-  },
-  {
-    question: "En combien de temps est-ce que je vois une différence ?",
-    answer: "Les premiers effets sur Google sont visibles en quelques jours. Pour les recommandations par les IA comme ChatGPT, comptez 4 à 8 semaines. On mesure votre score avant et après : vous voyez la progression en chiffres, pas en promesses."
-  },
-  {
-    question: "Vous garantissez que je vais apparaître sur ChatGPT ?",
-    answer: "Quasiment. Mais méfiez-vous de quiconque vous le promet à 100%. Les IA choisissent leurs recommandations de manière autonome. Ce qu'on vous garantit, c'est que votre entreprise aura toutes les conditions pour être recommandée, et on le mesure concrètement avec un score avant/après. Vous voyez clairement l'amélioration, de manière chiffrée."
-  },
-  {
-    question: "Ça marche vraiment pour mon secteur ?",
-    answer: "Oui. Notre méthode est éprouvée et s'applique à toute entreprise avec une adresse physique : cabinets dentaires, médicaux, d'avocats, restaurants, hôtels, bars, boîtes de nuit, salons de coiffure, spas, salles de sport. Si vos clients vous cherchent par rapport à leur localisation, on peut vous aider."
-  },
-  {
-    question: "Est-ce que je dois avoir un site web ?",
-    answer: "Cela aide, mais ce n'est pas indispensable. Une grande partie de votre visibilité passe par votre fiche Google Business Profile, les annuaires de votre secteur et des paramètres techniques spécifiques. On optimise l'ensemble de votre présence en ligne, avec ou sans site web."
-  },
-  {
-    question: "Combien de temps ça me prend à moi ?",
-    answer: "Très peu. Vous remplissez un formulaire en 1 minute pour le diagnostic, puis nous vous appelons 15 minutes pour vous expliquer nos recommandations. On vous guide pas à pas."
-  },
-  {
-    question: "Pourquoi ne pas le faire moi-même ?",
-    answer: "Vous pouvez. Mais entre comprendre comment fonctionnent les algorithmes de Google et des IA, identifier ce qui bloque, et mettre en place les corrections, comptez 25 à 30 heures de travail. On le fait en quelques jours avec une méthode éprouvée et notre expérience sur des dizaines d'entreprises à travers la France."
-  },
-  {
-    question: "Combien ça coûte ?",
-    answer: "Le diagnostic est 100 % gratuit et sans engagement. Ensuite, nos formules vont de 399 € à 1 199 € selon vos besoins. On vous explique chaque option lors de l'appel de 15 minutes.",
-    link: { href: "/formules", label: "Voir nos formules →" }
-  },
-  {
-    question: "Quelle est la différence avec une agence SEO classique ?",
-    answer: "Une agence SEO classique vous aide à remonter sur Google. Nous, on va plus loin : on vous rend aussi visible dans les réponses de ChatGPT, Perplexity, Claude et Gemini. C'est un nouveau canal de clients que la plupart des agences ne couvrent pas encore, et c'est notre spécialité."
-  },
+  { question: t('faq.q1', locale), answer: t('faq.a1', locale) },
+  { question: t('faq.q2', locale), answer: t('faq.a2', locale) },
+  { question: t('faq.q3', locale), answer: t('faq.a3', locale) },
+  { question: t('faq.q4', locale), answer: t('faq.a4', locale) },
+  { question: t('faq.q5', locale), answer: t('faq.a5', locale) },
+  { question: t('faq.q6', locale), answer: t('faq.a6', locale) },
+  { question: t('faq.q7', locale), answer: t('faq.a7', locale) },
+  { question: t('faq.q8', locale), answer: t('faq.a8', locale) },
+  { question: t('faq.q9', locale), answer: t('faq.a9', locale), link: { href: t('faq.link9Href', locale), label: t('faq.link9Label', locale) } },
+  { question: t('faq.q10', locale), answer: t('faq.a10', locale) },
 ];
 ---
 <section id="faq" class="py-16 md:py-24 lg:py-32 bg-cream" aria-label="Questions fréquentes">

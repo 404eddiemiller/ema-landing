@@ -104,7 +104,7 @@ const nav = navRoutes[locale];
         </div>
 
         <!-- Error message -->
-        <div id="form-error" class="hidden px-4 py-3 bg-red-50 border border-red-200 text-red-700 font-sans text-sm" role="alert">
+        <div id="form-error" class="hidden px-4 py-3 bg-red-50 border border-red-200 text-red-700 font-sans text-sm" role="alert" tabindex="-1">
           {t('auditForm.errorGeneric', locale)}
         </div>
 
@@ -116,9 +116,13 @@ const nav = navRoutes[locale];
         <button
           type="submit"
           id="submit-btn"
-          class="block w-full px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
+          class="flex items-center justify-center gap-2 w-full px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
         >
-          {t('auditForm.submitButton', locale)}
+          <svg id="submit-spinner" class="hidden w-5 h-5 animate-spin" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+          </svg>
+          <span id="submit-text">{t('auditForm.submitButton', locale)}</span>
         </button>
       </form>
 
@@ -175,8 +179,11 @@ const nav = navRoutes[locale];
     };
 
     // UI: loading state
+    const spinner = document.getElementById('submit-spinner');
+    const submitText = document.getElementById('submit-text');
     submitBtn.disabled = true;
-    submitBtn.textContent = form.dataset.submitting || 'Envoi en cours…';
+    spinner?.classList.remove('hidden');
+    if (submitText) submitText.textContent = form.dataset.submitting || 'Envoi en cours…';
     errorDiv.classList.add('hidden');
 
     try {
@@ -198,8 +205,11 @@ const nav = navRoutes[locale];
     } catch (err) {
       errorDiv.textContent = form.dataset.errorGeneric || 'Une erreur est survenue. Veuillez réessayer ou nous contacter à contact@eddiemiller.agency.';
       errorDiv.classList.remove('hidden');
+      errorDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      errorDiv.focus({ preventScroll: true });
       submitBtn.disabled = false;
-      submitBtn.textContent = form.dataset.submitText || 'Demander mon diagnostic gratuit';
+      spinner?.classList.add('hidden');
+      if (submitText) submitText.textContent = form.dataset.submitText || 'Demander mon diagnostic gratuit';
     }
   });
 </script>

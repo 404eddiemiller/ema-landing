@@ -5,20 +5,20 @@ const locale = getLocaleFromPath(Astro.url.pathname);
 
 const testimonials = [
   {
-    quote: "On ne comprenait pas pourquoi on avait moins de nouveaux patients alors que nos avis Google sont excellents. Le diagnostic a montré que ChatGPT ne nous connaissait tout simplement pas. En deux mois, on a commencé à recevoir des appels de patients qui disaient avoir trouvé notre cabinet \"grâce à l'IA\".",
-    name: "Dr. Sophie M.",
-    role: "Dentiste, Paris",
-    before: { score: 0, label: "Invisible en ligne" },
-    after: { score: 86, label: "+12 nouveaux patients/mois" },
-    delay: "8 semaines",
+    quote: t('testimonial.quote1', locale),
+    name: t('testimonial.name1', locale),
+    role: t('testimonial.role1', locale),
+    before: { score: 0, label: t('testimonial.before1Label', locale) },
+    after: { score: 86, label: t('testimonial.after1Label', locale) },
+    delay: t('testimonial.delay1', locale),
   },
   {
-    quote: "Un touriste américain m'a dit qu'il avait demandé à ChatGPT \"best restaurant near Eiffel Tower\" et qu'on était dans les 3 résultats. Avant de travailler avec Eddie Miller, on n'apparaissait nulle part. Maintenant, on a des réservations qui viennent directement de l'IA.",
-    name: "Marc D.",
-    role: "Restaurateur, Paris",
-    before: { score: 12, label: "Quasi-invisible" },
-    after: { score: 91, label: "+18 couverts/semaine" },
-    delay: "6 semaines",
+    quote: t('testimonial.quote2', locale),
+    name: t('testimonial.name2', locale),
+    role: t('testimonial.role2', locale),
+    before: { score: 12, label: t('testimonial.before2Label', locale) },
+    after: { score: 91, label: t('testimonial.after2Label', locale) },
+    delay: t('testimonial.delay2', locale),
   },
 ];
 

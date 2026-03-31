@@ -21,21 +21,21 @@ const locale = getLocaleFromPath(Astro.url.pathname);
             <path d="M19 10c.3 2 1.2 3 3.3 3.3-2.1.3-3 1.2-3.3 3.3-.3-2.1-1.2-3-3.3-3.3 2.1-.3 3-1.3 3.3-3.3Z"/>
           </svg>
           <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal">
-            Être recommandé par les IA
+            {t('solution.aiTitle', locale)}
           </h3>
         </div>
         <ul class="space-y-4">
           <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
             <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-            ChatGPT, Claude, Gemini et Perplexity vous citent quand un client demande une recommandation
+            {t('solution.aiBullet1', locale)}
           </li>
           <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
             <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-            On améliore votre réputation en ligne pour donner aux IA les signaux de confiance pour vous recommander
+            {t('solution.aiBullet2', locale)}
           </li>
           <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
             <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-            On vous rend présent sur les sources que les IA consultent pour formuler leurs réponses
+            {t('solution.aiBullet3', locale)}
           </li>
         </ul>
       </div>
@@ -47,21 +47,21 @@ const locale = getLocaleFromPath(Astro.url.pathname);
             <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
           </svg>
           <h3 class="text-xl font-serif font-normal leading-[1.2] text-charcoal">
-            Être trouvé sur Google
+            {t('solution.googleTitle', locale)}
           </h3>
         </div>
         <ul class="space-y-4">
           <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
             <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-            Votre entreprise remonte dans Google Maps quand un client cherche dans votre ville ou dans votre quartier
+            {t('solution.googleBullet1', locale)}
           </li>
           <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
             <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-            Votre fiche Google est complète, à jour et augmente vos chances d'être contacté
+            {t('solution.googleBullet2', locale)}
           </li>
           <li class="flex items-start gap-3 text-base font-sans font-normal leading-relaxed text-stone">
             <span class="mt-2 block w-1.5 h-1.5 shrink-0 bg-terracotta" aria-hidden="true"></span>
-            On applique une stratégie pour optimiser vos avis en ligne
+            {t('solution.googleBullet3', locale)}
           </li>
         </ul>
       </div>
