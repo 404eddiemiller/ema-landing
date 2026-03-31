@@ -18,8 +18,8 @@
   },
   "hero": {
     "title": "Os seus futuros clientes perguntam ao ChatGPT onde ir.",
-    "titleLine2": "N\u00F3s garantimos que a resposta \u00E9",
-    "titleHighlight": "o seu neg\u00F3cio.",
+    "titleLine2": "Nós garantimos que a resposta é",
+    "titleHighlight": "o seu negócio.",
     "subtitle": "Hoje, 45% dos consumidores pedem uma recomendação à IA antes de escolher um restaurante, dentista ou hotel. A IA só dá 3 nomes. Se o seu não está entre eles, é um concorrente que fica com o cliente.",
     "cta": "Pedir o meu diagn��stico gratuito",
     "secondary": "Verificar se o meu negócio é visível →",
@@ -208,7 +208,11 @@
     "errorSource": "Por favor, indique como soube de nós.",
     "submitButton": "Pedir o meu diagnóstico gratuito",
     "submitting": "A enviar…",
-    "trustSignals": "Resultados em 24h · Sem compromisso · Sem cartão de crédito"
+    "trustSignals": "Resultados em 24h · Sem compromisso · Sem cartão de crédito",
+    "phonePrefer": "Prefere falar por telefone?",
+    "fieldRequired": "Este campo é obrigatório",
+    "emailInvalid": "Introduza um endereço de email válido",
+    "exclusivity": "Apenas um cliente por zona e especialidade — para garantir a sua exclusividade."
   },
   "footer": {
     "description": "Ajudamos o seu negócio a ser recomendado pelo ChatGPT e pelas outras IAs.",

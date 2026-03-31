@@ -4,20 +4,16 @@ import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import { getDisplayDate } from '../../utils/blog-dates';
 
 const allPosts = (await getCollection('blog'))
   .filter((post) => !post.data.draft && post.data.lang === 'fr')
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
-// Échelonner les dates sur les 90 derniers jours depuis le build
-const now = new Date();
-const SPREAD_DAYS = 90;
-const posts = allPosts.map((post, i) => {
-  const daysAgo = Math.round((i / Math.max(allPosts.length - 1, 1)) * SPREAD_DAYS) + 2;
-  const displayDate = new Date(now);
-  displayDate.setDate(displayDate.getDate() - daysAgo);
-  return { ...post, displayDate };
-});
+const posts = allPosts.map((post, i) => ({
+  ...post,
+  displayDate: getDisplayDate(i, allPosts.length),
+}));
 
 // Group posts by category
 const categories = [...new Set(posts.map((post) => post.data.category))];

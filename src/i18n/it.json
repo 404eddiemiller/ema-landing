@@ -208,7 +208,11 @@
     "errorSource": "Indica come ci hai conosciuto.",
     "submitButton": "Richiedi la mia diagnosi gratuita",
     "submitting": "Invio in corso…",
-    "trustSignals": "Risultati in 24h · Senza impegno · Nessuna carta di credito"
+    "trustSignals": "Risultati in 24h · Senza impegno · Nessuna carta di credito",
+    "phonePrefer": "Preferisci parlarne a voce?",
+    "fieldRequired": "Questo campo è obbligatorio",
+    "emailInvalid": "Inserisci un indirizzo email valido",
+    "exclusivity": "Un solo cliente per zona e specialità — per garantire la vostra esclusività."
   },
   "footer": {
     "description": "Aiutiamo la tua attività a essere consigliata da ChatGPT e le altre IA.",

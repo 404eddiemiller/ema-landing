@@ -19,7 +19,7 @@
   "hero": {
     "title": "Uw toekomstige klanten vragen ChatGPT waar ze naartoe moeten.",
     "titleLine2": "Wij zorgen ervoor dat het antwoord",
-    "titleHighlight": "\u00FA bent.",
+    "titleHighlight": "ú bent.",
     "subtitle": "Vandaag vraagt 45% van de consumenten AI om een aanbeveling voordat ze een restaurant, tandarts of hotel kiezen. AI geeft slechts 3 namen. Als de uwe er niet bij staat, gaat de klant naar een concurrent.",
     "cta": "Vraag mijn gratis diagnose aan",
     "secondary": "Controleer of mijn zaak zichtbaar is →",
@@ -208,7 +208,11 @@
     "errorSource": "Geef aan hoe u over ons heeft gehoord.",
     "submitButton": "Vraag mijn gratis diagnose aan",
     "submitting": "Bezig met verzenden…",
-    "trustSignals": "Resultaat binnen 24 uur · Vrijblijvend · Geen creditcard nodig"
+    "trustSignals": "Resultaat binnen 24 uur · Vrijblijvend · Geen creditcard nodig",
+    "phonePrefer": "Liever even bellen?",
+    "fieldRequired": "Dit veld is verplicht",
+    "emailInvalid": "Voer een geldig e-mailadres in",
+    "exclusivity": "Slechts één klant per wijk en specialiteit — om uw exclusiviteit te garanderen."
   },
   "footer": {
     "description": "Wij helpen uw zaak aanbevolen te worden door ChatGPT en andere AI's.",

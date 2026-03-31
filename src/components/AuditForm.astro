@@ -4,7 +4,7 @@ import { t, getLocaleFromPath, navRoutes, type Locale } from '../i18n/index';
 const locale = getLocaleFromPath(Astro.url.pathname);
 const nav = navRoutes[locale];
 ---
-<section id="diagnostic" class="py-16 md:py-24 lg:py-32 bg-sand relative overflow-hidden" aria-label="Tester ma visibilité">
+<section id="diagnostic" class="py-16 md:py-24 lg:py-32 bg-cream relative overflow-hidden" aria-label="Tester ma visibilité">
   <!-- Decorative accent -->
   <div class="absolute top-0 left-0 w-24 h-24 md:w-40 md:h-40 opacity-[0.03] pointer-events-none" aria-hidden="true">
     <svg viewBox="0 0 100 100" class="w-full h-full">
@@ -28,6 +28,8 @@ const nav = navRoutes[locale];
         data-submitting={t('auditForm.submitting', locale)}
         data-submit-text={t('auditForm.submitButton', locale)}
         data-redirect={nav.thankYou}
+        data-field-required={t('auditForm.fieldRequired', locale)}
+        data-email-invalid={t('auditForm.emailInvalid', locale)}
       >
         <!-- Honeypot anti-spam -->
         <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
@@ -128,7 +130,7 @@ const nav = navRoutes[locale];
 
       <!-- Phone contact alternative -->
       <p class="text-center text-sm font-sans text-stone/80 mt-4 fade-up">
-        Vous préférez en parler de vive voix ?
+        {t('auditForm.phonePrefer', locale)}
         <a href="tel:+33612754218" class="font-medium text-terracotta transition-colors duration-200 hover:text-terracotta-dark hover-underline">
           06 12 75 42 18
         </a>
@@ -138,73 +140,6 @@ const nav = navRoutes[locale];
 </section>
 
 <script>
-  // n8n webhook URL — loaded from PUBLIC_WEBHOOK_URL env variable (.env)
-  const WEBHOOK_URL = import.meta.env.PUBLIC_WEBHOOK_URL;
-
-  const form = document.getElementById('audit-form');
-  const submitBtn = document.getElementById('submit-btn');
-  const errorDiv = document.getElementById('form-error');
-
-  form?.addEventListener('submit', async (e) => {
-    e.preventDefault();
-
-    // Honeypot check
-    const honey = form.querySelector('input[name="_honey"]');
-    if (honey && honey.value) return;
-
-    // Basic validation
-    const etablissement = form.querySelector('#etablissement');
-    const email = form.querySelector('#email');
-    const type = form.querySelector('#type');
-    const ville = form.querySelector('#ville');
-
-    if (!etablissement?.value || !email?.value || !type?.value || !ville?.value) {
-      form.reportValidity();
-      return;
-    }
-
-    // Collect form data
-    const data = {
-      etablissement: etablissement.value,
-      type: type.value,
-      ville: ville.value,
-      email: email.value,
-      page: window.location.pathname,
-      submitted_at: new Date().toISOString()
-    };
-
-    // UI: loading state
-    const spinner = document.getElementById('submit-spinner');
-    const submitText = document.getElementById('submit-text');
-    submitBtn.disabled = true;
-    spinner?.classList.remove('hidden');
-    if (submitText) submitText.textContent = form.dataset.submitting || 'Envoi en cours…';
-    errorDiv.classList.add('hidden');
-
-    try {
-      const response = await fetch(WEBHOOK_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data)
-      });
-
-      if (!response.ok) throw new Error('Erreur serveur');
-
-      // Track with Plausible
-      if (typeof plausible !== 'undefined') {
-        plausible('Form Submit');
-      }
-
-      // Redirect to thank you page (locale-aware)
-      window.location.href = form.dataset.redirect || '/merci';
-    } catch (err) {
-      errorDiv.textContent = form.dataset.errorGeneric || 'Une erreur est survenue. Veuillez réessayer ou nous contacter à contact@eddiemiller.agency.';
-      errorDiv.classList.remove('hidden');
-      errorDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      errorDiv.focus({ preventScroll: true });
-      submitBtn.disabled = false;
-      spinner?.classList.add('hidden');
-      if (submitText) submitText.textContent = form.dataset.submitText || 'Demander mon diagnostic gratuit';
-    }
-  });
+  import { initFormSubmit } from '../utils/form-submit';
+  initFormSubmit(import.meta.env.PUBLIC_WEBHOOK_URL);
 </script>

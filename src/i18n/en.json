@@ -208,7 +208,11 @@
     "errorSource": "Please indicate how you heard about us.",
     "submitButton": "Request my free diagnostic",
     "submitting": "Sending…",
-    "trustSignals": "Results in 24h · No commitment · No credit card required"
+    "trustSignals": "Results in 24h · No commitment · No credit card required",
+    "phonePrefer": "Prefer to talk it through?",
+    "fieldRequired": "This field is required",
+    "emailInvalid": "Please enter a valid email address",
+    "exclusivity": "Only one client supported per area and specialty — to guarantee your exclusivity."
   },
   "footer": {
     "description": "We help your business get recommended by ChatGPT and other AIs.",

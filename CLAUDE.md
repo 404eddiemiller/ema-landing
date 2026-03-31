@@ -151,7 +151,7 @@ eddie-miller-agency/
 ## Workflow de travail
 
 1. **Polices** : `DMSerifDisplay-Regular.woff2` + `DMSans-Variable.woff2` dans `public/fonts/`.
-2. **Ordre des sections** (index.astro) : Hero → SocialProof → WhatYouGet → Testimonial → Problem → Quote → Solution → WhyUs → Verticals → HowItWorks → FAQ → AuditForm → Footer.
+2. **Ordre des sections** (index.astro) : Hero → SocialProof → Problem → WhatYouGet → Solution → Testimonial → WhyUs → Verticals → HowItWorks → FAQ → AuditForm → Footer.
 3. **Tester chaque section** en responsive avant de passer à la suivante.
 4. **Assembler** dans `index.astro`.
 5. **Ajouter le SEO** : meta tags, Open Graph, JSON-LD (voir `CONTENT.md`).

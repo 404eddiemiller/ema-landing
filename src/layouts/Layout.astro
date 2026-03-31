@@ -63,8 +63,8 @@ const {
     )}
 
     <!-- Preload fonts -->
-    <link rel="preload" href="/fonts/DMSerifDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/fonts/DMSans-Variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/DMSerifDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high" />
+    <link rel="preload" href="/fonts/DMSans-Variable.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high" />
 
     <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -250,63 +250,47 @@ const {
       </div>
     </div>
 
-    <!-- Sticky CTA visibility logic -->
-    <script>
+    <!-- Sticky CTA visibility logic (IntersectionObserver) -->
+    <script is:inline>
       const stickyCta = document.getElementById('sticky-cta');
       if (stickyCta) {
         const auditSection = document.getElementById('diagnostic');
-        let ticking = false;
+        let pastHero = false;
+        let auditVisible = false;
 
-        window.addEventListener('scroll', () => {
-          if (!ticking) {
-            requestAnimationFrame(() => {
-              const scrollY = window.scrollY;
-              const show = scrollY > 400;
-
-              // Hide when the audit form is visible on screen
-              let auditVisible = false;
-              if (auditSection) {
-                const rect = auditSection.getBoundingClientRect();
-                auditVisible = rect.top < window.innerHeight && rect.bottom > 0;
-              }
-
-              if (show && !auditVisible) {
-                stickyCta.style.transform = 'translateY(0)';
-              } else {
-                stickyCta.style.transform = 'translateY(100%)';
-              }
-              ticking = false;
-            });
-            ticking = true;
+        function updateStickyCta() {
+          if (pastHero && !auditVisible) {
+            stickyCta.style.transform = 'translateY(0)';
+          } else {
+            stickyCta.style.transform = 'translateY(100%)';
           }
-        });
+        }
+
+        // Show after scrolling past the hero section
+        // rootMargin: '-400px' means the hero must be at least 400px out of view
+        const heroSection = document.querySelector('[aria-label="Accroche principale"]');
+        if (heroSection) {
+          const heroObserver = new IntersectionObserver((entries) => {
+            pastHero = !entries[0].isIntersecting;
+            updateStickyCta();
+          }, { rootMargin: '-100px 0px 0px 0px' });
+          heroObserver.observe(heroSection);
+        }
+
+        // Hide when the audit form is visible
+        if (auditSection) {
+          const auditObserver = new IntersectionObserver((entries) => {
+            auditVisible = entries[0].isIntersecting;
+            updateStickyCta();
+          });
+          auditObserver.observe(auditSection);
+        }
       }
     </script>
 
-    <!-- Intersection Observer for scroll animations -->
+    <!-- Intersection Observer for scroll animations (external, cacheable) -->
     <script>
-      const animClasses = ['.fade-up', '.fade-up-slow', '.scale-in', '.slide-in-left', '.slide-in-right', '.blur-in', '.fade-in', '.draw-line', '.separator-animate'];
-
-      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-      if (prefersReduced) {
-        document.querySelectorAll(animClasses.join(',')).forEach(el => {
-          el.classList.add('visible');
-        });
-      } else {
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.1 });
-
-        document.querySelectorAll(animClasses.join(',')).forEach((el) => {
-          observer.observe(el);
-        });
-      }
+      import '../scripts/animations';
     </script>
 
     <!-- Language detection banner -->

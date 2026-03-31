@@ -208,7 +208,11 @@
     "errorSource": "Indica cómo nos conociste.",
     "submitButton": "Solicitar mi diagnóstico gratuito",
     "submitting": "Enviando…",
-    "trustSignals": "Resultados en 24h · Sin compromiso · Sin tarjeta de crédito"
+    "trustSignals": "Resultados en 24h · Sin compromiso · Sin tarjeta de crédito",
+    "phonePrefer": "¿Prefiere hablarlo por teléfono?",
+    "fieldRequired": "Este campo es obligatorio",
+    "emailInvalid": "Introduzca una dirección de email válida",
+    "exclusivity": "Solo un cliente acompañado por zona y especialidad — para garantizar su exclusividad."
   },
   "footer": {
     "description": "Ayudamos a tu negocio a ser recomendado por ChatGPT y las demás IAs.",

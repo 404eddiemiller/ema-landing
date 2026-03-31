@@ -107,11 +107,11 @@
     "title": "Des solutions adaptées à votre secteur",
     "subtitle": "Chaque entreprise a ses spécificités. On adapte notre approche à votre métier.",
     "card1Title": "Restaurants",
-    "card1Text": "«\u00a0Où manger ce soir\u00a0?\u00a0» La question est posée à ChatGPT. La réponse, c'est vous ou un concurrent.",
+    "card1Text": "« Où manger ce soir ? » La question est posée à ChatGPT. La réponse, c'est vous ou un concurrent.",
     "card2Title": "Hôtels",
     "card2Text": "Les voyageurs planifient leur séjour avec l'IA. On met votre hôtel dans leurs suggestions.",
     "card3Title": "Bars & Boîtes de nuit",
-    "card3Text": "«\u00a0Où sortir ce soir\u00a0?\u00a0» L'IA est le nouveau guide de nuit. Soyez dans ses recommandations.",
+    "card3Text": "« Où sortir ce soir ? » L'IA est le nouveau guide de nuit. Soyez dans ses recommandations.",
     "card4Title": "Cabinets médicaux",
     "card4Text": "Vos futurs patients cherchent un médecin sur ChatGPT. On fait en sorte que votre cabinet soit recommandé.",
     "card5Title": "Cabinets dentaires",
@@ -119,22 +119,22 @@
     "card6Title": "Cabinets d'avocats",
     "card6Text": "Un client qui cherche un avocat en urgence demande à l'IA. Soyez le nom qui ressort.",
     "card7Title": "Coiffure & Esthétique",
-    "card7Text": "«\u00a0Meilleur coiffeur près de chez moi\u00a0?\u00a0» L'IA donne 3 noms. Faites-en partie.",
+    "card7Text": "« Meilleur coiffeur près de chez moi ? » L'IA donne 3 noms. Faites-en partie.",
     "card8Title": "Bien-être & Spa",
     "card8Text": "Vos futurs clients cherchent un spa dans leur ville. L'IA leur répond, on fait en sorte que ce soit vous.",
     "card9Title": "Salles de sport & Clubs sportifs",
     "card9Text": "Les nouveaux adhérents demandent conseil à l'IA avant de s'inscrire. On vous rend incontournable.",
     "learnMore": "En savoir plus →",
     "card10Title": "Autre activité",
-    "card10Text": "Votre métier n'est pas listé\u00a0? On adapte notre approche à votre secteur. Contactez-nous pour un diagnostic sur mesure."
+    "card10Text": "Votre métier n'est pas listé ? On adapte notre approche à votre secteur. Contactez-nous pour un diagnostic sur mesure."
   },
   "howItWorks": {
     "title": "Comment ça marche",
     "subtitle": "3 étapes simples pour être trouvé par vos futurs clients.",
     "step1Title": "Vous demandez votre diagnostic",
-    "step1Text": "Remplissez le formulaire en 1 minute. On lance 100 requêtes réelles sur ChatGPT, Perplexity, Claude et Gemini. Vous recevez votre score de visibilité, l'audit complet et les actions prioritaires en 24h.",
+    "step1Text": "Remplissez le formulaire en 1 minute. On s'occupe du reste. Vous recevez votre diagnostic complet en 24h.",
     "step2Title": "On en parle ensemble",
-    "step2Text": "15 minutes au téléphone pour parcourir vos résultats, répondre à vos questions et voir comment on peut vous aider à être davantage recommandé par les IA.",
+    "step2Text": "On vous appelle pour parcourir vos résultats et répondre à vos questions.",
     "step3Title": "Vos clients vous trouvent",
     "step3Text": "Si vous décidez de travailler avec nous, on s'occupe de tout. On met en place les corrections pour vous, vous n'avez rien à faire. En quelques semaines, de nouveaux clients commencent à vous trouver grâce aux recommandations de l'IA.",
     "cta": "Demander mon diagnostic gratuit →"
@@ -208,7 +208,11 @@
     "errorSource": "Veuillez indiquer comment vous nous avez connu.",
     "submitButton": "Demander mon diagnostic gratuit",
     "submitting": "Envoi en cours…",
-    "trustSignals": "Diagnostic en 24h · Sans engagement · Aucune CB requise"
+    "trustSignals": "Diagnostic en 24h · Sans engagement · Aucune CB requise",
+    "phonePrefer": "Vous préférez en parler de vive voix ?",
+    "fieldRequired": "Ce champ est requis",
+    "emailInvalid": "Veuillez entrer une adresse email valide",
+    "exclusivity": "Un seul client accompagné par quartier et par spécialité — pour vous garantir l'exclusivité."
   },
   "footer": {
     "description": "On aide votre entreprise à être recommandée par ChatGPT et les autres IA.",
