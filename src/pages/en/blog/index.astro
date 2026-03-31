@@ -4,10 +4,13 @@ import { getCollection } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
+import { getDisplayDate } from '../../../utils/blog-dates';
 
-const posts = (await getCollection('blog'))
+const allPosts = (await getCollection('blog'))
   .filter((post) => !post.data.draft && post.data.lang === 'en')
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const posts = allPosts.map((post, i) => ({ ...post, displayDate: getDisplayDate(i, allPosts.length) }));
 
 // Group posts by category
 const categories = [...new Set(posts.map((post) => post.data.category))];
@@ -72,7 +75,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
       <!-- Articles list -->
       <div class="grid gap-0">
         {posts.map((post, index) => {
-          const formattedDate = post.data.date.toLocaleDateString('en-US', {
+          const formattedDate = post.displayDate.toLocaleDateString('en-US', {
             year: 'numeric',
             month: 'long',
             day: 'numeric',
@@ -85,7 +88,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
 
                   <!-- Meta column -->
                   <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-sans text-stone mb-3 md:mb-0 md:w-48 md:shrink-0 md:pt-1">
-                    <time datetime={post.data.date.toISOString().split('T')[0]}>{formattedDate}</time>
+                    <time datetime={post.displayDate.toISOString().split('T')[0]}>{formattedDate}</time>
                     <span class="text-warmgray md:hidden" aria-hidden="true">&middot;</span>
                     <span class="md:hidden">{post.data.reading_time}</span>
                   </div>

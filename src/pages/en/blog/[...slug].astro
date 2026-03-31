@@ -4,16 +4,18 @@ import { getCollection, render } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
+import { getDisplayDate } from '../../../utils/blog-dates';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('blog')).filter(p => p.data.lang === 'en');
-  return posts.map((post) => ({
+  const sorted = [...posts].sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  return sorted.map((post, i) => ({
     params: { slug: post.data.slug },
-    props: { post },
+    props: { post, displayDate: getDisplayDate(i, sorted.length) },
   }));
 }
 
-const { post } = Astro.props;
+const { post, displayDate } = Astro.props;
 const { Content } = await render(post);
 const canonicalUrl = `https://eddiemiller.agency/en/blog/${post.data.slug}`;
 const articleImage = post.data.image
@@ -21,7 +23,7 @@ const articleImage = post.data.image
   : 'https://eddiemiller.agency/og-image.png';
 
 // Format date in English
-const formattedDate = post.data.date.toLocaleDateString('en-US', {
+const formattedDate = displayDate.toLocaleDateString('en-US', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -50,8 +52,8 @@ const relatedPosts = (await getCollection('blog'))
     "@type": "BlogPosting",
     "headline": post.data.title,
     "description": post.data.meta_description,
-    "datePublished": post.data.date.toISOString().split('T')[0],
-    "dateModified": post.data.date.toISOString().split('T')[0],
+    "datePublished": displayDate.toISOString().split('T')[0],
+    "dateModified": displayDate.toISOString().split('T')[0],
     "author": {
       "@type": "Organization",
       "name": "Eddie Miller Agency",
@@ -109,7 +111,7 @@ const relatedPosts = (await getCollection('blog'))
         <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-sans text-stone mb-4">
           <span class="font-medium text-terracotta uppercase tracking-wider text-xs">{post.data.category}</span>
           <span class="text-warmgray" aria-hidden="true">&middot;</span>
-          <time datetime={post.data.date.toISOString().split('T')[0]}>{formattedDate}</time>
+          <time datetime={displayDate.toISOString().split('T')[0]}>{formattedDate}</time>
           <span class="text-warmgray" aria-hidden="true">&middot;</span>
           <span>{post.data.reading_time} read</span>
         </div>
