@@ -20,7 +20,7 @@
     "title": "Uw toekomstige klanten vragen ChatGPT waar ze naartoe moeten.",
     "titleLine2": "Wij zorgen ervoor dat het antwoord",
     "titleHighlight": "\u00FA bent.",
-    "subtitle": "45% van de consumenten vraagt AI om een aanbeveling voordat ze een restaurant, tandarts of hotel kiezen. AI geeft slechts 3 namen. Als de uwe er niet bij staat, gaat de klant naar een concurrent.",
+    "subtitle": "Vandaag vraagt 45% van de consumenten AI om een aanbeveling voordat ze een restaurant, tandarts of hotel kiezen. AI geeft slechts 3 namen. Als de uwe er niet bij staat, gaat de klant naar een concurrent.",
     "cta": "Vraag mijn gratis diagnose aan",
     "secondary": "Controleer of mijn zaak zichtbaar is →",
     "trust1": "Resultaat binnen 24 uur",
@@ -43,18 +43,18 @@
   "problem": {
     "title": "Uw klanten hebben hun gewoontes veranderd",
     "subtitle": "Ze zoeken minder op Google. Ze vragen het rechtstreeks aan ChatGPT.",
-    "stat1Value": "3",
-    "stat1Suffix": " tot 5",
-    "stat1Text": "namen — dat is alles wat AI aanbeveelt. Geen 10 blauwe links zoals op Google. 3 tot 5 namen. De uwe, of die van een concurrent.",
-    "stat1Source": "",
+    "stat1Value": "57",
+    "stat1Suffix": " %",
+    "stat1Text": "van de 18- tot 34-jarigen vraagt liever AI dan te zoeken op Google",
+    "stat1Source": "Reuters Institute, 2025",
     "stat2Value": "83",
     "stat2Suffix": " %",
-    "stat2Text": "van de restaurants verschijnt helemaal niet in deze AI-aanbevelingen",
+    "stat2Text": "van de lokale bedrijven verschijnt niet in de aanbevelingen van ChatGPT",
     "stat2Source": "Local Falcon, 2026",
-    "stat3Value": "3",
-    "stat3Suffix": "",
-    "stat3Text": "antwoorden slechts. De klant die «beste restaurant bij mij in de buurt» aan ChatGPT vraagt, krijgt 3 namen en gaat erheen. Als u niet in het antwoord staat, zal hij nooit weten dat u bestaat.",
-    "stat3Source": ""
+    "stat3Value": "92",
+    "stat3Suffix": " %",
+    "stat3Text": "van de gebruikers kiest een van de 3 eerste namen die door AI worden aanbevolen",
+    "stat3Source": "Authoritas, 2025"
   },
   "quote": {
     "text": "«Beste restaurant bij mij in de buurt?» Deze vraag wordt dagelijks duizenden keren aan ChatGPT gesteld. De AI geeft 3 namen. Staat de uwe erbij? Nog niet.",
@@ -134,7 +134,7 @@
     "copyright": "© 2026 Eddie Miller Agency. Alle rechten voorbehouden."
   },
   "stickyCta": {
-    "text": "Beveelt ChatGPT uw zaak aan? Ontdek het binnen 24 uur →",
+    "text": "Beveelt ChatGPT uw zaak aan? Ontvang het antwoord binnen 24 uur →",
     "button": "Gratis diagnose →"
   },
   "notFound": {

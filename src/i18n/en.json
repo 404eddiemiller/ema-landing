@@ -20,7 +20,7 @@
     "title": "Your future customers are asking ChatGPT where to go.",
     "titleLine2": "We make sure the answer is",
     "titleHighlight": "you.",
-    "subtitle": "45% of consumers ask AI for a recommendation before choosing a restaurant, dentist, or hotel. AI only gives 3 names. If yours isn't one of them, a competitor gets the customer.",
+    "subtitle": "Today, 45% of consumers ask AI for a recommendation before choosing a restaurant, dentist, or hotel. AI only gives 3 names. If yours isn't one of them, a competitor gets the customer.",
     "cta": "Request my free diagnostic",
     "secondary": "Check if my business is visible ���",
     "trust1": "Results in 24h",
@@ -43,18 +43,18 @@
   "problem": {
     "title": "Your customers have changed their habits",
     "subtitle": "They search less on Google. They ask ChatGPT directly.",
-    "stat1Value": "3",
-    "stat1Suffix": " to 5",
-    "stat1Text": "names — that's all AI recommends. Not 10 blue links like Google. 3 to 5 names. Yours, or a competitor's.",
-    "stat1Source": "",
+    "stat1Value": "57",
+    "stat1Suffix": " %",
+    "stat1Text": "of 18-34 year-olds prefer asking AI rather than searching on Google",
+    "stat1Source": "Reuters Institute, 2025",
     "stat2Value": "83",
     "stat2Suffix": "%",
-    "stat2Text": "of restaurants don't appear at all in these AI recommendations",
+    "stat2Text": "of local businesses don't appear in ChatGPT recommendations",
     "stat2Source": "Local Falcon, 2026",
-    "stat3Value": "3",
-    "stat3Suffix": "",
-    "stat3Text": "answers only. The customer who asks ChatGPT for the \"best restaurant near me\" gets 3 names and goes. If you're not in the answer, they'll never know you exist.",
-    "stat3Source": ""
+    "stat3Value": "92",
+    "stat3Suffix": " %",
+    "stat3Text": "of users choose one of the first 3 names recommended by AI",
+    "stat3Source": "Authoritas, 2025"
   },
   "quote": {
     "text": "\"Best restaurant near me?\" — this question is asked on ChatGPT thousands of times a day. The AI gives 3 names. Is yours one of them? Not yet.",
@@ -134,7 +134,7 @@
     "copyright": "© 2026 Eddie Miller Agency. All rights reserved."
   },
   "stickyCta": {
-    "text": "Does ChatGPT recommend your business? Find out in 24h →",
+    "text": "Does ChatGPT recommend your business? Get the answer in 24h →",
     "button": "Free diagnostic →"
   },
   "notFound": {

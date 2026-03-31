@@ -20,7 +20,7 @@
     "title": "Ihre zukünftigen Kunden fragen ChatGPT, wohin sie gehen sollen.",
     "titleLine2": "Wir sorgen daf\u00FCr, dass die Antwort",
     "titleHighlight": "Sie sind.",
-    "subtitle": "45 % der Verbraucher fragen eine KI um eine Empfehlung, bevor sie ein Restaurant, einen Zahnarzt oder ein Hotel wählen. Die KI nennt nur 3 Namen. Wenn Ihrer nicht dabei ist, bekommt ein Mitbewerber den Kunden.",
+    "subtitle": "Heute fragen 45 % der Verbraucher eine KI um eine Empfehlung, bevor sie ein Restaurant, einen Zahnarzt oder ein Hotel wählen. Die KI nennt nur 3 Namen. Wenn Ihrer nicht dabei ist, bekommt ein Mitbewerber den Kunden.",
     "cta": "Kostenlose Diagnose anfordern",
     "secondary": "Prüfen, ob mein Unternehmen sichtbar ist →",
     "trust1": "Ergebnisse in 24 Std.",
@@ -43,18 +43,18 @@
   "problem": {
     "title": "Ihre Kunden haben ihre Gewohnheiten geändert",
     "subtitle": "Sie suchen weniger auf Google. Sie fragen direkt ChatGPT.",
-    "stat1Value": "3",
-    "stat1Suffix": " bis 5",
-    "stat1Text": "Namen — das ist alles, was die KI empfiehlt. Nicht 10 blaue Links wie bei Google. 3 bis 5 Namen. Ihrer, oder der eines Mitbewerbers.",
-    "stat1Source": "",
+    "stat1Value": "57",
+    "stat1Suffix": " %",
+    "stat1Text": "der 18- bis 34-Jährigen fragen lieber die KI, als auf Google zu suchen",
+    "stat1Source": "Reuters Institute, 2025",
     "stat2Value": "83",
     "stat2Suffix": " %",
-    "stat2Text": "der Restaurants erscheinen in diesen KI-Empfehlungen überhaupt nicht",
+    "stat2Text": "der lokalen Unternehmen erscheinen nicht in den Empfehlungen von ChatGPT",
     "stat2Source": "Local Falcon, 2026",
-    "stat3Value": "3",
-    "stat3Suffix": "",
-    "stat3Text": "Antworten nur. Der Kunde, der ChatGPT nach dem \u201Ebesten Restaurant in der N\u00E4he\u201C fragt, bekommt 3 Namen und geht hin. Wenn Sie nicht in der Antwort sind, wird er nie erfahren, dass es Sie gibt.",
-    "stat3Source": ""
+    "stat3Value": "92",
+    "stat3Suffix": " %",
+    "stat3Text": "der Nutzer wählen einen der 3 ersten von der KI empfohlenen Namen",
+    "stat3Source": "Authoritas, 2025"
   },
   "quote": {
     "text": "\u201EBestes Restaurant in meiner N\u00E4he?\u201C \u2014 diese Frage wird t\u00E4glich tausendfach bei ChatGPT gestellt. Die KI nennt 3 Namen. Ist Ihrer dabei? Noch nicht.",
@@ -134,7 +134,7 @@
     "copyright": "© 2026 Eddie Miller Agency. Alle Rechte vorbehalten."
   },
   "stickyCta": {
-    "text": "Empfiehlt ChatGPT Ihr Unternehmen? Finden Sie es in 24 Std. heraus →",
+    "text": "Empfiehlt ChatGPT Ihr Unternehmen? Erhalten Sie die Antwort in 24 Std. →",
     "button": "Kostenlose Diagnose →"
   },
   "notFound": {

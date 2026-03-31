@@ -20,7 +20,7 @@
     "title": "Tus futuros clientes le preguntan a ChatGPT adónde ir.",
     "titleLine2": "Nos aseguramos de que la respuesta seas",
     "titleHighlight": "tú.",
-    "subtitle": "El 45 % de los consumidores pide una recomendación a una IA antes de elegir un restaurante, dentista u hotel. La IA solo da 3 nombres. Si el tuyo no está, un competidor se queda con el cliente.",
+    "subtitle": "Hoy, el 45 % de los consumidores pide una recomendación a una IA antes de elegir un restaurante, dentista u hotel. La IA solo da 3 nombres. Si el tuyo no está, un competidor se queda con el cliente.",
     "cta": "Solicitar mi diagnóstico gratuito",
     "secondary": "Comprobar si mi negocio es visible →",
     "trust1": "Resultados en 24h",
@@ -43,18 +43,18 @@
   "problem": {
     "title": "Tus clientes han cambiado sus hábitos",
     "subtitle": "Buscan menos en Google. Le preguntan directamente a ChatGPT.",
-    "stat1Value": "3",
-    "stat1Suffix": " a 5",
-    "stat1Text": "nombres — es todo lo que la IA recomienda. No 10 enlaces azules como en Google. 3 a 5 nombres. El tuyo, o el de un competidor.",
-    "stat1Source": "",
+    "stat1Value": "57",
+    "stat1Suffix": " %",
+    "stat1Text": "de los jóvenes de 18 a 34 años prefieren preguntarle a la IA en vez de buscar en Google",
+    "stat1Source": "Reuters Institute, 2025",
     "stat2Value": "83",
     "stat2Suffix": " %",
-    "stat2Text": "de los restaurantes no aparecen en absoluto en estas recomendaciones de IA",
+    "stat2Text": "de las empresas locales no aparecen en las recomendaciones de ChatGPT",
     "stat2Source": "Local Falcon, 2026",
-    "stat3Value": "3",
-    "stat3Suffix": "",
-    "stat3Text": "respuestas solamente. El cliente que pregunta a ChatGPT por el «mejor restaurante cerca de mí» recibe 3 nombres y va. Si no estás en la respuesta, nunca sabrá que existes.",
-    "stat3Source": ""
+    "stat3Value": "92",
+    "stat3Suffix": " %",
+    "stat3Text": "de los usuarios eligen uno de los 3 primeros nombres recomendados por la IA",
+    "stat3Source": "Authoritas, 2025"
   },
   "quote": {
     "text": "«¿Mejor restaurante cerca de mí?» — esta pregunta se hace en ChatGPT miles de veces al día. La IA da 3 nombres. ¿El tuyo es uno de ellos? Todavía no.",
@@ -134,7 +134,7 @@
     "copyright": "© 2026 Eddie Miller Agency. Todos los derechos reservados."
   },
   "stickyCta": {
-    "text": "¿ChatGPT recomienda tu negocio? Descúbrelo en 24h →",
+    "text": "¿ChatGPT recomienda tu negocio? Obtén la respuesta en 24h →",
     "button": "Diagnóstico gratuito →"
   },
   "notFound": {
