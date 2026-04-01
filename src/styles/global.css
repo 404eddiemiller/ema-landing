@@ -560,6 +560,10 @@ p, li, blockquote {
     filter: none !important;
     opacity: 1 !important;
     stroke-dashoffset: 0 !important;
+  }
+
+  .draw-line,
+  .separator-animate {
     width: auto !important;
   }
 
