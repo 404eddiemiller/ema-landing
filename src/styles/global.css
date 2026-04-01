@@ -327,6 +327,62 @@ p, li, blockquote {
   bottom: 0;
 }
 
+/* === Form error states (dark mode aware) === */
+
+.form-error-box {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .form-error-box {
+    background-color: rgba(127, 29, 29, 0.2);
+    border-color: #991b1b;
+    color: #fca5a5;
+  }
+}
+
+[data-theme="dark"] .form-error-box {
+  background-color: rgba(127, 29, 29, 0.2);
+  border-color: #991b1b;
+  color: #fca5a5;
+}
+
+.form-field-error {
+  border-color: #f87171;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .form-field-error {
+    border-color: #ef4444;
+  }
+}
+
+[data-theme="dark"] .form-field-error {
+  border-color: #ef4444;
+}
+
+/* === Select dropdown with theme-aware chevron === */
+
+.select-chevron {
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6360%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E');
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .select-chevron {
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23A69C94%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E');
+  }
+}
+
+[data-theme="dark"] .select-chevron {
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23A69C94%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E');
+}
+
 .sticky-cta-text {
   display: none;
 }
@@ -467,6 +523,10 @@ p, li, blockquote {
     opacity: 1 !important;
     stroke-dashoffset: 0 !important;
     width: auto !important;
+  }
+
+  .animate-spin {
+    animation: none !important;
   }
 }
 

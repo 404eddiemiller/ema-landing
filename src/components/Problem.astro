@@ -51,13 +51,13 @@ const stats = [
 
       <!-- Tab buttons -->
       <div class="flex gap-0 mb-0" role="tablist">
-        <button type="button" role="tab" class="mockup-tab flex-1 px-4 py-2.5 text-xs font-sans font-medium tracking-wider uppercase border border-cream/10 border-b-0 transition-colors duration-200 bg-cream/10 text-cream/90" data-tab="restaurant" aria-selected="true">Restaurant</button>
-        <button type="button" role="tab" class="mockup-tab flex-1 px-4 py-2.5 text-xs font-sans font-medium tracking-wider uppercase border border-cream/10 border-b-0 transition-colors duration-200 bg-cream/5 text-cream/40 hover:text-cream/60" data-tab="dentiste" aria-selected="false">Dentiste</button>
-        <button type="button" role="tab" class="mockup-tab flex-1 px-4 py-2.5 text-xs font-sans font-medium tracking-wider uppercase border border-cream/10 border-b-0 transition-colors duration-200 bg-cream/5 text-cream/40 hover:text-cream/60" data-tab="hotel" aria-selected="false">Hôtel</button>
+        <button type="button" role="tab" id="tab-restaurant" aria-controls="panel-restaurant" class="mockup-tab flex-1 px-4 py-2.5 text-xs font-sans font-medium tracking-wider uppercase border border-cream/10 border-b-0 transition-colors duration-200 bg-cream/10 text-cream/90" data-tab="restaurant" aria-selected="true" tabindex="0">Restaurant</button>
+        <button type="button" role="tab" id="tab-dentiste" aria-controls="panel-dentiste" class="mockup-tab flex-1 px-4 py-2.5 text-xs font-sans font-medium tracking-wider uppercase border border-cream/10 border-b-0 transition-colors duration-200 bg-cream/5 text-cream/40 hover:text-cream/60" data-tab="dentiste" aria-selected="false" tabindex="-1">Dentiste</button>
+        <button type="button" role="tab" id="tab-hotel" aria-controls="panel-hotel" class="mockup-tab flex-1 px-4 py-2.5 text-xs font-sans font-medium tracking-wider uppercase border border-cream/10 border-b-0 transition-colors duration-200 bg-cream/5 text-cream/40 hover:text-cream/60" data-tab="hotel" aria-selected="false" tabindex="-1">Hôtel</button>
       </div>
 
       <!-- Restaurant panel -->
-      <div role="tabpanel" class="mockup-panel border border-cream/10 bg-cream/5 p-5 md:p-6" data-panel="restaurant">
+      <div role="tabpanel" id="panel-restaurant" aria-labelledby="tab-restaurant" class="mockup-panel border border-cream/10 bg-cream/5 p-5 md:p-6" data-panel="restaurant">
         <div class="flex items-start gap-3 mb-5">
           <div class="w-7 h-7 shrink-0 bg-cream/20 flex items-center justify-center" aria-hidden="true">
             <svg class="w-4 h-4 text-cream/60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -82,7 +82,7 @@ const stats = [
       </div>
 
       <!-- Dentiste panel -->
-      <div role="tabpanel" class="mockup-panel border border-cream/10 bg-cream/5 p-5 md:p-6 hidden" data-panel="dentiste">
+      <div role="tabpanel" id="panel-dentiste" aria-labelledby="tab-dentiste" class="mockup-panel border border-cream/10 bg-cream/5 p-5 md:p-6 hidden" data-panel="dentiste">
         <div class="flex items-start gap-3 mb-5">
           <div class="w-7 h-7 shrink-0 bg-cream/20 flex items-center justify-center" aria-hidden="true">
             <svg class="w-4 h-4 text-cream/60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -107,7 +107,7 @@ const stats = [
       </div>
 
       <!-- Hôtel panel -->
-      <div role="tabpanel" class="mockup-panel border border-cream/10 bg-cream/5 p-5 md:p-6 hidden" data-panel="hotel">
+      <div role="tabpanel" id="panel-hotel" aria-labelledby="tab-hotel" class="mockup-panel border border-cream/10 bg-cream/5 p-5 md:p-6 hidden" data-panel="hotel">
         <div class="flex items-start gap-3 mb-5">
           <div class="w-7 h-7 shrink-0 bg-cream/20 flex items-center justify-center" aria-hidden="true">
             <svg class="w-4 h-4 text-cream/60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -142,23 +142,44 @@ const stats = [
     const tabs = tabContainer.querySelectorAll<HTMLButtonElement>('.mockup-tab');
     const panels = tabContainer.querySelectorAll<HTMLDivElement>('.mockup-panel');
 
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        const target = tab.dataset.tab;
+    function activateTab(tab: HTMLButtonElement) {
+      const target = tab.dataset.tab;
 
-        tabs.forEach(t => {
-          const isActive = t.dataset.tab === target;
-          t.setAttribute('aria-selected', String(isActive));
-          t.classList.toggle('bg-cream/10', isActive);
-          t.classList.toggle('text-cream/90', isActive);
-          t.classList.toggle('bg-cream/5', !isActive);
-          t.classList.toggle('text-cream/40', !isActive);
-        });
-
-        panels.forEach(p => {
-          p.classList.toggle('hidden', p.dataset.panel !== target);
-        });
+      tabs.forEach(t => {
+        const isActive = t.dataset.tab === target;
+        t.setAttribute('aria-selected', String(isActive));
+        t.setAttribute('tabindex', isActive ? '0' : '-1');
+        t.classList.toggle('bg-cream/10', isActive);
+        t.classList.toggle('text-cream/90', isActive);
+        t.classList.toggle('bg-cream/5', !isActive);
+        t.classList.toggle('text-cream/40', !isActive);
       });
+
+      panels.forEach(p => {
+        p.classList.toggle('hidden', p.dataset.panel !== target);
+      });
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => activateTab(tab));
+    });
+
+    // Keyboard navigation: arrow keys to move between tabs
+    tabContainer.querySelector('[role="tablist"]')?.addEventListener('keydown', (e: KeyboardEvent) => {
+      const tabArray = Array.from(tabs);
+      const current = tabArray.findIndex(t => t.getAttribute('aria-selected') === 'true');
+      let next = -1;
+
+      if (e.key === 'ArrowRight') next = (current + 1) % tabArray.length;
+      else if (e.key === 'ArrowLeft') next = (current - 1 + tabArray.length) % tabArray.length;
+      else if (e.key === 'Home') next = 0;
+      else if (e.key === 'End') next = tabArray.length - 1;
+
+      if (next >= 0) {
+        e.preventDefault();
+        activateTab(tabArray[next]);
+        tabArray[next].focus();
+      }
     });
   }
 </script>

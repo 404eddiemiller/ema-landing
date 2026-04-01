@@ -328,7 +328,7 @@ const nav = navRoutes[locale];
 
             <div class="group">
               <label for="type" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-200 group-focus-within:text-terracotta">{data.formConfig.typeLabel} <span class="text-terracotta">*</span></label>
-              <select id="type" name="type" required aria-required="true" class="block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)] appearance-none" style="background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6360%22 stroke-width=%221.5%22%3E%3Cpath d=%22M6 9l6 6 6-6%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem center;">
+              <select id="type" name="type" required aria-required="true" class="select-chevron block w-full px-4 py-3 font-sans text-base text-charcoal bg-cream border border-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]">
                 {data.formConfig.typeOptions.map((opt) => (
                   <option value={opt.value} selected={opt.selected || undefined}>{opt.label}</option>
                 ))}
@@ -350,7 +350,7 @@ const nav = navRoutes[locale];
               {t('auditForm.exclusivity', locale)}
             </p>
 
-            <div id="form-error" class="hidden px-4 py-3 bg-red-50 border border-red-200 text-red-700 font-sans text-sm" role="alert">
+            <div id="form-error" class="hidden px-4 py-3 form-error-box font-sans text-sm" role="alert" aria-live="assertive">
               {t('auditForm.errorGeneric', locale)}
             </div>
 

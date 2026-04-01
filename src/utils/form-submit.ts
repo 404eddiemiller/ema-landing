@@ -3,7 +3,7 @@
 
 declare const plausible: ((event: string, options?: { props?: Record<string, string> }) => void) | undefined;
 
-const ERROR_CLASS = 'border-red-400';
+const ERROR_CLASS = 'form-field-error';
 const NORMAL_CLASS = 'border-warmgray';
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
