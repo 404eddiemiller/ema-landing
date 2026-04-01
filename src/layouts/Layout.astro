@@ -243,7 +243,7 @@ const {
         <a
           href={nav.audit}
           class="sticky-cta-btn text-center inline-block px-6 py-3 font-sans font-medium text-sm text-cream bg-charcoal tracking-wider uppercase whitespace-nowrap transition-colors duration-300 hover:bg-terracotta-dark"
-          onclick="plausible('CTA Click', {props: {location: 'sticky-bar'}})"
+          data-track="sticky-bar"
         >
           {t('stickyCta.button', locale)}
         </a>
@@ -258,6 +258,11 @@ const {
     <!-- Intersection Observer for scroll animations (external, cacheable) -->
     <script>
       import '../scripts/animations';
+    </script>
+
+    <!-- Centralized Plausible analytics delegation -->
+    <script>
+      import '../scripts/analytics';
     </script>
 
     <!-- Language detection banner -->

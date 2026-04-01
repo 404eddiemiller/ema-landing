@@ -4,6 +4,8 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://eddiemiller.agency',
+  compressHTML: true,
+  prefetch: true,
   i18n: {
     defaultLocale: 'fr',
     locales: ['fr', 'en', 'es', 'de', 'it', 'pt', 'nl'],

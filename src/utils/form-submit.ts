@@ -151,8 +151,17 @@ export function initFormSubmit(webhookUrl: string) {
         plausible('Form Submit', { props: { page: data.page } });
       }
 
-      // Redirect to thank you page (locale-aware via data attribute)
-      window.location.href = form.dataset.redirect || '/merci';
+      // Show inline success feedback before redirect
+      spinner?.classList.add('hidden');
+      if (submitText) {
+        submitText.textContent = '✓ ' + (form.dataset.submitSuccess || 'Demande envoyée !');
+      }
+      submitBtn.classList.remove('bg-terracotta', 'hover:bg-terracotta-dark');
+      submitBtn.classList.add('bg-green-700');
+
+      // Redirect after brief confirmation
+      const redirectUrl = form.dataset.redirect || '/merci';
+      setTimeout(() => { window.location.href = redirectUrl; }, 1200);
     } catch {
       const errorMsg = form.dataset.errorGeneric || 'Une erreur est survenue. Veuillez réessayer ou nous contacter à contact@eddiemiller.agency.';
       errorDiv.textContent = errorMsg;

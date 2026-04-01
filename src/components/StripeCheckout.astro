@@ -60,7 +60,7 @@ const isStripeLink = !!paymentUrl;
   ]}
   target={isStripeLink ? '_blank' : undefined}
   rel={isStripeLink ? 'noopener' : undefined}
-  onclick={`plausible('CTA Click', {props: {location: '${plausibleLocation}'}})`}
+  data-track={plausibleLocation}
 >
   {label}
 </a>

@@ -193,7 +193,7 @@ const formules = [
                     ? 'text-cream bg-terracotta hover:bg-terracotta-dark'
                     : 'text-charcoal border border-warmgray hover:border-terracotta hover:text-terracotta',
                 ]}
-                onclick={`plausible('CTA Click', {props: {location: 'formules-${f.name.toLowerCase()}'}})`}
+                data-track={`formules-${f.name.toLowerCase()}`}
               >
                 {f.cta} →
               </a>
@@ -241,7 +241,7 @@ const formules = [
           <a
             href="#diagnostic"
             class="inline-block shrink-0 text-center px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
-            onclick="plausible('CTA Click', {props: {location: 'formules-suivi'}})"
+            data-track="formules-suivi"
           >
             En savoir plus
           </a>
@@ -289,7 +289,7 @@ const formules = [
         <a
           href="#diagnostic"
           class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark fade-up"
-          onclick="plausible('CTA Click', {props: {location: 'formules-bottom'}})"
+          data-track="formules-bottom"
         >
           Demander mon diagnostic gratuit
         </a>

@@ -83,7 +83,7 @@ function getLangSwitchUrl(targetLocale: Locale): string {
     <a
       href={nav.audit}
       class="hidden lg:inline-block px-5 py-2.5 font-sans font-medium text-sm text-cream bg-terracotta tracking-[0.02em] transition-colors duration-300 hover:bg-terracotta-dark"
-      onclick="plausible('CTA Click', {props: {location: 'header'}})"
+      data-track="header"
     >
       {t('header.cta', locale)}
     </a>
@@ -130,7 +130,7 @@ function getLangSwitchUrl(targetLocale: Locale): string {
         <a
           href={nav.audit}
           class="menu-link inline-block text-center px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
-          onclick="plausible('CTA Click', {props: {location: 'header-menu'}})"
+          data-track="header-menu"
         >
           {t('header.cta', locale)}
         </a>
@@ -222,10 +222,14 @@ function getLangSwitchUrl(targetLocale: Locale): string {
     function closeLangDropdown() {
       langBtn.setAttribute('aria-expanded', 'false');
       langDropdown.classList.remove('open');
-      langDropdown.addEventListener('transitionend', function handler() {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         langDropdown.setAttribute('hidden', '');
-        langDropdown.removeEventListener('transitionend', handler);
-      });
+      } else {
+        langDropdown.addEventListener('transitionend', function handler() {
+          langDropdown.setAttribute('hidden', '');
+          langDropdown.removeEventListener('transitionend', handler);
+        });
+      }
     }
   }
 
@@ -275,10 +279,14 @@ function getLangSwitchUrl(targetLocale: Locale): string {
     function closeMenu() {
       menuBtn.setAttribute('aria-expanded', 'false');
       menuPanel.classList.remove('open');
-      menuPanel.addEventListener('transitionend', function handler() {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         menuPanel.setAttribute('hidden', '');
-        menuPanel.removeEventListener('transitionend', handler);
-      });
+      } else {
+        menuPanel.addEventListener('transitionend', function handler() {
+          menuPanel.setAttribute('hidden', '');
+          menuPanel.removeEventListener('transitionend', handler);
+        });
+      }
     }
   }
 </script>

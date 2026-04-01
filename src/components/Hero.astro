@@ -36,7 +36,7 @@ const locale = getLocaleFromPath(Astro.url.pathname);
         <a
           href="#diagnostic"
           class="inline-block px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark"
-          onclick="plausible('CTA Click', {props: {location: 'hero'}})"
+          data-track="hero"
         >
           {t('hero.cta', locale)}
         </a>
