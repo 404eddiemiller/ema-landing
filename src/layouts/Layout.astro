@@ -190,12 +190,12 @@ const {
       <script type="application/ld+json" set:html={JSON.stringify({
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "mainEntity": Array.from({ length: 10 }, (_, i) => ({
+        "mainEntity": [1, 2, 3, 5, 9, 10].map(n => ({
           "@type": "Question",
-          "name": t(`faq.q${i + 1}`, locale),
+          "name": t(`faq.q${n}`, locale),
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": t(`faq.a${i + 1}`, locale)
+            "text": t(`faq.a${n}`, locale)
           }
         }))
       })} />
@@ -212,7 +212,7 @@ const {
     </script>
 
     <!-- Plausible Analytics -->
-    <script is:inline defer src="https://plausible.io/js/pa-V0XLRxsUEbXHqAAPrygvE.js"></script>
+    <script is:inline async src="https://plausible.io/js/pa-V0XLRxsUEbXHqAAPrygvE.js"></script>
     <script is:inline>
       window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
       plausible.init()

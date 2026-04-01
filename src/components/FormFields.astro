@@ -57,8 +57,10 @@ const {
   data-email-invalid={emailInvalid}
   data-page-slug={pageSlug}
 >
-  <!-- Honeypot anti-spam -->
+  <!-- Anti-spam: honeypot + timestamp + JS challenge -->
   <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+  <input type="hidden" name="_loaded" value="" />
+  <input type="hidden" name="_js" value="" />
 
   <div class="group">
     <label for="etablissement" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-300 group-focus-within:text-terracotta">
@@ -144,7 +146,7 @@ const {
   <button
     type="submit"
     id="submit-btn"
-    class="flex items-center justify-center gap-2 w-full px-8 py-4 font-sans font-medium text-base text-cream bg-terracotta tracking-[0.02em] transition-all duration-300 hover:bg-terracotta-dark cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
+    class="btn-primary flex items-center justify-center gap-2 w-full cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
   >
     <svg id="submit-spinner" class="hidden w-5 h-5 animate-spin" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3"></circle>

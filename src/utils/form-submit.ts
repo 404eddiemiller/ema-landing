@@ -77,6 +77,13 @@ export function initFormSubmit(webhookUrl: string) {
 
   if (!form || !submitBtn || !errorDiv) return;
 
+  // Anti-spam: set timestamp on load + JS challenge token
+  const loadedField = form.querySelector<HTMLInputElement>('input[name="_loaded"]');
+  const jsField = form.querySelector<HTMLInputElement>('input[name="_js"]');
+  const loadTime = Date.now();
+  if (loadedField) loadedField.value = String(loadTime);
+  if (jsField) jsField.value = 'ok';
+
   const requiredMsg = form.dataset.fieldRequired || 'Ce champ est requis';
   const emailInvalidMsg = form.dataset.emailInvalid || 'Veuillez entrer une adresse email valide';
 
@@ -92,9 +99,15 @@ export function initFormSubmit(webhookUrl: string) {
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    // Honeypot check
+    // Anti-spam checks
     const honey = form.querySelector<HTMLInputElement>('input[name="_honey"]');
     if (honey && honey.value) return;
+
+    // JS challenge: bots without JS won't have this set
+    if (!jsField || jsField.value !== 'ok') return;
+
+    // Timestamp check: reject submissions faster than 3 seconds
+    if (loadedField && loadTime && (Date.now() - loadTime) < 3000) return;
 
     // Field references
     const etablissement = form.querySelector<HTMLInputElement>('#etablissement');
