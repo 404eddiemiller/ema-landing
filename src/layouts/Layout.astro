@@ -212,7 +212,7 @@ const {
     </script>
 
     <!-- Plausible Analytics -->
-    <script is:inline async src="https://plausible.io/js/pa-V0XLRxsUEbXHqAAPrygvE.js"></script>
+    <script is:inline defer src="https://plausible.io/js/pa-V0XLRxsUEbXHqAAPrygvE.js"></script>
     <script is:inline>
       window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
       plausible.init()
@@ -221,7 +221,7 @@ const {
   </head>
   <body class="bg-cream text-charcoal font-sans pb-16 md:pb-0">
     <!-- Language suggestion banner -->
-    <div id="lang-banner" class="hidden sticky top-[73px] left-0 w-full z-40 bg-cream/95 backdrop-blur-sm border-b border-warmgray/30 py-4 px-4" role="alert">
+    <div id="lang-banner" class="hidden sticky top-[var(--header-height)] left-0 w-full z-40 bg-cream/95 backdrop-blur-sm border-b border-warmgray/30 py-4 px-4" role="alert">
       <div class="max-w-container mx-auto flex items-center justify-between gap-3">
         <p id="lang-banner-text" class="font-sans text-sm text-stone"></p>
         <div class="flex items-center gap-2 shrink-0">

@@ -43,6 +43,7 @@ const relatedPosts = (await getCollection('blog'))
   ogDescription={post.data.meta_description}
   ogType="article"
   ogImage={articleImage}
+  skipFaqSchema={true}
 >
   <Header />
 

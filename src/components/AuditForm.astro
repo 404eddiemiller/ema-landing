@@ -43,9 +43,11 @@ const nav = navRoutes[locale];
             name="etablissement"
             required
             aria-required="true"
+            aria-describedby="etablissement-error"
             class="block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]"
             placeholder={t('auditForm.businessNamePlaceholder', locale)}
           />
+          <p id="etablissement-error" class="field-error hidden text-red-500 text-xs font-sans mt-1" role="alert"></p>
         </div>
 
         <div class="group">
@@ -57,6 +59,7 @@ const nav = navRoutes[locale];
             name="type"
             required
             aria-required="true"
+            aria-describedby="type-error"
             class="select-chevron block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]"
           >
             <option value="" disabled selected>{t('auditForm.choosePlaceholder', locale)}</option>
@@ -71,6 +74,7 @@ const nav = navRoutes[locale];
             <option value="sport">{t('auditForm.typeGym', locale)}</option>
             <option value="autre">{t('auditForm.typeOther', locale)}</option>
           </select>
+          <p id="type-error" class="field-error hidden text-red-500 text-xs font-sans mt-1" role="alert"></p>
         </div>
 
         <div class="group">
@@ -83,9 +87,11 @@ const nav = navRoutes[locale];
             name="ville"
             required
             aria-required="true"
+            aria-describedby="ville-error"
             class="block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]"
             placeholder={t('auditForm.cityPlaceholder', locale)}
           />
+          <p id="ville-error" class="field-error hidden text-red-500 text-xs font-sans mt-1" role="alert"></p>
         </div>
 
         <div class="group">
@@ -98,9 +104,11 @@ const nav = navRoutes[locale];
             name="email"
             required
             aria-required="true"
+            aria-describedby="email-error"
             class="block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray placeholder:text-warmgray transition-all duration-300 focus:border-terracotta focus:outline-none focus:shadow-[0_0_0_3px_rgba(196,120,91,0.1)]"
             placeholder={t('auditForm.emailPlaceholder', locale)}
           />
+          <p id="email-error" class="field-error hidden text-red-500 text-xs font-sans mt-1" role="alert"></p>
         </div>
 
         <!-- Error message -->

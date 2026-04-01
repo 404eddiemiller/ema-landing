@@ -1,0 +1,19 @@
+---
+import VerticalLayout from '../../components/VerticalLayout.astro';
+import type { VerticalData } from '../../data/verticals/types';
+
+export async function getStaticPaths() {
+  const slugs = ['tandartsen', 'restaurants', 'hotels', 'advocaten', 'kapsalons', 'spa', 'sportscholen', 'bars'];
+  const entries = await Promise.all(
+    slugs.map(async (slug) => {
+      const mod = await import(`../../data/verticals/nl/${slug}.ts`);
+      return { params: { vertical: slug }, props: { data: mod.data as VerticalData } };
+    })
+  );
+  return entries;
+}
+
+interface Props { data: VerticalData }
+const { data } = Astro.props;
+---
+<VerticalLayout data={data} />

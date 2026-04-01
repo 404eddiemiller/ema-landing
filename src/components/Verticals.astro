@@ -39,10 +39,10 @@ const icons: Record<string, string> = {
       {t('verticals.subtitle', locale)}
     </p>
 
-    <div class="verticals-carousel flex overflow-x-auto snap-x snap-mandatory gap-4 md:gap-5 pb-4 -mx-6 px-6 md:-mx-8 md:px-8 lg:mx-0 lg:px-0 lg:grid lg:grid-cols-3 lg:overflow-visible lg:snap-none lg:pb-0">
+    <div class="verticals-carousel flex overflow-x-auto snap-x snap-mandatory gap-4 md:gap-5 pb-4 -mx-6 px-6 md:-mx-8 md:px-8 lg:-mx-16 lg:px-16">
       {verticals.map((v, i) => {
         const href = v.href ?? (v.routeKey ? pageRoutes[v.routeKey]?.[locale] : undefined);
-        const cardClasses = "snap-start shrink-0 w-[72vw] sm:w-[44vw] lg:w-auto lg:shrink block border border-warmgray p-5 md:p-6 bg-cream card-hover scale-in group";
+        const cardClasses = "snap-start shrink-0 w-[72vw] sm:w-[44vw] lg:w-[320px] block border border-warmgray p-5 md:p-6 bg-cream card-hover scale-in group";
         const cardContent = (
           <>
             <div class="mb-3">

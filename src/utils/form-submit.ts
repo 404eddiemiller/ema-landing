@@ -11,28 +11,35 @@ function showFieldError(field: HTMLElement, message: string) {
   field.classList.remove(NORMAL_CLASS);
   field.classList.add(ERROR_CLASS);
 
-  // Find or create the error message element
-  const group = field.closest('.group');
-  if (!group) return;
+  // Use pre-existing aria-describedby error element, or create one
+  const errorId = field.getAttribute('aria-describedby');
+  let errorEl = errorId ? document.getElementById(errorId) : null;
 
-  let errorEl = group.querySelector('.field-error') as HTMLElement | null;
   if (!errorEl) {
-    errorEl = document.createElement('p');
-    errorEl.className = 'field-error text-red-500 text-xs font-sans mt-1';
-    errorEl.setAttribute('role', 'alert');
-    field.parentNode!.insertBefore(errorEl, field.nextSibling);
+    const group = field.closest('.group');
+    if (!group) return;
+    errorEl = group.querySelector('.field-error') as HTMLElement | null;
+    if (!errorEl) {
+      errorEl = document.createElement('p');
+      errorEl.className = 'field-error text-red-500 text-xs font-sans mt-1';
+      errorEl.setAttribute('role', 'alert');
+      field.parentNode!.insertBefore(errorEl, field.nextSibling);
+    }
   }
   errorEl.textContent = message;
+  errorEl.classList.remove('hidden');
 }
 
 function clearFieldError(field: HTMLElement) {
   field.classList.remove(ERROR_CLASS);
   field.classList.add(NORMAL_CLASS);
 
-  const group = field.closest('.group');
-  if (!group) return;
-  const errorEl = group.querySelector('.field-error');
-  if (errorEl) errorEl.remove();
+  const errorId = field.getAttribute('aria-describedby');
+  const errorEl = errorId ? document.getElementById(errorId) : field.closest('.group')?.querySelector('.field-error');
+  if (errorEl) {
+    errorEl.textContent = '';
+    errorEl.classList.add('hidden');
+  }
 }
 
 function validateFields(fields: (HTMLInputElement | HTMLSelectElement | null)[], requiredMsg: string): boolean {
@@ -59,6 +66,11 @@ function validateFields(fields: (HTMLInputElement | HTMLSelectElement | null)[],
 }
 
 export function initFormSubmit(webhookUrl: string) {
+  if (!webhookUrl?.startsWith('https://')) {
+    console.error('Invalid webhook URL: must be HTTPS');
+    return;
+  }
+
   const form = document.getElementById('audit-form') as HTMLFormElement | null;
   const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement | null;
   const errorDiv = document.getElementById('form-error') as HTMLElement | null;

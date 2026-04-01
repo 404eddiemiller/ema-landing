@@ -51,54 +51,75 @@
 }
 
 /* === Dark mode overrides === */
+/* Dark values defined once as meta-properties, referenced by both
+   system preference and manual toggle selectors */
+
+:root {
+  --dark-cream: #1C1814;
+  --dark-sand: #262018;
+  --dark-charcoal: #EDE6DD;
+  --dark-stone: #A69C94;
+  --dark-terracotta: #D9907A;
+  --dark-terracotta-dark: #C4785B;
+  --dark-sage: #92A692;
+  --dark-sage-dark: #A5B8A5;
+  --dark-warmgray: #4A4038;
+  --dark-inv-cream: #F5F0EB;
+  --dark-inv-charcoal: #2C2825;
+  --dark-inv-stone: #6B6360;
+  --dark-inv-warmgray: #B5ADA6;
+  --dark-inv-terracotta: #C4785B;
+  --dark-inv-bg: #15120F;
+  --dark-inv-color: #E8E2DC;
+}
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --color-cream: #1C1814;
-    --color-sand: #262018;
-    --color-charcoal: #EDE6DD;
-    --color-stone: #A69C94;
-    --color-terracotta: #D9907A;
-    --color-terracotta-dark: #C4785B;
-    --color-sage: #92A692;
-    --color-sage-dark: #A5B8A5;
-    --color-warmgray: #4A4038;
+    --color-cream: var(--dark-cream);
+    --color-sand: var(--dark-sand);
+    --color-charcoal: var(--dark-charcoal);
+    --color-stone: var(--dark-stone);
+    --color-terracotta: var(--dark-terracotta);
+    --color-terracotta-dark: var(--dark-terracotta-dark);
+    --color-sage: var(--dark-sage);
+    --color-sage-dark: var(--dark-sage-dark);
+    --color-warmgray: var(--dark-warmgray);
   }
 }
 
 [data-theme="dark"] {
-  --color-cream: #1C1814;
-  --color-sand: #262018;
-  --color-charcoal: #EDE6DD;
-  --color-stone: #A69C94;
-  --color-terracotta: #D9907A;
-  --color-terracotta-dark: #C4785B;
-  --color-sage: #92A692;
-  --color-sage-dark: #A5B8A5;
-  --color-warmgray: #4A4038;
+  --color-cream: var(--dark-cream);
+  --color-sand: var(--dark-sand);
+  --color-charcoal: var(--dark-charcoal);
+  --color-stone: var(--dark-stone);
+  --color-terracotta: var(--dark-terracotta);
+  --color-terracotta-dark: var(--dark-terracotta-dark);
+  --color-sage: var(--dark-sage);
+  --color-sage-dark: var(--dark-sage-dark);
+  --color-warmgray: var(--dark-warmgray);
 }
 
 /* Inverted sections (dark bg in light mode) stay dark in dark mode */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .section-inverted {
-    --color-cream: #F5F0EB;
-    --color-charcoal: #2C2825;
-    --color-stone: #6B6360;
-    --color-warmgray: #B5ADA6;
-    --color-terracotta: #C4785B;
-    background-color: #15120F;
-    color: #E8E2DC;
+    --color-cream: var(--dark-inv-cream);
+    --color-charcoal: var(--dark-inv-charcoal);
+    --color-stone: var(--dark-inv-stone);
+    --color-warmgray: var(--dark-inv-warmgray);
+    --color-terracotta: var(--dark-inv-terracotta);
+    background-color: var(--dark-inv-bg);
+    color: var(--dark-inv-color);
   }
 }
 
 [data-theme="dark"] .section-inverted {
-  --color-cream: #F5F0EB;
-  --color-charcoal: #2C2825;
-  --color-stone: #6B6360;
-  --color-warmgray: #B5ADA6;
-  --color-terracotta: #C4785B;
-  background-color: #15120F;
-  color: #E8E2DC;
+  --color-cream: var(--dark-inv-cream);
+  --color-charcoal: var(--dark-inv-charcoal);
+  --color-stone: var(--dark-inv-stone);
+  --color-warmgray: var(--dark-inv-warmgray);
+  --color-terracotta: var(--dark-inv-terracotta);
+  background-color: var(--dark-inv-bg);
+  color: var(--dark-inv-color);
 }
 
 /* === Base styles === */
@@ -402,9 +423,14 @@ p, li, blockquote {
 
 /* === Animation utilities === */
 
-/* Easing */
+/* Shared design tokens */
 :root {
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --header-height: 73px;
+  --anim-duration-slow: 2s;
+  --anim-duration-normal: 1s;
+  --anim-duration-fast: 0.3s;
+  --separator-width: 48px;
 }
 
 /*
@@ -437,15 +463,7 @@ p, li, blockquote {
   transform: translateY(0);
 }
 
-/* Text reveal lines — just show them normally */
-.text-reveal-line {
-  overflow: visible;
-}
-.text-reveal-line > span {
-  display: inline-block;
-  transform: none;
-  transition: none;
-}
+/* (text-reveal-line removed — unused) */
 
 /* === Card hover — subtle border change only, no lift === */
 
@@ -461,7 +479,7 @@ p, li, blockquote {
 .draw-line {
   stroke-dasharray: var(--line-length, 200);
   stroke-dashoffset: var(--line-length, 200);
-  transition: stroke-dashoffset 2s var(--ease-out-expo);
+  transition: stroke-dashoffset var(--anim-duration-slow) var(--ease-out-expo);
 }
 .draw-line.visible {
   stroke-dashoffset: 0;
@@ -474,7 +492,7 @@ p, li, blockquote {
   transition: width 1.4s var(--ease-out-expo) 0.2s;
 }
 .separator-animate.visible {
-  width: 48px;
+  width: var(--separator-width);
 }
 
 /* === Animated underline hover (for links) === */
@@ -499,7 +517,7 @@ p, li, blockquote {
 /* === Score circle animation === */
 
 .score-circle {
-  transition: stroke-dashoffset 2s var(--ease-out-expo);
+  transition: stroke-dashoffset var(--anim-duration-slow) var(--ease-out-expo);
 }
 
 /* === Prefers reduced motion === */
