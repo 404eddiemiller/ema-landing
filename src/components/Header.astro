@@ -117,14 +117,21 @@ function getLangSwitchUrl(targetLocale: Locale): string {
         <a href={nav.about} class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
           {t('header.about', locale)}
         </a>
-        <a href={nav.faq} class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
-          {t('header.faq', locale)}
-        </a>
         <a href={nav.pricing} class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
           {t('header.pricing', locale)}
         </a>
+        <a href={nav.faq} class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
+          {t('header.faq', locale)}
+        </a>
         <a href={nav.blog} class="menu-link font-sans font-medium text-base md:text-lg text-stone tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
           {t('header.blog', locale)}
+        </a>
+        <div class="h-px bg-warmgray/30 my-2" aria-hidden="true"></div>
+        <a href={nav.legal} class="menu-link font-sans font-normal text-sm text-stone/70 tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
+          {t('footer.legal', locale)}
+        </a>
+        <a href={nav.terms} class="menu-link font-sans font-normal text-sm text-stone/70 tracking-wide transition-colors duration-200 hover:text-charcoal hover-underline">
+          {t('footer.terms', locale)}
         </a>
         <div class="h-px bg-warmgray/30 my-2" aria-hidden="true"></div>
         <a

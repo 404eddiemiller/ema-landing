@@ -17,9 +17,9 @@ const stats = [
     <h2 class="section-title text-cream mb-4 fade-up-slow">
       {t('problem.title', locale)}
     </h2>
-    <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-cream/70 mb-12 md:mb-16 fade-up">
-      {t('problem.subtitle', locale)}
-    </p>
+    <p class="text-center max-w-[55ch] mx-auto text-lg md:text-xl font-sans font-normal leading-relaxed text-cream/70 mb-12 md:mb-16 fade-up"
+      set:html={t('problem.subtitle', locale).replace('. ', '.<br />')}
+    />
 
     <!-- Stat cards -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">

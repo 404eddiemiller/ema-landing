@@ -25,7 +25,8 @@
     "secondary": "Vérifier si mon entreprise est visible →",
     "trust1": "Diagnostic en 24h",
     "trust2": "Sans engagement",
-    "trust3": "Aucune CB requise"
+    "trust3": "Aucune CB requise",
+    "trust4": "100 % gratuit"
   },
   "socialProof": {
     "label": "Vos clients cherchent ici. Vous, vous y êtes ?"
@@ -66,11 +67,11 @@
     "subtitle": "Ils cherchent moins sur Google. Ils demandent directement à ChatGPT.",
     "stat1Value": "28",
     "stat1Suffix": " M",
-    "stat1Text": "de Français utilisent une IA chaque mois pour trouver un restaurant, un médecin, un hôtel",
+    "stat1Text": "de Français utilisent une IA chaque mois pour trouver un restaurant, un médecin, un hôtel.",
     "stat1Source": "Médiamétrie, L'Année Internet 2025",
     "stat2Value": "45",
     "stat2Suffix": " %",
-    "stat2Text": "des consommateurs demandent déjà à une IA de leur recommander une entreprise locale, contre 6 % un an plus tôt",
+    "stat2Text": "des consommateurs demandent déjà à une IA de leur recommander où aller, contre 6 % un an plus tôt.",
     "stat2Source": "BrightLocal, Local Consumer Review Survey 2026",
     "stat3Value": "1.2",
     "stat3Suffix": " %",
@@ -208,7 +209,7 @@
     "errorSource": "Veuillez indiquer comment vous nous avez connu.",
     "submitButton": "Demander mon diagnostic gratuit",
     "submitting": "Envoi en cours…",
-    "trustSignals": "Diagnostic en 24h · Sans engagement · Aucune CB requise",
+    "trustSignals": "Diagnostic en 24h · Sans engagement · Aucune CB requise · 100 % gratuit",
     "phonePrefer": "Vous préférez en parler de vive voix ?",
     "fieldRequired": "Ce champ est requis",
     "emailInvalid": "Veuillez entrer une adresse email valide",
