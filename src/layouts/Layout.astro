@@ -16,6 +16,7 @@ interface Props {
   ogType?: string;
   ogImage?: string;
   skipFaqSchema?: boolean;
+  noindex?: boolean;
 }
 const {
   title,
@@ -26,6 +27,7 @@ const {
   ogType = 'website',
   ogImage = 'https://eddiemiller.agency/og-image.png',
   skipFaqSchema = false,
+  noindex = false,
 } = Astro.props;
 ---
 <!doctype html>
@@ -36,6 +38,7 @@ const {
     <meta name="theme-color" content="#F5F0EB" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#1C1814" media="(prefers-color-scheme: dark)" />
     <meta name="google-site-verification" content="40e5qXx2eUyxAmLgBGHqS-pSbohrWFWtwIgj2nrnkH0" />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     <!-- Dark mode anti-FOUC: apply saved theme before render -->
     <script is:inline>
@@ -97,6 +100,7 @@ const {
       "description": t('meta.ogDescription', locale),
       "url": "https://eddiemiller.agency",
       "email": "contact@eddiemiller.agency",
+      "telephone": "+33612754218",
       "logo": "https://eddiemiller.agency/favicon-192x192.png",
       "address": {
         "@type": "PostalAddress",
@@ -104,6 +108,11 @@ const {
         "postalCode": "75014",
         "addressLocality": "Paris",
         "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.84234,
+        "longitude": 2.32844
       },
       "areaServed": {
         "@type": "Place",
