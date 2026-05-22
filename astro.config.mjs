@@ -15,6 +15,14 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
+      filter: (page) =>
+        !page.match(
+          /\/(merci|merci-paiement|thank-you|gracias|danke|grazie|obrigado|bedankt)(\/|$)/,
+        ),
+      serialize: (item) => {
+        item.lastmod = new Date().toISOString();
+        return item;
+      },
       i18n: {
         defaultLocale: 'fr',
         locales: {
