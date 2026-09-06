@@ -23,7 +23,7 @@ internal_links:
     anchor: "ons onderzoek naar 50 tandartspraktijken"
 ---
 
-# 5 dingen die uw SEO-bureau u niet vertelt over AI en uw zichtbaarheid
+## 5 dingen die uw SEO-bureau u niet vertelt over AI en uw zichtbaarheid
 
 Dit artikel is niet bedoeld om SEO-bureaus af te kraken. SEO blijft fundamenteel. Maar als u een bureau betaalt voor uw vindbaarheid en niemand heeft u verteld over uw AI-zichtbaarheid, dan is er een blinde vlek in uw strategie — en die blinde vlek wordt elk kwartaal groter.
 
@@ -31,13 +31,13 @@ Dit artikel is niet bedoeld om SEO-bureaus af te kraken. SEO blijft fundamenteel
 
 Slechts 14% van de door AI's geciteerde URL's staat in de top 10 van Google. 86% van de AI-aanbevelingen komt van bronnen die NIET de eerste op Google zijn.
 
-In [ons onderzoek naar 50 Parijse tandartspraktijken](/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) hadden meerdere goed gepositioneerde praktijken in klassieke SEO een lage GEO-score. En omgekeerd.
+In [ons onderzoek naar 50 Parijse tandartspraktijken](/nl/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) hadden meerdere goed gepositioneerde praktijken in klassieke SEO een lage GEO-score. En omgekeerd.
 
 Stuurt uw SEO-bureau u een rapport over uw AI-vermeldingen?
 
 ## 2. Klassieke SEO-statistieken meten niet de helft van uw werkelijke zichtbaarheid
 
-Webverkeer, Google-posities, klikpercentage — dat is de helft van het verhaal. [Ongeveer 60% van de Google-zoekopdrachten](/blog/nul-klik-google-zoekopdrachten-oplossing-lokale-zaak) eindigt zonder klik. 45% van de consumenten gebruikt AI-assistenten voor lokale aanbevelingen. Wanneer een patiënt ChatGPT vraagt welke tandarts te kiezen en op Doctolib reserveert zonder uw website te bezoeken, ziet uw SEO-bureau niets.
+Webverkeer, Google-posities, klikpercentage — dat is de helft van het verhaal. [Ongeveer 60% van de Google-zoekopdrachten](/nl/blog/nul-klik-google-zoekopdrachten-oplossing-lokale-zaak) eindigt zonder klik. 45% van de consumenten gebruikt AI-assistenten voor lokale aanbevelingen. Wanneer een patiënt ChatGPT vraagt welke tandarts te kiezen en op Doctolib reserveert zonder uw website te bezoeken, ziet uw SEO-bureau niets.
 
 ## 3. Technische SEO is niet voldoende voor AI's
 
@@ -49,7 +49,7 @@ De inhoud die AI's het meest waarderen: gestructureerde FAQ's, gedetailleerde kl
 
 ## 5. GEO is geen SEO met een nieuwe naam — het is een aanvullende discipline
 
-[GEO (Generative Engine Optimization)](/blog/geo-optimalisatie-ai-2026) is niet simpelweg SEO toegepast op AI's. Het is een discipline met eigen regels, eigen statistieken en eigen hefbomen.
+[GEO (Generative Engine Optimization)](/nl/blog/geo-optimalisatie-ai-2026) is niet simpelweg SEO toegepast op AI's. Het is een discipline met eigen regels, eigen statistieken en eigen hefbomen.
 
 ## Wat u aan uw SEO-bureau zou moeten vragen
 

@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Come questo studio dentistico è passato da invisibile a raccomandato da ChatGPT in 60 giorni"
 slug: "caso-cliente-studio-dentistico-0-a-3-menzioni-ia-60-giorni"
 meta_title: "Caso concreto: uno studio dentistico parigino raccomandato da ChatGPT in 60 giorni — ecco come"
@@ -23,7 +24,7 @@ internal_links:
     anchor: "la nostra guida Schema.org"
 ---
 
-# Prima/Dopo: come questo studio dentistico è passato da 0 a 3 menzioni IA in 60 giorni
+## Prima/Dopo: come questo studio dentistico è passato da 0 a 3 menzioni IA in 60 giorni
 
 Quando questo studio dentistico del 14° arrondissement ci ha contattati, era totalmente invisibile su ChatGPT, Perplexity e Google AI Overview. Il suo punteggio GEO: 12 su 100. Sessanta giorni dopo, compariva in 3 risposte IA sulle 7 query testate, con un punteggio di 54/100.
 

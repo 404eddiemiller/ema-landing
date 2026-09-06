@@ -1,0 +1,101 @@
+---
+import { getAgency, sectorKeys, serviceRoutes } from '../data/agency';
+import { getLocaleFromPath, pageRoutes, navRoutes } from '../i18n';
+import AuditForm from './AuditForm.astro';
+const locale = getLocaleFromPath(Astro.url.pathname);
+const c = getAgency(locale);
+const nav = navRoutes[locale];
+const servicePaths = serviceRoutes[locale];
+const imageAlts = {
+  fr: ['Une terrasse parisienne, dans la lumière du matin', 'La réception chaleureuse d’un hôtel'],
+  en: ['A Parisian restaurant terrace in morning light', 'A welcoming hotel reception'],
+  es: ['Una terraza parisina con luz de la mañana', 'La cálida recepción de un hotel'],
+  de: ['Eine Pariser Restaurantterrasse im Morgenlicht', 'Ein einladender Hotelempfang'],
+  it: ['Una terrazza parigina nella luce del mattino', 'L’accogliente reception di un hotel'],
+  pt: ['Uma esplanada parisiense à luz da manhã', 'A receção acolhedora de um hotel'],
+  nl: ['Een Parijs restaurantterras in het ochtendlicht', 'Een uitnodigende hotelreceptie'],
+}[locale];
+---
+<section class="ema-hero ema-wrap" aria-labelledby="hero-title">
+  <div class="ema-hero-copy">
+    <p class="ema-eyebrow"><span class="ema-small-star" aria-hidden="true">✳</span> {c.eyebrow}</p>
+    <h1 id="hero-title">{c.hero[0]}<br />{c.hero[1]}<br /><em>{c.hero[2]}</em></h1>
+    <p class="ema-intro">{c.intro}</p>
+    <div class="ema-actions"><a class="ema-button" href="#diagnostic">{c.cta}<span aria-hidden="true">↗</span></a></div>
+    <a href="#expertises" class="ema-text-link ema-hero-secondary">{c.secondary} <span aria-hidden="true">↓</span></a>
+  </div>
+  <figure class="ema-hero-figure">
+    <div class="ema-photo-label"><span>EMA / PARIS</span><span>48°51′ N · 2°21′ E</span></div>
+    <picture>
+      <source srcset="/images/blog/chatgpt-recommandation-restaurant-paris.avif" type="image/avif" />
+      <img src="/images/blog/chatgpt-recommandation-restaurant-paris.webp" alt={imageAlts[0]} width="1200" height="630" fetchpriority="high" />
+    </picture>
+    <figcaption><span>{c.photo}</span><span class="ema-photo-mark" aria-hidden="true">em.</span></figcaption>
+  </figure>
+</section>
+<div class="ema-wrap ema-index" id="expertises">
+  {c.services.map((service, i) => <a href={['#visibilite', '#automatisation', '#sites'][i]}><span class="ema-index-number">0{i + 1}</span><span><small>{c.pillars[i]}</small>{service}</span><span aria-hidden="true">↗</span></a>)}
+</div>
+<section class="ema-dark ema-section" id="visibilite" aria-labelledby="visibility-title">
+  <div class="ema-wrap ema-two-col">
+    <div>
+      <p class="ema-eyebrow">01 / {c.services[0]}</p>
+      <h2 id="visibility-title">{c.visibility[0]}<br /><em>{c.visibility[1]}</em></h2>
+      <p class="ema-prose">{c.visibilityText}</p>
+      <a class="ema-text-link" href={servicePaths[0]}>{c.visibilityLink} <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="ema-source-panel">
+      <div class="ema-panel-heading"><span class="ema-small-star" aria-hidden="true">✳</span><p>{c.sourceLabel}</p><span>01—03</span></div>
+      {c.sources.map((source, i) => <div class="ema-source-row"><span class="ema-source-number">0{i + 1}</span><div><h3>{source[0]}</h3><p>{source[1]}</p></div><span aria-hidden="true">↗</span></div>)}
+      <p class="ema-source-note">{c.measured}</p>
+      <div class="ema-platforms" aria-label={c.services[0]}><span>ChatGPT</span><span>Gemini</span><span>Perplexity</span><span>Google Maps</span></div>
+    </div>
+  </div>
+</section>
+<section class="ema-section ema-wrap" id="automatisation" aria-labelledby="automation-title">
+  <div class="ema-section-heading"><p class="ema-eyebrow">02 / {c.services[1]}</p><span class="ema-section-note">{c.local}</span></div>
+  <div class="ema-two-col ema-auto-heading"><h2 id="automation-title">{c.auto[0]}<br /><em>{c.auto[1]}</em></h2><div><p class="ema-prose">{c.autoText}</p><a class="ema-text-link" href={servicePaths[1]}>{c.autoLink} <span aria-hidden="true">↗</span></a></div></div>
+  <div class="ema-demo" data-demo>
+    <div class="ema-demo-bar"><div class="ema-tabs" role="tablist" aria-label={c.services[1]}>{c.tabs.map((label, i) => <button type="button" id={`flow-tab-${i}`} role="tab" aria-selected={i === 0 ? 'true' : 'false'} aria-controls={`flow-panel-${i}`} tabindex={i === 0 ? 0 : -1} data-flow={i}>{label}</button>)}</div><span class="ema-demo-caption">{c.example}</span></div>
+    {c.flows.map((flow, i) => <div id={`flow-panel-${i}`} role="tabpanel" aria-labelledby={`flow-tab-${i}`} hidden={i !== 0} tabindex="0">
+      <ol class="ema-flow"><li><span>01</span><h3>{flow.trigger}</h3></li><li><span>02</span><h3>{flow.action}</h3></li><li><span>03</span><h3>{flow.output}</h3></li></ol>
+      <div class="ema-flow-detail"><p>{flow.detail}</p><p>{flow.note}</p></div>
+    </div>)}
+  </div>
+  <div class="ema-hermes"><span class="ema-small-star" aria-hidden="true">✳</span><h3>{c.hermes}</h3><p>{c.hermesText}</p></div>
+</section>
+<section class="ema-sand ema-section" id="sites" aria-labelledby="web-title"><div class="ema-wrap ema-two-col ema-web-section">
+  <figure class="ema-web-figure"><picture><source srcset="/images/blog/google-ai-overview-hotel-paris.avif" type="image/avif" /><img src="/images/blog/google-ai-overview-hotel-paris.webp" alt={imageAlts[1]} width="1200" height="630" loading="lazy" /></picture><figcaption><span>{c.webCaption}</span><span aria-hidden="true">↗</span></figcaption></figure>
+  <div><p class="ema-eyebrow">03 / {c.services[2]}</p><h2 id="web-title">{c.web[0]}<br /><em>{c.web[1]}</em></h2><p class="ema-prose">{c.webText}</p><a class="ema-text-link" href={servicePaths[2]}>{c.webLink} <span aria-hidden="true">↗</span></a></div>
+</div></section>
+<section class="ema-section ema-wrap" id="metiers" aria-labelledby="sectors-title">
+  <p class="ema-eyebrow">{c.nav[1]} / {c.local}</p>
+  <div class="ema-section-heading"><h2 id="sectors-title">{c.sectorsTitle}<br /><em>{c.sectorsIntro}</em></h2><p class="ema-prose ema-narrow">{c.serviceIntro}</p></div>
+  <div class="ema-sectors">{c.sectors.map((sector, i) => <a href={pageRoutes[sectorKeys[i]]?.[locale] ?? '/#diagnostic'}><span class="ema-sector-number">0{i + 1}</span><span>{sector}</span><span aria-hidden="true">↗</span></a>)}</div>
+  <a class="ema-text-link ema-other" href="#diagnostic">{c.other} <span aria-hidden="true">↗</span></a>
+</section>
+<section class="ema-sand ema-section" id="methode" aria-labelledby="method-title"><div class="ema-wrap">
+  <p class="ema-eyebrow">{c.nav[2]}</p><h2 id="method-title">{c.methodTitle[0]}<br /><em>{c.methodTitle[1]}</em></h2>
+  <div class="ema-steps">{c.steps.map((step, i) => <article><span class="ema-step-number">0{i + 1}</span><h3>{step[0]}</h3><p>{step[1]}</p></article>)}</div>
+</div></section>
+<section class="ema-section ema-wrap ema-faq-section" id="faq" aria-labelledby="faq-title"><div><p class="ema-eyebrow">FAQ</p><h2 id="faq-title">{c.faqTitle}</h2></div><div class="ema-faqs">{c.faqs.map(faq => <details><summary>{faq[0]}<span aria-hidden="true">+</span></summary><p>{faq[1]}</p></details>)}</div></section>
+<AuditForm />
+<script>
+  document.querySelectorAll<HTMLElement>('[data-demo]').forEach(demo => {
+    const tabs = [...demo.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+    function select(index: number, focus = false) {
+      tabs.forEach((tab, i) => {
+        tab.setAttribute('aria-selected', String(i === index)); tab.tabIndex = i === index ? 0 : -1;
+        const panel = document.getElementById(tab.getAttribute('aria-controls')!); if (panel) panel.hidden = i !== index;
+      });
+      if (focus) tabs[index].focus();
+    }
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => select(index));
+      tab.addEventListener('keydown', e => {
+        const targets: Record<string, number> = { ArrowRight: (index + 1) % tabs.length, ArrowLeft: (index + tabs.length - 1) % tabs.length, Home: 0, End: tabs.length - 1 };
+        if (e.key in targets) { e.preventDefault(); select(targets[e.key], true); }
+      });
+    });
+  });
+</script>

@@ -21,7 +21,7 @@ internal_links:
     anchor: "perché il vostro studio è invisibile su ChatGPT"
 ---
 
-# Le recensioni Google del vostro studio dentistico: come trasformarle in una macchina per pazienti
+## Le recensioni Google del vostro studio dentistico: come trasformarle in una macchina per pazienti
 
 Le vostre recensioni Google non sono più semplicemente un fattore di reputazione. Nel 2026, svolgono tre funzioni simultanee: determinano la vostra posizione nel Map Pack di Google, influenzano la decisione del paziente di scegliervi o meno, e — è il cambiamento più recente — alimentano direttamente le raccomandazioni degli assistenti IA.
 

@@ -14,7 +14,7 @@ image: "/images/blog/geo-referencement-ia-2026.webp"
 imageAlt: "Gevel van een lokale zaak met warm licht, gezien vanaf de straat"
 ---
 
-# GEO: de vindbaarheid die Google u niet uitlegt (en die alles verandert in 2026)
+## GEO: de vindbaarheid die Google u niet uitlegt (en die alles verandert in 2026)
 
 U bent nummer één op Google. Uw beoordelingen zijn uitstekend. Uw Google Business-vermelding is compleet. En toch, wanneer een patiënt, een klant of een toerist aan ChatGPT vraagt « wat is de beste tandarts in Parijs 15e? » of « een goed Italiaans restaurant in de Marais? », verschijnt uw zaak nergens.
 

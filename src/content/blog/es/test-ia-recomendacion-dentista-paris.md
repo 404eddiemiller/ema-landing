@@ -21,7 +21,7 @@ internal_links:
     anchor: "nuestro estudio sobre 50 clinicas parisinas"
 ---
 
-# Cuando un paciente le pregunta a la IA "que dentista elegir", que responde?
+## Cuando un paciente le pregunta a la IA "que dentista elegir", que responde?
 
 Hicimos exactamente la misma pregunta a tres plataformas de IA — ChatGPT, Perplexity y Google AI Overview — y documentamos cada respuesta.
 

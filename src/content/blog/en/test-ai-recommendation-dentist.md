@@ -21,7 +21,7 @@ internal_links:
     anchor: "our study of 50 practices in Paris"
 ---
 
-# When a Patient Asks AI "Which Dentist Should I Choose," What Does It Answer?
+## When a Patient Asks AI "Which Dentist Should I Choose," What Does It Answer?
 
 We asked exactly the same question to three AI platforms — ChatGPT, Perplexity, and Google AI Overview — and documented every response.
 

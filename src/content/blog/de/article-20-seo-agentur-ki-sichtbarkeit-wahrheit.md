@@ -23,7 +23,7 @@ internal_links:
     anchor: "unsere Studie über 50 Zahnarztpraxen"
 ---
 
-# 5 Dinge, die Ihre SEO-Agentur Ihnen nicht über KI und Ihre Sichtbarkeit sagt
+## 5 Dinge, die Ihre SEO-Agentur Ihnen nicht über KI und Ihre Sichtbarkeit sagt
 
 Dieser Artikel zielt nicht darauf ab, SEO-Agenturen schlecht zu machen. SEO bleibt fundamental. Aber wenn Sie eine Agentur für Ihre Suchmaschinenoptimierung bezahlen und niemand Ihnen von Ihrer KI-Sichtbarkeit erzählt hat, gibt es einen blinden Fleck in Ihrer Strategie — und dieser blinde Fleck wächst jedes Quartal.
 
@@ -31,11 +31,11 @@ Dieser Artikel zielt nicht darauf ab, SEO-Agenturen schlecht zu machen. SEO blei
 
 Die kontraintuitivste Wahrheit. Daten zeigen, dass nur 14 % der von KI-Systemen zitierten URLs in den Top 10 von Google für dieselbe Anfrage auftauchen. 86 % der KI-Empfehlungen kommen von Quellen, die NICHT die Erstplatzierten auf Google sind.
 
-In [unserer Studie über 50 Pariser Zahnarztpraxen](/blog/studie-ki-sichtbarkeit-50-zahnarztpraxen-paris) hatten mehrere gut im klassischen SEO positionierte Praxen einen niedrigen GEO-Score. Warum? Weil Google Webseiten einordnet. KI-Systeme Informationen aus multiplen Quellen zusammenfassen.
+In [unserer Studie über 50 Pariser Zahnarztpraxen](/de/blog/studie-ki-sichtbarkeit-50-zahnarztpraxen-paris) hatten mehrere gut im klassischen SEO positionierte Praxen einen niedrigen GEO-Score. Warum? Weil Google Webseiten einordnet. KI-Systeme Informationen aus multiplen Quellen zusammenfassen.
 
 ## 2. Klassische SEO-Kennzahlen messen nur die Hälfte Ihrer realen Sichtbarkeit
 
-Web-Traffic, Google-Positionen, Klickrate — das sind die Kennzahlen, die Ihre SEO-Agentur verfolgt. Aber 2026 erzählen sie nur die halbe Geschichte. [Etwa 60 % der Google-Suchen](/blog/null-klick-google-suchen-loesung-lokales-geschaeft) enden ohne Klick. 45 % der Verbraucher nutzen KI-Assistenten für lokale Empfehlungen. Wenn ein Patient ChatGPT fragt und über Doctolib bucht, ohne Ihre Webseite zu besuchen, sieht Ihre SEO-Agentur nichts.
+Web-Traffic, Google-Positionen, Klickrate — das sind die Kennzahlen, die Ihre SEO-Agentur verfolgt. Aber 2026 erzählen sie nur die halbe Geschichte. [Etwa 60 % der Google-Suchen](/de/blog/null-klick-google-suchen-loesung-lokales-geschaeft) enden ohne Klick. 45 % der Verbraucher nutzen KI-Assistenten für lokale Empfehlungen. Wenn ein Patient ChatGPT fragt und über Doctolib bucht, ohne Ihre Webseite zu besuchen, sieht Ihre SEO-Agentur nichts.
 
 ## 3. Technisches SEO reicht nicht für KI-Systeme
 
@@ -47,7 +47,7 @@ Die Inhalte, die KI-Systeme am meisten wertschätzen: strukturierte FAQs, detail
 
 ## 5. GEO ist nicht SEO mit neuem Namen — es ist eine ergänzende Disziplin
 
-[GEO (Generative Engine Optimization)](/blog/geo-optimierung-ki-2026) ist nicht einfach SEO für KI. Es ist eine Disziplin mit eigenen Regeln, eigenen Kennzahlen und eigenen Hebeln. SEO optimiert Ihre Webseite für ein Ranking in einer Ergebnisliste. GEO optimiert Ihre gesamte digitale Präsenz, um in einer konversationellen Antwort zitiert zu werden.
+[GEO (Generative Engine Optimization)](/de/blog/geo-optimierung-ki-2026) ist nicht einfach SEO für KI. Es ist eine Disziplin mit eigenen Regeln, eigenen Kennzahlen und eigenen Hebeln. SEO optimiert Ihre Webseite für ein Ranking in einer Ergebnisliste. GEO optimiert Ihre gesamte digitale Präsenz, um in einer konversationellen Antwort zitiert zu werden.
 
 ## Was Sie Ihre SEO-Agentur fragen sollten
 

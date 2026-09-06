@@ -1,36 +1,21 @@
 # Eddie Miller Agency
 
-> Agence spécialisée en visibilité locale sur Google Maps et les assistants IA (ChatGPT, Gemini, Perplexity) pour les entreprises locales à Paris : restaurants, hôtels, cabinets dentaires, avocats, coiffeurs, spas, salles de sport, bars.
-
-## Ce qu'on fait
-On aide les entreprises avec une adresse physique à être trouvées par leurs futurs clients — sur Google Maps et dans les recommandations des assistants IA.
+Agence à Paris pour la visibilité dans les assistants IA et Google Maps, l’automatisation des tâches et la création de sites web.
 
 ## Services
-- Diagnostic de visibilité gratuit : score sur 100 en 24h, 3 actions prioritaires, appel de 15 min
-- Optimisation Google Business Profile et Google Maps
-- Visibilité sur les moteurs IA (ChatGPT, Gemini, Perplexity, Google AI Overview)
-- Suivi mensuel de visibilité avec rapports de progression
+- Visibilité IA et Google Maps : https://eddiemiller.agency/visibilite-ia
+- Automatisation avec l’IA, dont Hermes Agent si adapté : https://eddiemiller.agency/automatisation-ia
+- Création ou amélioration de sites web : https://eddiemiller.agency/creation-sites-web
+- Offres et périmètres, sur devis : https://eddiemiller.agency/formules
 
-## Formules
-- Diagnostic : gratuit, score de visibilité + rapport + appel
-- Essentiel : fiche Google optimisée + présence sur les sources IA
-- Complet : optimisation 15 points + annuaires + stratégie d'avis
-- Premium : accompagnement 3 mois + suivi mensuel + ajustements continus
+Premier échange gratuit de 15 minutes. Aucune garantie de recommandation IA, de position ou de chiffre d’affaires. Les usages sensibles de l’automatisation restent soumis à validation. L’aide administrative prépare les pièces pour le comptable ; elle ne remplace pas sa mission.
 
-## Verticales servies
-- Cabinets dentaires : https://eddiemiller.agency/dentistes
-- Restaurants : https://eddiemiller.agency/restaurants
-- Hôtels : https://eddiemiller.agency/hotels
-- Cabinets d'avocats : https://eddiemiller.agency/avocats
-- Coiffure & esthétique : https://eddiemiller.agency/coiffure
-- Bien-être & spa : https://eddiemiller.agency/spa
-- Salles de sport : https://eddiemiller.agency/sport
-- Bars & lieux de soirée : https://eddiemiller.agency/bars
-
-## Blog
-20 articles sur la visibilité locale et l'optimisation IA : https://eddiemiller.agency/blog
+## Secteurs
+Restaurants, hôtels, bars, coiffure, spas, sport, cabinets dentaires, cabinets médicaux et cabinets d’avocats. Prestations adaptées au métier et aux outils compatibles.
 
 ## Contact
-- Site : https://eddiemiller.agency
-- Email : contact@eddiemiller.agency
-- Adresse : 41 Rue du Montparnasse, 75014 Paris
+- https://eddiemiller.agency/#diagnostic
+- contact@eddiemiller.agency
+- Paris et Île-de-France
+
+Ce fichier résume les pages publiques. Il ne constitue pas une configuration obligatoire pour être cité par une IA.

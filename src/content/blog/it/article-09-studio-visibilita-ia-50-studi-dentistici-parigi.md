@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Abbiamo chiesto alle IA di raccomandare 50 dentisti parigini — quasi nessuno è comparso"
 slug: "studio-visibilita-ia-50-studi-dentistici-parigi"
 meta_title: "50 dentisti a Parigi testati su ChatGPT e Perplexity: quasi nessuno è raccomandato"
@@ -21,7 +22,7 @@ internal_links:
     anchor: "guida completa Google Business Profile per dentisti"
 ---
 
-# Studio: abbiamo testato la visibilità IA di 50 studi dentistici parigini — i risultati
+## Studio: abbiamo testato la visibilità IA di 50 studi dentistici parigini — i risultati
 
 A marzo 2026, Eddie Miller Agency ha realizzato un audit sistematico della visibilità IA di 50 studi dentistici distribuiti in 12 arrondissement di Parigi. L'obiettivo: misurare concretamente a che punto i dentisti parigini sono (o non sono) raccomandati dagli assistenti IA quando un paziente pone una domanda.
 

@@ -23,7 +23,7 @@ internal_links:
     anchor: "unser Leitfaden zu Google-Bewertungen"
 ---
 
-# Doctolib, Google, PagesJaunes: Woher kommen die Zahnarzt-Empfehlungen der KI?
+## Doctolib, Google, PagesJaunes: Woher kommen die Zahnarzt-Empfehlungen der KI?
 
 Die Quellen zu verstehen heißt das Spiel zu verstehen. Wenn Sie genau wissen, woher KI-Empfehlungen kommen, wissen Sie genau, wo Sie Ihre Bemühungen konzentrieren müssen.
 

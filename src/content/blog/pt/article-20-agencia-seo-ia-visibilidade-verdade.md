@@ -23,7 +23,7 @@ internal_links:
     anchor: "o nosso estudo sobre 50 consultórios dentários"
 ---
 
-# 5 coisas que a sua agência SEO não lhe diz sobre a IA e a sua visibilidade
+## 5 coisas que a sua agência SEO não lhe diz sobre a IA e a sua visibilidade
 
 Este artigo não visa denegrir as agências SEO. O SEO continua fundamental. Mas se paga uma agência pelo seu referenciamento e ninguém lhe falou da sua visibilidade IA, há um ângulo morto na sua estratégia — e este ângulo morto aumenta a cada trimestre.
 

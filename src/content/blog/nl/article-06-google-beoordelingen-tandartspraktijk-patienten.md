@@ -21,7 +21,7 @@ internal_links:
     anchor: "waarom uw praktijk onzichtbaar is op ChatGPT"
 ---
 
-# De Google-beoordelingen van uw tandartspraktijk: hoe u ze omzet in een patiëntenmachine
+## De Google-beoordelingen van uw tandartspraktijk: hoe u ze omzet in een patiëntenmachine
 
 Uw Google-beoordelingen zijn niet meer simpelweg een reputatiefactor. In 2026 vervullen ze drie gelijktijdige functies: ze bepalen uw positie in het Map Pack van Google, ze beïnvloeden de beslissing van de patiënt om voor u te kiezen of niet, en — dit is de meest recente verandering — ze voeden direct de aanbevelingen van AI-assistenten.
 
@@ -35,7 +35,7 @@ De gegevens zijn ondubbelzinnig. 75% van de consumenten leest systematisch onlin
 
 Voor de lokale ranking is de impact direct. De praktijken in de eerste drie posities van het Map Pack hebben gemiddeld meer dan 500 beoordelingen met een score van 4,8 sterren. Elke schijf van 10 nieuwe beoordelingen verhoogt het conversiepercentage (oproepen, routeverzoeken, klikken naar de website) met ongeveer 2,8%. En op minimaal een kwart van uw beoordelingen reageren verbetert dit conversiepercentage met nog eens 4,1%.
 
-Maar wat de situatie fundamenteel verandert in 2026 is het verband tussen beoordelingen en AI-zichtbaarheid. Google vat nu automatisch de inhoud van uw beoordelingen samen in blurbs die direct op uw vermelding zichtbaar zijn. AI's analyseren de tekst van uw beoordelingen om uw specialisaties, uw reputatie en de waargenomen kwaliteit van uw zorg te begrijpen. In [ons onderzoek naar 50 Parijse tandartspraktijken](/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) zijn beoordelingen de factor met de sterkste correlatie met de AI-zichtbaarheidsscore.
+Maar wat de situatie fundamenteel verandert in 2026 is het verband tussen beoordelingen en AI-zichtbaarheid. Google vat nu automatisch de inhoud van uw beoordelingen samen in blurbs die direct op uw vermelding zichtbaar zijn. AI's analyseren de tekst van uw beoordelingen om uw specialisaties, uw reputatie en de waargenomen kwaliteit van uw zorg te begrijpen. In [ons onderzoek naar 50 Parijse tandartspraktijken](/nl/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) zijn beoordelingen de factor met de sterkste correlatie met de AI-zichtbaarheidsscore.
 
 ## De beoordeling die telt vs de beoordeling die niets oplevert
 
@@ -152,7 +152,7 @@ Om uw beoordelingen om te zetten in een echte patiëntenmachine, volg deze indic
 
 **Week 4 — Routinisering.** Het verzamelen van beoordelingen wordt een permanent proces geïntegreerd in de werkstroom van de praktijk. Elke week: nieuwe beoordelingen controleren, binnen 48 uur reageren, het maandelijkse volume tellen.
 
-Na 90 dagen met dit proces op zijn plaats zou u een meetbare verbetering moeten waarnemen in uw positie in het Map Pack, het aantal afspraakverzoeken vanuit Google, en — als u combineert met de andere acties uit onze [GBP-gids](/blog/google-business-profile-gids-tandarts-parijs) — uw AI-zichtbaarheid.
+Na 90 dagen met dit proces op zijn plaats zou u een meetbare verbetering moeten waarnemen in uw positie in het Map Pack, het aantal afspraakverzoeken vanuit Google, en — als u combineert met de andere acties uit onze [GBP-gids](/nl/blog/google-business-profile-gids-tandarts-parijs) — uw AI-zichtbaarheid.
 
 ---
 

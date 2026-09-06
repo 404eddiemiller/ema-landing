@@ -21,7 +21,7 @@ internal_links:
     anchor: "il nostro studio su 50 studi dentistici"
 ---
 
-# Schema.org per principianti: come rendere il vostro sito leggibile dalle IA (senza programmare)
+## Schema.org per principianti: come rendere il vostro sito leggibile dalle IA (senza programmare)
 
 Il vostro sito web parla agli esseri umani. Ma parla alle macchine?
 

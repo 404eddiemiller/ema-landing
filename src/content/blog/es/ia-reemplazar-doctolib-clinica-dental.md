@@ -21,7 +21,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# La IA va a reemplazar a Doctolib? Lo que eso cambia para tu clinica
+## La IA va a reemplazar a Doctolib? Lo que eso cambia para tu clinica
 
 El titulo es voluntariamente provocador. La respuesta corta es no — la IA no va a reemplazar a Doctolib. Doctolib es una herramienta de reserva. La IA es una herramienta de recomendacion. No son competidores, son dos eslabones de una misma cadena.
 

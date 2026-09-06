@@ -21,7 +21,7 @@ internal_links:
     anchor: "ons onderzoek naar 50 tandartspraktijken"
 ---
 
-# Schema.org voor beginners: hoe u uw website leesbaar maakt voor AI's (zonder te coderen)
+## Schema.org voor beginners: hoe u uw website leesbaar maakt voor AI's (zonder te coderen)
 
 Uw website spreekt tegen mensen. Maar spreekt hij ook tegen machines?
 
@@ -49,7 +49,7 @@ In 2026 is de situatie veranderd. De twee grootste zoekmachines ter wereld — G
 
 De cijfers spreken voor zich. Websites met een volledige Schema.org-implementatie worden 2 tot 3 keer vaker geciteerd door AI-zoekmachines. Websites met Schema en gestructureerde FAQ zien hun AI-zichtbaarheid met ongeveer 36% toenemen. En de adoptie van Schema.org is met 35% gestegen tussen 2023 en 2026.
 
-Desondanks heeft de overgrote meerderheid van websites van lokale zaken, medische praktijken en restaurants nog steeds geen gestructureerde gegevens. In [ons onderzoek naar 50 Parijse tandartspraktijken](/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) had slechts 12% Schema.org — en zij zaten allemaal in de groep van de meest zichtbare praktijken op AI's.
+Desondanks heeft de overgrote meerderheid van websites van lokale zaken, medische praktijken en restaurants nog steeds geen gestructureerde gegevens. In [ons onderzoek naar 50 Parijse tandartspraktijken](/nl/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) had slechts 12% Schema.org — en zij zaten allemaal in de groep van de meest zichtbare praktijken op AI's.
 
 ## De soorten Schema die tellen voor uw zaak
 

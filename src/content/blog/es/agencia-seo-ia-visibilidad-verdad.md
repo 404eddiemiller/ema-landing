@@ -23,7 +23,7 @@ internal_links:
     anchor: "nuestro estudio sobre 50 clinicas dentales"
 ---
 
-# 5 cosas que tu agencia SEO no te dice sobre la IA y tu visibilidad
+## 5 cosas que tu agencia SEO no te dice sobre la IA y tu visibilidad
 
 Este articulo no pretende denigrar a las agencias SEO. El SEO sigue siendo fundamental. Pero si pagas a una agencia por tu posicionamiento y nadie te ha hablado de tu visibilidad IA, hay un angulo muerto en tu estrategia — y ese angulo muerto se agranda cada trimestre.
 

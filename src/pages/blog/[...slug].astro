@@ -1,21 +1,26 @@
 ---
+import archiveCopy from '../../data/archive-copy.json';
 // Blog article page — Dynamic route for individual blog posts
 import { getCollection, render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
+import AgencyArticleCta from '../../components/AgencyArticleCta.astro';
 import Footer from '../../components/Footer.astro';
-import { getDisplayDate } from '../../utils/blog-dates';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('blog')).filter((post) => post.data.lang === 'fr');
   const sorted = [...posts].sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
   return sorted.map((post, i) => ({
     params: { slug: post.data.slug },
-    props: { post, displayDate: getDisplayDate(i, sorted.length) },
+    props: { post, displayDate: new Date(post.data.date) },
   }));
 }
 
 const { post, displayDate } = Astro.props;
+const pendingEvidence = post.data.evidenceStatus === 'needs-review';
+const archiveText = archiveCopy['fr'];
+const articleTitle = pendingEvidence ? archiveText[0] : post.data.title;
+const articleDescription = pendingEvidence ? archiveText[1] : post.data.meta_description;
 const { Content } = await render(post);
 const canonicalUrl = `https://eddiemiller.agency/blog/${post.data.slug}`;
 const wordCount = post.body ? post.body.replace(/[#*\[\]()>_`~\-|]/g, '').split(/\s+/).filter(Boolean).length : 0;
@@ -34,18 +39,19 @@ const formattedDate = displayDate.toLocaleDateString('fr-FR', {
 const allPosts = await getCollection('blog');
 const relatedSlugs = (post.data.internal_links || []).map((link: { slug: string; anchor: string }) => link.slug);
 const relatedPosts = allPosts
-  .filter((p) => p.data.lang === 'fr' && relatedSlugs.includes(p.data.slug))
+  .filter((p) => p.data.evidenceStatus !== 'needs-review' && p.data.lang === 'fr' && relatedSlugs.includes(p.data.slug))
   .slice(0, 3);
 ---
 <Layout
-  title={post.data.meta_title}
-  description={post.data.meta_description}
+  title={pendingEvidence ? archiveText[0] : post.data.meta_title}
+  description={articleDescription}
   canonicalUrl={canonicalUrl}
-  ogTitle={post.data.meta_title}
-  ogDescription={post.data.meta_description}
+  ogTitle={pendingEvidence ? archiveText[0] : post.data.meta_title}
+  ogDescription={articleDescription}
   ogType="article"
   ogImage={articleImage}
   skipFaqSchema={true}
+  noindex={pendingEvidence}
 >
   <Header />
 
@@ -53,8 +59,8 @@ const relatedPosts = allPosts
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": post.data.title,
-    "description": post.data.meta_description,
+    "headline": articleTitle,
+    "description": articleDescription,
     "datePublished": post.data.date.toISOString().split('T')[0],
     "dateModified": post.data.date.toISOString().split('T')[0],
     "author": {
@@ -90,11 +96,11 @@ const relatedPosts = allPosts
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://eddiemiller.agency" },
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://eddiemiller.agency/blog" },
-      { "@type": "ListItem", "position": 3, "name": post.data.title, "item": canonicalUrl }
+      { "@type": "ListItem", "position": 3, "name": articleTitle, "item": canonicalUrl }
     ]
   })} />
 
-  <article class="pt-28 md:pt-32 pb-16 md:pb-24">
+  <article id="main-content" class="pt-28 md:pt-32 pb-16 md:pb-24">
     <div class="max-w-[720px] mx-auto px-6 md:px-8">
 
       <!-- Article header -->
@@ -109,7 +115,7 @@ const relatedPosts = allPosts
               <a href="/blog" class="font-medium tracking-wide transition-colors duration-200 hover:text-terracotta">Blog</a>
             </li>
             <li aria-hidden="true" class="text-warmgray">/</li>
-            <li class="text-warmgray truncate max-w-[200px] md:max-w-none" aria-current="page">{post.data.title}</li>
+            <li class="text-warmgray truncate max-w-[200px] md:max-w-none" aria-current="page">{articleTitle}</li>
           </ol>
         </nav>
 
@@ -122,7 +128,7 @@ const relatedPosts = allPosts
         </div>
 
         <h1 class="font-serif text-3xl md:text-[2.75rem] lg:text-5xl text-charcoal leading-[1.15] tracking-tight">
-          {post.data.title}
+          {articleTitle}
         </h1>
       </div>
 
@@ -148,46 +154,10 @@ const relatedPosts = allPosts
 
       <!-- Article content -->
       <div class="prose">
-        <Content />
+        {pendingEvidence ? <p>{archiveText[1]}</p> : <>{post.data.evidenceStatus !== 'verified' && <p class="ema-archive-note">{archiveText[2]}</p>}<Content /></>}
       </div>
 
-      <!-- Inline CTA -->
-      <div class="my-10 md:my-14 py-6 border-t border-b border-warmgray/30">
-        <p class="font-sans text-base md:text-lg text-stone leading-relaxed mb-4">
-          Vous voulez savoir si votre entreprise est visible sur les IA&nbsp;?
-        </p>
-        <a
-          href="/#diagnostic"
-          class="inline-block px-6 py-3 font-sans font-medium text-sm text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
-          data-track="blog-inline"
-        >
-          Demander mon diagnostic gratuit
-        </a>
-      </div>
-
-      <!-- CTA Section -->
-      <aside class="mt-14 md:mt-20 py-10 md:py-12 px-6 md:px-10 bg-sand border border-warmgray/30" role="complementary">
-        <p class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-3">
-          Vos futurs clients vous trouvent-ils en ligne ?
-        </p>
-        <p class="font-sans text-stone text-base leading-relaxed mb-6">
-          Diagnostic gratuit en 24h : on vérifie si vos futurs clients vous trouvent sur Google et sur les IA, et on vous donne vos actions prioritaires.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-3">
-          <a
-            href="/#diagnostic"
-            class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
-          >
-            Demander mon diagnostic gratuit
-          </a>
-          <a
-            href="/formules"
-            class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-charcoal border border-warmgray tracking-wider uppercase transition-colors duration-300 hover:border-terracotta hover:text-terracotta"
-          >
-            Voir nos formules
-          </a>
-        </div>
-      </aside>
+      <AgencyArticleCta />
 
       <!-- Tags -->
       {post.data.tags && post.data.tags.length > 0 && (

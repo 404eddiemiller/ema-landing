@@ -21,7 +21,7 @@ internal_links:
     anchor: "los datos estructurados Schema.org"
 ---
 
-# Google AI Overview: tu hotel aparece en las nuevas respuestas de Google?
+## Google AI Overview: tu hotel aparece en las nuevas respuestas de Google?
 
 Cuando un viajero busca "hotel con encanto Marais Paris" en Google, ya no ve solo una lista de resultados y publicidades de Booking. Desde el despliegue de los AI Overviews, Google puede ahora mostrar una sintesis generada por IA por encima de todos los resultados — una respuesta conversacional que recomienda hoteles, compara precios y resume las resenas.
 

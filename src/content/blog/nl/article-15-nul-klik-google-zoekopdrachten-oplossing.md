@@ -21,7 +21,7 @@ internal_links:
     anchor: "onze vergelijking van AI-platformen"
 ---
 
-# Nul klik: waarom 60% van de Google-zoekopdrachten niet meer naar uw website leidt (en wat te doen)
+## Nul klik: waarom 60% van de Google-zoekopdrachten niet meer naar uw website leidt (en wat te doen)
 
 U heeft geïnvesteerd in een mooie website. U heeft aan uw vindbaarheid gewerkt. U verschijnt misschien zelfs op de eerste pagina van Google. En toch stagneert uw verkeer — of daalt.
 
@@ -47,7 +47,7 @@ In een nul-klik-wereld zijn beoordelingen uw meest zichtbare marketinginhoud. Ze
 
 ### Positioneer uzelf voor AI-aanbevelingen
 
-[GEO (Generative Engine Optimization)](/blog/geo-optimalisatie-ai-2026) is het structurele antwoord op nul klik. Als klanten niet meer klikken maar vragen stellen aan AI's, dan is aanbevolen worden door deze AI's het nieuwe "nummer één zijn op Google".
+[GEO (Generative Engine Optimization)](/nl/blog/geo-optimalisatie-ai-2026) is het structurele antwoord op nul klik. Als klanten niet meer klikken maar vragen stellen aan AI's, dan is aanbevolen worden door deze AI's het nieuwe "nummer één zijn op Google".
 
 ## De paradox van nul klik: minder verkeer, meer klanten
 

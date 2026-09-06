@@ -3,14 +3,14 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import Header from '../../../components/Header.astro';
+import AgencyArticleCta from '../../../components/AgencyArticleCta.astro';
 import Footer from '../../../components/Footer.astro';
-import { getDisplayDate } from '../../../utils/blog-dates';
 
 const allPosts = (await getCollection('blog'))
-  .filter((post) => !post.data.draft && post.data.lang === 'de')
+  .filter((post) => !post.data.draft && post.data.evidenceStatus !== 'needs-review' && post.data.lang === 'de')
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
-const posts = allPosts.map((post, i) => ({ ...post, displayDate: getDisplayDate(i, allPosts.length) }));
+const posts = allPosts.map((post, i) => ({ ...post, displayDate: new Date(post.data.date) }));
 
 const categories = [...new Set(posts.map((post) => post.data.category))];
 ---

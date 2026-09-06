@@ -21,7 +21,7 @@ internal_links:
     anchor: "unsere Studie über 50 Pariser Praxen"
 ---
 
-# Wenn ein Patient die KI fragt „Welchen Zahnarzt wählen", was antwortet sie?
+## Wenn ein Patient die KI fragt „Welchen Zahnarzt wählen", was antwortet sie?
 
 Wir haben exakt dieselbe Frage drei KI-Plattformen gestellt — ChatGPT, Perplexity und Google AI Overview — und jede Antwort dokumentiert.
 
@@ -133,7 +133,7 @@ Die auffälligste Erkenntnis dieses Vergleichs ist, dass dieselbe Frage an drei 
 
 Das bedeutet: Auf einer einzigen Plattform sichtbar zu sein, reicht nicht. Eine Praxis, die nur für Google optimiert ist, verliert die Patienten, die über ChatGPT und Perplexity kommen — und umgekehrt.
 
-Das ist die gesamte Philosophie der [GEO (Generative Engine Optimization)](/blog/geo-optimierung-ki-2026): Ihre Präsenz optimieren, um von allen KI-Plattformen empfohlen zu werden, nicht nur von Google. Die Praxen, die das jetzt verstehen und entsprechend handeln, gewinnen Patienten, die ihre Kollegen nicht einmal bemerken.
+Das ist die gesamte Philosophie der [GEO (Generative Engine Optimization)](/de/blog/geo-optimierung-ki-2026): Ihre Präsenz optimieren, um von allen KI-Plattformen empfohlen zu werden, nicht nur von Google. Die Praxen, die das jetzt verstehen und entsprechend handeln, gewinnen Patienten, die ihre Kollegen nicht einmal bemerken.
 
 ---
 

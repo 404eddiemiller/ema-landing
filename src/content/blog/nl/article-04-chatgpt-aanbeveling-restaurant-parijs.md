@@ -19,7 +19,7 @@ internal_links:
     anchor: "onze vergelijkende test over AI-aanbevelingen"
 ---
 
-# Restauranthouders: beveelt ChatGPT uw restaurant aan of dat van de buurman?
+## Restauranthouders: beveelt ChatGPT uw restaurant aan of dat van de buurman?
 
 Doe de test. Open ChatGPT en typ: « Welk goed Italiaans restaurant raadt u aan in de Marais in Parijs? ». Of: « Restaurant met terras voor een romantisch diner in het 6e arrondissement? ».
 

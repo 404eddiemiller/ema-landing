@@ -19,7 +19,7 @@ internal_links:
     anchor: "nuestro test comparativo sobre las recomendaciones IA"
 ---
 
-# Restauradores: ChatGPT recomienda tu restaurante o el de al lado?
+## Restauradores: ChatGPT recomienda tu restaurante o el de al lado?
 
 Haz la prueba. Abre ChatGPT y escribe: "Que buen restaurante italiano me recomiendas en el Marais de Paris?". O bien: "Restaurante con terraza para una cena romantica en el distrito 6?".
 

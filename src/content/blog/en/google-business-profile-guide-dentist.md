@@ -19,7 +19,7 @@ internal_links:
     anchor: "why AI doesn't recommend your practice"
 ---
 
-# Google Business Profile: The Complete Guide for Dentists in Paris (2026)
+## Google Business Profile: The Complete Guide for Dentists in Paris (2026)
 
 Your Google Business Profile (GBP) has become the first point of contact between you and your future patients. Before even visiting your website or checking Doctolib, most patients see your Google listing — whether in search results, on Google Maps, or now in AI-generated responses.
 

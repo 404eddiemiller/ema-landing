@@ -23,7 +23,7 @@ internal_links:
     anchor: "nuestra guia Google Business Profile"
 ---
 
-# Por que las clinicas sin sitio web son las mas vulnerables ante la IA
+## Por que las clinicas sin sitio web son las mas vulnerables ante la IA
 
 Aqui tienes una paradoja que descubrimos al auditar la visibilidad IA de las clinicas dentales parisinas: las clinicas sin sitio web son las mas vulnerables ante el auge de las IA — pero tambien aquellas para las que el GEO ofrece la mayor palanca de crecimiento.
 

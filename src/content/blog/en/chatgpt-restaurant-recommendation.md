@@ -19,7 +19,7 @@ internal_links:
     anchor: "our comparative test on AI recommendations"
 ---
 
-# Restaurant Owners: Does ChatGPT Recommend Your Restaurant or the One Next Door?
+## Restaurant Owners: Does ChatGPT Recommend Your Restaurant or the One Next Door?
 
 Take the test. Open ChatGPT and type: "What good Italian restaurant do you recommend in Le Marais in Paris?" Or: "Restaurant with a terrace for a romantic dinner in the 6th arrondissement?"
 

@@ -21,7 +21,7 @@ internal_links:
     anchor: "our comparison of AI platforms"
 ---
 
-# The 7 Directories Where Your Restaurant MUST Be Listed for AI to Recommend You
+## The 7 Directories Where Your Restaurant MUST Be Listed for AI to Recommend You
 
 AI assistants do not recommend restaurants they cannot find. And they do not look everywhere — they have their favorite sources. A Yext study covering 2.2 million restaurant citations showed that 41.6% of AI recommendations come from directories and third-party platforms, 39.8% from businesses' own websites, and 13% from reviews and social media.
 

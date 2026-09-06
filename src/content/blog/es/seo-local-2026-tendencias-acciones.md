@@ -21,7 +21,7 @@ internal_links:
     anchor: "los datos estructurados Schema.org"
 ---
 
-# SEO local en 2026: lo que ha cambiado y lo que debes hacer ahora
+## SEO local en 2026: lo que ha cambiado y lo que debes hacer ahora
 
 Si haces SEO local para tu clinica, restaurante u hotel parisino, probablemente hayas notado que las reglas han cambiado. Los resultados de Google ya no se parecen a lo que eran hace dos anos.
 

@@ -6,13 +6,13 @@ if (stickyCta) {
   let pastHero = false;
   let auditVisible = false;
 
-  function updateStickyCta() {
+  const updateStickyCta = () => {
     if (pastHero && !auditVisible) {
       stickyCta.style.transform = 'translateY(0)';
     } else {
       stickyCta.style.transform = 'translateY(100%)';
     }
-  }
+  };
 
   // Show after scrolling past the hero section
   const heroSection = document.querySelector('main > section:first-child');

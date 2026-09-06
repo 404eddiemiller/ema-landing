@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "How This Dental Practice Went From Invisible to Recommended by ChatGPT in 60 Days"
 slug: "case-study-dental-practice-0-to-3-ai-mentions"
 meta_title: "Case Study: A Dental Practice in Paris Recommended by ChatGPT in 60 Days — Here's How"
@@ -23,7 +24,7 @@ internal_links:
     anchor: "our Schema.org guide"
 ---
 
-# Before/After: How This Dental Practice Went From 0 to 3 AI Mentions in 60 Days
+## Before/After: How This Dental Practice Went From 0 to 3 AI Mentions in 60 Days
 
 When this dental practice in the 14th arrondissement contacted us, it was completely invisible on ChatGPT, Perplexity, and Google AI Overview. Its GEO score: 12 out of 100. Sixty days later, it appeared in 3 AI responses out of the 7 queries tested, with a score of 54/100.
 

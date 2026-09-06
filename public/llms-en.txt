@@ -1,36 +1,14 @@
 # Eddie Miller Agency
 
-> Agency specializing in local visibility on Google Maps and AI assistants (ChatGPT, Gemini, Perplexity) for local businesses: restaurants, hotels, dental practices, law firms, hair salons, spas, gyms, bars.
+Paris-based services for AI search visibility, Google Maps, repetitive task automation and website creation.
 
-## What we do
-We help businesses with a physical address get found by their future customers — on Google Maps and in AI assistant recommendations.
+- AI visibility: https://eddiemiller.agency/en/ai-visibility
+- Automation, including Hermes Agent where appropriate: https://eddiemiller.agency/en/ai-automation
+- Websites: https://eddiemiller.agency/en/web-design
+- Services and scope: https://eddiemiller.agency/en/pricing
 
-## Services
-- Free visibility diagnostic: score out of 100 in 24h, 3 priority actions, 15-minute call
-- Google Business Profile and Google Maps optimization
-- AI engine visibility (ChatGPT, Gemini, Perplexity, Google AI Overview)
-- Monthly visibility monitoring with progress reports
+Free initial 15-minute conversation. Work is subject to an agreed quote. No guaranteed recommendations, rankings or revenue. Sensitive actions require approval. Administrative accounting preparation does not replace a qualified accountant.
 
-## Plans
-- Diagnostic: free, visibility score + report + call
-- Essential: optimized Google listing + AI source presence
-- Complete: 15-point optimization + directories + review strategy
-- Premium: 3-month support + monthly monitoring + continuous adjustments
+Contact: contact@eddiemiller.agency. Paris and Île-de-France.
 
-## Verticals served
-- Dental practices: https://eddiemiller.agency/en/dentists
-- Restaurants: https://eddiemiller.agency/en/restaurants
-- Hotels: https://eddiemiller.agency/en/hotels
-- Law firms: https://eddiemiller.agency/en/lawyers
-- Hair & beauty: https://eddiemiller.agency/en/hair
-- Wellness & spa: https://eddiemiller.agency/en/spa
-- Gyms & fitness: https://eddiemiller.agency/en/gyms
-- Bars & nightlife: https://eddiemiller.agency/en/bars
-
-## Blog
-20 articles on local visibility and AI optimization: https://eddiemiller.agency/blog
-
-## Contact
-- Website: https://eddiemiller.agency/en
-- Email: contact@eddiemiller.agency
-- Address: 41 Rue du Montparnasse, 75014 Paris, France
+This file is a summary of visible content, not a special AI ranking requirement.

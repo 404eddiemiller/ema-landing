@@ -17,7 +17,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# O seu consultório dentário está invisível no ChatGPT: eis porquê
+## O seu consultório dentário está invisível no ChatGPT: eis porquê
 
 Faça o teste agora. Abra o ChatGPT ou o Perplexity e escreva: «Que dentista me recomenda no [Xº] bairro de Paris?».
 

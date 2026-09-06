@@ -21,7 +21,7 @@ internal_links:
     anchor: "our comparison of AI platforms"
 ---
 
-# Zero Click: Why 60% of Google Searches No Longer Lead to Your Website (and What to Do)
+## Zero Click: Why 60% of Google Searches No Longer Lead to Your Website (and What to Do)
 
 You invested in a beautiful website. You worked on your search engine optimization. You may even appear on Google's first page. And yet, your traffic is stalling — or declining.
 

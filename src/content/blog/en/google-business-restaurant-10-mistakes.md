@@ -21,7 +21,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# Google My Business Listing for Your Restaurant: The 10 Mistakes Costing You Customers
+## Google My Business Listing for Your Restaurant: The 10 Mistakes Costing You Customers
 
 Your Google Business Profile listing is probably the first thing a customer sees before walking through your door. Before your website, before your Instagram page, before even TheFork or TripAdvisor — it's your Google listing that appears when someone searches "restaurant [neighborhood]."
 

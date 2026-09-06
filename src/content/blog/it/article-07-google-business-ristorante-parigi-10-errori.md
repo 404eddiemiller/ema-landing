@@ -21,7 +21,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# Scheda Google My Business per ristorante a Parigi: i 10 errori che vi costano clienti
+## Scheda Google My Business per ristorante a Parigi: i 10 errori che vi costano clienti
 
 La vostra scheda Google Business Profile è probabilmente la prima cosa che un cliente vede prima di varcare la vostra porta. Prima del vostro sito web, prima della vostra pagina Instagram, prima ancora di TheFork o TripAdvisor — è la vostra scheda Google che compare quando qualcuno cerca « ristorante [quartiere] Parigi ».
 

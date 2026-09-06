@@ -21,7 +21,7 @@ internal_links:
     anchor: "unser Vergleich der KI-Plattformen"
 ---
 
-# Null-Klick: Warum 60 % der Google-Suchen nicht mehr zu Ihrer Webseite führen (und was Sie tun können)
+## Null-Klick: Warum 60 % der Google-Suchen nicht mehr zu Ihrer Webseite führen (und was Sie tun können)
 
 Sie haben in eine schöne Webseite investiert. Sie haben an Ihrer Suchmaschinenoptimierung gearbeitet. Sie erscheinen vielleicht sogar auf der ersten Google-Seite. Und dennoch stagniert Ihr Traffic — oder sinkt.
 

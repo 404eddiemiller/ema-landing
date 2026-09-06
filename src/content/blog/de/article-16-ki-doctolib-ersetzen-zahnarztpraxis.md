@@ -21,7 +21,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# Wird KI Doctolib ersetzen? Was sich für Ihre Praxis ändert
+## Wird KI Doctolib ersetzen? Was sich für Ihre Praxis ändert
 
 Der Titel ist absichtlich provokativ. Die kurze Antwort ist nein — KI wird Doctolib nicht ersetzen. Doctolib ist ein Buchungstool. KI ist ein Empfehlungstool. Sie sind keine Konkurrenten, sondern zwei Glieder derselben Kette.
 

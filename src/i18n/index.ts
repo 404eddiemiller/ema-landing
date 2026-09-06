@@ -89,6 +89,10 @@ export function localePath(path: string, locale: Locale): string {
  * Used for hreflang alternate links and cross-locale navigation.
  */
 export const pageRoutes: Record<string, Record<Locale, string>> = {
+  medical: {"fr": "/medical", "en": "/en/medical", "es": "/es/medical", "de": "/de/medical", "it": "/it/medical", "pt": "/pt/medical", "nl": "/nl/medical"},
+  aiVisibility: {"fr": "/visibilite-ia", "en": "/en/ai-visibility", "es": "/es/visibilidad-ia", "de": "/de/ki-sichtbarkeit", "it": "/it/visibilita-ia", "pt": "/pt/visibilidade-ia", "nl": "/nl/ai-zichtbaarheid"},
+  automation: {"fr": "/automatisation-ia", "en": "/en/ai-automation", "es": "/es/automatizacion-ia", "de": "/de/ki-automatisierung", "it": "/it/automazione-ia", "pt": "/pt/automacao-ia", "nl": "/nl/ai-automatisering"},
+  webDesign: {"fr": "/creation-sites-web", "en": "/en/web-design", "es": "/es/sitios-web", "de": "/de/webdesign", "it": "/it/siti-web", "pt": "/pt/sites-web", "nl": "/nl/webdesign"},
   home:        { fr: '/',               en: '/en/',              es: '/es/',              de: '/de/',              it: '/it/',              pt: '/pt/',              nl: '/nl/' },
   about:       { fr: '/a-propos',       en: '/en/about',         es: '/es/sobre-nosotros', de: '/de/ueber-uns',    it: '/it/chi-siamo',     pt: '/pt/sobre-nos',     nl: '/nl/over-ons' },
   pricing:     { fr: '/formules',       en: '/en/pricing',       es: '/es/planes',        de: '/de/preise',        it: '/it/piani',         pt: '/pt/planos',        nl: '/nl/pakketten' },

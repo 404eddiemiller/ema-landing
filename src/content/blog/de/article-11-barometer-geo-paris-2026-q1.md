@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Welche Pariser Geschäfte empfehlen KI-Systeme am häufigsten? (Ranking Q1 2026)"
 slug: "barometer-geo-paris-2026-q1"
 meta_title: "Ranking Q1 2026: Welche Zahnärzte, Restaurants und Hotels in Paris empfehlen KI-Systeme?"
@@ -23,7 +24,7 @@ internal_links:
     anchor: "unsere Analyse der KI-Sichtbarkeit von Restaurants"
 ---
 
-# GEO-Barometer Paris Q1 2026: Welche Unternehmen empfehlen KI-Systeme am häufigsten?
+## GEO-Barometer Paris Q1 2026: Welche Unternehmen empfehlen KI-Systeme am häufigsten?
 
 Jedes Quartal testet Eddie Miller Agency die KI-Sichtbarkeit Pariser Unternehmen auf ChatGPT, Perplexity und Google AI Overview. Dieses erste Barometer deckt drei Sektoren ab: Zahnarztpraxen, Restaurants und Hotels.
 

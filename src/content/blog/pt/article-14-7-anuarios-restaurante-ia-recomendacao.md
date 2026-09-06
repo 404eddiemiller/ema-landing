@@ -21,7 +21,7 @@ internal_links:
     anchor: "o nosso comparativo das plataformas IA"
 ---
 
-# Os 7 anuários onde o seu restaurante DEVE estar presente para que a IA o recomende
+## Os 7 anuários onde o seu restaurante DEVE estar presente para que a IA o recomende
 
 As IA não recomendam os restaurantes que não encontram. E não procuram em todo o lado — têm as suas fontes favoritas. Um estudo Yext sobre 2,2 milhões de citações em restauração mostrou que 41,6% das recomendações IA provêm de anuários e plataformas terceiras, 39,8% de sites próprios, e 13% de avaliações e redes sociais.
 

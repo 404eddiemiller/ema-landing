@@ -21,7 +21,7 @@ internal_links:
     anchor: "die strukturierten Daten Schema.org"
 ---
 
-# Google AI Overview: Erscheint Ihr Hotel in den neuen Antworten von Google?
+## Google AI Overview: Erscheint Ihr Hotel in den neuen Antworten von Google?
 
 Wenn ein Reisender „Boutique-Hotel Marais Paris" bei Google sucht, sieht er nicht mehr nur eine Ergebnisliste und Booking-Werbung. Seit der Einführung der AI Overviews kann Google jetzt eine KI-generierte Zusammenfassung über allen Ergebnissen anzeigen — eine konversationelle Antwort, die Hotels empfiehlt, Preise vergleicht und Bewertungen zusammenfasst.
 

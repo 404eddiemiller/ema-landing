@@ -21,7 +21,7 @@ internal_links:
     anchor: "i dati strutturati Schema.org"
 ---
 
-# Google AI Overview: il vostro hotel compare nelle nuove risposte di Google?
+## Google AI Overview: il vostro hotel compare nelle nuove risposte di Google?
 
 Quando un viaggiatore cerca « hotel di charme Marais Parigi » su Google, non vede più solo una lista di risultati e pubblicità Booking. Con le AI Overview, Google può mostrare una sintesi generata dall'IA che raccomanda hotel, confronta i prezzi, e riassume le recensioni.
 

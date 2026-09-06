@@ -21,12 +21,12 @@ internal_links:
     anchor: "de gestructureerde gegevens Schema.org"
 ---
 
-# Lokale SEO in 2026: wat is veranderd en wat u nu moet doen
+## Lokale SEO in 2026: wat is veranderd en wat u nu moet doen
 
 ## De 5 grote veranderingen in lokale SEO in 2026
 
 ### 1. AI Overviews hebben de lokale resultaten veroverd
-Google toont nu AI-antwoorden boven de klassieke resultaten voor ongeveer 40% van de lokale zoekopdrachten. Wanneer een AI Overview verschijnt, [daalt het klikpercentage dramatisch](/blog/nul-klik-google-zoekopdrachten-oplossing-lokale-zaak).
+Google toont nu AI-antwoorden boven de klassieke resultaten voor ongeveer 40% van de lokale zoekopdrachten. Wanneer een AI Overview verschijnt, [daalt het klikpercentage dramatisch](/nl/blog/nul-klik-google-zoekopdrachten-oplossing-lokale-zaak).
 
 ### 2. Zoeken is conversationeel geworden
 Gebruikers typen niet meer "tandarts Parijs 15". Ze schrijven: "Ik zoek een goede tandarts voor een implantaat in het 15e, open op zaterdag, met goede beoordelingen."
@@ -35,10 +35,10 @@ Gebruikers typen niet meer "tandarts Parijs 15". Ze schrijven: "Ik zoek een goed
 Google vat automatisch de inhoud van uw beoordelingen samen. AI's analyseren de tekst om uw diensten en reputatie te begrijpen.
 
 ### 4. Gestructureerde gegevens zijn van bonus naar vereiste gegaan
-Websites met volledige [Schema.org](/blog/schema-org-website-leesbaar-ai-zonder-coderen)-implementatie worden 2 tot 3 keer vaker geciteerd door AI-zoekmachines.
+Websites met volledige [Schema.org](/nl/blog/schema-org-website-leesbaar-ai-zonder-coderen)-implementatie worden 2 tot 3 keer vaker geciteerd door AI-zoekmachines.
 
 ### 5. Lokale SEO is niet meer genoeg — u heeft GEO nodig
-[GEO (Generative Engine Optimization)](/blog/geo-optimalisatie-ai-2026) optimaliseert uw aanwezigheid voor de drie grote AI-platformen.
+[GEO (Generative Engine Optimization)](/nl/blog/geo-optimalisatie-ai-2026) optimaliseert uw aanwezigheid voor de drie grote AI-platformen.
 
 ## De 7 lokale SEO-acties voor 2026
 

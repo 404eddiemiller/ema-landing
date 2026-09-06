@@ -14,7 +14,7 @@ image: "/images/blog/geo-referencement-ia-2026.webp"
 imageAlt: "Devanture d'un commerce local avec une lumière chaude, vue depuis la rue"
 ---
 
-# GEO : le référencement que Google ne vous explique pas (et qui change tout en 2026)
+## GEO : le référencement que Google ne vous explique pas (et qui change tout en 2026)
 
 Vous êtes premier sur Google. Vos avis sont excellents. Votre fiche Google Business est complète. Et pourtant, quand un patient, un client ou un touriste demande à ChatGPT « quel est le meilleur dentiste à Paris 15e ? » ou « un bon restaurant italien dans le Marais ? », votre activité n'apparaît nulle part.
 

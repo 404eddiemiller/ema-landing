@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Como esta clinica dental paso de invisible a recomendada por ChatGPT en 60 dias"
 slug: "caso-cliente-clinica-dental-0-a-3-menciones-ia"
 meta_title: "Caso concreto: una clinica dental parisina recomendada por ChatGPT en 60 dias — asi es como"
@@ -23,7 +24,7 @@ internal_links:
     anchor: "nuestra guia Schema.org"
 ---
 
-# Antes/Despues: como esta clinica dental paso de 0 a 3 menciones IA en 60 dias
+## Antes/Despues: como esta clinica dental paso de 0 a 3 menciones IA en 60 dias
 
 Cuando esta clinica dental del distrito 14 nos contacto, era totalmente invisible en ChatGPT, Perplexity y Google AI Overview. Su puntuacion GEO: 12 sobre 100. Sesenta dias despues, aparecia en 3 respuestas de IA sobre las 7 consultas probadas, con una puntuacion de 54/100.
 

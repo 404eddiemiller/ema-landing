@@ -21,14 +21,14 @@ internal_links:
     anchor: "die strukturierten Daten Schema.org"
 ---
 
-# Lokales SEO 2026: Was sich geändert hat und was Sie jetzt tun müssen
+## Lokales SEO 2026: Was sich geändert hat und was Sie jetzt tun müssen
 
 Wenn Sie lokales SEO für Ihre Praxis, Ihr Restaurant oder Ihr Hotel in Paris betreiben, haben Sie wahrscheinlich bemerkt, dass sich die Regeln geändert haben. Dieser Artikel macht Bestandsaufnahme und gibt Ihnen konkrete Handlungsempfehlungen.
 
 ## Die 5 großen Veränderungen des lokalen SEO 2026
 
 ### 1. AI Overviews haben die lokalen Ergebnisse erobert
-Google zeigt jetzt bei etwa 40 % der lokalen Anfragen KI-generierte Antworten über den klassischen Ergebnissen an. Wenn ein AI Overview angezeigt wird, [sinkt die Klickrate dramatisch](/blog/null-klick-google-suchen-loesung-lokales-geschaeft).
+Google zeigt jetzt bei etwa 40 % der lokalen Anfragen KI-generierte Antworten über den klassischen Ergebnissen an. Wenn ein AI Overview angezeigt wird, [sinkt die Klickrate dramatisch](/de/blog/null-klick-google-suchen-loesung-lokales-geschaeft).
 
 ### 2. Die Suche ist konversationell geworden
 Nutzer geben nicht mehr „Zahnarzt Paris 15" ein. Sie schreiben: „Ich suche einen guten Zahnarzt für ein Implantat im 15., samstags geöffnet, mit guten Bewertungen."
@@ -37,10 +37,10 @@ Nutzer geben nicht mehr „Zahnarzt Paris 15" ein. Sie schreiben: „Ich suche e
 Google fasst automatisch den Inhalt Ihrer Bewertungen in sichtbaren Zusammenfassungen zusammen. KI-Systeme analysieren den Bewertungstext, um Ihre Leistungen und Reputation zu verstehen.
 
 ### 4. Strukturierte Daten sind vom Bonus zur Voraussetzung geworden
-Google und Microsoft haben bestätigt, dass [Schema.org](/blog/schema-org-webseite-lesbar-ki-ohne-code) ein kritisches Signal für KI-Funktionen ist. 2-3-fache Zitierungssteigerung.
+Google und Microsoft haben bestätigt, dass [Schema.org](/de/blog/schema-org-webseite-lesbar-ki-ohne-code) ein kritisches Signal für KI-Funktionen ist. 2-3-fache Zitierungssteigerung.
 
 ### 5. Lokales SEO allein reicht nicht mehr — Sie brauchen GEO
-Lokales SEO optimiert Ihre Google Maps-Präsenz. [GEO](/blog/geo-optimierung-ki-2026) optimiert Ihre Präsenz für alle drei großen KI-Plattformen. Beides ist komplementär.
+Lokales SEO optimiert Ihre Google Maps-Präsenz. [GEO](/de/blog/geo-optimierung-ki-2026) optimiert Ihre Präsenz für alle drei großen KI-Plattformen. Beides ist komplementär.
 
 ## Was sich NICHT geändert hat
 

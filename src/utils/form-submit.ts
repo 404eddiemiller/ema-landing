@@ -10,6 +10,7 @@ const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 function showFieldError(field: HTMLElement, message: string) {
   field.classList.remove(NORMAL_CLASS);
   field.classList.add(ERROR_CLASS);
+  field.setAttribute('aria-invalid', 'true');
 
   // Use pre-existing aria-describedby error element, or create one
   const errorId = field.getAttribute('aria-describedby');
@@ -32,6 +33,7 @@ function showFieldError(field: HTMLElement, message: string) {
 
 function clearFieldError(field: HTMLElement) {
   field.classList.remove(ERROR_CLASS);
+  field.removeAttribute('aria-invalid');
   field.classList.add(NORMAL_CLASS);
 
   const errorId = field.getAttribute('aria-describedby');
@@ -48,7 +50,7 @@ function validateFields(fields: (HTMLInputElement | HTMLSelectElement | null)[],
 
   for (const field of fields) {
     if (!field) continue;
-    if (!field.value) {
+    if (!field.value.trim()) {
       showFieldError(field, requiredMsg);
       if (!firstInvalid) firstInvalid = field;
       valid = false;
@@ -65,17 +67,15 @@ function validateFields(fields: (HTMLInputElement | HTMLSelectElement | null)[],
   return valid;
 }
 
-export function initFormSubmit(webhookUrl: string) {
-  if (!webhookUrl?.startsWith('https://')) {
-    console.error('Invalid webhook URL: must be HTTPS');
-    return;
-  }
+export function initFormSubmit(webhookUrl: string | undefined, preview = true, contactMode?: string) {
 
   const form = document.getElementById('audit-form') as HTMLFormElement | null;
   const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement | null;
   const errorDiv = document.getElementById('form-error') as HTMLElement | null;
 
-  if (!form || !submitBtn || !errorDiv) return;
+  if (!form || !submitBtn || !errorDiv || form.dataset.initialized) return;
+  form.dataset.initialized = 'true';
+  submitBtn.disabled = false;
 
   // Anti-spam: set timestamp on load + JS challenge token
   const loadedField = form.querySelector<HTMLInputElement>('input[name="_loaded"]');
@@ -86,6 +86,11 @@ export function initFormSubmit(webhookUrl: string) {
 
   const requiredMsg = form.dataset.fieldRequired || 'Ce champ est requis';
   const emailInvalidMsg = form.dataset.emailInvalid || 'Veuillez entrer une adresse email valide';
+
+  // A prepared email must always reflect the currently displayed fields.
+  const hidePreparedEmail = () => document.getElementById('form-email')?.classList.add('hidden');
+  form.addEventListener('input', hidePreparedEmail);
+  form.addEventListener('change', hidePreparedEmail);
 
   // Clear inline errors on input
   const requiredFields = form.querySelectorAll<HTMLInputElement | HTMLSelectElement>('[required]');
@@ -106,9 +111,6 @@ export function initFormSubmit(webhookUrl: string) {
     // JS challenge: bots without JS won't have this set
     if (!jsField || jsField.value !== 'ok') return;
 
-    // Timestamp check: reject submissions faster than 3 seconds
-    if (loadedField && loadTime && (Date.now() - loadTime) < 3000) return;
-
     // Field references
     const etablissement = form.querySelector<HTMLInputElement>('#etablissement');
     const email = form.querySelector<HTMLInputElement>('#email');
@@ -121,19 +123,56 @@ export function initFormSubmit(webhookUrl: string) {
     }
 
     // Email format validation
-    if (email && !EMAIL_REGEX.test(email.value)) {
+    if (email && !EMAIL_REGEX.test(email.value.trim())) {
       showFieldError(email, emailInvalidMsg);
       email.focus();
       email.scrollIntoView({ behavior: 'smooth', block: 'center' });
       return;
     }
 
+    const site = form.querySelector<HTMLInputElement>('#site');
+    if (site?.value && (!site.validity.valid || !/^https?:\/\//i.test(site.value))) {
+      site.reportValidity(); site.focus();
+      showFieldError(site, 'URL : https://example.com'); return;
+    }
+    if (site) clearFieldError(site);
+    if (preview) {
+      const notice = document.getElementById('form-preview');
+      if (notice) { notice.textContent = form.dataset.previewMessage || 'Preview: no data sent.'; notice.classList.remove('hidden'); notice.focus(); }
+      return;
+    }
+    if (contactMode === 'email') {
+      const link = document.getElementById('form-email-link') as HTMLAnchorElement | null;
+      const notice = document.getElementById('form-email');
+      if (!link || !notice) return;
+      const lines = ['etablissement', 'type', 'ville', 'email', 'besoin', 'site', 'message'].flatMap(id => {
+        const field = form.querySelector<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>(`#${id}`);
+        if (!field?.value.trim()) return [];
+        const label = form.querySelector(`label[for="${id}"]`)?.textContent?.replace(/\s*\*\s*$/, '').trim() || id;
+        const value = field instanceof HTMLSelectElement ? field.selectedOptions[0]?.textContent?.trim() : field.value.trim();
+        return [`${label} : ${value}`];
+      });
+      const subject = `${form.dataset.emailSubject || 'Eddie Miller Agency'} — ${etablissement!.value.trim()}`;
+      link.href = `mailto:contact@eddiemiller.agency?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join('\n\n'))}`;
+      errorDiv.classList.add('hidden');
+      notice.classList.remove('hidden');
+      notice.focus();
+      return;
+    }
+    if (!webhookUrl?.startsWith('https://')) {
+      errorDiv.textContent = form.dataset.unavailable || 'Please email contact@eddiemiller.agency.';
+      errorDiv.classList.remove('hidden'); errorDiv.focus(); return;
+    }
+    if (submitBtn.disabled) return;
     // Collect form data
     const data = {
-      etablissement: etablissement!.value,
+      etablissement: etablissement!.value.trim(),
       type: type!.value,
-      ville: ville!.value,
-      email: email!.value,
+      ville: ville!.value.trim(),
+      email: email!.value.trim(),
+      besoin: form.querySelector<HTMLSelectElement>('#besoin')?.value || '',
+      site: site?.value.trim() || '',
+      message: form.querySelector<HTMLTextAreaElement>('#message')?.value.trim() || '',
       page: form.dataset.pageSlug || window.location.pathname,
       submitted_at: new Date().toISOString()
     };
@@ -154,7 +193,8 @@ export function initFormSubmit(webhookUrl: string) {
       const response = await fetch(webhookUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data)
+        body: JSON.stringify(data),
+        signal: AbortSignal.timeout(15000)
       });
 
       if (!response.ok) throw new Error('Erreur serveur');

@@ -21,7 +21,7 @@ internal_links:
     anchor: "notre comparatif des plateformes IA"
 ---
 
-# Zéro clic : pourquoi 60 % des recherches Google ne mènent plus à votre site (et que faire)
+## Zéro clic : pourquoi 60 % des recherches Google ne mènent plus à votre site (et que faire)
 
 Vous avez investi dans un beau site web. Vous avez travaillé votre référencement. Vous apparaissez peut-être même en première page de Google. Et pourtant, votre trafic stagne — ou baisse.
 

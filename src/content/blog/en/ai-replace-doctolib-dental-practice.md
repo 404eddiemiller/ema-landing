@@ -21,7 +21,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# Will AI Replace Doctolib? What This Means for Your Practice
+## Will AI Replace Doctolib? What This Means for Your Practice
 
 The headline is deliberately provocative. The short answer is no — AI will not replace Doctolib. Doctolib is a booking tool. AI is a recommendation tool. They are not competitors; they are two links in the same chain.
 

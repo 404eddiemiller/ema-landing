@@ -21,7 +21,7 @@ internal_links:
     anchor: "unser Vergleich der KI-Plattformen"
 ---
 
-# Die 7 Verzeichnisse, auf denen Ihr Restaurant PRÄSENT sein muss, damit die KI Sie empfiehlt
+## Die 7 Verzeichnisse, auf denen Ihr Restaurant PRÄSENT sein muss, damit die KI Sie empfiehlt
 
 KI-Systeme empfehlen keine Restaurants, die sie nicht finden. Eine Yext-Studie über 2,2 Millionen Gastronomie-Zitierungen hat gezeigt: 41,6 % der KI-Empfehlungen stammen von Verzeichnissen und Drittplattformen, 39,8 % von eigenen Webseiten, und 13 % von Bewertungen und sozialen Netzwerken.
 

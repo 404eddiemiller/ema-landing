@@ -23,11 +23,11 @@ internal_links:
     anchor: "unser Google Business Profile Leitfaden"
 ---
 
-# Warum Praxen ohne Webseite gegenüber KI am verwundbarsten sind
+## Warum Praxen ohne Webseite gegenüber KI am verwundbarsten sind
 
 Hier ist ein Paradoxon, das wir beim Audit der KI-Sichtbarkeit Pariser Zahnarztpraxen entdeckt haben: Praxen ohne Webseite sind am verwundbarsten gegenüber dem Aufstieg der KI — aber auch diejenigen, für die GEO den größten Wachstumshebel bietet.
 
-In [unserer Studie über 50 Praxen](/blog/studie-ki-sichtbarkeit-50-zahnarztpraxen-paris) hatten 34 % keine Webseite. Keine einzige — null — gehörte zur Gruppe der bei KI-Systemen sichtbaren Praxen. Aber die Nuance ist wichtig: Diese Praxen müssen keine komplexe Webseite erstellen, um an KI-Sichtbarkeit zu gewinnen. Sie müssen das Spiel verstehen und die richtigen Hebel betätigen.
+In [unserer Studie über 50 Praxen](/de/blog/studie-ki-sichtbarkeit-50-zahnarztpraxen-paris) hatten 34 % keine Webseite. Keine einzige — null — gehörte zur Gruppe der bei KI-Systemen sichtbaren Praxen. Aber die Nuance ist wichtig: Diese Praxen müssen keine komplexe Webseite erstellen, um an KI-Sichtbarkeit zu gewinnen. Sie müssen das Spiel verstehen und die richtigen Hebel betätigen.
 
 ## Warum das Fehlen einer Webseite ein Nachteil für KI-Sichtbarkeit ist
 

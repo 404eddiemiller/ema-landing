@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Hoe deze tandartspraktijk in 60 dagen van onzichtbaar naar aanbevolen door ChatGPT ging"
 slug: "casestudy-tandartspraktijk-0-naar-3-vermeldingen-ai-60-dagen"
 meta_title: "Concreet geval: een Parijse tandartspraktijk aanbevolen door ChatGPT in 60 dagen — zo ging het"
@@ -23,7 +24,7 @@ internal_links:
     anchor: "onze Schema.org-gids"
 ---
 
-# Voor/Na: hoe deze tandartspraktijk van 0 naar 3 AI-vermeldingen ging in 60 dagen
+## Voor/Na: hoe deze tandartspraktijk van 0 naar 3 AI-vermeldingen ging in 60 dagen
 
 Toen deze tandartspraktijk uit het 14e arrondissement ons contacteerde, was het volledig onzichtbaar op ChatGPT, Perplexity en Google AI Overview. Zijn GEO-score: 12 op 100. Zestig dagen later verscheen het in 3 AI-antwoorden op de 7 geteste zoekopdrachten, met een score van 54/100.
 

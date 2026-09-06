@@ -23,7 +23,7 @@ internal_links:
     anchor: "la nostra guida Google Business Profile"
 ---
 
-# Perché gli studi senza sito web sono i più vulnerabili di fronte all'IA
+## Perché gli studi senza sito web sono i più vulnerabili di fronte all'IA
 
 Ecco un paradosso: gli studi senza sito web sono i più vulnerabili alla crescita delle IA — ma anche quelli per cui il GEO offre la più grande leva di crescita.
 

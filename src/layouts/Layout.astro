@@ -1,9 +1,13 @@
 ---
 import '../styles/global.css';
+import '../styles/agency.css';
+import { getAgency } from '../data/agency';
 import { t, getLocaleFromPath, localeISO, navRoutes, getAlternateUrls, locales, type Locale } from '../i18n/index';
 
 const locale = getLocaleFromPath(Astro.url.pathname);
 const nav = navRoutes[locale];
+const c = getAgency(locale);
+const isPreview = import.meta.env.PUBLIC_SITE_MODE !== 'live';
 const alternates = getAlternateUrls(Astro.url.pathname);
 const siteUrl = 'https://eddiemiller.agency';
 
@@ -22,10 +26,10 @@ const {
   title,
   description,
   canonicalUrl = new URL(Astro.url.pathname, siteUrl).href,
-  ogTitle = t('meta.ogTitle', locale),
-  ogDescription = t('meta.ogDescription', locale),
+  ogTitle = title,
+  ogDescription = description,
   ogType = 'website',
-  ogImage = 'https://eddiemiller.agency/og-image.png',
+  ogImage = 'https://eddiemiller.agency/social-card.png',
   skipFaqSchema = false,
   noindex = false,
 } = Astro.props;
@@ -38,20 +42,20 @@ const {
     <meta name="theme-color" content="#F5F0EB" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#1C1814" media="(prefers-color-scheme: dark)" />
     <meta name="google-site-verification" content="40e5qXx2eUyxAmLgBGHqS-pSbohrWFWtwIgj2nrnkH0" />
-    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    {(noindex || isPreview) && <meta name="robots" content="noindex, nofollow" />}
 
     <!-- Dark mode anti-FOUC: apply saved theme before render -->
     <script is:inline>
       (function() {
-        var t = localStorage.getItem('theme');
+        var t; try { t = localStorage.getItem('theme'); } catch (_) {}
         if (t === 'dark' || t === 'light') {
           document.documentElement.setAttribute('data-theme', t);
         }
       })();
     </script>
     <!-- Preconnect for external services -->
-    <link rel="preconnect" href="https://plausible.io" crossorigin />
-    <link rel="dns-prefetch" href="https://plausible.io" />
+    {!isPreview && <link rel="preconnect" href="https://plausible.io" crossorigin />}
+    {!isPreview && <link rel="dns-prefetch" href="https://plausible.io" />}
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
@@ -92,118 +96,12 @@ const {
     <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:description" content={ogDescription} />
 
-    <!-- JSON-LD Structured Data -->
     <script type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Eddie Miller Agency",
-      "description": t('meta.ogDescription', locale),
-      "url": "https://eddiemiller.agency",
-      "email": "contact@eddiemiller.agency",
-      "logo": "https://eddiemiller.agency/favicon-192x192.png",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "41 Rue du Montparnasse",
-        "postalCode": "75014",
-        "addressLocality": "Paris",
-        "addressCountry": "FR"
-      },
-      "areaServed": {
-        "@type": "Place",
-        "name": "Worldwide"
-      },
-      "serviceType": [
-        "Local Business Visibility Consulting",
-        "Google Business Profile Management",
-        "Google Maps Optimization",
-        "AI Search Optimization",
-        "ChatGPT Visibility for Local Businesses",
-        "Local Online Reputation Management"
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": t('meta.ogTitle', locale),
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": t('howItWorks.step1Title', locale),
-              "description": t('howItWorks.step1Text', locale),
-              "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": t('howItWorks.step2Title', locale),
-              "description": t('howItWorks.step2Text', locale)
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": t('howItWorks.step3Title', locale),
-              "description": t('howItWorks.step3Text', locale)
-            }
-          }
-        ]
-      },
-      "knowsLanguage": ["fr", "en", "es", "de", "it", "pt", "nl"],
-      "priceRange": "€€",
-      "founder": {
-        "@type": "Person",
-        "name": "Adam Douieb"
-      },
-      "foundingDate": "2026",
-      "openingHours": "Mo-Fr 09:00-18:00",
-      "sameAs": [
-        "https://share.google/7G3R43yFI12f0SMcI"
-      ]
+      "@context": "https://schema.org", "@type": "ProfessionalService",
+      name: 'Eddie Miller Agency', url: siteUrl, description: c.description,
+      email: 'contact@eddiemiller.agency', areaServed: { "@type": "Place", name: 'Paris et Île-de-France' },
+      serviceType: c.services
     })} />
-    <script type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "HowTo",
-      "name": t('howItWorks.title', locale),
-      "description": t('howItWorks.subtitle', locale),
-      "step": [
-        {
-          "@type": "HowToStep",
-          "position": 1,
-          "name": t('howItWorks.step1Title', locale),
-          "text": t('howItWorks.step1Text', locale)
-        },
-        {
-          "@type": "HowToStep",
-          "position": 2,
-          "name": t('howItWorks.step2Title', locale),
-          "text": t('howItWorks.step2Text', locale)
-        },
-        {
-          "@type": "HowToStep",
-          "position": 3,
-          "name": t('howItWorks.step3Title', locale),
-          "text": t('howItWorks.step3Text', locale)
-        }
-      ]
-    })} />
-    {!skipFaqSchema && (
-      <script type="application/ld+json" set:html={JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [1, 2, 3, 5, 9, 10].map(n => ({
-          "@type": "Question",
-          "name": t(`faq.q${n}`, locale),
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": t(`faq.a${n}`, locale)
-          }
-        }))
-      })} />
-    )}
-
     <!-- WebSite schema — tells Google to show "Eddie Miller Agency" as site name -->
     <script type="application/ld+json">
       {
@@ -215,7 +113,7 @@ const {
     </script>
 
     <!-- Plausible Analytics -->
-    <script is:inline async src="https://plausible.io/js/pa-V0XLRxsUEbXHqAAPrygvE.js"></script>
+    {!isPreview && <script is:inline async src="https://plausible.io/js/pa-V0XLRxsUEbXHqAAPrygvE.js"></script>}
     <script is:inline>
       window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
       plausible.init()
@@ -241,14 +139,14 @@ const {
     <div id="sticky-cta" class="fixed bottom-0 left-0 w-full z-40 backdrop-blur-sm py-3 px-4 md:py-3.5 md:px-6 sticky-cta-bar">
       <div class="max-w-container mx-auto flex items-center justify-between gap-4">
         <p class="sticky-cta-text font-sans text-sm text-stone leading-snug">
-          {t('stickyCta.text', locale)}
+          {c.contactSmall}
         </p>
         <a
           href={nav.audit}
           class="sticky-cta-btn text-center inline-block px-6 py-3 font-sans font-medium text-sm text-cream bg-charcoal tracking-wider uppercase whitespace-nowrap transition-colors duration-300 hover:bg-terracotta-dark"
           data-track="sticky-bar"
         >
-          {t('stickyCta.button', locale)}
+          {c.cta}
         </a>
       </div>
     </div>
@@ -271,7 +169,7 @@ const {
     <!-- Language detection banner -->
     <script is:inline>
       (function() {
-        if (sessionStorage.getItem('lang-banner-dismissed')) return;
+        try { if (sessionStorage.getItem('lang-banner-dismissed')) return; } catch (_) {}
 
         var pageLocale = document.documentElement.lang || 'fr';
         var browserLang = (navigator.language || '').split('-')[0].toLowerCase();
@@ -305,11 +203,11 @@ const {
 
           close.addEventListener('click', function() {
             banner.classList.add('hidden');
-            sessionStorage.setItem('lang-banner-dismissed', '1');
+            try { sessionStorage.setItem('lang-banner-dismissed', '1'); } catch (_) {}
           });
 
           link.addEventListener('click', function() {
-            sessionStorage.setItem('lang-banner-dismissed', '1');
+            try { sessionStorage.setItem('lang-banner-dismissed', '1'); } catch (_) {}
           });
         }
       })();

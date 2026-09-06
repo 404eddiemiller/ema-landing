@@ -21,7 +21,7 @@ internal_links:
     anchor: "why your practice is invisible on ChatGPT"
 ---
 
-# Your Dental Practice's Google Reviews: How to Turn Them Into a Patient-Generating Machine
+## Your Dental Practice's Google Reviews: How to Turn Them Into a Patient-Generating Machine
 
 Your Google reviews are no longer just a reputation factor. In 2026, they serve three simultaneous functions: they determine your position in Google's Map Pack, they influence whether a patient chooses you or not, and — this is the most recent shift — they directly feed AI assistant recommendations.
 

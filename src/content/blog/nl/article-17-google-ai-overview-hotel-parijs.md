@@ -21,7 +21,7 @@ internal_links:
     anchor: "de gestructureerde gegevens Schema.org"
 ---
 
-# Google AI Overview: verschijnt uw hotel in de nieuwe antwoorden van Google?
+## Google AI Overview: verschijnt uw hotel in de nieuwe antwoorden van Google?
 
 Wanneer een reiziger zoekt naar "charmehotel Marais Parijs" op Google, ziet hij niet meer alleen een lijst resultaten en Booking-advertenties. Sinds de uitrol van AI Overviews kan Google nu een door AI gegenereerde synthese tonen boven alle resultaten — een conversationeel antwoord dat hotels aanbeveelt, prijzen vergelijkt en beoordelingen samenvat.
 

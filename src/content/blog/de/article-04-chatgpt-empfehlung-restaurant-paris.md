@@ -19,7 +19,7 @@ internal_links:
     anchor: "unser Vergleichstest zu KI-Empfehlungen"
 ---
 
-# Restaurantbesitzer: Empfiehlt ChatGPT Ihr Restaurant oder das von nebenan?
+## Restaurantbesitzer: Empfiehlt ChatGPT Ihr Restaurant oder das von nebenan?
 
 Machen Sie den Test. Öffnen Sie ChatGPT und geben Sie ein: „Welches gute italienische Restaurant empfehlen Sie im Marais in Paris?" Oder: „Restaurant mit Terrasse für ein romantisches Abendessen im 6. Arrondissement?"
 

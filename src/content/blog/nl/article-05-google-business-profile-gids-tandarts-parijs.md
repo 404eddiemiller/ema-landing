@@ -19,7 +19,7 @@ internal_links:
     anchor: "waarom AI's uw praktijk niet aanbevelen"
 ---
 
-# Google Business Profile: de complete gids voor Parijse tandartsen (2026)
+## Google Business Profile: de complete gids voor Parijse tandartsen (2026)
 
 Uw Google Business Profile (GBP)-vermelding is het eerste contactpunt geworden tussen u en uw toekomstige patiënten. Nog voordat ze uw website bezoeken of Doctolib raadplegen, zien de meeste patiënten uw Google-vermelding — of dat nu in de zoekresultaten is, op Google Maps, of inmiddels in de door AI gegenereerde antwoorden.
 
@@ -222,7 +222,7 @@ Een laatste essentieel punt dat de meeste GBP-gidsen niet vermelden: uw Google B
 
 Wanneer een gebruiker aan ChatGPT vraagt "welke tandarts raadt u aan in het 15e arrondissement?" of aan Google AI Overview "beste orthodontist Parijs 11", worden de informatie van uw vermelding — beschrijving, diensten, beoordelingen, foto's, recente activiteit — direct gebruikt om te beslissen of u het verdient geciteerd te worden.
 
-Een geoptimaliseerde GBP-vermelding verbetert niet alleen uw positie in Google Maps. Het verbetert uw [zichtbaarheid bij alle AI's](/blog/geo-optimalisatie-ai-2026). Het is de basis van elke GEO (Generative Engine Optimization)-strategie — en voor een Parijse tandartspraktijk is het de actie met het best mogelijke rendement op investering.
+Een geoptimaliseerde GBP-vermelding verbetert niet alleen uw positie in Google Maps. Het verbetert uw [zichtbaarheid bij alle AI's](/nl/blog/geo-optimalisatie-ai-2026). Het is de basis van elke GEO (Generative Engine Optimization)-strategie — en voor een Parijse tandartspraktijk is het de actie met het best mogelijke rendement op investering.
 
 ---
 

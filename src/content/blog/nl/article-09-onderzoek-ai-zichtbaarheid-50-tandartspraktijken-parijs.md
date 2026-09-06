@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "We vroegen AI's om 50 Parijse tandartsen aan te bevelen — bijna geen enkele verscheen"
 slug: "onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs"
 meta_title: "50 tandartsen in Parijs getest op ChatGPT en Perplexity: bijna geen enkele wordt aanbevolen"
@@ -21,7 +22,7 @@ internal_links:
     anchor: "complete Google Business Profile-gids voor tandartsen"
 ---
 
-# Onderzoek: we testten de AI-zichtbaarheid van 50 Parijse tandartspraktijken — de resultaten
+## Onderzoek: we testten de AI-zichtbaarheid van 50 Parijse tandartspraktijken — de resultaten
 
 In maart 2026 voerde Eddie Miller Agency een systematische audit uit van de AI-zichtbaarheid van 50 tandartspraktijken verspreid over 12 Parijse arrondissementen. Het doel: concreet meten in hoeverre Parijse tandartsen al dan niet worden aanbevolen door AI-assistenten wanneer een patiënt een vraag stelt.
 

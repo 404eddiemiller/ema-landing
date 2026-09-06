@@ -23,7 +23,7 @@ internal_links:
     anchor: "onze gids over Google-beoordelingen"
 ---
 
-# Doctolib, Google, PagesJaunes: waar komen de tandarts-aanbevelingen van AI's vandaan?
+## Doctolib, Google, PagesJaunes: waar komen de tandarts-aanbevelingen van AI's vandaan?
 
 De bronnen begrijpen is het spel begrijpen. Dit artikel brengt de bronnen in kaart die elk AI-platform gebruikt voor tandarts-aanbevelingen in Parijs, gerangschikt op frequentie en impact.
 

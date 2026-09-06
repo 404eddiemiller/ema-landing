@@ -14,7 +14,7 @@ image: "/images/blog/geo-referencement-ia-2026.webp"
 imageAlt: "Storefront of a local business with warm lighting, seen from the street"
 ---
 
-# GEO: The Optimization Google Won't Tell You About (and That Changes Everything in 2026)
+## GEO: The Optimization Google Won't Tell You About (and That Changes Everything in 2026)
 
 You're ranking first on Google. Your reviews are excellent. Your Google Business listing is complete. And yet, when a patient, customer, or tourist asks ChatGPT "what's the best dentist in Paris 15th?" or "a good Italian restaurant in Le Marais?", your business appears nowhere.
 

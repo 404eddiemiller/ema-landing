@@ -21,7 +21,7 @@ internal_links:
     anchor: "notre Baromètre GEO Paris T1 2026"
 ---
 
-# ChatGPT vs Perplexity vs Google AI : lequel recommande le mieux les commerces parisiens ?
+## ChatGPT vs Perplexity vs Google AI : lequel recommande le mieux les commerces parisiens ?
 
 Quand un Parisien ou un touriste demande une recommandation locale à une IA, le résultat dépend autant de la plateforme utilisée que de l'activité recherchée. ChatGPT, Perplexity et Google AI Overview ne fonctionnent pas de la même manière, ne consultent pas les mêmes sources, et ne recommandent pas les mêmes activités.
 

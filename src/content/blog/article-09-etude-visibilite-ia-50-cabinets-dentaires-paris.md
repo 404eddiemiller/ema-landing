@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "On a demandé aux IA de recommander 50 dentistes parisiens — presque aucun n'est apparu"
 slug: "etude-visibilite-ia-50-cabinets-dentaires-paris"
 meta_title: "50 dentistes à Paris testés sur ChatGPT et Perplexity : presque aucun n'est recommandé"
@@ -21,7 +22,7 @@ internal_links:
     anchor: "guide complet Google Business Profile pour dentistes"
 ---
 
-# Étude : on a testé la visibilité IA de 50 cabinets dentaires parisiens — les résultats
+## Étude : on a testé la visibilité IA de 50 cabinets dentaires parisiens — les résultats
 
 En mars 2026, Eddie Miller Agency a réalisé un audit systématique de la visibilité IA de 50 cabinets dentaires répartis dans 12 arrondissements de Paris. L'objectif : mesurer concrètement à quel point les dentistes parisiens sont (ou ne sont pas) recommandés par les assistants IA quand un patient pose une question.
 

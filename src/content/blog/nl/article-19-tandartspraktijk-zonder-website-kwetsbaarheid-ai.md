@@ -23,11 +23,11 @@ internal_links:
     anchor: "onze Google Business Profile-gids"
 ---
 
-# Waarom praktijken zonder website het meest kwetsbaar zijn voor AI
+## Waarom praktijken zonder website het meest kwetsbaar zijn voor AI
 
 Hier is een paradox die we ontdekten bij het auditen van de AI-zichtbaarheid van Parijse tandartspraktijken: praktijken zonder website zijn het meest kwetsbaar voor de opkomst van AI's — maar ook degenen voor wie GEO de grootste groeihefboom biedt.
 
-In [ons onderzoek naar 50 praktijken](/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) had 34% geen website. Geen enkele — nul — behoorde tot de groep van AI-zichtbare praktijken.
+In [ons onderzoek naar 50 praktijken](/nl/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) had 34% geen website. Geen enkele — nul — behoorde tot de groep van AI-zichtbare praktijken.
 
 ## Waarom het ontbreken van een website een nadeel is
 

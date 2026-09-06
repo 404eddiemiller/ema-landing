@@ -21,7 +21,7 @@ internal_links:
     anchor: "les données structurées Schema.org"
 ---
 
-# SEO local en 2026 : ce qui a changé et ce que vous devez faire maintenant
+## SEO local en 2026 : ce qui a changé et ce que vous devez faire maintenant
 
 Si vous faites du SEO local pour votre cabinet, restaurant ou hôtel parisien, vous avez probablement remarqué que les règles ont changé. Les résultats Google ne ressemblent plus à ce qu'ils étaient il y a deux ans. Le trafic organique se comporte différemment. Et de nouveaux concurrents — les assistants IA — captent une part croissante de l'attention de vos clients.
 

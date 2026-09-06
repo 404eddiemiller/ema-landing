@@ -1,76 +1,29 @@
 ---
-// AuditForm section — Submits to n8n webhook
-import { t, getLocaleFromPath, navRoutes, type Locale } from '../i18n/index';
+import { t, getLocaleFromPath, navRoutes } from '../i18n';
+import { getAgency } from '../data/agency';
 import FormFields from './FormFields.astro';
 const locale = getLocaleFromPath(Astro.url.pathname);
 const nav = navRoutes[locale];
-
+const c = getAgency(locale);
 const typeOptions = [
   { value: '', label: t('auditForm.choosePlaceholder', locale), disabled: true, selected: true },
-  { value: 'restaurant', label: t('auditForm.typeRestaurant', locale) },
-  { value: 'hotel', label: t('auditForm.typeHotel', locale) },
-  { value: 'bar', label: t('auditForm.typeBar', locale) },
-  { value: 'medical', label: t('auditForm.typeMedical', locale) },
-  { value: 'dentiste', label: t('auditForm.typeDentist', locale) },
-  { value: 'avocat', label: t('auditForm.typeLawyer', locale) },
-  { value: 'coiffure', label: t('auditForm.typeHair', locale) },
-  { value: 'spa', label: t('auditForm.typeSpa', locale) },
-  { value: 'sport', label: t('auditForm.typeGym', locale) },
-  { value: 'autre', label: t('auditForm.typeOther', locale) },
+  ...['Restaurant','Hotel','Bar','Medical','Dentist','Lawyer','Hair','Spa','Gym','Other'].map((type, i) => ({ value: ['restaurant','hotel','bar','medical','dentiste','avocat','coiffure','spa','sport','autre'][i], label: t(`auditForm.type${type}`, locale) }))
 ];
 ---
-<section id="diagnostic" class="py-16 md:py-24 lg:py-32 bg-cream relative overflow-hidden" aria-label="Tester ma visibilité">
-  <!-- Decorative accent -->
-  <div class="absolute top-0 left-0 w-24 h-24 md:w-40 md:h-40 opacity-[0.03] pointer-events-none" aria-hidden="true">
-    <svg viewBox="0 0 100 100" class="w-full h-full">
-      <circle cx="0" cy="0" r="80" fill="none" stroke="#C4785B" stroke-width="0.5"/>
-      <circle cx="0" cy="0" r="60" fill="none" stroke="#C4785B" stroke-width="0.5"/>
-    </svg>
-  </div>
-
-  <div class="max-w-container mx-auto px-6 md:px-8 lg:px-16 relative">
-    <div class="max-w-2xl mx-auto">
-      <h2 class="section-title mb-4 fade-up-slow">
-        {t('auditForm.title', locale)}
-      </h2>
-      <p class="section-subtitle mb-10 md:mb-12 fade-up">
-        {t('auditForm.subtitle', locale)}
-      </p>
-
-      <FormFields
-        etablissementLabel={t('auditForm.businessName', locale)}
-        etablissementPlaceholder={t('auditForm.businessNamePlaceholder', locale)}
-        typeLabel={t('auditForm.businessType', locale)}
-        typeOptions={typeOptions}
-        cityLabel={t('auditForm.city', locale)}
-        cityPlaceholder={t('auditForm.cityPlaceholder', locale)}
-        emailLabel={t('auditForm.email', locale)}
-        emailPlaceholder={t('auditForm.emailPlaceholder', locale)}
-        submitText={t('auditForm.submitButton', locale)}
-        errorGeneric={t('auditForm.errorGeneric', locale)}
-        fieldRequired={t('auditForm.fieldRequired', locale)}
-        emailInvalid={t('auditForm.emailInvalid', locale)}
-        submitting={t('auditForm.submitting', locale)}
-        redirect={nav.thankYou}
-      />
-
-      <!-- Trust signals -->
-      <p class="text-center text-sm font-sans font-medium text-stone mt-6 fade-up">
-        {t('auditForm.trustSignals', locale)}
-      </p>
-
-      <!-- Phone contact alternative -->
-      <p class="text-center text-sm font-sans text-stone/80 mt-4 fade-up">
-        {t('auditForm.phonePrefer', locale)}
-        <a href="tel:+33612754218" class="font-medium text-terracotta transition-colors duration-200 hover:text-terracotta-dark hover-underline">
-          06 12 75 42 18
-        </a>
-      </p>
-    </div>
+<section id="diagnostic" class="ema-contact ema-sand ema-section" aria-labelledby="contact-title">
+  <div class="ema-wrap ema-two-col">
+    <div><p class="ema-eyebrow">CONTACT / {c.local}</p><h2 id="contact-title">{c.contactTitle[0]}<br /><em>{c.contactTitle[1]}</em></h2><p class="ema-prose">{c.contactIntro}</p><p class="ema-contact-small">{c.contactSmall}</p><a class="ema-contact-address" href="mailto:contact@eddiemiller.agency">contact@eddiemiller.agency ↗</a><a class="ema-text-link" href="tel:+33612754218">06 12 75 42 18</a></div>
+    <FormFields
+      etablissementLabel={t('auditForm.businessName', locale)} etablissementPlaceholder={t('auditForm.businessNamePlaceholder', locale)}
+      typeLabel={t('auditForm.businessType', locale)} typeOptions={typeOptions}
+      cityLabel={t('auditForm.city', locale)} cityPlaceholder={t('auditForm.cityPlaceholder', locale)}
+      emailLabel={t('auditForm.email', locale)} emailPlaceholder={t('auditForm.emailPlaceholder', locale)}
+      submitText={c.cta} errorGeneric={t('auditForm.errorGeneric', locale)} fieldRequired={t('auditForm.fieldRequired', locale)}
+      emailInvalid={t('auditForm.emailInvalid', locale)} submitting={t('auditForm.submitting', locale)} redirect={nav.thankYou}
+    />
   </div>
 </section>
-
 <script>
   import { initFormSubmit } from '../utils/form-submit';
-  initFormSubmit(import.meta.env.PUBLIC_WEBHOOK_URL);
+  initFormSubmit(import.meta.env.PUBLIC_WEBHOOK_URL, import.meta.env.PUBLIC_SITE_MODE !== 'live', import.meta.env.PUBLIC_CONTACT_MODE);
 </script>

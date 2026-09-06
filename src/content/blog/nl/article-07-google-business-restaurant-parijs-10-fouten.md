@@ -21,7 +21,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# Google My Business-vermelding voor restaurant in Parijs: de 10 fouten die u klanten kosten
+## Google My Business-vermelding voor restaurant in Parijs: de 10 fouten die u klanten kosten
 
 Uw Google Business Profile-vermelding is waarschijnlijk het eerste wat een klant ziet voordat hij uw deur binnenstapt. Vóór uw website, vóór uw Instagram-pagina, vóór TheFork of TripAdvisor — het is uw Google-vermelding die verschijnt wanneer iemand zoekt naar "restaurant [wijk] Parijs".
 
@@ -77,7 +77,7 @@ Google biedt de mogelijkheid om uw menu direct op uw vermelding toe te voegen, v
 
 Uw adres is "24 rue des Archives" op Google, "24 r. des Archives" op TheFork, en "24 Rue des Archives, Parijs 3e" op uw website. Uw telefoonnummer verschilt tussen Google en TripAdvisor. Uw zondagse openingstijden komen niet overeen tussen uw Google-vermelding en uw Instagram-pagina.
 
-Deze inconsistenties creëren een dubbel probleem. Voor klanten is het verwarring en wantrouwen. Voor AI's is het een signaal van onbetrouwbare gegevens — en een reden om [een concurrent aan te bevelen in plaats van u](/blog/chatgpt-aanbeveling-restaurant-parijs).
+Deze inconsistenties creëren een dubbel probleem. Voor klanten is het verwarring en wantrouwen. Voor AI's is het een signaal van onbetrouwbare gegevens — en een reden om [een concurrent aan te bevelen in plaats van u](/nl/blog/chatgpt-aanbeveling-restaurant-parijs).
 
 **De correctie:** Maak een ronde langs al uw online aanwezigheid (Google Business, TheFork, TripAdvisor, uw website, Instagram, PagesJaunes) en lijn strikt de naam, het adres (exact hetzelfde formaat), het telefoonnummer en de openingstijden uit. Plan een driemaandelijkse verificatie.
 

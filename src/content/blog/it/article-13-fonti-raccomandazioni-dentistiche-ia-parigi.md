@@ -23,7 +23,7 @@ internal_links:
     anchor: "la nostra guida sulle recensioni Google"
 ---
 
-# Doctolib, Google, PagesJaunes: da dove vengono le raccomandazioni dentistiche delle IA?
+## Doctolib, Google, PagesJaunes: da dove vengono le raccomandazioni dentistiche delle IA?
 
 Capire le fonti significa capire il gioco. Se sapete esattamente da dove vengono le raccomandazioni IA, sapete dove concentrare i vostri sforzi.
 

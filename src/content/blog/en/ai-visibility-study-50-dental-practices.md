@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "We Asked AI to Recommend 50 Dentists in Paris — Almost None Showed Up"
 slug: "ai-visibility-study-50-dental-practices"
 meta_title: "50 Dentists in Paris Tested on ChatGPT and Perplexity: Almost None Are Recommended"
@@ -21,7 +22,7 @@ internal_links:
     anchor: "complete Google Business Profile guide for dentists"
 ---
 
-# Study: We Tested the AI Visibility of 50 Dental Practices in Paris — The Results
+## Study: We Tested the AI Visibility of 50 Dental Practices in Paris — The Results
 
 In March 2026, Eddie Miller Agency conducted a systematic audit of AI visibility for 50 dental practices spread across 12 Paris neighborhoods. The goal: to concretely measure how much (or how little) Parisian dentists are recommended by AI assistants when a patient asks a question.
 

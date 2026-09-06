@@ -21,7 +21,7 @@ internal_links:
     anchor: "unsere Studie über 50 Zahnarztpraxen"
 ---
 
-# Schema.org für Einsteiger: Wie Sie Ihre Webseite für KI lesbar machen (ohne zu coden)
+## Schema.org für Einsteiger: Wie Sie Ihre Webseite für KI lesbar machen (ohne zu coden)
 
 Ihre Webseite spricht mit Menschen. Aber spricht sie auch mit Maschinen?
 
@@ -43,7 +43,7 @@ In technischer Sprache werden diese Informationen in JSON-LD codiert — einem F
 
 Bis vor Kurzem waren strukturierte Daten ein „SEO-Bonus". 2026 hat sich die Lage geändert. Die beiden größten Suchmaschinen der Welt — Google und Microsoft — haben öffentlich bestätigt, dass strukturierte Daten ein kritisches Signal für ihre KI-Funktionen sind. ChatGPT hat ebenfalls bestätigt, strukturierte Daten zu nutzen.
 
-Die Zahlen sprechen für sich. Webseiten mit vollständiger Schema.org-Implementierung werden 2- bis 3-mal häufiger von KI-Suchmaschinen zitiert. Webseiten mit Schema und strukturierter FAQ sehen ihre KI-Sichtbarkeit um etwa 36 % steigen. In [unserer Studie über 50 Pariser Zahnarztpraxen](/blog/studie-ki-sichtbarkeit-50-zahnarztpraxen-paris) hatten nur 12 % Schema.org — und sie waren alle in der Gruppe der sichtbarsten Praxen bei den KI-Systemen.
+Die Zahlen sprechen für sich. Webseiten mit vollständiger Schema.org-Implementierung werden 2- bis 3-mal häufiger von KI-Suchmaschinen zitiert. Webseiten mit Schema und strukturierter FAQ sehen ihre KI-Sichtbarkeit um etwa 36 % steigen. In [unserer Studie über 50 Pariser Zahnarztpraxen](/de/blog/studie-ki-sichtbarkeit-50-zahnarztpraxen-paris) hatten nur 12 % Schema.org — und sie waren alle in der Gruppe der sichtbarsten Praxen bei den KI-Systemen.
 
 ## Die Schema-Typen, die für Ihr Unternehmen zählen
 

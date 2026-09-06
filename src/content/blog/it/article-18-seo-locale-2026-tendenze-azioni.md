@@ -21,7 +21,7 @@ internal_links:
     anchor: "i dati strutturati Schema.org"
 ---
 
-# SEO locale nel 2026: cosa è cambiato e cosa dovete fare adesso
+## SEO locale nel 2026: cosa è cambiato e cosa dovete fare adesso
 
 Se fate SEO locale per il vostro studio, ristorante o hotel parigino, avrete probabilmente notato che le regole sono cambiate.
 

@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Wie diese Zahnarztpraxis in 60 Tagen von unsichtbar zu ChatGPT-empfohlen wurde"
 slug: "fallstudie-zahnarztpraxis-0-bis-3-ki-erwahnungen-60-tage"
 meta_title: "Fallstudie: Eine Pariser Zahnarztpraxis wird in 60 Tagen von ChatGPT empfohlen — so wurde es gemacht"
@@ -23,7 +24,7 @@ internal_links:
     anchor: "unser Schema.org-Leitfaden"
 ---
 
-# Vorher/Nachher: Wie diese Zahnarztpraxis in 60 Tagen von 0 auf 3 KI-Erwähnungen kam
+## Vorher/Nachher: Wie diese Zahnarztpraxis in 60 Tagen von 0 auf 3 KI-Erwähnungen kam
 
 Als diese Zahnarztpraxis im 14. Arrondissement uns kontaktierte, war sie auf ChatGPT, Perplexity und Google AI Overview völlig unsichtbar. Ihr GEO-Score: 12 von 100. Sechzig Tage später erschien sie in 3 von 7 getesteten KI-Antworten, mit einem Score von 54/100.
 

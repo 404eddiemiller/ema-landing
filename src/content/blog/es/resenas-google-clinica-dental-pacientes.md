@@ -21,7 +21,7 @@ internal_links:
     anchor: "por que tu clinica es invisible en ChatGPT"
 ---
 
-# Las resenas de Google de tu clinica dental: como convertirlas en maquina de captar pacientes
+## Las resenas de Google de tu clinica dental: como convertirlas en maquina de captar pacientes
 
 Tus resenas de Google ya no son simplemente un factor de reputacion. En 2026, cumplen tres funciones simultaneas: determinan tu posicion en el Map Pack de Google, influyen en la decision del paciente de elegirte o no, y — este es el cambio mas reciente — alimentan directamente las recomendaciones de los asistentes de IA.
 

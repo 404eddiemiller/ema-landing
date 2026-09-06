@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Which Parisian Businesses Do AI Assistants Recommend Most? (Q1 2026 Rankings)"
 slug: "geo-barometer-2026-q1"
 meta_title: "Q1 2026 Rankings: Which Parisian Dentists, Restaurants and Hotels Do AI Assistants Recommend?"
@@ -23,7 +24,7 @@ internal_links:
     anchor: "our analysis of AI visibility for restaurants"
 ---
 
-# GEO Barometer Paris Q1 2026: Which Businesses Do AI Assistants Recommend Most?
+## GEO Barometer Paris Q1 2026: Which Businesses Do AI Assistants Recommend Most?
 
 Every quarter, Eddie Miller Agency tests the AI visibility of Parisian businesses on ChatGPT, Perplexity, and Google AI Overview. The goal: track market evolution, identify trends, and provide local professionals with a reliable benchmark for their visibility across AI assistants.
 

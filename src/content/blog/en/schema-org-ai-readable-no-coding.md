@@ -21,7 +21,7 @@ internal_links:
     anchor: "our study of 50 dental practices"
 ---
 
-# Schema.org for Beginners: How to Make Your Website Readable by AI (Without Coding)
+## Schema.org for Beginners: How to Make Your Website Readable by AI (Without Coding)
 
 Your website speaks to humans. But does it speak to machines?
 

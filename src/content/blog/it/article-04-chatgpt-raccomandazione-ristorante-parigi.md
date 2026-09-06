@@ -19,7 +19,7 @@ internal_links:
     anchor: "il nostro test comparativo sulle raccomandazioni IA"
 ---
 
-# Ristoratori: ChatGPT raccomanda il vostro ristorante o quello accanto?
+## Ristoratori: ChatGPT raccomanda il vostro ristorante o quello accanto?
 
 Fate il test. Aprite ChatGPT e digitate: « Quale buon ristorante italiano raccomandate nel Marais a Parigi? ». Oppure: « Ristorante con terrazza per una cena romantica nel 6° arrondissement? ».
 

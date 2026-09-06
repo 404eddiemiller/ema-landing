@@ -21,7 +21,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# Fiche Google My Business pour restaurant à Paris : les 10 erreurs qui vous coûtent des clients
+## Fiche Google My Business pour restaurant à Paris : les 10 erreurs qui vous coûtent des clients
 
 Votre fiche Google Business Profile est probablement la première chose qu'un client voit avant de pousser votre porte. Avant votre site web, avant votre page Instagram, avant même TheFork ou TripAdvisor — c'est votre fiche Google qui apparaît quand quelqu'un cherche « restaurant [quartier] Paris ».
 

@@ -3,14 +3,14 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import Header from '../../../components/Header.astro';
+import AgencyArticleCta from '../../../components/AgencyArticleCta.astro';
 import Footer from '../../../components/Footer.astro';
-import { getDisplayDate } from '../../../utils/blog-dates';
 
 const allPosts = (await getCollection('blog'))
-  .filter((post) => !post.data.draft && post.data.lang === 'en')
+  .filter((post) => !post.data.draft && post.data.evidenceStatus !== 'needs-review' && post.data.lang === 'en')
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
-const posts = allPosts.map((post, i) => ({ ...post, displayDate: getDisplayDate(i, allPosts.length) }));
+const posts = allPosts.map((post, i) => ({ ...post, displayDate: new Date(post.data.date) }));
 
 // Group posts by category
 const categories = [...new Set(posts.map((post) => post.data.category))];
@@ -135,27 +135,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
         })}
       </div>
 
-      <!-- CTA at bottom -->
-      <div class="mt-14 md:mt-20 py-10 md:py-12 px-6 md:px-10 bg-sand border border-warmgray/30 text-center">
-        <p class="font-serif text-xl md:text-2xl text-charcoal leading-snug mb-3">
-          Is your business visible on AI?
-        </p>
-        <p class="font-sans text-stone text-base leading-relaxed mb-6 max-w-lg mx-auto">
-          Free diagnostic within 24h: we check if your future customers can find you online, and give you your top 3 priority actions.
-        </p>
-        <a
-          href="/#diagnostic"
-          class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-cream bg-terracotta tracking-wider uppercase transition-colors duration-300 hover:bg-terracotta-dark"
-        >
-          Request my free diagnostic &rarr;
-        </a>
-        <a
-          href="/formules"
-          class="inline-block px-6 py-3 font-sans font-medium text-[0.9375rem] text-charcoal border border-warmgray tracking-wider uppercase transition-colors duration-300 hover:border-terracotta hover:text-terracotta"
-        >
-          See our pricing
-        </a>
-      </div>
+      <AgencyArticleCta />
 
     </div>
   </main>

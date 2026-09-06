@@ -21,7 +21,7 @@ internal_links:
     anchor: "nuestra comparativa de las plataformas IA"
 ---
 
-# Los 7 directorios donde tu restaurante DEBE estar presente para que la IA te recomiende
+## Los 7 directorios donde tu restaurante DEBE estar presente para que la IA te recomiende
 
 Las IA no recomiendan los restaurantes que no encuentran. Un estudio Yext sobre 2,2 millones de citaciones en restauracion mostro que el 41,6 % de las recomendaciones IA provienen de directorios y plataformas terceras, el 39,8 % de sitios web propios, y el 13 % de resenas y redes sociales.
 

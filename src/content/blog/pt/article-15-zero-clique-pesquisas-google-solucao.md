@@ -21,7 +21,7 @@ internal_links:
     anchor: "o nosso comparativo das plataformas IA"
 ---
 
-# Zero clique: porque é que 60% das pesquisas Google já não levam ao seu site (e que fazer)
+## Zero clique: porque é que 60% das pesquisas Google já não levam ao seu site (e que fazer)
 
 Investiu num belo site. Trabalhou o seu referenciamento. Aparece talvez até na primeira página do Google. E no entanto, o seu tráfego estagna — ou desce.
 

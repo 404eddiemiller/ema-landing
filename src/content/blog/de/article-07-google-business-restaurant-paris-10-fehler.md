@@ -21,7 +21,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# Google Business Profil für Restaurants in Paris: Die 10 Fehler, die Sie Kunden kosten
+## Google Business Profil für Restaurants in Paris: Die 10 Fehler, die Sie Kunden kosten
 
 Ihr Google Business Profile ist wahrscheinlich das Erste, was ein Kunde sieht, bevor er Ihre Tür aufstößt. Vor Ihrer Webseite, vor Ihrer Instagram-Seite, sogar vor TheFork oder TripAdvisor — es ist Ihr Google-Profil, das erscheint, wenn jemand „Restaurant [Viertel] Paris" sucht.
 
@@ -57,7 +57,7 @@ Google bietet die Möglichkeit, Ihre Speisekarte direkt in Ihrem Profil hinzuzuf
 
 ## Fehler 7: Widersprüchliche Informationen zwischen Plattformen
 
-Ihre Adresse steht als „24 rue des Archives" auf Google, als „24 r. des Archives" auf TheFork und als „24 Rue des Archives, Paris 3e" auf Ihrer Webseite. Diese Inkonsistenzen schaffen ein doppeltes Problem. Für Kunden ist es Verwirrung und Misstrauen. Für KI-Systeme ist es ein Signal unzuverlässiger Daten — und ein Grund, [einen Konkurrenten statt Ihnen zu empfehlen](/blog/chatgpt-empfehlung-restaurant-paris).
+Ihre Adresse steht als „24 rue des Archives" auf Google, als „24 r. des Archives" auf TheFork und als „24 Rue des Archives, Paris 3e" auf Ihrer Webseite. Diese Inkonsistenzen schaffen ein doppeltes Problem. Für Kunden ist es Verwirrung und Misstrauen. Für KI-Systeme ist es ein Signal unzuverlässiger Daten — und ein Grund, [einen Konkurrenten statt Ihnen zu empfehlen](/de/blog/chatgpt-empfehlung-restaurant-paris).
 
 ## Fehler 8: Kein Google-Beitrag seit Monaten
 

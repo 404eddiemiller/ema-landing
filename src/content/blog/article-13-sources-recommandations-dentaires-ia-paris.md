@@ -23,7 +23,7 @@ internal_links:
     anchor: "notre guide sur les avis Google"
 ---
 
-# Doctolib, Google, PagesJaunes : d'où viennent les recommandations dentaires des IA ?
+## Doctolib, Google, PagesJaunes : d'où viennent les recommandations dentaires des IA ?
 
 Quand ChatGPT recommande un dentiste dans le 15e arrondissement de Paris, d'où tire-t-il cette information ? Quand Perplexity cite un cabinet pour un implant dentaire, quelle source apparaît en bas de sa réponse ? Et quand Google AI Overview synthétise les meilleurs dentistes d'un quartier, quelles données alimente sa réponse ?
 

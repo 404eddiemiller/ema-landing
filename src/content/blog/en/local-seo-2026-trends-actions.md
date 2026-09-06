@@ -21,7 +21,7 @@ internal_links:
     anchor: "Schema.org structured data"
 ---
 
-# Local SEO in 2026: What Has Changed and What You Need to Do Now
+## Local SEO in 2026: What Has Changed and What You Need to Do Now
 
 If you do local SEO for your practice, restaurant, or hotel, you've probably noticed that the rules have changed. Google results no longer look the way they did two years ago. Organic traffic behaves differently. And new competitors — AI assistants — are capturing a growing share of your customers' attention.
 

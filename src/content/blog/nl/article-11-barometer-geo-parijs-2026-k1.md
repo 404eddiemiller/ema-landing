@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Welke Parijse zaken bevelen AI's het meest aan? (rangschikking K1 2026)"
 slug: "barometer-geo-parijs-2026-k1"
 meta_title: "Rangschikking K1 2026: welke tandartsen, restaurants en hotels in Parijs bevelen AI's aan?"
@@ -23,7 +24,7 @@ internal_links:
     anchor: "onze analyse van de AI-zichtbaarheid van restaurants"
 ---
 
-# Barometer GEO Parijs K1 2026: welke zaken bevelen AI's het meest aan?
+## Barometer GEO Parijs K1 2026: welke zaken bevelen AI's het meest aan?
 
 Elk kwartaal test Eddie Miller Agency de AI-zichtbaarheid van Parijse zaken op ChatGPT, Perplexity en Google AI Overview. Het doel: de marktontwikkeling volgen, trends identificeren en lokale professionals een betrouwbaar referentiepunt bieden over hun zichtbaarheid bij AI-assistenten.
 

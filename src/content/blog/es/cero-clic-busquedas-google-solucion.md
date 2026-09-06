@@ -21,7 +21,7 @@ internal_links:
     anchor: "nuestra comparativa de las plataformas IA"
 ---
 
-# Cero clic: por que el 60 % de las busquedas en Google ya no llevan a tu sitio (y que hacer)
+## Cero clic: por que el 60 % de las busquedas en Google ya no llevan a tu sitio (y que hacer)
 
 Has invertido en un bonito sitio web. Has trabajado tu posicionamiento. Quizas apareces en la primera pagina de Google. Y sin embargo, tu trafico se estanca — o baja.
 

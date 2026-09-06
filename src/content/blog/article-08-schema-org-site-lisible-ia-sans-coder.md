@@ -21,7 +21,7 @@ internal_links:
     anchor: "notre étude sur 50 cabinets dentaires"
 ---
 
-# Schema.org pour les nuls : comment rendre votre site lisible par les IA (sans coder)
+## Schema.org pour les nuls : comment rendre votre site lisible par les IA (sans coder)
 
 Votre site web parle aux humains. Mais parle-t-il aux machines ?
 

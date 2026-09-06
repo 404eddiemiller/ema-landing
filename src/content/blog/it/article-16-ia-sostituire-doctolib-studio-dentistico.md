@@ -21,7 +21,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# L'IA sostituirà Doctolib? Cosa cambia per il vostro studio
+## L'IA sostituirà Doctolib? Cosa cambia per il vostro studio
 
 Il titolo è volutamente provocatorio. La risposta breve è no — l'IA non sostituirà Doctolib. Doctolib è uno strumento di prenotazione. L'IA è uno strumento di raccomandazione. Non sono concorrenti, sono due anelli della stessa catena.
 

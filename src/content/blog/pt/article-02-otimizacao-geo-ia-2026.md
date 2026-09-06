@@ -14,7 +14,7 @@ image: "/images/blog/geo-referencement-ia-2026.webp"
 imageAlt: "Fachada de um comércio local com uma luz quente, vista da rua"
 ---
 
-# GEO: o referenciamento que o Google não lhe explica (e que muda tudo em 2026)
+## GEO: o referenciamento que o Google não lhe explica (e que muda tudo em 2026)
 
 É o primeiro no Google. As suas avaliações são excelentes. A sua ficha Google Business está completa. E no entanto, quando um paciente, um cliente ou um turista pergunta ao ChatGPT «qual é o melhor dentista em Paris 15.º?» ou «um bom restaurante italiano no Marais?», a sua atividade não aparece em lado nenhum.
 

@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Como este consultório dentário passou de invisível a recomendado pelo ChatGPT em 60 dias"
 slug: "caso-cliente-consultorio-dentario-0-a-3-mencoes-ia-60-dias"
 meta_title: "Caso concreto: um consultório dentário parisiense recomendado pelo ChatGPT em 60 dias — eis como"
@@ -23,7 +24,7 @@ internal_links:
     anchor: "o nosso guia Schema.org"
 ---
 
-# Antes/Depois: como este consultório dentário passou de 0 a 3 menções IA em 60 dias
+## Antes/Depois: como este consultório dentário passou de 0 a 3 menções IA em 60 dias
 
 Quando este consultório dentário do 14.º bairro nos contactou, estava totalmente invisível no ChatGPT, Perplexity e Google AI Overview. A sua pontuação GEO: 12 em 100. Sessenta dias depois, aparecia em 3 respostas IA nas 7 pesquisas testadas, com uma pontuação de 54/100.
 

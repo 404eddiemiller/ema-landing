@@ -1,0 +1,16 @@
+---
+import { getAgency } from '../data/agency';
+import { getLocaleFromPath, navRoutes } from '../i18n';
+import AuditForm from './AuditForm.astro';
+const { service = 0 } = Astro.props;
+const locale = getLocaleFromPath(Astro.url.pathname);
+const c = getAgency(locale);
+const headings = [c.visibility, c.auto, c.web];
+const intros = [c.visibilityText, c.autoText, c.webText];
+const lists = [c.visibilityList, c.flows.map(flow => `${flow.trigger} → ${flow.output}. ${flow.detail}`), c.offerLists[2]];
+---
+<section class="ema-page-hero ema-wrap"><p class="ema-eyebrow">0{service + 1} / {c.services[service]}</p><h1>{headings[service][0]}<br /><em>{headings[service][1]}</em></h1><p class="ema-prose">{intros[service]}</p><a class="ema-button" href="#diagnostic">{c.cta}<span aria-hidden="true">↗</span></a></section>
+<section class="ema-sand ema-section"><div class="ema-wrap ema-two-col"><div><p class="ema-eyebrow">{c.pillars[service]}</p><h2>{c.services[service]}</h2><p class="ema-prose">{service === 1 ? c.hermesText : c.offerIntro}</p><a class="ema-text-link" href={navRoutes[locale].pricing}>{c.nav[3]}<span aria-hidden="true">↗</span></a></div><ol class="ema-service-list">{lists[service].map((line, i) => <li><span>0{i + 1}</span><p>{line}</p></li>)}</ol></div></section>
+{service === 1 && <section class="ema-wrap ema-section"><p class="ema-eyebrow">HERMES AGENT</p><h2>{c.hermes}</h2><p class="ema-prose">{c.hermesText}</p><div class="ema-steps">{c.flows.map(flow => <article><h3>{flow.output}</h3><p>{flow.note}</p></article>)}</div></section>}
+<section class="ema-wrap ema-section ema-faq-section"><div><p class="ema-eyebrow">FAQ</p><h2>{c.faqTitle}</h2></div><div class="ema-faqs">{c.faqs.filter((_, i) => service === 1 ? [2, 3, 4].includes(i) : [0, 1, 4].includes(i)).map(faq => <details><summary>{faq[0]}<span aria-hidden="true">+</span></summary><p>{faq[1]}</p></details>)}</div></section>
+<AuditForm />

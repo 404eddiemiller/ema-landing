@@ -21,7 +21,7 @@ internal_links:
     anchor: "il nostro confronto delle piattaforme IA"
 ---
 
-# I 7 annuari dove il vostro ristorante DEVE essere presente perché l'IA vi raccomandi
+## I 7 annuari dove il vostro ristorante DEVE essere presente perché l'IA vi raccomandi
 
 Le IA non raccomandano i ristoranti che non trovano. Ecco le 7 piattaforme indispensabili per un ristorante parigino nel 2026, classificate per impatto sulla visibilità IA.
 

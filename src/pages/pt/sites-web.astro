@@ -1,0 +1,11 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import AgencyService from '../../components/AgencyService.astro';
+import { getAgency } from '../../data/agency';
+const c = getAgency('pt');
+---
+<Layout title={c.services[2] + ' — Eddie Miller Agency'} description={c.description} ogTitle={c.services[2] + ' — Eddie Miller Agency'} ogDescription={c.description} skipFaqSchema>
+  <Header /><main id="main-content"><AgencyService service={2} /></main><Footer />
+</Layout>

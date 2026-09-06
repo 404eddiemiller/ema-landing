@@ -23,7 +23,7 @@ internal_links:
     anchor: "notre étude sur 50 cabinets dentaires"
 ---
 
-# 5 choses que votre agence SEO ne vous dit pas sur l'IA et votre visibilité
+## 5 choses que votre agence SEO ne vous dit pas sur l'IA et votre visibilité
 
 Cet article ne vise pas à dénigrer les agences SEO. Le SEO reste fondamental. Mais si vous payez une agence pour votre référencement et que personne ne vous a parlé de votre visibilité IA, il y a un angle mort dans votre stratégie — et cet angle mort s'agrandit chaque trimestre.
 

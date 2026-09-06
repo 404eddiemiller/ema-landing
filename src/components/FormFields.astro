@@ -1,4 +1,11 @@
 ---
+import { getLocaleFromPath, navRoutes } from '../i18n';
+import { getAgency } from '../data/agency';
+import formCopy from '../data/form-copy.json';
+const locale = getLocaleFromPath(Astro.url.pathname);
+const c = getAgency(locale);
+const labels = formCopy[locale];
+const emailContact = import.meta.env.PUBLIC_SITE_MODE === 'live' && import.meta.env.PUBLIC_CONTACT_MODE === 'email';
 // Shared form fields for AuditForm and VerticalLayout
 // Centralizes: honeypot, 4 fields, error display, submit button with spinner
 
@@ -48,7 +55,9 @@ const {
 } = Astro.props;
 ---
 
-<form id="audit-form" class="space-y-6 fade-up" novalidate
+<form id="audit-form" class="space-y-6" method="post" novalidate
+  data-preview-message={labels.preview}
+  data-unavailable={labels.unavailable}
   data-error-generic={errorGeneric}
   data-submitting={submitting}
   data-submit-text={submitText}
@@ -56,12 +65,14 @@ const {
   data-field-required={fieldRequired}
   data-email-invalid={emailInvalid}
   data-page-slug={pageSlug}
+  data-email-subject={labels.emailSubject}
 >
   <!-- Anti-spam: honeypot + timestamp + JS challenge -->
   <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
   <input type="hidden" name="_loaded" value="" />
   <input type="hidden" name="_js" value="" />
 
+  <div class="ema-form-grid">
   <div class="group">
     <label for="etablissement" class="block text-sm font-sans font-medium text-charcoal mb-2 transition-colors duration-300 group-focus-within:text-terracotta">
       {etablissementLabel} <span class="text-terracotta">*</span>
@@ -69,7 +80,7 @@ const {
     <input
       type="text"
       id="etablissement"
-      name="etablissement"
+      name="etablissement" autocomplete="organization" maxlength="150"
       required
       aria-required="true"
       aria-describedby="etablissement-error"
@@ -105,7 +116,7 @@ const {
     <input
       type="text"
       id="ville"
-      name="ville"
+      name="ville" autocomplete="address-level2" maxlength="120"
       required
       aria-required="true"
       aria-describedby="ville-error"
@@ -122,7 +133,7 @@ const {
     <input
       type="email"
       id="email"
-      name="email"
+      name="email" autocomplete="email" maxlength="254"
       required
       aria-required="true"
       aria-describedby="email-error"
@@ -132,12 +143,29 @@ const {
     <p id="email-error" class="field-error hidden text-red-500 text-xs font-sans mt-1" role="alert"></p>
   </div>
 
-  {exclusivityText && (
-    <p class="text-center text-xs font-sans text-stone/80 px-4 py-3 bg-sand border border-warmgray/30">
-      {exclusivityText}
-    </p>
-  )}
-
+  <div class="group ema-field-wide">
+    <label for="besoin" class="block text-sm font-sans font-medium text-charcoal mb-2">{labels.need}</label>
+    <select id="besoin" name="besoin" class="select-chevron block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray">
+      <option value="a-definir">{labels.choose}</option>
+      {c.services.map((service, i) => <option value={['visibilite','automatisation','site-web'][i]}>{service}</option>)}
+    </select>
+  </div>
+  <div class="group ema-field-wide">
+    <label for="site" class="block text-sm font-sans font-medium text-charcoal mb-2">{labels.site}</label>
+    <input id="site" name="site" type="url" inputmode="url" maxlength="500" placeholder="https://" class="block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray" />
+  </div>
+  <div class="group ema-field-wide">
+    <label for="message" class="block text-sm font-sans font-medium text-charcoal mb-2">{labels.message}</label>
+    <textarea id="message" name="message" rows="3" maxlength="1500" class="block w-full px-4 py-3.5 font-sans text-base text-charcoal bg-cream border border-warmgray"></textarea>
+  </div>
+  </div>
+  <p class="ema-privacy">{labels.privacy} <a href={navRoutes[locale].legal}>{labels.policy}</a>.</p>
+  {emailContact && <p class="ema-contact-small">{labels.emailIntro}</p>}
+  <div id="form-preview" class="hidden px-4 py-3 bg-cream border border-warmgray font-sans text-sm" role="status" tabindex="-1"></div>
+  {emailContact && <div id="form-email" class="hidden px-4 py-4 bg-cream border border-warmgray font-sans text-sm" role="status" tabindex="-1">
+    <p>{labels.emailReady}</p>
+    <a id="form-email-link" class="ema-text-link" href="mailto:contact@eddiemiller.agency">{labels.emailOpen} ↗</a>
+  </div>}
   <!-- Error message -->
   <div id="form-error" class="hidden px-4 py-3 form-error-box font-sans text-sm" role="alert" aria-live="assertive" tabindex="-1">
     {errorGeneric}
@@ -146,12 +174,14 @@ const {
   <button
     type="submit"
     id="submit-btn"
-    class="btn-primary flex items-center justify-center gap-2 w-full cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
+    disabled
+    class="ema-button flex items-center justify-center gap-2 w-full cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
   >
     <svg id="submit-spinner" class="hidden w-5 h-5 animate-spin" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3"></circle>
       <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
     </svg>
-    <span id="submit-text">{submitText}</span>
+    <span id="submit-text">{emailContact ? labels.emailPrepare : submitText}</span>
   </button>
+<noscript><p>{labels.nojs} <a href="mailto:contact@eddiemiller.agency">contact@eddiemiller.agency</a></p></noscript>
 </form>

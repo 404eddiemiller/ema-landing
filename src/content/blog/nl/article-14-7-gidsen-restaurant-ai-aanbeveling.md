@@ -21,7 +21,7 @@ internal_links:
     anchor: "onze vergelijking van AI-platformen"
 ---
 
-# De 7 gidsen waar uw restaurant MOET aanwezig zijn zodat de AI u aanbeveelt
+## De 7 gidsen waar uw restaurant MOET aanwezig zijn zodat de AI u aanbeveelt
 
 AI's bevelen geen restaurants aan die ze niet vinden. En ze zoeken niet overal — ze hebben hun favoriete bronnen.
 

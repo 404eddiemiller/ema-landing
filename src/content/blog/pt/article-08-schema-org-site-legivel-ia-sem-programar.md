@@ -21,7 +21,7 @@ internal_links:
     anchor: "o nosso estudo sobre 50 consultórios dentários"
 ---
 
-# Schema.org para principiantes: como tornar o seu site legível pelas IA (sem programar)
+## Schema.org para principiantes: como tornar o seu site legível pelas IA (sem programar)
 
 O seu site fala com os humanos. Mas fala com as máquinas?
 

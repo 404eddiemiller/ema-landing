@@ -21,7 +21,7 @@ internal_links:
     anchor: "Schema.org structured data"
 ---
 
-# Google AI Overview: Does Your Hotel Appear in Google's New Answers?
+## Google AI Overview: Does Your Hotel Appear in Google's New Answers?
 
 When a traveler searches for "charming hotel Marais Paris" on Google, they no longer just see a list of results and Booking ads. Since the rollout of AI Overviews, Google can now display an AI-generated summary above all results — a conversational response that recommends hotels, compares prices, and summarizes reviews.
 

@@ -19,7 +19,7 @@ internal_links:
     anchor: "warum KI-Systeme Ihre Praxis nicht empfehlen"
 ---
 
-# Google Business Profile: Der vollst��ndige Leitfaden für Pariser Zahnärzte (2026)
+## Google Business Profile: Der vollst��ndige Leitfaden für Pariser Zahnärzte (2026)
 
 Ihr Google Business Profile (GBP) ist zum ersten Kontaktpunkt zwischen Ihnen und Ihren zukünftigen Patienten geworden. Noch bevor sie Ihre Webseite besuchen oder Doctolib konsultieren, sehen die meisten Patienten Ihr Google-Profil — sei es in den Suchergebnissen, auf Google Maps oder mittlerweile in den KI-generierten Antworten.
 
@@ -135,7 +135,7 @@ Ein letzter wesentlicher Punkt, den die meisten GBP-Leitfäden nicht erwähnen: 
 
 Wenn ein Nutzer ChatGPT fragt „Welchen Zahnarzt empfehlen Sie im 15. Arrondissement?" oder Google AI Overview „bester Kieferorthopäde Paris 11", werden die Informationen Ihres Profils — Beschreibung, Leistungen, Bewertungen, Fotos, aktuelle Aktivität — direkt genutzt, um zu entscheiden, ob Sie es verdienen, zitiert zu werden.
 
-Ein optimiertes GBP-Profil verbessert nicht nur Ihre Position in Google Maps. Es verbessert Ihre [Sichtbarkeit bei allen KI-Systemen](/blog/geo-optimierung-ki-2026). Das ist die Grundlage jeder GEO-Strategie (Generative Engine Optimization) — und für eine Pariser Zahnarztpraxis ist es die Maßnahme mit der bestmöglichen Rendite.
+Ein optimiertes GBP-Profil verbessert nicht nur Ihre Position in Google Maps. Es verbessert Ihre [Sichtbarkeit bei allen KI-Systemen](/de/blog/geo-optimierung-ki-2026). Das ist die Grundlage jeder GEO-Strategie (Generative Engine Optimization) — und für eine Pariser Zahnarztpraxis ist es die Maßnahme mit der bestmöglichen Rendite.
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Comment ce cabinet dentaire est passé d'invisible à recommandé par ChatGPT en 60 jours"
 slug: "cas-client-cabinet-dentaire-0-a-3-mentions-ia-60-jours"
 meta_title: "Cas concret : un cabinet dentaire parisien recommandé par ChatGPT en 60 jours — voici comment"
@@ -23,7 +24,7 @@ internal_links:
     anchor: "notre guide Schema.org"
 ---
 
-# Avant/Après : comment ce cabinet dentaire est passé de 0 à 3 mentions IA en 60 jours
+## Avant/Après : comment ce cabinet dentaire est passé de 0 à 3 mentions IA en 60 jours
 
 Quand ce cabinet dentaire du 14e arrondissement nous a contactés, il était totalement invisible sur ChatGPT, Perplexity et Google AI Overview. Son score GEO : 12 sur 100. Soixante jours plus tard, il apparaissait dans 3 réponses IA sur les 7 requêtes testées, avec un score de 54/100.
 

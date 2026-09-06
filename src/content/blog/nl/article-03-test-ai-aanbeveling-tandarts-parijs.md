@@ -21,7 +21,7 @@ internal_links:
     anchor: "ons onderzoek naar 50 Parijse praktijken"
 ---
 
-# Wanneer een patiënt aan de AI vraagt "welke tandarts kiezen", wat antwoordt die dan?
+## Wanneer een patiënt aan de AI vraagt "welke tandarts kiezen", wat antwoordt die dan?
 
 We hebben precies dezelfde vraag gesteld aan drie AI-platformen — ChatGPT, Perplexity en Google AI Overview — en elk antwoord gedocumenteerd.
 
@@ -133,7 +133,7 @@ De meest opvallende constatering van deze vergelijking is dat dezelfde vraag ges
 
 Dit betekent dat zichtbaar zijn op een enkel platform niet volstaat. Een praktijk die alleen voor Google is geoptimaliseerd, verliest de patiënten die via ChatGPT en Perplexity komen — en omgekeerd.
 
-Dit is de hele filosofie van [GEO (Generative Engine Optimization)](/blog/geo-optimalisatie-ai-2026): uw aanwezigheid optimaliseren om door alle AI-platformen aanbevolen te worden, niet alleen door Google. De praktijken die dit nu begrijpen en er naar handelen, trekken patiënten aan die hun collega's niet eens voorbij zien komen.
+Dit is de hele filosofie van [GEO (Generative Engine Optimization)](/nl/blog/geo-optimalisatie-ai-2026): uw aanwezigheid optimaliseren om door alle AI-platformen aanbevolen te worden, niet alleen door Google. De praktijken die dit nu begrijpen en er naar handelen, trekken patiënten aan die hun collega's niet eens voorbij zien komen.
 
 ---
 

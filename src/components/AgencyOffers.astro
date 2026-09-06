@@ -1,0 +1,10 @@
+---
+import { getAgency } from '../data/agency';
+import { getLocaleFromPath } from '../i18n';
+import AuditForm from './AuditForm.astro';
+const c = getAgency(getLocaleFromPath(Astro.url.pathname));
+---
+<section class="ema-page-hero ema-wrap"><p class="ema-eyebrow">EDDIE MILLER AGENCY / {c.nav[3]}</p><h1>{c.offerTitle[0]}<br /><em>{c.offerTitle[1]}</em></h1><p class="ema-prose">{c.offerIntro}</p></section>
+<section class="ema-wrap ema-offers" aria-label={c.nav[3]}>{c.services.map((service, i) => <article class:list={['ema-offer', i === 0 && 'ema-offer-featured']}><p class="ema-eyebrow">0{i + 1} / {c.pillars[i]}</p><h2>{service}</h2><div class="ema-price"><span>{c.priceLabel}</span><p>{c.prices[i]}</p><span>{c.priceNote}</span></div><ul>{c.offerLists[i].map(line => <li>{line}</li>)}</ul><a href="#diagnostic" class="ema-text-link">{c.cta}<span aria-hidden="true">↗</span></a></article>)}</section>
+<section class="ema-wrap ema-follow"><div><p class="ema-eyebrow">EMA / SUIVI</p><h2>{c.follow}</h2><p class="ema-prose">{c.followText}</p></div><div><p class="ema-follow-price">{c.followPrice}</p><p class="ema-offer-note">{c.followNote}</p></div></section>
+<AuditForm />

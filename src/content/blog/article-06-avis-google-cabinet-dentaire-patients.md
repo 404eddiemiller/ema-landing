@@ -21,7 +21,7 @@ internal_links:
     anchor: "pourquoi votre cabinet est invisible sur ChatGPT"
 ---
 
-# Les avis Google de votre cabinet dentaire : comment les transformer en machine à patients
+## Les avis Google de votre cabinet dentaire : comment les transformer en machine à patients
 
 Vos avis Google ne sont plus simplement un facteur de réputation. En 2026, ils remplissent trois fonctions simultanées : ils déterminent votre position dans le Map Pack de Google, ils influencent la décision du patient de vous choisir ou non, et — c'est le changement le plus récent — ils alimentent directement les recommandations des assistants IA.
 

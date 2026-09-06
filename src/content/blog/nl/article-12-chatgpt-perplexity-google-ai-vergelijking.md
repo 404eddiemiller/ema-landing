@@ -21,7 +21,7 @@ internal_links:
     anchor: "onze Barometer GEO Parijs K1 2026"
 ---
 
-# ChatGPT vs Perplexity vs Google AI: welke beveelt Parijse zaken het best aan?
+## ChatGPT vs Perplexity vs Google AI: welke beveelt Parijse zaken het best aan?
 
 Wanneer een Parijzenaar of toerist een lokale aanbeveling aan een AI vraagt, hangt het resultaat evenveel af van het gebruikte platform als van de gezochte zaak. ChatGPT, Perplexity en Google AI Overview werken niet op dezelfde manier, raadplegen niet dezelfde bronnen en bevelen niet dezelfde zaken aan.
 
@@ -55,7 +55,7 @@ Google AI Overview put uit zijn eigen ecosysteem met 100% nauwkeurigheid op feit
 
 **Google AI Overview-boost:** Schema.org-gestructureerde gegevens. Geoptimaliseerde inhoudspagina's.
 
-Dit is precies de geïntegreerde benadering die een [GEO (Generative Engine Optimization)](/blog/geo-optimalisatie-ai-2026)-strategie omvat.
+Dit is precies de geïntegreerde benadering die een [GEO (Generative Engine Optimization)](/nl/blog/geo-optimalisatie-ai-2026)-strategie omvat.
 
 ---
 

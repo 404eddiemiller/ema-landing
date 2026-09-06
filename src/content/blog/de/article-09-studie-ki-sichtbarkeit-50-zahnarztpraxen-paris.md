@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Wir haben KI-Systeme gebeten, 50 Pariser Zahnärzte zu empfehlen — fast keiner erschien"
 slug: "studie-ki-sichtbarkeit-50-zahnarztpraxen-paris"
 meta_title: "50 Zahnärzte in Paris auf ChatGPT und Perplexity getestet: Fast keiner wird empfohlen"
@@ -21,7 +22,7 @@ internal_links:
     anchor: "vollständiger Google Business Profile Leitfaden für Zahnärzte"
 ---
 
-# Studie: Wir haben die KI-Sichtbarkeit von 50 Pariser Zahnarztpraxen getestet — die Ergebnisse
+## Studie: Wir haben die KI-Sichtbarkeit von 50 Pariser Zahnarztpraxen getestet — die Ergebnisse
 
 Im März 2026 hat Eddie Miller Agency ein systematisches Audit der KI-Sichtbarkeit von 50 Zahnarztpraxen in 12 Pariser Arrondissements durchgeführt. Das Ziel: konkret messen, inwieweit Pariser Zahnärzte von KI-Assistenten empfohlen werden (oder nicht), wenn ein Patient eine Frage stellt.
 

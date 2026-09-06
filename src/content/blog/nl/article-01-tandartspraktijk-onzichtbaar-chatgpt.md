@@ -17,7 +17,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# Uw tandartspraktijk is onzichtbaar op ChatGPT: dit is waarom
+## Uw tandartspraktijk is onzichtbaar op ChatGPT: dit is waarom
 
 Doe nu de test. Open ChatGPT of Perplexity en typ: « Welke tandarts raadt u mij aan in het [Xe] arrondissement van Parijs? ».
 
@@ -160,7 +160,7 @@ Ja, het is een aanzienlijk nadeel. Zonder website beschikt de AI alleen over uw 
 De meest directe acties (uw Google-vermelding aanvullen, recente beoordelingen verzamelen) kunnen resultaten opleveren in 2 tot 4 weken. De effecten van gestructureerde gegevens en multi-platformaanwezigheid duren doorgaans 2 tot 3 maanden om volledig door de AI's te worden geïntegreerd. Het belangrijkste is om nu te beginnen: hoe eerder u handelt, hoe sneller de kloof met uw collega's kleiner wordt.
 
 ### Is GEO anders dan klassieke lokale SEO?
-GEO (Generative Engine Optimization) omvat lokale SEO en gaat verder. Lokale SEO is erop gericht u te positioneren in Google Maps-resultaten en lokale zoekopdrachten. GEO is er daarnaast op gericht u te laten citeren en aanbevelen door conversationele AI's (ChatGPT, Perplexity, Google AI). Beide zijn complementair, maar GEO voegt specifieke hefbomen toe zoals gestructureerde gegevens, aanwezigheid op de bronnen die elke AI verkiest, en continue versheid van inhoud. Lees voor meer informatie onze volledige gids over [GEO (Generative Engine Optimization)](/blog/geo-optimalisatie-ai-2026).
+GEO (Generative Engine Optimization) omvat lokale SEO en gaat verder. Lokale SEO is erop gericht u te positioneren in Google Maps-resultaten en lokale zoekopdrachten. GEO is er daarnaast op gericht u te laten citeren en aanbevelen door conversationele AI's (ChatGPT, Perplexity, Google AI). Beide zijn complementair, maar GEO voegt specifieke hefbomen toe zoals gestructureerde gegevens, aanwezigheid op de bronnen die elke AI verkiest, en continue versheid van inhoud. Lees voor meer informatie onze volledige gids over [GEO (Generative Engine Optimization)](/nl/blog/geo-optimalisatie-ai-2026).
 
 ---
 

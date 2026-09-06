@@ -23,7 +23,7 @@ internal_links:
     anchor: "nuestra guia sobre las resenas de Google"
 ---
 
-# Doctolib, Google, PagesJaunes: de donde vienen las recomendaciones dentales de las IA?
+## Doctolib, Google, PagesJaunes: de donde vienen las recomendaciones dentales de las IA?
 
 Cuando ChatGPT recomienda un dentista en el distrito 15 de Paris, de donde saca esa informacion? Comprender las fuentes es comprender el juego. Si sabes exactamente de donde vienen las recomendaciones de IA, sabes exactamente donde concentrar tus esfuerzos.
 

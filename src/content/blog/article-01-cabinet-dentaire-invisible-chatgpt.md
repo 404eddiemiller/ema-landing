@@ -17,7 +17,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# Votre cabinet dentaire est invisible sur ChatGPT : voici pourquoi
+## Votre cabinet dentaire est invisible sur ChatGPT : voici pourquoi
 
 Faites le test maintenant. Ouvrez ChatGPT ou Perplexity et tapez : « Quel dentiste me recommandez-vous dans le [Xe] arrondissement de Paris ? ».
 

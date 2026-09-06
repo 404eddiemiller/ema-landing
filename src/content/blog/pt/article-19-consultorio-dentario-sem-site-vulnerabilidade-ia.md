@@ -23,7 +23,7 @@ internal_links:
     anchor: "o nosso guia Google Business Profile"
 ---
 
-# Porque é que os consultórios sem site são os mais vulneráveis face à IA
+## Porque é que os consultórios sem site são os mais vulneráveis face à IA
 
 Eis um paradoxo que descobrimos ao auditar a visibilidade IA dos consultórios dentários parisienses: os consultórios sem site são os mais vulneráveis à ascensão das IA — mas também aqueles para quem o GEO oferece a maior alavanca de crescimento.
 

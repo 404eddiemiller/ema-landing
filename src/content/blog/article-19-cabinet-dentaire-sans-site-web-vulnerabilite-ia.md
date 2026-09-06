@@ -23,7 +23,7 @@ internal_links:
     anchor: "notre guide Google Business Profile"
 ---
 
-# Pourquoi les cabinets sans site web sont les plus vulnérables face à l'IA
+## Pourquoi les cabinets sans site web sont les plus vulnérables face à l'IA
 
 Voici un paradoxe que nous avons découvert en auditant la visibilité IA des cabinets dentaires parisiens : les cabinets sans site web sont les plus vulnérables à la montée des IA — mais aussi ceux pour qui le GEO offre le plus grand levier de croissance.
 

@@ -14,7 +14,7 @@ image: "/images/blog/geo-referencement-ia-2026.webp"
 imageAlt: "Schaufenster eines lokalen Geschäfts mit warmem Licht, von der Straße aus gesehen"
 ---
 
-# GEO: Die Suchmaschinenoptimierung, die Google Ihnen nicht erklärt (und die 2026 alles verändert)
+## GEO: Die Suchmaschinenoptimierung, die Google Ihnen nicht erklärt (und die 2026 alles verändert)
 
 Sie sind Erster auf Google. Ihre Bewertungen sind ausgezeichnet. Ihr Google Business Profil ist vollständig. Und dennoch, wenn ein Patient, ein Kunde oder ein Tourist ChatGPT fragt „Welcher ist der beste Zahnarzt in Paris 15?" oder „Ein gutes italienisches Restaurant im Marais?", erscheint Ihr Unternehmen nirgends.
 

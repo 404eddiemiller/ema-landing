@@ -19,7 +19,7 @@ internal_links:
     anchor: "por que las IA no recomiendan tu clinica"
 ---
 
-# Google Business Profile: la guia completa para dentistas parisinos (2026)
+## Google Business Profile: la guia completa para dentistas parisinos (2026)
 
 Tu ficha Google Business Profile (GBP) se ha convertido en el primer punto de contacto entre tu y tus futuros pacientes. Antes incluso de visitar tu sitio web o de consultar Doctolib, la mayoria de los pacientes ven tu ficha Google — ya sea en los resultados de busqueda, en Google Maps, o ahora en las respuestas generadas por la IA.
 

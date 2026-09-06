@@ -21,7 +21,7 @@ internal_links:
     anchor: "porque é que o seu consultório está invisível no ChatGPT"
 ---
 
-# As avaliações Google do seu consultório dentário: como transformá-las numa máquina de pacientes
+## As avaliações Google do seu consultório dentário: como transformá-las numa máquina de pacientes
 
 As suas avaliações Google já não são simplesmente um fator de reputação. Em 2026, cumprem três funções simultâneas: determinam a sua posição no Map Pack do Google, influenciam a decisão do paciente de o escolher ou não, e — é a mudança mais recente — alimentam diretamente as recomendações dos assistentes de IA.
 

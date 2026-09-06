@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
+import archivedClaims from './src/data/archived-claims.json' with { type: 'json' };
 
 export default defineConfig({
   site: 'https://eddiemiller.agency',
@@ -16,13 +17,9 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter: (page) =>
-        !page.match(
-          /\/(merci|merci-paiement|thank-you|gracias|danke|grazie|obrigado|bedankt)(\/|$)/,
+        !archivedClaims.some(path => new URL(page).pathname.replace(/\/$/, '') === path) && !page.match(
+          /\/(merci|merci-paiement|thank-you|gracias|danke|grazie|obrigado|bedankt|404)(\/|\.|$)/,
         ),
-      serialize: (item) => {
-        item.lastmod = new Date().toISOString();
-        return item;
-      },
       i18n: {
         defaultLocale: 'fr',
         locales: {

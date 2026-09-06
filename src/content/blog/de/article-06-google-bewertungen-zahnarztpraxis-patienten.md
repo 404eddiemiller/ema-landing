@@ -21,7 +21,7 @@ internal_links:
     anchor: "warum Ihre Praxis auf ChatGPT unsichtbar ist"
 ---
 
-# Die Google-Bewertungen Ihrer Zahnarztpraxis: Wie Sie sie in eine Patientenmaschine verwandeln
+## Die Google-Bewertungen Ihrer Zahnarztpraxis: Wie Sie sie in eine Patientenmaschine verwandeln
 
 Ihre Google-Bewertungen sind nicht mehr nur ein Reputationsfaktor. 2026 erfüllen sie drei gleichzeitige Funktionen: Sie bestimmen Ihre Position im Google Map Pack, sie beeinflussen die Entscheidung des Patienten, Sie zu wählen oder nicht, und — das ist die jüngste Veränderung — sie speisen direkt die Empfehlungen der KI-Assistenten.
 
@@ -101,7 +101,7 @@ Wenn ein Nutzer ChatGPT fragt „bester Zahnarzt für Implantat im 15.", sucht d
 
 **Woche 4 — Routinisierung.** Die Bewertungssammlung wird zu einem permanenten, in den Praxisablauf integrierten Prozess.
 
-Nach 90 Tagen mit diesem eingerichteten Prozess sollten Sie eine messbare Verbesserung Ihrer Map Pack-Position, der Anzahl der Terminanfragen über Google und — in Kombination mit den anderen Maßnahmen unseres [GBP-Leitfadens](/blog/google-business-profile-leitfaden-zahnarzt-paris) — Ihrer KI-Sichtbarkeit beobachten.
+Nach 90 Tagen mit diesem eingerichteten Prozess sollten Sie eine messbare Verbesserung Ihrer Map Pack-Position, der Anzahl der Terminanfragen über Google und — in Kombination mit den anderen Maßnahmen unseres [GBP-Leitfadens](/de/blog/google-business-profile-leitfaden-zahnarzt-paris) — Ihrer KI-Sichtbarkeit beobachten.
 
 ---
 

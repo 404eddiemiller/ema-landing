@@ -1,0 +1,16 @@
+---
+import { getAgency } from '../data/agency';
+import { getLocaleFromPath, navRoutes } from '../i18n';
+const locale = getLocaleFromPath(Astro.url.pathname);
+const c = getAgency(locale);
+const nav = navRoutes[locale];
+---
+<aside class="ema-article-cta">
+  <p class="ema-eyebrow">{c.contactSmall}</p>
+  <h2>{c.contactTitle.join(' ')}</h2>
+  <p class="ema-prose">{c.contactIntro}</p>
+  <div class="ema-actions">
+    <a class="ema-button" href={nav.audit}>{c.cta}<span aria-hidden="true">↗</span></a>
+    <a class="ema-text-link" href={nav.pricing}>{c.nav[3]} <span aria-hidden="true">↗</span></a>
+  </div>
+</aside>

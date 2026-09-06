@@ -21,7 +21,7 @@ internal_links:
     anchor: "GEO (Generative Engine Optimization)"
 ---
 
-# Gaat AI Doctolib vervangen? Wat dit verandert voor uw praktijk
+## Gaat AI Doctolib vervangen? Wat dit verandert voor uw praktijk
 
 De titel is opzettelijk provocerend. Het korte antwoord is nee — AI gaat Doctolib niet vervangen. Doctolib is een reserveringstool. AI is een aanbevelingstool. Het zijn geen concurrenten, het zijn twee schakels van dezelfde keten.
 

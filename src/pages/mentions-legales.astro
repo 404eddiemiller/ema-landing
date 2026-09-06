@@ -10,7 +10,7 @@ import Footer from '../components/Footer.astro';
   skipFaqSchema={true}
 >
   <Header />
-  <main class="pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-48 lg:pb-32 bg-cream">
+  <main id="main-content" class="pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-48 lg:pb-32 bg-cream">
     <article class="max-w-container mx-auto px-6 md:px-8 lg:px-16">
       <div class="max-w-[65ch]">
         <h1 class="text-[2rem] md:text-[3rem] font-serif font-normal leading-[1.15] tracking-[-0.02em] text-charcoal mb-10 md:mb-14">
@@ -57,11 +57,11 @@ import Footer from '../components/Footer.astro';
           </h2>
           <div class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone space-y-4">
             <p><strong class="text-charcoal">Responsable du traitement :</strong> Eddie Miller Agency, 75014 Paris.</p>
-            <p><strong class="text-charcoal">Données collectées :</strong> nom de l'établissement, type d'établissement, localisation, adresse email, numéro de téléphone (optionnel). Dans le cadre des prestations : coordonnées professionnelles, informations de la fiche Google Business, présence en ligne.</p>
-            <p><strong class="text-charcoal">Finalité :</strong> répondre à votre demande de diagnostic, réaliser les prestations commandées, établir les factures et gérer la relation commerciale.</p>
-            <p><strong class="text-charcoal">Base légale :</strong> exécution du contrat (article 6.1.b du RGPD).</p>
+            <p><strong class="text-charcoal">Données collectées :</strong> nom de l’entreprise, type d’activité, ville, adresse email ; priorité, site web et message facultatifs. Dans le cadre des prestations : coordonnées professionnelles, informations de la fiche Google Business, présence en ligne.</p>
+            <p><strong class="text-charcoal">Finalité :</strong> répondre à votre demande de contact, réaliser les prestations commandées, établir les factures et gérer la relation commerciale.</p>
+            <p><strong class="text-charcoal">Base légale :</strong> mesures précontractuelles prises à votre demande et exécution du contrat (article 6.1.b du RGPD).</p>
             <p><strong class="text-charcoal">Durée de conservation :</strong> durée de la relation contractuelle + 3 ans. Factures : 10 ans (obligation comptable).</p>
-            <p><strong class="text-charcoal">Destinataires :</strong> les données sont traitées uniquement par Eddie Miller Agency. Elles ne sont transmises à aucun tiers, à l'exception des sous-traitants techniques (Vercel pour l'hébergement, Stripe pour le paiement).</p>
+            <p><strong class="text-charcoal">Destinataires :</strong> le formulaire prépare un email dans votre messagerie, sans transmettre son contenu au serveur du site. Vous choisissez de l’envoyer à Eddie Miller Agency. Votre service de messagerie et celui du destinataire acheminent ce message. Vercel héberge le site ; Plausible mesure son audience. Aucun paiement n’est collecté sur ce site.</p>
             <p><strong class="text-charcoal">Vos droits :</strong> conformément au RGPD, vous disposez d'un droit d'accès, de rectification, de suppression, d'opposition et de portabilité de vos données. Pour exercer ces droits : <a href="mailto:contact@eddiemiller.agency" class="text-terracotta transition-colors duration-200 hover:text-terracotta-dark">contact@eddiemiller.agency</a>. Délai de réponse : 30 jours maximum.</p>
             <p><strong class="text-charcoal">Réclamation :</strong> en cas de différend, vous pouvez déposer une réclamation auprès de la CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" class="text-terracotta transition-colors duration-200 hover:text-terracotta-dark">www.cnil.fr</a>).</p>
           </div>
@@ -72,7 +72,7 @@ import Footer from '../components/Footer.astro';
             Cookies
           </h2>
           <p class="text-base md:text-lg font-sans font-normal leading-relaxed text-stone">
-            Ce site utilise Plausible Analytics, un outil de mesure d'audience respectueux de la vie privée qui ne dépose aucun cookie et ne collecte aucune donnée personnelle.
+            Ce site utilise Plausible Analytics, un outil de mesure d'audience respectueux de la vie privée qui ne dépose aucun cookie et ne suit pas les visiteurs entre différents sites.
           </p>
         </section>
       </div>

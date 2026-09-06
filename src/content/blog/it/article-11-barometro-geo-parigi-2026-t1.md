@@ -1,4 +1,5 @@
 ---
+evidenceStatus: "needs-review"
 title: "Quali attività parigine le IA raccomandano di più? (classifica T1 2026)"
 slug: "barometro-geo-parigi-2026-t1"
 meta_title: "Classifica T1 2026: quali dentisti, ristoranti e hotel parigini le IA raccomandano?"
@@ -23,7 +24,7 @@ internal_links:
     anchor: "la nostra analisi della visibilità IA dei ristoranti"
 ---
 
-# Barometro GEO Parigi T1 2026: quali attività le IA raccomandano di più?
+## Barometro GEO Parigi T1 2026: quali attività le IA raccomandano di più?
 
 Ogni trimestre, Eddie Miller Agency testa la visibilità IA delle attività parigine su ChatGPT, Perplexity e Google AI Overview. L'obiettivo: seguire l'evoluzione del mercato, identificare le tendenze, e fornire ai professionisti locali un punto di riferimento affidabile sulla loro visibilità presso gli assistenti IA.
 

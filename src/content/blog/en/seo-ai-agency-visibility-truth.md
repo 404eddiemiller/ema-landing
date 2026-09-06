@@ -23,7 +23,7 @@ internal_links:
     anchor: "our study of 50 dental practices"
 ---
 
-# 5 Things Your SEO Agency Isn't Telling You About AI and Your Visibility
+## 5 Things Your SEO Agency Isn't Telling You About AI and Your Visibility
 
 This article isn't meant to disparage SEO agencies. SEO remains fundamental. But if you're paying an agency for your search rankings and no one has talked to you about your AI visibility, there's a blind spot in your strategy — and that blind spot is growing every quarter.
 

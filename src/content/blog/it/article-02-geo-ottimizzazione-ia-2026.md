@@ -14,7 +14,7 @@ image: "/images/blog/geo-referencement-ia-2026.webp"
 imageAlt: "Facciata di un negozio locale con una luce calda, vista dalla strada"
 ---
 
-# GEO: il posizionamento che Google non vi spiega (e che cambia tutto nel 2026)
+## GEO: il posizionamento che Google non vi spiega (e che cambia tutto nel 2026)
 
 Siete primi su Google. Le vostre recensioni sono eccellenti. La vostra scheda Google Business è completa. Eppure, quando un paziente, un cliente o un turista chiede a ChatGPT « qual è il miglior dentista a Parigi 15°? » o « un buon ristorante italiano nel Marais? », la vostra attività non compare da nessuna parte.
 

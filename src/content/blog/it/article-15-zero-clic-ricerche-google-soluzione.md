@@ -21,7 +21,7 @@ internal_links:
     anchor: "il nostro confronto delle piattaforme IA"
 ---
 
-# Zero clic: perché il 60% delle ricerche Google non porta più al vostro sito (e che fare)
+## Zero clic: perché il 60% delle ricerche Google non porta più al vostro sito (e che fare)
 
 Avete investito in un bel sito web. Avete lavorato il vostro posizionamento. Comparite forse anche in prima pagina di Google. Eppure, il vostro traffico ristagna — o cala.
 

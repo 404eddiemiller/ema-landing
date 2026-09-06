@@ -1,0 +1,1274 @@
+{
+  "en": {
+    "title": "AI visibility, automation & websites in Paris — Eddie Miller Agency",
+    "description": "Help customers find your business through AI search and Google Maps. Simplify repetitive work and build a website worthy of your expertise.",
+    "eyebrow": "Artificial intelligence. A feel for real business.",
+    "hero": [
+      "Great local places",
+      "deserve to be",
+      "discovered."
+    ],
+    "intro": "Your next customer is looking for you. On ChatGPT, on Google, in your neighbourhood. Let’s help them discover you — and give you more time to welcome them.",
+    "cta": "Let’s talk about your business",
+    "secondary": "Discover our approach",
+    "local": "Paris & Île-de-France",
+    "photo": "The expertise is yours. We help it get noticed.",
+    "nav": [
+      "Expertise",
+      "Your industry",
+      "Our approach",
+      "Our services"
+    ],
+    "pillars": [
+      "Get found",
+      "Save time",
+      "Make an impression"
+    ],
+    "services": [
+      "AI visibility & Google Maps",
+      "AI automation",
+      "Website creation"
+    ],
+    "serviceIntro": "Three services. One purpose: move your business forward.",
+    "visibility": [
+      "Be part of",
+      "the conversation."
+    ],
+    "visibilityText": "A boutique hotel in the Marais? A good restaurant near Montparnasse? We improve your online presence to help search engines and AI assistants understand your business, your services and what makes you relevant.",
+    "visibilityList": [
+      "An accurate, complete Google Business Profile.",
+      "Useful pages answering real customer questions.",
+      "Consistent information on relevant industry sources.",
+      "Dated AI observations, with questions and sources preserved."
+    ],
+    "visibilityLink": "Explore AI visibility",
+    "sourceLabel": "What we make clear",
+    "sources": [
+      [
+        "Your business",
+        "Name, industry, neighbourhood, contact details"
+      ],
+      [
+        "Your expertise",
+        "Services, specialities, frequently asked questions"
+      ],
+      [
+        "Your evidence",
+        "Genuine reviews, references, reliable sources"
+      ]
+    ],
+    "measured": "We measure observed mentions. We cannot promise a position.",
+    "auto": [
+      "Less admin.",
+      "More of your craft."
+    ],
+    "autoText": "The same emails. The same documents to file. The same information to copy. We learn how your team works, then build practical automations around your everyday tasks.",
+    "autoLink": "Explore useful automations",
+    "example": "Illustrative example · subject to tool compatibility",
+    "tabs": [
+      "Invoices",
+      "Customer enquiries",
+      "Google reviews"
+    ],
+    "flows": [
+      {
+        "trigger": "An invoice arrives",
+        "action": "AI extracts and prepares",
+        "output": "Your accountant reviews",
+        "detail": "Supplier, date, amount and original document in one place. Uncertain information is flagged for review.",
+        "note": "Administrative preparation only. No automatic accounting entries or payments."
+      },
+      {
+        "trigger": "A customer writes",
+        "action": "AI drafts a reply",
+        "output": "You review and send",
+        "detail": "A suggested reply based on your services, opening hours and instructions. Unusual requests are escalated to a person.",
+        "note": "No booking confirmation or commercial commitment without your approval."
+      },
+      {
+        "trigger": "A new review appears",
+        "action": "AI suggests a draft",
+        "output": "You have the final say",
+        "detail": "A reply in your business’s tone of voice. Sensitive complaints are flagged for personal attention.",
+        "note": "Replies to genuine reviews. No invented, purchased or automatically published reviews."
+      }
+    ],
+    "hermes": "Hermes Agent, when it fits",
+    "hermesText": "An assistant configured for your tasks and tools. Access, usage budgets and approval rules are agreed with you. You retain ownership of your accounts and data.",
+    "web": [
+      "A great address.",
+      "A great first impression."
+    ],
+    "webText": "Your website should inspire confidence and make the next step easy: book, call or request a quote. We build thoughtful, fast, mobile-friendly websites. If yours already works well, we improve it.",
+    "webLink": "Explore website creation",
+    "webCaption": "A storefront worthy of what you do.",
+    "sectorsTitle": "Every industry has its own habits.",
+    "sectorsIntro": "We start with yours.",
+    "sectors": [
+      "Restaurants",
+      "Hotels",
+      "Bars & nightlife",
+      "Hair & beauty",
+      "Wellness & spas",
+      "Sport & fitness",
+      "Dental practices",
+      "Medical practices",
+      "Law firms"
+    ],
+    "other": "A shop, craft business or local service? Let’s discuss your needs.",
+    "methodTitle": [
+      "Start with your business.",
+      "Build it together."
+    ],
+    "steps": [
+      [
+        "Understand",
+        "An initial conversation, then a review of your needs on site in Paris or remotely. We choose one concrete problem to solve."
+      ],
+      [
+        "Implement",
+        "An agreed scope, quote and expected deliverable. We configure, test and explain the solution to your team."
+      ],
+      [
+        "Review & improve",
+        "We verify the deliverables together. Optional ongoing support covers specific observations and tasks."
+      ]
+    ],
+    "faqTitle": "Good questions to ask before starting.",
+    "faqs": [
+      [
+        "Can you guarantee a ChatGPT recommendation?",
+        "No. Each assistant chooses its sources and answers. We improve access to your information and its consistency, and track dated observations without promising rankings or customer numbers."
+      ],
+      [
+        "Do I need a new website?",
+        "Only if it makes sense. We first examine whether your existing website helps customers understand your offer and contact you."
+      ],
+      [
+        "What can Hermes Agent do?",
+        "It can help draft replies, organise documents and perform repetitive tasks using compatible tools. Each workflow is tested. Sensitive actions need approval, and AI usage costs are specified in the quote."
+      ],
+      [
+        "What happens to my business data?",
+        "We agree which information is used, who has access and which services receive it. An assistant installed on your premises may use an online AI service; this is explained before any connection."
+      ],
+      [
+        "Can you automate accounting?",
+        "We can organise invoices, extract information and prepare exports for your accountant. Bookkeeping, tax filings and fiscal decisions remain with qualified professionals."
+      ],
+      [
+        "How do we get started?",
+        "With a free 15-minute conversation. If there is a good fit, we propose a clearly scoped assessment or project. No paid work or subscription starts without your agreement."
+      ]
+    ],
+    "contactTitle": [
+      "Let’s start with",
+      "your everyday work."
+    ],
+    "contactIntro": "Tell us what you do and what takes up your time. A first 15-minute conversation to see where we can help.",
+    "contactSmall": "Free initial conversation · no commitment",
+    "footer": "AI for local businesses.",
+    "offerTitle": [
+      "The right service.",
+      "In the right place."
+    ],
+    "offerIntro": "A clear scope before work begins. A quote specifying deliverables, timelines and tool costs.",
+    "prices": [
+      "€990",
+      "€1,490",
+      "€2,490"
+    ],
+    "priceLabel": "From",
+    "priceNote": "Excl. tax · setup, subject to quote",
+    "offerLists": [
+      [
+        "Your existing website and Google profile, for one location",
+        "Initial assessment and priority improvements",
+        "Up to two existing pages improved",
+        "AI mention observations and review meeting"
+      ],
+      [
+        "One process and up to two compatible tools",
+        "Assistant installation where justified",
+        "Tests, approval rules and documentation",
+        "Team handover and training"
+      ],
+      [
+        "Up to five pages in one language",
+        "Custom design with mobile support",
+        "Contact form, SEO basics and launch",
+        "Account handover and training"
+      ]
+    ],
+    "follow": "Ongoing support with a purpose.",
+    "followText": "Visibility, maintenance or automation improvements: we define the work included. Licences, hosting and AI usage are priced separately.",
+    "followPrice": "From €290 excl. tax / month",
+    "followNote": "Optional · scope and terms in your quote",
+    "aboutTitle": [
+      "One point of contact.",
+      "From conversation to delivery."
+    ],
+    "aboutText": "Based in Paris, I help local businesses present their expertise and use AI in their daily work. I start by understanding your customers, tools and tasks before suggesting a solution.",
+    "aboutSecond": "You know what matters in your business. My role is to turn that need into something useful, understandable and verifiable: a clearer page, better local information or a simpler repetitive task."
+  },
+  "es": {
+    "title": "Visibilidad en IA, automatización y sitios web en París — Eddie Miller Agency",
+    "description": "Ayudamos a los negocios locales a ser encontrados en las IA y Google Maps, simplificar tareas y mejorar su sitio web.",
+    "eyebrow": "Inteligencia artificial. Con los pies en el negocio.",
+    "hero": [
+      "Los buenos negocios",
+      "merecen ser",
+      "descubiertos."
+    ],
+    "intro": "Tu próximo cliente te busca. En ChatGPT, en Google, en tu barrio. Ayudémosle a descubrirte y a tu equipo a tener más tiempo para recibirlo.",
+    "cta": "Hablemos de tu negocio",
+    "secondary": "Descubre nuestro enfoque",
+    "local": "París e Île-de-France",
+    "photo": "La experiencia es tuya. Ayudamos a darla a conocer.",
+    "nav": [
+      "Servicios",
+      "Tu sector",
+      "El método",
+      "Nuestras ofertas"
+    ],
+    "pillars": [
+      "Ser encontrado",
+      "Ganar tiempo",
+      "Causar una buena impresión"
+    ],
+    "services": [
+      "Visibilidad en IA y Google Maps",
+      "Automatización con IA",
+      "Creación de sitios web"
+    ],
+    "serviceIntro": "Tres servicios. Un objetivo: hacer avanzar tu negocio.",
+    "visibility": [
+      "Forma parte de",
+      "la conversación."
+    ],
+    "visibilityText": "¿Un hotel con encanto en el Marais? ¿Un restaurante cerca de Montparnasse? Mejoramos tu presencia digital para que buscadores y asistentes comprendan tu negocio y tus servicios.",
+    "visibilityList": [
+      "Una ficha de Google completa y actualizada.",
+      "Páginas útiles que respondan a preguntas reales.",
+      "Información coherente en fuentes relevantes.",
+      "Observaciones fechadas, con preguntas y fuentes conservadas."
+    ],
+    "visibilityLink": "Explorar la visibilidad en IA",
+    "sourceLabel": "Lo que dejamos claro",
+    "sources": [
+      [
+        "Tu negocio",
+        "Nombre, sector, barrio y contacto"
+      ],
+      [
+        "Tu experiencia",
+        "Servicios, especialidades y preguntas frecuentes"
+      ],
+      [
+        "Tus pruebas",
+        "Reseñas auténticas, referencias y fuentes fiables"
+      ]
+    ],
+    "measured": "Medimos las menciones observadas. No prometemos posiciones.",
+    "auto": [
+      "Menos tareas.",
+      "Más tiempo para tu oficio."
+    ],
+    "autoText": "Los mismos correos, documentos y datos que copiar. Entendemos cómo trabaja tu equipo y preparamos automatizaciones útiles para su día a día.",
+    "autoLink": "Descubrir las automatizaciones",
+    "example": "Ejemplo ilustrativo · según herramientas compatibles",
+    "tabs": [
+      "Facturas",
+      "Consultas de clientes",
+      "Reseñas de Google"
+    ],
+    "flows": [
+      {
+        "trigger": "Llega una factura",
+        "action": "La IA extrae y prepara",
+        "output": "Tu asesor la revisa",
+        "detail": "Proveedor, fecha, importe y documento original reunidos. Los datos inciertos se señalan para revisión.",
+        "note": "Preparación administrativa. Sin asientos contables ni pagos automáticos."
+      },
+      {
+        "trigger": "Un cliente escribe",
+        "action": "La IA redacta una propuesta",
+        "output": "Tú revisas y envías",
+        "detail": "Una respuesta basada en tus servicios, horarios y consignas. Las consultas inusuales se derivan a una persona.",
+        "note": "Sin reservas confirmadas ni compromisos comerciales sin tu aprobación."
+      },
+      {
+        "trigger": "Aparece una reseña",
+        "action": "La IA propone un borrador",
+        "output": "Tú tienes la última palabra",
+        "detail": "Una respuesta con el tono de tu negocio. Las reclamaciones sensibles requieren atención personal.",
+        "note": "Reseñas auténticas. Ninguna reseña inventada, comprada o publicada automáticamente."
+      }
+    ],
+    "hermes": "Hermes Agent, cuando encaja",
+    "hermesText": "Un asistente configurado para tus tareas y herramientas. Acordamos los accesos, el presupuesto de uso y las acciones que debes validar. Conservas tus cuentas y tus datos.",
+    "web": [
+      "Una buena dirección.",
+      "Una gran primera impresión."
+    ],
+    "webText": "Tu web debe transmitir confianza y facilitar la reserva, la llamada o el presupuesto. Creamos sitios cuidados, rápidos y adaptados al móvil. Si el tuyo ya funciona, lo mejoramos.",
+    "webLink": "Descubrir los sitios web",
+    "webCaption": "Un escaparate a la altura de tu trabajo.",
+    "sectorsTitle": "Cada sector tiene sus costumbres.",
+    "sectorsIntro": "Empezamos por las tuyas.",
+    "sectors": [
+      "Restaurantes",
+      "Hoteles",
+      "Bares y ocio nocturno",
+      "Peluquería y estética",
+      "Bienestar y spas",
+      "Deporte y fitness",
+      "Clínicas dentales",
+      "Consultorios médicos",
+      "Despachos de abogados"
+    ],
+    "other": "¿Tienda, artesano o servicio local? Hablemos de tu caso.",
+    "methodTitle": [
+      "Empezamos por tu negocio.",
+      "Avanzamos contigo."
+    ],
+    "steps": [
+      [
+        "Comprender",
+        "Una primera conversación y un análisis presencial en París o a distancia. Elegimos un problema concreto."
+      ],
+      [
+        "Poner en marcha",
+        "Un alcance, un presupuesto y un entregable acordados. Configuramos, probamos y formamos a tu equipo."
+      ],
+      [
+        "Verificar y mejorar",
+        "Validamos los entregables contigo. El seguimiento opcional cubre tareas precisas."
+      ]
+    ],
+    "faqTitle": "Las preguntas adecuadas antes de empezar.",
+    "faqs": [
+      [
+        "¿Garantizáis una recomendación en ChatGPT?",
+        "No. Cada asistente elige sus fuentes. Mejoramos la claridad y la coherencia de tu información y conservamos observaciones fechadas, sin prometer posiciones ni clientes."
+      ],
+      [
+        "¿Necesito una web nueva?",
+        "Solo si tiene sentido. Primero revisamos si tu web actual ayuda a entender tu oferta y a contactar contigo."
+      ],
+      [
+        "¿Qué puede hacer Hermes Agent?",
+        "Preparar respuestas, organizar documentos y realizar tareas repetitivas con herramientas compatibles. Cada proceso se prueba. Las acciones sensibles requieren aprobación y los costes de IA se detallan en el presupuesto."
+      ],
+      [
+        "¿Qué ocurre con los datos de mi empresa?",
+        "Definimos los datos utilizados, los accesos y los servicios que los reciben. Un asistente instalado en tu empresa puede utilizar un servicio de IA en línea: lo explicamos antes de cualquier conexión."
+      ],
+      [
+        "¿Podéis automatizar la contabilidad?",
+        "Podemos organizar facturas, extraer datos y preparar exportaciones para tu asesor. La contabilidad, las declaraciones y las decisiones fiscales corresponden a profesionales cualificados."
+      ],
+      [
+        "¿Cómo empezamos?",
+        "Con una conversación gratuita de 15 minutos. Después proponemos un diagnóstico o proyecto con alcance definido. Nada de pago comienza sin tu acuerdo."
+      ]
+    ],
+    "contactTitle": [
+      "Empecemos por",
+      "tu día a día."
+    ],
+    "contactIntro": "Cuéntanos qué haces y qué te quita tiempo. Una primera conversación de 15 minutos para ver dónde podemos ayudar.",
+    "contactSmall": "Primera conversación gratuita · sin compromiso",
+    "footer": "La IA al servicio de los negocios locales.",
+    "offerTitle": [
+      "El servicio adecuado.",
+      "En el lugar adecuado."
+    ],
+    "offerIntro": "Un alcance claro antes de empezar. Un presupuesto con entregables, plazos y costes de herramientas.",
+    "prices": [
+      "990 €",
+      "1.490 €",
+      "2.490 €"
+    ],
+    "priceLabel": "Desde",
+    "priceNote": "Sin impuestos · puesta en marcha, bajo presupuesto",
+    "offerLists": [
+      [
+        "Tu sitio actual y tu ficha Google, para una dirección",
+        "Diagnóstico y correcciones prioritarias",
+        "Mejora de hasta dos páginas existentes",
+        "Observaciones de menciones IA y presentación"
+      ],
+      [
+        "Un proceso y hasta dos herramientas compatibles",
+        "Instalación del asistente si está justificada",
+        "Pruebas, reglas de validación y documentación",
+        "Formación y entrega al equipo"
+      ],
+      [
+        "Hasta cinco páginas en un idioma",
+        "Diseño adaptado al negocio y al móvil",
+        "Formulario, bases SEO y publicación",
+        "Entrega de accesos y formación"
+      ]
+    ],
+    "follow": "Un seguimiento con sentido.",
+    "followText": "Visibilidad, mantenimiento o automatización: acordamos las intervenciones incluidas. Licencias, alojamiento y consumo de IA se presupuestan por separado.",
+    "followPrice": "Desde 290 € sin impuestos / mes",
+    "followNote": "Opcional · alcance y condiciones en el presupuesto",
+    "aboutTitle": [
+      "Un interlocutor.",
+      "De la conversación al resultado."
+    ],
+    "aboutText": "En París, ayudo a los negocios locales a presentar su experiencia y utilizar la IA en su trabajo diario. Primero entiendo a tus clientes, herramientas y tareas.",
+    "aboutSecond": "Tú sabes lo que importa en tu negocio. Mi trabajo es convertir esa necesidad en algo útil, comprensible y verificable: una página más clara, mejor información local o una tarea simplificada."
+  },
+  "de": {
+    "title": "KI-Sichtbarkeit, Automatisierung und Websites in Paris — Eddie Miller Agency",
+    "description": "Wir helfen lokalen Unternehmen, über KI und Google Maps gefunden zu werden, Routineaufgaben zu vereinfachen und ihre Website zu verbessern.",
+    "eyebrow": "Künstliche Intelligenz. Mit Sinn für den Alltag.",
+    "hero": [
+      "Gute Adressen",
+      "verdienen es,",
+      "entdeckt zu werden."
+    ],
+    "intro": "Ihr nächster Kunde sucht nach Ihnen. Auf ChatGPT, auf Google, in Ihrem Viertel. Wir helfen ihm, Sie zu entdecken – und Ihnen, mehr Zeit für ihn zu haben.",
+    "cta": "Sprechen wir über Ihr Unternehmen",
+    "secondary": "Unseren Ansatz entdecken",
+    "local": "Paris und Île-de-France",
+    "photo": "Das Können liegt bei Ihnen. Wir machen es sichtbarer.",
+    "nav": [
+      "Leistungen",
+      "Ihre Branche",
+      "Unser Vorgehen",
+      "Unsere Angebote"
+    ],
+    "pillars": [
+      "Gefunden werden",
+      "Zeit gewinnen",
+      "Überzeugen"
+    ],
+    "services": [
+      "KI-Sichtbarkeit und Google Maps",
+      "Automatisierung mit KI",
+      "Website-Erstellung"
+    ],
+    "serviceIntro": "Drei Leistungen. Ein Ziel: Ihr Unternehmen voranbringen.",
+    "visibility": [
+      "Werden Sie Teil",
+      "des Gesprächs."
+    ],
+    "visibilityText": "Ein Boutiquehotel im Marais? Ein Restaurant bei Montparnasse? Wir verbessern Ihren Onlineauftritt, damit Suchmaschinen und KI-Assistenten Ihr Unternehmen und Ihre Leistungen verstehen.",
+    "visibilityList": [
+      "Ein vollständiges, aktuelles Google-Unternehmensprofil.",
+      "Nützliche Seiten mit Antworten auf echte Kundenfragen.",
+      "Einheitliche Informationen in relevanten Quellen.",
+      "Datierte Beobachtungen mit dokumentierten Fragen und Quellen."
+    ],
+    "visibilityLink": "KI-Sichtbarkeit entdecken",
+    "sourceLabel": "Was wir verständlich machen",
+    "sources": [
+      [
+        "Ihr Unternehmen",
+        "Name, Branche, Viertel und Kontaktdaten"
+      ],
+      [
+        "Ihr Können",
+        "Leistungen, Schwerpunkte und häufige Fragen"
+      ],
+      [
+        "Ihre Nachweise",
+        "Echte Bewertungen, Referenzen und verlässliche Quellen"
+      ]
+    ],
+    "measured": "Wir erfassen beobachtete Erwähnungen. Wir versprechen keine Platzierung.",
+    "auto": [
+      "Weniger Routine.",
+      "Mehr Zeit fürs Wesentliche."
+    ],
+    "autoText": "Dieselben E-Mails, Dokumente und Daten. Wir lernen den Alltag Ihres Teams kennen und entwickeln praktische Automatisierungen für wiederkehrende Aufgaben.",
+    "autoLink": "Automatisierungen entdecken",
+    "example": "Illustratives Beispiel · abhängig von Ihren Tools",
+    "tabs": [
+      "Rechnungen",
+      "Kundenanfragen",
+      "Google-Bewertungen"
+    ],
+    "flows": [
+      {
+        "trigger": "Eine Rechnung trifft ein",
+        "action": "KI bereitet die Daten vor",
+        "output": "Ihre Buchhaltung prüft",
+        "detail": "Lieferant, Datum, Betrag und Originalbeleg werden zusammengestellt. Unsichere Angaben werden zur Prüfung markiert.",
+        "note": "Administrative Vorbereitung. Keine automatischen Buchungen oder Zahlungen."
+      },
+      {
+        "trigger": "Ein Kunde schreibt",
+        "action": "KI entwirft eine Antwort",
+        "output": "Sie prüfen und senden",
+        "detail": "Ein Entwurf auf Basis Ihrer Leistungen, Öffnungszeiten und Vorgaben. Ungewöhnliche Fragen gehen an einen Menschen.",
+        "note": "Keine Buchungsbestätigung oder geschäftliche Zusage ohne Ihre Freigabe."
+      },
+      {
+        "trigger": "Eine Bewertung erscheint",
+        "action": "KI schlägt einen Text vor",
+        "output": "Sie entscheiden",
+        "detail": "Eine Antwort im Ton Ihres Unternehmens. Sensible Beschwerden werden persönlich bearbeitet.",
+        "note": "Nur echte Bewertungen. Keine erfundenen, gekauften oder automatisch veröffentlichten Bewertungen."
+      }
+    ],
+    "hermes": "Hermes Agent, wenn es passt",
+    "hermesText": "Ein Assistent für Ihre Aufgaben und Tools. Zugriffe, Nutzungsbudget und Freigaben werden gemeinsam festgelegt. Sie behalten Ihre Konten und Daten.",
+    "web": [
+      "Eine gute Adresse.",
+      "Ein guter erster Eindruck."
+    ],
+    "webText": "Ihre Website soll Vertrauen schaffen und Buchung, Anruf oder Anfrage erleichtern. Wir erstellen ansprechende, schnelle und mobilfreundliche Websites. Funktioniert Ihre bereits, verbessern wir sie.",
+    "webLink": "Websites entdecken",
+    "webCaption": "Ein Auftritt, der Ihrem Können entspricht.",
+    "sectorsTitle": "Jede Branche hat ihren Alltag.",
+    "sectorsIntro": "Wir beginnen mit Ihrem.",
+    "sectors": [
+      "Restaurants",
+      "Hotels",
+      "Bars und Nachtleben",
+      "Friseure und Kosmetik",
+      "Wellness und Spas",
+      "Sport und Fitness",
+      "Zahnarztpraxen",
+      "Arztpraxen",
+      "Anwaltskanzleien"
+    ],
+    "other": "Geschäft, Handwerk oder lokaler Service? Sprechen wir darüber.",
+    "methodTitle": [
+      "Bei Ihnen anfangen.",
+      "Gemeinsam weiterkommen."
+    ],
+    "steps": [
+      [
+        "Verstehen",
+        "Ein erstes Gespräch, dann eine Bestandsaufnahme vor Ort in Paris oder aus der Ferne. Wir wählen ein konkretes Problem."
+      ],
+      [
+        "Umsetzen",
+        "Ein vereinbarter Umfang, ein Angebot und ein klares Ergebnis. Wir konfigurieren, testen und schulen Ihr Team."
+      ],
+      [
+        "Prüfen und verbessern",
+        "Wir prüfen die Ergebnisse gemeinsam. Eine optionale Betreuung umfasst klar definierte Aufgaben."
+      ]
+    ],
+    "faqTitle": "Die richtigen Fragen vor dem Start.",
+    "faqs": [
+      [
+        "Garantieren Sie eine Empfehlung durch ChatGPT?",
+        "Nein. Jeder Assistent wählt seine Quellen selbst. Wir verbessern Ihre Informationen und dokumentieren Beobachtungen, ohne Platzierungen oder Kundenzahlen zu versprechen."
+      ],
+      [
+        "Brauche ich eine neue Website?",
+        "Nur wenn es sinnvoll ist. Zuerst prüfen wir, ob Ihre bestehende Website Ihr Angebot erklärt und Kontakt erleichtert."
+      ],
+      [
+        "Was kann Hermes Agent übernehmen?",
+        "Antworten vorbereiten, Dokumente ordnen und Routineaufgaben mit kompatiblen Tools ausführen. Jeder Ablauf wird getestet. Sensible Aktionen brauchen Freigaben; KI-Kosten stehen im Angebot."
+      ],
+      [
+        "Was passiert mit meinen Unternehmensdaten?",
+        "Wir legen fest, welche Informationen verwendet werden, wer Zugriff erhält und an welche Dienste Daten übermittelt werden. Auch ein vor Ort installierter Assistent kann einen Online-KI-Dienst nutzen. Das erläutern wir vor jeder Anbindung."
+      ],
+      [
+        "Können Sie Buchhaltung automatisieren?",
+        "Wir können Belege ordnen, Angaben extrahieren und Exporte vorbereiten. Buchführung, Steuererklärungen und steuerliche Entscheidungen bleiben bei qualifizierten Fachleuten."
+      ],
+      [
+        "Wie beginnt ein Projekt?",
+        "Mit einem kostenlosen 15-minütigen Gespräch. Anschließend schlagen wir eine klar umrissene Analyse oder Leistung vor. Kostenpflichtige Arbeit beginnt nur mit Ihrer Zustimmung."
+      ]
+    ],
+    "contactTitle": [
+      "Beginnen wir mit",
+      "Ihrem Arbeitsalltag."
+    ],
+    "contactIntro": "Erzählen Sie uns, was Sie tun und was Zeit kostet. Ein erstes Gespräch von 15 Minuten zeigt, wo wir helfen können.",
+    "contactSmall": "Kostenloses Erstgespräch · unverbindlich",
+    "footer": "KI für lokale Unternehmen.",
+    "offerTitle": [
+      "Die passende Leistung.",
+      "Am richtigen Ort."
+    ],
+    "offerIntro": "Ein klarer Umfang vor dem Start. Ein Angebot mit Ergebnissen, Fristen und Toolkosten.",
+    "prices": [
+      "990 €",
+      "1.490 €",
+      "2.490 €"
+    ],
+    "priceLabel": "Ab",
+    "priceNote": "Netto · Einrichtung nach Angebot",
+    "offerLists": [
+      [
+        "Ihre bestehende Website und Ihr Google-Profil, für einen Standort",
+        "Bestandsaufnahme und prioritäre Verbesserungen",
+        "Verbesserung von bis zu zwei bestehenden Seiten",
+        "KI-Erwähnungen dokumentieren und besprechen"
+      ],
+      [
+        "Ein Prozess und bis zu zwei kompatible Tools",
+        "Assistenteninstallation bei Bedarf",
+        "Tests, Freigaberegeln und Dokumentation",
+        "Einweisung und Übergabe an Ihr Team"
+      ],
+      [
+        "Bis zu fünf Seiten in einer Sprache",
+        "Individuelles, mobilfreundliches Design",
+        "Formular, SEO-Grundlagen und Veröffentlichung",
+        "Zugänge und Einweisung"
+      ]
+    ],
+    "follow": "Betreuung mit einem klaren Zweck.",
+    "followText": "Sichtbarkeit, Wartung oder Automatisierung: Wir definieren die enthaltenen Arbeiten. Lizenzen, Hosting und KI-Verbrauch werden separat kalkuliert.",
+    "followPrice": "Ab 290 € netto / Monat",
+    "followNote": "Optional · Umfang und Bedingungen im Angebot",
+    "aboutTitle": [
+      "Ein Ansprechpartner.",
+      "Vom Gespräch zur Umsetzung."
+    ],
+    "aboutText": "In Paris helfe ich lokalen Unternehmen, ihr Können zu zeigen und KI im Alltag einzusetzen. Zuerst verstehe ich Ihre Kunden, Tools und Aufgaben.",
+    "aboutSecond": "Sie wissen, was in Ihrem Unternehmen zählt. Ich mache daraus etwas Nützliches, Verständliches und Überprüfbares: eine klarere Seite, bessere lokale Angaben oder eine einfachere Routineaufgabe."
+  },
+  "it": {
+    "title": "Visibilità IA, automazione e siti web a Parigi — Eddie Miller Agency",
+    "description": "Aiutiamo le imprese locali a farsi trovare nelle IA e su Google Maps, semplificare le attività e migliorare il sito web.",
+    "eyebrow": "Intelligenza artificiale. Attenzione al lavoro reale.",
+    "hero": [
+      "Le buone attività",
+      "meritano di essere",
+      "scoperte."
+    ],
+    "intro": "Il tuo prossimo cliente ti cerca. Su ChatGPT, su Google, nel tuo quartiere. Aiutiamolo a scoprirti e lasciamo alla tua squadra più tempo per accoglierlo.",
+    "cta": "Parliamo della tua attività",
+    "secondary": "Scopri il nostro approccio",
+    "local": "Parigi e Île-de-France",
+    "photo": "La competenza è tua. Noi aiutiamo a farla conoscere.",
+    "nav": [
+      "Servizi",
+      "Il tuo settore",
+      "Il metodo",
+      "Le nostre offerte"
+    ],
+    "pillars": [
+      "Farsi trovare",
+      "Guadagnare tempo",
+      "Convincere"
+    ],
+    "services": [
+      "Visibilità IA e Google Maps",
+      "Automazione con IA",
+      "Creazione di siti web"
+    ],
+    "serviceIntro": "Tre servizi. Un obiettivo: far avanzare la tua attività.",
+    "visibility": [
+      "Entra nella",
+      "conversazione."
+    ],
+    "visibilityText": "Un hotel di charme nel Marais? Un ristorante vicino a Montparnasse? Miglioriamo la tua presenza online per aiutare motori di ricerca e assistenti a comprendere la tua attività e i tuoi servizi.",
+    "visibilityList": [
+      "Una scheda Google completa e aggiornata.",
+      "Pagine utili che rispondono alle domande dei clienti.",
+      "Informazioni coerenti nelle fonti pertinenti.",
+      "Osservazioni datate, con domande e fonti conservate."
+    ],
+    "visibilityLink": "Scopri la visibilità IA",
+    "sourceLabel": "Cosa rendiamo chiaro",
+    "sources": [
+      [
+        "La tua attività",
+        "Nome, settore, quartiere e contatti"
+      ],
+      [
+        "La tua competenza",
+        "Servizi, specialità e domande frequenti"
+      ],
+      [
+        "Le tue prove",
+        "Recensioni autentiche, referenze e fonti affidabili"
+      ]
+    ],
+    "measured": "Misuriamo le menzioni osservate. Non promettiamo posizioni.",
+    "auto": [
+      "Meno incombenze.",
+      "Più spazio al tuo mestiere."
+    ],
+    "autoText": "Le stesse email, gli stessi documenti e dati da ricopiare. Comprendiamo il lavoro del tuo team e realizziamo automazioni pratiche per le attività ripetitive.",
+    "autoLink": "Scopri le automazioni",
+    "example": "Esempio illustrativo · secondo gli strumenti compatibili",
+    "tabs": [
+      "Fatture",
+      "Richieste dei clienti",
+      "Recensioni Google"
+    ],
+    "flows": [
+      {
+        "trigger": "Arriva una fattura",
+        "action": "L’IA estrae e prepara",
+        "output": "Il commercialista verifica",
+        "detail": "Fornitore, data, importo e documento originale riuniti. I dati incerti vengono segnalati.",
+        "note": "Preparazione amministrativa. Nessuna registrazione contabile o pagamento automatico."
+      },
+      {
+        "trigger": "Un cliente scrive",
+        "action": "L’IA prepara una bozza",
+        "output": "Tu controlli e invii",
+        "detail": "Una risposta basata su servizi, orari e istruzioni. Le richieste insolite vengono affidate a una persona.",
+        "note": "Nessuna prenotazione confermata o impegno commerciale senza approvazione."
+      },
+      {
+        "trigger": "Compare una recensione",
+        "action": "L’IA propone una risposta",
+        "output": "L’ultima parola è tua",
+        "detail": "Una bozza con il tono della tua attività. I reclami delicati richiedono attenzione personale.",
+        "note": "Solo recensioni autentiche. Nessuna recensione inventata, acquistata o pubblicata automaticamente."
+      }
+    ],
+    "hermes": "Hermes Agent, quando è adatto",
+    "hermesText": "Un assistente configurato per le tue attività e i tuoi strumenti. Concordiamo accessi, budget e approvazioni. Mantieni il controllo dei tuoi account e dati.",
+    "web": [
+      "Un bel luogo.",
+      "Una bella prima impressione."
+    ],
+    "webText": "Il sito deve ispirare fiducia e facilitare prenotazioni, chiamate e preventivi. Creiamo siti curati, veloci e adatti al telefono. Se il tuo funziona già, lo miglioriamo.",
+    "webLink": "Scopri i siti web",
+    "webCaption": "Una vetrina all’altezza del tuo lavoro.",
+    "sectorsTitle": "Ogni mestiere ha le sue abitudini.",
+    "sectorsIntro": "Partiamo dalle tue.",
+    "sectors": [
+      "Ristoranti",
+      "Hotel",
+      "Bar e vita notturna",
+      "Parrucchieri ed estetica",
+      "Benessere e spa",
+      "Sport e fitness",
+      "Studi dentistici",
+      "Studi medici",
+      "Studi legali"
+    ],
+    "other": "Negozio, artigiano o servizio locale? Parliamone.",
+    "methodTitle": [
+      "Partiamo dalla tua attività.",
+      "Avanziamo insieme."
+    ],
+    "steps": [
+      [
+        "Comprendere",
+        "Un primo colloquio e una valutazione a Parigi o a distanza. Scegliamo un problema concreto."
+      ],
+      [
+        "Realizzare",
+        "Perimetro, preventivo e risultato concordati. Configuriamo, testiamo e formiamo il team."
+      ],
+      [
+        "Verificare e migliorare",
+        "Verifichiamo insieme la consegna. Il supporto facoltativo riguarda attività definite."
+      ]
+    ],
+    "faqTitle": "Le domande giuste prima di iniziare.",
+    "faqs": [
+      [
+        "Garantite una raccomandazione su ChatGPT?",
+        "No. Ogni assistente sceglie le proprie fonti. Miglioriamo le informazioni e conserviamo osservazioni datate, senza promettere posizioni o clienti."
+      ],
+      [
+        "Serve un nuovo sito?",
+        "Solo se è utile. Prima valutiamo se il sito attuale spiega l’offerta e facilita i contatti."
+      ],
+      [
+        "Cosa può fare Hermes Agent?",
+        "Preparare risposte, ordinare documenti e svolgere attività ripetitive con strumenti compatibili. Ogni processo viene testato. Le azioni sensibili richiedono approvazione; i costi IA sono indicati nel preventivo."
+      ],
+      [
+        "Cosa succede ai dati della mia attività?",
+        "Definiamo quali informazioni vengono usate, chi vi accede e quali servizi le ricevono. Un assistente installato presso la tua attività può usare un servizio IA online: lo spieghiamo prima di ogni collegamento."
+      ],
+      [
+        "Potete automatizzare la contabilità?",
+        "Possiamo organizzare fatture, estrarre dati e preparare esportazioni. Contabilità, dichiarazioni e decisioni fiscali restano affidate a professionisti qualificati."
+      ],
+      [
+        "Come si comincia?",
+        "Con un colloquio gratuito di 15 minuti. Poi proponiamo una valutazione o una prestazione definita. Nessun lavoro a pagamento inizia senza il tuo accordo."
+      ]
+    ],
+    "contactTitle": [
+      "Partiamo dal",
+      "tuo lavoro quotidiano."
+    ],
+    "contactIntro": "Raccontaci cosa fai e cosa ti porta via tempo. Un primo colloquio di 15 minuti per capire come aiutarti.",
+    "contactSmall": "Primo colloquio gratuito · senza impegno",
+    "footer": "L’IA al servizio delle imprese locali.",
+    "offerTitle": [
+      "Il servizio giusto.",
+      "Nel posto giusto."
+    ],
+    "offerIntro": "Un perimetro chiaro prima di iniziare. Un preventivo con consegne, tempi e costi degli strumenti.",
+    "prices": [
+      "990 €",
+      "1.490 €",
+      "2.490 €"
+    ],
+    "priceLabel": "A partire da",
+    "priceNote": "Imposte escluse · avvio su preventivo",
+    "offerLists": [
+      [
+        "Il sito esistente e il profilo Google, per una sede",
+        "Valutazione iniziale e correzioni prioritarie",
+        "Miglioramento di massimo due pagine esistenti",
+        "Osservazioni delle menzioni IA e restituzione"
+      ],
+      [
+        "Un processo e fino a due strumenti compatibili",
+        "Installazione dell’assistente se giustificata",
+        "Test, regole di approvazione e documentazione",
+        "Formazione e consegna al team"
+      ],
+      [
+        "Fino a cinque pagine in una lingua",
+        "Design personalizzato e adatto al telefono",
+        "Modulo, basi SEO e pubblicazione",
+        "Consegna degli accessi e formazione"
+      ]
+    ],
+    "follow": "Un supporto che ha senso.",
+    "followText": "Visibilità, manutenzione o automazione: definiamo gli interventi inclusi. Licenze, hosting e consumi IA vengono preventivati separatamente.",
+    "followPrice": "Da 290 € imposte escluse / mese",
+    "followNote": "Facoltativo · perimetro e condizioni nel preventivo",
+    "aboutTitle": [
+      "Un interlocutore.",
+      "Dal colloquio alla consegna."
+    ],
+    "aboutText": "A Parigi, aiuto le imprese locali a presentare le proprie competenze e usare l’IA nel lavoro quotidiano. Parto dai tuoi clienti, strumenti e attività.",
+    "aboutSecond": "Sai cosa conta nella tua attività. Il mio ruolo è trasformare il bisogno in qualcosa di utile, comprensibile e verificabile: una pagina più chiara, migliori informazioni locali o un compito più semplice."
+  },
+  "pt": {
+    "title": "Visibilidade em IA, automação e sites em Paris — Eddie Miller Agency",
+    "description": "Ajudamos negócios locais a serem encontrados nas IA e no Google Maps, simplificar tarefas e melhorar o seu site.",
+    "eyebrow": "Inteligência artificial. Atenção ao trabalho real.",
+    "hero": [
+      "Os bons negócios",
+      "merecem ser",
+      "descobertos."
+    ],
+    "intro": "O seu próximo cliente procura-o. No ChatGPT, no Google, no seu bairro. Vamos ajudá-lo a descobrir o seu negócio e dar-lhe mais tempo para o receber.",
+    "cta": "Vamos falar do seu negócio",
+    "secondary": "Conheça a nossa abordagem",
+    "local": "Paris e Île-de-France",
+    "photo": "O conhecimento é seu. Nós ajudamos a torná-lo visível.",
+    "nav": [
+      "Serviços",
+      "O seu setor",
+      "O método",
+      "As nossas ofertas"
+    ],
+    "pillars": [
+      "Ser encontrado",
+      "Ganhar tempo",
+      "Causar boa impressão"
+    ],
+    "services": [
+      "Visibilidade em IA e Google Maps",
+      "Automação com IA",
+      "Criação de sites"
+    ],
+    "serviceIntro": "Três serviços. Um objetivo: fazer avançar o seu negócio.",
+    "visibility": [
+      "Faça parte da",
+      "conversa."
+    ],
+    "visibilityText": "Um hotel de charme no Marais? Um restaurante perto de Montparnasse? Melhoramos a sua presença digital para ajudar motores de pesquisa e assistentes a compreender o seu negócio e os seus serviços.",
+    "visibilityList": [
+      "Um perfil Google completo e atualizado.",
+      "Páginas úteis que respondem às perguntas dos clientes.",
+      "Informação coerente em fontes relevantes.",
+      "Observações datadas, com perguntas e fontes guardadas."
+    ],
+    "visibilityLink": "Conhecer a visibilidade em IA",
+    "sourceLabel": "O que tornamos claro",
+    "sources": [
+      [
+        "O seu negócio",
+        "Nome, setor, bairro e contactos"
+      ],
+      [
+        "O seu conhecimento",
+        "Serviços, especialidades e perguntas frequentes"
+      ],
+      [
+        "As suas provas",
+        "Avaliações autênticas, referências e fontes fiáveis"
+      ]
+    ],
+    "measured": "Medimos as menções observadas. Não prometemos posições.",
+    "auto": [
+      "Menos tarefas.",
+      "Mais tempo para o seu trabalho."
+    ],
+    "autoText": "Os mesmos emails, documentos e dados para copiar. Compreendemos o quotidiano da equipa e criamos automações práticas para tarefas repetitivas.",
+    "autoLink": "Conhecer as automações",
+    "example": "Exemplo ilustrativo · sujeito a ferramentas compatíveis",
+    "tabs": [
+      "Faturas",
+      "Pedidos de clientes",
+      "Avaliações Google"
+    ],
+    "flows": [
+      {
+        "trigger": "Chega uma fatura",
+        "action": "A IA extrai e prepara",
+        "output": "O contabilista valida",
+        "detail": "Fornecedor, data, montante e documento original reunidos. Os dados incertos são assinalados.",
+        "note": "Preparação administrativa. Sem lançamentos contabilísticos nem pagamentos automáticos."
+      },
+      {
+        "trigger": "Um cliente escreve",
+        "action": "A IA prepara uma resposta",
+        "output": "Revê e envia",
+        "detail": "Uma proposta baseada nos seus serviços, horários e instruções. Os pedidos invulgares são encaminhados para uma pessoa.",
+        "note": "Sem reservas confirmadas ou compromissos comerciais sem aprovação."
+      },
+      {
+        "trigger": "Surge uma avaliação",
+        "action": "A IA propõe um rascunho",
+        "output": "A decisão final é sua",
+        "detail": "Uma resposta no tom do seu negócio. As reclamações sensíveis são tratadas pessoalmente.",
+        "note": "Apenas avaliações autênticas. Nenhuma avaliação inventada, comprada ou publicada automaticamente."
+      }
+    ],
+    "hermes": "Hermes Agent, quando é adequado",
+    "hermesText": "Um assistente configurado para as suas tarefas e ferramentas. Definimos os acessos, o orçamento de utilização e as aprovações consigo. Mantém as suas contas e dados.",
+    "web": [
+      "Uma boa morada.",
+      "Uma boa primeira impressão."
+    ],
+    "webText": "O site deve inspirar confiança e facilitar reservas, chamadas e pedidos de orçamento. Criamos sites cuidados, rápidos e adaptados ao telemóvel. Se o seu já funciona, melhoramo-lo.",
+    "webLink": "Conhecer os sites",
+    "webCaption": "Uma montra à altura do seu trabalho.",
+    "sectorsTitle": "Cada setor tem os seus hábitos.",
+    "sectorsIntro": "Começamos pelos seus.",
+    "sectors": [
+      "Restaurantes",
+      "Hotéis",
+      "Bares e vida noturna",
+      "Cabeleireiros e estética",
+      "Bem-estar e spas",
+      "Desporto e fitness",
+      "Clínicas dentárias",
+      "Consultórios médicos",
+      "Escritórios de advogados"
+    ],
+    "other": "Loja, artesão ou serviço local? Vamos conversar.",
+    "methodTitle": [
+      "Começamos pelo seu negócio.",
+      "Avançamos consigo."
+    ],
+    "steps": [
+      [
+        "Compreender",
+        "Uma primeira conversa e uma avaliação em Paris ou à distância. Escolhemos um problema concreto."
+      ],
+      [
+        "Implementar",
+        "Âmbito, orçamento e resultado acordados. Configuramos, testamos e formamos a equipa."
+      ],
+      [
+        "Verificar e melhorar",
+        "Verificamos a entrega consigo. O acompanhamento opcional cobre tarefas definidas."
+      ]
+    ],
+    "faqTitle": "As perguntas certas antes de começar.",
+    "faqs": [
+      [
+        "Garantem uma recomendação no ChatGPT?",
+        "Não. Cada assistente escolhe as suas fontes. Melhoramos a informação e guardamos observações datadas, sem prometer posições ou clientes."
+      ],
+      [
+        "Preciso de um site novo?",
+        "Só se fizer sentido. Primeiro verificamos se o site atual explica a oferta e facilita o contacto."
+      ],
+      [
+        "O que pode fazer o Hermes Agent?",
+        "Preparar respostas, organizar documentos e realizar tarefas repetitivas com ferramentas compatíveis. Testamos cada processo. Ações sensíveis exigem aprovação; os custos de IA constam do orçamento."
+      ],
+      [
+        "O que acontece aos dados da minha empresa?",
+        "Definimos as informações utilizadas, os acessos e os serviços que as recebem. Um assistente instalado na sua empresa pode utilizar um serviço de IA online: explicamos essa escolha antes de qualquer ligação."
+      ],
+      [
+        "Podem automatizar a contabilidade?",
+        "Podemos organizar faturas, extrair dados e preparar exportações. Contabilidade, declarações e decisões fiscais ficam com profissionais qualificados."
+      ],
+      [
+        "Como começamos?",
+        "Com uma conversa gratuita de 15 minutos. Depois propomos uma avaliação ou um serviço definido. Nenhum trabalho pago começa sem o seu acordo."
+      ]
+    ],
+    "contactTitle": [
+      "Comecemos pelo",
+      "seu dia a dia."
+    ],
+    "contactIntro": "Conte-nos o que faz e o que lhe ocupa tempo. Uma primeira conversa de 15 minutos para perceber onde podemos ajudar.",
+    "contactSmall": "Primeira conversa gratuita · sem compromisso",
+    "footer": "A IA ao serviço dos negócios locais.",
+    "offerTitle": [
+      "O serviço certo.",
+      "No lugar certo."
+    ],
+    "offerIntro": "Um âmbito claro antes de começar. Um orçamento com entregas, prazos e custos das ferramentas.",
+    "prices": [
+      "990 €",
+      "1.490 €",
+      "2.490 €"
+    ],
+    "priceLabel": "A partir de",
+    "priceNote": "Sem impostos · implementação sob orçamento",
+    "offerLists": [
+      [
+        "O seu site atual e o perfil Google, para uma localização",
+        "Avaliação inicial e melhorias prioritárias",
+        "Melhoria de até duas páginas existentes",
+        "Observações de menções em IA e apresentação"
+      ],
+      [
+        "Um processo e até duas ferramentas compatíveis",
+        "Instalação de assistente quando justificada",
+        "Testes, regras de aprovação e documentação",
+        "Formação e entrega à equipa"
+      ],
+      [
+        "Até cinco páginas num idioma",
+        "Design personalizado e adaptado ao telemóvel",
+        "Formulário, bases SEO e publicação",
+        "Entrega de acessos e formação"
+      ]
+    ],
+    "follow": "Um acompanhamento com propósito.",
+    "followText": "Visibilidade, manutenção ou automação: definimos as intervenções incluídas. Licenças, alojamento e consumo de IA são orçamentados separadamente.",
+    "followPrice": "A partir de 290 € sem impostos / mês",
+    "followNote": "Opcional · âmbito e condições no orçamento",
+    "aboutTitle": [
+      "Um interlocutor.",
+      "Da conversa à entrega."
+    ],
+    "aboutText": "Em Paris, ajudo negócios locais a apresentar os seus conhecimentos e a usar IA no quotidiano. Começo pelos seus clientes, ferramentas e tarefas.",
+    "aboutSecond": "Sabe o que conta no seu negócio. O meu papel é transformar a necessidade em algo útil, compreensível e verificável: uma página mais clara, melhor informação local ou uma tarefa simplificada."
+  },
+  "nl": {
+    "title": "AI-zichtbaarheid, automatisering en websites in Parijs — Eddie Miller Agency",
+    "description": "Wij helpen lokale bedrijven gevonden te worden via AI en Google Maps, terugkerend werk te vereenvoudigen en hun website te verbeteren.",
+    "eyebrow": "Kunstmatige intelligentie. Oog voor de praktijk.",
+    "hero": [
+      "Goede lokale zaken",
+      "verdienen het om",
+      "ontdekt te worden."
+    ],
+    "intro": "Uw volgende klant zoekt u. Op ChatGPT, op Google, in uw buurt. Wij helpen u vindbaar te worden en geven uw team meer tijd om klanten te ontvangen.",
+    "cta": "Laten we over uw bedrijf praten",
+    "secondary": "Ontdek onze aanpak",
+    "local": "Parijs en Île-de-France",
+    "photo": "Het vakmanschap is van u. Wij helpen het zichtbaar te maken.",
+    "nav": [
+      "Diensten",
+      "Uw branche",
+      "Onze aanpak",
+      "Ons aanbod"
+    ],
+    "pillars": [
+      "Gevonden worden",
+      "Tijd winnen",
+      "Indruk maken"
+    ],
+    "services": [
+      "AI-zichtbaarheid en Google Maps",
+      "Automatisering met AI",
+      "Websites maken"
+    ],
+    "serviceIntro": "Drie diensten. Eén doel: uw bedrijf vooruithelpen.",
+    "visibility": [
+      "Word deel van",
+      "het gesprek."
+    ],
+    "visibilityText": "Een boetiekhotel in de Marais? Een restaurant bij Montparnasse? Wij verbeteren uw online aanwezigheid zodat zoekmachines en AI-assistenten uw bedrijf en diensten beter begrijpen.",
+    "visibilityList": [
+      "Een volledig, actueel Google-bedrijfsprofiel.",
+      "Nuttige pagina’s met antwoorden op echte klantvragen.",
+      "Consistente informatie in relevante bronnen.",
+      "Gedateerde waarnemingen met bewaarde vragen en bronnen."
+    ],
+    "visibilityLink": "Ontdek AI-zichtbaarheid",
+    "sourceLabel": "Wat wij duidelijk maken",
+    "sources": [
+      [
+        "Uw bedrijf",
+        "Naam, branche, buurt en contactgegevens"
+      ],
+      [
+        "Uw vakmanschap",
+        "Diensten, specialiteiten en veelgestelde vragen"
+      ],
+      [
+        "Uw bewijs",
+        "Echte reviews, referenties en betrouwbare bronnen"
+      ]
+    ],
+    "measured": "Wij meten waargenomen vermeldingen. Wij beloven geen positie.",
+    "auto": [
+      "Minder routine.",
+      "Meer tijd voor uw vak."
+    ],
+    "autoText": "Dezelfde e-mails, documenten en gegevens om over te nemen. Wij leren hoe uw team werkt en bouwen praktische automatiseringen voor terugkerende taken.",
+    "autoLink": "Ontdek automatiseringen",
+    "example": "Illustratief voorbeeld · afhankelijk van geschikte tools",
+    "tabs": [
+      "Facturen",
+      "Klantvragen",
+      "Google-reviews"
+    ],
+    "flows": [
+      {
+        "trigger": "Een factuur komt binnen",
+        "action": "AI haalt gegevens eruit",
+        "output": "Uw boekhouder controleert",
+        "detail": "Leverancier, datum, bedrag en origineel document bij elkaar. Onzekere gegevens worden gemarkeerd.",
+        "note": "Administratieve voorbereiding. Geen automatische boekingen of betalingen."
+      },
+      {
+        "trigger": "Een klant schrijft",
+        "action": "AI maakt een concept",
+        "output": "U controleert en verstuurt",
+        "detail": "Een antwoord op basis van uw diensten, openingstijden en instructies. Ongewone vragen gaan naar een persoon.",
+        "note": "Geen boekingsbevestiging of commerciële toezegging zonder uw akkoord."
+      },
+      {
+        "trigger": "Een review verschijnt",
+        "action": "AI stelt een antwoord voor",
+        "output": "U beslist",
+        "detail": "Een concept in de toon van uw bedrijf. Gevoelige klachten worden persoonlijk behandeld.",
+        "note": "Alleen echte reviews. Geen verzonnen, gekochte of automatisch gepubliceerde reviews."
+      }
+    ],
+    "hermes": "Hermes Agent, als het past",
+    "hermesText": "Een assistent voor uw taken en tools. Toegang, gebruiksbudget en goedkeuringen spreken we samen af. U behoudt uw accounts en gegevens.",
+    "web": [
+      "Een goed adres.",
+      "Een goede eerste indruk."
+    ],
+    "webText": "Uw website moet vertrouwen geven en boeken, bellen of een offerte aanvragen eenvoudig maken. Wij bouwen verzorgde, snelle en mobielvriendelijke websites. Werkt de uwe al goed, dan verbeteren we die.",
+    "webLink": "Ontdek onze websites",
+    "webCaption": "Een uitstraling die past bij uw vakmanschap.",
+    "sectorsTitle": "Elke branche heeft eigen gewoonten.",
+    "sectorsIntro": "Wij beginnen met die van u.",
+    "sectors": [
+      "Restaurants",
+      "Hotels",
+      "Bars en nachtleven",
+      "Kappers en schoonheid",
+      "Wellness en spa’s",
+      "Sport en fitness",
+      "Tandartspraktijken",
+      "Artsenpraktijken",
+      "Advocatenkantoren"
+    ],
+    "other": "Winkel, ambacht of lokale dienst? Laten we het bespreken.",
+    "methodTitle": [
+      "Beginnen bij uw bedrijf.",
+      "Samen verderkomen."
+    ],
+    "steps": [
+      [
+        "Begrijpen",
+        "Een eerste gesprek en een beoordeling in Parijs of op afstand. We kiezen een concreet probleem."
+      ],
+      [
+        "Uitvoeren",
+        "Een afgesproken omvang, offerte en resultaat. We configureren, testen en trainen uw team."
+      ],
+      [
+        "Controleren en verbeteren",
+        "We controleren de oplevering samen. Optionele ondersteuning omvat duidelijk omschreven taken."
+      ]
+    ],
+    "faqTitle": "De juiste vragen voordat we beginnen.",
+    "faqs": [
+      [
+        "Garandeert u een aanbeveling door ChatGPT?",
+        "Nee. Elke assistent kiest zelf zijn bronnen. We verbeteren informatie en bewaren gedateerde waarnemingen, zonder posities of aantallen klanten te beloven."
+      ],
+      [
+        "Heb ik een nieuwe website nodig?",
+        "Alleen als dat zinvol is. We bekijken eerst of uw huidige website uw aanbod uitlegt en contact eenvoudig maakt."
+      ],
+      [
+        "Wat kan Hermes Agent doen?",
+        "Antwoorden voorbereiden, documenten ordenen en routinewerk uitvoeren met geschikte tools. Elk proces wordt getest. Gevoelige acties vragen goedkeuring; AI-kosten staan in de offerte."
+      ],
+      [
+        "Wat gebeurt er met mijn bedrijfsgegevens?",
+        "We spreken af welke informatie wordt gebruikt, wie toegang krijgt en welke diensten de gegevens ontvangen. Een lokaal geïnstalleerde assistent kan een online AI-dienst gebruiken. Dat leggen we uit vóór elke koppeling."
+      ],
+      [
+        "Kunt u de boekhouding automatiseren?",
+        "We kunnen facturen ordenen, gegevens uitlezen en exports voorbereiden. Boekhouding, aangiften en fiscale beslissingen blijven bij bevoegde professionals."
+      ],
+      [
+        "Hoe beginnen we?",
+        "Met een gratis gesprek van 15 minuten. Daarna stellen we een afgebakende analyse of opdracht voor. Betaald werk begint alleen met uw akkoord."
+      ]
+    ],
+    "contactTitle": [
+      "Laten we beginnen bij",
+      "uw dagelijkse werk."
+    ],
+    "contactIntro": "Vertel wat u doet en wat tijd kost. Een eerste gesprek van 15 minuten om te zien waar we kunnen helpen.",
+    "contactSmall": "Gratis eerste gesprek · vrijblijvend",
+    "footer": "AI voor lokale bedrijven.",
+    "offerTitle": [
+      "De juiste dienst.",
+      "Op de juiste plek."
+    ],
+    "offerIntro": "Een duidelijke opdracht vooraf. Een offerte met resultaten, termijnen en kosten van tools.",
+    "prices": [
+      "€ 990",
+      "€ 1.490",
+      "€ 2.490"
+    ],
+    "priceLabel": "Vanaf",
+    "priceNote": "Excl. belasting · inrichting op offerte",
+    "offerLists": [
+      [
+        "Uw bestaande website en Google-profiel, voor één locatie",
+        "Eerste beoordeling en prioritaire verbeteringen",
+        "Verbetering van maximaal twee bestaande pagina’s",
+        "AI-vermeldingen documenteren en bespreken"
+      ],
+      [
+        "Eén proces en maximaal twee geschikte tools",
+        "Installatie van een assistent indien zinvol",
+        "Tests, goedkeuringsregels en documentatie",
+        "Training en overdracht aan uw team"
+      ],
+      [
+        "Maximaal vijf pagina’s in één taal",
+        "Eigen ontwerp met mobiele ondersteuning",
+        "Formulier, SEO-basis en publicatie",
+        "Toegang en uitleg bij de overdracht"
+      ]
+    ],
+    "follow": "Ondersteuning met een duidelijk doel.",
+    "followText": "Zichtbaarheid, onderhoud of automatisering: we leggen vast welk werk is inbegrepen. Licenties, hosting en AI-gebruik worden apart begroot.",
+    "followPrice": "Vanaf € 290 excl. belasting / maand",
+    "followNote": "Optioneel · omvang en voorwaarden in de offerte",
+    "aboutTitle": [
+      "Eén aanspreekpunt.",
+      "Van gesprek tot oplevering."
+    ],
+    "aboutText": "Vanuit Parijs help ik lokale bedrijven hun vakmanschap te tonen en AI dagelijks te gebruiken. Ik begin bij uw klanten, tools en taken.",
+    "aboutSecond": "U weet wat belangrijk is in uw bedrijf. Mijn rol is om die behoefte nuttig, begrijpelijk en toetsbaar te maken: een duidelijkere pagina, betere lokale informatie of een eenvoudiger terugkerende taak."
+  }
+}
