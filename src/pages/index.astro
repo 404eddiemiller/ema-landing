@@ -1,13 +1,20 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import AgencyHome from '../components/AgencyHome.astro';
-import { getAgency } from '../data/agency';
-const c = getAgency();
+import RueCoulisses from "../layouts/RueCoulisses.astro";
+import maison from '../assets/rue-coulisses/maison.svg?raw';
+import quartier from '../assets/rue-coulisses/quartier.svg?raw';
+import circuit from '../assets/rue-coulisses/circuit.svg?raw';
 ---
-<Layout title={c.title} description={c.description} ogTitle={c.title} ogDescription={c.description} skipFaqSchema>
-  <Header />
-  <main id="main-content"><AgencyHome /></main>
-  <Footer />
-</Layout>
+<RueCoulisses title="Eddie Miller Agency | Visibilité locale et conseil en IA" description="À Paris, Eddie Miller Agency aide les entreprises à être trouvées sur Google et dans les réponses des IA, et accompagne leurs équipes dans les usages de l’IA.">
+<div id="accueil" class="vue">
+<section class="wrap hero" aria-labelledby="titre"><div class="intro"><p class="loc"><i></i> Agence indépendante à Paris</p><h1 id="titre">Côté rue.<br><em>Côté coulisses.</em></h1><p class="lead">Nous aidons vos futurs clients à vous trouver sur Google et dans les réponses des IA. Et votre équipe à passer moins de temps sur les tâches qui se répètent.</p><a class="texte-lien" href="#expertises">Découvrir nos expertises <span aria-hidden="true">↓</span></a></div><figure class="plan"><Fragment set:html={maison} /><figcaption><span>Planche I <i>/</i> Une adresse parisienne</span><span>Illustration de l’agence</span></figcaption></figure></section>
+
+<section id="expertises" class="dossiers"><div class="wrap"><div class="secthead"><h2>Les expertises</h2><p>Deux façons de travailler ensemble.<br>À vous de choisir par où commencer.</p></div><div class="duo"><article class="dossier" id="visibilite"><div class="vignette vig-map"><Fragment set:html={quartier} /></div><div class="fiche"><p class="rub">Côté rue</p><h3>Visibilité GEO & locale</h3><p>Quand un client cherche une adresse comme la vôtre, que trouve-t-il sur Google Maps, ChatGPT ou Perplexity&nbsp;?</p><a class="texte-lien" href="/diagnostic-geo">Découvrir le diagnostic <span aria-hidden="true">↗</span></a></div></article><article class="dossier" id="automatisation"><div class="vignette vig-flow"><Fragment set:html={circuit} /></div><div class="fiche"><p class="rub">Côté coulisses</p><h3>Conseil IA & automatisations</h3><p>Quels usages valent le temps d’être mis en place&nbsp;? Partons de vos outils et d’une tâche que votre équipe connaît par cœur.</p><a class="texte-lien" href="/conseil-ia">Découvrir l’accompagnement <span aria-hidden="true">↗</span></a></div></article></div><div class="sites" id="sites"><span>Vous avez surtout besoin d’un site qui donne envie de réserver&nbsp;?</span><a href="/creation-sites-web">La création de sites web <span aria-hidden="true">↗</span></a></div></div></section>
+
+<section class="scene" id="methode"><div class="wrap scenegrid"><div><p class="rub">Carnet de terrain <i>/</i> Cas illustratif</p><h2>Un samedi,<br>au restaurant.</h2><p>Deux questions arrivent avant le service. Elles se ressemblent, mais n’appellent pas le même travail.</p></div><div class="carnet"><fieldset class="switch"><legend>Choisir une situation</legend><label><input type="radio" name="scene" value="rue" checked><span>Côté rue</span></label><label><input type="radio" name="scene" value="atelier"><span>Côté coulisses</span></label></fieldset><div id="sceneTexte" aria-live="polite" aria-atomic="true"><p class="question">« Où dîner à huit près du canal&nbsp;? »</p><p>Le groupe cherche encore une adresse. Nous vérifions si le site précise la capacité, le quartier et les modalités de réservation, puis si les autres sources disent la même chose.</p><a class="texte-lien" href="/diagnostic-geo">Lire la méthode GEO <span aria-hidden="true">↗</span></a></div></div></div></section></div>
+<script is:inline>
+{
+const id=k=>document.getElementById(k);
+const scen=id('sceneTexte'),rue=scen.innerHTML,atelier='<p class="question">« Pouvez-vous nous recevoir à huit samedi&nbsp;? »</p><p>Cette fois, le client écrit au restaurant. L’assistant prépare une fiche avec la date et le nombre de couverts. La salle vérifie les disponibilités et répond elle-même. Aucune table n’est réservée automatiquement.</p><a class="texte-lien" href="/conseil-ia">Voir l’accompagnement IA <span aria-hidden="true">↗</span></a>';document.querySelectorAll('[name=scene]').forEach(el=>el.addEventListener('change',()=>{scen.innerHTML=el.value==='atelier'?atelier:rue;scen.classList.remove('change');void scen.offsetWidth;scen.classList.add('change')}));
+}
+</script>
+</RueCoulisses>
