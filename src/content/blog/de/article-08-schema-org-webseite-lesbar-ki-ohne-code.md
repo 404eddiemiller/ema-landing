@@ -9,23 +9,19 @@ category: "Online-Sichtbarkeit"
 tags: ["Schema.org", "strukturierte Daten", "JSON-LD", "visibilité IA", "KI-Sichtbarkeit", "technisches SEO", "No-Code", "ChatGPT"]
 cta: "diagnostic-gratuit"
 lang: "de"
-reading_time: "11 min"
+reading_time: "4 min"
 image: "/images/blog/schema-org-site-lisible-ia-sans-coder.webp"
 imageAlt: "Zeilen strukturierten Codes auf einem Bildschirm in einer warmen Umgebung"
 internal_links:
-  - slug: "geo-optimierung-ki-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "google-business-profile-leitfaden-zahnarzt-paris"
-    anchor: "unser Google Business Profile Leitfaden"
-  - slug: "studie-ki-sichtbarkeit-50-zahnarztpraxen-paris"
-    anchor: "unsere Studie über 50 Zahnarztpraxen"
+  - slug: "lokales-seo-2026-trends-massnahmen"
+    anchor: "Auf Google gefunden werden 2026: Was sich für Pariser Geschäfte geändert hat"
+  - slug: "zahnarztpraxis-ohne-webseite-ki-verwundbarkeit"
+    anchor: "Zahnarztpraxis ohne Webseite: Was können Patienten bereits prüfen?"
 ---
 
 ## Schema.org für Einsteiger: Wie Sie Ihre Webseite für KI lesbar machen (ohne zu coden)
 
 Ihre Webseite spricht mit Menschen. Aber spricht sie auch mit Maschinen?
-
-Wenn ChatGPT, Perplexity oder Google AI Overview Informationen über Ihr Unternehmen suchen, „lesen" sie Ihre Webseite nicht wie ein Patient oder Kunde es tun würde. Sie durchsuchen den Code nach strukturierten Daten — Informationen, die in einem standardisierten Format namens Schema.org getaggt sind.
 
 Wenn Ihre Webseite diese Tags nicht enthält, müssen die KI-Systeme raten, was Sie sind, wo Sie sind, was Sie anbieten. Und wenn eine KI raten muss, empfiehlt sie lieber einen Konkurrenten, dessen Webseite ihr klare Antworten gibt.
 
@@ -42,8 +38,6 @@ In technischer Sprache werden diese Informationen in JSON-LD codiert — einem F
 ## Warum es 2026 unverzichtbar geworden ist
 
 Bis vor Kurzem waren strukturierte Daten ein „SEO-Bonus". 2026 hat sich die Lage geändert. Die beiden größten Suchmaschinen der Welt — Google und Microsoft — haben öffentlich bestätigt, dass strukturierte Daten ein kritisches Signal für ihre KI-Funktionen sind. ChatGPT hat ebenfalls bestätigt, strukturierte Daten zu nutzen.
-
-Die Zahlen sprechen für sich. Webseiten mit vollständiger Schema.org-Implementierung werden 2- bis 3-mal häufiger von KI-Suchmaschinen zitiert. Webseiten mit Schema und strukturierter FAQ sehen ihre KI-Sichtbarkeit um etwa 36 % steigen. In [unserer Studie über 50 Pariser Zahnarztpraxen](/de/blog/studie-ki-sichtbarkeit-50-zahnarztpraxen-paris) hatten nur 12 % Schema.org — und sie waren alle in der Gruppe der sichtbarsten Praxen bei den KI-Systemen.
 
 ## Die Schema-Typen, die für Ihr Unternehmen zählen
 
@@ -85,25 +79,20 @@ Bereiten Sie ein klares Briefing für Ihren Webmaster vor. Listen Sie auf: Ihren
 
 **Schritt 1 (diese Woche):** Testen Sie Ihre Webseite mit dem Google Rich Results Tool. **Schritt 2 (in den nächsten 2 Wochen):** Wählen Sie Ihren Implementierungsweg — WordPress-Plugin, Online-Generator oder Dienstleister-Briefing. **Schritt 3 (im Laufe des Monats):** Validieren Sie die Implementierung, überprüfen Sie die Konsistenz mit Ihrem Google Business Profil und planen Sie eine vierteljährliche Überprüfung.
 
----
-
-*Hat Ihre Webseite die richtigen strukturierten Daten? Eddie Miller Agency prüft Schema im Rahmen seines kostenlosen GEO-Audits vollständig. Wir überprüfen, was vorhanden ist, was fehlt, und liefern den implementierungsfertigen JSON-LD-Code für Ihr Unternehmen. [Mein kostenloses GEO-Audit anfordern →]*
-
----
-
 ## FAQ — Schema.org und KI-Sichtbarkeit
 
 ### Ist Schema.org kostenlos?
+
 Ja. Schema.org ist ein offener und kostenloser Standard. Das Vokabular, die Testtools und die Online-Generatoren kosten nichts. Die einzigen eventuellen Kosten betreffen die technische Implementierung durch einen Dienstleister (typischerweise 200 bis 500 € für eine einfache Webseite) oder ein Premium-WordPress-Plugin (etwa 50 bis 100 € pro Jahr).
 
 ### Meine Webseite ist auf Wix/Squarespace/Carrd. Kann ich Schema hinzufügen?
+
 Wix und Squarespace erlauben das Hinzufügen von benutzerdefiniertem Code im Kopfbereich der Seiten, was das Hinzufügen von JSON-LD ermöglicht. Carrd bietet diese Option ebenfalls in seinen kostenpflichtigen Plänen.
 
 ### Wenn ich keine Webseite habe, ist Schema dann nützlich?
+
 Nein, Schema gilt nur für Webseiten. Ohne Webseite konzentrieren Sie Ihre Bemühungen auf Ihr Google Business Profile und Ihre Doctolib-, TripAdvisor- oder TheFork-Profile.
 
-### Wie lange dauert es, bis KI-Systeme mein Schema berücksichtigen?
-Google erkennt neue strukturierte Daten in der Regel in 1 bis 2 Wochen. Die Auswirkungen auf die KI-Sichtbarkeit (Zitierungen in ChatGPT, Perplexity) dauern etwas länger — typischerweise 2 bis 4 Wochen.
-
 ### Kann Schema meiner Webseite schaden, wenn es falsch implementiert ist?
+
 Ein falsches Schema (falsche Informationen, unpassende Typen) kann Verwirrung bei KI-Systemen schaffen und Ihre Sichtbarkeit potenziell verringern statt verbessern. Deshalb ist die Validierung unerlässlich.

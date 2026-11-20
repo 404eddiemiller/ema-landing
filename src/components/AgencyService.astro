@@ -1,16 +1,55 @@
 ---
-import { getAgency } from '../data/agency';
+import { getAgency, type ServiceIndex } from '../data/agency';
 import { getLocaleFromPath, navRoutes } from '../i18n';
 import AuditForm from './AuditForm.astro';
-const { service = 0 } = Astro.props;
+interface Props { service: ServiceIndex }
+const { service } = Astro.props;
 const locale = getLocaleFromPath(Astro.url.pathname);
 const c = getAgency(locale);
-const headings = [c.visibility, c.auto, c.web];
-const intros = [c.visibilityText, c.autoText, c.webText];
-const lists = [c.visibilityList, c.flows.map(flow => `${flow.trigger} → ${flow.output}. ${flow.detail}`), c.offerLists[2]];
+const heading = [c.visibility, c.auto, c.web][service];
+const intro = [c.visibilityText, c.autoText, c.webText][service];
+const list = service === 0 ? c.visibilityList : c.offerLists[service];
+const faqIndices = [[0, 1, 5], [2, 3, 4, 5], [1, 5]][service];
 ---
-<section class="ema-page-hero ema-wrap"><p class="ema-eyebrow">0{service + 1} / {c.services[service]}</p><h1>{headings[service][0]}<br /><em>{headings[service][1]}</em></h1><p class="ema-prose">{intros[service]}</p><a class="ema-button" href="#diagnostic">{c.cta}<span aria-hidden="true">↗</span></a></section>
-<section class="ema-sand ema-section"><div class="ema-wrap ema-two-col"><div><p class="ema-eyebrow">{c.pillars[service]}</p><h2>{c.services[service]}</h2><p class="ema-prose">{service === 1 ? c.hermesText : c.offerIntro}</p><a class="ema-text-link" href={navRoutes[locale].pricing}>{c.nav[3]}<span aria-hidden="true">↗</span></a></div><ol class="ema-service-list">{lists[service].map((line, i) => <li><span>0{i + 1}</span><p>{line}</p></li>)}</ol></div></section>
-{service === 1 && <section class="ema-wrap ema-section"><p class="ema-eyebrow">HERMES AGENT</p><h2>{c.hermes}</h2><p class="ema-prose">{c.hermesText}</p><div class="ema-steps">{c.flows.map(flow => <article><h3>{flow.output}</h3><p>{flow.note}</p></article>)}</div></section>}
-<section class="ema-wrap ema-section ema-faq-section"><div><p class="ema-eyebrow">FAQ</p><h2>{c.faqTitle}</h2></div><div class="ema-faqs">{c.faqs.filter((_, i) => service === 1 ? [2, 3, 4].includes(i) : [0, 1, 4].includes(i)).map(faq => <details><summary>{faq[0]}<span aria-hidden="true">+</span></summary><p>{faq[1]}</p></details>)}</div></section>
-<AuditForm />
+<section class="ema-page-hero ema-wrap">
+  <p class="ema-eyebrow">{c.local} / {c.services[service]}</p>
+  <h1>{heading[0]}<br /><em>{heading[1]}</em></h1><p class="ema-prose">{intro}</p>
+  <a class="ema-button" href="#diagnostic">{c.contactLinks[service]} <span aria-hidden="true">↗</span></a>
+</section>
+<section class="ema-sand ema-section"><div class="ema-wrap ema-two-col">
+  <div><p class="ema-eyebrow">{c.pillars[service]}</p><h2>{c.services[service]}</h2>
+    <p class="ema-prose">{service === 0 ? c.measured : service === 1 ? c.choice : c.offerIntro}</p>
+    <div class="ema-price"><span>{c.priceLabel}</span><p>{c.prices[service]}</p><span>{c.priceNote}</span></div>
+    {service !== 2 && <a class="ema-text-link" href={navRoutes[locale].pricing}>{c.nav[3]} <span aria-hidden="true">↗</span></a>}
+  </div><ul class="ema-service-list">{list.map((line, i) => <li><span>0{i + 1}</span><p>{line}</p></li>)}</ul>
+</div></section>
+{service === 1 && <section class="ema-wrap ema-section"><h2>{c.hermes}</h2><p class="ema-prose">{c.hermesText}</p>
+  <div class="ema-demo" data-demo>
+    <div class="ema-demo-bar"><div class="ema-tabs" role="tablist" aria-label={c.services[1]}>{c.tabs.map((label, i) => <button type="button" id={`flow-tab-${i}`} role="tab" aria-selected={i === 0 ? 'true' : 'false'} aria-controls={`flow-panel-${i}`} tabindex={i === 0 ? 0 : -1} data-flow={i}>{label}</button>)}</div><span class="ema-demo-caption">{c.example}</span></div>
+    {c.flows.map((flow, i) => <div id={`flow-panel-${i}`} role="tabpanel" aria-labelledby={`flow-tab-${i}`} hidden={i !== 0} tabindex="0">
+      <ol class="ema-flow"><li><span>01</span><h3>{flow.trigger}</h3></li><li><span>02</span><h3>{flow.action}</h3></li><li><span>03</span><h3>{flow.output}</h3></li></ol>
+      <div class="ema-flow-detail"><p>{flow.detail}</p><p>{flow.note}</p></div>
+    </div>)}
+  </div>
+</section>}
+<section class="ema-wrap ema-section ema-faq-section"><div><p class="ema-eyebrow">FAQ</p><h2>{c.faqTitle}</h2></div><div class="ema-faqs">{faqIndices.map(i => <details><summary>{c.faqs[i][0]}<span aria-hidden="true">+</span></summary><p>{c.faqs[i][1]}</p></details>)}</div></section>
+<AuditForm service={service} />
+<script>
+  document.querySelectorAll<HTMLElement>('[data-demo]').forEach(demo => {
+    const tabs = [...demo.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+    function select(index: number, focus = false) {
+      tabs.forEach((tab, i) => {
+        tab.setAttribute('aria-selected', String(i === index)); tab.tabIndex = i === index ? 0 : -1;
+        const panel = document.getElementById(tab.getAttribute('aria-controls')!); if (panel) panel.hidden = i !== index;
+      });
+      if (focus) tabs[index].focus();
+    }
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => select(index));
+      tab.addEventListener('keydown', e => {
+        const targets: Record<string, number> = { ArrowRight: (index + 1) % tabs.length, ArrowLeft: (index + tabs.length - 1) % tabs.length, Home: 0, End: tabs.length - 1 };
+        if (e.key in targets) { e.preventDefault(); select(targets[e.key], true); }
+      });
+    });
+  });
+</script>

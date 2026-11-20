@@ -9,16 +9,14 @@ category: "Google & reviews"
 tags: ["local SEO", "2026", "trends", "Google", "visibilité IA", "AI Overview", "local business", "Paris"]
 cta: "diagnostic-gratuit"
 lang: "en"
-reading_time: "9 min"
+reading_time: "4 min"
 image: "/images/blog/seo-local-2026-tendances-actions.webp"
 imageAlt: "Busy Parisian shopping street with local business signs"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "zero-clic-recherches-google-solution-commerce-local"
-    anchor: "the zero-click phenomenon"
-  - slug: "schema-org-site-lisible-ia-sans-coder"
-    anchor: "Schema.org structured data"
+  - slug: "geo-ai-optimization-2026"
+    anchor: "Local AI search: check what an answer says about your business"
+  - slug: "zero-click-searches-google-solution"
+    anchor: "Zero-click searches: tell a visit, a call and a booking apart"
 ---
 
 ## Local SEO in 2026: What Has Changed and What You Need to Do Now
@@ -31,7 +29,7 @@ This article takes stock of the major changes in local SEO in 2026 and gives you
 
 ### 1. AI Overviews Have Taken Over Local Results
 
-Google now displays AI-generated answers above classic results for approximately 40% of local queries. These AI Overviews synthesize information from your Google Business listing, your reviews, and your website into a conversational response. When an AI Overview is displayed, the click-through rate on classic results [drops dramatically](/blog/zero-clic-recherches-google-solution-commerce-local). The goal is no longer just to be in the top 10 — it's to be in the AI summary.
+Google now displays AI-generated answers above classic results for approximately 40% of local queries. These AI Overviews synthesize information from your Google Business listing, your reviews, and your website into a conversational response. When an AI Overview is displayed, the click-through rate on classic results [drops dramatically](/en/blog/zero-click-searches-google-solution). The goal is no longer just to be in the top 10 — it's to be in the AI summary.
 
 ### 2. Search Has Become Conversational
 
@@ -43,11 +41,7 @@ Google automatically summarizes your review content in blurbs visible on your li
 
 ### 4. Structured Data Has Gone from Bonus to Prerequisite
 
-In 2026, Google and Microsoft confirmed that [Schema.org](/blog/schema-org-site-lisible-ia-sans-coder) structured data is a critical signal for AI features. Sites with full implementation are cited 2 to 3 times more by AI engines. This is no longer a competitive advantage — it's the price of entry.
-
-### 5. Local SEO Alone Is No Longer Enough — You Need GEO
-
-Local SEO optimizes your presence on Google Maps and in the Map Pack. [GEO (Generative Engine Optimization)](/blog/geo-referencement-ia-2026) optimizes your presence across the three major AI platforms (ChatGPT, Perplexity, Google AI). The two are complementary, but in 2026, doing local SEO without GEO means optimizing for only half the playing field.
+In 2026, Google and Microsoft confirmed that [Schema.org](/en/blog/schema-org-ai-readable-no-coding) structured data is a critical signal for AI features. Sites with full implementation are cited 2 to 3 times more by AI engines. This is no longer a competitive advantage — it's the price of entry.
 
 ## What Has NOT Changed
 
@@ -81,14 +75,6 @@ NAP consistency isn't new, but in 2026 it's more critical than ever. AI systems 
 
 AI systems and Google favor active sources. One Google Business post per week, a website update every month, new photos every two weeks — these freshness signals are a strong differentiator in a market where the majority of businesses are inactive online.
 
-### Action 7: Measure Your AI Visibility Alongside Your Classic SEO Metrics
-
-Add an AI visibility test to your monthly tracking: run 5 representative queries on ChatGPT and Perplexity and note whether you appear. This is the essential complement to your Google rankings and GBP statistics for a complete picture of your visibility in 2026.
-
 ## The Evolution Continues
 
 Local SEO isn't dead — it's evolving. Businesses that treat local SEO and GEO as an integrated discipline, rather than two separate efforts, are the ones capturing the most customers in 2026. The fundamentals remain, the levers are expanding, and the advantage goes to those who adapt.
-
----
-
-*Is your local SEO strategy up to date for 2026? Eddie Miller Agency evaluates your complete visibility — Google Maps, AI Overviews, ChatGPT, and Perplexity — in our free GEO audit. [Request my free GEO audit →]*

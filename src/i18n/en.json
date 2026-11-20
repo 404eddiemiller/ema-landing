@@ -1,7 +1,7 @@
 {
   "meta": {
-    "ogTitle": "Be found by your future customers | Eddie Miller Agency",
-    "ogDescription": "Is your business recommended when a customer asks ChatGPT? We check for free in 24h: score out of 100 and 3 concrete actions."
+    "ogTitle": "Local visibility in Paris | Eddie Miller Agency",
+    "ogDescription": "We compare answers from ChatGPT, Claude and Gemini with the details your Paris establishment publishes on its Google Business Profile and website."
   },
   "header": {
     "skipToContent": "Skip to main content",
@@ -13,35 +13,36 @@
     "faq": "FAQ",
     "pricing": "Pricing",
     "blog": "Blog",
-    "cta": "Free diagnostic",
+    "cta": "Discuss my visibility",
     "language": "Language"
   },
   "hero": {
-    "title": "Your future customers are asking ChatGPT where to go.",
-    "titleLine2": "We make sure the answer is",
-    "titleHighlight": "you.",
-    "subtitle": "Today, 45% of consumers ask AI for a recommendation before choosing a restaurant, dentist, or hotel. AI only gives 3 names. If yours isn't one of them, a competitor gets the customer.",
-    "cta": "Request my free diagnostic",
-    "secondary": "Check if my business is visible ���",
-    "trust1": "Results in 24h",
+    "title": "Local visibility in Paris",
+    "titleLine2": "Start with",
+    "titleHighlight": "accurate information.",
+    "subtitle": "We compare answers from ChatGPT, Claude and Gemini with the details your Paris establishment publishes on its Google Business Profile and website.",
+    "cta": "Discuss my visibility",
+    "secondary": "Explore the Paris visibility service",
+    "trust1": "Free initial conversation",
     "trust2": "No commitment",
-    "trust3": "No credit card required"
+    "trust3": "No credit card required",
+    "trust4": "Scope agreed with you"
   },
   "socialProof": {
     "label": "Your customers search here. Are you showing up?"
   },
   "whatYouGet": {
-    "title": "What you get for free",
-    "subtitle": "A complete diagnostic of your online visibility, ready in 24 hours.",
-    "item1Title": "Your AI visibility score",
-    "item1Text": "We run 100 real queries on ChatGPT, Perplexity, Claude and Gemini in your industry. Your score = how many times you're recommended. Simple, concrete, measurable.",
+    "title": "What we check",
+    "subtitle": "We work with establishments located in Paris. What needs checking depends on the business and the neighbourhood.",
+    "item1Title": "A record of the answers",
+    "item1Text": "We test questions about your Paris neighbourhood in ChatGPT, Claude and Gemini. You see the question, the answer and the date it was recorded.",
     "item2Title": "What's blocking your visibility",
-    "item2Text": "We identify exactly what prevents AI from recommending you when a customer searches in your city.",
+    "item2Text": "An old address, outdated hours or a broken link can keep someone from finding you in Paris. We show you where to correct them.",
     "item3Title": "The concrete actions to take first",
-    "item3Text": "We identify the fixes that will have the most impact on increasing your customer numbers.",
+    "item3Text": "You can see which details to correct first and on which pages.",
     "item4Title": "A 15-minute call to discuss",
     "item4Text": "We explain your results in person, answer your questions and see together how we can support you.",
-    "cta": "Request my free diagnostic"
+    "cta": "Discuss my visibility"
   },
   "testimonial": {
     "title": "What it changes in practice",
@@ -78,18 +79,18 @@
     "stat3Source": "SOCi, Local Visibility Index 2026"
   },
   "quote": {
-    "text": "\"Best restaurant near me?\" — this question is asked on ChatGPT thousands of times a day. The AI gives 3 names. Is yours one of them? Not yet.",
-    "cta": "Check my visibility for free"
+    "text": "Example search: “Where can I book a table in the Marais on Sunday evening and see the menu in English?”",
+    "cta": "Discuss my visibility"
   },
   "solution": {
-    "title": "We make you visible where your future customers search",
-    "subtitle": "ChatGPT, Perplexity, Claude, Gemini, Google, Google Maps: we cover all channels.",
-    "aiTitle": "Get recommended by AI",
-    "aiBullet1": "ChatGPT, Claude, Gemini and Perplexity cite you when a customer asks for a recommendation",
+    "title": "Local visibility in Paris",
+    "subtitle": "We compare answers from ChatGPT, Claude and Gemini with the details your Paris establishment publishes on its Google Business Profile and website.",
+    "aiTitle": "Check mentions in AI answers",
+    "aiBullet1": "For each question tested, we record the date, language, places mentioned and any sources provided.",
     "aiBullet2": "We improve your online reputation to give AI the trust signals to recommend you",
     "aiBullet3": "We make you present on the sources that AI consults to formulate their answers",
     "googleTitle": "Get found on Google",
-    "googleBullet1": "Your business ranks in Google Maps when a customer searches in your city or neighborhood",
+    "googleBullet1": "We check that the Google Maps pin matches the entrance to your Paris premises.",
     "googleBullet2": "Your Google profile is complete, up-to-date and increases your chances of being contacted",
     "googleBullet3": "We implement a strategy to optimize your online reviews"
   },
@@ -105,51 +106,60 @@
   },
   "verticals": {
     "title": "Solutions tailored to your industry",
-    "subtitle": "Every business has its specifics. We adapt our approach to your profession.",
+    "subtitle": "We work with establishments located in Paris. What needs checking depends on the business and the neighbourhood.",
     "card1Title": "Restaurants",
-    "card1Text": "\"Where should I eat tonight?\" The question is asked on ChatGPT. The answer is either you or a competitor.",
+    "card1Text": "Give the neighbourhood, available menu languages, last kitchen orders and the link to book a table.",
     "card2Title": "Hotels",
-    "card2Text": "Travelers plan their trips with AI. We put your hotel in their suggestions.",
+    "card2Text": "Distinguish reception hours from check-in times. Give directions from the station, languages spoken and direct booking terms.",
     "card3Title": "Bars & Nightclubs",
-    "card3Text": "\"Where to go out tonight?\" AI is the new nightlife guide. Be in its recommendations.",
+    "card3Text": "List the address, set times, closing time, ticketing languages and whether visitors need a booking or can walk in.",
     "card4Title": "Medical practices",
-    "card4Text": "Your future patients search for a doctor on ChatGPT. We make sure your practice gets recommended.",
+    "card4Text": "Verify the registered specialty, address, access and appointment arrangements. Do not publish patient records or personalised medical advice.",
     "card5Title": "Dental practices",
-    "card5Text": "Your future patients ask ChatGPT for a dentist. We make sure it recommends you.",
+    "card5Text": "List contact details, phone hours and how new patients can make an appointment. No health data is needed.",
     "card6Title": "Law firms",
-    "card6Text": "A client urgently looking for a lawyer asks AI. Be the name that comes up.",
+    "card6Text": "Describe practice areas and how to make first contact, in line with professional rules and without referring to client files.",
     "card7Title": "Hair & Beauty salons",
-    "card7Text": "\"Best hairdresser near me?\" AI gives 3 names. Make sure yours is one of them.",
+    "card7Text": "List the services, prices, Saturday hours and how to book an appointment.",
     "card8Title": "Wellness & Spa",
-    "card8Text": "Your future clients are looking for a spa in their city. AI answers them — we make sure it's you.",
+    "card8Text": "Distinguish spa admission from individual treatments. List time slots, prices and access requirements.",
     "card9Title": "Gyms & Sports clubs",
-    "card9Text": "New members ask AI for advice before signing up. We make you impossible to miss.",
+    "card9Text": "Publish the timetable by activity, class levels, gym address and trial class arrangements.",
     "learnMore": "Learn more →",
     "card10Title": "Other business",
-    "card10Text": "Your industry isn't listed? We adapt our approach to your sector. Contact us for a tailored diagnostic."
+    "card10Text": "Is your business located in Paris? Tell us your neighbourhood and the service your customers look for.",
+    "card1Question": "I’m visiting the Marais on Sunday. Where can I book a table for 9 pm and see the menu in English?",
+    "card2Question": "Which hotel near Gare de Lyon lets me check in after 11 pm and book directly in English?",
+    "card3Question": "Where can I hear live jazz near Bastille on Friday? Can I reserve in English, and how late does the bar stay open?",
+    "card4Question": "How do I make an appointment with a GP in the 14th arrondissement, and is there step-free access?",
+    "card5Question": "How can I contact a dental practice in the 12th arrondissement for a first appointment?",
+    "card6Question": "How do I arrange a first meeting with an employment lawyer in the 9th arrondissement?",
+    "card7Question": "Which salon near République cuts curly hair on Saturdays?",
+    "card8Question": "Is there a spa near Canal Saint-Martin where I can book the steam room separately?",
+    "card9Question": "Which gym in the 15th arrondissement offers beginner Pilates before work?"
   },
   "howItWorks": {
     "title": "How it works",
     "subtitle": "3 simple steps to be found by your future customers.",
-    "step1Title": "Request your diagnostic",
-    "step1Text": "Fill in the form in 1 minute. We run 100 real queries on ChatGPT, Perplexity, Claude and Gemini. You receive your visibility score, the full audit and priority actions within 24h.",
+    "step1Title": "Choose relevant searches",
+    "step1Text": "Together we choose questions about your Paris neighbourhood and the languages that matter to your customers.",
     "step2Title": "We talk it through together",
     "step2Text": "15 minutes on the phone to go through your results, answer your questions and see how we can help you get recommended more by AI.",
-    "step3Title": "Your customers find you",
-    "step3Text": "If you decide to work with us, we take care of everything. We implement the fixes for you — you don't have to do a thing. Within a few weeks, new customers start finding you through AI recommendations.",
-    "cta": "Request my free diagnostic"
+    "step3Title": "Check the updated information",
+    "step3Text": "For each question tested, we record the date, language, places mentioned and any sources provided.",
+    "cta": "Discuss my visibility"
   },
   "faq": {
     "title": "Frequently asked questions",
     "subtitle": "Everything you need to know before getting started.",
     "q1": "What exactly do you do for me?",
-    "a1": "We make sure that when someone searches for a business like yours — whether on ChatGPT or another AI assistant — they find you instead of a competitor. We take care of your Google Business Profile, your presence on the right directories, and all the technical settings that make AI recommend you.",
+    "a1": "We compare answers from ChatGPT, Claude and Gemini with the details your Paris establishment publishes on its Google Business Profile and website.",
     "q2": "How quickly will I see a difference?",
-    "a2": "The first results on Google are visible within a few days. For AI recommendations like ChatGPT, allow 4 to 8 weeks. We measure your score before and after: you see the progress in numbers, not promises.",
+    "a2": "For each question tested, we record the date, language, places mentioned and any sources provided.",
     "q3": "Do you guarantee I'll appear on ChatGPT?",
-    "a3": "Very nearly. But be wary of anyone who promises it 100%. AI chooses its recommendations autonomously. What we do guarantee is that your business will have all the right conditions to be recommended — and we measure it concretely with a before/after score. You can clearly see the improvement, in hard numbers.",
+    "a3": "No. Each assistant chooses its own answer. We document mentions and errors without promising a ranking or bookings.",
     "q4": "Does it really work for my industry?",
-    "a4": "Yes. Our method is proven and applies to any business with a physical address: dental practices, medical clinics, law firms, restaurants, hotels, bars, nightclubs, hair salons, spas, gyms. If your customers search based on location, we can help.",
+    "a4": "We work with establishments located in Paris. What needs checking depends on the business and the neighbourhood.",
     "q5": "I already have great Google reviews. Isn't that enough?",
     "a5": "Having great Google reviews is essential, but it's only part of the equation. 83% of businesses with excellent Google reviews don't appear in ChatGPT recommendations (SOCi, 2024). AI doesn't rely on the same criteria as Google to choose who to recommend. That's exactly what we identify in the free diagnostic: what's missing for AI to recommend you too.",
     "q6": "Do I need a website?",
@@ -157,19 +167,19 @@
     "q7": "How much of my time does it take?",
     "a7": "Very little. You fill in a 1-minute form for the diagnostic, then we call you for 15 minutes to explain our recommendations. We guide you step by step.",
     "q8": "Why not do it myself?",
-    "a8": "You can. But between understanding how Google and AI algorithms work, identifying what's blocking you, and implementing the fixes, expect 25 to 30 hours of work. We do it in a few days with a proven method and our experience across dozens of businesses.",
+    "a8": "You can. Start by comparing the address, hours and contact link on your Google Business Profile with those on your website.",
     "q9": "How much does it cost?",
     "a9": "The diagnostic is 100% free with no commitment. After that, our plans range from €399 to €1,199 depending on your needs. We explain each option during the 15-minute call.",
     "link9Href": "/en/pricing",
     "link9Label": "See our plans →",
     "q10": "What's the difference from a traditional SEO agency?",
-    "a10": "A traditional SEO agency helps you rank higher on Google. We go further: we also make you visible in the responses of ChatGPT, Perplexity, Claude, and Gemini. It's a new customer channel that most agencies don't cover yet — and it's our specialty."
+    "a10": "Alongside your Google Business Profile, we check what ChatGPT, Claude and Gemini say about your business in Paris. A dated observation is not a promise of a recommendation."
   },
   "auditForm": {
-    "title": "Your free diagnostic in 24h",
-    "subtitle": "In 24h, you'll know if ChatGPT and other AIs recommend your business, and what to do if they don't.",
+    "title": "Discuss my visibility",
+    "subtitle": "Together we choose questions about your Paris neighbourhood and the languages that matter to your customers.",
     "businessName": "Business name",
-    "businessNamePlaceholder": "The Corner Bistro, Dr. Smith's Office…",
+    "businessNamePlaceholder": "Bistrot du Marais…",
     "managerName": "Manager name",
     "managerNamePlaceholder": "John Smith",
     "optional": "optional",
@@ -186,15 +196,15 @@
     "typeBar": "Bars & Clubs",
     "typeOther": "Other",
     "address": "Business address",
-    "addressPlaceholder": "123 Main Street, Downtown",
-    "city": "City",
-    "cityPlaceholder": "London W1, Manchester…",
+    "addressPlaceholder": "12 rue de Rivoli, 75004 Paris",
+    "city": "Paris neighbourhood or arrondissement",
+    "cityPlaceholder": "Paris 11e · Bastille",
     "email": "Email address",
     "emailPlaceholder": "you@example.com",
     "phone": "Phone number",
-    "phonePlaceholder": "+1 555 123 4567",
+    "phonePlaceholder": "+33 1 99 00 00 00",
     "website": "Website",
-    "websitePlaceholder": "https://www.my-business.com",
+    "websitePlaceholder": "https://example.com",
     "googleBusiness": "Google Business Profile",
     "googleBusinessPlaceholder": "https://g.co/kgs/…",
     "sourceQuestion": "How did you hear about us?",
@@ -206,24 +216,24 @@
     "sourceOther": "Other",
     "errorGeneric": "An error occurred. Please try again or contact us at contact@eddiemiller.agency.",
     "errorSource": "Please indicate how you heard about us.",
-    "submitButton": "Request my free diagnostic",
-    "submitting": "Sending…",
-    "trustSignals": "Results in 24h · No commitment · No credit card required",
+    "submitButton": "Prepare my email",
+    "submitting": "Preparing…",
+    "trustSignals": "Free initial conversation",
     "phonePrefer": "Prefer to talk it through?",
     "fieldRequired": "This field is required",
     "emailInvalid": "Please enter a valid email address",
-    "exclusivity": "Only one client supported per area and specialty — to guarantee your exclusivity."
+    "exclusivity": "Only for establishments located in Paris."
   },
   "footer": {
-    "description": "We help your business get recommended by ChatGPT and other AIs.",
+    "description": "We compare answers from ChatGPT, Claude and Gemini with the details your Paris establishment publishes on its Google Business Profile and website.",
     "legalLinks": "Navigation links",
     "legal": "Legal notice",
     "terms": "Terms & Conditions",
     "copyright": "© {{year}} Eddie Miller Agency. All rights reserved."
   },
   "stickyCta": {
-    "text": "Does ChatGPT recommend your business? Get the answer in 24h →",
-    "button": "Free diagnostic →"
+    "text": "Local visibility in Paris",
+    "button": "Discuss my visibility"
   },
   "notFound": {
     "title": "Page not found",
@@ -232,7 +242,7 @@
   },
   "thankYou": {
     "title": "Thank you!",
-    "subtitle": "Your diagnostic request has been sent. You'll receive the full audit within 24 hours."
+    "subtitle": "If you use the form, send the prepared email from your email app to contact us."
   },
   "vertical": {
     "ariaHero": "Main headline",
@@ -244,6 +254,11 @@
     "ariaSolution": "What we do for you",
     "ariaHowItWorks": "How it works",
     "ariaFaq": "Frequently asked questions",
-    "ariaForm": "Request a free diagnostic"
+    "ariaForm": "Discuss my visibility",
+    "visibility": "Local visibility in Paris",
+    "visitorExample": "Example search from a visitor to Paris",
+    "searchExample": "Example search in Paris",
+    "publicInfo": "Information to make easy to find",
+    "visibilityLink": "Explore the Paris visibility service"
   }
 }

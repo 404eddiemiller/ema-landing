@@ -9,21 +9,19 @@ category: "Google & beoordelingen"
 tags: ["Google Business Profile", "tandarts", "lokale SEO", "Parijs", "Google-vermelding", "Google-beoordelingen", "GBP", "Google Maps"]
 cta: "diagnostic-gratuit"
 lang: "nl"
-reading_time: "15 min"
+reading_time: "14 min"
 image: "/images/blog/google-business-profile-guide-dentiste-paris.webp"
 imageAlt: "Google Business Profile-vermelding van een tandartspraktijk bekeken op een computerscherm"
 internal_links:
-  - slug: "geo-optimalisatie-ai-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+  - slug: "ai-vervangen-doctolib-tandartspraktijk"
+    anchor: "Van zoekvraag naar afspraak: controleer de route naar Doctolib"
   - slug: "tandartspraktijk-onzichtbaar-chatgpt"
-    anchor: "waarom AI's uw praktijk niet aanbevelen"
+    anchor: "Waarom uw praktijk niet verschijnt wanneer men een tandarts vraagt aan ChatGPT"
 ---
 
 ## Google Business Profile: de complete gids voor Parijse tandartsen (2026)
 
 Uw Google Business Profile (GBP)-vermelding is het eerste contactpunt geworden tussen u en uw toekomstige patiënten. Nog voordat ze uw website bezoeken of Doctolib raadplegen, zien de meeste patiënten uw Google-vermelding — of dat nu in de zoekresultaten is, op Google Maps, of inmiddels in de door AI gegenereerde antwoorden.
-
-In 2026 is uw GBP-vermelding niet meer een simpele online gids. Het is een actieve etalage die direct uw positie in het Map Pack (de drie eerste Google Maps-resultaten), uw waargenomen reputatie en uw zichtbaarheid bij AI-assistenten zoals ChatGPT, Perplexity en Google AI Overview beïnvloedt.
 
 Deze gids begeleidt u stap voor stap bij het optimaliseren van elk element van uw vermelding, met specifieke instructies voor Parijse tandartspraktijken.
 
@@ -224,29 +222,24 @@ Wanneer een gebruiker aan ChatGPT vraagt "welke tandarts raadt u aan in het 15e 
 
 Een geoptimaliseerde GBP-vermelding verbetert niet alleen uw positie in Google Maps. Het verbetert uw [zichtbaarheid bij alle AI's](/nl/blog/geo-optimalisatie-ai-2026). Het is de basis van elke GEO (Generative Engine Optimization)-strategie — en voor een Parijse tandartspraktijk is het de actie met het best mogelijke rendement op investering.
 
----
-
-*Wilt u weten of uw Google Business-vermelding echt geoptimaliseerd is? Eddie Miller Agency voert een gratis GBP + GEO-audit uit voor Parijse tandartspraktijken: analyse van uw vermelding, vergelijking met uw directe concurrenten, en prioritair actieplan. [Mijn gratis audit aanvragen →]*
-
----
-
 ## FAQ — Google Business Profile voor tandartsen
 
 ### Wat is het verschil tussen Google Business Profile en Google My Business?
+
 Het is hetzelfde. Google My Business (GMB) is eind 2021 officieel hernoemd naar Google Business Profile (GBP). De werking is identiek, alleen de naam is veranderd. U beheert uw vermelding rechtstreeks vanuit Google Zoeken of Google Maps.
 
 ### Hoelang voordat u resultaten ziet na optimalisatie?
+
 De eerste rankingverbeteringen in het Map Pack verschijnen doorgaans 2 tot 4 weken na een volledige optimalisatie van de vermelding. Het verzamelen van recente beoordelingen produceert geleidelijke effecten over 2 tot 3 maanden. De sleutel is regelmaat: vermeldingen die continue activiteit handhaven (berichten, foto's, beoordelingen) vorderen sneller en duurzamer.
 
 ### Mijn praktijk maakt deel uit van een netwerk (Dentego, Dentylis, etc.). Hoe beheer ik de vermelding?
+
 Elk centrum moet zijn eigen GBP-vermelding hebben met zijn eigen adres. De naam moet exact overeenkomen met de naam van het lokale centrum. Zorg ervoor dat de openingstijden, diensten en behandelaars specifiek zijn voor uw centrum en niet gekopieerd van een ander centrum in het netwerk. De individualisering van elke vermelding is essentieel voor de lokale ranking.
 
 ### Kan ik mijn vermelding beheren zonder website?
+
 Ja, u kunt een GBP-vermelding hebben zonder website. Echter, Google gebruikt uw website om de informatie van uw vermelding te verifiëren en aan te vullen. Zonder website zal uw "naamsbekendheidsscore" geplafonneerd zijn en zullen AI's minder materiaal hebben om u aan te bevelen. Als een volledige website op dit moment niet haalbaar is, zorg er dan minimaal voor dat uw Doctolib-profiel volledig is — het dient als gedeeltelijk substituut.
 
 ### Verlopen Google Business-berichten?
+
 Berichten blijven 6 maanden zichtbaar ("Aanbieding"-berichten verlopen op de ingestelde einddatum). Zelfs na het verlopen van de weergave blijven ze geïndexeerd en dragen ze bij aan de activiteitsgeschiedenis van uw vermelding. Het gaat niet om een individueel bericht maar om de regelmaat: een constante stroom berichten signaleert aan Google en de AI's dat uw praktijk actief is.
-
----
-
-**Bent u tandarts in Parijs?** [Ontdek hoe wij tandartspraktijken helpen gevonden te worden →](/dentistes)

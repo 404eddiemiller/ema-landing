@@ -1,31 +1,27 @@
 ---
-title: "Como ayudar a las IA a comprender lo que hace tu negocio (sin tocar el codigo)"
+title: "Schema.org: cómo comprobar lo que tu web dice de tu negocio"
 slug: "schema-org-sitio-legible-ia-sin-programar"
-meta_title: "Como hacer que tu sitio sea comprensible por ChatGPT y Google AI — guia simple, sin codigo"
-meta_description: "Los sitios que las IA comprenden bien son recomendados 2 a 3 veces mas a menudo. Aqui te explicamos como hacer que el tuyo sea legible por ChatGPT y Google, incluso sin competencias tecnicas."
+meta_title: "Schema.org: cómo comprobar lo que tu web dice de tu negocio"
+meta_description: "Los datos estructurados describen la página en un formato legible por programas. No sustituyen la información visible para el visitante."
 author: "Eddie Miller Agency"
 date: "2026-02-14"
 category: "Visibilidad online"
 tags: ["Schema.org", "datos estructurados", "JSON-LD", "visibilité IA", "visibilidad IA", "SEO tecnico", "no-code", "ChatGPT"]
 cta: "diagnostic-gratuit"
 lang: "es"
-reading_time: "11 min"
+reading_time: "10 min"
 image: "/images/blog/schema-org-site-lisible-ia-sans-coder.webp"
 imageAlt: "Lineas de codigo estructurado mostradas en una pantalla en un ambiente calido"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "google-business-profile-guide-dentiste-paris"
-    anchor: "nuestra guia Google Business Profile"
-  - slug: "etude-visibilite-ia-50-cabinets-dentaires-paris"
-    anchor: "nuestro estudio sobre 50 clinicas dentales"
+  - slug: "seo-local-2026-tendencias-acciones"
+    anchor: "Ser encontrado en Google en 2026: lo que ha cambiado para los negocios parisinos"
+  - slug: "clinica-dental-sin-sitio-web-vulnerabilidad-ia"
+    anchor: "Clínica dental sin web: ¿qué puede comprobar ya un paciente?"
 ---
 
 ## Schema.org para principiantes: como hacer que tu sitio sea legible por las IA (sin programar)
 
 Tu sitio web habla a los humanos. Pero habla a las maquinas?
-
-Cuando ChatGPT, Perplexity o Google AI Overview buscan informacion sobre tu negocio, no "leen" tu sitio como un paciente o un cliente lo haria. Escanean el codigo en busca de datos estructurados — informacion etiquetada en un formato estandarizado llamado Schema.org.
 
 Si tu sitio no contiene estas etiquetas, las IA deben adivinar lo que eres, donde estas, lo que ofreces. Y cuando una IA tiene que adivinar, prefiere recomendar a un competidor cuyo sitio le da respuestas claras.
 
@@ -48,8 +44,6 @@ Hasta hace poco, los datos estructurados eran un "bonus SEO" — una forma de ob
 En 2026, la situacion ha cambiado. Los dos mayores motores de busqueda del mundo — Google y Microsoft — han confirmado publicamente que los datos estructurados son una senal critica para sus funcionalidades de IA. ChatGPT tambien ha confirmado que utiliza los datos estructurados para determinar que resultados mostrar.
 
 Las cifras hablan por si solas. Los sitios con una implementacion completa de Schema.org son citados de 2 a 3 veces mas por los motores de IA. Los sitios con Schema y FAQ estructurada ven su visibilidad IA aumentar aproximadamente un 36 %. Y la adopcion de Schema.org ha aumentado un 35 % entre 2023 y 2026, senal de que cada vez mas profesionales han comprendido lo que esta en juego.
-
-A pesar de ello, la gran mayoria de los sitios de comercios locales, clinicas medicas y restaurantes aun no tienen datos estructurados. En [nuestro estudio sobre 50 clinicas dentales parisinas](/blog/etude-visibilite-ia-50-cabinets-dentaires-paris), solo el 12 % tenia Schema.org — y todos estaban en el grupo de las clinicas mas visibles en las IA.
 
 ## Los tipos de Schema que importan para tu negocio
 
@@ -139,7 +133,7 @@ Una vez implementado el Schema, esto es lo que pasa del lado de las IA.
 
 Cuando ChatGPT busca informacion sobre los dentistas del distrito 15, en lugar de tener que interpretar el texto de tu pagina de inicio para comprender que eres dentista, que estas en el distrito 15, y que ofreces implantes — encuentra esta informacion directamente etiquetada y verificable. La duda desaparece. La confianza aumenta. La probabilidad de ser citado aumenta.
 
-Este paso de la ambiguedad a la claridad es exactamente lo que el [GEO (Generative Engine Optimization)](/blog/geo-referencement-ia-2026) busca lograr. Los datos estructurados son la palanca tecnica mas directa.
+Este paso de la ambiguedad a la claridad es exactamente lo que el [GEO (Generative Engine Optimization)](/es/blog/optimizacion-geo-ia-2026) busca lograr. Los datos estructurados son la palanca tecnica mas directa.
 
 ## El plan de accion en 3 pasos
 
@@ -151,25 +145,20 @@ Este paso de la ambiguedad a la claridad es exactamente lo que el [GEO (Generati
 
 La inversion en tiempo es minima. El retorno en visibilidad IA es medible en unas semanas. Y una vez implementado, el Schema trabaja para ti las 24 horas, cada vez que una IA busca informacion sobre tu sector y tu ubicacion.
 
----
-
-*Tu sitio tiene los datos estructurados correctos? Eddie Miller Agency incluye una auditoria Schema completa en su auditoria GEO gratuita. Verificamos lo que existe, lo que falta, y proporcionamos el codigo JSON-LD listo para implementar para tu negocio. [Solicitar mi auditoria GEO gratuita →]*
-
----
-
 ## FAQ — Schema.org y visibilidad IA
 
 ### Schema.org es gratuito?
+
 Si. Schema.org es un estandar abierto y gratuito. El vocabulario, las herramientas de prueba y los generadores online no cuestan nada. Los unicos costes eventuales estan vinculados a la implementacion tecnica si recurres a un proveedor (tipicamente 200 a 500 euros para un sitio simple) o a un plugin premium WordPress (alrededor de 50 a 100 euros por ano).
 
 ### Mi sitio esta en Wix/Squarespace/Carrd. Puedo anadir Schema?
+
 Wix y Squarespace permiten anadir codigo personalizado en el encabezado de las paginas, lo que hace posible la adicion de JSON-LD. Carrd tambien ofrece esta opcion en sus planes de pago. Las plataformas mas simples (paginas de Facebook, perfiles Doctolib) no permiten anadir Schema, pero es normal — el Schema esta destinado a tu propio sitio web.
 
 ### Si no tengo sitio web, el Schema es util?
+
 No, el Schema solo se aplica a sitios web. Si no tienes sitio, concentra tus esfuerzos en tu ficha Google Business Profile (que contiene sus propios datos estructurados gestionados por Google) y en tus perfiles Doctolib, TripAdvisor o TheFork. El Schema se vuelve pertinente cuando creas un sitio web, incluso minimo.
 
-### Cuanto tiempo antes de que las IA tengan en cuenta mi Schema?
-Google detecta generalmente los nuevos datos estructurados en 1 a 2 semanas durante su proximo paso de indexacion. Los efectos en la visibilidad IA (citaciones en ChatGPT, Perplexity) tardan un poco mas — tipicamente de 2 a 4 semanas — porque estas plataformas actualizan sus fuentes a frecuencias variables. El Schema es una inversion que produce efectos continuos una vez implementada.
-
 ### El Schema puede perjudicar a mi sitio si esta mal implementado?
+
 Un Schema incorrecto (informacion falsa, tipos inadaptados) puede crear confusion para las IA y potencialmente reducir tu visibilidad en lugar de mejorarla. Por eso la validacion es esencial. Usa sistematicamente las herramientas de prueba de Google despues de toda implementacion. En caso de duda, hazlo verificar por un profesional.

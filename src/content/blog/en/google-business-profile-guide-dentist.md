@@ -9,21 +9,19 @@ category: "Google & reviews"
 tags: ["Google Business Profile", "dentist", "local SEO", "Paris", "Google listing", "Google reviews", "GBP", "Google Maps"]
 cta: "diagnostic-gratuit"
 lang: "en"
-reading_time: "15 min"
+reading_time: "14 min"
 image: "/images/blog/google-business-profile-guide-dentiste-paris.webp"
 imageAlt: "Google Business Profile of a dental practice displayed on a computer screen"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "cabinet-dentaire-invisible-chatgpt"
-    anchor: "why AI doesn't recommend your practice"
+  - slug: "ai-replace-doctolib-dental-practice"
+    anchor: "From search to appointment: check the handoff to Doctolib"
+  - slug: "dental-practice-invisible-chatgpt"
+    anchor: "Why Your Practice Doesn't Show Up When Someone Asks ChatGPT for a Dentist"
 ---
 
 ## Google Business Profile: The Complete Guide for Dentists in Paris (2026)
 
 Your Google Business Profile (GBP) has become the first point of contact between you and your future patients. Before even visiting your website or checking Doctolib, most patients see your Google listing — whether in search results, on Google Maps, or now in AI-generated responses.
-
-In 2026, your GBP listing is no longer a simple online directory. It's an active storefront that directly influences your ranking in the Map Pack (the top three Google Maps results), your perceived reputation, and your visibility to AI assistants like ChatGPT, Perplexity, and Google AI Overview.
 
 This guide walks you through optimizing every element of your listing, step by step, with instructions specific to dental practices in Paris.
 
@@ -228,31 +226,26 @@ One final essential point that most GBP guides don't mention: your Google Busine
 
 When a user asks ChatGPT "which dentist do you recommend in the 15th arrondissement?" or Google AI Overview "best orthodontist Paris 11," the information from your listing — description, services, reviews, photos, recent activity — is directly used to decide whether you deserve to be cited.
 
-An optimized GBP listing doesn't just improve your position in Google Maps. It improves your [visibility across all AI platforms](/blog/geo-referencement-ia-2026). It's the foundation of any GEO (Generative Engine Optimization) strategy — and for a dental practice in Paris, it's the action with the best possible return on investment.
-
----
-
-*Want to know if your Google Business listing is truly optimized? Eddie Miller Agency provides a free GBP + GEO audit for dental practices in Paris: analysis of your listing, comparison with your direct competitors, and a priority action plan. [Request my free audit →]*
-
----
+An optimized GBP listing doesn't just improve your position in Google Maps. It improves your [visibility across all AI platforms](/en/blog/geo-ai-optimization-2026). It's the foundation of any GEO (Generative Engine Optimization) strategy — and for a dental practice in Paris, it's the action with the best possible return on investment.
 
 ## FAQ — Google Business Profile for Dentists
 
 ### What's the difference between Google Business Profile and Google My Business?
+
 They're the same thing. Google My Business (GMB) was officially renamed Google Business Profile (GBP) in late 2021. The functionality is identical, only the name changed. You manage your listing directly from Google Search or Google Maps.
 
 ### How long before seeing results after optimization?
+
 Initial ranking improvements in the Map Pack typically appear within 2 to 4 weeks after a complete listing optimization. Accumulating recent reviews produces progressive effects over 2 to 3 months. The key is consistency: listings that maintain continuous activity (posts, photos, reviews) progress faster and more durably.
 
 ### My practice is part of a network (Dentego, Dentylis, etc.). How do I manage the listing?
+
 Each location must have its own GBP listing with its own address. The name should exactly match the local center's name. Make sure hours, services, and practitioners are specific to your location and not copy-pasted from another center in the network. Individualizing each listing is essential for local ranking.
 
 ### Can I manage my listing without a website?
+
 Yes, you can have a GBP listing without a website. However, Google uses your website to verify and complete your listing information. Without one, your "authority score" will be capped and AI will have less material to recommend you. If a full website isn't feasible right away, make sure at minimum that your Doctolib profile is comprehensive — it serves as a partial substitute.
 
 ### Do Google Business posts expire?
+
 Posts remain visible for 6 months (posts labeled "Offer" expire on the end date you set). Even after display expiration, they remain indexed and contribute to your listing's activity history. The point isn't any individual post but the regularity: a steady stream of posts signals to Google and AI that your practice is active.
-
----
-
-**Are you a dentist in Paris?** [Discover how we help dental practices get found →](/dentistes)

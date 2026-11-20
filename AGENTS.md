@@ -2,10 +2,10 @@
 
 Mis à jour par Codex le 6 septembre 2026. Sources : demande de publication et code du site.
 
-Site Astro, sept langues, visibilité IA et Google Maps, automatisation et sites web à Paris.
+Site Astro, sept langues. Décision d’Adam, 20 novembre 2026 : Paris intra-muros uniquement. Deux offres indépendantes : être trouvé sur ChatGPT, Claude et Gemini (Google Maps comme source locale) ou simplifier les tâches internes avec l’IA. Pour les restaurants, hôtels et bars, partir des recherches des touristes ; ne pas appliquer cet angle aux cabinets par défaut. La création de site reste accessible en complément, pas comme troisième offre principale.
 Le dépôt contient uniquement le site et ses ressources publiques. Aucun secret ni dossier client.
 
-Les textes actuels vivent dans `src/data/agency.ts` et `agency-translations.json`.
+La vitrine française et ses deux parcours sont dans `src/pages/index.astro`, `diagnostic-geo.astro`, `conseil-ia.astro` et `src/layouts/RueCoulisses.astro`. Les textes des autres parcours commerciaux vivent dans `src/data/agency.ts` et `agency-translations.json`.
 La collection Astro active est `src/content.config.ts`. Ne pas réintroduire les chiffres ou témoignages des anciens composants non utilisés. Les études marquées `needs-review` restent masquées et hors sitemap.
 
 `npm run build` produit un aperçu sans envoi et sans indexation. La publication Git Vercel utilise `scripts/build-vercel.mjs` : mode live uniquement lorsque `VERCEL_ENV=production`.

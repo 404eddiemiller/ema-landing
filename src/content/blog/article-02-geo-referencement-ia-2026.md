@@ -1,17 +1,22 @@
 ---
-title: "Comment apparaître sur ChatGPT quand vos clients cherchent un commerce comme le vôtre"
+title: "GEO : relire son commerce dans une réponse d’assistant"
 slug: "geo-referencement-ia-2026"
-meta_title: "Comment apparaître sur ChatGPT, Perplexity et Google AI quand vos clients cherchent un commerce comme le vôtre"
-meta_description: "Vos clients ne cherchent plus seulement sur Google : ils demandent à ChatGPT, Perplexity et Google AI. Voici comment faire en sorte que votre activité soit recommandée."
+meta_title: "GEO : relire son commerce dans une réponse d’assistant"
+meta_description: "Le référencement local aide à trouver une adresse ; l’exercice GEO consiste ici à vérifier ce qu’une réponse dit de cette adresse."
 author: "Eddie Miller Agency"
 date: "2026-01-24"
 category: "Visibilité en ligne"
-tags: ["visibilité IA", "visibilité Google", "intelligence artificielle", "visibilité", "ChatGPT", "Perplexity", "Google AI Overview"]
+tags: ["visibilité IA", "visibilité Google", "intelligence artificielle", "visibilité", "ChatGPT", "Google AI Overview"]
 cta: "diagnostic-gratuit"
 lang: "fr"
-reading_time: "12 min"
+reading_time: "10 min"
 image: "/images/blog/geo-referencement-ia-2026.webp"
 imageAlt: "Devanture d'un commerce local avec une lumière chaude, vue depuis la rue"
+internal_links:
+  - slug: "comparer-recherches-touristes-paris"
+    anchor: "Comparer trois recherches touristiques à Paris, sans classer les assistants"
+  - slug: "seo-local-2026-tendances-actions"
+    anchor: "Être trouvé sur Google en 2026 : ce qui a changé pour les commerces parisiens"
 ---
 
 ## GEO : le référencement que Google ne vous explique pas (et qui change tout en 2026)
@@ -23,10 +28,6 @@ Ce n'est pas un bug. C'est un angle mort que 95 % des professionnels ignorent en
 Bienvenue dans l'ère du **GEO — Generative Engine Optimization**.
 
 ## Vos clients ne cherchent plus comme avant
-
-Pensez à la dernière fois que vous avez cherché un professionnel de santé, un restaurant ou un hôtel. Avez-vous tapé une requête dans Google et cliqué sur dix liens bleus ? Ou avez-vous posé une question à ChatGPT, Perplexity ou l'assistant de votre téléphone ?
-
-Les chiffres sont sans appel. ChatGPT traite aujourd'hui environ 2,5 milliards de requêtes par jour, avec plus de 800 millions d'utilisateurs actifs par semaine. Perplexity, le moteur de recherche IA spécialisé dans les réponses sourcées, dépasse le milliard de requêtes mensuelles. Et Google lui-même a déployé ses « AI Overviews » — des réponses générées par IA — sur plus d'un quart de ses résultats de recherche.
 
 Le comportement a changé de manière structurelle. Les recherches conversationnelles remplacent progressivement les recherches par mots-clés. Au lieu de taper « dentiste implant Paris 15 », un utilisateur demande désormais : « Je cherche un dentiste de confiance pour un implant dans le 15e arrondissement, lequel me recommandez-vous ? ». La différence est fondamentale : l'utilisateur ne veut pas une liste de résultats. Il veut **une recommandation**.
 
@@ -64,10 +65,6 @@ Les avis Google ne sont plus seulement un facteur de confiance pour les humains.
 
 Les données structurées sont un langage technique que votre site web utilise pour communiquer directement avec les moteurs de recherche et les IA. C'est comme une fiche d'identité numérique qui dit clairement : « Je suis un dentiste, situé à cette adresse, proposant ces services, avec ces horaires et cette note moyenne. » Les sites qui utilisent ce balisage voient leurs citations par les IA augmenter d'environ 30 à 44 % selon les études récentes.
 
-### La présence sur les plateformes que les IA consultent
-
-Chaque plateforme IA a ses sources privilégiées. ChatGPT s'appuie beaucoup sur Wikipedia, les sites d'avis et les contenus éditoriaux. Perplexity cite fréquemment Reddit, YouTube et les sites spécialisés. Google AI Overview puise dans son propre index, avec une préférence pour les fiches Google Business et les sites avec des données structurées. Être présent et optimisé sur les plateformes que chaque IA consulte est la clé d'une stratégie GEO efficace.
-
 ## Pourquoi le SEO seul ne suffit plus
 
 Il faut être clair : le SEO n'est pas mort. Être bien positionné sur Google reste important. Mais le SEO seul présente désormais une faille majeure : **il ne garantit plus la visibilité**.
@@ -81,10 +78,6 @@ Un cabinet dentaire avec un site web moyen mais d'excellents avis Google, un pro
 ## GEO : ce que ça change concrètement pour votre activité
 
 Si vous êtes dentiste, restaurateur ou hôtelier à Paris, voici ce que le GEO implique au quotidien.
-
-### Votre fiche Google Business devient votre actif le plus important
-
-Votre fiche Google Business Profile n'est plus seulement un outil de SEO local. C'est l'une des sources les plus consultées par toutes les plateformes IA. Les informations que vous y mettez — catégories, services, description, photos, posts, questions-réponses — alimentent directement les réponses de ChatGPT, Perplexity et Google AI. Une fiche incomplète ou inactive vous rend invisible pour les IA.
 
 ### Les avis deviennent un levier stratégique
 
@@ -102,11 +95,9 @@ Les données structurées (Schema.org) ne sont plus un « bonus technique ». El
 
 La question que tout professionnel se pose : « Comment savoir si les IA me recommandent ? ».
 
-La méthode la plus directe est de tester vous-même. Allez sur ChatGPT, Perplexity et Google, posez les questions que vos clients poseraient (« meilleur dentiste pour implant Paris 15e », « restaurant italien pas cher Marais », « hôtel de charme Saint-Germain ») et regardez si vous apparaissez.
+Exemple à essayer : « Où dîner près de Bastille à Paris après 21 h ? » Notez la date et vérifiez les horaires auprès du restaurant.
 
 Pour aller plus loin, des outils spécialisés commencent à émerger pour suivre la visibilité IA de manière systématique. Mais le principe reste le même : en GEO, vous ne mesurez plus votre « position » dans un classement. Vous mesurez votre **fréquence de citation** — combien de fois les IA vous mentionnent quand on leur pose des questions liées à votre activité.
-
-Chez Eddie Miller Agency, nous avons développé un score GEO sur 100 qui évalue précisément cette visibilité sur 15 critères, en testant votre présence sur ChatGPT, Perplexity, Google AI Overview et les principaux moteurs IA. Ce score permet de savoir exactement où vous en êtes et ce qu'il faut améliorer en priorité.
 
 ## Les 5 actions GEO à lancer cette semaine
 
@@ -120,8 +111,6 @@ Vous n'avez pas besoin de tout refaire pour commencer à gagner en visibilité I
 
 **4. Publiez un post Google Business cette semaine.** Un post simple avec un service, un mot-clé et votre arrondissement : « Blanchiment dentaire au cabinet — Paris 15e, métro Convention. Prenez rendez-vous sur Doctolib. ». Ce signal de fraîcheur compte pour les IA.
 
-**5. Testez votre visibilité IA.** Allez sur ChatGPT et Perplexity, posez 3 requêtes que vos clients utiliseraient, et notez si vous apparaissez. Si la réponse est non, vous savez maintenant pourquoi — et quoi faire.
-
 ## Le GEO n'est pas une mode, c'est le nouveau standard
 
 Le marché mondial du GEO représentait moins d'un milliard de dollars en 2024. Il devrait dépasser les 7 milliards d'ici 2031, avec une croissance annuelle de 34 %. Les entreprises qui adoptent une stratégie GEO constatent en moyenne une hausse de 40 % de leur visibilité en ligne et un retour sur investissement supérieur de 22 % par rapport aux stratégies SEO traditionnelles seules.
@@ -130,29 +119,20 @@ Pour les activités locales à Paris — cabinets médicaux, restaurants, hôtel
 
 Le SEO vous a permis d'être trouvé. Le GEO vous permet d'être **recommandé**. Et dans un monde où les décisions se prennent de plus en plus dans une conversation avec une IA, être recommandé fait toute la différence.
 
----
-
-*Vous voulez savoir si les IA vous recommandent déjà ? Eddie Miller Agency propose un audit GEO gratuit de votre activité : votre score de visibilité IA sur 100, les plateformes où vous êtes invisible, et les 3 actions prioritaires pour changer la donne. [Demander mon audit gratuit →]*
-
----
-
 ## FAQ — Questions fréquentes sur le GEO
 
-### Qu'est-ce que le GEO exactement ?
-Le GEO (Generative Engine Optimization) est l'ensemble des techniques qui permettent à une activité d'apparaître dans les recommandations générées par les intelligences artificielles comme ChatGPT, Perplexity, Google AI Overview et Gemini. Contrairement au SEO qui vise un classement dans une liste de résultats, le GEO vise à être cité et recommandé dans une réponse conversationnelle.
-
 ### Le GEO remplace-t-il le SEO ?
+
 Non. Le SEO et le GEO sont complémentaires. Le SEO reste essentiel pour le trafic organique et la présence sur Google. Le GEO ajoute une couche de visibilité dans les environnements IA, qui représentent une part croissante des recherches. Ignorer l'un ou l'autre crée un angle mort.
 
 ### Combien de temps faut-il pour voir des résultats en GEO ?
+
 Les premiers résultats peuvent apparaître en quelques semaines pour les actions les plus directes (optimisation de fiche Google Business, cohérence des informations en ligne). Les résultats plus profonds (citations régulières par les IA, amélioration du score GEO) prennent généralement 2 à 3 mois de travail continu.
 
 ### Le GEO est-il pertinent pour un petit cabinet ou un restaurant indépendant ?
+
 Absolument. Le GEO est même plus impactant pour les petites activités locales que pour les grandes chaînes. Les IA cherchent la pertinence locale et la spécificité. Un cabinet dentaire indépendant bien optimisé dans son arrondissement peut être recommandé avant une grande chaîne moins bien référencée localement.
 
 ### Comment savoir si ChatGPT recommande mon activité ?
+
 Le test le plus simple : allez sur chat.openai.com et posez la question qu'un client poserait, par exemple « Quel dentiste recommandez-vous dans le 15e arrondissement de Paris ? ». Si vous n'apparaissez pas, un audit GEO vous permettra d'identifier précisément pourquoi et comment y remédier.
-
----
-
-**Vous avez une activité locale&nbsp;?** On aide les restaurants, dentistes, hôtels, avocats et autres professionnels à être trouvés par leurs futurs clients. [Demander mon diagnostic gratuit →](/#diagnostic)

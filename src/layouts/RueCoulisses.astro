@@ -9,6 +9,12 @@ const canonicalUrl = new URL(pathname, siteUrl).href;
 const locale = 'fr';
 const alternates = pathname === '/' ? getAlternateUrls('/') : null;
 const languages = [['en','English'],['es','Español'],['de','Deutsch'],['it','Italiano'],['pt','Português'],['nl','Nederlands']];
+const contacts = {
+  geo: {title:'Que trouvent vos futurs clients ?', intro:'Indiquez votre adresse à Paris, votre site et une question que vos clients posent souvent.', button:'Parler de ma visibilité', form:'/visibilite-ia#diagnostic', subject:'Visibilité de mon établissement à Paris'},
+  equipe: {title:'Quelle tâche prend trop de temps ?', intro:'Décrivez une tâche qui revient chaque semaine, les personnes qui s’en occupent et les outils déjà en place.', button:'Parler du travail de mon équipe', form:'/automatisation-ia#diagnostic', subject:'Conseil IA pour mon équipe à Paris'},
+  accueil: {title:'Parlons de votre établissement.', intro:'Indiquez votre quartier et ce qui vous amène : être trouvé par vos futurs clients ou simplifier le travail de votre équipe.', button:'Écrire à l’agence', form:null, subject:'Premier échange pour mon établissement à Paris'}
+};
+const contact = pathname === '/diagnostic-geo' ? contacts.geo : pathname === '/conseil-ia' ? contacts.equipe : contacts.accueil;
 const live = import.meta.env.PUBLIC_SITE_MODE === 'live';
 const isPreview = !live;
 const ogTitle=title, ogDescription=description, ogType='website', ogImage=siteUrl+'/social-card.png';
@@ -69,8 +75,8 @@ const ogTitle=title, ogDescription=description, ogType='website', ogImage=siteUr
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org", "@type": "ProfessionalService",
       name: 'Eddie Miller Agency', url: siteUrl, description: description,
-      email: 'contact@eddiemiller.agency', areaServed: { "@type": "Place", name: 'Paris et Île-de-France' },
-      serviceType: ['Visibilité GEO et locale', 'Conseil IA et automatisations', 'Création de sites web']
+      email: 'contact@eddiemiller.agency', areaServed: { "@type": "City", name: 'Paris' },
+      serviceType: ['Visibilité sur ChatGPT, Claude et Gemini à Paris', 'Conseil IA et automatisations pour les équipes parisiennes']
     })} />
     <!-- WebSite schema — tells Google to show "Eddie Miller Agency" as site name -->
     <script type="application/ld+json">
@@ -91,10 +97,10 @@ const ogTitle=title, ogDescription=description, ogType='website', ogImage=siteUr
 
 </head><body>
 
-<a class="skip" href="#contenu">Aller au contenu</a><header class="mast"><div class="wrap mastinner"><a class="brand" href="/" aria-label="Eddie Miller Agency, accueil">eddie miller<span>.</span><small>Agency</small></a><nav aria-label="Navigation principale"><a class="navlink" aria-current={pathname === "/diagnostic-geo" ? "page" : undefined} href="/diagnostic-geo">Visibilité GEO</a><a class="navlink" aria-current={pathname === "/conseil-ia" ? "page" : undefined} href="/conseil-ia">Conseil IA</a><a class="cta small" href="#contact">Premier échange <span aria-hidden="true">↗</span></a></nav></div></header>
+<a class="skip" href="#contenu">Aller au contenu</a><header class="mast"><div class="wrap mastinner"><a class="brand" href="/" aria-label="Eddie Miller Agency, accueil">eddie miller<span>.</span><small>Agency</small></a><nav aria-label="Navigation principale"><a class="navlink" aria-current={pathname === "/diagnostic-geo" ? "page" : undefined} href="/diagnostic-geo">Visibilité locale</a><a class="navlink" aria-current={pathname === "/conseil-ia" ? "page" : undefined} href="/conseil-ia">Conseil IA</a><a class="cta small" href="#contact">Premier échange <span aria-hidden="true">↗</span></a></nav></div></header>
 <main id="contenu" tabindex="-1"><slot /></main>
 
-<footer id="contact"><div class="wrap"><div class="contactgrid" id="diagnostic"><div><p class="rub">Le premier échange</p><h2>Partons de votre métier.</h2><p>Une adresse qu’on ne trouve pas, une tâche que personne n’aime faire : racontez-nous ce qui vous amène.</p></div><div><a class="cta" href={live ? "mailto:contact@eddiemiller.agency?subject=Premier%20%C3%A9change" : undefined}>{live ? "Écrire à l’agence" : "Contact désactivé en aperçu"} <span aria-hidden="true">↗</span></a><small>15 minutes pour en parler, sans engagement.</small><a class="formlink" href="/visibilite-ia#diagnostic">Préparer ma demande avec le formulaire</a></div></div><details class="annuaire" id="metiers"><summary>Nos services par métier</summary><div class="liens">
+<footer id="contact"><div class="wrap"><div class="contactgrid" id="diagnostic"><div><p class="rub">Le premier échange</p><h2>{contact.title}</h2><p>{contact.intro}</p></div><div><a class="cta" href={live ? `mailto:contact@eddiemiller.agency?subject=${encodeURIComponent(contact.subject)}` : undefined}>{live ? contact.button : "Contact désactivé en aperçu"} <span aria-hidden="true">↗</span></a><small>15 minutes pour en parler, sans engagement.</small>{contact.form && <a class="formlink" href={contact.form}>Préparer ma demande avec le formulaire</a>}</div></div><details class="annuaire" id="metiers"><summary>La visibilité à Paris, métier par métier</summary><div class="liens">
 <a href="/restaurants">Restaurants</a><a href="/bars">Bars</a><a href="/hotels">Hôtels</a><a href="/coiffure">Coiffeurs</a><a href="/spa">Spas</a><a href="/sport">Salles de sport</a><a href="/medical">Cabinets médicaux</a><a href="/dentistes">Dentistes</a><a href="/avocats">Avocats</a></div></details>
 <nav class="langues" aria-label="Autres langues">{languages.map(([lang, name]) => <a href={'/'+lang+'/'} lang={lang} hreflang={lang}>{name}</a>)}</nav><div class="bas"><a class="brand" href="/" aria-label="Eddie Miller Agency, retour à l’accueil">eddie miller<span>.</span></a><div><a href="/formules">Formules</a><a href="/a-propos">À propos</a><a href="/blog">Journal</a><a href="/mentions-legales">Mentions légales</a><a href="/cgv">CGV</a></div></div></div></footer>
 </body></html>

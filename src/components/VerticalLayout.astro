@@ -1,37 +1,43 @@
 ---
-import type { VerticalData } from '../data/verticals/types';
 import Layout from '../layouts/Layout.astro';
 import Header from './Header.astro';
 import Footer from './Footer.astro';
-import AuditForm from './AuditForm.astro';
-import { getAgency, sectorKeys } from '../data/agency';
-import { getLocaleFromPath, pageRoutes, navRoutes } from '../i18n';
-interface Props { data: VerticalData; }
-const { data } = Astro.props;
+import { sectorCards, type Sector } from '../data/verticals';
+import { getLocaleFromPath, pageRoutes, t } from '../i18n';
+
+interface Props { sector: Sector }
+const { sector } = Astro.props;
 const locale = getLocaleFromPath(Astro.url.pathname);
-const c = getAgency(locale);
-const path = Astro.url.pathname.replace(/\/$/, '');
-const sector = sectorKeys.findIndex(key => pageRoutes[key]?.[locale] === path || (key === 'medical' && path === '/medical'));
-const index = Math.max(0, sector);
-const name = c.sectors[index];
-const examples = [
-  ['Votre cuisine, votre quartier, votre carte et vos horaires accessibles sur votre site et votre fiche Google.', 'Préparer les réponses aux demandes de groupe, organiser les factures fournisseurs, suivre les informations à mettre à jour.', 'Une carte lisible sur téléphone et un accès direct à votre outil de réservation.'],
-  ['Présenter vos chambres, votre quartier et les services utiles pour les voyageurs, avec des informations cohérentes dans chaque langue travaillée.', 'Préparer les réponses aux questions fréquentes, regrouper les demandes spéciales et transmettre un récapitulatif à la réception.', 'Un site qui met en valeur les chambres et facilite la réservation directe via votre outil existant.'],
-  ['Rendre votre programmation, vos horaires et les conditions d’accueil faciles à trouver.', 'Préparer les réponses aux demandes de privatisation et centraliser les informations des événements.', 'Présenter le lieu et faciliter les demandes de privatisation ou de réservation.'],
-  ['Clarifier vos prestations, tarifs, spécialités et horaires sur le site et la fiche Google.', 'Préparer les réponses aux demandes courantes et les brouillons de suivi, selon les autorisations de vos clients.', 'Mettre en valeur votre travail et relier votre outil de prise de rendez-vous.'],
-  ['Présenter vos soins, équipements, accès et conditions de réservation avec précision.', 'Préparer les informations pratiques et organiser les demandes de bons cadeaux.', 'Une présentation soignée des soins et un parcours simple vers la réservation.'],
-  ['Présenter les disciplines, horaires, niveaux et possibilités d’essai de votre salle.', 'Classer les demandes d’essai et préparer les réponses aux futurs adhérents.', 'Un planning lisible, des offres claires et une prise de contact facile.'],
-  ['Rendre les informations pratiques du cabinet exactes et accessibles, dans le respect des règles de votre profession.', 'Organiser des documents administratifs non médicaux. Aucun dossier patient dans le périmètre de départ.', 'Présenter le cabinet, l’accès et les liens de rendez-vous, sans diagnostic ni promesse médicale.'],
-  ['Clarifier les informations pratiques du cabinet et les modalités de rendez-vous.', 'Préparer des tâches administratives sans données de santé. Tout usage sensible demande une étude spécifique.', 'Un site accessible avec les informations utiles aux patients, sans conseil médical automatisé.'],
-  ['Présenter les domaines d’intervention et les informations publiques du cabinet selon les règles de votre profession.', 'Organiser les demandes de premier contact. Les dossiers clients et le conseil juridique restent hors du pilote.', 'Un site clair pour présenter le cabinet et faciliter la prise de contact.'],
-];
-const lines = locale === 'fr' ? examples[index] : c.offerLists.map(list => list[0]);
+const card = `verticals.card${sectorCards[sector]}`;
+const name = t(`${card}Title`, locale);
+const question = t(`${card}Question`, locale);
+const facts = t(`${card}Text`, locale);
+const visibility = t('vertical.visibility', locale);
+const offer = pageRoutes.aiVisibility[locale];
+const visitor = sector === 'restaurants' || sector === 'hotels' || sector === 'bars';
 ---
-<Layout title={`${name} — ${c.services[0]} — Eddie Miller Agency`} description={`${name}. ${c.description}`} skipFaqSchema>
-  <Header /><main id="main-content">
-    <section class="ema-page-hero ema-wrap"><p class="ema-eyebrow">{c.local} / {name}</p><h1>{name}.<br /><em>{c.pillars[0]}. {c.pillars[1]}.</em></h1><p class="ema-prose">{c.serviceIntro} {c.intro}</p><a class="ema-button" href="#diagnostic">{c.cta}<span aria-hidden="true">↗</span></a></section>
-    <section class="ema-sand ema-section"><div class="ema-wrap"><p class="ema-eyebrow">{c.nav[0]}</p><h2>{c.sectorsTitle}<br /><em>{c.sectorsIntro}</em></h2><div class="ema-steps">{c.services.map((service, i) => <article><span class="ema-step-number">0{i + 1}</span><h3>{service}</h3><p>{lines[i]}</p></article>)}</div></div></section>
-    <section class="ema-wrap ema-section ema-two-col"><div><p class="ema-eyebrow">{c.nav[2]}</p><h2>{c.methodTitle[0]}<br /><em>{c.methodTitle[1]}</em></h2></div><div><p class="ema-prose">{c.offerIntro}</p><p class="ema-prose">{c.measured}</p><a class="ema-text-link" href={navRoutes[locale].pricing}>{c.nav[3]}<span aria-hidden="true">↗</span></a></div></section>
-    <AuditForm />
-  </main><Footer />
+<Layout title={`${name} — ${visibility} | Eddie Miller Agency`} description={`${visibility} · ${name}. ${facts}`} skipFaqSchema>
+  <Header />
+  <main id="main-content">
+    <section class="ema-page-hero ema-wrap">
+      <p class="ema-eyebrow">PARIS / {name}</p>
+      <h1>{name}<br /><em>{visibility}</em></h1>
+      <p class="ema-prose">{t('solution.subtitle', locale)}</p>
+      <a class="ema-button" href={offer}>{t('vertical.visibilityLink', locale)}<span aria-hidden="true">↗</span></a>
+    </section>
+    <section class="ema-sand ema-section">
+      <div class="ema-wrap ema-two-col">
+        <div>
+          <p class="ema-eyebrow">{t(visitor ? 'vertical.visitorExample' : 'vertical.searchExample', locale)}</p>
+          <h2>{question}</h2>
+        </div>
+        <div>
+          <h3>{t('vertical.publicInfo', locale)}</h3>
+          <p class="ema-prose">{facts}</p>
+          <p class="ema-prose">{t('solution.aiBullet1', locale)}</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
 </Layout>

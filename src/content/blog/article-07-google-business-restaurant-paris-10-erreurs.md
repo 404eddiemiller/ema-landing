@@ -1,8 +1,8 @@
 ---
-title: "10 erreurs sur votre fiche Google qui font fuir vos clients (restaurants Paris)"
+title: "Restaurant à Paris : dix points à vérifier sur la fiche Google"
 slug: "google-business-restaurant-paris-10-erreurs"
-meta_title: "Restaurateurs à Paris : 10 erreurs sur votre fiche Google qui vous font perdre des clients"
-meta_description: "62 % des clients évitent un restaurant dont les infos en ligne sont fausses. Voici les 10 erreurs les plus courantes sur les fiches Google des restaurants parisiens."
+meta_title: "Restaurant à Paris : dix points à vérifier sur la fiche Google"
+meta_description: "Une seule erreur peut suffire à faire venir quelqu’un devant une porte fermée. Relisez la fiche dans l’ordre d’une vraie visite."
 author: "Eddie Miller Agency"
 date: "2026-02-11"
 category: "Google & avis"
@@ -13,12 +13,10 @@ reading_time: "10 min"
 image: "/images/blog/google-business-restaurant-paris-10-erreurs.webp"
 imageAlt: "Intérieur d'un restaurant parisien vide avec chaises retournées sur les tables"
 internal_links:
+  - slug: "7-annuaires-restaurant-ia-recommandation"
+    anchor: "Sept endroits où relire les informations de votre restaurant"
   - slug: "chatgpt-recommandation-restaurant-paris"
-    anchor: "comment ChatGPT choisit quels restaurants recommander"
-  - slug: "schema-org-site-lisible-ia-sans-coder"
-    anchor: "les données structurées Schema.org"
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+    anchor: "Un touriste peut-il choisir votre restaurant à partir d’une recherche ?"
 ---
 
 ## Fiche Google My Business pour restaurant à Paris : les 10 erreurs qui vous coûtent des clients
@@ -130,28 +128,16 @@ Prenez 20 minutes cette semaine pour passer en revue votre fiche Google Business
 9 — Tous les attributs pertinents cochés.
 10 — Section Q&A pré-alimentée avec 5 à 10 questions-réponses.
 
-Chaque erreur corrigée vous rapproche du Map Pack — et de la visibilité auprès des IA qui recommandent les restaurants parisiens. Ces deux canaux sont désormais indissociables : une fiche Google optimisée améliore votre classement Maps ET vos chances d'être cité par ChatGPT, Perplexity et Google AI.
-
----
-
-*Combien de ces erreurs votre fiche contient-elle ? Eddie Miller Agency réalise un audit GBP + GEO gratuit pour les restaurants parisiens : analyse de votre fiche, comparaison avec vos concurrents directs, et plan d'action immédiat. [Demander mon audit gratuit →]*
-
----
-
 ## FAQ — Fiche Google Business pour restaurants à Paris
 
 ### Puis-je gérer ma fiche Google Business moi-même ou dois-je passer par une agence ?
+
 Vous pouvez tout faire vous-même. Google Business Profile se gère gratuitement depuis votre compte Google, directement dans les résultats de recherche ou dans Google Maps. Les 10 corrections listées dans cet article sont toutes réalisables sans compétence technique. Une agence peut être utile pour la stratégie globale (GEO, Schema.org, monitoring concurrentiel), mais la gestion quotidienne de la fiche est accessible à tout gérant de restaurant.
 
 ### À quelle fréquence dois-je mettre à jour ma fiche ?
+
 Au minimum une fois par semaine (un post + vérification des avis). Idéalement, ajoutez 1 à 2 photos par semaine, répondez aux avis sous 48h, et mettez à jour les horaires ou le menu dès qu'il y a un changement. Les fiches actives surperforment systématiquement les fiches statiques.
 
 ### Mon restaurant a une mauvaise note Google (3,5 étoiles). Est-ce rattrapable ?
+
 Oui. La note Google est une moyenne dynamique qui évolue avec chaque nouvel avis. En collectant activement des avis positifs auprès de clients satisfaits (5 à 10 par mois), votre note remontera progressivement. Parallèlement, répondez de manière professionnelle à chaque avis négatif pour montrer que vous prenez les retours au sérieux. Les IA et les clients regardent la tendance récente autant que la note globale.
-
-### TheFork et TripAdvisor sont-ils aussi importants que Google ?
-Pour la visibilité IA, Google reste la source primaire. Mais TheFork et TripAdvisor sont des sources fréquemment citées par Perplexity et ChatGPT pour les restaurants parisiens. Un profil complet sur ces plateformes renforce significativement vos chances d'être recommandé par les IA. L'idéal est d'optimiser les trois, avec Google en priorité.
-
----
-
-**Vous gérez un restaurant ?** [Découvrez comment on aide les restaurants à être trouvés →](/restaurants)

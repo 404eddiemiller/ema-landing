@@ -9,16 +9,14 @@ category: "Google & beoordelingen"
 tags: ["Google Business Profile", "restaurant", "Parijs", "lokale SEO", "fouten", "Google Maps", "visibilité IA", "TheFork"]
 cta: "diagnostic-gratuit"
 lang: "nl"
-reading_time: "10 min"
+reading_time: "7 min"
 image: "/images/blog/google-business-restaurant-paris-10-erreurs.webp"
 imageAlt: "Interieur van een leeg Parijs restaurant met omgekeerde stoelen op de tafels"
 internal_links:
+  - slug: "7-gidsen-restaurant-ai-aanbeveling"
+    anchor: "De 7 websites waar uw restaurant aanwezig moet zijn zodat AI's u vinden"
   - slug: "chatgpt-aanbeveling-restaurant-parijs"
-    anchor: "hoe ChatGPT kiest welke restaurants hij aanbeveelt"
-  - slug: "schema-org-website-leesbaar-ai-zonder-coderen"
-    anchor: "de gestructureerde gegevens Schema.org"
-  - slug: "geo-optimalisatie-ai-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+    anchor: "Beveelt ChatGPT uw restaurant aan of dat van de buurman? Doe de test"
 ---
 
 ## Google My Business-vermelding voor restaurant in Parijs: de 10 fouten die u klanten kosten
@@ -118,26 +116,16 @@ Neem deze week 20 minuten om uw Google Business-vermelding door te nemen en de g
 
 Elke gecorrigeerde fout brengt u dichter bij het Map Pack — en bij zichtbaarheid bij de AI's die Parijse restaurants aanbevelen.
 
----
-
-*Hoeveel van deze fouten bevat uw vermelding? Eddie Miller Agency voert een gratis GBP + GEO-audit uit voor Parijse restaurants: analyse van uw vermelding, vergelijking met uw directe concurrenten, en onmiddellijk actieplan. [Mijn gratis audit aanvragen →]*
-
----
-
 ## FAQ — Google Business-vermelding voor restaurants in Parijs
 
 ### Kan ik mijn Google Business-vermelding zelf beheren of moet ik via een bureau?
+
 U kunt alles zelf doen. Google Business Profile wordt gratis beheerd vanuit uw Google-account, direct in de zoekresultaten of in Google Maps. De 10 correcties in dit artikel zijn allemaal uitvoerbaar zonder technische competentie. Een bureau kan nuttig zijn voor de algehele strategie (GEO, Schema.org, concurrentiemonitoring), maar het dagelijkse beheer van de vermelding is toegankelijk voor elke restauranthouder.
 
 ### Hoe vaak moet ik mijn vermelding bijwerken?
+
 Minimaal een keer per week (een bericht + controle van beoordelingen). Idealiter voegt u 1 tot 2 foto's per week toe, reageert u binnen 48u op beoordelingen, en werkt u de openingstijden of het menu bij zodra er een wijziging is. Actieve vermeldingen presteren systematisch beter dan statische vermeldingen.
 
 ### Mijn restaurant heeft een slechte Google-score (3,5 sterren). Is dat te repareren?
+
 Ja. De Google-score is een dynamisch gemiddelde dat evolueert met elke nieuwe beoordeling. Door actief positieve beoordelingen te verzamelen van tevreden klanten (5 tot 10 per maand) zal uw score geleidelijk stijgen. Reageer tegelijkertijd professioneel op elke negatieve beoordeling. AI's en klanten kijken naar de recente trend net zoveel als naar de totaalscore.
-
-### Zijn TheFork en TripAdvisor net zo belangrijk als Google?
-Voor AI-zichtbaarheid blijft Google de primaire bron. Maar TheFork en TripAdvisor zijn bronnen die regelmatig worden geciteerd door Perplexity en ChatGPT voor Parijse restaurants. Een compleet profiel op deze platformen versterkt aanzienlijk uw kansen om door AI's te worden aanbevolen. Het ideaal is om alle drie te optimaliseren, met Google als prioriteit.
-
----
-
-**Runt u een restaurant?** [Ontdek hoe wij restaurants helpen gevonden te worden →](/restaurants)

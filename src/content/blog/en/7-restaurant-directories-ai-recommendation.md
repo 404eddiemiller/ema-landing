@@ -1,24 +1,22 @@
 ---
-title: "The 7 Sites Where Your Restaurant Must Be Listed for AI to Find You"
+title: "Seven places to check what visitors see about your restaurant"
 slug: "7-restaurant-directories-ai-recommendation"
-meta_title: "Restaurant Owners: The 7 Sites You Must Be On for ChatGPT to Recommend You"
-meta_description: "Google, TheFork, TripAdvisor, Instagram... ChatGPT and other AI assistants only recommend restaurants they find on these 7 platforms. Are you listed on all of them?"
+meta_title: "Seven places to check what visitors see about your restaurant"
+meta_description: "An outdated menu can stay online long after the season has changed. Inventory the pages a guest might encounter."
 author: "Eddie Miller Agency"
 date: "2026-03-05"
 category: "Google & Reviews"
 tags: ["directories", "restaurant", "Paris", "TheFork", "TripAdvisor", "Google Business", "visibilité IA", "AI visibility", "checklist"]
 cta: "diagnostic-gratuit"
 lang: "en"
-reading_time: "9 min"
+reading_time: "8 min"
 image: "/images/blog/7-annuaires-restaurant-ia-recommandation.webp"
 imageAlt: "Restaurant table with a carefully plated dish and a smartphone beside it"
 internal_links:
-  - slug: "chatgpt-recommandation-restaurant-paris"
-    anchor: "how ChatGPT recommends restaurants"
-  - slug: "google-business-restaurant-paris-10-erreurs"
-    anchor: "the 10 GBP mistakes restaurants make"
-  - slug: "chatgpt-perplexity-google-ai-comparatif-commerces-paris"
-    anchor: "our comparison of AI platforms"
+  - slug: "google-business-restaurant-10-mistakes"
+    anchor: "Ten things to check on a Paris restaurant’s Google listing"
+  - slug: "zero-click-searches-google-solution"
+    anchor: "Zero-click searches: tell a visit, a call and a booking apart"
 ---
 
 ## The 7 Directories Where Your Restaurant MUST Be Listed for AI to Recommend You
@@ -31,21 +29,13 @@ Here are the 7 essential platforms for a Parisian restaurant in 2026, ranked by 
 
 ## 1. Google Business Profile — The Absolute Foundation
 
-**AI impact:** Consulted by ChatGPT, Perplexity AND Google AI Overview. It is the only platform common to all three.
-
-Google Business Profile is the most universal source for restaurant recommendations. Google AI Overview draws directly from it with 100% accuracy. ChatGPT and Perplexity use it as a factual reference (address, hours, rating) and for reviews.
-
 **What your profile must include:** A 700+ character description with cuisine type, neighborhood, and specialties. A specific primary category ("Italian restaurant," not "Restaurant") plus secondary categories. A complete menu in the dedicated tab with prices. Exact hours for both lunch and dinner services. A reservation link (TheFork or phone). Activated attributes (terrace, delivery, Wi-Fi, vegetarian). A minimum of 20 recent photos of dishes, dining room, and terrace. At least 1 post per week.
 
 **Setup time:** 3-4 hours for complete optimization, then 1 hour per week for ongoing management.
 
-For the full guide, see [the 10 GBP mistakes Parisian restaurants make](/blog/google-business-restaurant-paris-10-erreurs).
+For the full guide, see [the 10 GBP mistakes Parisian restaurants make](/en/blog/google-business-restaurant-10-mistakes).
 
-## 2. TripAdvisor — The Reference for Perplexity and Tourists
-
-**AI impact:** Dominant source on Perplexity for Parisian restaurants. Consulted by ChatGPT for tourism-related queries.
-
-TripAdvisor is the most cited review platform by Perplexity for restaurants in Paris. It is also a major channel for tourist clientele — and tourists are among the heaviest users of AI search ("best restaurant near Eiffel Tower" is a typical query asked on ChatGPT).
+## 2. Tripadvisor
 
 **What your profile must include:** Professional photos of dishes and the dining room. A detailed description in French and English (tourists and ChatGPT search in both languages). An up-to-date menu. A clear price range. A response to every review, in French for French reviews and in English for English-language ones.
 
@@ -54,10 +44,6 @@ TripAdvisor is the most cited review platform by Perplexity for restaurants in P
 **Setup time:** 1-2 hours for claiming and optimization, then 30 minutes per week for responding to reviews.
 
 ## 3. TheFork (LaFourchette) — The Doctolib of Restaurants
-
-**AI impact:** Cited by Perplexity and ChatGPT for French restaurants. Integrated into the TripAdvisor ecosystem.
-
-TheFork is the dominant restaurant booking platform in France, just as Doctolib is for medical practitioners. AI assistants consult TheFork for booking information, customer reviews, menus, and promotions. Perplexity frequently cites TheFork in its Parisian restaurant recommendations.
 
 **What your profile must include:** A complete and up-to-date menu with prices. Quality photos of signature dishes. A detailed description with specialties and ambiance. Exact hours. Reviews with responses.
 
@@ -90,8 +76,6 @@ Instagram is not a directory in the traditional sense, but its role in the AI ec
 **Setup time:** You probably already have an Instagram profile. Verify that the bio is complete and that you post at least 2-3 times per week with local hashtags.
 
 ## 6. PagesJaunes — The Consistency Signal
-
-**AI impact:** Cited by Perplexity in about 15% of local recommendations. Used by ChatGPT for factual verification.
 
 PagesJaunes is no longer the platform customers consult directly, but it remains a reference directory that AI assistants use to verify the consistency of your information. A restaurant listed on PagesJaunes with the same information as on Google and TripAdvisor sends a reliability signal.
 
@@ -137,28 +121,18 @@ One final essential point. Being present on 7 platforms with contradictory infor
 
 Before adding new platforms, make sure the information is strictly identical everywhere: same exact name, same address format, same phone number, same hours. AI assistants systematically cross-reference this data — every inconsistency reduces your trust score.
 
-Start with platforms 1, 2, and 3 (Google, TripAdvisor, TheFork). Align them perfectly. Then gradually expand to your website, Instagram, PagesJaunes, and editorial mentions. This progressive and consistent approach is the most effective way to [appear in AI recommendations](/blog/chatgpt-recommandation-restaurant-paris).
-
----
-
-*Is your restaurant present and consistent across all 7 key platforms? Eddie Miller Agency checks all your sources as part of our free GEO audit for Parisian restaurants. [Request my free GEO audit →]*
-
----
+Start with platforms 1, 2, and 3 (Google, TripAdvisor, TheFork). Align them perfectly. Then gradually expand to your website, Instagram, PagesJaunes, and editorial mentions. This progressive and consistent approach is the most effective way to [appear in AI recommendations](/en/blog/chatgpt-restaurant-recommendation).
 
 ## FAQ — Directories and Platforms for Restaurants
 
 ### Do I need to pay to be on these platforms?
+
 Google Business Profile, TripAdvisor, PagesJaunes, and Instagram are free. TheFork has a freemium model — the basic listing is free, advanced features (promotions, highlighted placement) are paid. For AI visibility, the free version of each platform is sufficient if the profile is well optimized.
 
 ### Do Uber Eats and Deliveroo count for AI visibility?
+
 Marginally. Delivery platforms are not frequently cited sources by AI assistants for restaurant recommendations. They can appear in Google search results, which indirectly influences Google AI Overview, but this is not a GEO priority. Focus your efforts on the 7 platforms listed.
 
-### I run a neighborhood restaurant with no tourist clientele. Is TripAdvisor still important?
-Yes, because AI assistants do not distinguish between local and tourist clientele. TripAdvisor is a data source that Perplexity and ChatGPT consult for all Parisian restaurants, not just tourist restaurants. A TripAdvisor profile completes your multi-platform presence and strengthens your trust score with AI assistants.
-
 ### How often should I check the consistency of my information?
+
 A complete check (all platforms) once per quarter is sufficient for maintenance. If something changes (new hours, new number, new menu), update all platforms simultaneously — ideally the same day — to avoid any period of inconsistency.
-
----
-
-**Do you run a restaurant?** [Discover how we help restaurants get found →](/restaurants)

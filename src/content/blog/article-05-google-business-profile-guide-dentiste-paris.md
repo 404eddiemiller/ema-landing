@@ -9,21 +9,19 @@ category: "Google & avis"
 tags: ["Google Business Profile", "dentiste", "visibilité locale", "Paris", "fiche Google", "avis Google", "GBP", "Google Maps"]
 cta: "diagnostic-gratuit"
 lang: "fr"
-reading_time: "15 min"
+reading_time: "16 min"
 image: "/images/blog/google-business-profile-guide-dentiste-paris.webp"
 imageAlt: "Fiche Google Business Profile d'un cabinet dentaire vue sur un écran d'ordinateur"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+  - slug: "ia-remplacer-doctolib-cabinet-dentaire"
+    anchor: "Du renseignement au rendez-vous : vérifier le parcours vers Doctolib"
   - slug: "cabinet-dentaire-invisible-chatgpt"
-    anchor: "pourquoi les IA ne recommandent pas votre cabinet"
+    anchor: "Pourquoi votre cabinet n'apparaît pas quand on demande un dentiste à ChatGPT"
 ---
 
 ## Google Business Profile : le guide complet pour les dentistes parisiens (2026)
 
 Votre fiche Google Business Profile (GBP) est devenue le premier point de contact entre vous et vos futurs patients. Avant même de visiter votre site web ou de consulter Doctolib, la majorité des patients voient votre fiche Google — que ce soit dans les résultats de recherche, sur Google Maps, ou désormais dans les réponses générées par l'IA.
-
-En 2026, votre fiche GBP n'est plus un simple annuaire en ligne. C'est une vitrine active qui influence directement votre classement dans le Map Pack (les trois premiers résultats Google Maps), votre réputation perçue, et votre visibilité auprès des assistants IA comme ChatGPT, Perplexity et Google AI Overview.
 
 Ce guide vous accompagne étape par étape pour optimiser chaque élément de votre fiche, avec des instructions spécifiques aux cabinets dentaires parisiens.
 
@@ -230,29 +228,24 @@ Quand un utilisateur demande à ChatGPT « quel dentiste recommandez-vous dans l
 
 Une fiche GBP optimisée n'améliore pas seulement votre position dans Google Maps. Elle améliore votre [visibilité auprès de toutes les IA](/blog/geo-referencement-ia-2026). C'est le fondement de toute stratégie de GEO (Generative Engine Optimization) — et pour un cabinet dentaire parisien, c'est l'action avec le meilleur retour sur investissement possible.
 
----
-
-*Vous voulez savoir si votre fiche Google Business est vraiment optimisée ? Eddie Miller Agency réalise un audit GBP + GEO gratuit pour les cabinets dentaires parisiens : analyse de votre fiche, comparaison avec vos concurrents directs, et plan d'action prioritaire. [Demander mon audit gratuit →]*
-
----
-
 ## FAQ — Google Business Profile pour dentistes
 
 ### Quelle est la différence entre Google Business Profile et Google My Business ?
+
 C'est la même chose. Google My Business (GMB) a été officiellement renommé Google Business Profile (GBP) fin 2021. Le fonctionnement est identique, seul le nom a changé. Vous gérez votre fiche directement depuis la recherche Google ou Google Maps.
 
 ### Combien de temps avant de voir des résultats après optimisation ?
+
 Les premières améliorations de classement dans le Map Pack apparaissent généralement en 2 à 4 semaines après une optimisation complète de la fiche. L'accumulation d'avis récents produit des effets progressifs sur 2 à 3 mois. La clé est la régularité : les fiches qui maintiennent une activité continue (posts, photos, avis) progressent plus vite et plus durablement.
 
 ### Mon cabinet fait partie d'un réseau (Dentego, Dentylis, etc.). Comment gérer la fiche ?
+
 Chaque centre doit avoir sa propre fiche GBP avec sa propre adresse. Le nom doit correspondre exactement au nom du centre local. Assurez-vous que les horaires, services et praticiens sont spécifiques à votre centre et non copiés-collés depuis un autre centre du réseau. L'individualisation de chaque fiche est essentielle pour le classement local.
 
 ### Puis-je gérer ma fiche sans site web ?
+
 Oui, vous pouvez avoir une fiche GBP sans site web. Cependant, Google utilise votre site web pour vérifier et compléter les informations de votre fiche. Sans site, votre « score de notoriété » sera plafonné et les IA auront moins de matière pour vous recommander. Si un site complet n'est pas envisageable immédiatement, assurez-vous au minimum que votre profil Doctolib est exhaustif — il sert de substitut partiel.
 
 ### Les posts Google Business expirent-ils ?
+
 Les posts restent visibles pendant 6 mois (les posts « Offre » expirent à la date de fin définie). Même après expiration de l'affichage, ils restent indexés et contribuent à l'historique d'activité de votre fiche. L'enjeu n'est pas un post individuel mais la régularité : un flux constant de posts signale à Google et aux IA que votre cabinet est actif.
-
----
-
-**Vous êtes dentiste à Paris ?** [Découvrez comment on aide les cabinets dentaires à être trouvés →](/dentistes)

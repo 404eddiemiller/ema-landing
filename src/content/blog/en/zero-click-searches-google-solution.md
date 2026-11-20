@@ -1,24 +1,22 @@
 ---
-title: "Why Your Website Gets Less Traffic from Google (and How to Win Customers Back)"
+title: "Zero-click searches: tell a visit, a call and a booking apart"
 slug: "zero-click-searches-google-solution"
-meta_title: "Less Traffic from Google? Here Is Why and How to Win Customers Back in 2026"
-meta_description: "60% of Google searches no longer lead to any website. Google answers directly. Here is what Parisian businesses can do to keep attracting customers."
+meta_title: "Zero-click searches: tell a visit, a call and a booking apart"
+meta_description: "A visitor may read your hours on a map and walk in without opening your website. The absence of a click does not tell you what happened next."
 author: "Eddie Miller Agency"
 date: "2026-03-08"
 category: "Online Visibility"
 tags: ["zero click", "zero-click", "Google", "AI Overview", "visibilité IA", "local SEO", "visibility", "local business"]
 cta: "diagnostic-gratuit"
 lang: "en"
-reading_time: "9 min"
+reading_time: "7 min"
 image: "/images/blog/zero-clic-recherches-google-solution-commerce-local.webp"
 imageAlt: "Person looking at a Google result on their phone without clicking"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "google-business-profile-guide-dentiste-paris"
-    anchor: "our Google Business Profile guide"
-  - slug: "chatgpt-perplexity-google-ai-comparatif-commerces-paris"
-    anchor: "our comparison of AI platforms"
+  - slug: "local-seo-2026-trends-actions"
+    anchor: "Getting Found on Google in 2026: What Has Changed for Local Businesses"
+  - slug: "seo-ai-agency-visibility-truth"
+    anchor: "5 Things Your Web Provider Isn't Telling You About Your Business's Visibility"
 ---
 
 ## Zero Click: Why 60% of Google Searches No Longer Lead to Your Website (and What to Do)
@@ -47,15 +45,13 @@ Three factors converge to accelerate the zero-click phenomenon.
 
 **Google Business listings are becoming mini-websites.** Google continuously enriches GBP listings: integrated menu for restaurants, direct appointment booking, AI-powered Q&A, automatic review summaries. The Google listing has become a standalone storefront that replaces the website for most interactions.
 
-**External AI assistants capture a growing share of searches.** 45% of consumers now use AI tools for local recommendations. These users bypass Google entirely — they go directly to ChatGPT or Perplexity, get an answer, and act (call, book, visit) without ever visiting a website.
-
 ## What This Changes for Local Parisian Businesses
 
 The traditional digital marketing reflex — "drive traffic to the website" — needs rethinking. Traffic to your site remains useful, but it can no longer be your sole success metric.
 
 **The metric that matters now: actions, not visits.** How many calls does your Google listing generate? How many direction requests? How many clicks to Doctolib or TheFork? How many times are you cited in an AI response? These are the metrics that measure your true visibility in 2026 — not the number of visitors to your site.
 
-**Your Google Business listing is your new homepage.** If 60% of searches lead to no click, your GBP listing is where the decision is made. Every unfilled field, every missing photo, every unanswered review is a missed opportunity in this space. This is why we insist so much on GBP optimization in [our guide for dentists](/blog/google-business-profile-guide-dentiste-paris) and for restaurants.
+**Your Google Business listing is your new homepage.** If 60% of searches lead to no click, your GBP listing is where the decision is made. Every unfilled field, every missing photo, every unanswered review is a missed opportunity in this space. This is why we insist so much on GBP optimization in [our guide for dentists](/en/blog/google-business-profile-guide-dentist) and for restaurants.
 
 **Being cited by AI replaces web traffic.** When ChatGPT recommends your restaurant for a romantic dinner in the Marais, the customer does not visit your website. They note the name, search on Google Maps, and book. Your website played no role in this journey — but you gained a customer. GEO measures this visibility that is invisible to traditional web analytics.
 
@@ -75,13 +71,9 @@ Stop focusing solely on web traffic. Track actions from your Google listing (cal
 
 Your website remains useful — but its role is changing. It is no longer the primary discovery point (customers find you via Google, AI, or directories). It becomes the confirmation point: the customer who discovered you elsewhere visits your site to verify the details (services, pricing, team, additional photos) before making their final decision. Optimize your site for this role: clear and immediate information, no complex navigation tunnels, and above all, structured data that AI assistants can easily extract.
 
-### Invest in Reviews as a Strategic Asset
-
-In a zero-click world, reviews are your most visible marketing content. They appear directly in the Map Pack, they are summarized by AI Overviews, and they are analyzed by ChatGPT and Perplexity. Every detailed review you receive is a piece of micro-content that works for you 24/7 without requiring a click to your site.
-
 ### Position Yourself for AI Recommendations
 
-[GEO (Generative Engine Optimization)](/blog/geo-referencement-ia-2026) is the structural answer to zero click. If customers no longer click but instead ask questions to AI assistants, then being recommended by those AI assistants is the new "ranking first on Google." The difference: instead of aiming for a position in a list, you aim for a mention in a response. And the criteria for getting there are different from traditional SEO — data consistency, recent and specific reviews, structured data, multi-platform presence.
+[GEO (Generative Engine Optimization)](/en/blog/geo-ai-optimization-2026) is the structural answer to zero click. If customers no longer click but instead ask questions to AI assistants, then being recommended by those AI assistants is the new "ranking first on Google." The difference: instead of aiming for a position in a list, you aim for a mention in a response. And the criteria for getting there are different from traditional SEO — data consistency, recent and specific reviews, structured data, multi-platform presence.
 
 ## The Zero-Click Paradox: Less Traffic, More Customers
 
@@ -97,28 +89,20 @@ But this opportunity only benefits those who are visible in the right spaces. Pr
 
 **This week:** Check your Google Business listing statistics (calls, directions, clicks). If you are not tracking them, start now — this is your new main dashboard.
 
-**This month:** Complete your GBP listing to 100%. Launch a review campaign if you have not already. Test your visibility on ChatGPT and Perplexity.
-
 **This quarter:** Implement structured data on your website. Align your information across all your platforms. Start measuring your GEO score alongside your traditional web metrics.
 
 The zero-click world is not a world without visibility. It is a world where visibility is measured differently — and where the winners are those who understood it first.
 
----
-
-*Does zero click affect you? Eddie Miller Agency measures your real visibility — not just your web traffic — as part of our free GEO audit. AI visibility score, Google listing analysis, and action plan. [Request my free GEO audit →]*
-
----
-
 ## FAQ — Zero Click and Local Visibility
 
 ### Does zero click mean my website is useless?
+
 No. Your website remains important for three reasons: it hosts your Schema.org structured data (a key signal for AI), it serves as a confirmation point for customers who want to learn more before contacting you, and it contributes to your overall credibility with AI assistants that cross-reference multiple sources. What changes is that your site is no longer the primary entry point — it is one link among others in your digital presence.
 
-### How do I measure my visibility if customers no longer click?
-Your Google Business listing statistics (calls, directions, site clicks, booking clicks) are your new primary metrics. Complement with tracking your Doctolib/TheFork bookings and a monthly AI visibility test (ask the questions your customers would ask on ChatGPT and Perplexity). Together, this gives a much more complete picture than simple web traffic.
-
 ### Do AI Overviews appear for all local searches?
+
 No. In 2026, AI Overviews trigger on about 40% of local queries, primarily informational and comparative queries ("best dentist for implants Paris 15th"). Direct transactional queries ("dentist Paris 15th") more often display the classic Map Pack without the AI layer. But the trend is toward the progressive expansion of AI Overviews across all query categories.
 
 ### Does zero click affect all sectors equally?
+
 Local sectors (healthcare, restaurants, hotels, neighborhood services) are the most affected because Google directly provides the practical information (address, hours, phone, reviews) without requiring a click. Sectors that sell products online or require long decision journeys are less affected because the click remains necessary to finalize the purchase or process.

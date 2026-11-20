@@ -9,16 +9,14 @@ category: "Google & Bewertungen"
 tags: ["Google Business Profile", "Restaurant", "Paris", "lokales SEO", "Fehler", "Google Maps", "visibilité IA", "TheFork"]
 cta: "diagnostic-gratuit"
 lang: "de"
-reading_time: "10 min"
+reading_time: "4 min"
 image: "/images/blog/google-business-restaurant-paris-10-erreurs.webp"
 imageAlt: "Innenraum eines leeren Pariser Restaurants mit umgedrehten Stühlen auf den Tischen"
 internal_links:
+  - slug: "7-verzeichnisse-restaurant-ki-empfehlung"
+    anchor: "Die 7 Seiten, auf denen Ihr Restaurant präsent sein muss, damit KI-Systeme Sie finden"
   - slug: "chatgpt-empfehlung-restaurant-paris"
-    anchor: "wie ChatGPT entscheidet, welche Restaurants es empfiehlt"
-  - slug: "schema-org-webseite-lesbar-ki-ohne-code"
-    anchor: "die strukturierten Daten Schema.org"
-  - slug: "geo-optimierung-ki-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+    anchor: "Empfiehlt ChatGPT Ihr Restaurant oder das von nebenan? Machen Sie den Test"
 ---
 
 ## Google Business Profil für Restaurants in Paris: Die 10 Fehler, die Sie Kunden kosten
@@ -75,26 +73,16 @@ Füllen Sie 5 bis 10 häufige Fragen mit vollständigen Antworten vor. Die Unver
 
 Nehmen Sie sich diese Woche 20 Minuten Zeit, um Ihr Google Business Profil durchzugehen und die identifizierten Fehler zu korrigieren. Jeder korrigierte Fehler bringt Sie dem Map Pack näher — und der Sichtbarkeit bei den KI-Systemen, die Pariser Restaurants empfehlen.
 
----
-
-*Wie viele dieser Fehler enthält Ihr Profil? Eddie Miller Agency erstellt ein kostenloses GBP + GEO-Audit für Pariser Restaurants: Analyse Ihres Profils, Vergleich mit Ihren direkten Konkurrenten und sofortiger Aktionsplan. [Mein kostenloses Audit anfordern →]*
-
----
-
 ## FAQ — Google Business Profil für Restaurants in Paris
 
 ### Kann ich mein Google Business Profil selbst verwalten oder muss ich eine Agentur beauftragen?
+
 Sie können alles selbst machen. Google Business Profile wird kostenlos über Ihr Google-Konto verwaltet, direkt in den Suchergebnissen oder in Google Maps. Die 10 in diesem Artikel aufgeführten Korrekturen sind alle ohne technische Fähigkeiten durchführbar.
 
 ### Wie oft sollte ich mein Profil aktualisieren?
+
 Mindestens einmal pro Woche (ein Beitrag + Bewertungs-Check). Idealerweise fügen Sie 1-2 Fotos pro Woche hinzu, antworten innerhalb von 48 Stunden auf Bewertungen und aktualisieren Öffnungszeiten oder Speisekarte, sobald sich etwas ändert.
 
 ### Mein Restaurant hat eine schlechte Google-Note (3,5 Sterne). Ist das zu retten?
+
 Ja. Die Google-Note ist ein dynamischer Durchschnitt, der sich mit jeder neuen Bewertung verändert. Durch aktives Sammeln positiver Bewertungen zufriedener Kunden (5 bis 10 pro Monat) steigt Ihre Note progressiv.
-
-### Sind TheFork und TripAdvisor ebenso wichtig wie Google?
-Für die KI-Sichtbarkeit bleibt Google die primäre Quelle. Aber TheFork und TripAdvisor werden von Perplexity und ChatGPT häufig als Quellen für Pariser Restaurants zitiert. Ein vollständiges Profil auf diesen Plattformen stärkt Ihre Chancen, von KI-Systemen empfohlen zu werden, erheblich.
-
----
-
-**Sie führen ein Restaurant?** [Entdecken Sie, wie wir Restaurants helfen, gefunden zu werden →](/restaurants)

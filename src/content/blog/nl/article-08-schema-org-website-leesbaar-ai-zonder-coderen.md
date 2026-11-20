@@ -9,23 +9,19 @@ category: "Online zichtbaarheid"
 tags: ["Schema.org", "gestructureerde gegevens", "JSON-LD", "visibilité IA", "AI-zichtbaarheid", "technische SEO", "no-code", "ChatGPT"]
 cta: "diagnostic-gratuit"
 lang: "nl"
-reading_time: "11 min"
+reading_time: "6 min"
 image: "/images/blog/schema-org-site-lisible-ia-sans-coder.webp"
 imageAlt: "Regels gestructureerde code weergegeven op een scherm in een warme omgeving"
 internal_links:
-  - slug: "geo-optimalisatie-ai-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "google-business-profile-gids-tandarts-parijs"
-    anchor: "onze Google Business Profile-gids"
-  - slug: "onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs"
-    anchor: "ons onderzoek naar 50 tandartspraktijken"
+  - slug: "lokale-seo-2026-trends-acties"
+    anchor: "Gevonden worden op Google in 2026: wat is veranderd voor Parijse zaken"
+  - slug: "tandartspraktijk-zonder-website-kwetsbaarheid-ai"
+    anchor: "Een praktijk zonder website: wat kan een patiënt al controleren?"
 ---
 
 ## Schema.org voor beginners: hoe u uw website leesbaar maakt voor AI's (zonder te coderen)
 
 Uw website spreekt tegen mensen. Maar spreekt hij ook tegen machines?
-
-Wanneer ChatGPT, Perplexity of Google AI Overview informatie over uw zaak zoekt, "lezen" ze uw website niet zoals een patiënt of klant dat zou doen. Ze scannen de code op zoek naar gestructureerde gegevens — informatie gemarkeerd in een gestandaardiseerd formaat genaamd Schema.org.
 
 Als uw website deze markup niet bevat, moeten AI's raden wat u bent, waar u bent, wat u aanbiedt. En wanneer een AI moet raden, geeft hij de voorkeur aan het aanbevelen van een concurrent wiens website hem duidelijke antwoorden geeft.
 
@@ -48,8 +44,6 @@ Tot voor kort waren gestructureerde gegevens een "SEO-bonus" — een manier om m
 In 2026 is de situatie veranderd. De twee grootste zoekmachines ter wereld — Google en Microsoft — hebben publiekelijk bevestigd dat gestructureerde gegevens een kritiek signaal zijn voor hun AI-functionaliteiten. ChatGPT heeft ook bevestigd gestructureerde gegevens te gebruiken om te bepalen welke resultaten getoond worden.
 
 De cijfers spreken voor zich. Websites met een volledige Schema.org-implementatie worden 2 tot 3 keer vaker geciteerd door AI-zoekmachines. Websites met Schema en gestructureerde FAQ zien hun AI-zichtbaarheid met ongeveer 36% toenemen. En de adoptie van Schema.org is met 35% gestegen tussen 2023 en 2026.
-
-Desondanks heeft de overgrote meerderheid van websites van lokale zaken, medische praktijken en restaurants nog steeds geen gestructureerde gegevens. In [ons onderzoek naar 50 Parijse tandartspraktijken](/nl/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) had slechts 12% Schema.org — en zij zaten allemaal in de groep van de meest zichtbare praktijken op AI's.
 
 ## De soorten Schema die tellen voor uw zaak
 
@@ -129,25 +123,24 @@ Met deze informatie kan een ontwikkelaar het volledige Schema in 1 tot 2 uur imp
 
 De tijdsinvestering is minimaal. Het rendement op AI-zichtbaarheid is meetbaar in enkele weken. En eenmaal op zijn plaats, werkt het Schema 24 uur per dag voor u.
 
----
-
-*Heeft uw website de juiste gestructureerde gegevens? Eddie Miller Agency omvat een volledige Schema-audit in zijn gratis GEO-audit. Wij controleren wat er bestaat, wat er ontbreekt, en wij leveren de kant-en-klare JSON-LD-code voor uw zaak. [Mijn gratis GEO-audit aanvragen →]*
-
----
-
 ## FAQ — Schema.org en AI-zichtbaarheid
 
 ### Is Schema.org gratis?
+
 Ja. Schema.org is een open en gratis standaard. De woordenschat, de testtools en de online generators kosten niets. De enige mogelijke kosten zijn gerelateerd aan de technische implementatie als u een beroep doet op een dienstverlener (typisch 200 tot 500 euro voor een eenvoudige website) of op een premium WordPress plugin (ongeveer 50 tot 100 euro per jaar).
 
 ### Mijn website is op Wix/Squarespace/Carrd. Kan ik Schema toevoegen?
+
 Wix en Squarespace staan toe aangepaste code toe te voegen in de header van pagina's, waardoor het toevoegen van JSON-LD mogelijk is. Carrd biedt deze optie ook in zijn betaalde plannen.
 
 ### Als ik geen website heb, is Schema dan nuttig?
+
 Nee, Schema is alleen van toepassing op websites. Als u geen website heeft, concentreer uw inspanningen op uw Google Business Profile-vermelding en op uw Doctolib-, TripAdvisor- of TheFork-profielen.
 
 ### Hoelang voordat AI's mijn Schema in aanmerking nemen?
+
 Google detecteert nieuwe gestructureerde gegevens doorgaans in 1 tot 2 weken. De effecten op AI-zichtbaarheid duren typisch 2 tot 4 weken.
 
 ### Kan Schema mijn website schaden als het slecht is geïmplementeerd?
+
 Een onjuist Schema kan verwarring creëren voor AI's. Daarom is validatie essentieel. Gebruik systematisch de testtools van Google na elke implementatie.

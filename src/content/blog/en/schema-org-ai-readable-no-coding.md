@@ -1,31 +1,27 @@
 ---
-title: "How to Help AI Understand What Your Business Does (Without Touching Any Code)"
+title: "Schema.org: check how your website describes your business"
 slug: "schema-org-ai-readable-no-coding"
-meta_title: "How to Make Your Website Understandable by ChatGPT and Google AI — A Simple Guide, No Coding Required"
-meta_description: "Websites that AI understands well are recommended 2 to 3 times more often. Here's how to make yours readable by ChatGPT and Google, even without technical skills."
+meta_title: "Schema.org: check how your website describes your business"
+meta_description: "Structured data describes a page in a machine-readable format. It is not a substitute for information a visitor can read."
 author: "Eddie Miller Agency"
 date: "2026-02-14"
 category: "Online visibility"
 tags: ["Schema.org", "structured data", "JSON-LD", "visibilité IA", "AI visibility", "technical SEO", "no-code", "ChatGPT"]
 cta: "diagnostic-gratuit"
 lang: "en"
-reading_time: "11 min"
+reading_time: "10 min"
 image: "/images/blog/schema-org-site-lisible-ia-sans-coder.webp"
 imageAlt: "Lines of structured code displayed on a screen in a warm environment"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "google-business-profile-guide-dentiste-paris"
-    anchor: "our Google Business Profile guide"
-  - slug: "etude-visibilite-ia-50-cabinets-dentaires-paris"
-    anchor: "our study of 50 dental practices"
+  - slug: "local-seo-2026-trends-actions"
+    anchor: "Getting Found on Google in 2026: What Has Changed for Local Businesses"
+  - slug: "dental-practice-no-website-ai-vulnerability"
+    anchor: "A dental practice without a website: what can patients already find?"
 ---
 
 ## Schema.org for Beginners: How to Make Your Website Readable by AI (Without Coding)
 
 Your website speaks to humans. But does it speak to machines?
-
-When ChatGPT, Perplexity, or Google AI Overview look for information about your business, they don't "read" your website the way a patient or customer would. They scan the code looking for structured data — information tagged in a standardized format called Schema.org.
 
 If your website doesn't contain these tags, AI systems have to guess what you are, where you are, and what you offer. And when an AI has to guess, it prefers to recommend a competitor whose website gives it clear answers.
 
@@ -48,8 +44,6 @@ Until recently, structured data was a "bonus" for search optimization — a way 
 In 2026, everything has changed. The two largest search engines in the world — Google and Microsoft — have publicly confirmed that structured data is a critical signal for their AI features. ChatGPT has also confirmed using structured data to determine which results to display.
 
 The numbers speak for themselves. Websites with a complete Schema.org implementation (combining multiple schema types) are cited 2 to 3 times more by AI engines. Websites with Schema and structured FAQ see their AI visibility increase by approximately 36%. And Schema.org adoption has grown by 35% between 2023 and 2026, a sign that more and more professionals have understood the stakes.
-
-Despite this, the vast majority of local business websites, medical practices, and restaurants still have no structured data. In [our study of 50 dental practices in Paris](/blog/etude-visibilite-ia-50-cabinets-dentaires-paris), only 12% had Schema.org — and they were all in the group of practices most visible to AI.
 
 ## The Schema Types That Matter for Your Business
 
@@ -127,8 +121,6 @@ Then list: your exact name, your address, your GPS coordinates, your phone numbe
 
 With this information, a developer can implement the complete Schema in 1 to 2 hours. It's a one-time investment (typically $200 to $500 as a freelance service) with lasting effects.
 
-At Eddie Miller Agency, this implementation is part of our service packages — we provide the ready-to-use JSON-LD code, specifically adapted for dental practices, restaurants, and hotels.
-
 ## Mistakes to Avoid
 
 **Mistake 1: Adding Schema that doesn't match the visible content.** If your Schema says "open on Saturday" but your website displays "closed on weekends," AI systems detect this inconsistency and lose trust. The Schema must exactly reflect what's on the page.
@@ -147,7 +139,7 @@ When ChatGPT looks for information about dentists in the 15th arrondissement, in
 
 When Google AI Overview generates a response about Italian restaurants in the Marais, the data from your Restaurant schema (cuisine type, price range, hours, terrace) is directly usable without interpretation. You go from "maybe an Italian restaurant" to "definitely an Italian restaurant with a terrace, open on Sundays, price range $25-40."
 
-This shift from ambiguity to clarity is exactly what [GEO (Generative Engine Optimization)](/blog/geo-referencement-ia-2026) aims to accomplish. Structured data is its most direct technical lever.
+This shift from ambiguity to clarity is exactly what [GEO (Generative Engine Optimization)](/en/blog/geo-ai-optimization-2026) aims to accomplish. Structured data is its most direct technical lever.
 
 ## The 3-Step Action Plan
 
@@ -159,25 +151,20 @@ This shift from ambiguity to clarity is exactly what [GEO (Generative Engine Opt
 
 The time investment is minimal. The return on AI visibility is measurable within a few weeks. And once in place, Schema works for you 24/7, every time an AI looks for information about your industry and your location.
 
----
-
-*Does your website have the right structured data? Eddie Miller Agency includes a complete Schema audit in its free GEO audit. We check what exists, what's missing, and we provide the ready-to-implement JSON-LD code for your business. [Request my free GEO audit ->]*
-
----
-
 ## FAQ — Schema.org and AI Visibility
 
 ### Is Schema.org free?
+
 Yes. Schema.org is an open and free standard. The vocabulary, testing tools, and online generators cost nothing. The only potential costs are related to technical implementation if you use a provider (typically $200 to $500 for a simple site) or a premium WordPress plugin (about $50 to $100 per year).
 
 ### My site is on Wix/Squarespace/Carrd. Can I add Schema?
+
 Wix and Squarespace allow you to add custom code in the page header, which makes adding JSON-LD possible. Carrd also offers this option in its paid plans. The simplest platforms (Facebook pages, booking platform profiles) don't allow Schema to be added, but that's normal — Schema is intended for your own website.
 
 ### If I don't have a website, is Schema useful?
+
 No, Schema only applies to websites. If you don't have a site, focus your efforts on your Google Business Profile listing (which contains its own structured data managed by Google) and on your booking platform and review site profiles. Schema becomes relevant when you create a website, even a minimal one.
 
-### How long before AI systems take my Schema into account?
-Google typically detects new structured data within 1 to 2 weeks during its next indexing pass. The effects on AI visibility (citations in ChatGPT, Perplexity) take a bit longer — typically 2 to 4 weeks — because these platforms update their sources at varying frequencies. Schema is an investment that produces continuous effects once in place.
-
 ### Can Schema harm my site if poorly implemented?
+
 An incorrect Schema (false information, inappropriate types) can create confusion for AI systems and potentially reduce your visibility rather than improve it. This is why validation is essential. Systematically use Google's testing tools after any implementation. If in doubt, have it verified by a professional.

@@ -1,68 +1,34 @@
 ---
-title: "I vostri pazienti chiedono prima a ChatGPT, poi vanno su Doctolib: cosa cambia per voi"
+title: "Dalla ricerca del dentista alla prenotazione su Doctolib"
 slug: "ia-sostituire-doctolib-studio-dentistico"
-meta_title: "I vostri pazienti passano per ChatGPT prima di Doctolib — cosa cambia per il vostro studio dentistico"
-meta_description: "Sempre più pazienti chiedono a ChatGPT quale dentista scegliere prima di andare a prenotare su Doctolib. L'IA non sostituisce Doctolib — decide chi ci arriva."
+meta_title: "Dalla ricerca del dentista alla prenotazione su Doctolib"
+meta_description: "Trovare uno studio e ottenere un appuntamento sono passaggi distinti. Verificate il percorso senza inserire dati sanitari."
 author: "Eddie Miller Agency"
 date: "2026-03-11"
 category: "Visibilità online"
-tags: ["Doctolib", "IA", "ChatGPT", "dentista", "Parigi", "visibilité IA", "percorso paziente", "prenotazione"]
+tags: ["Paris", "Visibilità online"]
 cta: "diagnostic-gratuit"
 lang: "it"
-reading_time: "8 min"
+reading_time: "1 min"
 image: "/images/blog/ia-remplacer-doctolib-cabinet-dentaire.webp"
 imageAlt: "Sala d'attesa di uno studio dentistico con pazienti che consultano il loro telefono"
 internal_links:
-  - slug: "cabinet-dentaire-invisible-chatgpt"
-    anchor: "perché il vostro studio è invisibile su ChatGPT"
-  - slug: "sources-recommandations-dentaires-ia-paris"
-    anchor: "le fonti delle raccomandazioni dentistiche IA"
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+  - slug: "fonti-raccomandazioni-dentistiche-ia-parigi"
+    anchor: "Dentisti: dove verificare indirizzi e appuntamenti?"
+  - slug: "studio-dentistico-senza-sito-web-vulnerabilita-ia"
+    anchor: "Studio dentistico senza sito: cosa può verificare un paziente?"
 ---
 
-## L'IA sostituirà Doctolib? Cosa cambia per il vostro studio
+Trovare uno studio e ottenere un appuntamento sono passaggi distinti. Verificate il percorso senza inserire dati sanitari.
 
-Il titolo è volutamente provocatorio. La risposta breve è no — l'IA non sostituirà Doctolib. Doctolib è uno strumento di prenotazione. L'IA è uno strumento di raccomandazione. Non sono concorrenti, sono due anelli della stessa catena.
+## Cosa controllare
 
-Ma questa catena si sta riorganizzando. E il posto del vostro studio in questa catena dipende da ciò che fate adesso.
+1. Dal sito dello studio aprite la prenotazione come nuovi visitatori. Controllate professionista, sede e motivo della visita.
 
-## Il nuovo percorso paziente nel 2026
+2. Se manca il motivo desiderato, indicate come contattare la segreteria. Un riepilogo non permette di promettere un orario libero.
 
-Due anni fa, il percorso paziente tipico era: ricerca su Google → Map Pack → confronto recensioni → Doctolib per prenotare.
+3. Fermatevi prima dell’invio del modulo. La risposta di un assistente non è un consiglio medico né una conferma di prenotazione.
 
-Nel 2026, emerge rapidamente un percorso alternativo: il paziente chiede a ChatGPT → l'IA dà 2-3 nomi → il paziente sceglie → va su Doctolib per prenotare.
+## Se la prenotazione porta alla sede sbagliata
 
-L'IA non sostituisce Doctolib — decide chi arriva su Doctolib. È un cambio di potere. Prima, Doctolib era sia la vetrina che la cassa. Ormai, l'IA diventa la vetrina, e Doctolib resta la cassa.
-
-## Come ottimizzare il duo IA + Doctolib
-
-**Step 1:** Ottimizzate Doctolib come fonte IA. Descrizione completa, tutte le specialità elencate, foto professionali, informazioni NAP identiche a Google.
-
-**Step 2:** Ottimizzate la vostra scheda Google Business. Fonte comune alle tre piattaforme IA.
-
-**Step 3:** Raccogliete recensioni specifiche su entrambe le piattaforme.
-
-**Step 4:** Costruite la vostra visibilità IA al di là di Doctolib. Sito web con dati strutturati, annuari, recensioni Google ricche.
-
-## L'avvenire: l'IA come prescrittore, Doctolib come esecutore
-
-La tendenza è chiara. L'IA prende progressivamente il ruolo di « prescrittore ». Doctolib mantiene il ruolo di « esecutore ». Gli studi che padroneggiano la catena completa catturano i pazienti prima dei loro concorrenti.
-
----
-
-*Qual è il vostro percorso paziente attuale? Eddie Miller Agency cartografa il vostro percorso paziente completo nel nostro audit GEO gratuito. [Richiedere il mio audit GEO gratuito →]*
-
----
-
-## FAQ — IA e Doctolib per i dentisti
-
-### Se l'IA raccomanda uno studio, il paziente prenota sempre su Doctolib?
-Nella maggioranza dei casi per gli studi dentistici parigini, sì. L'IA genera l'intenzione, Doctolib concretizza l'azione.
-
-### Il mio studio non è su Doctolib. È un problema per la visibilità IA?
-È un handicap per Perplexity, che usa Doctolib come fonte primaria per i dentisti in Francia.
-
----
-
-**Siete dentisti a Parigi?** [Scoprite come aiutiamo gli studi dentistici ad essere trovati →](/dentistes)
+Aprite il link dalla mappa e poi dalla pagina dei contatti. Se uno rimanda all’agenda di tutto il gruppo, collegate la sede corretta quando possibile. Verificate il nuovo link senza creare una cartella clinica.

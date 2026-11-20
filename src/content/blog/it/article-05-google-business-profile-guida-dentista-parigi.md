@@ -13,17 +13,15 @@ reading_time: "15 min"
 image: "/images/blog/google-business-profile-guide-dentiste-paris.webp"
 imageAlt: "Scheda Google Business Profile di uno studio dentistico visualizzata su uno schermo di computer"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "cabinet-dentaire-invisible-chatgpt"
-    anchor: "perché le IA non raccomandano il vostro studio"
+  - slug: "ia-sostituire-doctolib-studio-dentistico"
+    anchor: "Dalla ricerca del dentista alla prenotazione su Doctolib"
+  - slug: "studio-dentistico-invisibile-chatgpt"
+    anchor: "Perché il vostro studio non compare quando si chiede un dentista a ChatGPT"
 ---
 
 ## Google Business Profile: la guida completa per i dentisti parigini (2026)
 
 La vostra scheda Google Business Profile (GBP) è diventata il primo punto di contatto tra voi e i vostri futuri pazienti. Prima ancora di visitare il vostro sito web o di consultare Doctolib, la maggioranza dei pazienti vede la vostra scheda Google — sia nei risultati di ricerca, su Google Maps, o ormai nelle risposte generate dall'IA.
-
-Nel 2026, la vostra scheda GBP non è più un semplice annuario online. È una vetrina attiva che influenza direttamente la vostra classifica nel Map Pack (i primi tre risultati Google Maps), la vostra reputazione percepita, e la vostra visibilità presso gli assistenti IA come ChatGPT, Perplexity e Google AI Overview.
 
 Questa guida vi accompagna passo dopo passo per ottimizzare ogni elemento della vostra scheda, con istruzioni specifiche per gli studi dentistici parigini.
 
@@ -175,8 +173,6 @@ Avete interesse a pre-alimentare questa sezione con le domande che i vostri pazi
 
 **Domande da pre-alimentare per uno studio dentistico:**
 
-« Accettate nuovi pazienti? » — « Sì, il nostro studio accoglie nuovi pazienti tutto l'anno. Potete prendere appuntamento direttamente su Doctolib o per telefono. »
-
 « Quanto costa un impianto dentale? » — « Il prezzo di un impianto dentale varia secondo la complessità del caso. Proponiamo un primo appuntamento di diagnosi con preventivo dettagliato. Non esitate a contattarci per maggiori informazioni. »
 
 « Siete aperti il sabato? » — « Sì, lo studio è aperto il sabato mattina dalle 9 alle 13 su appuntamento. »
@@ -222,31 +218,26 @@ Un ultimo punto essenziale che la maggior parte delle guide GBP non menziona: la
 
 Quando un utente chiede a ChatGPT « quale dentista raccomandate nel 15° arrondissement? » o a Google AI Overview « miglior ortodontista Parigi 11 », le informazioni della vostra scheda — descrizione, servizi, recensioni, foto, attività recente — sono direttamente utilizzate per decidere se meritate di essere citati.
 
-Una scheda GBP ottimizzata non migliora solo la vostra posizione in Google Maps. Migliora la vostra [visibilità presso tutte le IA](/blog/geo-referencement-ia-2026). È il fondamento di qualsiasi strategia di GEO (Generative Engine Optimization) — e per uno studio dentistico parigino, è l'azione con il miglior ritorno sull'investimento possibile.
-
----
-
-*Volete sapere se la vostra scheda Google Business è veramente ottimizzata? Eddie Miller Agency realizza un audit GBP + GEO gratuito per gli studi dentistici parigini: analisi della vostra scheda, confronto con i vostri concorrenti diretti, e piano d'azione prioritario. [Richiedere il mio audit gratuito →]*
-
----
+Una scheda GBP ottimizzata non migliora solo la vostra posizione in Google Maps. Migliora la vostra [visibilità presso tutte le IA](/it/blog/ottimizzazione-geo-ia-2026). È il fondamento di qualsiasi strategia di GEO (Generative Engine Optimization) — e per uno studio dentistico parigino, è l'azione con il miglior ritorno sull'investimento possibile.
 
 ## FAQ — Google Business Profile per dentisti
 
 ### Qual è la differenza tra Google Business Profile e Google My Business?
+
 È la stessa cosa. Google My Business (GMB) è stato ufficialmente rinominato Google Business Profile (GBP) a fine 2021. Il funzionamento è identico, solo il nome è cambiato. Gestite la vostra scheda direttamente dalla ricerca Google o da Google Maps.
 
 ### Quanto tempo prima di vedere risultati dopo l'ottimizzazione?
+
 I primi miglioramenti di classifica nel Map Pack compaiono generalmente in 2-4 settimane dopo un'ottimizzazione completa della scheda. L'accumulo di recensioni recenti produce effetti progressivi su 2-3 mesi. La chiave è la regolarità: le schede che mantengono un'attività continua (post, foto, recensioni) progrediscono più velocemente e in modo più duraturo.
 
 ### Il mio studio fa parte di una rete (Dentego, Dentylis, ecc.). Come gestire la scheda?
+
 Ogni centro deve avere la propria scheda GBP con il proprio indirizzo. Il nome deve corrispondere esattamente al nome del centro locale. Assicuratevi che gli orari, i servizi e i professionisti siano specifici del vostro centro e non copiati da un altro centro della rete. L'individualizzazione di ogni scheda è essenziale per la classifica locale.
 
 ### Posso gestire la mia scheda senza sito web?
+
 Sì, potete avere una scheda GBP senza sito web. Tuttavia, Google utilizza il vostro sito web per verificare e completare le informazioni della vostra scheda. Senza sito, il vostro « punteggio di notorietà » sarà limitato e le IA avranno meno materiale per raccomandarvi. Se un sito completo non è possibile immediatamente, assicuratevi al minimo che il vostro profilo Doctolib sia esaustivo — serve da sostituto parziale.
 
 ### I post Google Business scadono?
+
 I post restano visibili per 6 mesi (i post « Offerta » scadono alla data di fine definita). Anche dopo la scadenza della visualizzazione, restano indicizzati e contribuiscono allo storico di attività della vostra scheda. La questione non è un singolo post ma la regolarità: un flusso costante di post segnala a Google e alle IA che il vostro studio è attivo.
-
----
-
-**Siete dentisti a Parigi?** [Scoprite come aiutiamo gli studi dentistici ad essere trovati →](/dentistes)

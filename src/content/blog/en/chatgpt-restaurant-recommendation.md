@@ -1,22 +1,22 @@
 ---
-title: "Does ChatGPT Recommend Your Restaurant or the One Next Door? Take the Test"
+title: "Could a visitor choose your Paris restaurant from a search result?"
 slug: "chatgpt-restaurant-recommendation"
-meta_title: "Does Your Restaurant Appear When a Customer Asks ChatGPT for a Recommendation?"
-meta_description: "83% of restaurants in Paris don't appear when a customer asks ChatGPT for a recommendation. Find out why and how to change that."
+meta_title: "Could a visitor choose your Paris restaurant from a search result?"
+meta_description: "Between seeing a restaurant name and booking a table, a visitor needs to know what is served and when the kitchen closes."
 author: "Eddie Miller Agency"
 date: "2026-01-31"
 category: "Online visibility"
-tags: ["restaurant", "ChatGPT", "visibilité IA", "AI visibility", "Paris", "Perplexity", "TheFork", "TripAdvisor", "Google Business"]
+tags: ["restaurant", "ChatGPT", "visibilité IA", "AI visibility", "Paris", "TheFork", "TripAdvisor", "Google Business"]
 cta: "diagnostic-gratuit"
 lang: "en"
-reading_time: "10 min"
+reading_time: "7 min"
 image: "/images/blog/chatgpt-recommandation-restaurant-paris.webp"
 imageAlt: "Parisian restaurant terrace with wooden tables and natural lighting"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "test-ia-recommandation-dentiste-paris"
-    anchor: "our comparative test on AI recommendations"
+  - slug: "google-business-restaurant-10-mistakes"
+    anchor: "Ten things to check on a Paris restaurant’s Google listing"
+  - slug: "7-restaurant-directories-ai-recommendation"
+    anchor: "Seven places to check what visitors see about your restaurant"
 ---
 
 ## Restaurant Owners: Does ChatGPT Recommend Your Restaurant or the One Next Door?
@@ -41,33 +41,7 @@ The difference is fundamental. The customer doesn't want a list of results. They
 
 AI platforms don't work like Google or TripAdvisor. They don't rank restaurants in a list. They synthesize information from dozens of sources to formulate a targeted recommendation.
 
-A 2025 Yext study analyzed 2.2 million restaurant-related citations on ChatGPT, Perplexity, and Gemini. The results show where recommendations come from: 41.6% of citations come from third-party directories and platforms (Google Business, TheFork, TripAdvisor, Yelp), 39.8% come from restaurants' own websites, and 13% come from reviews and social media.
-
 The restaurant industry is the sector where reviews and social media carry the most weight in AI recommendations. More than healthcare, finance, or retail. This means what your customers say about you online has a direct impact on what AI will say about you tomorrow.
-
-## The Three AI Platforms and Their Different Logics
-
-Each AI platform has its own way of selecting which restaurants to recommend.
-
-### ChatGPT: Broad Exploration, Conversational Recommendation
-
-ChatGPT adopts the tone of a well-informed friend. For a query like "good restaurant for a birthday in the 6th," it proposes 3 to 5 suggestions with a description of the ambiance, type of cuisine, price range, and sometimes a booking link.
-
-ChatGPT relies heavily on third-party directories like Google Business and review platforms. It explores a very large number of sources — up to 132 unique URLs for a single question — which makes it unpredictable: your restaurant can appear in one response and vanish in the next. To be consistently recommended by ChatGPT, you need to be present on as many platforms as possible.
-
-The Local Falcon study revealed that ChatGPT operates in a binary fashion for restaurants: either you're recommended consistently, or you're completely invisible. There's very little in-between. Restaurants that dominate on ChatGPT enjoy a self-reinforcing advantage that competitors struggle to catch up with.
-
-### Perplexity: Stability and Cited Sources
-
-Perplexity is more predictable and transparent. It systematically cites its sources, which lets you see exactly where the recommendations come from. For Paris restaurants, the most frequent sources are TripAdvisor, Google Reviews, TheFork, and food blogs.
-
-Perplexity uses fewer sources per response (about 40 unique URLs versus 132 for ChatGPT), meaning if you're well positioned on TripAdvisor and Google, you have a good chance of staying there consistently.
-
-### Google AI Overview: The Natural Extension of Google Maps
-
-Google AI Overview synthesizes information from its own ecosystem. For restaurants, this means your Google Business Profile is the primary source. Google reviews, photos, hours, and attributes (terrace, parking, Wi-Fi, wheelchair access) directly feed the AI response.
-
-Google's advantage: it's the most accurate platform for factual data (address, hours, contact). The downside: Google AI Overview doesn't appear systematically for restaurant queries — it favors informational queries over transactional ones.
 
 ## Why Your Restaurant Is Invisible: The 5 Main Causes
 
@@ -84,8 +58,6 @@ Just as with dental practices, AI analyzes review text to understand your restau
 Restaurants that appear in AI recommendations have comprehensive Google Business listings: detailed description mentioning the neighborhood and specialties, all relevant categories, activated attributes (terrace, delivery, takeout, reservations, Wi-Fi, wheelchair access), up-to-date menu, recent photos of dishes, the dining room, and the terrace, and regular posts.
 
 ### 4. You're Missing From Platforms AI Consults
-
-For restaurants in Paris, the key platforms are: Google Business (essential), TripAdvisor (a major source for Perplexity and ChatGPT, especially for tourists), TheFork (heavily consulted by AI for the French market), your own website (with menu, photos, and Restaurant-type Schema.org structured data), and Instagram (Google has been indexing restaurant Instagram profiles since July 2025).
 
 If you're missing from any of these platforms, you lose an AI recommendation channel.
 
@@ -123,7 +95,7 @@ If you have a website, implement Restaurant, Menu, and LocalBusiness schemas in 
 
 ### Action 7: Test and Track Your AI Visibility Every Month
 
-Ask the queries your customers would use on ChatGPT and Perplexity: "best [cuisine type] [neighborhood] Paris," "restaurant with terrace [arrondissement]," "romantic restaurant [neighborhood] recommendation." Note whether you appear, who appears in your place, and which sources are cited.
+Try this example: “Where could I have dinner near Bastille in Paris after 9 pm?” Note the date and confirm service times with the restaurant.
 
 ## The Opportunity Is Now
 
@@ -133,29 +105,20 @@ And contrary to what many think, the necessary actions are neither complex nor e
 
 The world of culinary discovery has changed. Paper guides gave way to TripAdvisor, which is now giving way to AI recommendations. The restaurants that understand this and act accordingly will be the ones AI recommends when a hungry customer asks the question.
 
----
-
-*Is your restaurant recommended by AI? Eddie Miller Agency provides a free GEO audit for Paris restaurants: your AI visibility score, the platforms where you're absent, and the priority actions to get recommended. [Request my free GEO audit →]*
-
----
-
 ## FAQ — AI Visibility for Paris Restaurants
 
 ### My restaurant is well rated on TripAdvisor but doesn't appear on ChatGPT. Why?
+
 ChatGPT doesn't rely solely on TripAdvisor. It cross-references dozens of sources — Google Business, websites, directories, food blogs, social media. If your presence is strong on TripAdvisor but weak elsewhere (incomplete Google listing, no website, few Google reviews), ChatGPT lacks sufficient data to recommend you confidently.
 
-### Do TheFork reviews count for AI visibility?
-Yes. TheFork is one of the platforms cited by AI for French restaurants. Perplexity in particular draws on TheFork for restaurant queries in Paris. A complete TheFork profile with good reviews strengthens your AI visibility.
-
 ### Does Instagram influence AI recommendations?
+
 Since July 2025, Google indexes restaurant Instagram profiles. This means your Instagram content (food photos, stories, descriptions) can indirectly influence your visibility in Google AI Overview. Additionally, ChatGPT broadly explores social content. An active Instagram profile with geolocated mentions and local hashtags strengthens your presence in the ecosystem AI consults.
 
 ### I'm a small independent restaurant. Do I stand a chance against chains?
+
 Absolutely. AI looks for specificity and local authenticity. An independent restaurant well-rooted in its neighborhood, with detailed reviews, a clear culinary identity, and consistent online information, can be recommended before a chain whose profile is standardized and less distinctive. GEO favors businesses that tell a unique story — and that's exactly what independent restaurants do best.
 
 ### How long does it take to start appearing in AI recommendations?
+
 Initial improvements (completed Google listing, new reviews) can produce results in 3 to 6 weeks. Research shows that a Paris bistro doubled its AI visibility in 6 months by updating its Google Business listing weekly, accumulating fresh reviews, and maintaining consistency across its online information.
-
----
-
-**Do you run a restaurant?** [Discover how we help restaurants get found →](/restaurants)

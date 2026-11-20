@@ -9,23 +9,19 @@ category: "Google e avaliações"
 tags: ["avaliações Google", "dentista", "reputação online", "Google Reviews", "visibilité locale", "Paris", "visibilité IA", "visibilidade IA"]
 cta: "diagnostic-gratuit"
 lang: "pt"
-reading_time: "11 min"
+reading_time: "12 min"
 image: "/images/blog/avis-google-cabinet-dentaire-patients.webp"
 imageAlt: "Mão a segurar um smartphone a mostrar avaliações Google de cinco estrelas"
 internal_links:
-  - slug: "google-business-profile-guide-dentiste-paris"
-    anchor: "guia completo Google Business Profile"
-  - slug: "etude-visibilite-ia-50-cabinets-dentaires-paris"
-    anchor: "o nosso estudo sobre a visibilidade IA de 50 consultórios parisienses"
-  - slug: "cabinet-dentaire-invisible-chatgpt"
-    anchor: "porque é que o seu consultório está invisível no ChatGPT"
+  - slug: "google-business-profile-guia-dentista-paris"
+    anchor: "Como preencher corretamente a sua ficha Google para atrair mais pacientes (guia dentistas Paris)"
+  - slug: "consultorio-dentario-sem-site-vulnerabilidade-ia"
+    anchor: "Consultório sem site: o que consegue verificar um paciente?"
 ---
 
 ## As avaliações Google do seu consultório dentário: como transformá-las numa máquina de pacientes
 
 As suas avaliações Google já não são simplesmente um fator de reputação. Em 2026, cumprem três funções simultâneas: determinam a sua posição no Map Pack do Google, influenciam a decisão do paciente de o escolher ou não, e — é a mudança mais recente — alimentam diretamente as recomendações dos assistentes de IA.
-
-Quando o ChatGPT ou o Perplexity recomendam um dentista, uma das primeiras coisas que analisa são as palavras-chave contidas nas suas avaliações. Quando o Google AI Overview sintetiza as informações sobre o seu consultório, resume o que os seus pacientes dizem de si. E quando um paciente hesita entre dois consultórios no Google Maps, é a sua nota e o conteúdo das últimas avaliações que fazem pender a decisão.
 
 As avaliações tornaram-se o seu ativo digital mais precioso. Este guia mostra-lhe como obtê-las, otimizá-las e transformá-las num fluxo regular de novos pacientes.
 
@@ -34,8 +30,6 @@ As avaliações tornaram-se o seu ativo digital mais precioso. Este guia mostra-
 Os dados são inequívocos. 75% dos consumidores leem sistematicamente as avaliações online antes de escolher um profissional local. 68% recusam considerar uma atividade avaliada abaixo de 4 estrelas. E 89% estão mais inclinados a escolher uma atividade que responde a todas as suas avaliações, positivas como negativas.
 
 Para a classificação local, o impacto é direto. Os consultórios nas três primeiras posições do Map Pack têm em média mais de 500 avaliações com uma nota de 4,8 estrelas. Cada grupo de 10 novas avaliações aumenta a taxa de conversão (chamadas, pedidos de direções, cliques para o site) em cerca de 2,8%. E responder a pelo menos um quarto das suas avaliações melhora esta taxa de conversão em mais 4,1%.
-
-Mas o que muda fundamentalmente a situação em 2026 é a ligação entre avaliações e visibilidade IA. O Google resume agora automaticamente o conteúdo das suas avaliações em blurbs visíveis diretamente na sua ficha. As IA analisam o texto das suas avaliações para compreender as suas especialidades, a sua reputação e a qualidade percebida dos seus tratamentos. No [nosso estudo sobre 50 consultórios dentários parisienses](/blog/etude-visibilite-ia-50-cabinets-dentaires-paris), as avaliações são o fator mais fortemente correlacionado com a pontuação de visibilidade IA.
 
 ## A avaliação que conta vs a avaliação que não serve
 
@@ -170,31 +164,22 @@ Para transformar as suas avaliações numa verdadeira máquina de pacientes, aco
 
 **Semana 4 — Rotinização.** A recolha de avaliações torna-se um processo permanente integrado no fluxo do consultório. Cada semana: verificar as novas avaliações, responder em 48h, contar o volume mensal.
 
-Ao cabo de 90 dias com este processo em funcionamento, deverá observar um aumento mensurável da sua posição no Map Pack, do número de pedidos de consulta provenientes do Google, e — se combinar com as outras ações do nosso [guia GBP](/blog/google-business-profile-guide-dentiste-paris) — da sua visibilidade IA.
-
----
-
-*Quantas avaliações tem? Que conteúdo têm? Como o posicionam face aos seus concorrentes? A Eddie Miller Agency analisa gratuitamente o seu perfil de avaliações no âmbito do nosso diagnóstico GEO para consultórios dentários parisienses. [Pedir o meu diagnóstico gratuito →]*
-
----
+Ao cabo de 90 dias com este processo em funcionamento, deverá observar um aumento mensurável da sua posição no Map Pack, do número de pedidos de consulta provenientes do Google, e — se combinar com as outras ações do nosso [guia GBP](/pt/blog/google-business-profile-guia-dentista-paris) — da sua visibilidade IA.
 
 ## FAQ — Avaliações Google para consultórios dentários
 
 ### Quantas avaliações são necessárias para ser bem classificado no Google Maps em Paris?
+
 Não há um limiar mágico, pois a classificação depende também do seu bairro e dos seus concorrentes. Nos bairros pouco competitivos, 50 a 80 avaliações com boa nota podem bastar para o top 3 do Map Pack. Nos bairros mais competitivos, os líderes têm frequentemente 150 a 300 avaliações. O essencial é ter um fluxo regular de avaliações recentes, não apenas um volume histórico.
 
 ### Um paciente pode modificar ou eliminar a sua avaliação?
+
 Sim, um paciente pode modificar ou eliminar a sua própria avaliação a qualquer momento. Se um paciente insatisfeito o contactar e o problema for resolvido, pode pedir-lhe educadamente se deseja atualizar a sua avaliação. Não pode forçá-lo nem condicioná-lo — mas a maioria dos pacientes razoáveis aceitará modificar uma avaliação se o problema foi realmente corrigido.
 
 ### Posso reportar uma avaliação falsa ao Google?
+
 Sim. Se uma avaliação é manifestamente falsa (paciente que nunca recebeu, avaliação publicada por um concorrente, conteúdo difamatório), pode reportá-la através da sua ficha Google Business. O Google examina o reporte e pode retirar a avaliação se infringir as suas regras. O prazo varia de alguns dias a várias semanas. Entretanto, responda profissionalmente à avaliação para mostrar aos outros pacientes que leva os feedbacks a sério.
 
-### As avaliações no Doctolib contam também para a visibilidade IA?
-Sim, mas em menor medida. O Perplexity cita frequentemente o Doctolib como fonte nas suas recomendações de dentistas parisienses. O ChatGPT também faz referência. No entanto, as avaliações Google continuam a ser a fonte mais influente para a maioria das plataformas de IA. A nossa recomendação: concentre os seus esforços no Google em prioridade, e considere o Doctolib como um complemento importante.
-
 ### Uma nota de 5.0 é melhor do que uma nota de 4.7?
+
 Não necessariamente. Os estudos mostram que uma nota perfeita de 5.0 com poucas avaliações pode ser percecionada como suspeita, tanto pelos algoritmos como pelos pacientes. Uma nota de 4.5 a 4.8 com um volume considerável de avaliações recentes é geralmente mais performante em termos de classificação e conversão. Algumas avaliações de 4 estrelas num conjunto maioritariamente de 5 estrelas reforçam a credibilidade.
-
----
-
-**É dentista em Paris?** [Descubra como ajudamos os consultórios dentários a serem encontrados →](/dentistes)

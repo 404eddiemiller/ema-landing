@@ -1,12 +1,13 @@
 ---
 import '../styles/global.css';
 import '../styles/agency.css';
-import { getAgency } from '../data/agency';
+import { getAgency, serviceRoutes } from '../data/agency';
 import { t, getLocaleFromPath, localeISO, navRoutes, getAlternateUrls, locales, type Locale } from '../i18n/index';
 
 const locale = getLocaleFromPath(Astro.url.pathname);
 const nav = navRoutes[locale];
 const c = getAgency(locale);
+const stickyContact = serviceRoutes[locale].includes(Astro.url.pathname.replace(/\/$/, '')) ? '#diagnostic' : nav.audit;
 const isPreview = import.meta.env.PUBLIC_SITE_MODE !== 'live';
 const alternates = getAlternateUrls(Astro.url.pathname);
 const siteUrl = 'https://eddiemiller.agency';
@@ -99,8 +100,8 @@ const {
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org", "@type": "ProfessionalService",
       name: 'Eddie Miller Agency', url: siteUrl, description: c.description,
-      email: 'contact@eddiemiller.agency', areaServed: { "@type": "Place", name: 'Paris et Île-de-France' },
-      serviceType: c.services
+      email: 'contact@eddiemiller.agency', areaServed: { "@type": "City", name: 'Paris' },
+      serviceType: c.services.slice(0, 2)
     })} />
     <!-- WebSite schema — tells Google to show "Eddie Miller Agency" as site name -->
     <script type="application/ld+json">
@@ -142,7 +143,7 @@ const {
           {c.contactSmall}
         </p>
         <a
-          href={nav.audit}
+          href={stickyContact}
           class="sticky-cta-btn text-center inline-block px-6 py-3 font-sans font-medium text-sm text-cream bg-charcoal tracking-wider uppercase whitespace-nowrap transition-colors duration-300 hover:bg-terracotta-dark"
           data-track="sticky-bar"
         >

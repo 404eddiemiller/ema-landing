@@ -1,24 +1,22 @@
 ---
-title: "Google ahora da respuestas IA a los viajeros — tu hotel aparece en ellas?"
+title: "Hoteles en París: verificar los detalles de un resumen de Google"
 slug: "google-ai-overview-hotel-paris"
-meta_title: "Hoteleros en Paris: tu hotel aparece en las nuevas respuestas IA de Google?"
-meta_description: "Cuando un viajero busca un hotel en Paris, Google muestra ahora una respuesta IA con recomendaciones. Aqui te explicamos como funciona y como hacer aparecer tu hotel."
+meta_title: "Hoteles en París: verificar los detalles de un resumen de Google"
+meta_description: "Para quien llega tarde, «recepción abierta» y «entrada nocturna disponible» no significan lo mismo."
 author: "Eddie Miller Agency"
 date: "2026-03-14"
 category: "Visibilidad online"
 tags: ["Google AI Overview", "hotel", "Paris", "visibilité IA", "visibilidad IA", "Booking", "turismo", "busqueda local"]
 cta: "diagnostic-gratuit"
 lang: "es"
-reading_time: "8 min"
+reading_time: "2 min"
 image: "/images/blog/google-ai-overview-hotel-paris.webp"
 imageAlt: "Recepcion de un hotel parisino elegante con una pantalla mostrando Google AI Overview"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "barometre-geo-paris-2026-t1"
-    anchor: "nuestro Barometro GEO Paris"
-  - slug: "schema-org-site-lisible-ia-sans-coder"
-    anchor: "los datos estructurados Schema.org"
+  - slug: "comparar-busquedas-turisticas-paris"
+    anchor: "Comparar una búsqueda turística de París en tres asistentes"
+  - slug: "seo-local-2026-tendencias-acciones"
+    anchor: "Ser encontrado en Google en 2026: lo que ha cambiado para los negocios parisinos"
 ---
 
 ## Google AI Overview: tu hotel aparece en las nuevas respuestas de Google?
@@ -54,21 +52,3 @@ Las consultas de mayor valor — "hotel con encanto Marais", "boutique hotel des
 **Accion 3:** Implementa los datos estructurados Hotel/LodgingBusiness en tu sitio web en JSON-LD.
 
 **Accion 4:** Optimiza tu presencia en TripAdvisor y Booking con descripciones detalladas y respuestas a todas las resenas.
-
-**Accion 5:** Prueba tu visibilidad IA mensualmente en Google, ChatGPT y Perplexity.
-
-## Mas alla de Google: ChatGPT y Perplexity para los hoteles
-
-Perplexity recomienda hoteles especificos en el 92 % de los casos y ChatGPT en el 78 % — las tasas mas altas de todos los sectores.
-
-Para los hoteles parisinos que apuntan a una clientela internacional, ChatGPT es particularmente importante: los turistas anglofonos, asiaticos y europeos usan masivamente ChatGPT para planificar sus viajes. Un hotel con contenido bilingue y presencia en plataformas internacionales esta mejor posicionado.
-
-La estrategia completa combina Google AI (via GBP y Schema), Perplexity (via TripAdvisor y Booking) y ChatGPT (via la diversidad de fuentes y el contenido multilingue). Es el enfoque [GEO integrado](/blog/geo-referencement-ia-2026) aplicado a la hoteleria.
-
----
-
-*Tu hotel es recomendado por las IA? Eddie Miller Agency realiza una auditoria GEO gratuita para hoteles parisinos. [Solicitar mi auditoria GEO gratuita →]*
-
----
-
-**Diriges un hotel?** [Descubre como ayudamos a los hoteles a ser encontrados →](/hotels)

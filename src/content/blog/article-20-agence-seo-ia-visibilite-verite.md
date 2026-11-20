@@ -9,18 +9,14 @@ category: "Visibilité en ligne"
 tags: ["agence visibilité", "visibilité IA", "ChatGPT", "visibilité locale", "limites visibilité", "Paris"]
 cta: "diagnostic-gratuit"
 lang: "fr"
-reading_time: "8 min"
+reading_time: "5 min"
 image: "/images/blog/agence-seo-ia-visibilite-verite.webp"
 imageAlt: "Bureau avec un écran d'ordinateur affichant des statistiques de visibilité en ligne"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "chatgpt-perplexity-google-ai-comparatif-commerces-paris"
-    anchor: "notre comparatif des plateformes IA"
+  - slug: "comparer-recherches-touristes-paris"
+    anchor: "Comparer trois recherches touristiques à Paris, sans classer les assistants"
   - slug: "zero-clic-recherches-google-solution-commerce-local"
-    anchor: "le phénomène du zéro clic"
-  - slug: "etude-visibilite-ia-50-cabinets-dentaires-paris"
-    anchor: "notre étude sur 50 cabinets dentaires"
+    anchor: "Recherches sans clic : distinguer visite, appel et réservation"
 ---
 
 ## 5 choses que votre agence SEO ne vous dit pas sur l'IA et votre visibilité
@@ -33,8 +29,6 @@ Voici les cinq vérités que la plupart des agences SEO classiques ne vous disen
 
 C'est la vérité la plus contre-intuitive. Les données montrent que seulement 14 % des URLs citées par les IA figurent dans le top 10 de Google pour la même requête. Autrement dit, 86 % des recommandations IA proviennent de sources qui ne sont PAS les premières sur Google.
 
-Dans [notre étude sur 50 cabinets dentaires parisiens](/blog/etude-visibilite-ia-50-cabinets-dentaires-paris), plusieurs cabinets bien positionnés en SEO classique avaient un score GEO faible. Et inversement, des cabinets avec un SEO modeste mais une présence cohérente sur plusieurs plateformes étaient mieux cités par les IA.
-
 Pourquoi ? Parce que Google classe des pages web. Les IA synthétisent des informations provenant de multiples sources. Un site premier sur Google mais absent de Doctolib, avec peu d'avis récents et sans données structurées, n'offre pas aux IA la matière première dont elles ont besoin pour formuler une recommandation.
 
 Votre agence SEO vous envoie un rapport mensuel avec vos positions Google. Mais vous envoie-t-elle un rapport sur vos mentions IA ?
@@ -44,8 +38,6 @@ Votre agence SEO vous envoie un rapport mensuel avec vos positions Google. Mais 
 Le trafic web, les positions Google, le taux de clic — ce sont les métriques que votre agence SEO suit. Et elles sont utiles. Mais en 2026, elles ne racontent que la moitié de l'histoire.
 
 [Environ 60 % des recherches Google](/blog/zero-clic-recherches-google-solution-commerce-local) se terminent sans clic. 45 % des consommateurs utilisent des assistants IA pour les recommandations locales. Quand un patient demande à ChatGPT quel dentiste choisir et réserve sur Doctolib sans jamais visiter votre site, votre agence SEO ne voit rien. Aucune visite dans Google Analytics. Aucun clic à comptabiliser. Pourtant, vous venez de gagner (ou de perdre) un patient.
-
-Les métriques qui manquent dans la plupart des rapports SEO : votre fréquence de mention dans les réponses IA, les appels et itinéraires depuis votre fiche Google (pas depuis votre site), votre position dans les AI Overviews de Google, et votre visibilité sur ChatGPT et Perplexity.
 
 ## 3. Le SEO technique ne suffit pas pour les IA
 
@@ -77,8 +69,6 @@ Une bonne agence SEO peut intégrer le GEO dans sa pratique — et certaines com
 
 Plutôt que de changer d'agence, commencez par poser ces cinq questions lors de votre prochain point.
 
-« Suivez-vous ma visibilité sur ChatGPT, Perplexity et Google AI Overview ? » Si la réponse est non, demandez pourquoi et quand ils prévoient de le faire.
-
 « Mes données structurées Schema.org sont-elles à jour et optimisées pour les IA ? » Si votre agence ne sait pas ce que vous avez, c'est un signal.
 
 « Mes informations sont-elles cohérentes sur Google, Doctolib et les annuaires ? » Si votre agence ne vérifie que votre site web, elle ne voit pas la moitié du tableau.
@@ -91,14 +81,4 @@ Plutôt que de changer d'agence, commencez par poser ces cinq questions lors de 
 
 Pour être clair : le SEO reste essentiel. Votre site web, vos positions Google, votre trafic organique — tout ça compte encore. Le GEO ne remplace pas le SEO. Il le complète en couvrant les canaux que le SEO traditionnel ne touche pas.
 
-Le cabinet, le restaurant ou l'hôtel qui combine une bonne stratégie SEO et une bonne stratégie GEO capte des clients sur tous les canaux — les recherches Google classiques, le Map Pack, les AI Overviews, ChatGPT, Perplexity, et les recherches vocales.
-
 Celui qui ne fait que du SEO capte la moitié. Celui qui ne fait que du GEO capte l'autre moitié. Celui qui fait les deux capte tout. Et en 2026, « tout » est la seule stratégie qui fonctionne durablement.
-
----
-
-*Votre agence SEO couvre-t-elle votre visibilité IA ? Eddie Miller Agency est spécialisé en GEO pour les commerces locaux parisiens. Notre audit gratuit complète votre stratégie SEO existante en cartographiant votre visibilité sur les IA. [Demander mon audit GEO gratuit →]*
-
----
-
-**Vous avez une activité locale&nbsp;?** On aide les restaurants, dentistes, hôtels, avocats et autres professionnels à être trouvés par leurs futurs clients. [Demander mon diagnostic gratuit →](/#diagnostic)

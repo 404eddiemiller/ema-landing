@@ -9,18 +9,14 @@ category: "Online visibility"
 tags: ["SEO agency", "visibilité IA", "AI visibility", "ChatGPT", "local SEO", "SEO limitations", "Paris"]
 cta: "diagnostic-gratuit"
 lang: "en"
-reading_time: "8 min"
+reading_time: "5 min"
 image: "/images/blog/agence-seo-ia-visibilite-verite.webp"
 imageAlt: "Office desk with a computer screen displaying online visibility statistics"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "chatgpt-perplexity-google-ai-comparatif-commerces-paris"
-    anchor: "our comparison of AI platforms"
-  - slug: "zero-clic-recherches-google-solution-commerce-local"
-    anchor: "the zero-click phenomenon"
-  - slug: "etude-visibilite-ia-50-cabinets-dentaires-paris"
-    anchor: "our study of 50 dental practices"
+  - slug: "compare-tourist-searches-paris"
+    anchor: "Compare a tourist’s Paris search across three assistants"
+  - slug: "zero-click-searches-google-solution"
+    anchor: "Zero-click searches: tell a visit, a call and a booking apart"
 ---
 
 ## 5 Things Your SEO Agency Isn't Telling You About AI and Your Visibility
@@ -33,8 +29,6 @@ Here are five truths that most traditional SEO agencies aren't telling you yet.
 
 This is the most counterintuitive truth. Data shows that only 14% of URLs cited by AI systems appear in Google's top 10 for the same query. In other words, 86% of AI recommendations come from sources that are NOT ranking first on Google.
 
-In [our study of 50 Parisian dental practices](/blog/etude-visibilite-ia-50-cabinets-dentaires-paris), several practices with strong classic SEO rankings had low GEO scores. And conversely, practices with modest SEO but a consistent presence across multiple platforms were better cited by AI systems.
-
 Why? Because Google ranks web pages. AI systems synthesize information from multiple sources. A site ranking first on Google but absent from Doctolib, with few recent reviews and no structured data, doesn't give AI systems the raw material they need to formulate a recommendation.
 
 Your SEO agency sends you a monthly report with your Google rankings. But do they send you a report on your AI mentions?
@@ -43,9 +37,7 @@ Your SEO agency sends you a monthly report with your Google rankings. But do the
 
 Web traffic, Google rankings, click-through rates — these are the metrics your SEO agency tracks. And they are useful. But in 2026, they only tell half the story.
 
-[Approximately 60% of Google searches](/blog/zero-clic-recherches-google-solution-commerce-local) end without a click. 45% of consumers use AI assistants for local recommendations. When a patient asks ChatGPT which dentist to choose and books on Doctolib without ever visiting your site, your SEO agency sees nothing. No visit in Google Analytics. No click to count. Yet you just gained (or lost) a patient.
-
-The metrics missing from most SEO reports: your mention frequency in AI responses, calls and directions from your Google listing (not from your site), your position in Google's AI Overviews, and your visibility on ChatGPT and Perplexity.
+[Approximately 60% of Google searches](/en/blog/zero-click-searches-google-solution) end without a click. 45% of consumers use AI assistants for local recommendations. When a patient asks ChatGPT which dentist to choose and books on Doctolib without ever visiting your site, your SEO agency sees nothing. No visit in Google Analytics. No click to count. Yet you just gained (or lost) a patient.
 
 ## 3. Technical SEO Isn't Enough for AI
 
@@ -67,7 +59,7 @@ If your SEO agency produces blog content but doesn't optimize your reviews, your
 
 ## 5. GEO Isn't SEO with a New Name — It's a Complementary Discipline
 
-The last truth is also the most important. [GEO (Generative Engine Optimization)](/blog/geo-referencement-ia-2026) isn't simply SEO applied to AI. It's a discipline with its own rules, metrics, and levers.
+The last truth is also the most important. [GEO (Generative Engine Optimization)](/en/blog/geo-ai-optimization-2026) isn't simply SEO applied to AI. It's a discipline with its own rules, metrics, and levers.
 
 SEO optimizes your website to be ranked in a list of results. GEO optimizes your entire digital presence to be cited in a conversational response. SEO measures rankings and traffic. GEO measures mentions and citations. SEO focuses on your site. GEO covers your site, your Google listing, your platform profiles, your reviews, your directories, and your structured data.
 
@@ -76,8 +68,6 @@ A good SEO agency can integrate GEO into its practice — and some are starting 
 ## What You Should Ask Your SEO Agency
 
 Rather than switching agencies, start by asking these five questions at your next meeting.
-
-"Do you track my visibility on ChatGPT, Perplexity, and Google AI Overview?" If the answer is no, ask why and when they plan to start.
 
 "Is my Schema.org structured data up to date and optimized for AI?" If your agency doesn't know what you have, that's a red flag.
 
@@ -91,10 +81,4 @@ Rather than switching agencies, start by asking these five questions at your nex
 
 To be clear: SEO remains essential. Your website, your Google rankings, your organic traffic — all of that still matters. GEO doesn't replace SEO. It complements it by covering the channels that traditional SEO doesn't reach.
 
-The practice, restaurant, or hotel that combines a strong SEO strategy with a strong GEO strategy captures customers across all channels — classic Google searches, the Map Pack, AI Overviews, ChatGPT, Perplexity, and voice searches.
-
 The one that only does SEO captures half. The one that only does GEO captures the other half. The one that does both captures everything. And in 2026, "everything" is the only strategy that works long-term.
-
----
-
-*Does your SEO agency cover your AI visibility? Eddie Miller Agency specializes in GEO for local businesses. Our free audit complements your existing SEO strategy by mapping your visibility across AI platforms. [Request my free GEO audit →]*

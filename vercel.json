@@ -1,5 +1,52 @@
 {
   "buildCommand": "node scripts/build-vercel.mjs",
+  "redirects": [
+    {
+      "source": "/blog/chatgpt-perplexity-google-ai-comparatif-commerces-paris",
+      "destination": "/blog/comparer-recherches-touristes-paris",
+      "permanent": true
+    },
+    {
+      "source": "/en/blog/chatgpt-perplexity-google-ai-comparison",
+      "destination": "/en/blog/compare-tourist-searches-paris",
+      "permanent": true
+    },
+    {
+      "source": "/es/blog/chatgpt-perplexity-google-ai-comparativa-negocios-paris",
+      "destination": "/es/blog/comparar-busquedas-turisticas-paris",
+      "permanent": true
+    },
+    {
+      "source": "/de/blog/chatgpt-perplexity-google-ki-vergleich-geschaefte-paris",
+      "destination": "/de/blog/touristische-suchanfragen-paris-vergleichen",
+      "permanent": true
+    },
+    {
+      "source": "/it/blog/chatgpt-perplexity-google-ai-confronto-attivita-parigi",
+      "destination": "/it/blog/confrontare-ricerche-turistiche-parigi",
+      "permanent": true
+    },
+    {
+      "source": "/pt/blog/chatgpt-perplexity-google-ai-comparativo-comercios-paris",
+      "destination": "/pt/blog/comparar-pesquisas-turisticas-paris",
+      "permanent": true
+    },
+    {
+      "source": "/nl/blog/chatgpt-perplexity-google-ai-vergelijking-zaken-parijs",
+      "destination": "/nl/blog/toeristische-zoekvragen-parijs-vergelijken",
+      "permanent": true
+    },
+    {
+      "source": "/images/blog/chatgpt-perplexity-google-ai-comparatif-commerces-paris.webp",
+      "destination": "/images/blog/recherches-touristes-paris.webp",
+      "permanent": true
+    },
+    {
+      "source": "/images/blog/chatgpt-perplexity-google-ai-comparatif-commerces-paris.avif",
+      "destination": "/images/blog/recherches-touristes-paris.avif",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",

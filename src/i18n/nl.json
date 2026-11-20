@@ -1,7 +1,7 @@
 {
   "meta": {
-    "ogTitle": "Word gevonden door uw toekomstige klanten | Eddie Miller Agency",
-    "ogDescription": "Wordt uw zaak aanbevolen wanneer een klant het aan ChatGPT vraagt? Wij controleren het gratis binnen 24 uur: score op 100 en 3 concrete acties."
+    "ogTitle": "Lokale zichtbaarheid in Parijs | Eddie Miller Agency",
+    "ogDescription": "We vergelijken antwoorden van ChatGPT, Claude en Gemini met de gegevens van uw Parijse vestiging op uw Google-bedrijfsprofiel en website."
   },
   "header": {
     "skipToContent": "Ga naar hoofdinhoud",
@@ -13,35 +13,36 @@
     "faq": "FAQ",
     "pricing": "Tarieven",
     "blog": "Blog",
-    "cta": "Gratis diagnose",
+    "cta": "Mijn zichtbaarheid bespreken",
     "language": "Taal"
   },
   "hero": {
-    "title": "Uw toekomstige klanten vragen ChatGPT waar ze naartoe moeten.",
-    "titleLine2": "Wij zorgen ervoor dat het antwoord",
-    "titleHighlight": "ú bent.",
-    "subtitle": "Vandaag vraagt 45% van de consumenten AI om een aanbeveling voordat ze een restaurant, tandarts of hotel kiezen. AI geeft slechts 3 namen. Als de uwe er niet bij staat, gaat de klant naar een concurrent.",
-    "cta": "Vraag mijn gratis diagnose aan",
-    "secondary": "Controleer of mijn zaak zichtbaar is →",
-    "trust1": "Resultaat binnen 24 uur",
+    "title": "Lokale zichtbaarheid in Parijs",
+    "titleLine2": "Het begint met",
+    "titleHighlight": "betrouwbare gegevens.",
+    "subtitle": "We vergelijken antwoorden van ChatGPT, Claude en Gemini met de gegevens van uw Parijse vestiging op uw Google-bedrijfsprofiel en website.",
+    "cta": "Mijn zichtbaarheid bespreken",
+    "secondary": "Bekijk de dienst voor lokale zichtbaarheid in Parijs",
+    "trust1": "Vrijblijvend kennismakingsgesprek",
     "trust2": "Vrijblijvend",
-    "trust3": "Geen creditcard nodig"
+    "trust3": "Geen creditcard nodig",
+    "trust4": "Samen afgesproken aanpak"
   },
   "socialProof": {
     "label": "Uw klanten zoeken hier. Bent u er te vinden?"
   },
   "whatYouGet": {
-    "title": "Wat u gratis ontvangt",
-    "subtitle": "Een volledige diagnose van uw online zichtbaarheid, klaar binnen 24 uur.",
-    "item1Title": "Uw AI-zichtbaarheidsscore",
-    "item1Text": "Wij lanceren 100 echte zoekopdrachten op ChatGPT, Perplexity, Claude en Gemini in uw sector. Uw score = het aantal keren dat u wordt aanbevolen. Eenvoudig, concreet, meetbaar.",
+    "title": "Wat we controleren",
+    "subtitle": "We werken met vestigingen in Parijs. Welke gegevens we controleren, hangt af van de branche en de wijk.",
+    "item1Title": "Een overzicht van de antwoorden",
+    "item1Text": "We testen vragen over uw Parijse wijk in ChatGPT, Claude en Gemini. U ziet de vraag, het antwoord en de datum van de waarneming.",
     "item2Title": "Wat uw zichtbaarheid blokkeert",
-    "item2Text": "Wij identificeren precies wat AI ervan weerhoudt u aan te bevelen wanneer een klant in uw stad zoekt.",
+    "item2Text": "Een oud adres, verouderde openingstijden of een kapotte link maken uw zaak in Parijs moeilijk vindbaar. We laten zien waar u dit kunt corrigeren.",
     "item3Title": "De concrete acties met prioriteit",
-    "item3Text": "Wij identificeren de correcties die de grootste impact hebben op het verhogen van uw klantenbestand.",
+    "item3Text": "U ziet welke gegevens u het beste eerst kunt corrigeren en op welke pagina’s.",
     "item4Title": "Een gesprek van 15 minuten",
     "item4Text": "Wij leggen uw resultaten persoonlijk uit, beantwoorden uw vragen en bekijken samen hoe wij u kunnen ondersteunen.",
-    "cta": "Vraag mijn gratis diagnose aan"
+    "cta": "Mijn zichtbaarheid bespreken"
   },
   "testimonial": {
     "title": "Wat het in de praktijk verandert",
@@ -78,18 +79,18 @@
     "stat3Source": "SOCi, Local Visibility Index 2026"
   },
   "quote": {
-    "text": "«Beste restaurant bij mij in de buurt?» Deze vraag wordt dagelijks duizenden keren aan ChatGPT gesteld. De AI geeft 3 namen. Staat de uwe erbij? Nog niet.",
-    "cta": "Controleer mijn zichtbaarheid gratis"
+    "text": "Voorbeeldvraag: “Waar kan ik zondagavond een tafel reserveren in de Marais en de menukaart in het Engels bekijken?”",
+    "cta": "Mijn zichtbaarheid bespreken"
   },
   "solution": {
-    "title": "Wij maken u zichtbaar waar uw toekomstige klanten zoeken",
-    "subtitle": "ChatGPT, Perplexity, Claude, Gemini, Google, Google Maps: wij dekken alle kanalen.",
-    "aiTitle": "Aanbevolen worden door AI",
-    "aiBullet1": "ChatGPT, Claude, Gemini en Perplexity noemen u wanneer een klant om een aanbeveling vraagt",
+    "title": "Lokale zichtbaarheid in Parijs",
+    "subtitle": "We vergelijken antwoorden van ChatGPT, Claude en Gemini met de gegevens van uw Parijse vestiging op uw Google-bedrijfsprofiel en website.",
+    "aiTitle": "Vermeldingen in AI-antwoorden controleren",
+    "aiBullet1": "Bij elke geteste vraag noteren we de datum, de taal, de genoemde adressen en eventuele bronnen.",
     "aiBullet2": "Wij verbeteren uw online reputatie om AI de vertrouwenssignalen te geven om u aan te bevelen",
     "aiBullet3": "Wij maken u aanwezig op de bronnen die AI raadpleegt om antwoorden te formuleren",
     "googleTitle": "Gevonden worden op Google",
-    "googleBullet1": "Uw bedrijf stijgt in Google Maps wanneer een klant in uw stad of wijk zoekt",
+    "googleBullet1": "We controleren of de markering op Google Maps bij de ingang van uw vestiging in Parijs staat.",
     "googleBullet2": "Uw Google-profiel is compleet, actueel en verhoogt uw kansen om gecontacteerd te worden",
     "googleBullet3": "Wij implementeren een strategie om uw online beoordelingen te optimaliseren"
   },
@@ -105,51 +106,60 @@
   },
   "verticals": {
     "title": "Oplossingen op maat van uw sector",
-    "subtitle": "Elke zaak heeft zijn eigen specificaties. Wij passen onze aanpak aan op uw beroep.",
+    "subtitle": "We werken met vestigingen in Parijs. Welke gegevens we controleren, hangt af van de branche en de wijk.",
     "card1Title": "Restaurants",
-    "card1Text": "\"Waar vanavond eten?\" De vraag wordt gesteld aan ChatGPT. Het antwoord bent u of een concurrent.",
+    "card1Text": "Vermeld de wijk, de talen van de menukaart, de sluitingstijd van de keuken en de link om een tafel te reserveren.",
     "card2Title": "Hotels",
-    "card2Text": "Reizigers plannen hun verblijf met AI. Wij zorgen dat uw hotel in hun suggesties staat.",
+    "card2Text": "Maak onderscheid tussen de openingstijden van de receptie en de inchecktijden. Vermeld de route vanaf het station, de gesproken talen en de voorwaarden voor rechtstreeks boeken.",
     "card3Title": "Bars & Nachtclubs",
-    "card3Text": "\"Waar vanavond uitgaan?\" AI is de nieuwe uitgaansgids. Zorg dat u in de aanbevelingen staat.",
+    "card3Text": "Vermeld het adres, de aanvangstijd van het concert, de sluitingstijd en de talen van de ticketverkoop. Leg uit of bezoekers ook zonder reservering binnenkomen.",
     "card4Title": "Artsenpraktijken",
-    "card4Text": "Uw toekomstige patiënten zoeken een arts op ChatGPT. Wij zorgen ervoor dat uw praktijk wordt aanbevolen.",
+    "card4Text": "Controleer het specialisme, het adres, de toegankelijkheid en de afspraakmogelijkheden. Publiceer geen patiëntendossiers of persoonlijk medisch advies.",
     "card5Title": "Tandartspraktijken",
-    "card5Text": "Uw toekomstige patiënten vragen ChatGPT om een tandarts. Wij zorgen ervoor dat u wordt aanbevolen.",
+    "card5Text": "Vermeld de contactgegevens, de telefonische bereikbaarheid en de aanmeldprocedure voor nieuwe patiënten. Medische gegevens zijn hiervoor niet nodig.",
     "card6Title": "Advocatenkantoren",
-    "card6Text": "Een klant die dringend een advocaat zoekt, vraagt het aan AI. Wees de naam die verschijnt.",
+    "card6Text": "Beschrijf de rechtsgebieden en contactmogelijkheden volgens de beroepsregels, zonder naar cliëntendossiers te verwijzen.",
     "card7Title": "Kapsalons & Schoonheidssalons",
-    "card7Text": "\"Beste kapper bij mij in de buurt?\" AI geeft 3 namen. Zorg dat de uwe erbij staat.",
+    "card7Text": "Vermeld de behandelingen, prijzen, openingstijden op zaterdag en hoe klanten een afspraak maken.",
     "card8Title": "Wellness & Spa",
-    "card8Text": "Uw toekomstige klanten zoeken een spa in hun stad. AI antwoordt hen — wij zorgen dat u het bent.",
+    "card8Text": "Maak onderscheid tussen toegang tot de spa en losse behandelingen. Vermeld tijden, tarieven en toegangsvoorwaarden.",
     "card9Title": "Sportscholen & Sportclubs",
-    "card9Text": "Nieuwe leden vragen AI om advies voordat ze zich inschrijven. Wij maken u onmisbaar.",
+    "card9Text": "Publiceer het lesrooster per sport, het niveau, het adres en de voorwaarden voor een proefles.",
     "learnMore": "Meer informatie →",
     "card10Title": "Andere branche",
-    "card10Text": "Uw sector staat er niet bij? Wij passen onze aanpak aan op uw branche. Neem contact met ons op voor een diagnose op maat."
+    "card10Text": "Is uw vestiging in Parijs? Geef de wijk aan en de dienst waar uw klanten naar zoeken.",
+    "card1Question": "Zondag bezoek ik de Marais. Waar kan ik voor negen uur ’s avonds een tafel reserveren en de menukaart in het Engels bekijken?",
+    "card2Question": "Bij welk hotel in de buurt van Gare de Lyon kan ik na 23.00 uur inchecken en rechtstreeks in het Engels boeken?",
+    "card3Question": "Waar kan ik vrijdag naar jazz luisteren bij de Bastille? Kan ik in het Engels reserveren en tot hoe laat is de bar open?",
+    "card4Question": "Hoe maak ik een afspraak bij een huisarts in het 14e arrondissement? Is de praktijk rolstoeltoegankelijk?",
+    "card5Question": "Hoe neem ik voor een eerste afspraak contact op met een tandartspraktijk in het 12e arrondissement?",
+    "card6Question": "Hoe regel ik een eerste gesprek met een arbeidsrechtadvocaat in het 9e arrondissement?",
+    "card7Question": "Welke kapsalon bij République knipt op zaterdag krullend haar?",
+    "card8Question": "Is er bij het Canal Saint-Martin een spa waar ik het stoombad apart kan boeken?",
+    "card9Question": "Welke sportschool in het 15e arrondissement geeft voor werktijd pilates voor beginners?"
   },
   "howItWorks": {
     "title": "Hoe het werkt",
     "subtitle": "3 eenvoudige stappen om gevonden te worden door uw toekomstige klanten.",
-    "step1Title": "Vraag uw diagnose aan",
-    "step1Text": "Vul het formulier in binnen 1 minuut. Wij lanceren 100 echte zoekopdrachten op ChatGPT, Perplexity, Claude en Gemini. U ontvangt uw zichtbaarheidsscore, de volledige diagnose en de prioritaire acties binnen 24 uur.",
+    "step1Title": "Relevante zoekvragen kiezen",
+    "step1Text": "Samen kiezen we vragen over uw Parijse wijk en de talen die voor uw klanten van belang zijn.",
     "step2Title": "We bespreken het samen",
     "step2Text": "15 minuten aan de telefoon om uw resultaten door te nemen, uw vragen te beantwoorden en te bekijken hoe wij u kunnen helpen om vaker aanbevolen te worden door AI.",
-    "step3Title": "Uw klanten vinden u",
-    "step3Text": "Als u besluit met ons samen te werken, nemen wij alles uit handen. Wij voeren de correcties voor u door — u hoeft niets te doen. Binnen enkele weken vinden nieuwe klanten u dankzij AI-aanbevelingen.",
-    "cta": "Vraag mijn gratis diagnose aan"
+    "step3Title": "De aangepaste gegevens controleren",
+    "step3Text": "Bij elke geteste vraag noteren we de datum, de taal, de genoemde adressen en eventuele bronnen.",
+    "cta": "Mijn zichtbaarheid bespreken"
   },
   "faq": {
     "title": "Veelgestelde vragen",
     "subtitle": "Alles wat u moet weten voordat u begint.",
     "q1": "Wat doen jullie precies voor mij?",
-    "a1": "Wij zorgen ervoor dat wanneer iemand een bedrijf zoals het uwe zoekt — of dat nu via ChatGPT of een andere AI-assistent is — ze bij u terechtkomen en niet bij een concurrent. Wij beheren uw Google Bedrijfsprofiel, uw aanwezigheid in de juiste directories en alle technische instellingen die ervoor zorgen dat AI u aanbeveelt.",
+    "a1": "We vergelijken antwoorden van ChatGPT, Claude en Gemini met de gegevens van uw Parijse vestiging op uw Google-bedrijfsprofiel en website.",
     "q2": "Hoe snel zie ik verschil?",
-    "a2": "De eerste resultaten op Google zijn binnen enkele dagen zichtbaar. Voor AI-aanbevelingen zoals ChatGPT, reken op 4 tot 8 weken. We meten uw score voor en na: u ziet de voortgang in cijfers, niet in beloften.",
+    "a2": "Bij elke geteste vraag noteren we de datum, de taal, de genoemde adressen en eventuele bronnen.",
     "q3": "Garanderen jullie dat ik op ChatGPT verschijn?",
-    "a3": "Vrijwel zeker. Maar wees voorzichtig met iedereen die het u voor 100% belooft. AI kiest zijn aanbevelingen autonoom. Wat wij garanderen is dat uw zaak aan alle voorwaarden voldoet om aanbevolen te worden — en we meten het concreet met een voor/na-score. U ziet de verbetering duidelijk, in concrete cijfers.",
+    "a3": "Nee. Elke assistent bepaalt zelf het antwoord. We leggen vermeldingen en fouten vast zonder een positie of boekingen te beloven.",
     "q4": "Werkt het echt voor mijn sector?",
-    "a4": "Ja. Onze methode is bewezen en geldt voor elk bedrijf met een fysiek adres: tandartspraktijken, artsenpraktijken, advocatenkantoren, restaurants, hotels, bars, clubs, kapsalons, spa's, sportscholen. Als uw klanten u zoeken op basis van locatie, kunnen wij u helpen.",
+    "a4": "We werken met vestigingen in Parijs. Welke gegevens we controleren, hangt af van de branche en de wijk.",
     "q5": "Ik heb al goede Google-reviews. Is dat niet genoeg?",
     "a5": "Goede Google-reviews zijn essentieel, maar slechts een deel van het verhaal. 83% van de bedrijven met uitstekende Google-reviews verschijnt niet in de aanbevelingen van ChatGPT (SOCi, 2024). AI baseert zich niet op dezelfde criteria als Google om te bepalen wie wordt aanbevolen. Dat is precies wat we vaststellen in de gratis diagnose: wat er ontbreekt om ook door AI aanbevolen te worden.",
     "q6": "Heb ik een website nodig?",
@@ -157,19 +167,19 @@
     "q7": "Hoeveel tijd kost het mij?",
     "a7": "Heel weinig. U vult een formulier van 1 minuut in voor de diagnose, daarna bellen wij u 15 minuten om onze aanbevelingen uit te leggen. Wij begeleiden u stap voor stap.",
     "q8": "Waarom niet zelf doen?",
-    "a8": "Dat kan. Maar tussen het begrijpen van de algoritmen van Google en AI, het identificeren van knelpunten en het doorvoeren van correcties, reken op 25 tot 30 uur werk. Wij doen het in enkele dagen met een bewezen methode en onze ervaring bij tientallen bedrijven.",
+    "a8": "Dat kan. Vergelijk eerst het adres, de openingstijden en de contactlink op uw Google-bedrijfsprofiel met die op uw website.",
     "q9": "Wat kost het?",
     "a9": "De diagnose is 100% gratis en vrijblijvend. Daarna gaan onze pakketten van €399 tot €1.199, afhankelijk van uw behoeften. We leggen u elke optie uit tijdens het gesprek van 15 minuten.",
     "link9Href": "/nl/pakketten",
     "link9Label": "Bekijk onze pakketten →",
     "q10": "Wat is het verschil met een traditioneel SEO-bureau?",
-    "a10": "Een traditioneel SEO-bureau helpt u hoger te scoren op Google. Wij gaan verder: we maken u ook zichtbaar in de antwoorden van ChatGPT, Perplexity, Claude en Gemini. Het is een nieuw klantenkanaal dat de meeste bureaus nog niet bestrijken — en het is onze specialiteit."
+    "a10": "Naast uw Google-bedrijfsprofiel bekijken we wat ChatGPT, Claude en Gemini antwoorden op vragen over uw vestiging in Parijs. Een gedateerde waarneming is geen garantie op een aanbeveling."
   },
   "auditForm": {
-    "title": "Uw gratis diagnose binnen 24 uur",
-    "subtitle": "Binnen 24 uur weet u of ChatGPT en de andere AI's uw zaak aanbevelen, en wat u moet doen als dat niet zo is.",
+    "title": "Mijn zichtbaarheid bespreken",
+    "subtitle": "Samen kiezen we vragen over uw Parijse wijk en de talen die voor uw klanten van belang zijn.",
     "businessName": "Naam van de zaak",
-    "businessNamePlaceholder": "Bistro De Hoek, Tandartspraktijk Jansen…",
+    "businessNamePlaceholder": "Bistrot du Marais…",
     "managerName": "Naam van de beheerder",
     "managerNamePlaceholder": "Jan Jansen",
     "optional": "optioneel",
@@ -186,15 +196,15 @@
     "typeBar": "Bars & Clubs",
     "typeOther": "Overig",
     "address": "Adres van de zaak",
-    "addressPlaceholder": "Hoofdstraat 123, Amsterdam",
-    "city": "Stad",
-    "cityPlaceholder": "Amsterdam Centrum, Rotterdam Zuid…",
+    "addressPlaceholder": "12 rue de Rivoli, 75004 Paris",
+    "city": "Wijk of arrondissement in Parijs",
+    "cityPlaceholder": "Paris 11e · Bastille",
     "email": "E-mailadres",
     "emailPlaceholder": "u@voorbeeld.nl",
     "phone": "Telefoonnummer",
-    "phonePlaceholder": "+31 6 12 34 56 78",
+    "phonePlaceholder": "+33 1 99 00 00 00",
     "website": "Website",
-    "websitePlaceholder": "https://www.mijn-zaak.nl",
+    "websitePlaceholder": "https://example.com",
     "googleBusiness": "Google Bedrijfsprofiel",
     "googleBusinessPlaceholder": "https://g.co/kgs/…",
     "sourceQuestion": "Hoe heeft u over ons gehoord?",
@@ -206,24 +216,24 @@
     "sourceOther": "Overig",
     "errorGeneric": "Er is een fout opgetreden. Probeer het opnieuw of neem contact met ons op via contact@eddiemiller.agency.",
     "errorSource": "Geef aan hoe u over ons heeft gehoord.",
-    "submitButton": "Vraag mijn gratis diagnose aan",
-    "submitting": "Bezig met verzenden…",
-    "trustSignals": "Resultaat binnen 24 uur · Vrijblijvend · Geen creditcard nodig",
+    "submitButton": "Mijn e-mail voorbereiden",
+    "submitting": "Wordt voorbereid…",
+    "trustSignals": "Vrijblijvend kennismakingsgesprek",
     "phonePrefer": "Liever even bellen?",
     "fieldRequired": "Dit veld is verplicht",
     "emailInvalid": "Voer een geldig e-mailadres in",
-    "exclusivity": "Slechts één klant per wijk en specialiteit — om uw exclusiviteit te garanderen."
+    "exclusivity": "Alleen voor vestigingen in Parijs."
   },
   "footer": {
-    "description": "Wij helpen uw zaak aanbevolen te worden door ChatGPT en andere AI's.",
+    "description": "We vergelijken antwoorden van ChatGPT, Claude en Gemini met de gegevens van uw Parijse vestiging op uw Google-bedrijfsprofiel en website.",
     "legalLinks": "Navigatielinks",
     "legal": "Juridische informatie",
     "terms": "Algemene voorwaarden",
     "copyright": "© {{year}} Eddie Miller Agency. Alle rechten voorbehouden."
   },
   "stickyCta": {
-    "text": "Beveelt ChatGPT uw zaak aan? Ontvang het antwoord binnen 24 uur →",
-    "button": "Gratis diagnose →"
+    "text": "Lokale zichtbaarheid in Parijs",
+    "button": "Mijn zichtbaarheid bespreken"
   },
   "notFound": {
     "title": "Pagina niet gevonden",
@@ -232,7 +242,7 @@
   },
   "thankYou": {
     "title": "Dank u wel!",
-    "subtitle": "Uw diagnoseverzoek is verzonden. U ontvangt de volledige audit binnen 24 uur."
+    "subtitle": "Gebruikt u het formulier? Verstuur de voorbereide e-mail vanuit uw mailprogramma om contact met ons op te nemen."
   },
   "vertical": {
     "ariaHero": "Hoofdtitel",
@@ -244,6 +254,11 @@
     "ariaSolution": "Wat we voor u doen",
     "ariaHowItWorks": "Hoe het werkt",
     "ariaFaq": "Veelgestelde vragen",
-    "ariaForm": "Vraag een gratis diagnose aan"
+    "ariaForm": "Mijn zichtbaarheid bespreken",
+    "visibility": "Lokale zichtbaarheid in Parijs",
+    "visitorExample": "Voorbeeldvraag van een bezoeker aan Parijs",
+    "searchExample": "Voorbeeld van een zoekvraag in Parijs",
+    "publicInfo": "Informatie die makkelijk te vinden moet zijn",
+    "visibilityLink": "Bekijk de dienst voor lokale zichtbaarheid in Parijs"
   }
 }

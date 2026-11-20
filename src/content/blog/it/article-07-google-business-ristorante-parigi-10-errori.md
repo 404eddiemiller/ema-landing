@@ -9,16 +9,14 @@ category: "Google e recensioni"
 tags: ["Google Business Profile", "ristorante", "Parigi", "SEO locale", "errori", "Google Maps", "visibilité IA", "TheFork"]
 cta: "diagnostic-gratuit"
 lang: "it"
-reading_time: "10 min"
+reading_time: "6 min"
 image: "/images/blog/google-business-restaurant-paris-10-erreurs.webp"
 imageAlt: "Interno di un ristorante parigino vuoto con sedie capovolte sui tavoli"
 internal_links:
-  - slug: "chatgpt-recommandation-restaurant-paris"
-    anchor: "come ChatGPT sceglie quali ristoranti raccomandare"
-  - slug: "schema-org-site-lisible-ia-sans-coder"
-    anchor: "i dati strutturati Schema.org"
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+  - slug: "7-annuari-ristorante-ia-raccomandazione"
+    anchor: "I 7 siti dove il vostro ristorante deve essere presente perché le IA vi trovino"
+  - slug: "chatgpt-raccomandazione-ristorante-parigi"
+    anchor: "ChatGPT raccomanda il vostro ristorante o quello accanto? Fate il test"
 ---
 
 ## Scheda Google My Business per ristorante a Parigi: i 10 errori che vi costano clienti
@@ -71,7 +69,7 @@ Google offre la possibilità di aggiungere il vostro menu direttamente sulla vos
 
 ## Errore 7: Informazioni contraddittorie tra le piattaforme
 
-Il vostro indirizzo è al « 24 rue des Archives » su Google, al « 24 r. des Archives » su TheFork, e al « 24 Rue des Archives, Paris 3e » sul vostro sito. Queste incoerenze creano un doppio problema. Per i clienti, è confusione e diffidenza. Per le IA, è un segnale di dati non affidabili — e una ragione per [raccomandare un concorrente piuttosto che voi](/blog/chatgpt-recommandation-restaurant-paris).
+Il vostro indirizzo è al « 24 rue des Archives » su Google, al « 24 r. des Archives » su TheFork, e al « 24 Rue des Archives, Paris 3e » sul vostro sito. Queste incoerenze creano un doppio problema. Per i clienti, è confusione e diffidenza. Per le IA, è un segnale di dati non affidabili — e una ragione per [raccomandare un concorrente piuttosto che voi](/it/blog/chatgpt-raccomandazione-ristorante-parigi).
 
 **La correzione:** Fate il giro di tutte le vostre presenze online e allineate strettamente il nome, l'indirizzo (stesso formato esatto), il telefono e gli orari.
 
@@ -99,26 +97,16 @@ La sezione D&R della vostra scheda Google è un terreno che dovreste controllare
 
 Prendete 20 minuti questa settimana per passare in rassegna la vostra scheda Google Business e correggere gli errori identificati. Ogni errore corretto vi avvicina al Map Pack — e alla visibilità presso le IA che raccomandano i ristoranti parigini.
 
----
-
-*Quanti di questi errori contiene la vostra scheda? Eddie Miller Agency realizza un audit GBP + GEO gratuito per i ristoranti parigini: analisi della vostra scheda, confronto con i vostri concorrenti diretti, e piano d'azione immediato. [Richiedere il mio audit gratuito →]*
-
----
-
 ## FAQ — Scheda Google Business per ristoranti a Parigi
 
 ### Posso gestire la mia scheda Google Business da solo o devo passare per un'agenzia?
+
 Potete fare tutto da soli. Google Business Profile si gestisce gratuitamente dal vostro account Google. Le 10 correzioni elencate in questo articolo sono tutte realizzabili senza competenze tecniche.
 
 ### Con quale frequenza devo aggiornare la mia scheda?
+
 Minimo una volta a settimana (un post + verifica delle recensioni). Idealmente, aggiungete 1-2 foto a settimana, rispondete alle recensioni entro 48h, e aggiornate gli orari o il menu appena c'è un cambiamento.
 
 ### Il mio ristorante ha un voto negativo su Google (3,5 stelle). È recuperabile?
+
 Sì. Il voto Google è una media dinamica che evolve con ogni nuova recensione. Raccogliendo attivamente recensioni positive da clienti soddisfatti (5-10 al mese), il vostro voto risalirà progressivamente.
-
-### TheFork e TripAdvisor sono importanti quanto Google?
-Per la visibilità IA, Google resta la fonte primaria. Ma TheFork e TripAdvisor sono fonti frequentemente citate da Perplexity e ChatGPT per i ristoranti parigini. L'ideale è ottimizzare tutte e tre, con Google in priorità.
-
----
-
-**Gestite un ristorante?** [Scoprite come aiutiamo i ristoranti ad essere trovati →](/restaurants)

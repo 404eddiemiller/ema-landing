@@ -1,45 +1,25 @@
 ---
-title: "Geen website voor uw praktijk? Daarom bevelen AI's u nooit aan"
+title: "Een praktijk zonder website: wat kan een patiënt al controleren?"
 slug: "tandartspraktijk-zonder-website-kwetsbaarheid-ai"
-meta_title: "Tandartspraktijk zonder website: waarom AI's u niet aanbevelen (en hoe u dat verandert)"
-meta_description: "34% van de tandartspraktijken in Parijs heeft geen website — en geen enkele wordt aanbevolen door ChatGPT. Goed nieuws: zij hebben ook het meest te winnen. Dit is waarom."
+meta_title: "Een praktijk zonder website: wat kan een patiënt al controleren?"
+meta_description: "Controleer of een bezoeker de praktijk kan vinden, bellen en een afspraak kan maken voordat u een website laat bouwen."
 author: "Eddie Miller Agency"
 date: "2026-03-19"
 category: "Online zichtbaarheid"
 tags: ["website", "tandarts", "zonder website", "AI-zichtbaarheid", "visibilité IA", "Parijs", "Google Business", "Doctolib"]
 cta: "diagnostic-gratuit"
 lang: "nl"
-reading_time: "8 min"
+reading_time: "1 min"
 image: "/images/blog/cabinet-dentaire-sans-site-web-vulnerabilite-ia.webp"
 imageAlt: "Tandartspraktijk met een discrete gevel in een rustige Parijse straat"
 internal_links:
-  - slug: "tandartspraktijk-onzichtbaar-chatgpt"
-    anchor: "waarom uw praktijk onzichtbaar is op ChatGPT"
-  - slug: "onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs"
-    anchor: "ons onderzoek naar 50 Parijse praktijken"
-  - slug: "schema-org-website-leesbaar-ai-zonder-coderen"
-    anchor: "de gestructureerde gegevens Schema.org"
   - slug: "google-business-profile-gids-tandarts-parijs"
-    anchor: "onze Google Business Profile-gids"
+    anchor: "Hoe u uw Google-vermelding correct invult om meer patiënten aan te trekken (gids tandartsen Parijs)"
+  - slug: "ai-vervangen-doctolib-tandartspraktijk"
+    anchor: "Van zoekvraag naar afspraak: controleer de route naar Doctolib"
 ---
 
-## Waarom praktijken zonder website het meest kwetsbaar zijn voor AI
-
-Hier is een paradox die we ontdekten bij het auditen van de AI-zichtbaarheid van Parijse tandartspraktijken: praktijken zonder website zijn het meest kwetsbaar voor de opkomst van AI's — maar ook degenen voor wie GEO de grootste groeihefboom biedt.
-
-In [ons onderzoek naar 50 praktijken](/nl/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) had 34% geen website. Geen enkele — nul — behoorde tot de groep van AI-zichtbare praktijken.
-
-## Waarom het ontbreken van een website een nadeel is
-
-**Geen Schema.org-gestructureerde gegevens.** De meest impactvolle technische hefboom vereist een website.
-
-**Geen eigen inhoud.** Zonder website beperkt uw online aanwezigheid zich tot wat derdeplatformen over u zeggen.
-
-**Kruisverificatie onmogelijk.** Google AI Overview gebruikt uw website om de informatie van uw Google-vermelding te dubbelchecken.
-
-## De paradox: geen website = grootste GEO-groeipotentieel
-
-Elke actie heeft een directe impact wanneer er niets is gedaan. Uw Google-vermelding aanvullen van 30% naar 100% heeft een massale impact. Van 20 naar 50 beoordelingen gaan in 3 maanden creëert een sterk versheidsignaal.
+Controleer of een bezoeker de praktijk kan vinden, bellen en een afspraak kan maken voordat u een website laat bouwen.
 
 ## Wat u ZONDER website kunt doen
 
@@ -58,15 +38,3 @@ Deze acties alleen kunnen u van onzichtbaar naar "spook" (sporadische vermelding
 ## Wat een minimale website u extra zou opleveren
 
 Een minimale website van 3 tot 5 pagina's met Schema.org vermenigvuldigt uw AI-citaties met 2 tot 3. De investering is bescheiden: enkele honderden euro's voor een eenvoudige website, plus 200-300 euro voor de Schema-implementatie.
-
-## De boodschap aan praktijken zonder website: handel nu
-
-Het ontbreken van een website is geen excuus om niets te doen. Het is juist een extra reden om alle andere hefbomen tot het maximum te benutten.
-
----
-
-*U heeft geen website en wilt weten waar u staat? Eddie Miller Agency voert een gratis GEO-audit uit zelfs voor praktijken zonder website: we evalueren uw AI-zichtbaarheid op basis van uw Google-vermelding, uw Doctolib en uw beoordelingen. [Mijn gratis GEO-audit aanvragen →]*
-
----
-
-**Bent u tandarts in Parijs?** [Ontdek hoe wij tandartspraktijken helpen gevonden te worden →](/dentistes)

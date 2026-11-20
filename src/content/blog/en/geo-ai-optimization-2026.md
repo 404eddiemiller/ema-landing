@@ -1,17 +1,22 @@
 ---
-title: "How to Appear on ChatGPT When Your Customers Search for a Business Like Yours"
+title: "Local AI search: check what an answer says about your business"
 slug: "geo-ai-optimization-2026"
-meta_title: "How to Appear on ChatGPT, Perplexity, and Google AI When Your Customers Search for a Business Like Yours"
-meta_description: "Your customers no longer search only on Google: they ask ChatGPT, Perplexity, and Google AI. Here's how to make sure your business gets recommended."
+meta_title: "Local AI search: check what an answer says about your business"
+meta_description: "Finding a business and getting its details right are different tasks. Test them separately before deciding what to change."
 author: "Eddie Miller Agency"
 date: "2026-01-24"
 category: "Online visibility"
-tags: ["visibilité IA", "visibilité Google", "artificial intelligence", "visibility", "ChatGPT", "Perplexity", "Google AI Overview"]
+tags: ["visibilité IA", "visibilité Google", "artificial intelligence", "visibility", "ChatGPT", "Google AI Overview"]
 cta: "diagnostic-gratuit"
 lang: "en"
-reading_time: "12 min"
+reading_time: "8 min"
 image: "/images/blog/geo-referencement-ia-2026.webp"
 imageAlt: "Storefront of a local business with warm lighting, seen from the street"
+internal_links:
+  - slug: "compare-tourist-searches-paris"
+    anchor: "Compare a tourist’s Paris search across three assistants"
+  - slug: "local-seo-2026-trends-actions"
+    anchor: "Getting Found on Google in 2026: What Has Changed for Local Businesses"
 ---
 
 ## GEO: The Optimization Google Won't Tell You About (and That Changes Everything in 2026)
@@ -23,10 +28,6 @@ It's not a bug. It's a blind spot that 95% of professionals still overlook: **AI
 Welcome to the era of **GEO — Generative Engine Optimization**.
 
 ## Your Customers No Longer Search the Way They Used To
-
-Think about the last time you searched for a healthcare provider, a restaurant, or a hotel. Did you type a query into Google and click through ten blue links? Or did you ask ChatGPT, Perplexity, or your phone's assistant?
-
-The numbers speak for themselves. ChatGPT now processes roughly 2.5 billion queries per day, with over 800 million weekly active users. Perplexity, the AI search engine specialized in sourced answers, exceeds one billion monthly queries. And Google itself has rolled out its "AI Overviews" — AI-generated responses — on more than a quarter of its search results.
 
 The shift is structural. Conversational searches are progressively replacing keyword searches. Instead of typing "dentist implant Paris 15," a user now asks: "I'm looking for a trustworthy dentist for an implant in the 15th arrondissement, which one do you recommend?" The difference is fundamental: the user doesn't want a list of results. They want **a recommendation**.
 
@@ -64,10 +65,6 @@ Google reviews are no longer just a trust factor for humans. They've become a pr
 
 Structured data is a technical language your website uses to communicate directly with search engines and AI. It's like a digital ID card that clearly says: "I'm a dentist, located at this address, offering these services, with these hours and this average rating." Websites that use this markup see their AI citations increase by roughly 30 to 44% according to recent studies.
 
-### Presence on the Platforms AI Consults
-
-Each AI platform has its preferred sources. ChatGPT relies heavily on Wikipedia, review sites, and editorial content. Perplexity frequently cites Reddit, YouTube, and specialized sites. Google AI Overview draws from its own index, with a preference for Google Business listings and sites with structured data. Being present and optimized on the platforms each AI consults is the key to an effective GEO strategy.
-
 ## Why SEO Alone Is No Longer Enough
 
 Let's be clear: SEO isn't dead. Ranking well on Google is still important. But SEO alone now has a major flaw: **it no longer guarantees visibility**.
@@ -81,10 +78,6 @@ A dental practice with an average website but excellent Google reviews, a comple
 ## GEO: What It Concretely Changes for Your Business
 
 If you're a dentist, restaurant owner, or hotelier in Paris, here's what GEO means in practice.
-
-### Your Google Business Listing Becomes Your Most Important Asset
-
-Your Google Business Profile is no longer just a local SEO tool. It's one of the most consulted sources by all AI platforms. The information you put there — categories, services, description, photos, posts, Q&A — directly feeds the responses of ChatGPT, Perplexity, and Google AI. An incomplete or inactive listing makes you invisible to AI.
 
 ### Reviews Become a Strategic Lever
 
@@ -102,11 +95,9 @@ Being only on Google is no longer enough. AI cross-references information from G
 
 The question every professional asks: "How do I know if AI is recommending me?"
 
-The most direct method is to test it yourself. Go to ChatGPT, Perplexity, and Google, ask the questions your customers would ask ("best dentist for implant Paris 15th," "cheap Italian restaurant Le Marais," "boutique hotel Saint-Germain") and see if you appear.
+Try this example: “Where could I have dinner near Bastille in Paris after 9 pm?” Note the date and confirm service times with the restaurant.
 
 To go further, specialized tools are beginning to emerge for systematic AI visibility tracking. But the principle remains the same: in GEO, you no longer measure your "position" in a ranking. You measure your **citation frequency** — how often AI mentions you when asked questions related to your business.
-
-At Eddie Miller Agency, we've developed a GEO score out of 100 that precisely evaluates this visibility across 15 criteria, testing your presence on ChatGPT, Perplexity, Google AI Overview, and the major AI engines. This score lets you know exactly where you stand and what to improve first.
 
 ## 5 GEO Actions to Take This Week
 
@@ -120,8 +111,6 @@ You don't need to redo everything to start gaining AI visibility. Here are five 
 
 **4. Publish a Google Business post this week.** A simple post with a service, a keyword, and your arrondissement: "Professional teeth whitening at the practice — Paris 15th, Convention metro. Book on Doctolib." This freshness signal counts for AI.
 
-**5. Test your AI visibility.** Go to ChatGPT and Perplexity, ask 3 queries your customers would use, and note whether you appear. If the answer is no, you now know why — and what to do.
-
 ## GEO Is Not a Trend, It's the New Standard
 
 The global GEO market was worth less than one billion dollars in 2024. It's expected to exceed 7 billion by 2031, with an annual growth rate of 34%. Businesses that adopt a GEO strategy see an average 40% increase in online visibility and a return on investment 22% higher than traditional SEO strategies alone.
@@ -130,25 +119,20 @@ For local businesses in Paris — medical practices, restaurants, hotels — the
 
 SEO allowed you to be found. GEO allows you to be **recommended**. And in a world where decisions are increasingly made in a conversation with AI, being recommended makes all the difference.
 
----
-
-*Want to know if AI already recommends you? Eddie Miller Agency offers a free GEO audit of your business: your AI visibility score out of 100, the platforms where you're invisible, and the 3 priority actions to change the game. [Request my free audit →]*
-
----
-
 ## FAQ — Frequently Asked Questions About GEO
 
-### What exactly is GEO?
-GEO (Generative Engine Optimization) is the set of techniques that allow a business to appear in recommendations generated by artificial intelligences like ChatGPT, Perplexity, Google AI Overview, and Gemini. Unlike SEO, which aims for a ranking in a list of results, GEO aims to be cited and recommended in a conversational response.
-
 ### Does GEO replace SEO?
+
 No. SEO and GEO are complementary. SEO remains essential for organic traffic and Google presence. GEO adds a layer of visibility in AI environments, which represent a growing share of searches. Ignoring either one creates a blind spot.
 
 ### How long does it take to see GEO results?
+
 Initial results can appear within a few weeks for the most direct actions (Google Business listing optimization, online information consistency). Deeper results (regular AI citations, GEO score improvement) typically take 2 to 3 months of continuous effort.
 
 ### Is GEO relevant for a small practice or an independent restaurant?
+
 Absolutely. GEO is actually more impactful for small local businesses than for large chains. AI looks for local relevance and specificity. A well-optimized independent dental practice in its arrondissement can be recommended before a large chain with weaker local presence.
 
 ### How do I know if ChatGPT recommends my business?
+
 The simplest test: go to chat.openai.com and ask the question a customer would ask, for example "Which dentist do you recommend in the 15th arrondissement of Paris?" If you don't appear, a GEO audit will let you identify precisely why and how to fix it.

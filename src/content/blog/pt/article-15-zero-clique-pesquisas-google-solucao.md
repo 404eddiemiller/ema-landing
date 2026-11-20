@@ -9,16 +9,14 @@ category: "Visibilidade online"
 tags: ["zero clique", "zero-click", "Google", "AI Overview", "visibilité IA", "visibilité locale", "visibilidade", "comércio local"]
 cta: "diagnostic-gratuit"
 lang: "pt"
-reading_time: "9 min"
+reading_time: "3 min"
 image: "/images/blog/zero-clic-recherches-google-solution-commerce-local.webp"
 imageAlt: "Pessoa a olhar para um resultado Google no telemóvel sem clicar"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "google-business-profile-guide-dentiste-paris"
-    anchor: "o nosso guia Google Business Profile"
-  - slug: "chatgpt-perplexity-google-ai-comparatif-commerces-paris"
-    anchor: "o nosso comparativo das plataformas IA"
+  - slug: "seo-local-2026-tendencias-acoes"
+    anchor: "Ser encontrado no Google em 2026: o que mudou para os comércios parisienses"
+  - slug: "agencia-seo-ia-visibilidade-verdade"
+    anchor: "5 coisas que o seu prestador web não lhe diz sobre a visibilidade do seu comércio"
 ---
 
 ## Zero clique: porque é que 60% das pesquisas Google já não levam ao seu site (e que fazer)
@@ -47,7 +45,7 @@ Em vez de lutar contra o zero clique, a estratégia vencedora é abraçá-lo.
 
 **Invista nas avaliações como ativo estratégico.** Num mundo zero clique, as avaliações são o seu conteúdo de marketing mais visível.
 
-**Posicione-se para as recomendações IA.** O [GEO (Generative Engine Optimization)](/blog/geo-referencement-ia-2026) é a resposta estrutural ao zero clique.
+**Posicione-se para as recomendações IA.** O [GEO (Generative Engine Optimization)](/pt/blog/otimizacao-geo-ia-2026) é a resposta estrutural ao zero clique.
 
 ## O paradoxo do zero clique: menos tráfego, mais clientes
 
@@ -55,19 +53,16 @@ O tráfego proveniente das IA converte 5 vezes melhor do que o tráfego de pesqu
 
 O zero clique não é uma ameaça para os comércios locais bem otimizados. É uma oportunidade: os intermediários desaparecem e a relação torna-se mais direta.
 
----
-
-*O zero clique diz-lhe respeito? A Eddie Miller Agency mede a sua visibilidade real — não apenas o seu tráfego web — no âmbito do nosso diagnóstico GEO gratuito. [Pedir o meu diagnóstico GEO gratuito →]*
-
----
-
 ## FAQ — Zero clique e visibilidade local
 
 ### O zero clique significa que o meu site é inútil?
+
 Não. O seu site continua importante para os dados estruturados Schema.org, como ponto de confirmação, e para a credibilidade junto das IA. O que muda é que já não é o ponto de entrada principal.
 
 ### Como medir a minha visibilidade se os clientes já não clicam?
+
 As estatísticas da sua ficha Google Business (chamadas, direções, cliques) são as suas novas métricas principais. Complete com o seguimento das reservas e testes mensais de visibilidade IA.
 
 ### Os AI Overviews aparecem para todas as pesquisas locais?
+
 Não. Em 2026, aparecem em cerca de 40% das pesquisas locais, tendência em expansão.

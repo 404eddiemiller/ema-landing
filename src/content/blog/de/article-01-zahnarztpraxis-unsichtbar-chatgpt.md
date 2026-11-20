@@ -6,20 +6,20 @@ meta_description: "Immer mehr Patienten bitten ChatGPT, ihnen einen Zahnarzt in 
 author: "Eddie Miller Agency"
 date: "2026-01-21"
 category: "Online-Sichtbarkeit"
-tags: ["Zahnarzt", "ChatGPT", "visibilité IA", "KI-Sichtbarkeit", "Zahnarztpraxis", "Paris", "Perplexity", "lokales SEO"]
+tags: ["Zahnarzt", "ChatGPT", "visibilité IA", "KI-Sichtbarkeit", "Zahnarztpraxis", "Paris", "lokales SEO"]
 cta: "diagnostic-gratuit"
 lang: "de"
 reading_time: "10 min"
 image: "/images/blog/cabinet-dentaire-invisible-chatgpt.webp"
 imageAlt: "Smartphone-Bildschirm zeigt eine Unterhaltung mit ChatGPT, in der nach einem Zahnarzt in Paris gefragt wird"
 internal_links:
-  - slug: "geo-optimierung-ki-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+  - slug: "google-business-profile-leitfaden-zahnarzt-paris"
+    anchor: "Wie Sie Ihr Google-Profil richtig ausfüllen, um mehr Patienten zu gewinnen (Leitfaden für Zahnärzte in Paris)"
+  - slug: "quellen-zahnarzt-ki-empfehlungen-paris"
+    anchor: "Welche Quelle bestätigt Praxisadresse und Zahnarzttermin?"
 ---
 
 ## Ihre Zahnarztpraxis ist auf ChatGPT unsichtbar: Hier erfahren Sie warum
-
-Machen Sie jetzt den Test. Öffnen Sie ChatGPT oder Perplexity und geben Sie ein: „Welchen Zahnarzt empfehlen Sie mir im [X.] Arrondissement von Paris?"
 
 Schauen Sie sich die Antwort an. Erscheint Ihre Praxis?
 
@@ -36,8 +36,6 @@ Die Zeiten, in denen ein Patient „Zahnarzt Paris 15" bei Google eingab und auf
 „Zahnarzt, der samstags geöffnet hat, im 11. Arrondissement, mit guten Bewertungen?"
 
 „Mein Kind braucht einen Kieferorthopäden in Paris, in der Nähe von Bastille. Empfehlungen?"
-
-ChatGPT verarbeitet täglich rund 2,5 Milliarden Anfragen. Perplexity überschreitet eine Milliarde monatliche Anfragen. Und Google selbst zeigt mittlerweile KI-generierte Antworten über seinen klassischen Ergebnissen für mehr als ein Viertel der Suchanfragen an.
 
 Diese Zahlen betreffen nicht nur junge Technik-Begeisterte. Eine Studie der Binhas Global Dental School, einer Referenz im Bereich Praxismanagement, zeigt, dass 76 % der Patienten ihren Zahnarzt mittlerweile über das Internet finden. Der Unterschied ist, dass „über das Internet" nicht mehr nur „über Google" bedeutet. Es bedeutet zunehmend „über ein Gespräch mit einer KI".
 
@@ -71,12 +69,6 @@ Etwa ein Drittel der Pariser Zahnarztpraxen hat überhaupt keine Webseite. Das i
 
 Und wenn Sie eine Webseite haben, muss sie auch „mit Maschinen sprechen" können. Strukturierte Daten (Schema.org) sind eine technische Sprache, die es Ihrer Webseite ermöglicht, direkt mit den KI-Systemen zu kommunizieren. Sie sagen klar: „Hier ist eine Zahnarztpraxis, die sich hier befindet, diese Leistungen anbietet, mit diesen Behandlern." Webseiten, die dieses Markup verwenden, verzeichnen einen deutlichen Anstieg ihrer Zitierrate durch KI-Systeme. Allerdings hat die große Mehrheit der Webseiten von Zahnarztpraxen davon überhaupt nichts.
 
-### 5. Sie sind auf den Plattformen nicht präsent, die die KI bevorzugt konsultiert
-
-Jede KI-Plattform hat ihre bevorzugten Quellen. Aktuelle Studien zeigen, dass ChatGPT stark auf Wikipedia, Google-Bewertungen und redaktionelle Referenzinhalte zurückgreift. Perplexity zitiert häufig Reddit, YouTube und spezialisierte Seiten mit klaren Quellenangaben. Google AI Overview schöpft aus seinem eigenen Index, mit einer deutlichen Präferenz für Google Business Profile und Seiten mit strukturierten Daten.
-
-Wenn Sie nur auf Google und Doctolib präsent sind, verpassen Sie alle Empfehlungen von Perplexity. Wenn Ihr Doctolib-Profil unvollständig ist, verlieren Sie eine Quelle, die ChatGPT häufig für Gesundheitsfachkräfte in Frankreich konsultiert.
-
 ### 6. Sie veröffentlichen nichts regelmäßig
 
 KI-Systeme bevorzugen aktive und aktuelle Quellen. Eine Praxis, die seit sechs Monaten keinen einzigen Google Business Beitrag veröffentlicht hat, deren Webseite seit der Erstellung nicht aktualisiert wurde und deren letzte Bewertung mehrere Monate zurückliegt, sendet ein Inaktivitätssignal. Die KI interpretiert dies als Zeichen, dass die Informationen möglicherweise nicht mehr aktuell sind — und empfiehlt lieber einen aktiveren Kollegen.
@@ -95,7 +87,7 @@ Bevor Sie irgendetwas ändern, machen Sie eine schnelle Diagnose. So geht's.
 
 **Schritt 1** — Gehen Sie auf [chat.openai.com](https://chat.openai.com) (ChatGPT). Geben Sie ein: „Welchen Zahnarzt empfehlen Sie im [Ihrem Arrondissement] von Paris?". Notieren Sie, ob Sie erscheinen und wer an Ihrer Stelle erscheint.
 
-**Schritt 2** — Gehen Sie auf [perplexity.ai](https://perplexity.ai). Stellen Sie dieselbe Frage. Perplexity zitiert seine Quellen: Schauen Sie, woher die Empfehlungen stammen (Doctolib? Google? Ein Verzeichnis?).
+**2.** Notieren Sie für jeden Vorschlag Namen, angegebene Zeiten und Link. Halten Sie auch fest, wenn keine Adresse genannt wird.
 
 **Schritt 3** — Suchen Sie bei Google „Zahnarzt [Ihr Arrondissement] Paris". Schauen Sie, ob eine KI-Antwort (AI Overview) über den klassischen Ergebnissen erscheint. Werden Sie in dieser Antwort erwähnt?
 
@@ -133,35 +125,24 @@ Sie müssen nicht alles neu machen. Hier sind fünf konkrete Maßnahmen, nach ab
 
 ## Der Abstand wächst jeden Tag
 
-KI-Sichtbarkeit ist kein Zukunftsthema. Es ist ein Gegenwartsthema. Die Zahnarztpraxen, die bereits in den Empfehlungen von ChatGPT und Perplexity erscheinen, gewinnen Patienten, an denen Sie nicht einmal vorbeikommen. Diese Patienten haben Sie nie gefunden, nie verglichen, nie in Betracht gezogen — weil die KI ihnen Ihren Namen nie genannt hat.
-
 Und das Phänomen beschleunigt sich. Die Nutzung von KI-Suchmaschinen für lokale Suchen hat sich in einem Jahr verzehnfacht. Google führt seine KI-Antworten schrittweise in Frankreich ein, was bedeutet, dass selbst Patienten, die „bei Google suchen", immer häufiger eine KI-Empfehlung über den klassischen Ergebnissen sehen werden.
 
 Der Zeitpunkt zum Handeln ist jetzt. Nicht in sechs Monaten, nicht wenn Sie Zeit haben. Jede Woche Untätigkeit ist eine weitere Woche, in der Ihre Kollegen ihren Vorsprung ausbauen.
 
----
-
-*Möchten Sie genau wissen, was ChatGPT, Perplexity und Google AI über Ihre Praxis sagen? Eddie Miller Agency erstellt ein kostenloses GEO-Audit für Pariser Zahnarztpraxen: Ihr KI-Sichtbarkeitsscore auf 100, die Plattformen, auf denen Sie fehlen, und die 3 prioritären Maßnahmen. [Mein kostenloses Audit anfordern →]*
-
----
-
 ## FAQ — Sichtbarkeit von Zahnarztpraxen bei KI-Systemen
 
 ### Kann ChatGPT wirklich einen Zahnarzt in Paris empfehlen?
+
 Ja. Wenn ein Nutzer eine lokale Frage stellt wie „Welchen Zahnarzt empfehlen Sie im 15. Arrondissement von Paris?", formuliert ChatGPT eine Antwort basierend auf den Informationen, die es online findet: Google Business Profile, Patientenbewertungen, Praxis-Webseiten, Berufsverzeichnisse und redaktionelle Inhalte. Praxen, die über umfangreiche, konsistente und aktuelle Informationen verfügen, haben deutlich bessere Chancen, zitiert zu werden.
 
 ### Meine Praxis hat 4,8 Sterne auf Google. Warum empfiehlt mich die KI nicht?
+
 Eine gute Bewertung ist notwendig, aber nicht ausreichend. Die KI bewertet auch die Menge und Aktualität der Bewertungen, den Inhalt der Bewertungen (die behandlungsspezifischen Schlüsselwörter), die Vollständigkeit Ihres Google-Profils, die Konsistenz Ihrer Informationen auf anderen Plattformen und das Vorhandensein strukturierter Daten auf Ihrer Webseite. Eine ausgezeichnete Note ohne diese anderen Signale reicht nicht aus, um eine Empfehlung auszulösen.
 
 ### Ich habe keine Webseite. Ist das ein Problem für die KI-Sichtbarkeit?
+
 Ja, das ist ein erheblicher Nachteil. Ohne Webseite verfügt die KI nur über Ihr Google-Profil und Doctolib als Hauptquellen. Das begrenzt die Informationen, die sie über Sie zusammenfassen kann, und verringert Ihre Chancen, gegenüber Kollegen empfohlen zu werden, die eine Webseite mit strukturierten Daten haben. Wenn es nicht sofort möglich ist, eine komplette Webseite zu erstellen, konzentrieren Sie sich zunächst auf ein tadelloses Google Business Profil und ein vollständiges Doctolib-Profil.
 
 ### Wie lange dauert es, bis man in KI-Empfehlungen erscheint?
+
 Die direktesten Maßnahmen (Vervollständigung Ihres Google-Profils, Sammeln aktueller Bewertungen) können in 2 bis 4 Wochen Ergebnisse zeigen. Die Auswirkungen von strukturierten Daten und Multiplattform-Präsenz benötigen in der Regel 2 bis 3 Monate, um vollständig von den KI-Systemen erfasst zu werden. Wichtig ist, jetzt anzufangen: Je früher Sie handeln, desto schneller verringert sich der Abstand zu Ihren Kollegen.
-
-### Unterscheidet sich GEO vom klassischen lokalen SEO?
-GEO (Generative Engine Optimization) umfasst lokales SEO und geht darüber hinaus. Lokales SEO zielt darauf ab, Sie in Google Maps und bei lokalen Suchergebnissen zu positionieren. GEO zielt zusätzlich darauf ab, dass Sie von konversationellen KI-Systemen (ChatGPT, Perplexity, Google AI) zitiert und empfohlen werden. Beide sind komplementär, aber GEO fügt spezifische Hebel hinzu wie strukturierte Daten, Präsenz auf den bevorzugten Quellen jeder KI und die kontinuierliche Aktualität von Inhalten. Erfahren Sie mehr in unserem vollständigen Leitfaden zur [GEO (Generative Engine Optimization)](/de/blog/geo-optimierung-ki-2026).
-
----
-
-**Sie sind Zahnarzt in Paris?** [Entdecken Sie, wie wir Zahnarztpraxen helfen, gefunden zu werden →](/dentistes)

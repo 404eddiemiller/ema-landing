@@ -9,23 +9,19 @@ category: "Google & Bewertungen"
 tags: ["Google-Bewertungen", "Zahnarzt", "Online-Reputation", "Google Reviews", "lokales SEO", "Paris", "visibilité IA", "KI-Sichtbarkeit"]
 cta: "diagnostic-gratuit"
 lang: "de"
-reading_time: "11 min"
+reading_time: "7 min"
 image: "/images/blog/avis-google-cabinet-dentaire-patients.webp"
 imageAlt: "Hand hält ein Smartphone, das Fünf-Sterne-Google-Bewertungen anzeigt"
 internal_links:
   - slug: "google-business-profile-leitfaden-zahnarzt-paris"
-    anchor: "vollständiger Google Business Profile Leitfaden"
-  - slug: "studie-ki-sichtbarkeit-50-zahnarztpraxen-paris"
-    anchor: "unsere Studie zur KI-Sichtbarkeit von 50 Pariser Praxen"
-  - slug: "zahnarztpraxis-unsichtbar-chatgpt"
-    anchor: "warum Ihre Praxis auf ChatGPT unsichtbar ist"
+    anchor: "Wie Sie Ihr Google-Profil richtig ausfüllen, um mehr Patienten zu gewinnen (Leitfaden für Zahnärzte in Paris)"
+  - slug: "zahnarztpraxis-ohne-webseite-ki-verwundbarkeit"
+    anchor: "Zahnarztpraxis ohne Webseite: Was können Patienten bereits prüfen?"
 ---
 
 ## Die Google-Bewertungen Ihrer Zahnarztpraxis: Wie Sie sie in eine Patientenmaschine verwandeln
 
 Ihre Google-Bewertungen sind nicht mehr nur ein Reputationsfaktor. 2026 erfüllen sie drei gleichzeitige Funktionen: Sie bestimmen Ihre Position im Google Map Pack, sie beeinflussen die Entscheidung des Patienten, Sie zu wählen oder nicht, und — das ist die jüngste Veränderung — sie speisen direkt die Empfehlungen der KI-Assistenten.
-
-Wenn ChatGPT oder Perplexity einen Zahnarzt empfiehlt, ist eines der ersten Dinge, die analysiert werden, die Schlüsselwörter in Ihren Bewertungen. Wenn Google AI Overview die Informationen über Ihre Praxis zusammenfasst, fasst es zusammen, was Ihre Patienten über Sie sagen. Und wenn ein Patient zwischen zwei Praxen auf Google Maps zögert, sind Ihre Note und der Inhalt Ihrer letzten Bewertungen entscheidend.
 
 Bewertungen sind zu Ihrem wertvollsten digitalen Kapital geworden. Dieser Leitfaden zeigt Ihnen, wie Sie sie erhalten, optimieren und in einen regelmäßigen Strom neuer Patienten verwandeln.
 
@@ -103,29 +99,20 @@ Wenn ein Nutzer ChatGPT fragt „bester Zahnarzt für Implantat im 15.", sucht d
 
 Nach 90 Tagen mit diesem eingerichteten Prozess sollten Sie eine messbare Verbesserung Ihrer Map Pack-Position, der Anzahl der Terminanfragen über Google und — in Kombination mit den anderen Maßnahmen unseres [GBP-Leitfadens](/de/blog/google-business-profile-leitfaden-zahnarzt-paris) — Ihrer KI-Sichtbarkeit beobachten.
 
----
-
-*Wie viele Bewertungen haben Sie? Welchen Inhalt haben sie? Wie positionieren sie Sie gegenüber Ihren Konkurrenten? Eddie Miller Agency analysiert kostenlos Ihr Bewertungsprofil im Rahmen unseres GEO-Audits für Pariser Zahnarztpraxen. [Mein kostenloses Audit anfordern →]*
-
----
-
 ## FAQ — Google-Bewertungen für Zahnarztpraxen
 
 ### Wie viele Bewertungen braucht man, um in Google Maps in Paris gut platziert zu sein?
+
 Es gibt keine magische Schwelle, da das Ranking auch von Ihrem Arrondissement und Ihren Konkurrenten abhängt. In wenig wettbewerbsintensiven Arrondissements können 50 bis 80 Bewertungen mit guter Note für die Top 3 des Map Packs reichen. In den wettbewerbsintensivsten Arrondissements haben die Führenden oft 150 bis 300 Bewertungen. Wesentlich ist ein regelmäßiger Fluss aktueller Bewertungen, nicht nur ein historisches Volumen.
 
 ### Kann ein Patient seine Bewertung ändern oder löschen?
+
 Ja, ein Patient kann seine eigene Bewertung jederzeit ändern oder löschen. Wenn ein unzufriedener Patient Sie kontaktiert und das Problem gelöst wird, können Sie ihn höflich fragen, ob er seine Bewertung aktualisieren möchte. Sie können ihn nicht zwingen oder bedingen.
 
 ### Kann ich eine gefälschte Bewertung bei Google melden?
+
 Ja. Wenn eine Bewertung offensichtlich falsch ist (Patient, den Sie nie behandelt haben, von einem Konkurrenten veröffentlichte Bewertung, diffamierender Inhalt), können Sie sie über Ihr Google Business Profil melden. Google prüft die Meldung und kann die Bewertung entfernen, wenn sie gegen seine Regeln verstößt.
 
-### Zählen Bewertungen auf Doctolib auch für die KI-Sichtbarkeit?
-Ja, aber in geringerem Maße. Perplexity zitiert häufig Doctolib als Quelle in seinen Empfehlungen Pariser Zahnärzte. ChatGPT verweist ebenfalls darauf. Allerdings bleiben Google-Bewertungen die einflussreichste Quelle für die Mehrheit der KI-Plattformen. Unsere Empfehlung: Konzentrieren Sie Ihre Bemühungen vorrangig auf Google und betrachten Sie Doctolib als wichtige Ergänzung.
-
 ### Ist eine 5,0-Note besser als eine 4,7-Note?
+
 Nicht unbedingt. Studien zeigen, dass eine perfekte 5,0-Note mit wenigen Bewertungen als verdächtig wahrgenommen werden kann, sowohl von Algorithmen als auch von Patienten. Eine Note von 4,5 bis 4,8 mit einem beträchtlichen Volumen aktueller Bewertungen ist in der Regel leistungsstärker in Bezug auf Ranking und Konversion.
-
----
-
-**Sie sind Zahnarzt in Paris?** [Entdecken Sie, wie wir Zahnarztpraxen helfen, gefunden zu werden →](/dentistes)

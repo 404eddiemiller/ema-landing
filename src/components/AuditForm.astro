@@ -1,10 +1,13 @@
 ---
 import { t, getLocaleFromPath, navRoutes } from '../i18n';
-import { getAgency } from '../data/agency';
+import { getAgency, contactMailto, type ServiceIndex } from '../data/agency';
 import FormFields from './FormFields.astro';
+interface Props { service?: ServiceIndex }
+const { service } = Astro.props;
 const locale = getLocaleFromPath(Astro.url.pathname);
 const nav = navRoutes[locale];
 const c = getAgency(locale);
+const subject = service === undefined ? undefined : c.services[service];
 const typeOptions = [
   { value: '', label: t('auditForm.choosePlaceholder', locale), disabled: true, selected: true },
   ...['Restaurant','Hotel','Bar','Medical','Dentist','Lawyer','Hair','Spa','Gym','Other'].map((type, i) => ({ value: ['restaurant','hotel','bar','medical','dentiste','avocat','coiffure','spa','sport','autre'][i], label: t(`auditForm.type${type}`, locale) }))
@@ -12,11 +15,11 @@ const typeOptions = [
 ---
 <section id="diagnostic" class="ema-contact ema-sand ema-section" aria-labelledby="contact-title">
   <div class="ema-wrap ema-two-col">
-    <div><p class="ema-eyebrow">CONTACT / {c.local}</p><h2 id="contact-title">{c.contactTitle[0]}<br /><em>{c.contactTitle[1]}</em></h2><p class="ema-prose">{c.contactIntro}</p><p class="ema-contact-small">{c.contactSmall}</p><a class="ema-contact-address" href="mailto:contact@eddiemiller.agency">contact@eddiemiller.agency ↗</a><a class="ema-text-link" href="tel:+33612754218">06 12 75 42 18</a></div>
-    <FormFields
+    <div><p class="ema-eyebrow">CONTACT / {c.local}</p><h2 id="contact-title">{c.contactTitle[0]}<br /><em>{c.contactTitle[1]}</em></h2><p class="ema-prose">{subject ?? c.contactIntro}</p><p class="ema-contact-small">{c.contactSmall}</p><a class="ema-contact-address" href={contactMailto(subject)} data-contact-address>contact@eddiemiller.agency ↗</a><a class="ema-text-link" href="tel:+33612754218">06 12 75 42 18</a></div>
+    <FormFields service={service}
       etablissementLabel={t('auditForm.businessName', locale)} etablissementPlaceholder={t('auditForm.businessNamePlaceholder', locale)}
       typeLabel={t('auditForm.businessType', locale)} typeOptions={typeOptions}
-      cityLabel={t('auditForm.city', locale)} cityPlaceholder={t('auditForm.cityPlaceholder', locale)}
+      cityLabel={t('auditForm.city', locale)} cityPlaceholder={`${c.local} · Bastille, Belleville…`}
       emailLabel={t('auditForm.email', locale)} emailPlaceholder={t('auditForm.emailPlaceholder', locale)}
       submitText={c.cta} errorGeneric={t('auditForm.errorGeneric', locale)} fieldRequired={t('auditForm.fieldRequired', locale)}
       emailInvalid={t('auditForm.emailInvalid', locale)} submitting={t('auditForm.submitting', locale)} redirect={nav.thankYou}

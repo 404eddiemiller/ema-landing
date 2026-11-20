@@ -6,20 +6,20 @@ meta_description: "Sempre più pazienti chiedono a ChatGPT di raccomandare un de
 author: "Eddie Miller Agency"
 date: "2026-01-21"
 category: "Visibilità online"
-tags: ["dentista", "ChatGPT", "visibilité IA", "visibilità IA", "studio dentistico", "Parigi", "Perplexity", "SEO locale"]
+tags: ["dentista", "ChatGPT", "visibilité IA", "visibilità IA", "studio dentistico", "Parigi", "SEO locale"]
 cta: "diagnostic-gratuit"
 lang: "it"
-reading_time: "10 min"
+reading_time: "11 min"
 image: "/images/blog/cabinet-dentaire-invisible-chatgpt.webp"
 imageAlt: "Schermo di smartphone che mostra una conversazione con ChatGPT in cui si chiede un dentista a Parigi"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+  - slug: "google-business-profile-guida-dentista-parigi"
+    anchor: "Come compilare correttamente la vostra scheda Google per attirare più pazienti (guida dentisti Parigi)"
+  - slug: "fonti-raccomandazioni-dentistiche-ia-parigi"
+    anchor: "Dentisti: dove verificare indirizzi e appuntamenti?"
 ---
 
 ## Il vostro studio dentistico è invisibile su ChatGPT: ecco perché
-
-Fate il test adesso. Aprite ChatGPT o Perplexity e digitate: « Quale dentista mi raccomandate nel [X°] arrondissement di Parigi? ».
 
 Guardate la risposta. Il vostro studio compare?
 
@@ -36,8 +36,6 @@ L'epoca in cui un paziente digitava « dentista Parigi 15 » su Google e cliccav
 « Dentista aperto il sabato nell'11° arrondissement, con buone recensioni? »
 
 « Mio figlio ha bisogno di un ortodontista a Parigi, zona Bastille. Raccomandazioni? »
-
-ChatGPT gestisce circa 2,5 miliardi di richieste al giorno. Perplexity supera il miliardo di richieste mensili. E Google stesso mostra ormai risposte generate dall'IA sopra i suoi risultati classici per più di un quarto delle ricerche.
 
 Queste cifre non riguardano solo i giovani tecnofili. Uno studio di Binhas Global Dental School, riferimento nella gestione degli studi dentistici, indica che il 76% dei pazienti accede ormai al proprio chirurgo dentista tramite Internet. La differenza è che « tramite Internet » non significa più solo « tramite Google ». Significa sempre più « tramite una conversazione con un'IA ».
 
@@ -71,12 +69,6 @@ Circa un terzo degli studi dentistici parigini non ha un sito web. È un handica
 
 E se avete un sito web, bisogna ancora che « parli alle macchine ». I dati strutturati (Schema.org) sono un linguaggio tecnico che permette al vostro sito di comunicare direttamente con le IA. Dicono chiaramente: « Ecco uno studio dentistico, situato qui, che propone questi servizi, con questi professionisti. » I siti che utilizzano questo markup vedono il loro tasso di citazione da parte delle IA aumentare significativamente. Tuttavia, la grande maggioranza dei siti di studi dentistici non ne ha nessuno.
 
-### 5. Siete assenti dalle piattaforme che le IA consultano in priorità
-
-Ogni piattaforma IA ha le sue fonti privilegiate. Gli studi recenti mostrano che ChatGPT si basa fortemente su Wikipedia, le recensioni Google e i contenuti editoriali di riferimento. Perplexity cita molto Reddit, YouTube e i siti specializzati con fonti chiare. Google AI Overview attinge dal proprio indice, con una preferenza marcata per le schede Google Business e i siti con dati strutturati.
-
-Se siete presenti solo su Google e Doctolib, perdete tutte le raccomandazioni di Perplexity. Se il vostro profilo Doctolib è incompleto, perdete una fonte che ChatGPT consulta frequentemente per i professionisti sanitari in Francia.
-
 ### 6. Non pubblicate nulla regolarmente
 
 Le IA favoriscono le fonti attive e recenti. Uno studio che non ha pubblicato un singolo post Google Business da sei mesi, il cui sito web non è stato aggiornato dalla creazione, e la cui ultima recensione risale a diversi mesi, invia un segnale di inattività. L'IA interpreta questo come un segno che le informazioni potrebbero non essere più aggiornate — e preferisce raccomandare un collega più attivo.
@@ -95,7 +87,7 @@ Prima di cambiare qualsiasi cosa, fate una diagnosi rapida. Ecco come.
 
 **Step 1** — Andate su [chat.openai.com](https://chat.openai.com) (ChatGPT). Digitate: « Quale dentista raccomandate nel [vostro arrondissement] di Parigi? ». Annotate se comparite, e chi compare al vostro posto.
 
-**Step 2** — Andate su [perplexity.ai](https://perplexity.ai). Ponete la stessa domanda. Perplexity cita le sue fonti: guardate da dove vengono le raccomandazioni (Doctolib? Google? Un annuario?).
+**2.** Per ogni proposta annotate nome, orari dichiarati e link. Segnate anche quando non compare un indirizzo.
 
 **Step 3** — Cercate su Google « dentista [vostro arrondissement] Parigi ». Guardate se una risposta IA (AI Overview) appare sopra i risultati classici. Siete menzionati in questa risposta?
 
@@ -133,35 +125,24 @@ Non avete bisogno di rifare tutto. Ecco cinque azioni concrete, classificate per
 
 ## Il divario si allarga ogni giorno
 
-La visibilità IA non è un argomento futuro. È un argomento presente. Gli studi dentistici che compaiono già nelle raccomandazioni di ChatGPT e Perplexity catturano pazienti che non vedete nemmeno passare. Questi pazienti non vi hanno mai trovato, mai confrontato, mai preso in considerazione — perché l'IA non ha mai menzionato il vostro nome.
-
 E il fenomeno accelera. L'utilizzo dei motori IA per le ricerche locali è stato moltiplicato per dieci in un anno. Google sta progressivamente implementando le sue risposte IA in Francia, il che significa che anche i pazienti che « cercano su Google » vedranno sempre più spesso una raccomandazione IA sopra i risultati classici.
 
 Il momento di agire è adesso. Non tra sei mesi, non quando avrete tempo. Ogni settimana di inazione è una settimana in più durante la quale i vostri colleghi rafforzano il loro vantaggio.
 
----
-
-*Volete sapere esattamente cosa ChatGPT, Perplexity e Google AI dicono del vostro studio? Eddie Miller Agency realizza un audit GEO gratuito per gli studi dentistici parigini: il vostro punteggio di visibilità IA su 100, le piattaforme dove siete assenti, e le 3 azioni prioritarie. [Richiedere il mio audit gratuito →]*
-
----
-
 ## FAQ — Visibilità degli studi dentistici sulle IA
 
 ### ChatGPT può davvero raccomandare un dentista a Parigi?
+
 Sì. Quando un utente pone una domanda locale come « quale dentista raccomandate nel 15° arrondissement di Parigi? », ChatGPT formula una risposta basandosi sulle informazioni che trova online: schede Google Business, recensioni dei pazienti, siti web degli studi, annuari professionali e contenuti editoriali. Gli studi che dispongono di informazioni ricche, coerenti e recenti hanno molte più possibilità di essere citati.
 
 ### Il mio studio ha 4,8 stelle su Google. Perché l'IA non mi raccomanda?
+
 Un buon voto è necessario ma non sufficiente. L'IA valuta anche la quantità e la freschezza delle recensioni, il contenuto delle recensioni (le parole chiave specifiche ai trattamenti), la completezza della vostra scheda Google, la coerenza delle vostre informazioni sulle altre piattaforme e la presenza di dati strutturati sul vostro sito. Un voto eccellente senza questi altri segnali non è sufficiente a generare una raccomandazione.
 
 ### Non ho un sito web. È un problema per la visibilità IA?
+
 Sì, è un handicap significativo. Senza sito web, l'IA dispone solo della vostra scheda Google e di Doctolib come fonti principali. Questo limita le informazioni che può sintetizzare su di voi e riduce le vostre possibilità di essere raccomandati rispetto a colleghi che hanno un sito web con dati strutturati. Se creare un sito completo non è possibile immediatamente, concentratevi prima su una scheda Google Business impeccabile e un profilo Doctolib esaustivo.
 
 ### Quanto tempo ci vuole per iniziare a comparire nelle raccomandazioni IA?
+
 Le azioni più dirette (completare la vostra scheda Google, accumulare recensioni recenti) possono produrre risultati in 2-4 settimane. Gli effetti dei dati strutturati e della presenza multi-piattaforma richiedono generalmente 2-3 mesi per essere pienamente integrati dalle IA. L'importante è iniziare adesso: prima agite, più velocemente il divario con i vostri colleghi si riduce.
-
-### Il GEO è diverso dal SEO locale classico?
-Il GEO (Generative Engine Optimization) include il SEO locale e va oltre. Il SEO locale mira a posizionarvi nei risultati Google Maps e nelle ricerche locali. Il GEO mira inoltre a farvi citare e raccomandare dalle IA conversazionali (ChatGPT, Perplexity, Google AI). I due sono complementari, ma il GEO aggiunge leve specifiche come i dati strutturati, la presenza sulle fonti che ogni IA privilegia, e la freschezza continua del contenuto. Per saperne di più, consultate la nostra guida completa sul [GEO (Generative Engine Optimization)](/blog/geo-referencement-ia-2026).
-
----
-
-**Siete dentisti a Parigi?** [Scoprite come aiutiamo gli studi dentistici ad essere trovati →](/dentistes)

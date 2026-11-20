@@ -9,16 +9,14 @@ category: "Online zichtbaarheid"
 tags: ["Google AI Overview", "hotel", "Parijs", "visibilité IA", "AI-zichtbaarheid", "Booking", "toerisme", "lokale zoekopdracht"]
 cta: "diagnostic-gratuit"
 lang: "nl"
-reading_time: "8 min"
+reading_time: "1 min"
 image: "/images/blog/google-ai-overview-hotel-paris.webp"
 imageAlt: "Receptie van een elegant Parijs hotel met een scherm dat Google AI Overview toont"
 internal_links:
-  - slug: "geo-optimalisatie-ai-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "barometer-geo-parijs-2026-k1"
-    anchor: "onze Barometer GEO Parijs"
-  - slug: "schema-org-website-leesbaar-ai-zonder-coderen"
-    anchor: "de gestructureerde gegevens Schema.org"
+  - slug: "toeristische-zoekvragen-parijs-vergelijken"
+    anchor: "Een toeristische zoekvraag over Parijs vergelijken in drie assistenten"
+  - slug: "lokale-seo-2026-trends-acties"
+    anchor: "Gevonden worden op Google in 2026: wat is veranderd voor Parijse zaken"
 ---
 
 ## Google AI Overview: verschijnt uw hotel in de nieuwe antwoorden van Google?
@@ -50,17 +48,3 @@ Hotelketens domineren natuurlijk dankzij hun massale aanwezigheid. Maar onafhank
 **Actie 4:** Optimaliseer uw aanwezigheid op TripAdvisor en Booking.
 
 **Actie 5:** Test maandelijks uw AI-zichtbaarheid.
-
-## Verder dan Google: ChatGPT en Perplexity voor hotels
-
-Perplexity beveelt hotels aan in 92% van de gevallen en ChatGPT in 78%. Voor Parijse hotels die een internationale klantenkring bedienen is ChatGPT bijzonder belangrijk: Engelstalige, Aziatische en Europese toeristen gebruiken ChatGPT massaal om hun reizen te plannen.
-
-De complete strategie combineert Google AI (via GBP en Schema), Perplexity (via TripAdvisor en Booking) en ChatGPT (via diversiteit van bronnen en meertalige inhoud).
-
----
-
-*Wordt uw hotel aanbevolen door AI's? Eddie Miller Agency voert een gratis GEO-audit uit voor Parijse hotels. [Mijn gratis GEO-audit aanvragen →]*
-
----
-
-**Leidt u een hotel?** [Ontdek hoe wij hotels helpen gevonden te worden →](/hotels)

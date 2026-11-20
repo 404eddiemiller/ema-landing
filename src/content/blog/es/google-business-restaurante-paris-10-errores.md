@@ -1,24 +1,22 @@
 ---
-title: "10 errores en tu ficha Google que ahuyentan a tus clientes (restaurantes Paris)"
+title: "Diez comprobaciones para la ficha de Google de un restaurante en París"
 slug: "google-business-restaurante-paris-10-errores"
-meta_title: "Restauradores en Paris: 10 errores en tu ficha Google que te hacen perder clientes"
-meta_description: "El 62 % de los clientes evitan un restaurante cuya informacion online es incorrecta. Aqui tienes los 10 errores mas comunes en las fichas Google de los restaurantes parisinos."
+meta_title: "Diez comprobaciones para la ficha de Google de un restaurante en París"
+meta_description: "Un solo error puede llevar al cliente hasta una puerta cerrada. Revisa la ficha siguiendo el orden de una visita."
 author: "Eddie Miller Agency"
 date: "2026-02-11"
 category: "Google y resenas"
 tags: ["Google Business Profile", "restaurante", "Paris", "visibilité locale", "errores", "Google Maps", "visibilité IA", "TheFork"]
 cta: "diagnostic-gratuit"
 lang: "es"
-reading_time: "10 min"
+reading_time: "7 min"
 image: "/images/blog/google-business-restaurant-paris-10-erreurs.webp"
 imageAlt: "Interior de un restaurante parisino vacio con sillas volcadas sobre las mesas"
 internal_links:
-  - slug: "chatgpt-recommandation-restaurant-paris"
-    anchor: "como ChatGPT elige que restaurantes recomendar"
-  - slug: "schema-org-site-lisible-ia-sans-coder"
-    anchor: "los datos estructurados Schema.org"
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+  - slug: "7-directorios-restaurante-ia-recomendacion"
+    anchor: "Siete lugares donde revisar los datos de tu restaurante"
+  - slug: "chatgpt-recomendacion-restaurante-paris"
+    anchor: "¿Podría un turista elegir tu restaurante a partir de una búsqueda?"
 ---
 
 ## Ficha Google My Business para restaurante en Paris: los 10 errores que te cuestan clientes
@@ -105,26 +103,16 @@ Toma 20 minutos esta semana para revisar tu ficha Google Business y corregir los
 
 Cada error corregido te acerca al Map Pack — y a la visibilidad ante las IA que recomiendan los restaurantes parisinos.
 
----
-
-*Cuantos de estos errores contiene tu ficha? Eddie Miller Agency realiza una auditoria GBP + GEO gratuita para restaurantes parisinos: analisis de tu ficha, comparacion con tus competidores directos, y plan de accion inmediato. [Solicitar mi auditoria gratuita →]*
-
----
-
 ## FAQ — Ficha Google Business para restaurantes en Paris
 
 ### Puedo gestionar mi ficha Google Business yo mismo o debo recurrir a una agencia?
+
 Puedes hacerlo todo tu mismo. Google Business Profile se gestiona gratuitamente desde tu cuenta Google. Las 10 correcciones listadas en este articulo son todas realizables sin competencia tecnica. Una agencia puede ser util para la estrategia global (GEO, Schema.org, monitorizacion competitiva), pero la gestion diaria de la ficha es accesible para todo gestor de restaurante.
 
 ### Con que frecuencia debo actualizar mi ficha?
+
 Al minimo una vez por semana (una publicacion + verificacion de las resenas). Idealmente, anade 1 a 2 fotos por semana, responde a las resenas en menos de 48h, y actualiza los horarios o el menu en cuanto haya un cambio.
 
 ### Mi restaurante tiene mala puntuacion en Google (3,5 estrellas). Es recuperable?
+
 Si. La puntuacion de Google es una media dinamica que evoluciona con cada nueva resena. Recogiendo activamente resenas positivas de clientes satisfechos (5 a 10 por mes), tu puntuacion subira progresivamente. Paralelamente, responde de manera profesional a cada resena negativa.
-
-### TheFork y TripAdvisor son tan importantes como Google?
-Para la visibilidad IA, Google sigue siendo la fuente primaria. Pero TheFork y TripAdvisor son fuentes frecuentemente citadas por Perplexity y ChatGPT para los restaurantes parisinos. Lo ideal es optimizar los tres, con Google como prioridad.
-
----
-
-**Gestionas un restaurante?** [Descubre como ayudamos a los restaurantes a ser encontrados →](/restaurants)

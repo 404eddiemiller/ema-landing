@@ -1,14 +1,9 @@
-# Eddie Miller Agency
+# Eddie Miller Agency · Paris
 
-Paris-based services for AI search visibility, Google Maps, repetitive task automation and website creation.
+Two independent services for establishments located in Paris.
 
-- AI visibility: https://eddiemiller.agency/en/ai-visibility
-- Automation, including Hermes Agent where appropriate: https://eddiemiller.agency/en/ai-automation
-- Websites: https://eddiemiller.agency/en/web-design
-- Services and scope: https://eddiemiller.agency/en/pricing
+- Local visibility: check what ChatGPT, Claude and Gemini say, compare the answers with the business website and Google Maps listing, identify corrections and repeat the same questions. For restaurants, bars and hotels, this includes questions visitors ask before and during their stay. For neighbourhood practices, the starting point is what local residents need. https://eddiemiller.agency/en/ai-visibility
+- AI consulting for Paris teams: choose an internal task, test a solution and train the people who will use it. People retain control over decisions and outgoing messages. No visibility audit required. https://eddiemiller.agency/en/ai-automation
 
-Free initial 15-minute conversation. Work is subject to an agreed quote. No guaranteed recommendations, rankings or revenue. Sensitive actions require approval. Administrative accounting preparation does not replace a qualified accountant.
-
-Contact: contact@eddiemiller.agency. Paris and Île-de-France.
-
-This file is a summary of visible content, not a special AI ranking requirement.
+Scope and pricing: https://eddiemiller.agency/en/pricing
+Free initial 15-minute conversation. No guaranteed mentions, rankings or revenue. Contact: contact@eddiemiller.agency.

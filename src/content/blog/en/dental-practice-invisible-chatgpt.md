@@ -6,20 +6,22 @@ meta_description: "More and more patients are asking ChatGPT to recommend a dent
 author: "Eddie Miller Agency"
 date: "2026-01-21"
 category: "Online visibility"
-tags: ["dentist", "ChatGPT", "visibilité IA", "AI visibility", "dental practice", "Paris", "Perplexity", "local SEO"]
+tags: ["dentist", "ChatGPT", "visibilité IA", "AI visibility", "dental practice", "Paris", "local SEO"]
 cta: "diagnostic-gratuit"
 lang: "en"
 reading_time: "10 min"
 image: "/images/blog/cabinet-dentaire-invisible-chatgpt.webp"
 imageAlt: "Smartphone screen showing a conversation with ChatGPT asking for a dentist in Paris"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+  - slug: "google-business-profile-guide-dentist"
+    anchor: "How to Properly Fill Out Your Google Listing to Attract More Patients (Dentist Guide for Paris)"
+  - slug: "ai-dental-recommendation-sources"
+    anchor: "Which source can confirm a dentist’s address or appointment details?"
 ---
 
 ## Your Dental Practice Is Invisible on ChatGPT: Here's Why
 
-Try it right now. Open ChatGPT or Perplexity and type: "Which dentist do you recommend in the [Xth] arrondissement of Paris?"
+Start a new conversation: “I’m staying near Bastille. How can I find a dental practice near the metro and check its Saturday hours?” Do not include personal medical information.
 
 Look at the response. Does your practice appear?
 
@@ -36,8 +38,6 @@ The days when a patient typed "dentist Paris 15" into Google and clicked the fir
 "Dentist open on Saturdays in the 11th arrondissement, with good reviews?"
 
 "My child needs an orthodontist in Paris, near Bastille. Any recommendations?"
-
-ChatGPT processes roughly 2.5 billion queries per day. Perplexity exceeds one billion monthly queries. And Google itself now displays AI-generated answers above its traditional results for more than a quarter of all searches.
 
 These figures aren't limited to young tech enthusiasts. A study by Binhas Global Dental School, a leading authority in dental practice management, shows that 76% of patients now find their dentist through the Internet. The difference is that "through the Internet" no longer means just "through Google." It increasingly means "through a conversation with an AI."
 
@@ -71,12 +71,6 @@ About a third of dental practices in Paris don't have a website at all. This is 
 
 And if you do have a website, it still needs to "speak to machines." Structured data (Schema.org) is a technical language that allows your website to communicate directly with AI. It clearly states: "This is a dental practice, located here, offering these services, with these practitioners." Websites that use this markup see their AI citation rates increase significantly. Yet the vast majority of dental practice websites have none.
 
-### 5. You're Missing From the Platforms AI Checks First
-
-Each AI platform has its preferred sources. Recent studies show that ChatGPT relies heavily on Wikipedia, Google reviews, and authoritative editorial content. Perplexity frequently cites Reddit, YouTube, and specialized sites with clear sources. Google AI Overview draws from its own index, with a strong preference for Google Business listings and websites with structured data.
-
-If you're only on Google and Doctolib, you're missing all recommendations from Perplexity. If your Doctolib profile is incomplete, you're losing a source that ChatGPT frequently consults for healthcare professionals in France.
-
 ### 6. You Don't Publish Anything Regularly
 
 AI favors active, recent sources. A practice that hasn't posted a single Google Business update in six months, whose website hasn't been updated since its creation, and whose last review is months old sends an inactivity signal. The AI interprets this as a sign that the information may no longer be current — and prefers to recommend a more active colleague.
@@ -95,7 +89,7 @@ Before changing anything, run a quick diagnostic. Here's how.
 
 **Step 1** — Go to [chat.openai.com](https://chat.openai.com) (ChatGPT). Type: "Which dentist do you recommend in the [your arrondissement] of Paris?" Note whether you appear and who appears in your place.
 
-**Step 2** — Go to [perplexity.ai](https://perplexity.ai). Ask the same question. Perplexity cites its sources: look at where the recommendations come from (Doctolib? Google? A directory?).
+**2.** For each suggestion, note the practice name, hours claimed and link shown. Record it if no address is suggested.
 
 **Step 3** — Search on Google for "dentist [your arrondissement] Paris." Check if an AI answer (AI Overview) appears above the traditional results. Are you mentioned in that response?
 
@@ -133,35 +127,24 @@ You don't need to redo everything. Here are five concrete actions, ranked by dec
 
 ## The Gap Widens Every Day
 
-AI visibility isn't a future issue. It's a present one. Dental practices that already appear in ChatGPT and Perplexity recommendations are capturing patients you never even see. Those patients never found you, never compared you, never considered you — because the AI never mentioned your name.
-
 And the trend is accelerating. The use of AI engines for local searches has grown tenfold in one year. Google is progressively rolling out its AI responses in France, which means that even patients who "search on Google" will increasingly see an AI recommendation above the traditional results.
 
 The time to act is now. Not in six months, not when you get around to it. Every week of inaction is another week during which your visible colleagues strengthen their advantage.
 
----
-
-*Want to know exactly what ChatGPT, Perplexity, and Google AI say about your practice? Eddie Miller Agency provides a free GEO audit for dental practices in Paris: your AI visibility score out of 100, the platforms where you're missing, and the 3 priority actions. [Request my free audit →]*
-
----
-
 ## FAQ — Dental Practice Visibility on AI Platforms
 
 ### Can ChatGPT really recommend a dentist in Paris?
+
 Yes. When a user asks a local question like "which dentist do you recommend in the 15th arrondissement of Paris?", ChatGPT formulates a response based on the information it finds online: Google Business listings, patient reviews, practice websites, professional directories, and editorial content. Practices with rich, consistent, and recent information are far more likely to be cited.
 
 ### My practice has a 4.8-star rating on Google. Why doesn't the AI recommend me?
+
 A good rating is necessary but not sufficient. AI also evaluates the quantity and freshness of reviews, the content of reviews (specific keywords related to treatments), the completeness of your Google listing, the consistency of your information across other platforms, and the presence of structured data on your site. An excellent rating without these other signals isn't enough to trigger a recommendation.
 
 ### I don't have a website. Is that a problem for AI visibility?
+
 Yes, it's a significant handicap. Without a website, AI only has your Google listing and Doctolib as primary sources. This limits the information it can synthesize about you and reduces your chances of being recommended over colleagues who have a website with structured data. If building a full website isn't possible right away, focus first on having a flawless Google Business listing and a comprehensive Doctolib profile.
 
 ### How long does it take to start appearing in AI recommendations?
+
 The most direct actions (completing your Google listing, accumulating recent reviews) can produce results in 2 to 4 weeks. The effects of structured data and multi-platform presence typically take 2 to 3 months to be fully integrated by AI. The key is to start now: the sooner you act, the faster the gap with your colleagues narrows.
-
-### Is GEO different from traditional local SEO?
-GEO (Generative Engine Optimization) encompasses local SEO and goes further. Local SEO aims to position you in Google Maps results and local searches. GEO also aims to get you cited and recommended by conversational AI (ChatGPT, Perplexity, Google AI). The two are complementary, but GEO adds specific levers like structured data, presence on the sources each AI favors, and continuous content freshness. To learn more, see our complete guide on [GEO (Generative Engine Optimization)](/blog/geo-referencement-ia-2026).
-
----
-
-**Are you a dentist in Paris?** [Discover how we help dental practices get found →](/dentistes)

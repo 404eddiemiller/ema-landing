@@ -13,17 +13,15 @@ reading_time: "15 min"
 image: "/images/blog/google-business-profile-guide-dentiste-paris.webp"
 imageAlt: "Ficha Google Business Profile de una clinica dental vista en una pantalla de ordenador"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "cabinet-dentaire-invisible-chatgpt"
-    anchor: "por que las IA no recomiendan tu clinica"
+  - slug: "ia-reemplazar-doctolib-clinica-dental"
+    anchor: "De la búsqueda a la cita: comprobar el recorrido hacia Doctolib"
+  - slug: "clinica-dental-invisible-chatgpt"
+    anchor: "Por que tu clinica no aparece cuando alguien le pide un dentista a ChatGPT"
 ---
 
 ## Google Business Profile: la guia completa para dentistas parisinos (2026)
 
 Tu ficha Google Business Profile (GBP) se ha convertido en el primer punto de contacto entre tu y tus futuros pacientes. Antes incluso de visitar tu sitio web o de consultar Doctolib, la mayoria de los pacientes ven tu ficha Google — ya sea en los resultados de busqueda, en Google Maps, o ahora en las respuestas generadas por la IA.
-
-En 2026, tu ficha GBP ya no es un simple directorio online. Es un escaparate activo que influye directamente en tu posicion en el Map Pack (los tres primeros resultados de Google Maps), en tu reputacion percibida, y en tu visibilidad ante los asistentes de IA como ChatGPT, Perplexity y Google AI Overview.
 
 Esta guia te acompana paso a paso para optimizar cada elemento de tu ficha, con instrucciones especificas para clinicas dentales parisinas.
 
@@ -228,31 +226,26 @@ Un ultimo punto esencial que la mayoria de las guias GBP no mencionan: tu ficha 
 
 Cuando un usuario le pregunta a ChatGPT "que dentista me recomiendas en el distrito 15?" o a Google AI Overview "mejor ortodoncista Paris 11", la informacion de tu ficha — descripcion, servicios, resenas, fotos, actividad reciente — se utiliza directamente para decidir si mereces ser citado.
 
-Una ficha GBP optimizada no solo mejora tu posicion en Google Maps. Mejora tu [visibilidad ante todas las IA](/blog/geo-referencement-ia-2026). Es la base de toda estrategia de GEO (Generative Engine Optimization) — y para una clinica dental parisina, es la accion con el mejor retorno de inversion posible.
-
----
-
-*Quieres saber si tu ficha Google Business esta realmente optimizada? Eddie Miller Agency realiza una auditoria GBP + GEO gratuita para clinicas dentales parisinas: analisis de tu ficha, comparacion con tus competidores directos, y plan de accion prioritario. [Solicitar mi auditoria gratuita →]*
-
----
+Una ficha GBP optimizada no solo mejora tu posicion en Google Maps. Mejora tu [visibilidad ante todas las IA](/es/blog/optimizacion-geo-ia-2026). Es la base de toda estrategia de GEO (Generative Engine Optimization) — y para una clinica dental parisina, es la accion con el mejor retorno de inversion posible.
 
 ## FAQ — Google Business Profile para dentistas
 
 ### Cual es la diferencia entre Google Business Profile y Google My Business?
+
 Es lo mismo. Google My Business (GMB) fue oficialmente renombrado como Google Business Profile (GBP) a finales de 2021. El funcionamiento es identico, solo el nombre ha cambiado. Gestionas tu ficha directamente desde la busqueda de Google o Google Maps.
 
 ### Cuanto tiempo antes de ver resultados tras la optimizacion?
+
 Las primeras mejoras de posicionamiento en el Map Pack aparecen generalmente en 2 a 4 semanas tras una optimizacion completa de la ficha. La acumulacion de resenas recientes produce efectos progresivos durante 2 a 3 meses. La clave es la regularidad: las fichas que mantienen una actividad continua (publicaciones, fotos, resenas) progresan mas rapido y de manera mas duradera.
 
 ### Mi clinica forma parte de una red (Dentego, Dentylis, etc.). Como gestionar la ficha?
+
 Cada centro debe tener su propia ficha GBP con su propia direccion. El nombre debe corresponder exactamente al nombre del centro local. Asegurate de que los horarios, servicios y profesionales sean especificos de tu centro y no copiados-pegados de otro centro de la red. La individualizacion de cada ficha es esencial para el posicionamiento local.
 
 ### Puedo gestionar mi ficha sin sitio web?
+
 Si, puedes tener una ficha GBP sin sitio web. Sin embargo, Google usa tu sitio web para verificar y completar la informacion de tu ficha. Sin sitio, tu "puntuacion de notoriedad" quedara limitada y las IA tendran menos material para recomendarte. Si un sitio completo no es posible de inmediato, asegurate al menos de que tu perfil Doctolib sea exhaustivo — sirve como sustituto parcial.
 
 ### Las publicaciones Google Business expiran?
+
 Las publicaciones permanecen visibles durante 6 meses (las publicaciones "Oferta" expiran en la fecha de fin definida). Incluso tras expirar la visualizacion, permanecen indexadas y contribuyen al historial de actividad de tu ficha. Lo importante no es una publicacion individual sino la regularidad: un flujo constante de publicaciones senala a Google y a las IA que tu clinica esta activa.
-
----
-
-**Eres dentista en Paris?** [Descubre como ayudamos a las clinicas dentales a ser encontradas →](/dentistes)

@@ -6,6 +6,6 @@ import AgencyService from '../components/AgencyService.astro';
 import { getAgency } from '../data/agency';
 const c = getAgency();
 ---
-<Layout title={c.services[1] + ' à Paris — Eddie Miller Agency'} description={c.description} skipFaqSchema>
+<Layout title={c.services[1] + ' à Paris — Eddie Miller Agency'} description={c.autoText} skipFaqSchema>
   <Header /><main id="main-content"><AgencyService service={1} /></main><Footer />
 </Layout>

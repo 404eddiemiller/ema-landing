@@ -14,18 +14,14 @@ image: "/images/blog/avis-google-cabinet-dentaire-patients.webp"
 imageAlt: "Hand die een smartphone vasthoudt met vijf sterren Google-beoordelingen"
 internal_links:
   - slug: "google-business-profile-gids-tandarts-parijs"
-    anchor: "complete Google Business Profile-gids"
-  - slug: "onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs"
-    anchor: "ons onderzoek naar de AI-zichtbaarheid van 50 Parijse praktijken"
-  - slug: "tandartspraktijk-onzichtbaar-chatgpt"
-    anchor: "waarom uw praktijk onzichtbaar is op ChatGPT"
+    anchor: "Hoe u uw Google-vermelding correct invult om meer patiënten aan te trekken (gids tandartsen Parijs)"
+  - slug: "tandartspraktijk-zonder-website-kwetsbaarheid-ai"
+    anchor: "Een praktijk zonder website: wat kan een patiënt al controleren?"
 ---
 
 ## De Google-beoordelingen van uw tandartspraktijk: hoe u ze omzet in een patiëntenmachine
 
 Uw Google-beoordelingen zijn niet meer simpelweg een reputatiefactor. In 2026 vervullen ze drie gelijktijdige functies: ze bepalen uw positie in het Map Pack van Google, ze beïnvloeden de beslissing van de patiënt om voor u te kiezen of niet, en — dit is de meest recente verandering — ze voeden direct de aanbevelingen van AI-assistenten.
-
-Wanneer ChatGPT of Perplexity een tandarts aanbeveelt, is een van de eerste dingen die het analyseert de zoekwoorden in uw beoordelingen. Wanneer Google AI Overview informatie over uw praktijk synthetiseert, vat het samen wat uw patiënten over u zeggen. En wanneer een patiënt twijfelt tussen twee praktijken op Google Maps, zijn het uw score en de inhoud van uw laatste beoordelingen die zijn beslissing bepalen.
 
 Beoordelingen zijn uw meest waardevolle digitale bezit geworden. Deze gids toont u hoe u ze kunt verkrijgen, optimaliseren en omzetten in een regelmatige stroom van nieuwe patiënten.
 
@@ -34,8 +30,6 @@ Beoordelingen zijn uw meest waardevolle digitale bezit geworden. Deze gids toont
 De gegevens zijn ondubbelzinnig. 75% van de consumenten leest systematisch online beoordelingen voordat ze een lokale professional kiezen. 68% weigert een zaak te overwegen die lager dan 4 sterren scoort. En 89% is meer geneigd een zaak te kiezen die op al zijn beoordelingen reageert, positief en negatief.
 
 Voor de lokale ranking is de impact direct. De praktijken in de eerste drie posities van het Map Pack hebben gemiddeld meer dan 500 beoordelingen met een score van 4,8 sterren. Elke schijf van 10 nieuwe beoordelingen verhoogt het conversiepercentage (oproepen, routeverzoeken, klikken naar de website) met ongeveer 2,8%. En op minimaal een kwart van uw beoordelingen reageren verbetert dit conversiepercentage met nog eens 4,1%.
-
-Maar wat de situatie fundamenteel verandert in 2026 is het verband tussen beoordelingen en AI-zichtbaarheid. Google vat nu automatisch de inhoud van uw beoordelingen samen in blurbs die direct op uw vermelding zichtbaar zijn. AI's analyseren de tekst van uw beoordelingen om uw specialisaties, uw reputatie en de waargenomen kwaliteit van uw zorg te begrijpen. In [ons onderzoek naar 50 Parijse tandartspraktijken](/nl/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) zijn beoordelingen de factor met de sterkste correlatie met de AI-zichtbaarheidsscore.
 
 ## De beoordeling die telt vs de beoordeling die niets oplevert
 
@@ -154,29 +148,20 @@ Om uw beoordelingen om te zetten in een echte patiëntenmachine, volg deze indic
 
 Na 90 dagen met dit proces op zijn plaats zou u een meetbare verbetering moeten waarnemen in uw positie in het Map Pack, het aantal afspraakverzoeken vanuit Google, en — als u combineert met de andere acties uit onze [GBP-gids](/nl/blog/google-business-profile-gids-tandarts-parijs) — uw AI-zichtbaarheid.
 
----
-
-*Hoeveel beoordelingen heeft u? Welke inhoud hebben ze? Hoe positioneren ze u ten opzichte van uw concurrenten? Eddie Miller Agency analyseert gratis uw beoordelingsprofiel in het kader van onze GEO-audit voor Parijse tandartspraktijken. [Mijn gratis audit aanvragen →]*
-
----
-
 ## FAQ — Google-beoordelingen voor tandartspraktijken
 
 ### Hoeveel beoordelingen heb ik nodig om goed te scoren in Google Maps in Parijs?
+
 Er is geen magische drempel, want de ranking hangt ook af van uw arrondissement en uw concurrenten. In minder concurrerende arrondissementen kunnen 50 tot 80 beoordelingen met een goede score voldoende zijn voor de top 3 van het Map Pack. In de meest concurrerende arrondissementen hebben de leiders vaak 150 tot 300 beoordelingen. Het essentiële is om een regelmatige stroom van recente beoordelingen te hebben, niet alleen een historisch volume.
 
 ### Kan een patiënt zijn beoordeling wijzigen of verwijderen?
+
 Ja, een patiënt kan zijn eigen beoordeling op elk moment wijzigen of verwijderen. Als een ontevreden patiënt contact met u opneemt en het probleem is opgelost, kunt u hem beleefd vragen of hij zijn beoordeling wil bijwerken. U kunt hem niet dwingen of het conditioneel maken — maar de meeste redelijke patiënten zullen ermee instemmen een beoordeling te wijzigen als het probleem werkelijk is opgelost.
 
 ### Kan ik een nepbeoordeling melden bij Google?
+
 Ja. Als een beoordeling duidelijk nep is (patiënt die u nooit heeft ontvangen, beoordeling geplaatst door een concurrent, lasterlijke inhoud), kunt u deze melden via uw Google Business-vermelding. Google onderzoekt de melding en kan de beoordeling verwijderen als deze zijn regels schendt. De termijn varieert van enkele dagen tot meerdere weken. Reageer in de tussentijd professioneel op de beoordeling om andere patiënten te tonen dat u feedback serieus neemt.
 
-### Tellen Doctolib-beoordelingen ook mee voor AI-zichtbaarheid?
-Ja, maar in mindere mate. Perplexity citeert Doctolib regelmatig als bron in zijn aanbevelingen van Parijse tandartsen. ChatGPT verwijst er ook naar. Echter, Google-beoordelingen blijven de meest invloedrijke bron voor de meerderheid van de AI-platformen. Onze aanbeveling: concentreer uw inspanningen op Google als prioriteit, en beschouw Doctolib als een belangrijk aanvulling.
-
 ### Is een 5.0 score beter dan een 4.7?
+
 Niet noodzakelijk. Onderzoeken tonen aan dat een perfecte 5.0-score met weinig beoordelingen als verdacht kan worden beschouwd, zowel door de algoritmen als door patiënten. Een score van 4,5 tot 4,8 met een aanzienlijk volume recente beoordelingen is doorgaans beter presterend in termen van ranking en conversie. Enkele 4-sterrenbeoordelingen in een overwegend 5-sterrenset versterken de geloofwaardigheid.
-
----
-
-**Bent u tandarts in Parijs?** [Ontdek hoe wij tandartspraktijken helpen gevonden te worden →](/dentistes)

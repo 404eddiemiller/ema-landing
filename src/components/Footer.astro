@@ -1,13 +1,14 @@
 ---
 import { t, getLocaleFromPath, navRoutes } from '../i18n';
-import { getAgency } from '../data/agency';
+import { getAgency, serviceAtPath, contactMailto } from '../data/agency';
 const locale = getLocaleFromPath(Astro.url.pathname);
 const nav = navRoutes[locale];
 const c = getAgency(locale);
+const service = serviceAtPath(locale, Astro.url.pathname);
 ---
 <footer class="ema-footer">
   <div class="ema-wrap">
-    <div class="ema-footer-top"><div><a href={nav.home} class="ema-footer-wordmark">eddie miller.</a><p>{c.footer}</p></div><a class="ema-email-link" href="mailto:contact@eddiemiller.agency">contact@eddiemiller.agency <span aria-hidden="true">↗</span></a></div>
+    <div class="ema-footer-top"><div><a href={nav.home} class="ema-footer-wordmark">eddie miller.</a><p>{c.footer}</p></div><a class="ema-email-link" data-contact-address href={contactMailto(service === undefined ? undefined : c.services[service])}>contact@eddiemiller.agency <span aria-hidden="true">↗</span></a></div>
     <div class="ema-footer-bottom"><p>© {new Date().getFullYear()} Eddie Miller Agency</p><nav aria-label={t('header.navLabel', locale)}><a href={nav.about}>{t('header.about', locale)}</a><a href={nav.blog}>{t('header.blog', locale)}</a><a href={nav.legal}>{t('footer.legal', locale)}</a><a href={nav.terms}>{t('footer.terms', locale)}</a></nav><span>Paris, France</span></div>
   </div>
 </footer>

@@ -1,22 +1,22 @@
 ---
-title: "ChatGPT recomienda tu restaurante o el de al lado? Haz la prueba"
+title: "¿Podría un turista elegir tu restaurante a partir de una búsqueda?"
 slug: "chatgpt-recomendacion-restaurante-paris"
-meta_title: "Aparece tu restaurante cuando un cliente pide una recomendacion a ChatGPT?"
-meta_description: "El 83 % de los restaurantes parisinos no aparecen cuando un cliente pide una recomendacion a ChatGPT. Descubre por que y como cambiar eso."
+meta_title: "¿Podría un turista elegir tu restaurante a partir de una búsqueda?"
+meta_description: "Entre el nombre del restaurante y una mesa reservada hay que comprobar la carta y el horario real de cocina."
 author: "Eddie Miller Agency"
 date: "2026-01-31"
 category: "Visibilidad online"
-tags: ["restaurante", "ChatGPT", "visibilité IA", "visibilidad IA", "Paris", "Perplexity", "TheFork", "TripAdvisor", "Google Business"]
+tags: ["restaurante", "ChatGPT", "visibilité IA", "visibilidad IA", "Paris", "TheFork", "TripAdvisor", "Google Business"]
 cta: "diagnostic-gratuit"
 lang: "es"
-reading_time: "10 min"
+reading_time: "7 min"
 image: "/images/blog/chatgpt-recommandation-restaurant-paris.webp"
 imageAlt: "Terraza de restaurante parisino con mesas de madera y luz natural"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "test-ia-recommandation-dentiste-paris"
-    anchor: "nuestro test comparativo sobre las recomendaciones IA"
+  - slug: "google-business-restaurante-paris-10-errores"
+    anchor: "Diez comprobaciones para la ficha de Google de un restaurante en París"
+  - slug: "7-directorios-restaurante-ia-recomendacion"
+    anchor: "Siete lugares donde revisar los datos de tu restaurante"
 ---
 
 ## Restauradores: ChatGPT recomienda tu restaurante o el de al lado?
@@ -41,33 +41,7 @@ La diferencia es fundamental. El cliente no quiere una lista de resultados. Quie
 
 Las plataformas de IA no funcionan como Google o TripAdvisor. No clasifican restaurantes en una lista. Sintetizan informacion de decenas de fuentes para formular una recomendacion dirigida.
 
-Un estudio de Yext de 2025 analizo 2,2 millones de citaciones relacionadas con la restauracion en ChatGPT, Perplexity y Gemini. Los resultados muestran de donde vienen las recomendaciones: el 41,6 % de las citaciones provienen de directorios y plataformas terceras (Google Business, TheFork, TripAdvisor, Yelp), el 39,8 % provienen de los sitios web propios de los restaurantes, y el 13 % viene de las resenas y las redes sociales.
-
 La restauracion es el sector donde las resenas y las redes sociales pesan mas en las recomendaciones de IA. Mas que la salud, las finanzas o el comercio minorista. Esto significa que lo que tus clientes dicen de ti online tiene un impacto directo en lo que la IA dira de ti manana.
-
-## Las tres plataformas de IA y sus logicas diferentes
-
-Cada plataforma de IA tiene su propia manera de seleccionar los restaurantes a recomendar.
-
-### ChatGPT: amplia exploracion, recomendacion conversacional
-
-ChatGPT adopta el tono de un amigo bien informado. Para una consulta como "buen restaurante para un aniversario en el distrito 6", propone de 3 a 5 sugerencias con una descripcion del ambiente, el tipo de cocina, el rango de precios y a veces un enlace de reserva.
-
-ChatGPT se apoya mucho en los directorios terceros como Google Business y las plataformas de resenas. Explora un numero muy grande de fuentes — hasta 132 URLs unicas para una misma pregunta — lo que lo hace impredecible: tu restaurante puede aparecer en una respuesta y desaparecer en la siguiente. Para ser recomendado de manera constante por ChatGPT, hay que estar presente en el maximo de plataformas.
-
-El estudio Local Falcon revelo que ChatGPT funciona de manera binaria para los restaurantes: o eres recomendado de manera recurrente, o eres totalmente invisible. Hay muy poco punto medio. Los restaurantes que dominan en ChatGPT tienen una ventaja auto-reforzante que los competidores tienen dificultades para alcanzar.
-
-### Perplexity: estabilidad y fuentes citadas
-
-Perplexity es mas predecible y mas transparente. Cita sistematicamente sus fuentes, lo que permite ver exactamente de donde vienen las recomendaciones. Para los restaurantes parisinos, las fuentes mas frecuentes son TripAdvisor, Google Reviews, TheFork y los blogs gastronomicos.
-
-Perplexity utiliza menos fuentes por respuesta (alrededor de 40 URLs unicas contra 132 para ChatGPT), lo que significa que si estas bien posicionado en TripAdvisor y Google, tienes buenas posibilidades de mantenerte de manera estable.
-
-### Google AI Overview: la extension natural de Google Maps
-
-Google AI Overview sintetiza la informacion de su propio ecosistema. Para los restaurantes, esto significa que tu ficha Google Business Profile es la fuente primaria. Las resenas de Google, las fotos, los horarios y los atributos (terraza, parking, Wi-Fi, acceso para personas con movilidad reducida) alimentan directamente la respuesta IA.
-
-La ventaja de Google: es la plataforma mas precisa en terminos de datos factuales (direccion, horarios, contacto). El inconveniente: Google AI Overview no aparece sistematicamente para las consultas de restaurantes — privilegia las consultas informativas sobre las transaccionales.
 
 ## Por que tu restaurante es invisible: las 5 causas principales
 
@@ -84,8 +58,6 @@ Al igual que para las clinicas dentales, las IA analizan el texto de las resenas
 Los restaurantes que aparecen en las recomendaciones de IA tienen fichas Google Business exhaustivas: descripcion detallada mencionando el barrio y las especialidades, todas las categorias pertinentes, los atributos activados (terraza, entrega, reserva, Wi-Fi, acceso para personas con movilidad reducida), el menu actualizado, fotos recientes de platos, del salon y de la terraza, y publicaciones regulares.
 
 ### 4. No estas presente en las plataformas que las IA consultan
-
-Para los restaurantes en Paris, las plataformas clave son: Google Business (indispensable), TripAdvisor (fuente principal para Perplexity y ChatGPT, especialmente para turistas), TheFork (muy consultado por las IA para el mercado frances), tu propio sitio web (con menu, fotos y datos estructurados Schema.org de tipo Restaurant), e Instagram (Google indexa los perfiles Instagram de restaurantes desde julio de 2025).
 
 Si faltas en una de estas plataformas, pierdes un canal de recomendacion IA.
 
@@ -121,10 +93,6 @@ Una publicacion en Google Business por semana (plato del dia, menu de temporada,
 
 Si tienes un sitio web, implementa los esquemas Restaurant, Menu y LocalBusiness en JSON-LD. Este marcado tecnico permite a las IA comprender instantaneamente tu tipo de cocina, tu direccion, tus horarios y tu menu sin tener que interpretar texto libre. Pidelo a tu webmaster o a un proveedor tecnico — es una intervencion puntual con efectos duraderos.
 
-### Accion 7: Prueba y sigue tu visibilidad IA cada mes
-
-Haz las consultas que tus clientes usarian en ChatGPT y Perplexity: "mejor [tipo de cocina] [barrio] Paris", "restaurante con terraza [distrito]", "restaurante romantico [barrio] recomendacion". Anota si apareces, quien aparece en tu lugar, y que fuentes son citadas.
-
 ## La oportunidad es ahora
 
 Con el 83 % de los restaurantes invisibles en ChatGPT, la ventana de oportunidad para los restauradores parisinos es inmensa. Cada restaurante que optimiza su presencia IA ahora toma una ventaja duradera sobre los que esperan.
@@ -133,29 +101,20 @@ Y contrariamente a lo que muchos piensan, las acciones necesarias no son ni comp
 
 El mundo del descubrimiento culinario ha cambiado. Las guias en papel cedieron su lugar a TripAdvisor, que ahora cede la suya a las recomendaciones IA. Los restaurantes que lo han entendido y actuan en consecuencia seran los que la IA recomiende cuando un cliente hambriento haga la pregunta.
 
----
-
-*Tu restaurante es recomendado por las IA? Eddie Miller Agency realiza una auditoria GEO gratuita para restaurantes parisinos: tu puntuacion de visibilidad IA, las plataformas donde estas ausente, y las acciones prioritarias para ser recomendado. [Solicitar mi auditoria GEO gratuita →]*
-
----
-
 ## FAQ — Visibilidad IA para restaurantes parisinos
 
 ### Mi restaurante esta bien valorado en TripAdvisor pero no aparece en ChatGPT. Por que?
+
 ChatGPT no se basa unicamente en TripAdvisor. Cruza decenas de fuentes — Google Business, sitios web, directorios, blogs culinarios, redes sociales. Si tu presencia es fuerte en TripAdvisor pero debil en otros sitios (ficha Google incompleta, sin sitio web, pocas resenas de Google), ChatGPT carece de datos suficientes para recomendarte con confianza.
 
-### Las resenas en TheFork cuentan para la visibilidad IA?
-Si. TheFork es una de las plataformas citadas por las IA para los restaurantes franceses. Perplexity en particular se apoya en TheFork para las consultas de restaurantes en Paris. Un perfil TheFork completo con buenas resenas refuerza tu visibilidad IA.
-
 ### Instagram influye en las recomendaciones IA?
+
 Desde julio de 2025, Google indexa los perfiles Instagram de los restaurantes. Esto significa que tu contenido de Instagram (fotos de platos, stories, descripciones) puede influir indirectamente en tu visibilidad en Google AI Overview. Ademas, ChatGPT explora ampliamente los contenidos sociales. Un perfil Instagram activo con menciones geolocalizadas y hashtags locales refuerza tu presencia en el ecosistema que las IA consultan.
 
 ### Soy un pequeno restaurante independiente. Tengo posibilidades frente a las cadenas?
+
 Absolutamente. Las IA buscan la especificidad y la autenticidad local. Un restaurante independiente bien arraigado en su barrio, con resenas detalladas, una identidad culinaria clara e informacion coherente online, puede ser recomendado antes que una cadena cuyo perfil es estandarizado y menos distintivo. El GEO favorece los negocios que cuentan una historia unica — y eso es exactamente lo que los restaurantes independientes hacen mejor.
 
 ### Cuanto tiempo se tarda en empezar a aparecer en las recomendaciones IA?
+
 Las primeras mejoras (ficha Google completada, nuevas resenas) pueden producir resultados en 3 a 6 semanas. El estudio Sorbey muestra que un bistro parisino duplico su visibilidad IA en 6 meses actualizando su ficha Google Business cada semana, acumulando resenas frescas y manteniendo la coherencia de su informacion online.
-
----
-
-**Gestionas un restaurante?** [Descubre como ayudamos a los restaurantes a ser encontrados →](/restaurants)

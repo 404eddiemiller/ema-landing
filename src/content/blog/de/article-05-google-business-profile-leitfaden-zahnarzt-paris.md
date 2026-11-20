@@ -1,7 +1,7 @@
 ---
 title: "Wie Sie Ihr Google-Profil richtig ausfüllen, um mehr Patienten zu gewinnen (Leitfaden für Zahnärzte in Paris)"
 slug: "google-business-profile-leitfaden-zahnarzt-paris"
-meta_title: "Google-Profil für Zahn��rzte in Paris: Der Schritt-für-Schritt-Leitfaden, um mehr Patienten zu gewinnen"
+meta_title: "Google-Profil für Zahnärzte in Paris: Der Schritt-für-Schritt-Leitfaden, um mehr Patienten zu gewinnen"
 meta_description: "Ihr Google-Profil ist das Erste, was Ihre zukünftigen Patienten sehen. So füllen Sie es Schritt für Schritt richtig aus, damit Ihre Praxis gefunden und gewählt wird."
 author: "Eddie Miller Agency"
 date: "2026-02-04"
@@ -9,21 +9,19 @@ category: "Google & Bewertungen"
 tags: ["Google Business Profile", "Zahnarzt", "lokales SEO", "Paris", "Google-Profil", "Google-Bewertungen", "GBP", "Google Maps"]
 cta: "diagnostic-gratuit"
 lang: "de"
-reading_time: "15 min"
+reading_time: "9 min"
 image: "/images/blog/google-business-profile-guide-dentiste-paris.webp"
 imageAlt: "Google Business Profil einer Zahnarztpraxis auf einem Computerbildschirm"
 internal_links:
-  - slug: "geo-optimierung-ki-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+  - slug: "ki-doctolib-ersetzen-zahnarztpraxis"
+    anchor: "Von der Zahnarztsuche zur Buchung auf Doctolib"
   - slug: "zahnarztpraxis-unsichtbar-chatgpt"
-    anchor: "warum KI-Systeme Ihre Praxis nicht empfehlen"
+    anchor: "Warum Ihre Praxis nicht erscheint, wenn man ChatGPT nach einem Zahnarzt fragt"
 ---
 
-## Google Business Profile: Der vollst��ndige Leitfaden für Pariser Zahnärzte (2026)
+## Google Business Profile: Der vollständige Leitfaden für Pariser Zahnärzte (2026)
 
 Ihr Google Business Profile (GBP) ist zum ersten Kontaktpunkt zwischen Ihnen und Ihren zukünftigen Patienten geworden. Noch bevor sie Ihre Webseite besuchen oder Doctolib konsultieren, sehen die meisten Patienten Ihr Google-Profil — sei es in den Suchergebnissen, auf Google Maps oder mittlerweile in den KI-generierten Antworten.
-
-2026 ist Ihr GBP-Profil nicht mehr nur ein einfaches Online-Verzeichnis. Es ist ein aktives Schaufenster, das direkt Ihr Ranking im Map Pack (die drei ersten Google Maps-Ergebnisse), Ihre wahrgenommene Reputation und Ihre Sichtbarkeit bei KI-Assistenten wie ChatGPT, Perplexity und Google AI Overview beeinflusst.
 
 Dieser Leitfaden begleitet Sie Schritt für Schritt bei der Optimierung jedes Elements Ihres Profils, mit spezifischen Anweisungen für Pariser Zahnarztpraxen.
 
@@ -75,7 +73,7 @@ Verwenden Sie eine Festnetznummer (01 oder 09) statt einer Mobilnummer. Eine Fes
 
 Für den Webseiten-Link verweisen Sie auf Ihre Startseite — oder besser noch auf eine Ihrer Praxis gewidmete Landingpage. Google gleicht die Informationen Ihres Profils mit denen Ihrer Webseite ab, um die Konsistenz zu überprüfen.
 
-**Reservierungslink:** Fügen Sie Ihren Doctolib-Link als Terminvereinbarungslink hinzu. Es ist ein direkter Aktionsbutton, der die Konversion erleichtert und den Google in seinen Ergebnissen wertsch��tzt.
+**Reservierungslink:** Fügen Sie Ihren Doctolib-Link als Terminvereinbarungslink hinzu. Es ist ein direkter Aktionsbutton, der die Konversion erleichtert und den Google in seinen Ergebnissen wertschätzt.
 
 ## Schritt 7: Die Beschreibung — Ihre strategischen 750 Zeichen
 
@@ -123,7 +121,7 @@ Google bietet spezifische Attribute an, die Sie in Ihrem Profil aktivieren könn
 
 ## Die Zusammenfassung: 15-Punkte-Checkliste
 
-**Kritische Priorität (diese Woche):** 1 — Profil beansprucht und verifiziert. 2 — Exakter Name. 3 — Korrekte Hauptkategorie + relevante Nebenkategorien. 4 — Exakte und konsistente Adresse. 5 — Vollständige und aktuelle ��ffnungszeiten. 6 — Festnetznummer und Doctolib-Link hinzugefügt. 7 — Beschreibung verfasst (750 Zeichen).
+**Kritische Priorität (diese Woche):** 1 — Profil beansprucht und verifiziert. 2 — Exakter Name. 3 — Korrekte Hauptkategorie + relevante Nebenkategorien. 4 — Exakte und konsistente Adresse. 5 — Vollständige und aktuelle Öffnungszeiten. 6 — Festnetznummer und Doctolib-Link hinzugefügt. 7 — Beschreibung verfasst (750 Zeichen).
 
 **Hohe Priorität (nächste zwei Wochen):** 8 — Alle Leistungen einzeln aufgelistet. 9 — Mindestens 10 aktuelle Fotos. 10 — Bewertungskampagne gestartet. 11 — Alle bestehenden Bewertungen beantwortet. 12 — Erster Google-Beitrag veröffentlicht.
 
@@ -137,29 +135,24 @@ Wenn ein Nutzer ChatGPT fragt „Welchen Zahnarzt empfehlen Sie im 15. Arrondiss
 
 Ein optimiertes GBP-Profil verbessert nicht nur Ihre Position in Google Maps. Es verbessert Ihre [Sichtbarkeit bei allen KI-Systemen](/de/blog/geo-optimierung-ki-2026). Das ist die Grundlage jeder GEO-Strategie (Generative Engine Optimization) — und für eine Pariser Zahnarztpraxis ist es die Maßnahme mit der bestmöglichen Rendite.
 
----
-
-*Möchten Sie wissen, ob Ihr Google Business Profil wirklich optimiert ist? Eddie Miller Agency erstellt ein kostenloses GBP + GEO-Audit für Pariser Zahnarztpraxen: Analyse Ihres Profils, Vergleich mit Ihren direkten Konkurrenten und prioritärer Aktionsplan. [Mein kostenloses Audit anfordern →]*
-
----
-
 ## FAQ — Google Business Profile für Zahnärzte
 
 ### Was ist der Unterschied zwischen Google Business Profile und Google My Business?
+
 Es ist dasselbe. Google My Business (GMB) wurde Ende 2021 offiziell in Google Business Profile (GBP) umbenannt. Die Funktionsweise ist identisch, nur der Name hat sich geändert. Sie verwalten Ihr Profil direkt über die Google-Suche oder Google Maps.
 
 ### Wie lange dauert es, bis nach der Optimierung Ergebnisse sichtbar werden?
+
 Die ersten Ranking-Verbesserungen im Map Pack erscheinen in der Regel 2 bis 4 Wochen nach einer vollständigen Profiloptimierung. Die Anhäufung aktueller Bewertungen zeigt progressive Effekte über 2 bis 3 Monate. Der Schlüssel ist die Regelmäßigkeit: Profile, die eine kontinuierliche Aktivität aufrechterhalten (Beiträge, Fotos, Bewertungen), verbessern sich schneller und nachhaltiger.
 
 ### Meine Praxis gehört zu einem Netzwerk. Wie verwalte ich das Profil?
+
 Jedes Zentrum muss sein eigenes GBP-Profil mit eigener Adresse haben. Der Name muss exakt dem Namen des lokalen Zentrums entsprechen. Stellen Sie sicher, dass Öffnungszeiten, Leistungen und Behandler spezifisch für Ihr Zentrum sind und nicht von einem anderen Zentrum des Netzwerks kopiert wurden.
 
 ### Kann ich mein Profil ohne Webseite verwalten?
+
 Ja, Sie können ein GBP-Profil ohne Webseite haben. Allerdings nutzt Google Ihre Webseite, um die Informationen Ihres Profils zu überprüfen und zu ergänzen. Ohne Webseite wird Ihr „Bekanntheitsgrad" begrenzt sein und KI-Systeme haben weniger Material, um Sie zu empfehlen. Wenn eine vollständige Webseite nicht sofort möglich ist, stellen Sie mindestens sicher, dass Ihr Doctolib-Profil vollständig ist — es dient als teilweiser Ersatz.
 
 ### Verfallen Google Business Beiträge?
+
 Beiträge bleiben 6 Monate sichtbar (Angebotsbeiträge verfallen zum festgelegten Enddatum). Auch nach Ablauf der Anzeige bleiben sie indexiert und tragen zur Aktivitätshistorie Ihres Profils bei. Es geht nicht um einen einzelnen Beitrag, sondern um Regelmäßigkeit: Ein konstanter Beitragsfluss signalisiert Google und den KI-Systemen, dass Ihre Praxis aktiv ist.
-
----
-
-**Sie sind Zahnarzt in Paris?** [Entdecken Sie, wie wir Zahnarztpraxen helfen, gefunden zu werden →](/dentistes)

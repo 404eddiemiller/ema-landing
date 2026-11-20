@@ -9,18 +9,14 @@ category: "Online zichtbaarheid"
 tags: ["SEO-bureau", "visibilité IA", "AI-zichtbaarheid", "ChatGPT", "lokale SEO", "beperkingen SEO", "Parijs"]
 cta: "diagnostic-gratuit"
 lang: "nl"
-reading_time: "8 min"
+reading_time: "2 min"
 image: "/images/blog/agence-seo-ia-visibilite-verite.webp"
 imageAlt: "Bureau met een computerscherm dat online zichtbaarheidsstatistieken toont"
 internal_links:
-  - slug: "geo-optimalisatie-ai-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "chatgpt-perplexity-google-ai-vergelijking-zaken-parijs"
-    anchor: "onze vergelijking van AI-platformen"
+  - slug: "toeristische-zoekvragen-parijs-vergelijken"
+    anchor: "Een toeristische zoekvraag over Parijs vergelijken in drie assistenten"
   - slug: "nul-klik-google-zoekopdrachten-oplossing-lokale-zaak"
-    anchor: "het nul-klik-fenomeen"
-  - slug: "onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs"
-    anchor: "ons onderzoek naar 50 tandartspraktijken"
+    anchor: "Waarom uw website minder bezoekers krijgt via Google (en hoe u weer klanten vindt)"
 ---
 
 ## 5 dingen die uw SEO-bureau u niet vertelt over AI en uw zichtbaarheid
@@ -30,8 +26,6 @@ Dit artikel is niet bedoeld om SEO-bureaus af te kraken. SEO blijft fundamenteel
 ## 1. Nummer één op Google zijn betekent niet aanbevolen worden door AI's
 
 Slechts 14% van de door AI's geciteerde URL's staat in de top 10 van Google. 86% van de AI-aanbevelingen komt van bronnen die NIET de eerste op Google zijn.
-
-In [ons onderzoek naar 50 Parijse tandartspraktijken](/nl/blog/onderzoek-ai-zichtbaarheid-50-tandartspraktijken-parijs) hadden meerdere goed gepositioneerde praktijken in klassieke SEO een lage GEO-score. En omgekeerd.
 
 Stuurt uw SEO-bureau u een rapport over uw AI-vermeldingen?
 
@@ -53,8 +47,6 @@ De inhoud die AI's het meest waarderen: gestructureerde FAQ's, gedetailleerde kl
 
 ## Wat u aan uw SEO-bureau zou moeten vragen
 
-"Volgt u mijn zichtbaarheid op ChatGPT, Perplexity en Google AI Overview?"
-
 "Zijn mijn Schema.org-gestructureerde gegevens up-to-date en geoptimaliseerd voor AI's?"
 
 "Is mijn informatie consistent op Google, Doctolib en de gidsen?"
@@ -66,7 +58,3 @@ De inhoud die AI's het meest waarderen: gestructureerde FAQ's, gedetailleerde kl
 ## SEO en GEO: complementair, geen concurrenten
 
 De zaak die een goede SEO-strategie combineert met een goede GEO-strategie, bereikt klanten op alle kanalen. Wie alleen SEO doet, bereikt de helft. Wie alleen GEO doet, bereikt de andere helft. Wie beide doet, bereikt alles. En in 2026 is "alles" de enige strategie die duurzaam werkt.
-
----
-
-*Dekt uw SEO-bureau uw AI-zichtbaarheid? Eddie Miller Agency is gespecialiseerd in GEO voor lokale Parijse zaken. Onze gratis audit vult uw bestaande SEO-strategie aan door uw zichtbaarheid op AI's in kaart te brengen. [Mijn gratis GEO-audit aanvragen →]*

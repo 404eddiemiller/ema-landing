@@ -1,17 +1,17 @@
 {
   "en": {
-    "title": "AI visibility, automation & websites in Paris — Eddie Miller Agency",
-    "description": "Help customers find your business through AI search and Google Maps. Simplify repetitive work and build a website worthy of your expertise.",
+    "title": "AI visibility and AI consulting in Paris — Eddie Miller Agency",
+    "description": "Help customers find your Paris business on ChatGPT, Claude and Gemini, or get advice on using AI in your team’s daily work.",
     "eyebrow": "Artificial intelligence. A feel for real business.",
     "hero": [
-      "Great local places",
-      "deserve to be",
-      "discovered."
+      "AI in Paris,",
+      "for your customers",
+      "and your team."
     ],
-    "intro": "Your next customer is looking for you. On ChatGPT, on Google, in your neighbourhood. Let’s help them discover you — and give you more time to welcome them.",
+    "intro": "Customers ask ChatGPT, Claude and Gemini where to go in Paris. Inside your business, your team might need help sorting invoices or drafting replies. Choose the service that fits your needs.",
     "cta": "Let’s talk about your business",
     "secondary": "Discover our approach",
-    "local": "Paris & Île-de-France",
+    "local": "Paris",
     "photo": "The expertise is yours. We help it get noticed.",
     "nav": [
       "Expertise",
@@ -25,16 +25,16 @@
       "Make an impression"
     ],
     "services": [
-      "AI visibility & Google Maps",
-      "AI automation",
+      "Visibility in AI answers",
+      "AI consulting for your team",
       "Website creation"
     ],
-    "serviceIntro": "Three services. One purpose: move your business forward.",
+    "serviceIntro": "Customer questions and everyday tasks differ from one industry to the next.",
     "visibility": [
-      "Be part of",
-      "the conversation."
+      "When customers",
+      "look for a place in Paris."
     ],
-    "visibilityText": "A boutique hotel in the Marais? A good restaurant near Montparnasse? We improve your online presence to help search engines and AI assistants understand your business, your services and what makes you relevant.",
+    "visibilityText": "Tourists might ask for a hotel in the Marais, a bar near Bastille or a restaurant still serving dinner after a show. We check what ChatGPT, Claude and Gemini say about your Paris business, then work with you to put missing or conflicting details right.",
     "visibilityList": [
       "An accurate, complete Google Business Profile.",
       "Useful pages answering real customer questions.",
@@ -59,11 +59,11 @@
     ],
     "measured": "We measure observed mentions. We cannot promise a position.",
     "auto": [
-      "Less admin.",
-      "More of your craft."
+      "Which task could",
+      "AI make easier?"
     ],
-    "autoText": "The same emails. The same documents to file. The same information to copy. We learn how your team works, then build practical automations around your everyday tasks.",
-    "autoLink": "Explore useful automations",
+    "autoText": "We start with a task your Paris team knows well, such as sorting invoices or drafting replies. Together we choose a use case, test it with your tools and let your team review the result.",
+    "autoLink": "Explore AI consulting",
     "example": "Illustrative example · subject to tool compatibility",
     "tabs": [
       "Invoices",
@@ -162,15 +162,15 @@
       ]
     ],
     "contactTitle": [
-      "Let’s start with",
-      "your everyday work."
+      "What would you",
+      "like to work on?"
     ],
-    "contactIntro": "Tell us what you do and what takes up your time. A first 15-minute conversation to see where we can help.",
+    "contactIntro": "Are you looking to be found by customers or to use AI within your team? Tell us what you need for our first 15-minute conversation.",
     "contactSmall": "Free initial conversation · no commitment",
     "footer": "AI for local businesses.",
     "offerTitle": [
-      "The right service.",
-      "In the right place."
+      "Two services",
+      "in Paris."
     ],
     "offerIntro": "A clear scope before work begins. A quote specifying deliverables, timelines and tool costs.",
     "prices": [
@@ -209,21 +209,28 @@
       "From conversation to delivery."
     ],
     "aboutText": "Based in Paris, I help local businesses present their expertise and use AI in their daily work. I start by understanding your customers, tools and tasks before suggesting a solution.",
-    "aboutSecond": "You know what matters in your business. My role is to turn that need into something useful, understandable and verifiable: a clearer page, better local information or a simpler repetitive task."
+    "aboutSecond": "You know what matters in your business. My role is to turn that need into something useful, understandable and verifiable: a clearer page, better local information or a simpler repetitive task.",
+    "choice": "You can choose AI consulting without a visibility assessment.",
+    "followLabel": "Ongoing support",
+    "contactLinks": [
+      "Discuss my visibility",
+      "Discuss AI for my team",
+      "Discuss my website"
+    ]
   },
   "es": {
-    "title": "Visibilidad en IA, automatización y sitios web en París — Eddie Miller Agency",
-    "description": "Ayudamos a los negocios locales a ser encontrados en las IA y Google Maps, simplificar tareas y mejorar su sitio web.",
+    "title": "Visibilidad en IA y consultoría de IA en París — Eddie Miller Agency",
+    "description": "Ayuda a tus clientes a encontrar tu negocio en París en ChatGPT, Claude y Gemini, o recibe asesoramiento para usar la IA en el trabajo diario de tu equipo.",
     "eyebrow": "Inteligencia artificial. Con los pies en el negocio.",
     "hero": [
-      "Los buenos negocios",
-      "merecen ser",
-      "descubiertos."
+      "IA en París,",
+      "para tus clientes",
+      "y tu equipo."
     ],
-    "intro": "Tu próximo cliente te busca. En ChatGPT, en Google, en tu barrio. Ayudémosle a descubrirte y a tu equipo a tener más tiempo para recibirlo.",
+    "intro": "Tus clientes preguntan a ChatGPT, Claude y Gemini adónde ir en París. Dentro de tu negocio, quizá necesites clasificar facturas o preparar respuestas. Elige el servicio que responda a tu necesidad.",
     "cta": "Hablemos de tu negocio",
     "secondary": "Descubre nuestro enfoque",
-    "local": "París e Île-de-France",
+    "local": "París",
     "photo": "La experiencia es tuya. Ayudamos a darla a conocer.",
     "nav": [
       "Servicios",
@@ -237,16 +244,16 @@
       "Causar una buena impresión"
     ],
     "services": [
-      "Visibilidad en IA y Google Maps",
-      "Automatización con IA",
+      "Visibilidad en las respuestas de la IA",
+      "Consultoría de IA para tu equipo",
       "Creación de sitios web"
     ],
-    "serviceIntro": "Tres servicios. Un objetivo: hacer avanzar tu negocio.",
+    "serviceIntro": "Las preguntas de los clientes y las tareas del equipo varían según el sector.",
     "visibility": [
-      "Forma parte de",
-      "la conversación."
+      "Cuando un cliente busca",
+      "un lugar en París."
     ],
-    "visibilityText": "¿Un hotel con encanto en el Marais? ¿Un restaurante cerca de Montparnasse? Mejoramos tu presencia digital para que buscadores y asistentes comprendan tu negocio y tus servicios.",
+    "visibilityText": "Un turista busca un hotel en el Marais, un bar cerca de la Bastilla o un restaurante que siga abierto después del espectáculo. Revisamos qué dicen ChatGPT, Claude y Gemini de tu negocio en París y corregimos contigo los datos que faltan o se contradicen.",
     "visibilityList": [
       "Una ficha de Google completa y actualizada.",
       "Páginas útiles que respondan a preguntas reales.",
@@ -271,11 +278,11 @@
     ],
     "measured": "Medimos las menciones observadas. No prometemos posiciones.",
     "auto": [
-      "Menos tareas.",
-      "Más tiempo para tu oficio."
+      "¿Qué tarea puedes",
+      "simplificar con IA?"
     ],
-    "autoText": "Los mismos correos, documentos y datos que copiar. Entendemos cómo trabaja tu equipo y preparamos automatizaciones útiles para su día a día.",
-    "autoLink": "Descubrir las automatizaciones",
+    "autoText": "Partimos de una tarea que tu equipo en París conoce bien, como clasificar facturas o redactar respuestas. Elegimos un uso contigo, lo probamos con tus herramientas y tu equipo revisa el resultado.",
+    "autoLink": "Conocer la consultoría de IA",
     "example": "Ejemplo ilustrativo · según herramientas compatibles",
     "tabs": [
       "Facturas",
@@ -374,15 +381,15 @@
       ]
     ],
     "contactTitle": [
-      "Empecemos por",
-      "tu día a día."
+      "¿En qué te",
+      "podemos ayudar?"
     ],
-    "contactIntro": "Cuéntanos qué haces y qué te quita tiempo. Una primera conversación de 15 minutos para ver dónde podemos ayudar.",
+    "contactIntro": "¿Quieres que los clientes te encuentren o usar la IA en tu equipo? Cuéntanos qué necesitas para preparar una primera conversación de 15 minutos.",
     "contactSmall": "Primera conversación gratuita · sin compromiso",
     "footer": "La IA al servicio de los negocios locales.",
     "offerTitle": [
-      "El servicio adecuado.",
-      "En el lugar adecuado."
+      "Dos servicios",
+      "en París."
     ],
     "offerIntro": "Un alcance claro antes de empezar. Un presupuesto con entregables, plazos y costes de herramientas.",
     "prices": [
@@ -421,21 +428,28 @@
       "De la conversación al resultado."
     ],
     "aboutText": "En París, ayudo a los negocios locales a presentar su experiencia y utilizar la IA en su trabajo diario. Primero entiendo a tus clientes, herramientas y tareas.",
-    "aboutSecond": "Tú sabes lo que importa en tu negocio. Mi trabajo es convertir esa necesidad en algo útil, comprensible y verificable: una página más clara, mejor información local o una tarea simplificada."
+    "aboutSecond": "Tú sabes lo que importa en tu negocio. Mi trabajo es convertir esa necesidad en algo útil, comprensible y verificable: una página más clara, mejor información local o una tarea simplificada.",
+    "choice": "Puedes contratar la consultoría de IA sin un diagnóstico de visibilidad.",
+    "followLabel": "Seguimiento",
+    "contactLinks": [
+      "Hablar de mi visibilidad",
+      "Hablar de la IA en mi equipo",
+      "Hablar de mi sitio web"
+    ]
   },
   "de": {
-    "title": "KI-Sichtbarkeit, Automatisierung und Websites in Paris — Eddie Miller Agency",
-    "description": "Wir helfen lokalen Unternehmen, über KI und Google Maps gefunden zu werden, Routineaufgaben zu vereinfachen und ihre Website zu verbessern.",
+    "title": "KI-Sichtbarkeit und KI-Beratung in Paris — Eddie Miller Agency",
+    "description": "Werden Sie für Kunden auf ChatGPT, Claude und Gemini in Paris auffindbar oder lassen Sie sich zum KI-Einsatz im Alltag Ihres Teams beraten.",
     "eyebrow": "Künstliche Intelligenz. Mit Sinn für den Alltag.",
     "hero": [
-      "Gute Adressen",
-      "verdienen es,",
-      "entdeckt zu werden."
+      "KI in Paris,",
+      "für Ihre Kunden",
+      "und Ihr Team."
     ],
-    "intro": "Ihr nächster Kunde sucht nach Ihnen. Auf ChatGPT, auf Google, in Ihrem Viertel. Wir helfen ihm, Sie zu entdecken – und Ihnen, mehr Zeit für ihn zu haben.",
+    "intro": "Ihre Kunden fragen ChatGPT, Claude und Gemini nach Adressen in Paris. Im Betrieb geht es vielleicht darum, Rechnungen zu sortieren oder Antworten zu entwerfen. Wählen Sie die Leistung, die Sie brauchen.",
     "cta": "Sprechen wir über Ihr Unternehmen",
     "secondary": "Unseren Ansatz entdecken",
-    "local": "Paris und Île-de-France",
+    "local": "Paris",
     "photo": "Das Können liegt bei Ihnen. Wir machen es sichtbarer.",
     "nav": [
       "Leistungen",
@@ -449,16 +463,16 @@
       "Überzeugen"
     ],
     "services": [
-      "KI-Sichtbarkeit und Google Maps",
-      "Automatisierung mit KI",
+      "Sichtbarkeit in KI-Antworten",
+      "KI-Beratung für Ihr Team",
       "Website-Erstellung"
     ],
-    "serviceIntro": "Drei Leistungen. Ein Ziel: Ihr Unternehmen voranbringen.",
+    "serviceIntro": "Kundenfragen und Arbeitsabläufe unterscheiden sich von Branche zu Branche.",
     "visibility": [
-      "Werden Sie Teil",
-      "des Gesprächs."
+      "Wenn Kunden in Paris",
+      "eine Adresse suchen."
     ],
-    "visibilityText": "Ein Boutiquehotel im Marais? Ein Restaurant bei Montparnasse? Wir verbessern Ihren Onlineauftritt, damit Suchmaschinen und KI-Assistenten Ihr Unternehmen und Ihre Leistungen verstehen.",
+    "visibilityText": "Touristen suchen etwa ein Hotel im Marais, eine Bar in der Nähe der Bastille oder ein Restaurant, das nach dem Theater noch geöffnet hat. Wir prüfen, was ChatGPT, Claude und Gemini über Ihren Pariser Betrieb sagen, und korrigieren mit Ihnen fehlende oder widersprüchliche Angaben.",
     "visibilityList": [
       "Ein vollständiges, aktuelles Google-Unternehmensprofil.",
       "Nützliche Seiten mit Antworten auf echte Kundenfragen.",
@@ -483,11 +497,11 @@
     ],
     "measured": "Wir erfassen beobachtete Erwähnungen. Wir versprechen keine Platzierung.",
     "auto": [
-      "Weniger Routine.",
-      "Mehr Zeit fürs Wesentliche."
+      "Welche Aufgabe lässt",
+      "sich mit KI vereinfachen?"
     ],
-    "autoText": "Dieselben E-Mails, Dokumente und Daten. Wir lernen den Alltag Ihres Teams kennen und entwickeln praktische Automatisierungen für wiederkehrende Aufgaben.",
-    "autoLink": "Automatisierungen entdecken",
+    "autoText": "Ausgangspunkt ist eine vertraute Aufgabe in Ihrem Pariser Team: Rechnungen sortieren oder Antworten entwerfen. Gemeinsam wählen wir eine Anwendung und testen sie mit Ihren Werkzeugen. Ihr Team prüft das Ergebnis.",
+    "autoLink": "Mehr zur KI-Beratung",
     "example": "Illustratives Beispiel · abhängig von Ihren Tools",
     "tabs": [
       "Rechnungen",
@@ -586,15 +600,15 @@
       ]
     ],
     "contactTitle": [
-      "Beginnen wir mit",
-      "Ihrem Arbeitsalltag."
+      "Wobei können",
+      "wir helfen?"
     ],
-    "contactIntro": "Erzählen Sie uns, was Sie tun und was Zeit kostet. Ein erstes Gespräch von 15 Minuten zeigt, wo wir helfen können.",
+    "contactIntro": "Möchten Sie besser gefunden werden oder KI im Team einsetzen? Schildern Sie uns Ihr Anliegen für ein erstes Gespräch von 15 Minuten.",
     "contactSmall": "Kostenloses Erstgespräch · unverbindlich",
     "footer": "KI für lokale Unternehmen.",
     "offerTitle": [
-      "Die passende Leistung.",
-      "Am richtigen Ort."
+      "Zwei Angebote",
+      "in Paris."
     ],
     "offerIntro": "Ein klarer Umfang vor dem Start. Ein Angebot mit Ergebnissen, Fristen und Toolkosten.",
     "prices": [
@@ -633,21 +647,28 @@
       "Vom Gespräch zur Umsetzung."
     ],
     "aboutText": "In Paris helfe ich lokalen Unternehmen, ihr Können zu zeigen und KI im Alltag einzusetzen. Zuerst verstehe ich Ihre Kunden, Tools und Aufgaben.",
-    "aboutSecond": "Sie wissen, was in Ihrem Unternehmen zählt. Ich mache daraus etwas Nützliches, Verständliches und Überprüfbares: eine klarere Seite, bessere lokale Angaben oder eine einfachere Routineaufgabe."
+    "aboutSecond": "Sie wissen, was in Ihrem Unternehmen zählt. Ich mache daraus etwas Nützliches, Verständliches und Überprüfbares: eine klarere Seite, bessere lokale Angaben oder eine einfachere Routineaufgabe.",
+    "choice": "Sie können die KI-Beratung ohne vorherige Sichtbarkeitsanalyse buchen.",
+    "followLabel": "Betreuung",
+    "contactLinks": [
+      "Über meine Sichtbarkeit sprechen",
+      "Über KI in meinem Team sprechen",
+      "Über meine Website sprechen"
+    ]
   },
   "it": {
-    "title": "Visibilità IA, automazione e siti web a Parigi — Eddie Miller Agency",
-    "description": "Aiutiamo le imprese locali a farsi trovare nelle IA e su Google Maps, semplificare le attività e migliorare il sito web.",
+    "title": "Visibilità nelle IA e consulenza IA a Parigi — Eddie Miller Agency",
+    "description": "Aiuta i clienti a trovare la tua attività a Parigi su ChatGPT, Claude e Gemini, oppure scopri come usare l’IA nel lavoro quotidiano del tuo team.",
     "eyebrow": "Intelligenza artificiale. Attenzione al lavoro reale.",
     "hero": [
-      "Le buone attività",
-      "meritano di essere",
-      "scoperte."
+      "L’IA a Parigi,",
+      "per i tuoi clienti",
+      "e il tuo team."
     ],
-    "intro": "Il tuo prossimo cliente ti cerca. Su ChatGPT, su Google, nel tuo quartiere. Aiutiamolo a scoprirti e lasciamo alla tua squadra più tempo per accoglierlo.",
+    "intro": "I clienti chiedono a ChatGPT, Claude e Gemini dove andare a Parigi. Nella tua attività, invece, potresti voler classificare le fatture o preparare le risposte alle richieste. Scegli il servizio che ti serve.",
     "cta": "Parliamo della tua attività",
     "secondary": "Scopri il nostro approccio",
-    "local": "Parigi e Île-de-France",
+    "local": "Parigi",
     "photo": "La competenza è tua. Noi aiutiamo a farla conoscere.",
     "nav": [
       "Servizi",
@@ -661,16 +682,16 @@
       "Convincere"
     ],
     "services": [
-      "Visibilità IA e Google Maps",
-      "Automazione con IA",
+      "Visibilità nelle risposte delle IA",
+      "Consulenza IA per il tuo team",
       "Creazione di siti web"
     ],
-    "serviceIntro": "Tre servizi. Un obiettivo: far avanzare la tua attività.",
+    "serviceIntro": "Le domande dei clienti e le attività del team cambiano da un settore all’altro.",
     "visibility": [
-      "Entra nella",
-      "conversazione."
+      "Quando un cliente cerca",
+      "un indirizzo a Parigi."
     ],
-    "visibilityText": "Un hotel di charme nel Marais? Un ristorante vicino a Montparnasse? Miglioriamo la tua presenza online per aiutare motori di ricerca e assistenti a comprendere la tua attività e i tuoi servizi.",
+    "visibilityText": "Un turista cerca un hotel nel Marais, un bar vicino alla Bastiglia o un ristorante ancora aperto dopo lo spettacolo. Verifichiamo cosa dicono ChatGPT, Claude e Gemini della tua attività a Parigi e correggiamo con te le informazioni mancanti o discordanti.",
     "visibilityList": [
       "Una scheda Google completa e aggiornata.",
       "Pagine utili che rispondono alle domande dei clienti.",
@@ -695,11 +716,11 @@
     ],
     "measured": "Misuriamo le menzioni osservate. Non promettiamo posizioni.",
     "auto": [
-      "Meno incombenze.",
-      "Più spazio al tuo mestiere."
+      "Quale compito puoi",
+      "semplificare con l’IA?"
     ],
-    "autoText": "Le stesse email, gli stessi documenti e dati da ricopiare. Comprendiamo il lavoro del tuo team e realizziamo automazioni pratiche per le attività ripetitive.",
-    "autoLink": "Scopri le automazioni",
+    "autoText": "Partiamo da un compito che il tuo team a Parigi conosce bene, come classificare fatture o preparare risposte. Scegliamo insieme un uso concreto e lo proviamo con i tuoi strumenti. Il team verifica il risultato.",
+    "autoLink": "Scopri la consulenza IA",
     "example": "Esempio illustrativo · secondo gli strumenti compatibili",
     "tabs": [
       "Fatture",
@@ -798,15 +819,15 @@
       ]
     ],
     "contactTitle": [
-      "Partiamo dal",
-      "tuo lavoro quotidiano."
+      "Di cosa hai",
+      "bisogno?"
     ],
-    "contactIntro": "Raccontaci cosa fai e cosa ti porta via tempo. Un primo colloquio di 15 minuti per capire come aiutarti.",
+    "contactIntro": "Vuoi farti trovare dai clienti o usare l’IA nel tuo team? Raccontaci di cosa hai bisogno per preparare un primo colloquio di 15 minuti.",
     "contactSmall": "Primo colloquio gratuito · senza impegno",
     "footer": "L’IA al servizio delle imprese locali.",
     "offerTitle": [
-      "Il servizio giusto.",
-      "Nel posto giusto."
+      "Due servizi",
+      "a Parigi."
     ],
     "offerIntro": "Un perimetro chiaro prima di iniziare. Un preventivo con consegne, tempi e costi degli strumenti.",
     "prices": [
@@ -845,21 +866,28 @@
       "Dal colloquio alla consegna."
     ],
     "aboutText": "A Parigi, aiuto le imprese locali a presentare le proprie competenze e usare l’IA nel lavoro quotidiano. Parto dai tuoi clienti, strumenti e attività.",
-    "aboutSecond": "Sai cosa conta nella tua attività. Il mio ruolo è trasformare il bisogno in qualcosa di utile, comprensibile e verificabile: una pagina più chiara, migliori informazioni locali o un compito più semplice."
+    "aboutSecond": "Sai cosa conta nella tua attività. Il mio ruolo è trasformare il bisogno in qualcosa di utile, comprensibile e verificabile: una pagina più chiara, migliori informazioni locali o un compito più semplice.",
+    "choice": "Puoi richiedere la consulenza IA senza un’analisi della visibilità.",
+    "followLabel": "Assistenza",
+    "contactLinks": [
+      "Parliamo della mia visibilità",
+      "Parliamo dell’IA nel mio team",
+      "Parliamo del mio sito"
+    ]
   },
   "pt": {
-    "title": "Visibilidade em IA, automação e sites em Paris — Eddie Miller Agency",
-    "description": "Ajudamos negócios locais a serem encontrados nas IA e no Google Maps, simplificar tarefas e melhorar o seu site.",
+    "title": "Visibilidade nas respostas da IA e consultoria em IA em Paris — Eddie Miller Agency",
+    "description": "Ajude os clientes a encontrar a sua empresa em Paris no ChatGPT, no Claude e no Gemini ou descubra como usar a IA no dia a dia da sua equipa.",
     "eyebrow": "Inteligência artificial. Atenção ao trabalho real.",
     "hero": [
-      "Os bons negócios",
-      "merecem ser",
-      "descobertos."
+      "IA em Paris,",
+      "para os seus clientes",
+      "e a sua equipa."
     ],
-    "intro": "O seu próximo cliente procura-o. No ChatGPT, no Google, no seu bairro. Vamos ajudá-lo a descobrir o seu negócio e dar-lhe mais tempo para o receber.",
+    "intro": "Os clientes perguntam ao ChatGPT, ao Claude e ao Gemini onde ir em Paris. Dentro da empresa, pode precisar de organizar faturas ou preparar respostas. Escolha o serviço de que precisa.",
     "cta": "Vamos falar do seu negócio",
     "secondary": "Conheça a nossa abordagem",
-    "local": "Paris e Île-de-France",
+    "local": "Paris",
     "photo": "O conhecimento é seu. Nós ajudamos a torná-lo visível.",
     "nav": [
       "Serviços",
@@ -873,16 +901,16 @@
       "Causar boa impressão"
     ],
     "services": [
-      "Visibilidade em IA e Google Maps",
-      "Automação com IA",
+      "Visibilidade nas respostas da IA",
+      "Consultoria em IA para a sua equipa",
       "Criação de sites"
     ],
-    "serviceIntro": "Três serviços. Um objetivo: fazer avançar o seu negócio.",
+    "serviceIntro": "As perguntas dos clientes e as tarefas da equipa variam de setor para setor.",
     "visibility": [
-      "Faça parte da",
-      "conversa."
+      "Quando um cliente procura",
+      "um local em Paris."
     ],
-    "visibilityText": "Um hotel de charme no Marais? Um restaurante perto de Montparnasse? Melhoramos a sua presença digital para ajudar motores de pesquisa e assistentes a compreender o seu negócio e os seus serviços.",
+    "visibilityText": "Um turista procura um hotel no Marais, um bar perto da Bastilha ou um restaurante que ainda sirva jantares depois de um espetáculo. Verificamos o que o ChatGPT, o Claude e o Gemini dizem da sua empresa em Paris e corrigimos consigo os dados em falta ou contraditórios.",
     "visibilityList": [
       "Um perfil Google completo e atualizado.",
       "Páginas úteis que respondem às perguntas dos clientes.",
@@ -907,11 +935,11 @@
     ],
     "measured": "Medimos as menções observadas. Não prometemos posições.",
     "auto": [
-      "Menos tarefas.",
-      "Mais tempo para o seu trabalho."
+      "Que tarefa pode",
+      "simplificar com IA?"
     ],
-    "autoText": "Os mesmos emails, documentos e dados para copiar. Compreendemos o quotidiano da equipa e criamos automações práticas para tarefas repetitivas.",
-    "autoLink": "Conhecer as automações",
+    "autoText": "Começamos por uma tarefa que a sua equipa em Paris conhece bem, como organizar faturas ou redigir respostas. Escolhemos consigo um uso concreto e testamo-lo com as suas ferramentas. A equipa verifica o resultado.",
+    "autoLink": "Conheça a consultoria em IA",
     "example": "Exemplo ilustrativo · sujeito a ferramentas compatíveis",
     "tabs": [
       "Faturas",
@@ -1010,15 +1038,15 @@
       ]
     ],
     "contactTitle": [
-      "Comecemos pelo",
-      "seu dia a dia."
+      "Em que podemos",
+      "ajudar?"
     ],
-    "contactIntro": "Conte-nos o que faz e o que lhe ocupa tempo. Uma primeira conversa de 15 minutos para perceber onde podemos ajudar.",
+    "contactIntro": "Quer que os clientes encontrem a sua empresa ou quer usar a IA na sua equipa? Diga-nos o que precisa para prepararmos uma primeira conversa de 15 minutos.",
     "contactSmall": "Primeira conversa gratuita · sem compromisso",
     "footer": "A IA ao serviço dos negócios locais.",
     "offerTitle": [
-      "O serviço certo.",
-      "No lugar certo."
+      "Dois serviços",
+      "em Paris."
     ],
     "offerIntro": "Um âmbito claro antes de começar. Um orçamento com entregas, prazos e custos das ferramentas.",
     "prices": [
@@ -1057,21 +1085,28 @@
       "Da conversa à entrega."
     ],
     "aboutText": "Em Paris, ajudo negócios locais a apresentar os seus conhecimentos e a usar IA no quotidiano. Começo pelos seus clientes, ferramentas e tarefas.",
-    "aboutSecond": "Sabe o que conta no seu negócio. O meu papel é transformar a necessidade em algo útil, compreensível e verificável: uma página mais clara, melhor informação local ou uma tarefa simplificada."
+    "aboutSecond": "Sabe o que conta no seu negócio. O meu papel é transformar a necessidade em algo útil, compreensível e verificável: uma página mais clara, melhor informação local ou uma tarefa simplificada.",
+    "choice": "Pode optar pela consultoria em IA sem fazer um diagnóstico de visibilidade.",
+    "followLabel": "Acompanhamento",
+    "contactLinks": [
+      "Falar da minha visibilidade",
+      "Falar da IA na minha equipa",
+      "Falar do meu site"
+    ]
   },
   "nl": {
-    "title": "AI-zichtbaarheid, automatisering en websites in Parijs — Eddie Miller Agency",
-    "description": "Wij helpen lokale bedrijven gevonden te worden via AI en Google Maps, terugkerend werk te vereenvoudigen en hun website te verbeteren.",
+    "title": "AI-zichtbaarheid en AI-advies in Parijs — Eddie Miller Agency",
+    "description": "Help klanten uw bedrijf in Parijs te vinden via ChatGPT, Claude en Gemini, of krijg advies over het gebruik van AI in het dagelijks werk van uw team.",
     "eyebrow": "Kunstmatige intelligentie. Oog voor de praktijk.",
     "hero": [
-      "Goede lokale zaken",
-      "verdienen het om",
-      "ontdekt te worden."
+      "AI in Parijs,",
+      "voor uw klanten",
+      "en uw team."
     ],
-    "intro": "Uw volgende klant zoekt u. Op ChatGPT, op Google, in uw buurt. Wij helpen u vindbaar te worden en geven uw team meer tijd om klanten te ontvangen.",
+    "intro": "Klanten vragen ChatGPT, Claude en Gemini waar ze in Parijs naartoe kunnen. Binnen uw bedrijf wilt u misschien facturen ordenen of antwoorden opstellen. Kies de dienst die bij uw vraag past.",
     "cta": "Laten we over uw bedrijf praten",
     "secondary": "Ontdek onze aanpak",
-    "local": "Parijs en Île-de-France",
+    "local": "Parijs",
     "photo": "Het vakmanschap is van u. Wij helpen het zichtbaar te maken.",
     "nav": [
       "Diensten",
@@ -1085,16 +1120,16 @@
       "Indruk maken"
     ],
     "services": [
-      "AI-zichtbaarheid en Google Maps",
-      "Automatisering met AI",
+      "Zichtbaarheid in AI-antwoorden",
+      "AI-advies voor uw team",
       "Websites maken"
     ],
-    "serviceIntro": "Drie diensten. Eén doel: uw bedrijf vooruithelpen.",
+    "serviceIntro": "Vragen van klanten en dagelijkse taken verschillen per sector.",
     "visibility": [
-      "Word deel van",
-      "het gesprek."
+      "Als een klant een adres",
+      "in Parijs zoekt."
     ],
-    "visibilityText": "Een boetiekhotel in de Marais? Een restaurant bij Montparnasse? Wij verbeteren uw online aanwezigheid zodat zoekmachines en AI-assistenten uw bedrijf en diensten beter begrijpen.",
+    "visibilityText": "Een toerist zoekt een hotel in de Marais, een bar bij de Bastille of een restaurant waar je na een voorstelling nog kunt eten. We bekijken wat ChatGPT, Claude en Gemini over uw Parijse bedrijf zeggen en verbeteren samen met u ontbrekende of tegenstrijdige informatie.",
     "visibilityList": [
       "Een volledig, actueel Google-bedrijfsprofiel.",
       "Nuttige pagina’s met antwoorden op echte klantvragen.",
@@ -1119,11 +1154,11 @@
     ],
     "measured": "Wij meten waargenomen vermeldingen. Wij beloven geen positie.",
     "auto": [
-      "Minder routine.",
-      "Meer tijd voor uw vak."
+      "Welke taak wordt",
+      "eenvoudiger met AI?"
     ],
-    "autoText": "Dezelfde e-mails, documenten en gegevens om over te nemen. Wij leren hoe uw team werkt en bouwen praktische automatiseringen voor terugkerende taken.",
-    "autoLink": "Ontdek automatiseringen",
+    "autoText": "We beginnen bij een taak die uw team in Parijs goed kent, zoals facturen ordenen of antwoorden opstellen. Samen kiezen we een toepassing en testen die met uw eigen hulpmiddelen. Uw team controleert het resultaat.",
+    "autoLink": "Meer over AI-advies",
     "example": "Illustratief voorbeeld · afhankelijk van geschikte tools",
     "tabs": [
       "Facturen",
@@ -1222,15 +1257,15 @@
       ]
     ],
     "contactTitle": [
-      "Laten we beginnen bij",
-      "uw dagelijkse werk."
+      "Waarmee kunnen",
+      "we u helpen?"
     ],
-    "contactIntro": "Vertel wat u doet en wat tijd kost. Een eerste gesprek van 15 minuten om te zien waar we kunnen helpen.",
+    "contactIntro": "Wilt u beter gevonden worden door klanten of AI inzetten binnen uw team? Vertel ons wat u nodig hebt voor een eerste gesprek van 15 minuten.",
     "contactSmall": "Gratis eerste gesprek · vrijblijvend",
     "footer": "AI voor lokale bedrijven.",
     "offerTitle": [
-      "De juiste dienst.",
-      "Op de juiste plek."
+      "Twee diensten",
+      "in Parijs."
     ],
     "offerIntro": "Een duidelijke opdracht vooraf. Een offerte met resultaten, termijnen en kosten van tools.",
     "prices": [
@@ -1269,6 +1304,13 @@
       "Van gesprek tot oplevering."
     ],
     "aboutText": "Vanuit Parijs help ik lokale bedrijven hun vakmanschap te tonen en AI dagelijks te gebruiken. Ik begin bij uw klanten, tools en taken.",
-    "aboutSecond": "U weet wat belangrijk is in uw bedrijf. Mijn rol is om die behoefte nuttig, begrijpelijk en toetsbaar te maken: een duidelijkere pagina, betere lokale informatie of een eenvoudiger terugkerende taak."
+    "aboutSecond": "U weet wat belangrijk is in uw bedrijf. Mijn rol is om die behoefte nuttig, begrijpelijk en toetsbaar te maken: een duidelijkere pagina, betere lokale informatie of een eenvoudiger terugkerende taak.",
+    "choice": "U kunt AI-advies kiezen zonder eerst uw zichtbaarheid te laten onderzoeken.",
+    "followLabel": "Ondersteuning",
+    "contactLinks": [
+      "Mijn zichtbaarheid bespreken",
+      "AI voor mijn team bespreken",
+      "Mijn website bespreken"
+    ]
   }
 }

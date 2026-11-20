@@ -4,26 +4,26 @@ import translations from './agency-translations.json';
 // Customer-facing offer copy. Publication requested by Adam on 6 September 2026.
 export const agency = {
   fr: {
-    title: 'Visibilité IA, automatisation & sites web à Paris — Eddie Miller Agency',
-    description: 'Faites connaître votre entreprise sur ChatGPT, Google et Google Maps. Automatisez vos tâches répétitives et créez un site à la hauteur de votre savoir-faire.',
+    title: "Visibilité IA et conseil en IA à Paris — Eddie Miller Agency",
+    description: "À Paris, aidez vos clients à vous trouver sur ChatGPT, Claude et Gemini, ou accompagnez votre équipe dans ses usages internes de l’IA.",
     eyebrow: 'L’intelligence artificielle. Le sens du terrain.',
-    hero: ['Les bonnes adresses', 'méritent d’être', 'trouvées.'],
-    intro: 'Votre prochain client vous cherche. Sur ChatGPT, sur Google, dans votre quartier. Faisons en sorte qu’il puisse vous découvrir — et que vous ayez plus de temps pour l’accueillir.',
+    hero: ["L’IA à Paris,", "côté clients et", "côté équipe."],
+    intro: "Vos clients posent leurs questions à ChatGPT, Claude et Gemini. Votre équipe a d’autres besoins : répondre aux demandes, classer les pièces, éviter les doubles saisies. Nous travaillons sur l’un ou l’autre, selon votre priorité.",
     cta: 'Parlons de votre entreprise', secondary: 'Découvrir notre approche',
-    local: 'Paris & Île-de-France', photo: 'Le savoir-faire est chez vous. Nous l’aidons à se voir.',
+    local: "Paris", photo: 'Le savoir-faire est chez vous. Nous l’aidons à se voir.',
     nav: ['Expertises', 'Votre métier', 'La méthode', 'Nos offres'],
     pillars: ['Être trouvé', 'Gagner du temps', 'Donner envie'],
-    services: ['Visibilité IA & Google Maps', 'Automatisation avec l’IA', 'Création de sites web'],
-    serviceIntro: 'Trois leviers. Un même objectif : faire avancer votre entreprise.',
-    visibility: ['Faites partie de', 'la conversation.'],
-    visibilityText: '« Un hôtel de charme dans le Marais ? » « Un bon restaurant près de Montparnasse ? » Nous travaillons votre présence en ligne pour aider les moteurs et les assistants IA à comprendre qui vous êtes, ce que vous faites et pourquoi vous choisir.',
+    services: ["Visibilité dans les réponses des IA", "Conseil en IA pour votre équipe", "Création de sites web"],
+    serviceIntro: "Les questions des clients et les tâches de l’équipe varient d’un métier à l’autre.",
+    visibility: ["Quand un client", "cherche une adresse à Paris."],
+    visibilityText: "Un touriste cherche un hôtel dans le Marais, un bar près de Bastille ou un restaurant qui sert encore après le spectacle. Nous vérifions ce que ChatGPT, Claude et Gemini disent de votre établissement parisien, puis corrigeons avec vous les informations qui manquent sur votre site et vos fiches.",
     visibilityList: ['Une fiche Google complète, cohérente et à jour.', 'Des pages utiles qui répondent aux vraies questions de vos clients.', 'Des informations fiables sur les sources pertinentes pour votre métier.', 'Des observations datées sur les IA, avec les questions et les sources conservées.'],
     visibilityLink: 'Explorer la visibilité IA', sourceLabel: 'Ce que nous mettons au clair',
     sources: [['Votre entreprise', 'Nom, métier, quartier, coordonnées'], ['Votre savoir-faire', 'Services, spécialités, questions fréquentes'], ['Vos preuves', 'Avis authentiques, références, sources fiables']],
     measured: 'On mesure ce qui apparaît. On ne promet pas une place.',
-    auto: ['Moins de tâches.', 'Plus de métier.'],
-    autoText: 'Les mêmes emails. Les mêmes documents à ranger. Les mêmes informations à recopier. Nous venons comprendre votre quotidien, puis installons des automatisations que votre équipe peut réellement utiliser.',
-    autoLink: 'Voir ce qui peut être automatisé', example: 'Exemple illustratif · à adapter à vos outils',
+    auto: ["Quelle tâche", "simplifier avec l’IA ?"],
+    autoText: "Dans votre entreprise parisienne, nous partons d’une tâche que l’équipe connaît bien : trier une facture ou préparer une réponse. Nous choisissons un usage avec vous et le testons dans vos outils. Votre équipe valide le résultat.",
+    autoLink: "Découvrir le conseil en IA", example: 'Exemple illustratif · à adapter à vos outils',
     tabs: ['Factures', 'Demandes clients', 'Avis Google'],
     flows: [
       { trigger: 'Une facture arrive', action: 'L’IA extrait et prépare', output: 'Votre comptable valide', detail: 'Fournisseur, date, montant et pièce d’origine regroupés. Les informations incertaines sont signalées avant toute utilisation.', note: 'Préparation administrative. Aucune écriture comptable ni aucun paiement automatique.' },
@@ -41,10 +41,13 @@ export const agency = {
     steps: [['Comprendre', 'Un premier échange, puis une observation de vos besoins sur place à Paris ou à distance. Nous choisissons un problème concret à résoudre.'], ['Mettre en place', 'Un périmètre, un devis et un résultat attendu. Nous configurons, testons et expliquons le fonctionnement à votre équipe.'], ['Vérifier & améliorer', 'Les livrables sont vérifiés avec vous. Le suivi, s’il est utile, porte sur des observations et des tâches précises.']],
     faqTitle: 'Les bonnes questions, avant de commencer.',
     faqs: [['Pouvez-vous garantir une recommandation par ChatGPT ?', 'Non. Chaque assistant choisit ses sources et ses réponses. Nous améliorons votre présence, l’accès à vos informations et leur cohérence. Nous conservons les observations datées pour suivre l’évolution, sans promettre une position ou un nombre de clients.'], ['Faut-il refaire mon site ?', 'Seulement si cela a du sens. Un site existant peut souvent être amélioré. Nous examinons d’abord ce qui aide vos clients à comprendre votre offre et à vous contacter.'], ['Que peut faire Hermes Agent pour mon entreprise ?', 'Il peut aider à préparer des réponses, trier des documents ou exécuter des tâches répétitives avec les outils compatibles. Chaque usage est testé. Les actions sensibles restent soumises à validation ; les abonnements et consommations IA sont précisés au devis.'], ['Que deviennent les données de mon entreprise ?', 'Nous définissons les informations utilisées, les accès et les services auxquels elles sont transmises. Un assistant installé chez vous peut utiliser un service d’IA en ligne : ce choix est expliqué avant toute connexion.'], ['Pouvez-vous automatiser ma comptabilité ?', 'Nous pouvons préparer et classer des factures, extraire des informations et préparer un export pour votre comptable. La tenue comptable, les déclarations et les décisions fiscales restent du ressort des professionnels compétents.'], ['Comment démarre un projet ?', 'Par un échange gratuit de 15 minutes. Si le besoin est pertinent, nous proposons un diagnostic ou une prestation au périmètre défini. Aucun abonnement ni travail payant ne démarre sans votre accord.']],
-    contactTitle: ['Et si on partait', 'de votre quotidien ?'],
-    contactIntro: 'Dites-nous ce que vous faites et ce qui vous prend du temps. Un premier échange de 15 minutes pour voir où nous pouvons être utiles.',
+    contactTitle: ["De quoi avez-vous", "besoin ?"],
+    contactIntro: "Vous voulez être trouvé par vos clients ou utiliser l’IA dans votre équipe ? Dites-nous ce qui vous amène pour préparer notre premier échange de 15 minutes.",
     contactSmall: 'Premier échange gratuit · aucun engagement',
-    footer: 'L’IA au service des entreprises de proximité.', offerTitle: ['Le bon service.', 'Au bon endroit.'],
+    footer: 'L’IA au service des entreprises de proximité.', offerTitle: ["Deux offres", "à Paris."],
+    choice: "Vous pouvez choisir le conseil en IA sans diagnostic de visibilité.",
+    followLabel: "Suivi",
+    contactLinks: ["Parler de ma visibilité", "Parler de l’IA dans mon équipe", "Parler de mon site"],
     offerIntro: 'Une mission bien définie avant de commencer. Un devis qui précise les livrables, les délais et les coûts des outils.',
     prices: ['990 €', '1 490 €', '2 490 €'], priceLabel: 'À partir de', priceNote: 'HT · mise en place, sur devis',
     offerLists: [ ['Votre site existant et votre fiche Google, pour une adresse', 'Diagnostic initial et corrections prioritaires', 'Jusqu’à deux pages existantes améliorées', 'Relevé des mentions IA et restitution'], ['Un processus et jusqu’à deux outils compatibles', 'Installation d’un assistant si le besoin le justifie', 'Essais, règles de validation et documentation', 'Prise en main avec votre équipe'], ['Un site vitrine jusqu’à cinq pages, une langue', 'Design adapté à votre entreprise et à votre mobile', 'Formulaire, bases de référencement et mise en ligne', 'Remise des accès et prise en main'] ],
@@ -60,3 +63,18 @@ export const sectorKeys = ['restaurants', 'hotels', 'bars', 'hair', 'spa', 'gyms
 export function getAgency(locale: Locale = 'fr'): typeof agency.fr { return locale === 'fr' ? agency.fr : (translations as Record<string, typeof agency.fr>)[locale] ?? agency.fr; }
 
 export const serviceRoutes: Record<Locale, string[]> = {"fr": ["/visibilite-ia", "/automatisation-ia", "/creation-sites-web"], "en": ["/en/ai-visibility", "/en/ai-automation", "/en/web-design"], "es": ["/es/visibilidad-ia", "/es/automatizacion-ia", "/es/sitios-web"], "de": ["/de/ki-sichtbarkeit", "/de/ki-automatisierung", "/de/webdesign"], "it": ["/it/visibilita-ia", "/it/automazione-ia", "/it/siti-web"], "pt": ["/pt/visibilidade-ia", "/pt/automacao-ia", "/pt/sites-web"], "nl": ["/nl/ai-zichtbaarheid", "/nl/ai-automatisering", "/nl/webdesign"]};
+
+// Website creation retains its own route and quoted scope, outside the two main offers.
+export const primaryServiceIndices = [0, 1] as const;
+export const needValues = ['visibilite', 'automatisation', 'site-web'] as const;
+export type ServiceIndex = 0 | 1 | 2;
+
+export function serviceAtPath(locale: Locale, pathname: string): ServiceIndex | undefined {
+  const path = pathname.replace(/\/$/, '');
+  const index = serviceRoutes[locale].findIndex(route => route === path);
+  return index === -1 ? undefined : index as ServiceIndex;
+}
+
+export function contactMailto(subject?: string) {
+  return 'mailto:contact@eddiemiller.agency' + (subject ? `?subject=${encodeURIComponent(subject)}` : '');
+}

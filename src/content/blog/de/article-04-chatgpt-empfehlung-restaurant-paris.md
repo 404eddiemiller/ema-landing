@@ -6,17 +6,17 @@ meta_description: "83 % der Pariser Restaurants erscheinen nicht, wenn ein Kunde
 author: "Eddie Miller Agency"
 date: "2026-01-31"
 category: "Online-Sichtbarkeit"
-tags: ["Restaurant", "ChatGPT", "visibilité IA", "KI-Sichtbarkeit", "Paris", "Perplexity", "TheFork", "TripAdvisor", "Google Business"]
+tags: ["Restaurant", "ChatGPT", "visibilité IA", "KI-Sichtbarkeit", "Paris", "TheFork", "TripAdvisor", "Google Business"]
 cta: "diagnostic-gratuit"
 lang: "de"
-reading_time: "10 min"
+reading_time: "7 min"
 image: "/images/blog/chatgpt-recommandation-restaurant-paris.webp"
 imageAlt: "Terrasse eines Pariser Restaurants mit Holztischen und natürlichem Licht"
 internal_links:
-  - slug: "geo-optimierung-ki-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "test-ki-empfehlung-zahnarzt-paris"
-    anchor: "unser Vergleichstest zu KI-Empfehlungen"
+  - slug: "google-business-restaurant-paris-10-fehler"
+    anchor: "10 Fehler in Ihrem Google-Profil, die Ihre Kunden vertreiben (Restaurants Paris)"
+  - slug: "7-verzeichnisse-restaurant-ki-empfehlung"
+    anchor: "Die 7 Seiten, auf denen Ihr Restaurant präsent sein muss, damit KI-Systeme Sie finden"
 ---
 
 ## Restaurantbesitzer: Empfiehlt ChatGPT Ihr Restaurant oder das von nebenan?
@@ -41,33 +41,7 @@ Der Unterschied ist fundamental. Der Kunde will keine Ergebnisliste. Er will EIN
 
 KI-Plattformen funktionieren nicht wie Google oder TripAdvisor. Sie ordnen keine Restaurants in einer Liste. Sie fassen Informationen aus Dutzenden von Quellen zusammen, um eine gezielte Empfehlung zu formulieren.
 
-Eine Yext-Studie von 2025 hat 2,2 Millionen gastronomiebezogene Zitierungen auf ChatGPT, Perplexity und Gemini analysiert. Die Ergebnisse zeigen, woher die Empfehlungen kommen: 41,6 % der Zitierungen stammen von Verzeichnissen und Drittplattformen (Google Business, TheFork, TripAdvisor, Yelp), 39,8 % von den eigenen Webseiten der Restaurants, und 13 % von Bewertungen und sozialen Netzwerken.
-
 Die Gastronomie ist der Sektor, in dem Bewertungen und soziale Netzwerke das größte Gewicht bei KI-Empfehlungen haben. Mehr als im Gesundheitswesen, in der Finanzbranche oder im Einzelhandel. Das bedeutet: Was Ihre Kunden online über Sie sagen, hat einen direkten Einfluss auf das, was die KI morgen über Sie sagen wird.
-
-## Die drei KI-Plattformen und ihre unterschiedlichen Logiken
-
-Jede KI-Plattform hat ihre eigene Art, Restaurants zur Empfehlung auszuwählen.
-
-### ChatGPT: breite Exploration, konversationelle Empfehlung
-
-ChatGPT nimmt den Ton eines gut informierten Freundes an. Für eine Anfrage wie „gutes Restaurant für einen Geburtstag im 6." schlägt es 3 bis 5 Vorschläge vor, mit einer Beschreibung der Atmosphäre, der Küche, der Preisspanne und manchmal einem Reservierungslink.
-
-ChatGPT stützt sich stark auf Drittverzeichnisse wie Google Business und Bewertungsplattformen. Es durchsucht eine sehr große Anzahl von Quellen — bis zu 132 einzigartige URLs für dieselbe Frage — was es unberechenbar macht: Ihr Restaurant kann in einer Antwort erscheinen und in der nächsten verschwinden. Um dauerhaft von ChatGPT empfohlen zu werden, müssen Sie auf möglichst vielen Plattformen präsent sein.
-
-Die Local Falcon-Studie hat gezeigt, dass ChatGPT bei Restaurants binär funktioniert: Entweder werden Sie wiederholt empfohlen, oder Sie sind völlig unsichtbar. Es gibt kaum einen Mittelweg. Restaurants, die bei ChatGPT dominieren, haben einen selbstverstärkenden Vorteil, den Konkurrenten nur schwer aufholen können.
-
-### Perplexity: Stabilität und zitierte Quellen
-
-Perplexity ist berechenbarer und transparenter. Es zitiert systematisch seine Quellen, was es ermöglicht, genau zu sehen, woher die Empfehlungen kommen. Für Pariser Restaurants sind die häufigsten Quellen TripAdvisor, Google Reviews, TheFork und Gastronomie-Blogs.
-
-Perplexity verwendet weniger Quellen pro Antwort (etwa 40 einzigartige URLs gegenüber 132 bei ChatGPT), was bedeutet: Wenn Sie auf TripAdvisor und Google gut positioniert sind, haben Sie gute Chancen, stabil dort zu bleiben.
-
-### Google AI Overview: die natürliche Erweiterung von Google Maps
-
-Google AI Overview fasst die Informationen seines eigenen Ökosystems zusammen. Für Restaurants bedeutet das, dass Ihr Google Business Profile die primäre Quelle ist. Google-Bewertungen, Fotos, Öffnungszeiten und Attribute (Terrasse, Parkplatz, WLAN, Barrierefreiheit) speisen direkt die KI-Antwort.
-
-Der Vorteil von Google: Es ist die präziseste Plattform in Bezug auf Faktendaten (Adresse, Öffnungszeiten, Kontakt). Der Nachteil: Google AI Overview erscheint nicht systematisch bei Restaurantanfragen — es bevorzugt informative Anfragen gegenüber transaktionalen.
 
 ## Warum Ihr Restaurant unsichtbar ist: die 5 Hauptursachen
 
@@ -84,8 +58,6 @@ Genau wie bei Zahnarztpraxen analysieren KI-Systeme den Text der Bewertungen, um
 Restaurants, die in KI-Empfehlungen erscheinen, haben vollständige Google Business Profile: detaillierte Beschreibung mit Viertel und Spezialitäten, alle relevanten Kategorien, aktivierte Attribute (Terrasse, Lieferung, Reservierung, WLAN, Barrierefreiheit), aktuelle Speisekarte, aktuelle Fotos von Gerichten, Gastraum und Terrasse sowie regelmäßige Beiträge.
 
 ### 4. Sie fehlen auf den Plattformen, die KI-Systeme konsultieren
-
-Für Restaurants in Paris sind die Schlüsselplattformen: Google Business (unverzichtbar), TripAdvisor (Hauptquelle für Perplexity und ChatGPT, besonders für Touristen), TheFork (von KI-Systemen für den französischen Markt häufig konsultiert), Ihre eigene Webseite (mit Speisekarte, Fotos und Schema.org-Daten vom Typ Restaurant) und Instagram (Google indexiert seit Juli 2025 Instagram-Profile von Restaurants).
 
 Wenn Sie auf einer dieser Plattformen fehlen, verlieren Sie einen KI-Empfehlungskanal.
 
@@ -121,10 +93,6 @@ Ein Google Business Beitrag pro Woche (Tagesgericht, saisonale Karte, Veranstalt
 
 Wenn Sie eine Webseite haben, implementieren Sie die Schemas Restaurant, Menu und LocalBusiness in JSON-LD. Dieses technische Markup ermöglicht es KI-Systemen, sofort Ihre Küchenart, Adresse, Öffnungszeiten und Speisekarte zu verstehen, ohne freien Text interpretieren zu müssen. Fragen Sie Ihren Webmaster oder technischen Dienstleister — es ist ein einmaliger Eingriff mit dauerhafter Wirkung.
 
-### Maßnahme 7: Testen und verfolgen Sie Ihre KI-Sichtbarkeit jeden Monat
-
-Stellen Sie die Anfragen, die Ihre Kunden verwenden würden, auf ChatGPT und Perplexity: „bestes [Küchenart] [Viertel] Paris", „Restaurant mit Terrasse [Arrondissement]", „romantisches Restaurant [Viertel] Empfehlung". Notieren Sie, ob Sie erscheinen, wer an Ihrer Stelle erscheint, und welche Quellen zitiert werden.
-
 ## Die Gelegenheit ist jetzt
 
 Mit 83 % der Restaurants, die auf ChatGPT unsichtbar sind, ist das Zeitfenster für Pariser Restaurantbesitzer enorm. Jedes Restaurant, das jetzt seine KI-Präsenz optimiert, verschafft sich einen dauerhaften Vorteil gegenüber denen, die abwarten.
@@ -133,29 +101,20 @@ Und anders als viele denken, sind die notwendigen Maßnahmen weder komplex noch 
 
 Die Welt der kulinarischen Entdeckung hat sich verändert. Gedruckte Reiseführer haben TripAdvisor Platz gemacht, das nun den KI-Empfehlungen weicht. Die Restaurants, die das verstanden haben und entsprechend handeln, werden diejenigen sein, die die KI empfiehlt, wenn ein hungriger Kunde die Frage stellt.
 
----
-
-*Wird Ihr Restaurant von KI-Systemen empfohlen? Eddie Miller Agency erstellt ein kostenloses GEO-Audit für Pariser Restaurants: Ihr KI-Sichtbarkeitsscore, die Plattformen, auf denen Sie fehlen, und die prioritären Maßnahmen, um empfohlen zu werden. [Mein kostenloses GEO-Audit anfordern →]*
-
----
-
 ## FAQ — KI-Sichtbarkeit für Pariser Restaurants
 
 ### Mein Restaurant ist gut bewertet auf TripAdvisor, erscheint aber nicht auf ChatGPT. Warum?
+
 ChatGPT stützt sich nicht ausschließlich auf TripAdvisor. Es gleicht Dutzende von Quellen ab — Google Business, Webseiten, Verzeichnisse, kulinarische Blogs, soziale Netzwerke. Wenn Ihre Präsenz auf TripAdvisor stark ist, aber anderswo schwach (unvollständiges Google-Profil, keine Webseite, wenig Google-Bewertungen), fehlt ChatGPT ausreichend Daten, um Sie mit Vertrauen zu empfehlen.
 
-### Zählen Bewertungen auf TheFork für die KI-Sichtbarkeit?
-Ja. TheFork ist eine der von KI-Systemen zitierten Plattformen für französische Restaurants. Insbesondere Perplexity stützt sich auf TheFork für Restaurantanfragen in Paris. Ein vollständiges TheFork-Profil mit guten Bewertungen stärkt Ihre KI-Sichtbarkeit.
-
 ### Beeinflusst Instagram die KI-Empfehlungen?
+
 Seit Juli 2025 indexiert Google die Instagram-Profile von Restaurants. Das bedeutet, dass Ihre Instagram-Inhalte (Fotos von Gerichten, Stories, Beschreibungen) indirekt Ihre Sichtbarkeit in Google AI Overview beeinflussen können. Zudem durchsucht ChatGPT soziale Inhalte breit. Ein aktives Instagram-Profil mit geogetaggten Posts und lokalen Hashtags stärkt Ihre Präsenz im Ökosystem, das KI-Systeme konsultieren.
 
 ### Ich bin ein kleines unabhängiges Restaurant. Habe ich eine Chance gegen Ketten?
+
 Absolut. KI-Systeme suchen nach Spezifität und lokaler Authentizität. Ein unabhängiges Restaurant, das in seinem Viertel gut verankert ist, mit detaillierten Bewertungen, einer klaren kulinarischen Identität und konsistenten Online-Informationen, kann vor einer Kette empfohlen werden, deren Profil standardisiert und lokal weniger markant ist. GEO begünstigt Unternehmen, die eine einzigartige Geschichte erzählen — und genau das können unabhängige Restaurants am besten.
 
 ### Wie lange dauert es, bis man in KI-Empfehlungen erscheint?
+
 Erste Verbesserungen (vervollständigtes Google-Profil, neue Bewertungen) können in 3 bis 6 Wochen Ergebnisse zeigen. Die Sorbey-Studie zeigt, dass ein Pariser Bistro seine KI-Sichtbarkeit in 6 Monaten verdoppelt hat, indem es sein Google Business Profil wöchentlich aktualisierte, frische Bewertungen sammelte und die Konsistenz seiner Online-Informationen beibehielt.
-
----
-
-**Sie führen ein Restaurant?** [Entdecken Sie, wie wir Restaurants helfen, gefunden zu werden →](/restaurants)

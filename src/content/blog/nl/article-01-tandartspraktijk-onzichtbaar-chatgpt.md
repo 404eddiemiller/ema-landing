@@ -6,20 +6,20 @@ meta_description: "Steeds meer patiënten vragen ChatGPT om een tandarts in Pari
 author: "Eddie Miller Agency"
 date: "2026-01-21"
 category: "Online zichtbaarheid"
-tags: ["tandarts", "ChatGPT", "visibilité IA", "AI-zichtbaarheid", "tandartspraktijk", "Parijs", "Perplexity", "lokale SEO"]
+tags: ["tandarts", "ChatGPT", "visibilité IA", "AI-zichtbaarheid", "tandartspraktijk", "Parijs", "lokale SEO"]
 cta: "diagnostic-gratuit"
 lang: "nl"
 reading_time: "10 min"
 image: "/images/blog/cabinet-dentaire-invisible-chatgpt.webp"
 imageAlt: "Smartphonescherm met een ChatGPT-gesprek waarin naar een tandarts in Parijs wordt gevraagd"
 internal_links:
-  - slug: "geo-optimalisatie-ai-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+  - slug: "google-business-profile-gids-tandarts-parijs"
+    anchor: "Hoe u uw Google-vermelding correct invult om meer patiënten aan te trekken (gids tandartsen Parijs)"
+  - slug: "bronnen-tandarts-aanbevelingen-ai-parijs"
+    anchor: "Tandartsen: welke bron bevestigt een adres of afspraak?"
 ---
 
 ## Uw tandartspraktijk is onzichtbaar op ChatGPT: dit is waarom
-
-Doe nu de test. Open ChatGPT of Perplexity en typ: « Welke tandarts raadt u mij aan in het [Xe] arrondissement van Parijs? ».
 
 Bekijk het antwoord. Verschijnt uw praktijk?
 
@@ -36,8 +36,6 @@ De tijd dat een patiënt "tandarts Parijs 15" intypte op Google en op het eerste
 « Tandarts open op zaterdag in het 11e arrondissement, met goede beoordelingen? »
 
 « Mijn kind heeft een orthodontist nodig in Parijs, bij Bastille. Aanbevelingen? »
-
-ChatGPT verwerkt ongeveer 2,5 miljard zoekopdrachten per dag. Perplexity overschrijdt het miljard zoekopdrachten per maand. En Google zelf toont inmiddels door AI gegenereerde antwoorden boven zijn klassieke resultaten voor meer dan een kwart van de zoekopdrachten.
 
 Deze cijfers betreffen niet alleen jonge technologieliefhebbers. Een onderzoek van Binhas Global Dental School, referentie in tandartspraktijkmanagement, geeft aan dat 76% van de patiënten inmiddels hun tandarts via internet bereikt. Het verschil is dat "via internet" niet meer alleen "via Google" betekent. Het betekent steeds vaker "via een gesprek met een AI".
 
@@ -71,12 +69,6 @@ Ongeveer een derde van de Parijse tandartspraktijken heeft helemaal geen website
 
 En als u wel een website heeft, moet die ook "tegen machines spreken". Gestructureerde gegevens (Schema.org) zijn een technische taal waarmee uw website direct met AI's kan communiceren. Ze zeggen duidelijk: « Dit is een tandartspraktijk, gevestigd hier, die deze diensten aanbiedt, met deze behandelaars. » Websites die deze markup gebruiken, zien hun citatiepercentage door AI's aanzienlijk stijgen. Maar de overgrote meerderheid van websites van tandartspraktijken heeft er geen.
 
-### 5. U bent afwezig op de platformen die AI's als eerste raadplegen
-
-Elk AI-platform heeft zijn voorkeursbronnen. Recente onderzoeken tonen aan dat ChatGPT sterk leunt op Wikipedia, Google-beoordelingen en redactionele referentie-inhoud. Perplexity citeert veel Reddit, YouTube en gespecialiseerde sites met duidelijke bronnen. Google AI Overview put uit zijn eigen index, met een uitgesproken voorkeur voor Google Business-vermeldingen en websites met gestructureerde gegevens.
-
-Als u alleen aanwezig bent op Google en Doctolib, mist u alle aanbevelingen van Perplexity. Als uw Doctolib-profiel onvolledig is, verliest u een bron die ChatGPT regelmatig raadpleegt voor zorgprofessionals in Frankrijk.
-
 ### 6. U publiceert niets regelmatig
 
 AI's geven de voorkeur aan actieve en recente bronnen. Een praktijk die al zes maanden geen enkel Google Business-bericht heeft gepubliceerd, waarvan de website niet is bijgewerkt sinds de creatie, en waarvan de laatste beoordeling meerdere maanden oud is, zendt een inactiviteitssignaal. De AI interpreteert dit als een teken dat de informatie mogelijk niet meer actueel is — en geeft de voorkeur aan een actievere collega.
@@ -95,7 +87,7 @@ Voordat u iets verandert, doe een snelle diagnose. Zo doet u dat.
 
 **Stap 1** — Ga naar [chat.openai.com](https://chat.openai.com) (ChatGPT). Typ: « Welke tandarts raadt u aan in het [uw arrondissement] van Parijs? ». Noteer of u verschijnt, en wie er in uw plaats verschijnt.
 
-**Stap 2** — Ga naar [perplexity.ai](https://perplexity.ai). Stel dezelfde vraag. Perplexity vermeldt zijn bronnen: kijk waar de aanbevelingen vandaan komen (Doctolib? Google? Een gids?).
+**2.** Noteer naam, genoemde openingstijden en link voor ieder adres. Noteer het ook als er geen adres wordt genoemd.
 
 **Stap 3** — Zoek op Google "tandarts [uw arrondissement] Parijs". Kijk of een AI-antwoord (AI Overview) boven de klassieke resultaten verschijnt. Wordt u in dit antwoord vermeld?
 
@@ -133,35 +125,24 @@ U hoeft niet alles opnieuw te doen. Hier zijn vijf concrete acties, gerangschikt
 
 ## De kloof wordt elke dag groter
 
-AI-zichtbaarheid is geen toekomstig onderwerp. Het is een huidig onderwerp. De tandartspraktijken die al verschijnen in de aanbevelingen van ChatGPT en Perplexity trekken patiënten aan die u niet eens voorbij ziet komen. Deze patiënten hebben u nooit gevonden, nooit vergeleken, nooit overwogen — omdat de AI hen nooit uw naam heeft genoemd.
-
 En het fenomeen versnelt. Het gebruik van AI-zoekmachines voor lokale zoekopdrachten is in een jaar vertiendubbeld. Google rolt geleidelijk zijn AI-antwoorden uit in Frankrijk, wat betekent dat zelfs patiënten die "op Google zoeken" steeds vaker een AI-aanbeveling boven de klassieke resultaten zullen zien.
 
 Het moment om te handelen is nu. Niet over zes maanden, niet wanneer u tijd heeft. Elke week van inactiviteit is een week meer waarin uw collega's hun voordeel versterken.
 
----
-
-*Wilt u precies weten wat ChatGPT, Perplexity en Google AI over uw praktijk zeggen? Eddie Miller Agency voert een gratis GEO-audit uit voor Parijse tandartspraktijken: uw AI-zichtbaarheidsscore op 100, de platformen waar u afwezig bent, en de 3 prioritaire acties. [Mijn gratis audit aanvragen →]*
-
----
-
 ## FAQ — Zichtbaarheid van tandartspraktijken op AI's
 
 ### Kan ChatGPT echt een tandarts in Parijs aanbevelen?
+
 Ja. Wanneer een gebruiker een lokale vraag stelt zoals "welke tandarts raadt u aan in het 15e arrondissement van Parijs?", formuleert ChatGPT een antwoord op basis van de informatie die het online vindt: Google Business-vermeldingen, patiëntenbeoordelingen, websites van praktijken, professionele gidsen en redactionele inhoud. Praktijken die over rijke, consistente en recente informatie beschikken, hebben veel meer kans om geciteerd te worden.
 
 ### Mijn praktijk heeft 4,8 sterren op Google. Waarom beveelt de AI mij niet aan?
+
 Een goede score is noodzakelijk maar niet voldoende. De AI beoordeelt ook de hoeveelheid en versheid van beoordelingen, de inhoud van beoordelingen (specifieke zoekwoorden gerelateerd aan behandelingen), de volledigheid van uw Google-vermelding, de consistentie van uw informatie op andere platformen en de aanwezigheid van gestructureerde gegevens op uw website. Een uitstekende score zonder deze andere signalen is niet genoeg om een aanbeveling te activeren.
 
 ### Ik heb geen website. Is dat een probleem voor AI-zichtbaarheid?
+
 Ja, het is een aanzienlijk nadeel. Zonder website beschikt de AI alleen over uw Google-vermelding en Doctolib als belangrijkste bronnen. Dit beperkt de informatie die het over u kan synthetiseren en vermindert uw kansen om aanbevolen te worden tegenover collega's die een website met gestructureerde gegevens hebben. Als het maken van een volledige website op dit moment niet mogelijk is, concentreer u dan eerst op een onberispelijke Google Business-vermelding en een volledig Doctolib-profiel.
 
 ### Hoelang duurt het voordat u in AI-aanbevelingen begint te verschijnen?
+
 De meest directe acties (uw Google-vermelding aanvullen, recente beoordelingen verzamelen) kunnen resultaten opleveren in 2 tot 4 weken. De effecten van gestructureerde gegevens en multi-platformaanwezigheid duren doorgaans 2 tot 3 maanden om volledig door de AI's te worden geïntegreerd. Het belangrijkste is om nu te beginnen: hoe eerder u handelt, hoe sneller de kloof met uw collega's kleiner wordt.
-
-### Is GEO anders dan klassieke lokale SEO?
-GEO (Generative Engine Optimization) omvat lokale SEO en gaat verder. Lokale SEO is erop gericht u te positioneren in Google Maps-resultaten en lokale zoekopdrachten. GEO is er daarnaast op gericht u te laten citeren en aanbevelen door conversationele AI's (ChatGPT, Perplexity, Google AI). Beide zijn complementair, maar GEO voegt specifieke hefbomen toe zoals gestructureerde gegevens, aanwezigheid op de bronnen die elke AI verkiest, en continue versheid van inhoud. Lees voor meer informatie onze volledige gids over [GEO (Generative Engine Optimization)](/nl/blog/geo-optimalisatie-ai-2026).
-
----
-
-**Bent u tandarts in Parijs?** [Ontdek hoe wij tandartspraktijken helpen gevonden te worden →](/dentistes)

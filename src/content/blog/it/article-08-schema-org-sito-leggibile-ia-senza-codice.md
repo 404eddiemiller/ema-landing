@@ -9,23 +9,19 @@ category: "Visibilità online"
 tags: ["Schema.org", "dati strutturati", "JSON-LD", "visibilité IA", "visibilità IA", "SEO tecnico", "no-code", "ChatGPT"]
 cta: "diagnostic-gratuit"
 lang: "it"
-reading_time: "11 min"
+reading_time: "5 min"
 image: "/images/blog/schema-org-site-lisible-ia-sans-coder.webp"
 imageAlt: "Righe di codice strutturato visualizzate su uno schermo in un ambiente caldo"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "google-business-profile-guide-dentiste-paris"
-    anchor: "la nostra guida Google Business Profile"
-  - slug: "etude-visibilite-ia-50-cabinets-dentaires-paris"
-    anchor: "il nostro studio su 50 studi dentistici"
+  - slug: "seo-locale-2026-tendenze-azioni"
+    anchor: "Essere trovati su Google nel 2026: cosa è cambiato per le attività parigine"
+  - slug: "studio-dentistico-senza-sito-web-vulnerabilita-ia"
+    anchor: "Studio dentistico senza sito: cosa può verificare un paziente?"
 ---
 
 ## Schema.org per principianti: come rendere il vostro sito leggibile dalle IA (senza programmare)
 
 Il vostro sito web parla agli esseri umani. Ma parla alle macchine?
-
-Quando ChatGPT, Perplexity o Google AI Overview cercano informazioni sulla vostra attività, non « leggono » il vostro sito come lo farebbe un paziente o un cliente. Scansionano il codice alla ricerca di dati strutturati — informazioni marcate in un formato standardizzato chiamato Schema.org.
 
 Se il vostro sito non contiene questi markup, le IA devono indovinare cosa siete, dove siete, cosa proponete. E quando un'IA deve indovinare, preferisce raccomandare un concorrente il cui sito le dà risposte chiare.
 
@@ -44,8 +40,6 @@ In linguaggio tecnico, queste informazioni sono codificate in JSON-LD — un for
 Fino a poco tempo fa, i dati strutturati erano un « bonus SEO ». Nel 2026, la situazione è cambiata. I due più grandi motori di ricerca al mondo — Google e Microsoft — hanno confermato pubblicamente che i dati strutturati sono un segnale critico per le loro funzionalità IA.
 
 I numeri parlano da soli. I siti con un'implementazione completa di Schema.org sono citati 2-3 volte di più dai motori IA. I siti con Schema e FAQ strutturata vedono la loro visibilità IA aumentare di circa il 36%. E l'adozione di Schema.org è aumentata del 35% tra il 2023 e il 2026.
-
-Nonostante ciò, la grande maggioranza dei siti di attività locali, studi medici e ristoranti non ha ancora nessun dato strutturato. Nel [nostro studio su 50 studi dentistici parigini](/blog/etude-visibilite-ia-50-cabinets-dentaires-paris), solo il 12% aveva Schema.org — e erano tutti nel gruppo degli studi più visibili sulle IA.
 
 ## I tipi di Schema che contano per la vostra attività
 
@@ -101,8 +95,6 @@ Inviate poi questo codice al vostro webmaster con l'istruzione: « Aggiungete qu
 
 Se preferite delegare completamente, preparate un brief chiaro per il vostro webmaster. L'implementazione prende 1-2 ore. È un investimento puntuale (tipicamente 200-500€ in prestazione freelance) con effetti duraturi.
 
-Presso Eddie Miller Agency, questa implementazione fa parte delle nostre offerte — forniamo il codice JSON-LD pronto all'uso, specificamente adattato agli studi dentistici, ristoranti e hotel parigini.
-
 ## Gli errori da evitare
 
 **Errore 1:** Mettere Schema che non corrisponde al contenuto visibile.
@@ -121,25 +113,24 @@ Presso Eddie Miller Agency, questa implementazione fa parte delle nostre offerte
 
 **Step 3 (nel mese):** Validate l'implementazione con gli strumenti di test, verificate la coerenza con la vostra scheda Google Business e il vostro sito, e pianificate un promemoria trimestrale.
 
----
-
-*Il vostro sito ha i buoni dati strutturati? Eddie Miller Agency include un audit Schema completo nel suo audit GEO gratuito. [Richiedere il mio audit GEO gratuito →]*
-
----
-
 ## FAQ — Schema.org e visibilità IA
 
 ### Schema.org è gratuito?
+
 Sì. Schema.org è uno standard aperto e gratuito. I soli costi eventuali sono legati all'implementazione tecnica se vi rivolgete a un professionista (tipicamente 200-500€ per un sito semplice).
 
 ### Il mio sito è su Wix/Squarespace/Carrd. Posso aggiungere Schema?
+
 Wix e Squarespace permettono di aggiungere codice personalizzato nell'intestazione delle pagine, il che rende possibile l'aggiunta di JSON-LD.
 
 ### Se non ho un sito web, Schema è utile?
+
 No, Schema si applica solo ai siti web. Se non avete un sito, concentrate i vostri sforzi sulla vostra scheda Google Business Profile e sui vostri profili Doctolib, TripAdvisor o TheFork.
 
 ### Quanto tempo prima che le IA prendano in considerazione il mio Schema?
+
 Google rileva generalmente i nuovi dati strutturati in 1-2 settimane. Gli effetti sulla visibilità IA richiedono tipicamente 2-4 settimane.
 
 ### Schema può nuocere al mio sito se è mal implementato?
+
 Uno Schema incorretto può creare confusione per le IA. Per questo la validazione è essenziale.

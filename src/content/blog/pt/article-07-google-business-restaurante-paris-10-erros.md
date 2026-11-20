@@ -9,16 +9,14 @@ category: "Google e avaliações"
 tags: ["Google Business Profile", "restaurante", "Paris", "visibilité locale", "erros", "Google Maps", "visibilité IA", "TheFork"]
 cta: "diagnostic-gratuit"
 lang: "pt"
-reading_time: "10 min"
+reading_time: "9 min"
 image: "/images/blog/google-business-restaurant-paris-10-erreurs.webp"
 imageAlt: "Interior de um restaurante parisiense vazio com cadeiras viradas sobre as mesas"
 internal_links:
-  - slug: "chatgpt-recommandation-restaurant-paris"
-    anchor: "como o ChatGPT escolhe que restaurantes recomendar"
-  - slug: "schema-org-site-lisible-ia-sans-coder"
-    anchor: "os dados estruturados Schema.org"
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
+  - slug: "7-anuarios-restaurante-ia-recomendacao"
+    anchor: "Os 7 sites onde o seu restaurante deve estar presente para que as IA o encontrem"
+  - slug: "chatgpt-recomendacao-restaurante-paris"
+    anchor: "O ChatGPT recomenda o seu restaurante ou o do lado? Faça o teste"
 ---
 
 ## Ficha Google My Business para restaurante em Paris: os 10 erros que lhe custam clientes
@@ -85,7 +83,7 @@ Um restaurante sem menu na sua ficha Google obriga o cliente a procurar a inform
 
 A sua morada é «24 rue des Archives» no Google, «24 r. des Archives» no TheFork, e «24 Rue des Archives, Paris 3e» no seu site. O seu número de telefone difere entre o Google e o TripAdvisor. Os seus horários de domingo não correspondem entre a sua ficha Google e a sua página Instagram.
 
-Estas incoerências criam um problema duplo. Para os clientes, é confusão e desconfiança. Para as IA, é um sinal de dados não fiáveis — e uma razão para [recomendar um concorrente em vez de si](/blog/chatgpt-recommandation-restaurant-paris).
+Estas incoerências criam um problema duplo. Para os clientes, é confusão e desconfiança. Para as IA, é um sinal de dados não fiáveis — e uma razão para [recomendar um concorrente em vez de si](/pt/blog/chatgpt-recomendacao-restaurante-paris).
 
 **A correção:** Faça o tour de todas as suas presenças online (Google Business, TheFork, TripAdvisor, o seu site, Instagram, PagesJaunes) e alinhe estritamente o nome, a morada (mesmo formato exato), o telefone e os horários. Programe uma verificação trimestral.
 
@@ -130,28 +128,16 @@ Dedique 20 minutos esta semana para rever a sua ficha Google Business e corrigir
 9 — Todos os atributos pertinentes marcados.
 10 — Secção Q&A pré-alimentada com 5 a 10 perguntas-respostas.
 
-Cada erro corrigido aproxima-o do Map Pack — e da visibilidade junto das IA que recomendam os restaurantes parisienses. Estes dois canais são agora indissociáveis: uma ficha Google otimizada melhora a sua classificação Maps E as suas hipóteses de ser citado pelo ChatGPT, Perplexity e Google AI.
-
----
-
-*Quantos destes erros a sua ficha contém? A Eddie Miller Agency realiza um diagnóstico GBP + GEO gratuito para restaurantes parisienses: análise da sua ficha, comparação com os seus concorrentes diretos, e plano de ação imediato. [Pedir o meu diagnóstico gratuito →]*
-
----
-
 ## FAQ — Ficha Google Business para restaurantes em Paris
 
 ### Posso gerir a minha ficha Google Business sozinho ou devo recorrer a uma agência?
+
 Pode fazer tudo sozinho. O Google Business Profile gere-se gratuitamente a partir da sua conta Google, diretamente nos resultados de pesquisa ou no Google Maps. As 10 correções listadas neste artigo são todas realizáveis sem competência técnica. Uma agência pode ser útil para a estratégia global (GEO, Schema.org, monitorização concorrencial), mas a gestão quotidiana da ficha é acessível a qualquer gerente de restaurante.
 
 ### Com que frequência devo atualizar a minha ficha?
+
 No mínimo uma vez por semana (uma publicação + verificação das avaliações). Idealmente, adicione 1 a 2 fotografias por semana, responda às avaliações em 48h, e atualize os horários ou o menu assim que haja uma mudança. As fichas ativas superam sistematicamente as fichas estáticas.
 
 ### O meu restaurante tem uma nota má no Google (3,5 estrelas). É recuperável?
+
 Sim. A nota Google é uma média dinâmica que evolui com cada nova avaliação. Ao recolher ativamente avaliações positivas junto de clientes satisfeitos (5 a 10 por mês), a sua nota subirá progressivamente. Paralelamente, responda de forma profissional a cada avaliação negativa para mostrar que leva os feedbacks a sério. As IA e os clientes olham para a tendência recente tanto como para a nota global.
-
-### O TheFork e o TripAdvisor são tão importantes como o Google?
-Para a visibilidade IA, o Google continua a ser a fonte primária. Mas o TheFork e o TripAdvisor são fontes frequentemente citadas pelo Perplexity e pelo ChatGPT para restaurantes parisienses. Um perfil completo nestas plataformas reforça significativamente as suas hipóteses de ser recomendado pelas IA. O ideal é otimizar os três, com o Google como prioridade.
-
----
-
-**Gere um restaurante?** [Descubra como ajudamos os restaurantes a serem encontrados →](/restaurants)

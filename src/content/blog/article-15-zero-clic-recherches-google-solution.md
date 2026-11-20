@@ -1,24 +1,22 @@
 ---
-title: "Pourquoi votre site reçoit moins de visites depuis Google (et comment retrouver des clients)"
+title: "Recherches sans clic : distinguer visite, appel et réservation"
 slug: "zero-clic-recherches-google-solution-commerce-local"
-meta_title: "Moins de visites depuis Google ? Voici pourquoi et comment retrouver des clients en 2026"
-meta_description: "60 % des recherches Google ne mènent plus à aucun site web. Google répond directement. Voici ce que les commerces parisiens peuvent faire pour continuer à attirer des clients."
+meta_title: "Recherches sans clic : distinguer visite, appel et réservation"
+meta_description: "Un touriste peut lire vos horaires sur une carte et venir à pied sans ouvrir votre site. Une absence de clic ne dit pas ce qui s’est passé ensuite."
 author: "Eddie Miller Agency"
 date: "2026-03-08"
 category: "Visibilité en ligne"
 tags: ["zéro clic", "zero-click", "Google", "AI Overview", "visibilité IA", "visibilité locale", "visibilité", "activité locale"]
 cta: "diagnostic-gratuit"
 lang: "fr"
-reading_time: "9 min"
+reading_time: "8 min"
 image: "/images/blog/zero-clic-recherches-google-solution-commerce-local.webp"
 imageAlt: "Personne regardant un résultat Google sur son téléphone sans cliquer"
 internal_links:
-  - slug: "geo-referencement-ia-2026"
-    anchor: "GEO (Generative Engine Optimization)"
-  - slug: "google-business-profile-guide-dentiste-paris"
-    anchor: "notre guide Google Business Profile"
-  - slug: "chatgpt-perplexity-google-ai-comparatif-commerces-paris"
-    anchor: "notre comparatif des plateformes IA"
+  - slug: "seo-local-2026-tendances-actions"
+    anchor: "Être trouvé sur Google en 2026 : ce qui a changé pour les commerces parisiens"
+  - slug: "agence-seo-ia-visibilite-verite"
+    anchor: "5 choses que votre prestataire web ne vous dit pas sur la visibilité de votre commerce"
 ---
 
 ## Zéro clic : pourquoi 60 % des recherches Google ne mènent plus à votre site (et que faire)
@@ -47,8 +45,6 @@ Trois facteurs convergent pour accélérer le phénomène du zéro clic.
 
 **Les fiches Google Business deviennent des mini-sites.** Google enrichit continuellement les fiches GBP : menu intégré pour les restaurants, prise de rendez-vous directe, Q&A alimentée par l'IA, résumé automatique des avis. La fiche Google est devenue une vitrine autonome qui remplace le site web pour la plupart des interactions.
 
-**Les assistants IA externes captent une part croissante des recherches.** 45 % des consommateurs utilisent désormais des outils IA pour les recommandations locales. Ces utilisateurs ne passent pas du tout par Google — ils vont directement sur ChatGPT ou Perplexity, obtiennent une réponse, et agissent (appeler, réserver, se déplacer) sans jamais visiter un site web.
-
 ## Ce que ça change pour les commerces locaux parisiens
 
 Le réflexe traditionnel du marketing digital — « amener du trafic sur le site web » — doit être repensé. Le trafic sur votre site reste utile, mais il ne peut plus être votre seul indicateur de succès.
@@ -75,10 +71,6 @@ Arrêtez de vous focaliser uniquement sur le trafic web. Suivez les actions depu
 
 Votre site web reste utile — mais son rôle change. Il n'est plus le point de découverte principal (les clients vous trouvent via Google, les IA ou les annuaires). Il devient le point de confirmation : le client qui vous a découvert ailleurs vient sur votre site pour vérifier les détails (services, tarifs, équipe, photos supplémentaires) avant de prendre sa décision finale. Optimisez votre site pour ce rôle : informations claires et immédiates, pas de tunnel de navigation complexe, et surtout des données structurées que les IA peuvent extraire facilement.
 
-### Investissez dans les avis comme actif stratégique
-
-Dans un monde zéro clic, les avis sont votre contenu marketing le plus visible. Ils apparaissent directement dans le Map Pack, ils sont résumés par les AI Overviews, et ils sont analysés par ChatGPT et Perplexity. Chaque avis détaillé que vous obtenez est un micro-contenu qui travaille pour vous 24h/24 sans nécessiter de clic vers votre site.
-
 ### Positionnez-vous pour les recommandations IA
 
 Le [GEO (Generative Engine Optimization)](/blog/geo-referencement-ia-2026) est la réponse structurelle au zéro clic. Si les clients ne cliquent plus, mais qu'ils posent des questions à des IA, alors être recommandé par ces IA est le nouveau « être premier sur Google ». La différence : au lieu de viser une position dans une liste, vous visez une mention dans une réponse. Et les critères pour y arriver sont différents du SEO classique — cohérence des données, avis récents et spécifiques, données structurées, présence multi-plateforme.
@@ -97,32 +89,20 @@ Mais cette opportunité ne profite qu'à ceux qui sont visibles dans les bons es
 
 **Cette semaine :** Vérifiez les statistiques de votre fiche Google Business (appels, itinéraires, clics). Si vous ne les suivez pas, commencez maintenant — c'est votre nouveau tableau de bord principal.
 
-**Ce mois-ci :** Complétez votre fiche GBP à 100 %. Lancez une campagne d'avis si vous ne l'avez pas déjà fait. Testez votre visibilité sur ChatGPT et Perplexity.
-
 **Ce trimestre :** Implémentez les données structurées sur votre site web. Alignez vos informations sur toutes vos plateformes. Commencez à mesurer votre score GEO en complément de vos métriques web classiques.
 
 Le monde du zéro clic n'est pas un monde sans visibilité. C'est un monde où la visibilité se mesure différemment — et où les gagnants sont ceux qui l'ont compris les premiers.
 
----
-
-*Le zéro clic vous concerne-t-il ? Eddie Miller Agency mesure votre visibilité réelle — pas seulement votre trafic web — dans le cadre de notre audit GEO gratuit. Score de visibilité IA, analyse de votre fiche Google, et plan d'action. [Demander mon audit GEO gratuit →]*
-
----
-
 ## FAQ — Zéro clic et visibilité locale
 
 ### Le zéro clic signifie-t-il que mon site web est inutile ?
+
 Non. Votre site web reste important pour trois raisons : il héberge vos données structurées Schema.org (un signal clé pour les IA), il sert de point de confirmation pour les clients qui veulent en savoir plus avant de vous contacter, et il contribue à votre crédibilité globale auprès des IA qui croisent plusieurs sources. Ce qui change, c'est que votre site n'est plus le point d'entrée principal — c'est un maillon parmi d'autres dans votre présence numérique.
 
-### Comment mesurer ma visibilité si les clients ne cliquent plus ?
-Les statistiques de votre fiche Google Business (appels, itinéraires, clics vers le site, clics réservation) sont vos nouvelles métriques principales. Complétez avec le suivi de vos réservations Doctolib/TheFork et un test mensuel de visibilité IA (posez les questions que vos clients poseraient sur ChatGPT et Perplexity). L'ensemble donne une image beaucoup plus complète que le simple trafic web.
-
 ### Les AI Overviews apparaissent-ils pour toutes les recherches locales ?
+
 Non. En 2026, les AI Overviews se déclenchent sur environ 40 % des requêtes locales, principalement les requêtes informationnelles et comparatives (« meilleur dentiste pour implant Paris 15 »). Les requêtes transactionnelles directes (« dentiste Paris 15 ») affichent plus souvent le Map Pack classique sans couche IA. Mais la tendance est à l'expansion progressive des AI Overviews sur toutes les catégories de requêtes.
 
 ### Le zéro clic affecte-t-il tous les secteurs de la même manière ?
+
 Les secteurs locaux (santé, restauration, hôtellerie, services de proximité) sont les plus touchés car Google fournit directement les informations pratiques (adresse, horaires, téléphone, avis) sans nécessiter de clic. Les secteurs qui vendent des produits en ligne ou qui nécessitent des parcours de décision longs sont moins affectés car le clic reste nécessaire pour finaliser l'achat ou le processus.
-
----
-
-**Vous avez une activité locale&nbsp;?** On aide les restaurants, dentistes, hôtels, avocats et autres professionnels à être trouvés par leurs futurs clients. [Demander mon diagnostic gratuit →](/#diagnostic)
